@@ -1,0 +1,16 @@
+{
+  "name": "ffrkbot",
+  "version": "1.0.0",
+  "description": "A bot for Final Fantasy Record Keeper and Discord. Uses ffrkcentral.com's API.",
+  "main": "ffrkbot.js",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "eslint": "^3.19.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hail Hydrate",
+  "license": "ISC"
+}
