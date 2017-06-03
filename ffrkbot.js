@@ -2,6 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const fs = require('fs');
 const path = require('path');
+const utils = require('./utilities/utilities');
 
 const configPath = path.join(__dirname, 'config.json');
 
