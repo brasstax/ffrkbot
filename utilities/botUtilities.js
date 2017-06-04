@@ -1,5 +1,8 @@
 const util = require('util');
-const http = require('http');
+const https = require('https');
+const jsonQuery = require('json-query');
+
+const baseApi = 'https://www.ffrkcentral.com/api/v1/';
 
 // A good chunk of the commented-out stuff is there until I
 // figure out how I want to deal with locally-saving the API
@@ -65,6 +68,7 @@ exports.parseMsg = function(msg) {
       global[command](msg, args);
     } catch (e) {
       console.log('Command does not exist: ' + command);
+      console.log('Other errors: ' + e);
     };
   };
 };
@@ -82,6 +86,33 @@ global.ping = function ping(msg, args) {
   return;
 };
 
+
+/** global.ability:
+ * Retrieves information about an ability.
+ * @param {Object} msg: A message object from the Discord.js bot.
+ * @param {Array} args: An array of arguments. This should only be
+ * one value, and should contain only the following:
+ *  * @param {String} abilityName: The desired ability name to look
+ *    up. If the ability name has a space, the ability name should be
+ *    encased in 'quotes'.
+ **/
+global.ability = function lookupAbility(msg, args) {
+  if (args.length !== 1) {
+    msg.reply('Usage: !ability \'ability name\'');
+    return;
+  };
+  let query = args[0];
+  console.log(`Ability to lookup: ${query}`);
+  let endpoint = 'abilities';
+  let url = util.format('%s%s', baseApi, endpoint);
+  let queryString = util.format('data[name=%s]', query);
+  let jsonData = https.get(url, downloadJson);
+  console.log(`jsonData length: ${jsonData.length}`);
+  let result = jsonQuery(queryString, {
+    data: jsonData,
+  });
+  console.log(result);
+};
 
 /** global.update:
  * Updates the built-in FFRK databases from FFRKCentral.
@@ -119,7 +150,48 @@ global.update = function updateDb(msg, args) {
 };
 **/
 
-/** download:
+/** downloadJson:
+ * Downloads a json and parses it into a JSON object.
+ * @param {Object} response: HTTP response object.
+ * Returns: parsed JSON
+ **/
+function downloadJson(response) {
+  const {statusCode} = response;
+  const contentType = response.headers['content-type'];
+
+  let error;
+  if (statusCode != 200) {
+    error = new Error(`Failed. Status code: ${statusCode}`);
+  } else if (!/^application\/json/.test(contentType)) {
+    error = new Error('Invalid content-type. ' +
+        `Expected application/json but received ${contentType}`);
+  }
+
+  if (error) {
+    console.error(error.message);
+    // consume response data to free up memory
+    response.resume();
+    return;
+  };
+
+  response.setEncoding('utf8');
+  let raw = '';
+
+  response.on('data', (chunk) => {
+    raw += chunk;
+  });
+  response.on('end', () => {
+    try {
+      const parsed = JSON.parse(raw);
+      console.log(`parsed length: ${parsed.data.length}`);
+      return parsed;
+    } catch (e) {
+      console.error(e.message);
+    }
+  });
+};
+
+/** save_download:
  * Downloads a file.
  * @param {String} url: URL of file to download.
  * @param {String} dest: Destination of file to save.
