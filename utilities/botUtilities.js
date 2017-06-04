@@ -105,13 +105,7 @@ global.ability = function lookupAbility(msg, args) {
   console.log(`Ability to lookup: ${query}`);
   let endpoint = 'abilities';
   let url = util.format('%s%s', baseApi, endpoint);
-  let queryString = util.format('data[name=%s]', query);
-  let jsonData = https.get(url, downloadJson);
-  console.log(`jsonData length: ${jsonData.length}`);
-  let result = jsonQuery(queryString, {
-    data: jsonData,
-  });
-  console.log(result);
+  https.get(url, downloadJson);
 };
 
 /** global.update:
@@ -153,7 +147,6 @@ global.update = function updateDb(msg, args) {
 /** downloadJson:
  * Downloads a json and parses it into a JSON object.
  * @param {Object} response: HTTP response object.
- * Returns: parsed JSON
  **/
 function downloadJson(response) {
   const {statusCode} = response;
@@ -184,7 +177,12 @@ function downloadJson(response) {
     try {
       const parsed = JSON.parse(raw);
       console.log(`parsed length: ${parsed.data.length}`);
-      return parsed;
+      let query = 'Water';
+      let queryString = util.format('data[name=%s]', query);
+      let result = jsonQuery(queryString, {
+        data: parsed,
+      });
+      console.log(result);
     } catch (e) {
       console.error(e.message);
     }
