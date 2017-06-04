@@ -1,6 +1,7 @@
 const util = require('util');
 const https = require('https');
 const jsonQuery = require('json-query');
+const changeCase = require('change-case');
 
 const baseApi = 'https://www.ffrkcentral.com/api/v1/';
 
@@ -60,7 +61,8 @@ exports.parseMsg = function(msg) {
     let args = [];
     console.log(`command: ${command}`);
     if (commandWithArgs.shift().length > 0) {
-      args = commandWithArgs;
+      args = commandWithArgs.join(' ');
+      args = changeCase.titleCase(args);
       console.log(`args: ${args}`);
     };
     console.log(util.format('caller: %s#%s',
@@ -98,11 +100,11 @@ global.ping = function ping(msg, args) {
  *    encased in 'quotes'.
  **/
 global.ability = function lookupAbility(msg, args) {
-  if (args.length !== 1) {
-    msg.reply('Usage: !ability \'ability name\'');
+  if (args.length < 1) {
+    msg.reply('Usage: !ability Ability Name (no quotes needed)');
     return;
   };
-  let query = args[0];
+  let query = args;
   console.log(`Ability to lookup: ${query}`);
   let endpoint = 'abilities';
   let url = util.format('%s%s', baseApi, endpoint);
