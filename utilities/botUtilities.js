@@ -51,16 +51,17 @@ const baseApi = 'https://www.ffrkcentral.com/api/v1/';
 exports.parseMsg = function(msg) {
   let msgPrefix = '!';
   if (msg.content.startsWith(msgPrefix)) {
-    let msgLower = msg.content.toLowerCase();
-    let commandWithArgs = msgLower.split(' ');
-    console.log(util.format('commandWithArgs: %s', commandWithArgs));
+    console.log(`msg.content: ${msg.content}`);
+    let commandWithArgs = msg.content.split(' ');
+    console.log(`commandWithArgs: ${commandWithArgs}`);
     // Creates the command, removes the msgPrefix
-    let command = commandWithArgs[0].slice(1);
+    let commandRaw = commandWithArgs[0].slice(1);
+    let command = commandRaw.toLowerCase();
     let args = [];
-    console.log(util.format('command: %s', command));
+    console.log(`command: ${command}`);
     if (commandWithArgs.shift().length > 0) {
       args = commandWithArgs;
-      console.log(util.format('args: %s', args));
+      console.log(`args: ${args}`);
     };
     console.log(util.format('caller: %s#%s',
       msg.author.username, msg.author.discriminator));
@@ -106,7 +107,7 @@ global.ability = function lookupAbility(msg, args) {
   let endpoint = 'abilities';
   let url = util.format('%s%s', baseApi, endpoint);
   // https://stackoverflow.com/questions/31589288/passing-a-parameter-to-http-get-in-node-js
-  let querySearch = downloadJson.bind(null, query);
+  let querySearch = downloadJson.bind(null, query, msg);
   https.get(url, querySearch);
 };
 
@@ -149,9 +150,10 @@ global.update = function updateDb(msg, args) {
 /** downloadJson:
  * Downloads a json and parses it into a JSON object.
  * @param {Object} query: HTTP response object.
+ * @param {Object} msg: msg object.
  * @param {String} response: HTTP response object.
  **/
-function downloadJson(query, response) {
+function downloadJson(query, msg, response) {
   const {statusCode} = response;
   const contentType = response.headers['content-type'];
 
@@ -180,12 +182,18 @@ function downloadJson(query, response) {
     try {
       const parsed = JSON.parse(raw);
       console.log(`parsed length: ${parsed.data.length}`);
+      console.log(`msg.content in http.get: ${msg.content}`);
       let queryString = util.format('data[name=%s]', query);
       console.log(`queryString: ${queryString}`);
       let result = jsonQuery(queryString, {
         data: parsed,
       });
-      console.log(result);
+      if (result.value === null) {
+        msg.channel.send(`Ability '${query}' not found.`);
+      } else {
+        msg.channel.send(`Ability name: ${result.value.name}
+            Description: ${result.value.description}`);
+      };
     } catch (e) {
       console.error(e.message);
     }
