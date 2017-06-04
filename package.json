@@ -4,6 +4,7 @@
   "description": "A bot for Final Fantasy Record Keeper and Discord. Uses ffrkcentral.com's API.",
   "main": "ffrkbot.js",
   "dependencies": {
+    "change-case": "^3.0.1",
     "discord.js": "^11.1.0",
     "eslint": "^3.19.0",
     "eslint-plugin-import": "^2.3.0",
