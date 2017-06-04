@@ -1,8 +1,8 @@
-const Discord = require("discord.js");
+const Discord = require('discord.js');
 const client = new Discord.Client();
 const fs = require('fs');
 const path = require('path');
-const utils = require('./utilities/utilities');
+const utils = require('./utilities/utilities.js');
 
 const configPath = path.join(__dirname, 'config.json');
 
@@ -14,10 +14,8 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.username}!`);
 });
 
-client.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('Pong!');
-  }
+client.on('message', (msg) => {
+  utils.parseMsg(msg);
 });
 
 client.login(token);
