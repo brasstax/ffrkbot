@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const fs = require('fs');
 const path = require('path');
-const utils = require('./utilities/utilities.js');
+const botUtils = require('./utilities/botUtilities.js');
 
 const configPath = path.join(__dirname, 'config.json');
 
@@ -15,7 +15,7 @@ client.on('ready', () => {
 });
 
 client.on('message', (msg) => {
-  utils.parseMsg(msg);
+  botUtils.parseMsg(msg);
 });
 
 client.login(token);
