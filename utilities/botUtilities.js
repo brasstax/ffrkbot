@@ -105,7 +105,9 @@ global.ability = function lookupAbility(msg, args) {
   console.log(`Ability to lookup: ${query}`);
   let endpoint = 'abilities';
   let url = util.format('%s%s', baseApi, endpoint);
-  https.get(url, downloadJson);
+  // https://stackoverflow.com/questions/31589288/passing-a-parameter-to-http-get-in-node-js
+  let querySearch = downloadJson.bind(null, query);
+  https.get(url, querySearch);
 };
 
 /** global.update:
@@ -146,9 +148,10 @@ global.update = function updateDb(msg, args) {
 
 /** downloadJson:
  * Downloads a json and parses it into a JSON object.
- * @param {Object} response: HTTP response object.
+ * @param {Object} query: HTTP response object.
+ * @param {String} response: HTTP response object.
  **/
-function downloadJson(response) {
+function downloadJson(query, response) {
   const {statusCode} = response;
   const contentType = response.headers['content-type'];
 
@@ -177,8 +180,8 @@ function downloadJson(response) {
     try {
       const parsed = JSON.parse(raw);
       console.log(`parsed length: ${parsed.data.length}`);
-      let query = 'Water';
       let queryString = util.format('data[name=%s]', query);
+      console.log(`queryString: ${queryString}`);
       let result = jsonQuery(queryString, {
         data: parsed,
       });
