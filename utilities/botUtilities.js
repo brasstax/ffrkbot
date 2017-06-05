@@ -222,9 +222,34 @@ function downloadJson(query, msg, endpoint, response) {
  * @param {Object} msg: a discord.js message object.
  **/
 function processAbility(result, msg) {
+  let description;
+  if (result.value.effects === undefined) {
+    description = util.format('%s Attack', result.value.formula);
+  } else {
+    description = result.value.effects;
+  };
+  let multiplier;
+  if (result.value.multiplier === undefined) {
+    multiplier = 0;
+  } else {
+    multiplier = result.value.multiplier;
+  };
+  let element;
+  if (result.value.element === undefined || '-') {
+    element = 'None';
+  } else {
+    element = result.value.element;
+  };
   let message = util.format(
-    '\nAbility name: %s\nDescription: %s\nMultiplier: %d',
-    result.value.name, result.value.effects, result.value.multiplier);
+    '\nAbility name: %s\nDescription: %s\nMultiplier: %d\n' +
+    'Element: %s\nType: %s\nTarget: %s\nSoul Break charge: %d',
+    result.value.name,
+    description,
+    multiplier,
+    element,
+    result.value.school,
+    result.value.target,
+    result.value.sb);
   msg.channel.send(message);
 };
 
