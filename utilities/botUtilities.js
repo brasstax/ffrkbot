@@ -52,7 +52,7 @@ const enlirAbilities = JSON.parse(enlirAbilitiesFile);
  * @param {Object} msg: A message object from the Discord.js bot.
  **/
 exports.parseMsg = function(msg) {
-  let msgPrefix = '.';
+  let msgPrefix = '!';
   if (msg.content.startsWith(msgPrefix)) {
     console.log(`msg.content: ${msg.content}`);
     let commandWithArgs = msg.content.split(' ');
