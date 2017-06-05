@@ -1,7 +1,7 @@
 const util = require('util');
 const https = require('https');
 const jsonQuery = require('json-query');
-const changeCase = require('change-case');
+const titlecase = require('titlecase');
 
 const baseApi = 'https://www.ffrkcentral.com/api/v1/';
 
@@ -61,9 +61,11 @@ exports.parseMsg = function(msg) {
     let args = [];
     console.log(`command: ${command}`);
     if (commandWithArgs.shift().length > 0) {
+      console.log(`commandWithArgs args: ${commandWithArgs}`);
       args = commandWithArgs.join(' ');
-      args = changeCase.titleCase(args);
-      console.log(`args: ${args}`);
+      console.log(`args pre-title-case: ${args}`);
+      args = titlecase.toLaxTitleCase(args);
+      console.log(`args post-title-case: ${args}`);
     };
     console.log(util.format('caller: %s#%s',
       msg.author.username, msg.author.discriminator));

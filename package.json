@@ -9,7 +9,8 @@
     "eslint": "^3.19.0",
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-node": "^5.0.0",
-    "json-query": "^2.2.2"
+    "json-query": "^2.2.2",
+    "titlecase": "^1.1.2"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
