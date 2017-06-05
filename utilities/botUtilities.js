@@ -223,7 +223,7 @@ function downloadJson(query, msg, endpoint, response) {
  **/
 function processAbility(result, msg) {
   let message = util.format(
-    '\nAbility name: %s\nDescription: %s\nPotency: %d',
+    '\nAbility name: %s\nDescription: %s\nMultiplier: %d',
     result.value.name, result.value.effects, result.value.multiplier);
   msg.channel.send(message);
 };
