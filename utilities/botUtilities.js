@@ -1,16 +1,18 @@
 const util = require('util');
-const https = require('https');
+// const https = require('https');
 const jsonQuery = require('json-query');
 const titlecase = require('titlecase');
 
-const baseApi = 'https://www.ffrkcentral.com/api/v1/';
+// const baseApi = 'https://www.ffrkcentral.com/api/v1/';
 
-// A good chunk of the commented-out stuff is there until I
-// figure out how I want to deal with locally-saving the API
-// results so I don't hit the API server all the time.
+const fs = require('fs');
+const path = require('path');
 
-// const fs = require('fs');
-// const path = require('path');
+const enlirAbilitiesPath = path.join(__dirname, '..', 'enlir_json',
+  'abilities.json');
+
+const enlirAbilitiesFile = fs.readFileSync(enlirAbilitiesPath);
+const enlirAbilities = JSON.parse(enlirAbilitiesFile);
 
 // const configPath = path.join(__dirname, '..', 'config.json');
 // const dbConfigPath = path.join(__dirname, 'databases.json');
@@ -108,11 +110,16 @@ global.ability = function lookupAbility(msg, args) {
   };
   let query = args;
   console.log(`Ability to lookup: ${query}`);
-  let endpoint = 'abilities';
-  let url = util.format('%s%s', baseApi, endpoint);
-  // https://stackoverflow.com/questions/31589288/passing-a-parameter-to-http-get-in-node-js
-  let querySearch = downloadJson.bind(null, query, msg, endpoint);
-  https.get(url, querySearch);
+  let queryString = util.format('[name=%s]', query);
+  console.log(`queryString: ${queryString}`);
+  let result = jsonQuery(queryString, {
+    data: enlirAbilities,
+  });
+  if (result.value === null) {
+    msg.channel.send(`Ability '${query}' not found.`);
+  } else {
+    processAbility(result, msg);
+  };
 };
 
 /** global.update:
@@ -159,6 +166,7 @@ global.update = function updateDb(msg, args) {
  * (abilities, soulstrikes, or characters.)
  * @param {String} response: HTTP response object.
  **/
+/**
 function downloadJson(query, msg, endpoint, response) {
   const {statusCode} = response;
   const contentType = response.headers['content-type'];
@@ -207,23 +215,16 @@ function downloadJson(query, msg, endpoint, response) {
     }
   });
 };
-
+**/
 /** processAbility:
  * Processes and outputs information about an ability.
  * @param {Object} result: A JSON list of a given ability.
  * @param {Object} msg: a discord.js message object.
  **/
 function processAbility(result, msg) {
-  let potency = 0;
-  console.log(`status_ailments_id:
-    ${result.value.status_ailments_id}`);
-  if (result.value.status_ailments_id === 0) {
-    potency = result.value.battle_arg1;
-  };
   let message = util.format(
     '\nAbility name: %s\nDescription: %s\nPotency: %d',
-    result.value.name, result.value.description,
-    potency);
+    result.value.name, result.value.effects, result.value.multiplier);
   msg.channel.send(message);
 };
 
