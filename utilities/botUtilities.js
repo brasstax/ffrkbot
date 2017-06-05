@@ -197,10 +197,16 @@ function downloadJson(query, msg, endpoint, response) {
           if (result.value === null) {
             msg.channel.send(`Ability '${query}' not found.`);
           } else {
+            let potency = 0;
+            console.log(`status_ailments_id:
+              ${result.value.status_ailments_id}`);
+            if (result.value.status_ailments_id === 0) {
+              potency = result.value.battle_arg1;
+            };
             let message = util.format(
               '\nAbility name: %s\nDescription: %s\nPotency: %d',
               result.value.name, result.value.description,
-              result.value.battle_arg1);
+              potency);
             msg.channel.send(message);
           };
       };
