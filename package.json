@@ -11,6 +11,7 @@
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-node": "^5.0.0",
     "json-query": "^2.2.2",
+    "sqlite": "^2.8.0",
     "titlecase": "^1.1.2"
   },
   "devDependencies": {
