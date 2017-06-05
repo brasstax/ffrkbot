@@ -109,7 +109,7 @@ global.ability = function lookupAbility(msg, args) {
   let endpoint = 'abilities';
   let url = util.format('%s%s', baseApi, endpoint);
   // https://stackoverflow.com/questions/31589288/passing-a-parameter-to-http-get-in-node-js
-  let querySearch = downloadJson.bind(null, query, msg);
+  let querySearch = downloadJson.bind(null, query, msg, endpoint);
   https.get(url, querySearch);
 };
 
@@ -153,9 +153,11 @@ global.update = function updateDb(msg, args) {
  * Downloads a json and parses it into a JSON object.
  * @param {Object} query: HTTP response object.
  * @param {Object} msg: msg object.
+ * @param {String} endpoint: The endpoint to process
+ * (abilities, soulstrikes, or characters.)
  * @param {String} response: HTTP response object.
  **/
-function downloadJson(query, msg, response) {
+function downloadJson(query, msg, endpoint, response) {
   const {statusCode} = response;
   const contentType = response.headers['content-type'];
 
@@ -190,11 +192,14 @@ function downloadJson(query, msg, response) {
       let result = jsonQuery(queryString, {
         data: parsed,
       });
-      if (result.value === null) {
-        msg.channel.send(`Ability '${query}' not found.`);
-      } else {
-        msg.channel.send(`Ability name: ${result.value.name}
-            Description: ${result.value.description}`);
+      switch (endpoint) {
+        case 'abilities':
+          if (result.value === null) {
+            msg.channel.send(`Ability '${query}' not found.`);
+          } else {
+            msg.channel.send(`Ability name: ${result.value.name}
+                Description: ${result.value.description}`);
+          };
       };
     } catch (e) {
       console.error(e.message);
