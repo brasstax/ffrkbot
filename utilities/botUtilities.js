@@ -235,7 +235,8 @@ function processAbility(result, msg) {
     multiplier = result.value.multiplier;
   };
   let element;
-  if (result.value.element === undefined || '-') {
+  if (result.value.element === undefined ||
+      result.value.element === '-') {
     element = 'None';
   } else {
     element = result.value.element;
