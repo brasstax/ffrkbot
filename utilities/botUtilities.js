@@ -197,8 +197,11 @@ function downloadJson(query, msg, endpoint, response) {
           if (result.value === null) {
             msg.channel.send(`Ability '${query}' not found.`);
           } else {
-            msg.channel.send(`Ability name: ${result.value.name}
-                Description: ${result.value.description}`);
+            let message = util.format(
+              '\nAbility name: %s\nDescription: %s\nPotency: %d',
+              result.value.name, result.value.description,
+              result.value.battle_arg1);
+            msg.channel.send(message);
           };
       };
     } catch (e) {
