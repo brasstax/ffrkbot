@@ -25,6 +25,7 @@ client.registry
   .registerGroups([
     ['ffrk', 'FFRK-related commands'],
     ['newbie', 'Discord.js commando tutorial commands for reference'],
+    ['misc', 'Miscellaneous commands'],
   ])
   .registerDefaultGroups()
   .registerDefaultCommands()
