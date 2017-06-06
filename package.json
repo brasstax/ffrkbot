@@ -10,6 +10,7 @@
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-node": "^5.0.0",
     "json-query": "^2.2.2",
+    "pad": "^1.1.0",
     "sqlite": "^2.8.0",
     "titlecase": "^1.1.2"
   },

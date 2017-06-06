@@ -1,6 +1,7 @@
 const util = require('util');
 const jsonQuery = require('json-query');
 const titlecase = require('titlecase');
+const pad = require('pad');
 
 const fs = require('fs');
 const path = require('path');
@@ -68,16 +69,26 @@ function processAbility(result, msg) {
   } else {
     element = result.value.element;
   };
+  let padLength = 20;
+  let typeMsg = pad(
+    util.format('Type: %s', result.value.school),
+    padLength);
+  let elementMsg = util.format('Element: %s', element);
+  let targetMsg = pad(
+    util.format('Target: %s', result.value.target),
+    padLength);
+  let multiplierMsg = util.format('Multiplier: %s', multiplier);
+  let castMsg = pad(
+    util.format('Cast Time: %ds', result.value.time),
+    padLength);
+  let sbMsg = util.format('Soul Break Charge: %d', result.value.sb);
   let message = (
     '**```\n' +
     util.format('%s\n', result.value.name) +
-    util.format('Description: %s\n', description) +
-    util.format('Type: %s || Element: %s\n',
-      result.value.school, element) +
-    util.format('Target: %s || Multiplier: %d\n',
-      result.value.target, multiplier) +
-    util.format('Cast Time: %d || Soul Break Charge: %d\n',
-      result.value.time, result.value.sb) +
+    util.format('%s\n', description) +
+    util.format('%s || %s\n', typeMsg, elementMsg) +
+    util.format('%s || %s\n', targetMsg, multiplierMsg) +
+    util.format('%s || %s\n', castMsg, sbMsg) +
     '```**'
     );
   msg.channel.send(message);
