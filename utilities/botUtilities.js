@@ -30,10 +30,11 @@ exports.ability = function lookupAbility(msg, args) {
   console.log(`Ability to lookup: ${query}`);
   console.log(util.format('.ability caller: %s#%s',
     msg.author.username, msg.author.discriminator));
-  let queryString = util.format('[name=%s]', query);
+  let queryString = util.format('[name~/^%s/i]', query);
   console.log(`queryString: ${queryString}`);
   let result = jsonQuery(queryString, {
     data: enlirAbilities,
+    allowRegexp: true,
   });
   if (result.value === null) {
     msg.channel.send(`Ability '${query}' not found.`);
