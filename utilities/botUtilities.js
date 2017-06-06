@@ -69,13 +69,15 @@ function processAbility(result, msg) {
   };
   let message = util.format(
     '\nAbility name: %s\nDescription: %s\nMultiplier: %d\n' +
-    'Element: %s\nType: %s\nTarget: %s\nSoul Break charge: %d',
+    'Element: %s\nType: %s\nTarget: %s\nSoul Break charge: %d\n' +
+    'Cast time: %d',
     result.value.name,
     description,
     multiplier,
     element,
     result.value.school,
     result.value.target,
-    result.value.sb);
+    result.value.sb,
+    result.value.time);
   msg.channel.send(message);
 };
