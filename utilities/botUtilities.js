@@ -21,8 +21,8 @@ const enlirAbilities = JSON.parse(enlirAbilitiesFile);
  *    encased in 'quotes'.
  **/
 exports.ability = function lookupAbility(msg, args) {
-  if (args.length < 1) {
-    msg.reply('Usage: !ability Ability Name (no quotes needed)');
+  if (args.length < 3) {
+    msg.reply('Search query must be at least three characters.');
     return;
   };
   let query;
@@ -30,7 +30,7 @@ exports.ability = function lookupAbility(msg, args) {
   console.log(`Ability to lookup: ${query}`);
   console.log(util.format('.ability caller: %s#%s',
     msg.author.username, msg.author.discriminator));
-  let queryString = util.format('[name~/^%s/i]', query);
+  let queryString = util.format('[name~/%s/i]', query);
   console.log(`queryString: ${queryString}`);
   let result = jsonQuery(queryString, {
     data: enlirAbilities,
