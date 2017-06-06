@@ -67,17 +67,17 @@ function processAbility(result, msg) {
   } else {
     element = result.value.element;
   };
-  let message = util.format(
-    '\nAbility name: %s\nDescription: %s\nMultiplier: %d\n' +
-    'Element: %s\nType: %s\nTarget: %s\nSoul Break charge: %d\n' +
-    'Cast time: %d',
-    result.value.name,
-    description,
-    multiplier,
-    element,
-    result.value.school,
-    result.value.target,
-    result.value.sb,
-    result.value.time);
+  let message = (
+    '```\n' +
+    util.format('Ability: %s\n', result.value.name) +
+    util.format('Description: %s\n', description) +
+    util.format('Type: %s, Element: %s\n',
+      result.value.school, element) +
+    util.format('Target: %s, Multiplier: %d\n',
+      result.value.target, multiplier) +
+    util.format('Cast Time: %d, Soul Break Charge: %d\n',
+      result.value.time, result.value.sb) +
+    '```'
+    );
   msg.channel.send(message);
 };
