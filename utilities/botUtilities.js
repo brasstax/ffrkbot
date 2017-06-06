@@ -68,16 +68,16 @@ function processAbility(result, msg) {
     element = result.value.element;
   };
   let message = (
-    '```\n' +
-    util.format('Ability: %s\n', result.value.name) +
+    '**```\n' +
+    util.format('%s\n', result.value.name) +
     util.format('Description: %s\n', description) +
-    util.format('Type: %s, Element: %s\n',
+    util.format('Type: %s || Element: %s\n',
       result.value.school, element) +
-    util.format('Target: %s, Multiplier: %d\n',
+    util.format('Target: %s || Multiplier: %d\n',
       result.value.target, multiplier) +
-    util.format('Cast Time: %d, Soul Break Charge: %d\n',
+    util.format('Cast Time: %d || Soul Break Charge: %d\n',
       result.value.time, result.value.sb) +
-    '```'
+    '```**'
     );
   msg.channel.send(message);
 };
