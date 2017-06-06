@@ -13,11 +13,11 @@ module.exports = class ReplyCommand extends Command {
       group: 'ffrk',
       memberName: 'ability',
       description: 'Looks up an ability by name.',
-      examples: ['ability Firaja'],
+      examples: ['ability Firaja', 'ability gaia\'s cross'],
       args: [
         {
           key: 'ability_name',
-          prompt: 'Name of the ability you wish to look up',
+          prompt: 'Enter the name of the ability you wish to look up.',
           type: 'string',
         },
       ],
