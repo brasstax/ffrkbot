@@ -24,7 +24,7 @@ module.exports = class ReplyCommand extends Command {
     });
   }
 
-  /** trigger to run open invocation.
+  /** trigger to run upon invocation.
    * @param {Object} msg: discord.js-commando message.
    * @param {Array} args: args from the user input.
    * @return {Method} msg.say: string
