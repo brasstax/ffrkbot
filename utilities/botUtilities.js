@@ -112,15 +112,15 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
     resolve(searchSoulbreak(character, sbType));
   });
   results.then( (resolve) => {
-    console.log(resolve.value);
     if (resolve.value.length === 0) {
       msg.channel.send(`No results for '${character}'.`);
       return;
     };
     if (resolve.value.length > 4) {
       character = titlecase.toLaxTitleCase(character);
-      msg.channel.send(`${character} has ${resolve.value.length} soulbreaks.` +
-        ` Please filter by Default/SB/BSB/USB/OSB.`);
+      msg.channel.send(`Whoa there sparky, ${character} has like` +
+        ` ${resolve.value.length} soulbreaks.` +
+        ` Filter by Default/SB/BSB/USB/OSB.`);
       return;
     };
     resolve.value.forEach( (value) => {
