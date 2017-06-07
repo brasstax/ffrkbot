@@ -101,7 +101,7 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       'Character name must be at least three characters.');
     return;
   };
-  let possibleSbTypes = ['all', 'default', 'sb',
+  let possibleSbTypes = ['all', 'default', 'sb', 'ssb',
     'bsb', 'usb', 'osb', 'csb'];
   if (possibleSbTypes.indexOf(sbType.toLowerCase()) === -1) {
     msg.channel.send(
