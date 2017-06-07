@@ -101,10 +101,11 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       'Character name must be at least three characters.');
     return;
   };
-  let possibleSbTypes = ['all', 'default', 'sb', 'bsb', 'usb', 'osb'];
+  let possibleSbTypes = ['all', 'default', 'sb',
+    'bsb', 'usb', 'osb', 'csb'];
   if (possibleSbTypes.indexOf(sbType.toLowerCase()) === -1) {
     msg.channel.send(
-      'Soulbreak type not one of: All, Default, SB, BSB, USB, OSB.');
+      'Soulbreak type not one of: All, Default, SB, SSB, BSB, USB, OSB, CSB.');
     return;
   };
   let results = new Promise((resolve, reject) => {
@@ -119,7 +120,7 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       character = titlecase.toLaxTitleCase(character);
       msg.channel.send(`Whoa there sparky, ${character} has like` +
         ` ${resolve.value.length} soulbreaks.` +
-        ` Filter by Default/SB/BSB/SSB/USB/OSB.`);
+        ` Filter by Default/SB/SSB/BSB/USB/OSB/CSB.`);
       return;
     };
     resolve.value.forEach( (value) => {
