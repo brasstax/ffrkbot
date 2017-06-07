@@ -56,24 +56,17 @@ exports.ability = function lookupAbility(msg, args) {
  * @param {String} character: the name of the character to search.
  * @param {String} sbType: The type of soul break to look up
  *  (one of: all, default, sb, bsb, usb, osb). Defaults to 'all'.)
- * @return {Array} soulbreaks: An array of soulbreaks by name with the
- *  following information:
- *  * Target
- *  * Type
- *  * Element
- *  * Multiplier
- *  * Effects
- *  * Soulbreak type
- *  * Relic
+ * @return {Array} soulbreaks: An array of soulbreaks by name
  **/
 function searchSoulbreak(character, sbType='all') {
   console.log(`Character to lookup: ${character}`);
   console.log(`Soul break to return: ${sbType}`);
-  let characterQueryString = util.format('[*character=%s]', character);
+  let characterQueryString = util.format('[*character~/^%s$/i]', character);
   console.log(`characterQueryString: ${characterQueryString}`);
   let result;
   result = jsonQuery(characterQueryString, {
     data: enlirSoulbreaks,
+    allowRegexp: true,
   });
   console.log(result);
   if (result.value === null) {
@@ -120,6 +113,49 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
   });
   results.then( (resolve) => {
     console.log(resolve.value);
+    if (resolve.value.length === 0) {
+      msg.channel.send(`No results for '${character}'.`);
+      return;
+    };
+    if (resolve.value.length > 4) {
+      character = titlecase.toLaxTitleCase(character);
+      msg.channel.send(`${character} has ${resolve.value.length} soulbreaks.` +
+        ` Please filter by Default/SB/BSB/USB/OSB.`);
+      return;
+    };
+    resolve.value.forEach( (value) => {
+      // Holy heck I'll need to make this into its own function somehow.
+      let element;
+      if (value.element === undefined ||
+          value.element === '-') {
+        element = 'None';
+      } else {
+        element = value.element;
+      };
+      let padLength = 22;
+      let typeMsg = pad(
+        util.format('Type: %s', value.type),
+        padLength);
+      let elementMsg = util.format('Element: %s', element);
+      let targetMsg = pad(
+        util.format('Target: %s', value.target),
+        padLength);
+      let multiplierMsg = util.format('Multiplier: %s', value.multiplier);
+      let castMsg = pad(
+        util.format('Cast Time: %ds', value.time),
+        padLength);
+      let sbMsg = util.format('Soul Break Type: %s', value.tier);
+      let message = (
+        '**```\n' +
+        util.format('%s\n', value.name) +
+        util.format('%s\n', sbMsg) +
+        util.format('%s || %s\n', typeMsg, elementMsg) +
+        util.format('%s || %s\n', targetMsg, multiplierMsg) +
+        util.format('%s\n', castMsg) +
+        '```**'
+        );
+      msg.channel.send(message);
+    });
   }).catch( (reject) => {
     console.log(`Something unexpected happened. Error: ${reject}`);
   });
