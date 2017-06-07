@@ -6,11 +6,18 @@ const pad = require('pad');
 const fs = require('fs');
 const path = require('path');
 
-const enlirAbilitiesPath = path.join(__dirname, '..', 'enlir_json',
-  'abilities.json');
+const enlirJsonPath = path.join(__dirname, '..', 'enlir_json');
+const enlirAbilitiesPath = path.join(enlirJsonPath, 'abilities.json');
+const enlirSoulbreaksPath = path.join(enlirJsonPath, 'soulbreaks.json');
+const enlirBsbCommandsPath = path.join(enlirJsonPath, 'bsbCommands.json');
 
 const enlirAbilitiesFile = fs.readFileSync(enlirAbilitiesPath);
+const enlirSoulbreaksFile = fs.readFileSync(enlirSoulbreaksPath);
+const enlirBsbCommandsFile = fs.readFileSync(enlirBsbCommandsPath);
+
 const enlirAbilities = JSON.parse(enlirAbilitiesFile);
+const enlirSoulbreaks = JSON.parse(enlirSoulbreaksFile);
+const enlirBsbCommands = JSON.parse(enlirBsbCommandsFile);
 
 /** exports.ability:
  * Retrieves information about an ability.
@@ -42,6 +49,117 @@ exports.ability = function lookupAbility(msg, args) {
   } else {
     processAbility(result, msg);
   };
+};
+
+/** searchSoulbreak:
+ * Searches and returns the soul breaks for a given character.
+ * @param {String} character: the name of the character to search.
+ * @param {String} sbType: The type of soul break to look up
+ *  (one of: all, default, sb, bsb, usb, osb). Defaults to 'all'.)
+ * @return {Array} soulbreaks: An array of soulbreaks by name
+ **/
+function searchSoulbreak(character, sbType='all') {
+  console.log(`Character to lookup: ${character}`);
+  console.log(`Soul break to return: ${sbType}`);
+  let characterQueryString = util.format('[*character~/^%s$/i]', character);
+  console.log(`characterQueryString: ${characterQueryString}`);
+  let result;
+  result = jsonQuery(characterQueryString, {
+    data: enlirSoulbreaks,
+    allowRegexp: true,
+  });
+  if (result.value === null) {
+    console.log('No results found.');
+    return result;
+  };
+  if (sbType.toLowerCase() !== 'all') {
+    let dataset = result.value;
+    let tierQueryString = util.format('[*tier~/^%s$/i]', sbType);
+    console.log(`tierQueryString: ${tierQueryString}`);
+    result = jsonQuery(tierQueryString, {
+      data: dataset,
+      allowRegexp: true,
+    });
+  };
+  console.log('Returning results.');
+  return result;
+};
+
+/** lookupSoulbreak:
+ *  Runs searchSoulbreak to find a soul break for a given character.
+ *  @param {Object} msg: A message object from the Discord.js bot.
+ *  @param {String} character: the name of the character to search.
+ *  @param {String} sbType: the type of soul break to search.
+ *    (one of: all, default, sb, bsb, usb, osb). Defaults to 'all'.)
+ **/
+exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
+  console.log(util.format(',sb caller: %s#%s',
+    msg.author.username, msg.author.discriminator));
+  console.log(`Lookup called: ${character} ${sbType}`);
+  if (character.length < 3) {
+    msg.channel.send(
+      'Character name must be at least three characters.');
+    return;
+  };
+  let possibleSbTypes = ['all', 'default', 'sb', 'bsb', 'usb', 'osb'];
+  if (possibleSbTypes.indexOf(sbType.toLowerCase()) === -1) {
+    msg.channel.send(
+      'Soulbreak type not one of: All, Default, SB, BSB, USB, OSB.');
+    return;
+  };
+  let results = new Promise((resolve, reject) => {
+    resolve(searchSoulbreak(character, sbType));
+  });
+  results.then( (resolve) => {
+    if (resolve.value.length === 0) {
+      msg.channel.send(`No results for '${character}'.`);
+      return;
+    };
+    if (resolve.value.length > 4) {
+      character = titlecase.toLaxTitleCase(character);
+      msg.channel.send(`Whoa there sparky, ${character} has like` +
+        ` ${resolve.value.length} soulbreaks.` +
+        ` Filter by Default/SB/BSB/USB/OSB.`);
+      return;
+    };
+    resolve.value.forEach( (value) => {
+      // Holy heck I'll need to make this into its own function somehow.
+      let element;
+      if (value.element === undefined ||
+          value.element === '-') {
+        element = 'None';
+      } else {
+        element = value.element;
+      };
+      let padLength = 22;
+      let typeMsg = pad(
+        util.format('Type: %s', value.type),
+        padLength);
+      let elementMsg = util.format('Element: %s', element);
+      let targetMsg = pad(
+        util.format('Target: %s', value.target),
+        padLength);
+      let multiplierMsg = util.format('Multiplier: %s', value.multiplier);
+      let castMsg = pad(
+        util.format('Cast Time: %ds', value.time),
+        padLength);
+      let sbMsg = util.format('Soul Break Type: %s', value.tier);
+      let description = value.effects;
+      let message = (
+        '**```\n' +
+        util.format('%s\n', value.name) +
+        util.format('%s\n', description) +
+        util.format('%s || %s\n', typeMsg, elementMsg) +
+        util.format('%s || %s\n', targetMsg, multiplierMsg) +
+        util.format('%s || %s\n', castMsg, sbMsg) +
+        '```**'
+        );
+      msg.channel.send(message);
+    });
+  }).catch( (reject) => {
+    console.log(`Something unexpected happened. Error: ${reject}`);
+  });
+  return;
 };
 
 /** processAbility:
