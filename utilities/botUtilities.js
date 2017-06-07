@@ -11,14 +11,17 @@ const enlirJsonPath = path.join(__dirname, '..', 'enlir_json');
 const enlirAbilitiesPath = path.join(enlirJsonPath, 'abilities.json');
 const enlirSoulbreaksPath = path.join(enlirJsonPath, 'soulbreaks.json');
 const enlirBsbCommandsPath = path.join(enlirJsonPath, 'bsbCommands.json');
+const aliasesPath = path.join(__dirname, 'aliases.json');
 
 const enlirAbilitiesFile = fs.readFileSync(enlirAbilitiesPath);
 const enlirSoulbreaksFile = fs.readFileSync(enlirSoulbreaksPath);
 const enlirBsbCommandsFile = fs.readFileSync(enlirBsbCommandsPath);
+const aliasesFile = fs.readFileSync(aliasesPath);
 
 const enlirAbilities = JSON.parse(enlirAbilitiesFile);
 const enlirSoulbreaks = JSON.parse(enlirSoulbreaksFile);
 const enlirBsbCommands = JSON.parse(enlirBsbCommandsFile);
+const aliases = JSON.parse(aliasesFile);
 
 /** exports.ability:
  * Retrieves information about an ability.
@@ -112,12 +115,16 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       'Soulbreak type not one of: All, Default, SB, SSB, BSB, USB, OSB, CSB.');
     return;
   };
+  console.log(`Alias check: ${checkAlias(character)}`);
+  if (checkAlias(character) != null) {
+    character = checkAlias(character);
+  };
   let results = new Promise((resolve, reject) => {
     resolve(searchSoulbreak(character, sbType));
   });
   results.then( (resolve) => {
     if (resolve.value.length === 0) {
-      msg.channel.send(`No results for '${character}'.`);
+      msg.channel.send(`No results for '${character}' '${sbType}'.`);
       return;
     };
     if (resolve.value.length > 4) {
@@ -221,4 +228,18 @@ function processAbility(result, msg) {
     '```**'
     );
   msg.channel.send(message);
+};
+
+/** checkAlias:
+ * Checks to see if an alias belongs to a character.
+ * @param {String} alias: The alias to check.
+ * @return {String} character: the character's name, or
+ * @return {null} null: if no result found.
+ **/
+function checkAlias(alias) {
+  if (alias.toLowerCase() in aliases) {
+    return aliases[alias];
+  } else {
+    return null;
+  };
 };
