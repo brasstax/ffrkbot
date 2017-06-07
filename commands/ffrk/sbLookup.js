@@ -14,7 +14,7 @@ module.exports = class ReplyCommand extends Command {
       memberName: 'sb',
       description: 'Looks up the soulbreaks for a given character.' +
         ' Can filter out by soul break types (defaults to all soul breaks.)',
-      examples: ['sb Squall', 'sb Cloud usb'],
+      examples: ['sb Squall', 'sb Cloud usb', 'sb "Cid Raines" bsb'],
       args: [
         {
           key: 'character_name',
@@ -24,7 +24,7 @@ module.exports = class ReplyCommand extends Command {
         {
           key: 'sb_type',
           prompt: '(Optional) Enter the type of soul break you want to see' +
-            '(all, SB, BSB, USB, or OSB. Defaults to "all".)',
+            '(all, SB, SSB, BSB, USB, OSB, or CSB. Defaults to "all".)',
           type: 'string',
           default: 'all',
         },
