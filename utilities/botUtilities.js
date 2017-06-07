@@ -123,12 +123,12 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
     resolve(searchSoulbreak(character, sbType));
   });
   results.then( (resolve) => {
+    character = titlecase.toLaxTitleCase(character);
     if (resolve.value.length === 0) {
       msg.channel.send(`No results for '${character}' '${sbType}'.`);
       return;
     };
-    if (resolve.value.length > 4) {
-      character = titlecase.toLaxTitleCase(character);
+    if (resolve.value.length > 5) {
       msg.channel.send(`Whoa there sparky, ${character} has like` +
         ` ${resolve.value.length} soulbreaks.` +
         ` Filter by Default/SB/SSB/BSB/USB/OSB/CSB.`);
@@ -165,7 +165,7 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       let description = value.effects;
       let message = (
         '**```\n' +
-        util.format('%s\n', value.name) +
+        util.format('%s: %s\n', character, value.name) +
         util.format('%s\n', description) +
         util.format('%s || %s\n', typeMsg, elementMsg) +
         util.format('%s || %s\n', targetMsg, multiplierMsg) +
