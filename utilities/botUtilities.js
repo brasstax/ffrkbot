@@ -2,6 +2,7 @@ const util = require('util');
 const jsonQuery = require('json-query');
 const titlecase = require('titlecase');
 const pad = require('pad');
+const escapeStringRegexp = require('escape-string-regexp');
 
 const fs = require('fs');
 const path = require('path');
@@ -35,6 +36,7 @@ exports.ability = function lookupAbility(msg, args) {
   };
   let query;
   query = titlecase.toLaxTitleCase(args);
+  query = escapeStringRegexp(query);
   console.log(`Ability to lookup: ${query}`);
   console.log(util.format('.ability caller: %s#%s',
     msg.author.username, msg.author.discriminator));
@@ -61,6 +63,7 @@ exports.ability = function lookupAbility(msg, args) {
 function searchSoulbreak(character, sbType='all') {
   console.log(`Character to lookup: ${character}`);
   console.log(`Soul break to return: ${sbType}`);
+  character = escapeStringRegexp(character);
   let characterQueryString = util.format('[*character~/^%s$/i]', character);
   console.log(`characterQueryString: ${characterQueryString}`);
   let result;
@@ -74,6 +77,7 @@ function searchSoulbreak(character, sbType='all') {
   };
   if (sbType.toLowerCase() !== 'all') {
     let dataset = result.value;
+    sbType = escapeStringRegexp(sbType);
     let tierQueryString = util.format('[*tier~/^%s$/i]', sbType);
     console.log(`tierQueryString: ${tierQueryString}`);
     result = jsonQuery(tierQueryString, {

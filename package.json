@@ -6,6 +6,7 @@
   "dependencies": {
     "change-case": "^3.0.1",
     "discord.js": "^11.1.0",
+    "escape-string-regexp": "^1.0.5",
     "eslint": "^3.19.0",
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-node": "^5.0.0",
