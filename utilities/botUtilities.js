@@ -238,7 +238,7 @@ function processAbility(result, msg) {
  **/
 function checkAlias(alias) {
   if (alias.toLowerCase() in aliases) {
-    return aliases[alias];
+    return aliases[alias.toLowerCase()];
   } else {
     return null;
   };
