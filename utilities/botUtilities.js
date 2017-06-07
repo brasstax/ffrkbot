@@ -6,11 +6,18 @@ const pad = require('pad');
 const fs = require('fs');
 const path = require('path');
 
-const enlirAbilitiesPath = path.join(__dirname, '..', 'enlir_json',
-  'abilities.json');
+const enlirJsonPath = path.join(__dirname, '..', 'enlir_json');
+const enlirAbilitiesPath = path.join(enlirJsonPath, 'abilities.json');
+const enlirSoulbreaksPath = path.join(enlirJsonPath, 'soulbreaks.json');
+const enlirBsbCommandsPath = path.join(enlirJsonPath, 'bsbCommands.json');
 
 const enlirAbilitiesFile = fs.readFileSync(enlirAbilitiesPath);
+const enlirSoulbreaksFile = fs.readFileSync(enlirSoulbreaksPath);
+const enlirBsbCommandsFile = fs.readFileSync(enlirBsbCommandsPath);
+
 const enlirAbilities = JSON.parse(enlirAbilitiesFile);
+const enlirSoulbreaks = JSON.parse(enlirSoulbreaksFile);
+const enlirBsbCommands = JSON.parse(enlirBsbCommandsFile);
 
 /** exports.ability:
  * Retrieves information about an ability.
@@ -42,6 +49,81 @@ exports.ability = function lookupAbility(msg, args) {
   } else {
     processAbility(result, msg);
   };
+};
+
+/** searchSoulbreak:
+ * Searches and returns the soul breaks for a given character.
+ * @param {String} character: the name of the character to search.
+ * @param {String} sbType: The type of soul break to look up
+ *  (one of: all, default, sb, bsb, usb, osb). Defaults to 'all'.)
+ * @return {Array} soulbreaks: An array of soulbreaks by name with the
+ *  following information:
+ *  * Target
+ *  * Type
+ *  * Element
+ *  * Multiplier
+ *  * Effects
+ *  * Soulbreak type
+ *  * Relic
+ **/
+function searchSoulbreak(character, sbType='all') {
+  console.log(`Character to lookup: ${character}`);
+  console.log(`Soul break to return: ${sbType}`);
+  let characterQueryString = util.format('[*character=%s]', character);
+  console.log(`characterQueryString: ${characterQueryString}`);
+  let result;
+  result = jsonQuery(characterQueryString, {
+    data: enlirSoulbreaks,
+  });
+  console.log(result);
+  if (result.value === null) {
+    console.log('No results found.');
+    return result;
+  };
+  if (sbType.toLowerCase() !== 'all') {
+    let dataset = result.value;
+    let tierQueryString = util.format('[*tier~/^%s$/i]', sbType);
+    console.log(`tierQueryString: ${tierQueryString}`);
+    result = jsonQuery(tierQueryString, {
+      data: dataset,
+      allowRegexp: true,
+    });
+  };
+  console.log('Returning results.');
+  return result;
+};
+
+/** lookupSoulbreak:
+ *  Runs searchSoulbreak to find a soul break for a given character.
+ *  @param {Object} msg: A message object from the Discord.js bot.
+ *  @param {String} character: the name of the character to search.
+ *  @param {String} sbType: the type of soul break to search.
+ *    (one of: all, default, sb, bsb, usb, osb). Defaults to 'all'.)
+ **/
+exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
+  console.log(util.format(',sb caller: %s#%s',
+    msg.author.username, msg.author.discriminator));
+  console.log(`Lookup called: ${character} ${sbType}`);
+  if (character.length < 3) {
+    msg.channel.send(
+      'Character name must be at least three characters.');
+    return;
+  };
+  let possibleSbTypes = ['all', 'default', 'sb', 'bsb', 'usb', 'osb'];
+  if (possibleSbTypes.indexOf(sbType.toLowerCase()) === -1) {
+    msg.channel.send(
+      'Soulbreak type not one of: All, Default, SB, BSB, USB, OSB.');
+    return;
+  };
+  let results = new Promise((resolve, reject) => {
+    resolve(searchSoulbreak(character, sbType));
+  });
+  results.then( (resolve) => {
+    console.log(resolve.value);
+  }).catch( (reject) => {
+    console.log(`Something unexpected happened. Error: ${reject}`);
+  });
+  return;
 };
 
 /** processAbility:
