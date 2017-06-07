@@ -12,7 +12,8 @@ module.exports = class ReplyCommand extends Command {
       name: 'bsb',
       group: 'ffrk',
       memberName: 'bsb',
-      description: 'Looks up a burst soulbreak for a given character.',
+      description: '(NOT IMPLEMENTED YET) Looks up a burst soulbreak ' +
+        'for a given character.',
       examples: ['bsb Squall', 'bsb Zell 1'],
       args: [
         {
@@ -38,6 +39,6 @@ module.exports = class ReplyCommand extends Command {
    **/
   run(msg, args) {
     const {characterName, bsbNumber} = args;
-    return botUtils.bsb(msg, characterName, bsbNumber);
+    return null;
   };
 };
