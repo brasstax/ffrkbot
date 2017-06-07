@@ -119,7 +119,7 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       character = titlecase.toLaxTitleCase(character);
       msg.channel.send(`Whoa there sparky, ${character} has like` +
         ` ${resolve.value.length} soulbreaks.` +
-        ` Filter by Default/SB/BSB/USB/OSB.`);
+        ` Filter by Default/SB/BSB/SSB/USB/OSB.`);
       return;
     };
     resolve.value.forEach( (value) => {
