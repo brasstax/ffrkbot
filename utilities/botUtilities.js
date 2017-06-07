@@ -144,7 +144,13 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       let targetMsg = pad(
         util.format('Target: %s', value.target),
         padLength);
-      let multiplierMsg = util.format('Multiplier: %s', value.multiplier);
+      let multiplier;
+      if (typeof(value.multiplier) !== 'number') {
+        multiplier = 0;
+      } else {
+        multiplier = value.multiplier;
+      };
+      let multiplierMsg = util.format('Multiplier: %s', multiplier);
       let castMsg = pad(
         util.format('Cast Time: %ds', value.time),
         padLength);
