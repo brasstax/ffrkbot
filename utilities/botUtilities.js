@@ -68,7 +68,6 @@ function searchSoulbreak(character, sbType='all') {
     data: enlirSoulbreaks,
     allowRegexp: true,
   });
-  console.log(result);
   if (result.value === null) {
     console.log('No results found.');
     return result;
@@ -145,13 +144,14 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
         util.format('Cast Time: %ds', value.time),
         padLength);
       let sbMsg = util.format('Soul Break Type: %s', value.tier);
+      let description = value.effects;
       let message = (
         '**```\n' +
         util.format('%s\n', value.name) +
-        util.format('%s\n', sbMsg) +
+        util.format('%s\n', description) +
         util.format('%s || %s\n', typeMsg, elementMsg) +
         util.format('%s || %s\n', targetMsg, multiplierMsg) +
-        util.format('%s\n', castMsg) +
+        util.format('%s || %s\n', castMsg, sbMsg) +
         '```**'
         );
       msg.channel.send(message);
