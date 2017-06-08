@@ -191,7 +191,36 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
           bsbCommandResults.value.forEach( (bsbCommand) => {
             let command = bsbCommand.name;
             console.log(`Command ${command} found.`);
-            message = message + util.format('%s\n', command);
+            let target = bsbCommand.target;
+            let description = bsbCommand.effects;
+            let element = bsbCommand.element;
+            let castTime = bsbCommand.time;
+            let sbCharge = bsbCommand.sb;
+            let type = bsbCommand.school;
+            let multiplier = bsbCommand.multiplier;
+            let padLength = 21;
+            let targetMsg = pad(
+              util.format('Target: %s', target),
+              padLength);
+            let typeMsg = pad(
+              util.format('Type: %s', type),
+              padLength);
+            let elementMsg = util.format('Element: %s', element);
+            if (typeof(multiplier) !== 'number') {
+              multiplier = 0;
+            };
+            let castMsg = pad(
+              util.format('Cast Time: %ds', castTime),
+              padLength);
+            let sbMsg = util.format('Soul Break Charge: %d', sbCharge);
+            let multiplierMsg = util.format('Multiplier: %s', multiplier);
+            message = (
+                message +
+                util.format('*%s (%s)\n', command, description) +
+                util.format('-%s || %s\n', typeMsg, elementMsg) +
+                util.format('-%s || %s\n', targetMsg, multiplierMsg) +
+                util.format('-%s || %s\n\n', castMsg, sbMsg)
+              );
             console.log(`message: ${message}`);
           });
           message = message + '```**';
