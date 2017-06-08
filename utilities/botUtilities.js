@@ -130,7 +130,8 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
     };
     if (resolve.value.length > 5) {
       msg.channel.send(`Whoa there sparky, ${character} has like` +
-        ` ${resolve.value.length} soulbreaks.` +
+        ` ${resolve.value.length} soulbreaks and I don't wanna spam` +
+        ` the channel with more than 5 soulbreaks at a time.` +
         ` Filter by Default/SB/SSB/BSB/USB/OSB/CSB.`);
       return;
     };
