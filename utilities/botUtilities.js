@@ -128,14 +128,17 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       msg.channel.send(`No results for '${character}' '${sbType}'.`);
       return;
     };
-    if (resolve.value.length > 5) {
-      msg.channel.send(`Whoa there sparky, ${character} has like` +
-        ` ${resolve.value.length} soulbreaks and I don't wanna spam` +
-        ` the channel with more than 5 soulbreaks at a time.` +
-        ` Filter by Default/SB/SSB/BSB/USB/OSB/CSB.`);
-      return;
+    let resolveCounter = 0;
+    let message = '**```';
+    if (sbType.toLowerCase() === 'all') {
+      message = message + 'SUMMARY VIEW: use filters to view SB details\n';
     };
     resolve.value.forEach( (value) => {
+      // Fix formatting for messages when searching with SB filter
+      resolveCounter = resolveCounter + 1;
+      if (sbType.toLowerCase() !== 'all') {
+        message = '**```';
+      };
       // Holy heck I'll need to make this into its own function somehow.
       let element;
       if (value.element === undefined ||
@@ -171,7 +174,20 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
         castAndSbMsg = util.format('%s || %s\n', castMsg, sbMsg);
       };
       let description = value.effects;
-      let message = (
+      // for searching SB with no filter, return summary
+      if (sbType.toLowerCase() === 'all') {
+        message = (
+          message +
+          util.format('%s: %s (%s)\n', character, value.name, value.tier) +
+          util.format('* %s\n', description)
+        );
+        if (resolveCounter >= resolve.value.length) {
+          message = message + '```**';
+          msg.channel.send(message);
+        };
+        return;
+      } else {
+      message = (
         '**```\n' +
         util.format('%s: %s\n', character, value.name) +
         util.format('%s\n', description) +
@@ -239,6 +255,7 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       } else {
         message = message + '```**';
         msg.channel.send(message);
+      };
       };
     });
   }).catch( (reject) => {
