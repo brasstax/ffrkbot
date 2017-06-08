@@ -21,6 +21,7 @@ module.exports = class ReplyCommand extends Command {
           type: 'string',
         },
       ],
+      aliases: ['abil'],
     });
   }
 

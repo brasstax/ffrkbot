@@ -29,6 +29,7 @@ module.exports = class ReplyCommand extends Command {
           default: 'all',
         },
       ],
+      aliases: ['soulbreak'],
     });
   }
 
