@@ -162,6 +162,13 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
         util.format('Cast Time: %ds', value.time),
         padLength);
       let sbMsg = util.format('Soul Break Type: %s', value.tier);
+      // remove sbMsg from castAndSbMsg if sbType is anything except 'all'
+      let castAndSbMsg;
+      if (sbType.toLowerCase() !== 'all') {
+        castAndSbMsg = util.format('%s\n', castMsg);
+      } else {
+        castAndSbMsg = util.format('%s || %s\n', castMsg, sbMsg);
+      };
       let description = value.effects;
       let message = (
         '**```\n' +
@@ -169,7 +176,7 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
         util.format('%s\n', description) +
         util.format('%s || %s\n', typeMsg, elementMsg) +
         util.format('%s || %s\n', targetMsg, multiplierMsg) +
-        util.format('%s || %s\n', castMsg, sbMsg) +
+        castAndSbMsg +
         '```**'
         );
       msg.channel.send(message);
