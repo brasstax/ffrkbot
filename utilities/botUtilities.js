@@ -183,6 +183,9 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       if (checkBsb(value) === true) {
         console.log(`${value.name} is a burst soulbreak.`);
         message = message + 'BURST COMMANDS:\n';
+        if (sbType.toLowerCase() === 'all') {
+          message = message + '(Filter by BSB to see command details)\n';
+        };
         // Let me tell you, I'm learning a lot about ES2015 Promises.
         let bsbQueryResults = new Promise( (resolve, reject) => {
           resolve(searchBsbCommands(value.name));
@@ -215,12 +218,17 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
             let sbMsg = util.format('Soul Break Charge: %d', sbCharge);
             let multiplierMsg = util.format('Multiplier: %s', multiplier);
             message = (
+              message +
+              util.format('*%s (%s)\n', command, description)
+              );
+            if (sbType.toUpperCase() === 'BSB') {
+              message = (
                 message +
-                util.format('*%s (%s)\n', command, description) +
                 util.format('-%s || %s\n', typeMsg, elementMsg) +
                 util.format('-%s || %s\n', targetMsg, multiplierMsg) +
                 util.format('-%s || %s\n\n', castMsg, sbMsg)
               );
+            };
             console.log(`message: ${message}`);
           });
           message = message + '```**';
