@@ -129,8 +129,9 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       return;
     };
     let resolveCounter = 0;
-    let message = '**```';
+    let message = '**```\n';
     if (sbType.toLowerCase() === 'all') {
+      message = message + character + '\n';
       message = message + 'SUMMARY VIEW: use filters to view SB details\n';
     };
     resolve.value.forEach( (value) => {
@@ -173,12 +174,17 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       } else {
         castAndSbMsg = util.format('%s || %s\n', castMsg, sbMsg);
       };
-      let description = value.effects;
+      let description;
+      if (typeof(value.effects) !== 'string') {
+        description = value.formula + ' Attack';
+      } else {
+        description = value.effects;
+      };
       // for searching SB with no filter, return summary
       if (sbType.toLowerCase() === 'all') {
         message = (
           message +
-          util.format('%s: %s (%s)\n', character, value.name, value.tier) +
+          util.format('%s: %s\n', value.tier, value.name) +
           util.format('* %s\n', description)
         );
         if (resolveCounter >= resolve.value.length) {
