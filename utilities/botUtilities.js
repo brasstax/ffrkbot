@@ -119,10 +119,10 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
   if (checkAlias(character) != null) {
     character = checkAlias(character);
   };
-  let results = new Promise((resolve, reject) => {
+  let sbQueryResults = new Promise((resolve, reject) => {
     resolve(searchSoulbreak(character, sbType));
   });
-  results.then( (resolve) => {
+  sbQueryResults.then( (resolve) => {
     character = titlecase.toLaxTitleCase(character);
     if (resolve.value.length === 0) {
       msg.channel.send(`No results for '${character}' '${sbType}'.`);
@@ -130,7 +130,8 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
     };
     if (resolve.value.length > 5) {
       msg.channel.send(`Whoa there sparky, ${character} has like` +
-        ` ${resolve.value.length} soulbreaks.` +
+        ` ${resolve.value.length} soulbreaks and I don't wanna spam` +
+        ` the channel with more than 5 soulbreaks at a time.` +
         ` Filter by Default/SB/SSB/BSB/USB/OSB/CSB.`);
       return;
     };
@@ -176,13 +177,64 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
         util.format('%s\n', description) +
         util.format('%s || %s\n', typeMsg, elementMsg) +
         util.format('%s || %s\n', targetMsg, multiplierMsg) +
-        castAndSbMsg +
-        '```**'
+        castAndSbMsg
         );
-      msg.channel.send(message);
+      // Append BSB commands if the command is a BSB
+      if (checkBsb(value) === true) {
+        console.log(`${value.name} is a burst soulbreak.`);
+        message = message + 'BURST COMMANDS:\n';
+        // Let me tell you, I'm learning a lot about ES2015 Promises.
+        let bsbQueryResults = new Promise( (resolve, reject) => {
+          resolve(searchBsbCommands(value.name));
+        });
+        bsbQueryResults.then( (bsbCommandResults) => {
+          bsbCommandResults.value.forEach( (bsbCommand) => {
+            let command = bsbCommand.name;
+            console.log(`Command ${command} found.`);
+            let target = bsbCommand.target;
+            let description = bsbCommand.effects;
+            let element = bsbCommand.element;
+            let castTime = bsbCommand.time;
+            let sbCharge = bsbCommand.sb;
+            let type = bsbCommand.school;
+            let multiplier = bsbCommand.multiplier;
+            let padLength = 21;
+            let targetMsg = pad(
+              util.format('Target: %s', target),
+              padLength);
+            let typeMsg = pad(
+              util.format('Type: %s', type),
+              padLength);
+            let elementMsg = util.format('Element: %s', element);
+            if (typeof(multiplier) !== 'number') {
+              multiplier = 0;
+            };
+            let castMsg = pad(
+              util.format('Cast Time: %ds', castTime),
+              padLength);
+            let sbMsg = util.format('Soul Break Charge: %d', sbCharge);
+            let multiplierMsg = util.format('Multiplier: %s', multiplier);
+            message = (
+                message +
+                util.format('*%s (%s)\n', command, description) +
+                util.format('-%s || %s\n', typeMsg, elementMsg) +
+                util.format('-%s || %s\n', targetMsg, multiplierMsg) +
+                util.format('-%s || %s\n\n', castMsg, sbMsg)
+              );
+            console.log(`message: ${message}`);
+          });
+          message = message + '```**';
+          msg.channel.send(message);
+        }).catch( (reject) => {
+          console.log(`Error in bsbQueryResults: ${reject}`);
+        });
+      } else {
+        message = message + '```**';
+        msg.channel.send(message);
+      };
     });
   }).catch( (reject) => {
-    console.log(`Something unexpected happened. Error: ${reject}`);
+    console.log(`Error in sbQueryResults. Error: ${reject}`);
   });
   return;
 };
@@ -249,4 +301,29 @@ function checkAlias(alias) {
   } else {
     return null;
   };
+};
+
+/** checkBsb:
+ * Checks to see if a given SB is a BSB.
+ * @param {Dict} sb: The soulbreak to check.
+ * @return {Boolean}: true if it's a BSB, false if not.
+ **/
+function checkBsb(sb) {
+  console.log(`Checking if ${sb.name} is a BSB`);
+  let result = (sb.tier.toUpperCase() === 'BSB') ? (true) : (false);
+  return result;
+};
+
+/** searchBsbCommands:
+ * Searches Enlir's BSB database for BSB commands by name.
+ * @param {String} sb: The SB name to search.
+ * @return {Array} bsb: An array of BSBs, if any.
+ **/
+function searchBsbCommands(sb) {
+  let bsbQuery = util.format('[*source=%s]', sb);
+  let results = jsonQuery(bsbQuery, {
+    data: enlirBsbCommands,
+  });
+  console.log(`bsbQuery results: ${results.value}`);
+  return results;
 };
