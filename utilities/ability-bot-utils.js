@@ -1,11 +1,12 @@
 const util = require('util');
+const path = require('path');
 const jsonQuery = require('json-query');
 const titlecase = require('titlecase');
 const pad = require('pad');
 const escapeStringRegexp = require('escape-string-regexp');
+const botUtils = require(path.join(__dirname, 'common-bot-utils.js'));
 
 const fs = require('fs');
-const path = require('path');
 
 const enlirJsonPath = path.join(__dirname, '..', 'enlir_json');
 const enlirAbilitiesPath = path.join(enlirJsonPath, 'abilities.json');
@@ -50,25 +51,10 @@ exports.ability = function lookupAbility(msg, args) {
  * @param {Object} msg: a discord.js message object.
  **/
 function processAbility(result, msg) {
-  let description;
-  if (result.value.effects === undefined) {
-    description = util.format('%s Attack', result.value.formula);
-  } else {
-    description = result.value.effects;
-  };
-  let multiplier;
-  if (result.value.multiplier === undefined) {
-    multiplier = 0;
-  } else {
-    multiplier = result.value.multiplier;
-  };
-  let element;
-  if (result.value.element === undefined ||
-      result.value.element === '-') {
-    element = 'None';
-  } else {
-    element = result.value.element;
-  };
+  ability = result.value;
+  let description = botUtils.returnDescription(ability);
+  let multiplier = botUtils.returnMultiplier(ability);
+  let element = botUtils.returnElement(ability);
   let padLength = 20;
   let typeMsg = pad(
     util.format('Type: %s', result.value.school),
