@@ -170,9 +170,7 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
           message = message + '(Filter by BSB to see command details)\n';
         };
         // Let me tell you, I'm learning a lot about ES2015 Promises.
-        let bsbQueryResults = new Promise( (resolve, reject) => {
-          resolve(searchBsbCommands(value.name));
-        });
+        let bsbQueryResults = searchBsbCommands(value.name);
         bsbQueryResults.then( (bsbCommandResults) => {
           bsbCommandResults.value.forEach( (bsbCommand) => {
             let command = bsbCommand.name;
@@ -256,14 +254,21 @@ function checkBsb(sb) {
 
 /** searchBsbCommands:
  * Searches Enlir's BSB database for BSB commands by name.
- * @param {String} sb: The SB name to search.
- * @return {Array} bsb: An array of BSBs, if any.
+ * @param {string} sb: The SB name to search.
+ * @return {object} Promise: results of search if resolved.
  **/
 function searchBsbCommands(sb) {
   let bsbQuery = util.format('[*source=%s]', sb);
-  let results = jsonQuery(bsbQuery, {
-    data: enlirBsbCommands,
+  return new Promise( (resolve, reject) => {
+    try {
+      let results = jsonQuery(bsbQuery, {
+        data: enlirBsbCommands,
+      });
+      console.log(`bsbQuery results: ${results.value.length}`);
+      resolve(results);
+    } catch (error) {
+      console.log(`bsbQuery failed, reason: ${error}`);
+      reject(error);
+    }
   });
-  console.log(`bsbQuery results: ${results.value}`);
-  return results;
 };
