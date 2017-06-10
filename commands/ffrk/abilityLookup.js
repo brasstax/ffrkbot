@@ -1,6 +1,7 @@
 const {Command} = require('discord.js-commando');
 const path = require('path');
-botPath = path.join(__dirname, '..', '..', 'utilities', 'botUtilities.js');
+botPath = path.join(__dirname,
+  '..', '..', 'utilities', 'ability-bot-utils.js');
 const botUtils = require(botPath);
 
 module.exports = class ReplyCommand extends Command {
