@@ -22,10 +22,10 @@ const aliases = JSON.parse(aliasesFile);
 
 /** searchSoulbreak:
  * Searches and returns the soul breaks for a given character.
- * @param {String} character: the name of the character to search.
- * @param {String} sbType: The type of soul break to look up
+ * @param {string} character: the name of the character to search.
+ * @param {string} sbType: The type of soul break to look up
  *  (one of: all, default, sb, bsb, usb, osb). Defaults to 'all'.)
- * @return {Array} soulbreaks: An array of soulbreaks by name
+ * @return {object} Promise: a Promise with a result if resolved.
  **/
 function searchSoulbreak(character, sbType='all') {
   console.log(`Character to lookup: ${character}`);
