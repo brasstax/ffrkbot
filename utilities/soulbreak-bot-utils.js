@@ -33,27 +33,34 @@ function searchSoulbreak(character, sbType='all') {
   character = escapeStringRegexp(character);
   let characterQueryString = util.format('[*character~/^%s$/i]', character);
   console.log(`characterQueryString: ${characterQueryString}`);
-  let result;
-  result = jsonQuery(characterQueryString, {
-    data: enlirSoulbreaks,
-    allowRegexp: true,
+  return new Promise( (resolve, reject) => {
+    try {
+      let result;
+      result = jsonQuery(characterQueryString, {
+        data: enlirSoulbreaks,
+        allowRegexp: true,
+      });
+      if (result.value === null) {
+        console.log('No results found.');
+        resolve(result);
+      };
+      if (sbType.toLowerCase() !== 'all') {
+        let dataset = result.value;
+        sbType = escapeStringRegexp(sbType);
+        let tierQueryString = util.format('[*tier~/^%s$/i]', sbType);
+        console.log(`tierQueryString: ${tierQueryString}`);
+        result = jsonQuery(tierQueryString, {
+          data: dataset,
+          allowRegexp: true,
+        });
+      };
+      console.log(`Returning results: ${result.value.length}`);
+      resolve(result);
+    } catch (error) {
+      console.log(`Error in searchSoulbreak: ${error}`);
+      reject(error);
+    };
   });
-  if (result.value === null) {
-    console.log('No results found.');
-    return result;
-  };
-  if (sbType.toLowerCase() !== 'all') {
-    let dataset = result.value;
-    sbType = escapeStringRegexp(sbType);
-    let tierQueryString = util.format('[*tier~/^%s$/i]', sbType);
-    console.log(`tierQueryString: ${tierQueryString}`);
-    result = jsonQuery(tierQueryString, {
-      data: dataset,
-      allowRegexp: true,
-    });
-  };
-  console.log('Returning results.');
-  return result;
 };
 
 /** checkSoulbreakFilter:
@@ -96,10 +103,9 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
   if (checkAlias(character) != null) {
     character = checkAlias(character);
   };
-  let sbQueryResults = new Promise((resolve, reject) => {
-    resolve(searchSoulbreak(character, sbType));
-  });
+  let sbQueryResults = searchSoulbreak(character, sbType);
   sbQueryResults.then( (resolve) => {
+    console.log(`calling sbQueryResults.`);
     character = titlecase.toLaxTitleCase(character);
     if (resolve.value.length === 0) {
       msg.channel.send(`No results for '${character}' '${sbType}'.`);
