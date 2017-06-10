@@ -122,100 +122,10 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       return;
     };
     resolve.value.forEach( (value) => {
-      // Holy heck I'll need to make this into its own function somehow.
-      console.log(`dm: ${dm}`);
-      let element = botUtils.returnElement(value);
-      let pad = 22;
-      let skillType = value.type;
-      let target = value.target;
-      let castTime = value.time;
-      let multiplier = botUtils.returnMultiplier(value);
-      let sbTier = value.tier;
-      let typeMsg = botUtils.returnPropertyString(
-        skillType, 'Type', pad);
-      let elementMsg = botUtils.returnPropertyString(element, 'Element');
-      let targetMsg = botUtils.returnPropertyString(
-        target, 'Target', pad);
-      let multiplierMsg = botUtils.returnPropertyString(
-        multiplier, 'Multiplier');
-      let castMsg = botUtils.returnPropertyString(
-        castTime, 'Cast Time', pad);
-      let sbMsg = botUtils.returnPropertyString(sbTier, 'Soul Break Type');
-      // remove sbMsg from castAndSbMsg if sbType is anything except 'all'
-      let castAndSbMsg;
-      if (sbType.toLowerCase() !== 'all') {
-        castAndSbMsg = util.format('%s\n', castMsg);
-      } else {
-        castAndSbMsg = util.format('%s || %s\n', castMsg, sbMsg);
-      };
-      let description = botUtils.returnDescription(value);
-      let message = (
-        '**```\n' +
-        util.format('%s: %s\n', character, value.name) +
-        util.format('%s\n', description) +
-        util.format('%s || %s\n', typeMsg, elementMsg) +
-        util.format('%s || %s\n', targetMsg, multiplierMsg) +
-        castAndSbMsg
-        );
-      // Append BSB commands if the command is a BSB
-      if (checkBsb(value) === true) {
-        console.log(`${value.name} is a burst soulbreak.`);
-        message = message + 'BURST COMMANDS:\n';
-        if (sbType.toLowerCase() === 'all') {
-          message = message + '(Filter by BSB to see command details)\n';
-        };
-        // Let me tell you, I'm learning a lot about ES2015 Promises.
-        let bsbQueryResults = searchBsbCommands(value.name);
-        bsbQueryResults.then( (bsbCommandResults) => {
-          bsbCommandResults.value.forEach( (bsbCommand) => {
-            let command = bsbCommand.name;
-            console.log(`Command ${command} found.`);
-            let target = bsbCommand.target;
-            let description = botUtils.returnDescription(bsbCommand);
-            let element = botUtils.returnElement(bsbCommand);
-            let castTime = bsbCommand.time;
-            let sbCharge = bsbCommand.sb;
-            let type = bsbCommand.school;
-            let multiplier = botUtils.returnMultiplier(bsbCommand);
-            let pad = 21;
-            let targetMsg = botUtils.returnPropertyString(
-              target, 'Target', pad);
-            let typeMsg = botUtils.returnPropertyString(type, 'Type');
-            let elementMsg = botUtils.returnPropertyString(element, 'Element');
-            let castMsg = botUtils.returnPropertyString(
-              castTime, 'Cast Time', pad);
-            let sbMsg = botUtils.returnPropertyString(
-              sbCharge, 'Soul Break Charge');
-            let multiplierMsg = botUtils.returnPropertyString(
-              multiplier, 'Multiplier');
-            message = (
-              message +
-              util.format('*%s (%s)\n', command, description)
-              );
-            if (sbType.toUpperCase() === 'BSB') {
-              message = (
-                message +
-                util.format('-%s || %s\n', typeMsg, elementMsg) +
-                util.format('-%s || %s\n', targetMsg, multiplierMsg) +
-                util.format('-%s || %s\n\n', castMsg, sbMsg)
-              );
-            };
-            console.log(`message: ${message}`);
-          });
-          message = message + '```**';
-          msg.channel.send(message);
-        }).catch( (reject) => {
-          console.log(`Error in bsbQueryResults: ${reject}`);
-        });
-      } else {
-        message = message + '```**';
-        msg.channel.send(message);
-      };
+      processSoulbreak(value, msg, dm, character, sbType);
     });
-  }).catch( (reject) => {
-    console.log(`Error in sbQueryResults. Error: ${reject}`);
-  });
   return;
+  });
 };
 
 /** checkAlias:
@@ -261,4 +171,103 @@ function searchBsbCommands(sb) {
       reject(error);
     }
   });
+};
+
+/** processSoulbreak:
+ * Takes JSON about a soulbreak and outputs info in plaintext.
+ * @param {object} soulbreak: a JSON dict returned from searchSoulbreak.
+ * @param {object} msg: a discord.js-commando Message object.
+ * @param {boolean} dm: Whether to DM the user the information.
+ * @param {string} character: the character to search.
+ * @param {string} sbType: The soulbreak filter to use.
+ **/
+function processSoulbreak(soulbreak, msg, dm=false, character, sbType='all') {
+  console.log(`dm: ${dm}`);
+  let element = botUtils.returnElement(soulbreak);
+  let pad = 22;
+  let skillType = soulbreak.type;
+  let target = soulbreak.target;
+  let castTime = soulbreak.time;
+  let multiplier = botUtils.returnMultiplier(soulbreak);
+  let sbTier = soulbreak.tier;
+  let typeMsg = botUtils.returnPropertyString(
+    skillType, 'Type', pad);
+  let elementMsg = botUtils.returnPropertyString(element, 'Element');
+  let targetMsg = botUtils.returnPropertyString(
+    target, 'Target', pad);
+  let multiplierMsg = botUtils.returnPropertyString(
+    multiplier, 'Multiplier');
+  let castMsg = botUtils.returnPropertyString(
+    castTime, 'Cast Time', pad);
+  let sbMsg = botUtils.returnPropertyString(sbTier, 'Soul Break Type');
+  // remove sbMsg from castAndSbMsg if sbType is anything except 'all'
+  let castAndSbMsg;
+  if (sbType.toLowerCase() !== 'all') {
+    castAndSbMsg = util.format('%s\n', castMsg);
+  } else {
+    castAndSbMsg = util.format('%s || %s\n', castMsg, sbMsg);
+  };
+  let description = botUtils.returnDescription(soulbreak);
+  let message = (
+    '**```\n' +
+    util.format('%s: %s\n', character, soulbreak.name) +
+    util.format('%s\n', description) +
+    util.format('%s || %s\n', typeMsg, elementMsg) +
+    util.format('%s || %s\n', targetMsg, multiplierMsg) +
+    castAndSbMsg
+    );
+  // Append BSB commands if the command is a BSB
+  if (checkBsb(soulbreak) === true) {
+    console.log(`${soulbreak.name} is a burst soulbreak.`);
+    message = message + 'BURST COMMANDS:\n';
+    if (sbType.toLowerCase() === 'all') {
+      message = message + '(Filter by BSB to see command details)\n';
+    };
+    // Let me tell you, I'm learning a lot about ES2015 Promises.
+    let bsbQueryResults = searchBsbCommands(soulbreak.name);
+    bsbQueryResults.then( (bsbCommandResults) => {
+      bsbCommandResults.value.forEach( (bsbCommand) => {
+        let command = bsbCommand.name;
+        console.log(`Command ${command} found.`);
+        let target = bsbCommand.target;
+        let description = botUtils.returnDescription(bsbCommand);
+        let element = botUtils.returnElement(bsbCommand);
+        let castTime = bsbCommand.time;
+        let sbCharge = bsbCommand.sb;
+        let type = bsbCommand.school;
+        let multiplier = botUtils.returnMultiplier(bsbCommand);
+        let pad = 21;
+        let targetMsg = botUtils.returnPropertyString(
+          target, 'Target', pad);
+        let typeMsg = botUtils.returnPropertyString(type, 'Type', pad);
+        let elementMsg = botUtils.returnPropertyString(element, 'Element');
+        let castMsg = botUtils.returnPropertyString(
+          castTime, 'Cast Time', pad);
+        let sbMsg = botUtils.returnPropertyString(
+          sbCharge, 'Soul Break Charge');
+        let multiplierMsg = botUtils.returnPropertyString(
+          multiplier, 'Multiplier');
+        message = (
+          message +
+          util.format('*%s (%s)\n', command, description)
+          );
+        if (sbType.toUpperCase() === 'BSB') {
+          message = (
+            message +
+            util.format('-%s || %s\n', typeMsg, elementMsg) +
+            util.format('-%s || %s\n', targetMsg, multiplierMsg) +
+            util.format('-%s || %s\n\n', castMsg, sbMsg)
+          );
+        };
+        console.log(`message: ${message}`);
+      });
+      message = message + '```**';
+      msg.channel.send(message);
+    }).catch( (reject) => {
+      console.log(`Error in bsbQueryResults: ${reject}`);
+    });
+  } else {
+    message = message + '```**';
+    msg.channel.send(message);
+  };
 };
