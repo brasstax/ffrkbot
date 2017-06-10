@@ -128,18 +128,14 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       msg.channel.send(`No results for '${character}' '${sbType}'.`);
       return;
     };
-    let resolveCounter = 0;
-    let message = '**```\n';
-    if (sbType.toLowerCase() === 'all') {
-      message = message + character + '\n';
-      message = message + 'SUMMARY VIEW: use filters to view SB details\n';
+    if (resolve.value.length > 5) {
+      msg.channel.send(`Whoa there sparky, ${character} has like` +
+        ` ${resolve.value.length} soulbreaks and I don't wanna spam` +
+        ` the channel with more than 5 soulbreaks at a time.` +
+        ` Filter by Default/SB/SSB/BSB/USB/OSB/CSB.`);
+      return;
     };
     resolve.value.forEach( (value) => {
-      // Fix formatting for messages when searching with SB filter
-      resolveCounter = resolveCounter + 1;
-      if (sbType.toLowerCase() !== 'all') {
-        message = '**```';
-      };
       // Holy heck I'll need to make this into its own function somehow.
       let element;
       if (value.element === undefined ||
@@ -174,26 +170,8 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       } else {
         castAndSbMsg = util.format('%s || %s\n', castMsg, sbMsg);
       };
-      let description;
-      if (typeof(value.effects) !== 'string') {
-        description = value.formula + ' Attack';
-      } else {
-        description = value.effects;
-      };
-      // for searching SB with no filter, return summary
-      if (sbType.toLowerCase() === 'all') {
-        message = (
-          message +
-          util.format('%s: %s\n', value.tier, value.name) +
-          util.format('* %s\n', description)
-        );
-        if (resolveCounter >= resolve.value.length) {
-          message = message + '```**';
-          msg.channel.send(message);
-        };
-        return;
-      } else {
-      message = (
+      let description = value.effects;
+      let message = (
         '**```\n' +
         util.format('%s: %s\n', character, value.name) +
         util.format('%s\n', description) +
@@ -261,7 +239,6 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       } else {
         message = message + '```**';
         msg.channel.send(message);
-      };
       };
     });
   }).catch( (reject) => {
