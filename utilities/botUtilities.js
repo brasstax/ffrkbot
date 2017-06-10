@@ -92,6 +92,21 @@ function searchSoulbreak(character, sbType='all') {
   return result;
 };
 
+/** checkSoulbreakFilter:
+ *  Checks the soulbreak filter to see if it is a valid soulbreak type.
+ *  @param {String} sbType: The soulbreak filter to check.
+ *  @return {Boolean}: Valid or invalid soulbreak.
+ **/
+function checkSoulbreakFilter(sbType) {
+  let possibleSbTypes = ['all', 'default', 'sb', 'ssb',
+    'bsb', 'usb', 'osb', 'csb'];
+  if (possibleSbTypes.indexOf(sbType.toLowerCase()) === -1) {
+    return false;
+  } else {
+    return true;
+  };
+};
+
 /** lookupSoulbreak:
  *  Runs searchSoulbreak to find a soul break for a given character.
  *  @param {Object} msg: A message object from the Discord.js bot.
@@ -108,9 +123,7 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       'Character name must be at least three characters.');
     return;
   };
-  let possibleSbTypes = ['all', 'default', 'sb', 'ssb',
-    'bsb', 'usb', 'osb', 'csb'];
-  if (possibleSbTypes.indexOf(sbType.toLowerCase()) === -1) {
+  if (checkSoulbreakFilter(sbType) === false) {
     msg.channel.send(
       'Soulbreak type not one of: All, Default, SB, SSB, BSB, USB, OSB, CSB.');
     return;
