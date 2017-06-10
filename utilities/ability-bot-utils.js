@@ -1,4 +1,5 @@
 const util = require('util');
+const {RichEmbed} = require('discord.js');
 const path = require('path');
 const jsonQuery = require('json-query');
 const titlecase = require('titlecase');
@@ -42,7 +43,13 @@ exports.ability = function lookupAbility(msg, args) {
   if (result.value === null) {
     msg.channel.send(`Ability '${query}' not found.`);
   } else {
-    processAbility(result, msg);
+    sendRichEmbedAbility(result, msg)
+      .then( (res) => {
+        console.log(res);
+      }).catch( (err) => {
+        console.log(err);
+        processAbility(result, msg);
+      });
   };
 };
 /** processAbility:
@@ -78,4 +85,39 @@ function processAbility(result, msg) {
     '```**'
     );
   msg.channel.send(message);
+};
+/** sendRichEmbedAbility:
+ * Processes and outputs information about an ability in RichEmbed format.
+ * @param {object} result: the result from lookupAbility.
+ * @param {object} msg: Discord.js-command message object.
+ * @return {object} Promise
+ **/
+function sendRichEmbedAbility(result, msg) {
+  ability = result.value;
+  let description = botUtils.returnDescription(ability);
+  let multiplier = botUtils.returnMultiplier(ability);
+  let element = botUtils.returnElement(ability);
+  let abilityType = ability.school;
+  let target = ability.target;
+  let castTime = ability.time;
+  let sbCharge = ability.sb;
+  let embed = new RichEmbed()
+    .setTitle(ability.name)
+    .setDescription(description)
+    .setColor('#53ddff')
+    .addField('**Type**', abilityType, true)
+    .addField('**Element**', element, true)
+    .addField('**Target**', target, true)
+    .addField('**Multiplier**', multiplier, true)
+    .addField('**Cast Time**', castTime, true)
+    .addField('**Soul Break Charge**', sbCharge, true);
+  return new Promise( (res, err) => {
+    msg.channel.send({embed})
+      .then( (resolve) => {
+        res(resolve);
+      }).catch( (error) => {
+        console.log(`error in sendRichEmbedAbility: ${error}`);
+        err(error);
+      });
+  });
 };
