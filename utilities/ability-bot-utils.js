@@ -44,8 +44,7 @@ exports.ability = function lookupAbility(msg, args) {
     msg.channel.send(`Ability '${query}' not found.`);
   } else {
     sendRichEmbedAbility(result, msg)
-      .then( (res) => {
-      }).catch( (err) => {
+      .catch( (err) => {
         processAbility(result, msg);
       });
   };
