@@ -1,11 +1,11 @@
 const util = require('util');
 const jsonQuery = require('json-query');
 const titlecase = require('titlecase');
-const pad = require('pad');
 const escapeStringRegexp = require('escape-string-regexp');
 
 const fs = require('fs');
 const path = require('path');
+const botUtils = require(path.join(__dirname, 'common-bot-utils.js'));
 
 const enlirJsonPath = path.join(__dirname, '..', 'enlir_json');
 const enlirSoulbreaksPath = path.join(enlirJsonPath, 'soulbreaks.json');
@@ -111,41 +111,36 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       msg.channel.send(`No results for '${character}' '${sbType}'.`);
       return;
     };
+    let dm = false;
     if (resolve.value.length > 5) {
-      msg.channel.send(`Whoa there sparky, ${character} has like` +
+      msg.channel.send(`${character} has like` +
         ` ${resolve.value.length} soulbreaks and I don't wanna spam` +
         ` the channel with more than 5 soulbreaks at a time.` +
-        ` Filter by Default/SB/SSB/BSB/USB/OSB/CSB.`);
+        ` I'm going to DM you this info; if you want me to send it here, ` +
+        ` filter by Default/SB/SSB/BSB/USB/OSB/CSB.`);
+      dm = true;
       return;
     };
     resolve.value.forEach( (value) => {
       // Holy heck I'll need to make this into its own function somehow.
-      let element;
-      if (value.element === undefined ||
-          value.element === '-') {
-        element = 'None';
-      } else {
-        element = value.element;
-      };
-      let padLength = 22;
-      let typeMsg = pad(
-        util.format('Type: %s', value.type),
-        padLength);
-      let elementMsg = util.format('Element: %s', element);
-      let targetMsg = pad(
-        util.format('Target: %s', value.target),
-        padLength);
-      let multiplier;
-      if (typeof(value.multiplier) !== 'number') {
-        multiplier = 0;
-      } else {
-        multiplier = value.multiplier;
-      };
-      let multiplierMsg = util.format('Multiplier: %s', multiplier);
-      let castMsg = pad(
-        util.format('Cast Time: %ds', value.time),
-        padLength);
-      let sbMsg = util.format('Soul Break Type: %s', value.tier);
+      console.log(`dm: ${dm}`);
+      let element = botUtils.returnElement(value);
+      let pad = 22;
+      let skillType = value.type;
+      let target = value.target;
+      let castTime = value.time;
+      let multiplier = botUtils.returnMultiplier(value);
+      let sbTier = value.tier;
+      let typeMsg = botUtils.returnPropertyString(
+        skillType, 'Type', pad);
+      let elementMsg = botUtils.returnPropertyString(element, 'Element');
+      let targetMsg = botUtils.returnPropertyString(
+        target, 'Target', pad);
+      let multiplierMsg = botUtils.returnPropertyString(
+        multiplier, 'Multiplier');
+      let castMsg = botUtils.returnPropertyString(
+        castTime, 'Cast Time', pad);
+      let sbMsg = botUtils.returnPropertyString(sbTier, 'Soul Break Type');
       // remove sbMsg from castAndSbMsg if sbType is anything except 'all'
       let castAndSbMsg;
       if (sbType.toLowerCase() !== 'all') {
@@ -153,7 +148,7 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       } else {
         castAndSbMsg = util.format('%s || %s\n', castMsg, sbMsg);
       };
-      let description = value.effects;
+      let description = botUtils.returnDescription(value);
       let message = (
         '**```\n' +
         util.format('%s: %s\n', character, value.name) +
@@ -176,28 +171,23 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
             let command = bsbCommand.name;
             console.log(`Command ${command} found.`);
             let target = bsbCommand.target;
-            let description = bsbCommand.effects;
-            let element = bsbCommand.element;
+            let description = botUtils.returnDescription(bsbCommand);
+            let element = botUtils.returnElement(bsbCommand);
             let castTime = bsbCommand.time;
             let sbCharge = bsbCommand.sb;
             let type = bsbCommand.school;
-            let multiplier = bsbCommand.multiplier;
-            let padLength = 21;
-            let targetMsg = pad(
-              util.format('Target: %s', target),
-              padLength);
-            let typeMsg = pad(
-              util.format('Type: %s', type),
-              padLength);
-            let elementMsg = util.format('Element: %s', element);
-            if (typeof(multiplier) !== 'number') {
-              multiplier = 0;
-            };
-            let castMsg = pad(
-              util.format('Cast Time: %ds', castTime),
-              padLength);
-            let sbMsg = util.format('Soul Break Charge: %d', sbCharge);
-            let multiplierMsg = util.format('Multiplier: %s', multiplier);
+            let multiplier = botUtils.returnMultiplier(bsbCommand);
+            let pad = 21;
+            let targetMsg = botUtils.returnPropertyString(
+              target, 'Target', pad);
+            let typeMsg = botUtils.returnPropertyString(type, 'Type');
+            let elementMsg = botUtils.returnPropertyString(element, 'Element');
+            let castMsg = botUtils.returnPropertyString(
+              castTime, 'Cast Time', pad);
+            let sbMsg = botUtils.returnPropertyString(
+              sbCharge, 'Soul Break Charge');
+            let multiplierMsg = botUtils.returnPropertyString(
+              multiplier, 'Multiplier');
             message = (
               message +
               util.format('*%s (%s)\n', command, description)
