@@ -113,13 +113,12 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
     };
     let dm = false;
     if (resolve.value.length > 5) {
-      msg.channel.send(`${character} has like` +
+      msg.reply(`${character} has like` +
         ` ${resolve.value.length} soulbreaks and I don't wanna spam` +
         ` the channel with more than 5 soulbreaks at a time.` +
         ` I'm going to DM you this info; if you want me to send it here, ` +
         ` filter by Default/SB/SSB/BSB/USB/OSB/CSB.`);
       dm = true;
-      return;
     };
     resolve.value.forEach( (value) => {
       processSoulbreak(value, msg, dm, character, sbType);
@@ -262,12 +261,22 @@ function processSoulbreak(soulbreak, msg, dm=false, character, sbType='all') {
         console.log(`message: ${message}`);
       });
       message = message + '```**';
-      msg.channel.send(message);
+      if (dm === true) {
+        console.log(`msg.author: ${msg.author}`);
+        msg.author.send(message);
+      } else {
+        msg.channel.send(message);
+      };
     }).catch( (reject) => {
       console.log(`Error in bsbQueryResults: ${reject}`);
     });
   } else {
     message = message + '```**';
-    msg.channel.send(message);
+    if (dm === true) {
+      console.log(`msg.author: ${msg.author}`);
+      msg.author.send(message);
+    } else {
+      msg.channel.send(message);
+    };
   };
 };
