@@ -45,9 +45,7 @@ exports.ability = function lookupAbility(msg, args) {
   } else {
     sendRichEmbedAbility(result, msg)
       .then( (res) => {
-        console.log(res);
       }).catch( (err) => {
-        console.log(err);
         processAbility(result, msg);
       });
   };
