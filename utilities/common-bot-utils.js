@@ -1,5 +1,6 @@
 const util = require('util');
 const titlecase = require('titlecase');
+const pad = require('pad');
 
 /** returnDescription:
  * Checks the value of an ability or soulbreak's effects to see if

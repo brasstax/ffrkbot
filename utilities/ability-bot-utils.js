@@ -3,7 +3,6 @@ const {RichEmbed} = require('discord.js');
 const path = require('path');
 const jsonQuery = require('json-query');
 const titlecase = require('titlecase');
-const pad = require('pad');
 const escapeStringRegexp = require('escape-string-regexp');
 const botUtils = require(path.join(__dirname, 'common-bot-utils.js'));
 
@@ -60,18 +59,15 @@ function processAbility(result, msg) {
   let multiplier = botUtils.returnMultiplier(ability);
   let element = botUtils.returnElement(ability);
   let padLength = 20;
-  let typeMsg = pad(
-    util.format('Type: %s', result.value.school),
+  let typeMsg = botUtils.returnPropertyString(
+      ability.type, 'Type', padLength);
+  let elementMsg = botUtils.returnPropertyString(element, 'Element');
+  let targetMsg = botUtils.returnPropertyString(
+    ability.target, 'Target', padLength);
+  let multiplierMsg = botUtils.returnPropertyString(multiplier, 'Multiplier');
+  let castMsg = botUtils.returnPropertyString(ability.time, 'Cast Time',
     padLength);
-  let elementMsg = util.format('Element: %s', element);
-  let targetMsg = pad(
-    util.format('Target: %s', result.value.target),
-    padLength);
-  let multiplierMsg = util.format('Multiplier: %s', multiplier);
-  let castMsg = pad(
-    util.format('Cast Time: %ds', result.value.time),
-    padLength);
-  let sbMsg = util.format('Soul Break Charge: %d', result.value.sb);
+  let sbMsg = botUtils.returnPropertyString(ability.sb, 'Soul Break Charge');
   let message = (
     '**```\n' +
     util.format('%s\n', result.value.name) +
