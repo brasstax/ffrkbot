@@ -143,9 +143,8 @@ function sendSoulbreakPlaintextSummary(soulbreaks, msg) {
     let description = botUtils.returnDescription(soulbreak);
     let tier = soulbreak.tier;
     let relic = soulbreak.relic;
-    let nameMsg = botUtils.returnPropertyString(name, 'Name');
-    let descMsg = botUtils.returnPropertyString(description,
-      description);
+    let nameMsg = name;
+    let descMsg = description;
     let tierMsg = util.format('(%s)', tier);
     let relicMsg = util.format('{Relic: %s}', relic);
     nameMsg = util.format('%s %s %s\n', nameMsg, tierMsg, relicMsg);
@@ -229,7 +228,9 @@ function searchBsbCommands(sb) {
  **/
 function processSoulbreak(soulbreak, msg, dm=false, character, sbType='all') {
   console.log(`dm: ${dm}`);
+  let name = soulbreak.name;
   let element = botUtils.returnElement(soulbreak);
+  let relic = soulbreak.relic;
   let pad = 22;
   let skillType = soulbreak.type;
   let target = soulbreak.target;
@@ -256,7 +257,7 @@ function processSoulbreak(soulbreak, msg, dm=false, character, sbType='all') {
   let description = botUtils.returnDescription(soulbreak);
   let message = (
     '**```\n' +
-    util.format('%s: %s\n', character, soulbreak.name) +
+    util.format('%s: %s {Relic: %s}\n', character, name, relic) +
     util.format('%s\n', description) +
     util.format('%s || %s\n', typeMsg, elementMsg) +
     util.format('%s || %s\n', targetMsg, multiplierMsg) +
