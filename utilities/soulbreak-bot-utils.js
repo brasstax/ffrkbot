@@ -112,25 +112,49 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       return;
     };
     let dm = false;
-    if (resolve.value.length > 5) {
-      msg.reply(`${character} has like` +
-        ` ${resolve.value.length} soulbreaks and I don't wanna spam` +
-        ` the channel with more than 5 soulbreaks at a time.` +
-        ` I'm going to DM you this info; if you want me to send it here, ` +
-        ` filter by Default/SB/SSB/BSB/USB/OSB/CSB.`);
-      dm = true;
-    };
     let values = [];
     resolve.value.forEach( (value) => {
       values.push(value);
     });
-    values.forEach( (value) => {
-      processSoulbreak(value, msg, dm, character, sbType);
-    });
+    if (sbType === 'all') {
+      sendSoulbreakPlaintextSummary(values, msg);
+    } else {
+      values.forEach( (value) => {
+        processSoulbreak(value, msg, dm, character, sbType);
+      });
+    };
   return;
   });
 };
 
+/** sendSoulbreakPlaintextSummary:
+ * Sends a summary of a character's soulbreaks.
+ * @param {array} soulbreaks: an array of soulbreaks.
+ * @param {object} msg: the discord.js-commando message object.
+ **/
+function sendSoulbreakPlaintextSummary(soulbreaks, msg) {
+  let message = '**```\n';
+  let character = soulbreaks[0].character;
+  message = message + character + '\n';
+  message = message +
+    'SOULBREAK SUMMARY (use filters for details)\n\n';
+  soulbreaks.forEach( (soulbreak) => {
+    let name = soulbreak.name;
+    let description = botUtils.returnDescription(soulbreak);
+    let tier = soulbreak.tier;
+    let relic = soulbreak.relic;
+    let nameMsg = botUtils.returnPropertyString(name, 'Name');
+    let descMsg = botUtils.returnPropertyString(description,
+      description);
+    let tierMsg = util.format('(%s)', tier);
+    let relicMsg = util.format('{Relic: %s}', relic);
+    nameMsg = util.format('%s %s %s\n', nameMsg, tierMsg, relicMsg);
+    descMsg = descMsg + '\n';
+    message = message + nameMsg + descMsg + '\n';
+  });
+  message = message + '```**';
+  msg.channel.send(message);
+};
 /** sendRichEmbedSoulbreak:
  * Processes and outputs information about a soulbreak in RichEmbed format.
  * @param {object} soulbreak: each value from lookupSoulbreak results.
@@ -140,7 +164,7 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
  * @param {string} sbType: the SB to filter and display.
  * @return {object} Promise
  **/
-function sendRichEmbedSoulbeak(soulbreak, msg, dm=false,
+function sendRichEmbedSoulbreak(soulbreak, msg, dm=false,
     character, sbType='all') {
   let description = botUtils.returnDescription(soulbreak);
   let multiplier = botUtils.returnMultiplier(soulbreak);
