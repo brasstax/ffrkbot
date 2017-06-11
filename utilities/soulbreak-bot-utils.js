@@ -245,6 +245,9 @@ function processRichEmbedBsb(bsbCommand) {
     .addField('**Multiplier**', multiplier, true)
     .addField('**Cast Time**', castTime, true)
     .addField('**Soul Break Charge**', sbCharge, true);
+  if (command.includes('(S)')) {
+    embed.setColor('#4cff3f');
+  };
   return embed;
 };
 /** checkAlias:
