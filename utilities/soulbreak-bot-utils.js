@@ -121,9 +121,11 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       sendSoulbreakPlaintextSummary(values, msg);
     } else {
       values.forEach( (value) => {
-        let sbResult = sendRichEmbedSoulbreak(value, msg, dm, sbType);
-        sbResult.then( (result) => {
-          msg.channel.send(result);
+        let sbResults = sendRichEmbedSoulbreak(value, msg, dm, sbType);
+        sbResults.then( (result) => {
+          result.forEach((embed) => {
+            msg.channel.send(embed);
+          });
         }).catch( (err) => {
             console.log(`Error calling sendRichEmbedSoulbreak: ${err}`);
             processSoulbreak(value, msg, dm, character, sbType);
@@ -194,12 +196,14 @@ function sendRichEmbedSoulbreak(soulbreak, msg, dm=false, sbType='all') {
   if (sbType !== 'all') {
     embed.addField('**Soul Break Type**', sbTier, true);
   };
+  embeds.push({embed});
   if (checkBsb(soulbreak) === true) {
     console.log(`${name} is a burst soulbreak.`);
     let bsbQueryResults = searchBsbCommands(name);
     bsbQueryResults.then( (bsbCommands) => {
       bsbCommands.value.forEach( (bsbCommand) => {
           embed = processRichEmbedBsb(bsbCommand, embed);
+          embeds.push({embed});
       });
     }).catch( (error) => {
       console.log(`Error processing RichEmbed BSB, error ${error}`);
@@ -207,7 +211,7 @@ function sendRichEmbedSoulbreak(soulbreak, msg, dm=false, sbType='all') {
   };
   return new Promise( (resolve, reject) => {
     try {
-      resolve({embed});
+      resolve(embeds);
     } catch (err) {
       console.log(`Error in sendRichEmbedSoulbreak, error: ${err}`);
       reject(err);
@@ -218,20 +222,23 @@ function sendRichEmbedSoulbreak(soulbreak, msg, dm=false, sbType='all') {
 /** processRichEmbedBsb:
  * Adds BSB commands to an embed message.
  * @param {object} bsbCommand: a JSON dict for a BSB command.
- * @param {object} embed: a RichEmbed() message.
  * @return {object} embed: a RichEmbed() message.
  **/
-function processRichEmbedBsb(bsbCommand, embed) {
+function processRichEmbedBsb(bsbCommand) {
   let command = bsbCommand.name;
   console.log(`Command ${command} found for processRichEmbedBsb.`);
   let target = bsbCommand.target;
+  let source = bsbCommand.source;
   let description = botUtils.returnDescription(bsbCommand);
   let element = botUtils.returnElement(bsbCommand);
   let castTime = bsbCommand.time;
   let sbCharge = bsbCommand.sb;
   let type = bsbCommand.school;
   let multiplier = botUtils.returnMultiplier(bsbCommand);
-  embed.addField(util.format('**BSB CMD: %s**', command), description)
+  let embed = new RichEmbed()
+    .setTitle(util.format('**%s BSB Command: %s**', source, command))
+    .setDescription(description)
+    .setColor('#ea9f3c')
     .addField('**Type**', type, true)
     .addField('**Element**', element, true)
     .addField('**Target**', target, true)
