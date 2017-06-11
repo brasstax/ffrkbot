@@ -120,13 +120,36 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
         ` filter by Default/SB/SSB/BSB/USB/OSB/CSB.`);
       dm = true;
     };
+    let values = [];
     resolve.value.forEach( (value) => {
+      values.push(value);
+    });
+    values.forEach( (value) => {
       processSoulbreak(value, msg, dm, character, sbType);
     });
   return;
   });
 };
 
+/** sendRichEmbedSoulbreak:
+ * Processes and outputs information about a soulbreak in RichEmbed format.
+ * @param {object} soulbreak: each value from lookupSoulbreak results.
+ * @param {object} msg: Discord.js-commando message object.
+ * @param {boolean} dm: whether to DM the user.
+ * @param {string} character: the name of the character.
+ * @param {string} sbType: the SB to filter and display.
+ * @return {object} Promise
+ **/
+function sendRichEmbedSoulbeak(soulbreak, msg, dm=false,
+    character, sbType='all') {
+  let description = botUtils.returnDescription(soulbreak);
+  let multiplier = botUtils.returnMultiplier(soulbreak);
+  let element = botUtils.returnElement(soulbreak);
+  let skillType = soulbreak.type;
+  let castTime = soulbreak.time;
+  let target = soulbreak.target;
+  let sbTier = soulbreak.tier;
+};
 /** checkAlias:
  * Checks to see if an alias belongs to a character.
  * @param {String} alias: The alias to check.
