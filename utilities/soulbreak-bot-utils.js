@@ -193,7 +193,7 @@ function sendRichEmbedSoulbreak(soulbreak, msg, dm=false, sbType='all') {
     .addField('**Target**', target, true)
     .addField('**Multiplier**', multiplier, true)
     .addField('**Cast Time**', castTime, true);
-  if (sbType !== 'all') {
+  if (sbType === 'all') {
     embed.addField('**Soul Break Type**', sbTier, true);
   };
   embeds.push({embed});
