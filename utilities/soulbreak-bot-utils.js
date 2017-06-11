@@ -226,38 +226,7 @@ function processSoulbreak(soulbreak, msg, dm=false, character, sbType='all') {
     let bsbQueryResults = searchBsbCommands(soulbreak.name);
     bsbQueryResults.then( (bsbCommandResults) => {
       bsbCommandResults.value.forEach( (bsbCommand) => {
-        let command = bsbCommand.name;
-        console.log(`Command ${command} found.`);
-        let target = bsbCommand.target;
-        let description = botUtils.returnDescription(bsbCommand);
-        let element = botUtils.returnElement(bsbCommand);
-        let castTime = bsbCommand.time;
-        let sbCharge = bsbCommand.sb;
-        let type = bsbCommand.school;
-        let multiplier = botUtils.returnMultiplier(bsbCommand);
-        let pad = 21;
-        let targetMsg = botUtils.returnPropertyString(
-          target, 'Target', pad);
-        let typeMsg = botUtils.returnPropertyString(type, 'Type', pad);
-        let elementMsg = botUtils.returnPropertyString(element, 'Element');
-        let castMsg = botUtils.returnPropertyString(
-          castTime, 'Cast Time', pad);
-        let sbMsg = botUtils.returnPropertyString(
-          sbCharge, 'Soul Break Charge');
-        let multiplierMsg = botUtils.returnPropertyString(
-          multiplier, 'Multiplier');
-        message = (
-          message +
-          util.format('*%s (%s)\n', command, description)
-          );
-        if (sbType.toUpperCase() === 'BSB') {
-          message = (
-            message +
-            util.format('-%s || %s\n', typeMsg, elementMsg) +
-            util.format('-%s || %s\n', targetMsg, multiplierMsg) +
-            util.format('-%s || %s\n\n', castMsg, sbMsg)
-          );
-        };
+        message = processBsb(bsbCommand, message, sbType);
         console.log(`message: ${message}`);
       });
       message = message + '```**';
@@ -279,4 +248,51 @@ function processSoulbreak(soulbreak, msg, dm=false, character, sbType='all') {
       msg.channel.send(message);
     };
   };
+};
+
+/** processBsb:
+ * Takes a BSB command and outputs a message block for it.
+ * @param {object} bsbCommand: a JSON dict for a BSB command.
+ * @param {string} message: Passed from processSoulbreak, the
+ *  current version of the message with entry effects and
+ *  SB attributes.
+ * @param {string} sbType: the soul break filter.
+ * @return {string} message: the complete message including
+ *  the attributes for the soul break commands.
+ **/
+function processBsb(bsbCommand, message=null, sbType='all') {
+  let command = bsbCommand.name;
+  console.log(`Command ${command} found.`);
+  let target = bsbCommand.target;
+  let description = botUtils.returnDescription(bsbCommand);
+  let element = botUtils.returnElement(bsbCommand);
+  let castTime = bsbCommand.time;
+  let sbCharge = bsbCommand.sb;
+  let type = bsbCommand.school;
+  let multiplier = botUtils.returnMultiplier(bsbCommand);
+  let pad = 21;
+  let targetMsg = botUtils.returnPropertyString(
+    target, 'Target', pad);
+  let typeMsg = botUtils.returnPropertyString(type, 'Type', pad);
+  let elementMsg = botUtils.returnPropertyString(element, 'Element');
+  let castMsg = botUtils.returnPropertyString(
+    castTime, 'Cast Time', pad);
+  let sbMsg = botUtils.returnPropertyString(
+    sbCharge, 'Soul Break Charge');
+  let multiplierMsg = botUtils.returnPropertyString(
+    multiplier, 'Multiplier');
+  message = (
+    message +
+    util.format('*%s (%s)\n', command, description)
+    );
+  if (sbType.toUpperCase() === 'BSB') {
+    message = (
+      message +
+      util.format('-%s || %s\n', typeMsg, elementMsg) +
+      util.format('-%s || %s\n', targetMsg, multiplierMsg) +
+      util.format('-%s || %s\n\n', castMsg, sbMsg)
+    );
+  };
+  console.log(`message: ${message}`);
+  return message;
 };
