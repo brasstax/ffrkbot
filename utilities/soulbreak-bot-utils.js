@@ -1,4 +1,5 @@
 const util = require('util');
+const {RichEmbed} = require('discord.js');
 const jsonQuery = require('json-query');
 const titlecase = require('titlecase');
 const escapeStringRegexp = require('escape-string-regexp');
@@ -120,7 +121,13 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       sendSoulbreakPlaintextSummary(values, msg);
     } else {
       values.forEach( (value) => {
-        processSoulbreak(value, msg, dm, character, sbType);
+        let sbResult = sendRichEmbedSoulbreak(value, msg, dm, sbType);
+        sbResult.then( (result) => {
+          msg.channel.send(result);
+        }).catch( (err) => {
+            console.log(`Error calling sendRichEmbedSoulbreak: ${err}`);
+            processSoulbreak(value, msg, dm, character, sbType);
+        });
       });
     };
   return;
@@ -159,19 +166,79 @@ function sendSoulbreakPlaintextSummary(soulbreaks, msg) {
  * @param {object} soulbreak: each value from lookupSoulbreak results.
  * @param {object} msg: Discord.js-commando message object.
  * @param {boolean} dm: whether to DM the user.
- * @param {string} character: the name of the character.
  * @param {string} sbType: the SB to filter and display.
  * @return {object} Promise
  **/
-function sendRichEmbedSoulbreak(soulbreak, msg, dm=false,
-    character, sbType='all') {
+function sendRichEmbedSoulbreak(soulbreak, msg, dm=false, sbType='all') {
+  let embeds = [];
+  let name = soulbreak.name;
   let description = botUtils.returnDescription(soulbreak);
   let multiplier = botUtils.returnMultiplier(soulbreak);
   let element = botUtils.returnElement(soulbreak);
+  let character = soulbreak.character;
+  let relic = soulbreak.relic;
+  let title = util.format('%s: %s {Relic: %s}', character, name, relic);
   let skillType = soulbreak.type;
   let castTime = soulbreak.time;
   let target = soulbreak.target;
   let sbTier = soulbreak.tier;
+  let embed = new RichEmbed()
+    .setTitle(title)
+    .setDescription(description)
+    .setColor('#53ddff')
+    .addField('**Type**', skillType, true)
+    .addField('**Element**', element, true)
+    .addField('**Target**', target, true)
+    .addField('**Multiplier**', multiplier, true)
+    .addField('**Cast Time**', castTime, true);
+  if (sbType !== 'all') {
+    embed.addField('**Soul Break Type**', sbTier, true);
+  };
+  if (checkBsb(soulbreak) === true) {
+    console.log(`${name} is a burst soulbreak.`);
+    let bsbQueryResults = searchBsbCommands(name);
+    bsbQueryResults.then( (bsbCommands) => {
+      bsbCommands.value.forEach( (bsbCommand) => {
+          embed = processRichEmbedBsb(bsbCommand, embed);
+      });
+    }).catch( (error) => {
+      console.log(`Error processing RichEmbed BSB, error ${error}`);
+    });
+  };
+  return new Promise( (resolve, reject) => {
+    try {
+      resolve({embed});
+    } catch (err) {
+      console.log(`Error in sendRichEmbedSoulbreak, error: ${err}`);
+      reject(err);
+    };
+  });
+};
+
+/** processRichEmbedBsb:
+ * Adds BSB commands to an embed message.
+ * @param {object} bsbCommand: a JSON dict for a BSB command.
+ * @param {object} embed: a RichEmbed() message.
+ * @return {object} embed: a RichEmbed() message.
+ **/
+function processRichEmbedBsb(bsbCommand, embed) {
+  let command = bsbCommand.name;
+  console.log(`Command ${command} found for processRichEmbedBsb.`);
+  let target = bsbCommand.target;
+  let description = botUtils.returnDescription(bsbCommand);
+  let element = botUtils.returnElement(bsbCommand);
+  let castTime = bsbCommand.time;
+  let sbCharge = bsbCommand.sb;
+  let type = bsbCommand.school;
+  let multiplier = botUtils.returnMultiplier(bsbCommand);
+  embed.addField(util.format('**BSB CMD: %s**', command), description)
+    .addField('**Type**', type, true)
+    .addField('**Element**', element, true)
+    .addField('**Target**', target, true)
+    .addField('**Multiplier**', multiplier, true)
+    .addField('**Cast Time**', castTime, true)
+    .addField('**Soul Break Charge**', sbCharge, true);
+  return embed;
 };
 /** checkAlias:
  * Checks to see if an alias belongs to a character.
