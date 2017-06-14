@@ -1,0 +1,3670 @@
+[
+    {
+        "id": "200",
+        "commonName": "Poison",
+        "effects": "Damages for 1/64 max HP every 5 seconds, persists after battle",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "Low Regen, Medium Regen, High Regen, Sap",
+        "codedName": "POISON",
+        "notes": "-"
+    },
+    {
+        "id": "201",
+        "commonName": "Silence",
+        "effects": "Disables BLK, WHT, BLU and SUM attacks, persists after battle",
+        "defaultDuration": "20",
+        "mndModifier": "± 2,5%",
+        "exclusiveStatus": "-",
+        "codedName": "SILENCE",
+        "notes": "-"
+    },
+    {
+        "id": "202",
+        "commonName": "Paralyze",
+        "effects": "Can't act, resets ATB when set or removed",
+        "defaultDuration": "15",
+        "mndModifier": "± 2,0%",
+        "exclusiveStatus": "All \"Retaliate\" status",
+        "codedName": "PARALYSIS",
+        "notes": "-"
+    },
+    {
+        "id": "203",
+        "commonName": "Confuse",
+        "effects": "Forces default action, affects targeting, resets ATB when set or removed, removed upon taking damage by PHY attack",
+        "defaultDuration": "30",
+        "mndModifier": "± 2,5%",
+        "exclusiveStatus": "All \"Retaliate\" status, Rage, Green Cherry",
+        "codedName": "CONFUSION",
+        "notes": "-"
+    },
+    {
+        "id": "204",
+        "commonName": "Haste",
+        "effects": "Wait speed x2,00",
+        "defaultDuration": "20",
+        "mndModifier": "2,5%",
+        "exclusiveStatus": "Slow",
+        "codedName": "HASTE",
+        "notes": "-"
+    },
+    {
+        "id": "205",
+        "commonName": "Slow",
+        "effects": "Wait speed x0,50",
+        "defaultDuration": "20",
+        "mndModifier": "0.005%",
+        "exclusiveStatus": "Haste",
+        "codedName": "SLOW",
+        "notes": "-"
+    },
+    {
+        "id": "206",
+        "commonName": "Stop",
+        "effects": "Arrests ATB charge rate, can't act",
+        "defaultDuration": "6",
+        "mndModifier": "± 2,0%",
+        "exclusiveStatus": "All \"Retaliate\" status",
+        "codedName": "STOP",
+        "notes": "-"
+    },
+    {
+        "id": "207",
+        "commonName": "Protect",
+        "effects": "DEF +100% (ignoring the buff stacking caps)",
+        "defaultDuration": "35",
+        "mndModifier": "3,0%",
+        "exclusiveStatus": "-",
+        "codedName": "PROTECT",
+        "notes": "-"
+    },
+    {
+        "id": "208",
+        "commonName": "Shell",
+        "effects": "RES +100% (ignoring the buff stacking caps)",
+        "defaultDuration": "35",
+        "mndModifier": "3,0%",
+        "exclusiveStatus": "-",
+        "codedName": "SHELL",
+        "notes": "-"
+    },
+    {
+        "id": "209",
+        "commonName": "Reflect",
+        "effects": "Redirect single-target BLK and WHT attacks to a random member of the opposite group",
+        "defaultDuration": "35",
+        "mndModifier": "3,0%",
+        "exclusiveStatus": "-",
+        "codedName": "REFLECTION",
+        "notes": "-"
+    },
+    {
+        "id": "210",
+        "commonName": "Blind",
+        "effects": "ACC -50%, decreases hit rate by 75%, persists after battle",
+        "defaultDuration": "60",
+        "mndModifier": "± 2,0%",
+        "exclusiveStatus": "Eye Power",
+        "codedName": "BLINDED",
+        "notes": "-"
+    },
+    {
+        "id": "211",
+        "commonName": "Sleep",
+        "effects": "Arrests ATB charge rate, can't act, resets ATB when set, removed upon taking damage by PHY attack",
+        "defaultDuration": "30",
+        "mndModifier": "3,0%",
+        "exclusiveStatus": "All \"Retaliate\" status",
+        "codedName": "SLEEP",
+        "notes": "-"
+    },
+    {
+        "id": "212",
+        "commonName": "Petrify",
+        "effects": "Arrests ATB charge rate, can't act, resets ATB when set, persists after battle, counts towards Game Over",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All",
+        "codedName": "PETRIFACTION",
+        "notes": "-"
+    },
+    {
+        "id": "213",
+        "commonName": "Doom: 60",
+        "effects": "HP = 0 after a 60 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DOOM",
+        "notes": "-"
+    },
+    {
+        "id": "214",
+        "commonName": "Instant KO",
+        "effects": "HP = 0 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INSTANT_DEATH",
+        "notes": "-"
+    },
+    {
+        "id": "215",
+        "commonName": "Berserk",
+        "effects": "ATK +25%, forces default action, affects targeting, resets ATB when set or removed",
+        "defaultDuration": "20",
+        "mndModifier": "± 2,5%",
+        "exclusiveStatus": "All \"Retaliate\" status, Rage, Green Cherry",
+        "codedName": "BERSERKER",
+        "notes": "-"
+    },
+    {
+        "id": "216",
+        "commonName": "Low Regen",
+        "effects": "Heals for 3% max HP every 3 seconds",
+        "defaultDuration": "30",
+        "mndModifier": "3,0%",
+        "exclusiveStatus": "Medium Regen, High Regen, Poison, Sap, Zombie",
+        "codedName": "REGEN",
+        "notes": "-"
+    },
+    {
+        "id": "218",
+        "commonName": "Float",
+        "codedName": "LEVITATE",
+        "notes": "Not used"
+    },
+    {
+        "id": "219",
+        "commonName": "Weak",
+        "codedName": "WEAKENED",
+        "notes": "Not used"
+    },
+    {
+        "id": "220",
+        "commonName": "Zombie",
+        "codedName": "ZOMBIE",
+        "notes": "Not used"
+    },
+    {
+        "id": "221",
+        "commonName": "Mini",
+        "codedName": "MINIMUM",
+        "notes": "Not used"
+    },
+    {
+        "id": "222",
+        "commonName": "Toad",
+        "codedName": "TOAD",
+        "notes": "Not used"
+    },
+    {
+        "id": "223",
+        "commonName": "Curse",
+        "codedName": "CURSE",
+        "notes": "Not used"
+    },
+    {
+        "id": "224",
+        "commonName": "Slownumb",
+        "codedName": "GRADUAL_PETRIFACTION",
+        "notes": "Not used"
+    },
+    {
+        "id": "225",
+        "commonName": "Blink",
+        "codedName": "BLINK",
+        "notes": "Not used"
+    },
+    {
+        "id": "226",
+        "commonName": "Imp",
+        "codedName": "WATER_IMP",
+        "notes": "Not used"
+    },
+    {
+        "id": "227",
+        "commonName": "Vanish",
+        "codedName": "VANISH",
+        "notes": "Not used"
+    },
+    {
+        "id": "228",
+        "commonName": "Pig",
+        "codedName": "PORKY",
+        "notes": "Not used"
+    },
+    {
+        "id": "229",
+        "commonName": "Sap",
+        "effects": "Damages for 1/64 max HP every 2 seconds",
+        "defaultDuration": "40",
+        "mndModifier": "-",
+        "exclusiveStatus": "Low Regen, Medium Regen, High Regen, Poison",
+        "codedName": "SAP",
+        "notes": "-"
+    },
+    {
+        "id": "231",
+        "commonName": "Pyramid",
+        "effects": "Arrests ATB charge rate, can't act, resets ATB when set, removed by PHY attacks, counts towards Game Over",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All except KO",
+        "codedName": "PYRAMID",
+        "notes": "Used for Reno (VII)"
+    },
+    {
+        "id": "232",
+        "commonName": "Prison Cage",
+        "effects": "Arrests ATB charge rate, can't act, resets ATB when set, counts towards Game Over",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "All except KO, Low Regen, Medium Regen, High Regen, HP Stock",
+        "codedName": "PRISON_CAGE",
+        "notes": "Used for Prison Cage (IX)"
+    },
+    {
+        "id": "233",
+        "commonName": "Water Ball",
+        "effects": "Damages for 1/128 max HP every second, arrests ATB charge rate, can't act, resets ATB when set, removed by WHT, BLK and BLU attacks that deal magical damage, counts towards Game Over",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All except KO",
+        "codedName": "WATER_BALL",
+        "notes": "Used for Bottomswell (VII)"
+    },
+    {
+        "id": "234",
+        "commonName": "Possession",
+        "effects": "Affects Soul Fire's behaviour",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "POSSESSION",
+        "notes": "Used for Gi Nattak (VII)"
+    },
+    {
+        "id": "235",
+        "commonName": "Stock Break",
+        "effects": "No gameplay effects",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "STOCK_BREAK",
+        "notes": "Used for Beartix (IX)"
+    },
+    {
+        "id": "236",
+        "commonName": "Doom: 30",
+        "effects": "HP = 0 after a 30 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DOOM_30",
+        "notes": "-"
+    },
+    {
+        "id": "237",
+        "commonName": "Doom: 45",
+        "effects": "HP = 0 after a 45 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DOOM_45",
+        "notes": "-"
+    },
+    {
+        "id": "238",
+        "commonName": "Doom: 90",
+        "effects": "HP = 0 after a 90 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DOOM_90",
+        "notes": "-"
+    },
+    {
+        "id": "239",
+        "commonName": "Doom: 120",
+        "effects": "HP = 0 after a 120 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DOOM_120",
+        "notes": "-"
+    },
+    {
+        "id": "240",
+        "commonName": "Triple",
+        "effects": "Affects Cerberus' behaviour",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "TRIPLE",
+        "notes": "Used for Cerberus (VIII)"
+    },
+    {
+        "id": "241",
+        "commonName": "Swallowed",
+        "effects": "Arrests ATB charge rate, can't act, resets ATB when set, counts towards Game Over",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All except KO",
+        "codedName": "SWALLOWED",
+        "notes": "Used for Sand Worm (X)"
+    },
+    {
+        "id": "242",
+        "commonName": "Stun",
+        "effects": "Resets ATB when set",
+        "defaultDuration": "1",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "STAN",
+        "notes": "-"
+    },
+    {
+        "id": "243",
+        "commonName": "High Regen",
+        "effects": "Heals for 5% max HP every 2.5 seconds",
+        "defaultDuration": "35",
+        "mndModifier": "3,0%",
+        "exclusiveStatus": "Low Regen, Medium Regen, Poison, Sap, Zombie",
+        "codedName": "REGEN_STRONG",
+        "notes": "-"
+    },
+    {
+        "id": "244",
+        "commonName": "Arm Catch",
+        "effects": "Arrests ATB charge rate, can't act, resets ATB when set, counts towards Game Over",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ARM_CATCH",
+        "notes": "Used for Carry Armor (VII)"
+    },
+    {
+        "id": "245",
+        "commonName": "Perma-Reflect",
+        "effects": "Redirect single-target BLK and WHT attacks to a random member of the opposite group",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "REFLECTION_FULL_TIME",
+        "notes": "Used for Carbuncle (V), Nightmare Ultima Buster"
+    },
+    {
+        "id": "246",
+        "commonName": "Glyph Mine",
+        "effects": "HP = 0 after a 20 seconds timer unless the character has the Defend status",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "MAGICAL_MINE",
+        "notes": "Used for Spectral Keeper (X)"
+    },
+    {
+        "id": "247",
+        "commonName": "Medium Regen",
+        "effects": "Heals for 4% max HP every 2.5 seconds",
+        "defaultDuration": "30",
+        "mndModifier": "3,0%",
+        "exclusiveStatus": "Low Regen, High Regen, Poison, Sap, Zombie",
+        "codedName": "REGEN_MIDDLE",
+        "notes": "-"
+    },
+    {
+        "id": "248",
+        "commonName": "[School] Cast Speed *X",
+        "effects": "Cast speed xX for [School] attacks, or any attack if no [School] is specified",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME",
+        "notes": "-"
+    },
+    {
+        "id": "249",
+        "commonName": "Reraise: 40%",
+        "effects": "Automatically removes KO (40% HP) once",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RERAISE_40",
+        "notes": "-"
+    },
+    {
+        "id": "250",
+        "commonName": "Reraise: 60%",
+        "effects": "Automatically removes KO (60% HP) once",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "Reraise: 40%",
+        "codedName": "RERAISE_60",
+        "notes": "-"
+    },
+    {
+        "id": "251",
+        "commonName": "Reraise: 80%",
+        "effects": "Automatically removes KO (80% HP) once",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "Reraise: 40%, Reraise: 60%",
+        "codedName": "RERAISE_80",
+        "notes": "-"
+    },
+    {
+        "id": "252",
+        "commonName": "Reraise: 100%",
+        "effects": "Automatically removes KO (100% HP) once",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "Reraise: 40%, Reraise: 60%, Reraise: 80%",
+        "codedName": "RERAISE_100",
+        "notes": "-"
+    },
+    {
+        "id": "253",
+        "commonName": "Reraise",
+        "effects": "Can't act",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All",
+        "codedName": "RERAISE_DEATH",
+        "notes": "???"
+    },
+    {
+        "id": "255",
+        "commonName": "Target Ally",
+        "effects": "Affects Lady Amandine's behaviour",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "TARGET_BUDDY",
+        "notes": "Used for Lady Amandine (XIV)"
+    },
+    {
+        "id": "256",
+        "commonName": "Light Doom: 45",
+        "effects": "HP = 0 after a 45 seconds timer, can't be overwritten, can't overwrite other timers",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DOOM_LIGHT_45",
+        "notes": "-"
+    },
+    {
+        "id": "257",
+        "commonName": "No Air Time 2",
+        "effects": "Changes the air time of Jump attacks to 0.01 seconds, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ZERO_FLIGHT_2",
+        "notes": "-"
+    },
+    {
+        "id": "258",
+        "commonName": "No Air Time 3",
+        "effects": "Changes the air time of Jump attacks to 0.01 seconds, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ZERO_FLIGHT_3",
+        "notes": "-"
+    },
+    {
+        "id": "259",
+        "commonName": "HP Stock (X)",
+        "effects": "Automatically restores HP, up to X HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "HP_STOCK",
+        "notes": "-"
+    },
+    {
+        "id": "25901",
+        "commonName": "HP Stock (2000)",
+        "effects": "Automatically restores HP, up to 2000 HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "HP_STOCK_2000",
+        "notes": "-"
+    },
+    {
+        "id": "25902",
+        "commonName": "HP Stock (6000)",
+        "effects": "Automatically restores HP, up to 6000 HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "HP_STOCK_6000",
+        "notes": "-"
+    },
+    {
+        "id": "260",
+        "commonName": "Radiant Shield: 100%",
+        "effects": "Returns all the damage taken to the attacker",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD",
+        "notes": "-"
+    },
+    {
+        "id": "261",
+        "commonName": "Last Stand",
+        "effects": "Prevents KO once, restoring HP for 1% maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "GUTS_1",
+        "notes": "-"
+    },
+    {
+        "id": "262",
+        "commonName": "Greased Lightning 1",
+        "effects": "ATK + 15%, cast speed x1,33, removed upon taking damage by any attack",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "GREASED_LIGHTNING_1",
+        "notes": "-"
+    },
+    {
+        "id": "263",
+        "commonName": "Greased Lightning 2",
+        "effects": "ATK + 30%, cast speed x2,00, removed upon taking damage by any attack",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "GREASED_LIGHTNING_2",
+        "notes": "-"
+    },
+    {
+        "id": "264",
+        "commonName": "Greased Lightning 3",
+        "effects": "ATK + 50%, cast speed x4,00, removed upon taking damage by any attack",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "GREASED_LIGHTNING_3",
+        "notes": "-"
+    },
+    {
+        "id": "265",
+        "commonName": "Stoneskin: 30%",
+        "effects": "Reduces damage taken to 0, up to an amount of damage equal to 30% of the character's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BARRIER_30",
+        "notes": "-"
+    },
+    {
+        "id": "26502",
+        "commonName": "Lightning Stoneskin: Magicite 30%",
+        "effects": "Reduces Lightning damage taken to 0, up to an amount equal to 30% of the Magicite's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_LIGHTNING_DAMAGE_BARRIER_BEAST_30",
+        "notes": "-"
+    },
+    {
+        "id": "26504",
+        "commonName": "Wind Stoneskin: Magicite 30%",
+        "effects": "Reduces Wind damage taken to 0, up to an amount equal to 30% of the Magicite's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_WIND_DAMAGE_BARRIER_BEAST_30",
+        "notes": "-"
+    },
+    {
+        "id": "26509",
+        "commonName": "Enemy Physical Stoneskin: 30000",
+        "effects": "Reduces damage taken from PHY attacks to 0, up to 30000 damage",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "PHYSICAL_DAMAGE_BARRIER_FIXED_30000_AND_250000_MSEC_FOR_AI",
+        "notes": "Used for Golem (V)"
+    },
+    {
+        "id": "266",
+        "commonName": "Summon Valefor",
+        "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Summon\" status",
+        "codedName": "SUMMONING",
+        "notes": "-"
+    },
+    {
+        "id": "266003",
+        "commonName": "Summon Alexander",
+        "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Summon\" status",
+        "codedName": "SUMMONING_003",
+        "notes": "-"
+    },
+    {
+        "id": "266004",
+        "commonName": "Summon Ramuh",
+        "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Summon\" status",
+        "codedName": "SUMMONING_004",
+        "notes": "-"
+    },
+    {
+        "id": "266005",
+        "commonName": "Summon Famfrit",
+        "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Summon\" status",
+        "codedName": "SUMMONING_005",
+        "notes": "-"
+    },
+    {
+        "id": "266006",
+        "commonName": "Summon Ifrit",
+        "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Summon\" status",
+        "codedName": "SUMMONING_006",
+        "notes": "-"
+    },
+    {
+        "id": "267",
+        "commonName": "Critical Damage +X%",
+        "effects": "Critical hits deal X% more damage (additive with the base critical coefficient)",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CRITICAL_COEFFICIENT",
+        "notes": "-"
+    },
+    {
+        "id": "26701",
+        "commonName": "Critical Damage +50%",
+        "effects": "Critical hits deal 50% more damage (additive with the base critical coefficient)",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CRITICAL_COEFFICIENT_50",
+        "notes": "-"
+    },
+    {
+        "id": "268",
+        "commonName": "Thunder God's Might",
+        "effects": "Cast speed x3,00",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "THUNDER_GOD_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "269",
+        "commonName": "Unbound Fury",
+        "effects": "DEF and RES -40%, cast speed x2,00",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "WILD_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "270",
+        "commonName": "Summon Black Dragon",
+        "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Summon\" status",
+        "codedName": "BLACK_DRAGON_SUMMONING",
+        "notes": "-"
+    },
+    {
+        "id": "271",
+        "commonName": "Astra",
+        "effects": "Prevents Poison, Silence, Paralyze, Confuse, Slow, Stop, Blind, Sleep, Petrify, Berserk, Sap, Stun and Frozen once",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "Pre-Dispel",
+        "codedName": "STATUS_AILMENTS_BARRIER",
+        "notes": "-"
+    },
+    {
+        "id": "27101",
+        "commonName": "Pre-Dispel",
+        "effects": "Prevents Haste, Protect, Shell, Reflect, Low Regen, Medium Regen, High Regen and Triple once",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "Astra",
+        "codedName": "PRE_DISPEL",
+        "notes": "???"
+    },
+    {
+        "id": "272",
+        "commonName": "Perma-Protect",
+        "effects": "DEF +100% (ignoring the buff stacking caps)",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "Protect",
+        "codedName": "PROTECT_FULL_TIME",
+        "notes": "???"
+    },
+    {
+        "id": "273",
+        "commonName": "Perma-Regen",
+        "effects": "Heals for 5% max HP every 2.5 seconds",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "Low Regen, Medium Regen, High Regen, Poison, Sap, Zombie",
+        "codedName": "REGEN_FULL_TIME",
+        "notes": "???"
+    },
+    {
+        "id": "274",
+        "commonName": "Heals +X%",
+        "effects": "Abilities restore X% more HP",
+        "defaultDuration": "40",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "HEAL_BOOST",
+        "notes": "-"
+    },
+    {
+        "id": "275",
+        "commonName": "[Stats] +X% for Next Damaging Action",
+        "effects": "[Stats] +X%, removed upon dealing damage",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "PARAM_BOOST_UNTIL_POSITIVE_DAMAGE_EXECUTION",
+        "notes": "-"
+    },
+    {
+        "id": "276",
+        "commonName": "EX: Soldier",
+        "effects": "Increases physical damage dealt by 30%, allows PHY attacks that deal physical, missing HP, fixed or fractional damage to break the damage cap",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "BUSTER_SWORD_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "277",
+        "commonName": "Terra Trance",
+        "effects": "ATK, DEF, MAG, RES, MND, ACC and EVA +20%, cast speed x2,00",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "TINA_TRANCE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "278",
+        "commonName": "Zidane Trance",
+        "effects": "ATK, DEF, MAG, RES, MND, ACC, EVA and SPD +15%, cast speed x9999999 for Thief abilities",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ZIDANE_TRANCE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "279",
+        "commonName": "Play Rough Mode",
+        "effects": "MAG +30%, DEF and RES -30%, cast speed x3,00",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "SHANTOTTO_PLAYING_ROUGH_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "280",
+        "commonName": "Dual Blink 2",
+        "effects": "Evades the next two attacks that could be evaded with Physical or Magical Blink, lower priority",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "Dual Blink 1",
+        "codedName": "MIRAGE_AND_MIGHTY_GUARD_2",
+        "notes": "-"
+    },
+    {
+        "id": "28001",
+        "commonName": "Radiant Shield: 125%",
+        "effects": "Returns 125% of the damage taken to the attacker",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_125",
+        "notes": "-"
+    },
+    {
+        "id": "28002",
+        "commonName": "Radiant Shield: 150%",
+        "effects": "Returns 150% of the damage taken to the attacker",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_150",
+        "notes": "-"
+    },
+    {
+        "id": "28003",
+        "commonName": "Radiant Shield: 175%",
+        "effects": "Returns 175% of the damage taken to the attacker",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_175",
+        "notes": "-"
+    },
+    {
+        "id": "28004",
+        "commonName": "Radiant Shield: 200%",
+        "effects": "Returns 200% of the damage taken to the attacker",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_200",
+        "notes": "-"
+    },
+    {
+        "id": "28005",
+        "commonName": "Radiant Shield: 225%",
+        "effects": "Returns 225% of the damage taken to the attacker",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_225",
+        "notes": "-"
+    },
+    {
+        "id": "28006",
+        "commonName": "Radiant Shield: 250%",
+        "effects": "Returns 250% of the damage taken to the attacker",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_250",
+        "notes": "-"
+    },
+    {
+        "id": "28007",
+        "commonName": "Radiant Shield: 275%",
+        "effects": "Returns 275% of the damage taken to the attacker",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_275",
+        "notes": "-"
+    },
+    {
+        "id": "28008",
+        "commonName": "Radiant Shield: 300%",
+        "effects": "Returns 300% of the damage taken to the attacker",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_300",
+        "notes": "-"
+    },
+    {
+        "id": "28101",
+        "commonName": "Water Radiant Shield: 75%",
+        "effects": "Returns 75% of the damage taken to the attacker as Water damage",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_WATER_75",
+        "notes": "-"
+    },
+    {
+        "id": "28202",
+        "commonName": "Ice Radiant Shield: 75%",
+        "effects": "Returns 75% of the damage taken to the attacker as Ice damage",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_ICE_75",
+        "notes": "-"
+    },
+    {
+        "id": "282",
+        "commonName": "Spellblade +15% Boost 2",
+        "effects": "Spellblade abilities deal 15% more damage, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CELES_SPELLBLADE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "282001",
+        "commonName": "Spellblade +15% Boost 3",
+        "effects": "Spellblade abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SPELLBLADE_115_3",
+        "notes": "-"
+    },
+    {
+        "id": "282002",
+        "commonName": "Dragoon +9% Boost 3",
+        "effects": "Dragoon abilities deal 9% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_DRAGOON_109_3",
+        "notes": "-"
+    },
+    {
+        "id": "282101",
+        "commonName": "Darkness +30% Boost",
+        "effects": "Darkness abilities deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_DARKNESS_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "283",
+        "commonName": "Steiner Trance",
+        "effects": "ATK and DEF +25%, increases Fire, Ice, Lightning, Earth, Wind, Water, Holy, Dark and Poison damage dealt by ?%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "STEINER_TRANCE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "284",
+        "commonName": "Vivi Trance",
+        "effects": "MAG +30%, 50% chance to dualcast Black Magic abilities",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "VIVI_TRANCE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "285",
+        "commonName": "Dual Blink 1",
+        "effects": "Evades the next attack that could be evaded with Physical or Magical Blink, lower priority",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "Dual Blink 2",
+        "codedName": "MIRAGE_AND_MIGHTY_GUARD_1",
+        "notes": "-"
+    },
+    {
+        "id": "286",
+        "commonName": "EX: Sky Pirate",
+        "effects": "Thief abilities deal 30% more damage, cast speed x9999999 for Thief abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "VAAN_SKY_PIRATES_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "287",
+        "commonName": "Galian Beast",
+        "effects": "ATK, DEF, MAG, RES, MND, ACC and EVA +20%, cast speed x2,00",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "VINCENT_TRANCE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "288",
+        "commonName": "Summon Activate",
+        "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Summon\" status",
+        "codedName": "ACTIVATE_SUMMONING",
+        "notes": "-"
+    },
+    {
+        "id": "289",
+        "commonName": "EX: Timeless",
+        "effects": "ATK +30%, cast speed x2,00 for Support abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_TIME_LESS",
+        "notes": "-"
+    },
+    {
+        "id": "290",
+        "commonName": "Physical Blink Stacking 2",
+        "effects": "Allows to stack Physical Blink, up to Physical Blink 2",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "MIRAGE_INCREASING_LIMIT_2",
+        "notes": "-"
+    },
+    {
+        "id": "291",
+        "commonName": "Phoenix Mode",
+        "effects": "ATK +35%, cast speed x2,00",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "LOCK_PHOENIX_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "292",
+        "commonName": "Frozen",
+        "effects": "Arrests ATB charge rate, can't act, causes Instant KO upon taking damage by a PHY attack, duration scales with MND (factor 2)",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "All \"Retaliate\" status, all \"Attach Fire\" status",
+        "codedName": "FROZEN",
+        "notes": "???"
+    },
+    {
+        "id": "293",
+        "commonName": "Knight +15% Boost 2",
+        "effects": "Knight abilities deal 15% more damage, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_115_2_KNIGHT_ABILITIES",
+        "notes": "-"
+    },
+    {
+        "id": "294",
+        "commonName": "EX: Spellblade Flurry",
+        "effects": "ATK +30%, cast speed x2,00, casts Wind/Water/Fire/Earth Flurry after dealing Wind/Water/Fire/Earth damage with a Spellblade ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_SPELL_BLADE_BARRAGE",
+        "notes": "-"
+    },
+    {
+        "id": "295",
+        "commonName": "Overcome Past",
+        "effects": "Grants High Quick Cast 1 after using a Dark attack, casts Residual Blade after using a Ninja ability if the user has any Physical Blink",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ABANDONING_PAST",
+        "notes": "-"
+    },
+    {
+        "id": "296",
+        "commonName": "Gambling Break",
+        "effects": "Grants High Quick Cast 1 and randomly casts Spade/Club/Diamond/Heart Card after dealing damage with a Support ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RANDOM_JOKER",
+        "notes": "-"
+    },
+    {
+        "id": "297",
+        "commonName": "Green Cherry",
+        "effects": "ATK +150%, DEF -50%, forces a specified action, affects targeting, resets ATB when removed",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All \"Retaliate\" status, Rage",
+        "codedName": "RAGE_YELLOW_CHERRY",
+        "notes": "-"
+    },
+    {
+        "id": "2001",
+        "commonName": "Quick Magical Attacks 3",
+        "effects": "Cast speed x2,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_CUSTOM_MAGIC_DAMAGE_ABILITIES",
+        "notes": "-"
+    },
+    {
+        "id": "2002",
+        "commonName": "Quick Magical Attacks 5",
+        "effects": "Cast speed x2,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 5 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_5_CUSTOM_MAGIC_DAMAGE_ABILITIES",
+        "notes": "-"
+    },
+    {
+        "id": "2003",
+        "commonName": "Instant Cast 2",
+        "effects": "Cast speed x9999999, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ALL",
+        "notes": "-"
+    },
+    {
+        "id": "2004",
+        "commonName": "Quick Magical Attacks 4",
+        "effects": "Cast speed x2,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 4 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_4_CUSTOM_MAGIC_DAMAGE_ABILITIES",
+        "notes": "-"
+    },
+    {
+        "id": "2005",
+        "commonName": "Instant Physical Attacks 1",
+        "effects": "Cast speed x9999999 for PHY or NAT attacks that deal physical damage, lasts for 1 turn",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_1_PHYSICAL_DAMAGE_ABILITIES",
+        "notes": "-"
+    },
+    {
+        "id": "2006",
+        "commonName": "Instant Magical Attacks 1",
+        "effects": "Cast speed x9999999 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 1 turn",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_1_CUSTOM_MAGIC_DAMAGE_ABILITIES",
+        "notes": "-"
+    },
+    {
+        "id": "2007",
+        "commonName": "Instant Cast 1",
+        "effects": "Cast speed x9999999, lasts for 1 turn",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_1_ALL",
+        "notes": "-"
+    },
+    {
+        "id": "2008",
+        "commonName": "Quick Cast 4",
+        "effects": "Cast speed x2,00, lasts for 4 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_4_ALL",
+        "notes": "-"
+    },
+    {
+        "id": "2009",
+        "commonName": "Quick Magical Attacks 1",
+        "effects": "Cast speed x2,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 1 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_1_CUSTOM_MAGIC_DAMAGE_ABILITIES",
+        "notes": "-"
+    },
+    {
+        "id": "2010",
+        "commonName": "Quick Monk Abilities 5",
+        "effects": "Cast speed x2,00 for Monk abilities, lasts for 5 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_5_ABILITY_CATEGORY_ID_MONK",
+        "notes": "-"
+    },
+    {
+        "id": "2011",
+        "commonName": "Instant Machinist Abilities 2",
+        "effects": "Cast speed x9999999 for Machinist abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_MACHINIST",
+        "notes": "-"
+    },
+    {
+        "id": "2012",
+        "commonName": "Quick Magical Attacks 2",
+        "effects": "Cast speed x2,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_CUSTOM_MAGIC_DAMAGE_ABILITIES",
+        "notes": "-"
+    },
+    {
+        "id": "2014",
+        "commonName": "Instant Cast 3",
+        "effects": "Cast speed x9999999, lasts for 3 turn",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ALL",
+        "notes": "-"
+    },
+    {
+        "id": "2015",
+        "commonName": "Quick Cast 3",
+        "effects": "Cast speed x2,00, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ALL",
+        "notes": "-"
+    },
+    {
+        "id": "2016",
+        "commonName": "Quick Cast 2",
+        "effects": "Cast speed x2,00, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ALL",
+        "notes": "-"
+    },
+    {
+        "id": "2017",
+        "commonName": "Quick Knight Abilities 2",
+        "effects": "Cast speed x2,00 for Knight abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_KNIGHT",
+        "notes": "-"
+    },
+    {
+        "id": "2018",
+        "commonName": "Instant Monk Abilities 3",
+        "effects": "Cast speed x9999999 for Monk abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_MONK",
+        "notes": "-"
+    },
+    {
+        "id": "2019",
+        "commonName": "Quick Cast 1",
+        "effects": "Cast speed x2,00, lasts for 1 turn",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_1_ALL",
+        "notes": "-"
+    },
+    {
+        "id": "2020",
+        "commonName": "High Quick Cast 1",
+        "effects": "Cast speed x3,00, lasts for 1 turn",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_1_ALL",
+        "notes": "-"
+    },
+    {
+        "id": "2021",
+        "commonName": "High Quick Cast 2",
+        "effects": "Cast speed x3,00, lasts for 2 turn",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ALL",
+        "notes": "-"
+    },
+    {
+        "id": "2022",
+        "commonName": "Quick Machinist Abilities 2",
+        "effects": "Cast speed x2,00 for Machinist abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_MACHINIST",
+        "notes": "-"
+    },
+    {
+        "id": "2051",
+        "commonName": "Quick Cast",
+        "effects": "Cast speed x2,00",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_25000_MSEC_ALL",
+        "notes": "-"
+    },
+    {
+        "id": "2053",
+        "commonName": "Instant Jump Attacks",
+        "effects": "Cast speed x9999999 for Jump attacks",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_15000_MSEC_FLIGHT_ATTACK",
+        "notes": "-"
+    },
+    {
+        "id": "501",
+        "commonName": "MAG Boost",
+        "effects": "MAG +25%",
+        "defaultDuration": "10",
+        "mndModifier": "2,5%",
+        "exclusiveStatus": "-",
+        "codedName": "MATK_BOOSTER",
+        "notes": "???"
+    },
+    {
+        "id": "502",
+        "commonName": "Sentinel",
+        "effects": "DEF +200%, taunts single-target PHY and BLK attacks",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "PROVOKE",
+        "notes": "-"
+    },
+    {
+        "id": "503",
+        "commonName": "Charge",
+        "effects": "ATK +200%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHARGE",
+        "notes": "???"
+    },
+    {
+        "id": "505",
+        "commonName": "Invisible",
+        "effects": "Removes the character from the battle",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INVISIBLE",
+        "notes": "-"
+    },
+    {
+        "id": "506",
+        "commonName": "Defend",
+        "effects": "Reduces all damage taken by 50%, removed upon taking any action",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DEFENSE",
+        "notes": "-"
+    },
+    {
+        "id": "507",
+        "commonName": "Disable",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DISABLE",
+        "notes": "???"
+    },
+    {
+        "id": "508",
+        "commonName": "Retaliate",
+        "effects": "Can't be hit by PHY attacks, counters PHY attacks with Attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "COUNTER_AIMING",
+        "notes": "-"
+    },
+    {
+        "id": "509",
+        "commonName": "Runic",
+        "effects": "Taunts single-target BLK attacks, absorbs BLK attacks to restore 1 consumed ability use",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "Grand Cross",
+        "codedName": "RUNIC",
+        "notes": "-"
+    },
+    {
+        "id": "510",
+        "commonName": "Air Force Bit",
+        "effects": "Taunts single-target BLK and WHT attacks, can't be hit by BLK or WHT attacks",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AIRFORCE_SPECK",
+        "notes": "Used for Air Force (VI)"
+    },
+    {
+        "id": "511",
+        "commonName": "Remove",
+        "effects": "Removes the character from the battle, forces Flee in case of Game Over",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "FORCE_ESCAPE",
+        "notes": "Used for Typhoon (VI), Atomos (V)"
+    },
+    {
+        "id": "512",
+        "commonName": "Basic Magic Break",
+        "effects": "Taunts single-target BLK and WHT attacks, can't be hit by BLK or WHT attacks",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "BASIC_MAGIC_BREAKER",
+        "notes": "???"
+    },
+    {
+        "id": "513",
+        "commonName": "Advance",
+        "effects": "ATK +150%, DEF -50%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RAID",
+        "notes": "-"
+    },
+    {
+        "id": "514",
+        "commonName": "Lock On",
+        "effects": "Taunts single-target PHY and BLK attacks",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "LOCK_ON",
+        "notes": "Used for Ushumgal Subjugator (XIII)"
+    },
+    {
+        "id": "515",
+        "commonName": "Overdrive",
+        "effects": "ATK +30%, DEF and RES -30%",
+        "defaultDuration": "40",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "OVER_DRIVE",
+        "notes": "???"
+    },
+    {
+        "id": "516",
+        "commonName": "Roar",
+        "effects": "ATK and MAG +20%, DEF and RES -20%",
+        "defaultDuration": "20",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ROAR",
+        "notes": "???"
+    },
+    {
+        "id": "517",
+        "commonName": "Magic Seal",
+        "effects": "Disables BLK, WHT, BLU and SUM attacks",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "MAGIC_SEAL",
+        "notes": "Used for Crawler (X), Minotaur (V), Maduin (VI)"
+    },
+    {
+        "id": "518",
+        "commonName": "Physical Blink 1",
+        "effects": "Evades the next PHY attack that deals physical, missing HP or fixed damage or NAT attack that deals physical or fractional damage",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "Blink 2, Blink 3",
+        "codedName": "MIRAGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "519",
+        "commonName": "Physical Blink 2",
+        "effects": "Evades the next 2 PHY attacks that deal physical, missing HP or fixed damage or NAT attacks that deal physical or fractional damage",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "Blink 1, Blink 3",
+        "codedName": "MIRAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "520",
+        "commonName": "Physical Blink 3",
+        "effects": "Evades the next 3 PHY attacks that deal physical, missing HP or fixed damage or NAT attacks that deal physical or fractional damage",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "Blink 1, Blink 2",
+        "codedName": "MIRAGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "521",
+        "commonName": "No Damage",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "NON_DAMAGE",
+        "notes": "???"
+    },
+    {
+        "id": "522",
+        "commonName": "Draw Fire",
+        "effects": "DEF +100%, taunts single-target PHY attacks",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHARM",
+        "notes": "-"
+    },
+    {
+        "id": "523",
+        "commonName": "Magical Blink 1",
+        "effects": "Evades the next non-PHY, non-NIN attack that deals magical, fractional or missing HP damage",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "MIGHTY_GUARD_1",
+        "notes": "-"
+    },
+    {
+        "id": "524",
+        "commonName": "Doom of Atomos",
+        "effects": "Affects Atomos' behaviour after a 30 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "SUCTION",
+        "notes": "Used for Atomos (V)"
+    },
+    {
+        "id": "525",
+        "commonName": "Fury",
+        "effects": "Affects Wrexsoul's behaviour",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "FURY",
+        "notes": "Used for Wrexsoul (VI)"
+    },
+    {
+        "id": "526",
+        "commonName": "Unyielding Fist",
+        "effects": "ATK +50%, evades all attacks",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "All except KO, Invisible, Defend, Target Ally",
+        "codedName": "INDOMITABLENESS",
+        "notes": "-"
+    },
+    {
+        "id": "527",
+        "commonName": "Magic Lure",
+        "effects": "RES +100%, taunts single-target BLK attacks",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "MAGIC_CHARM",
+        "notes": "-"
+    },
+    {
+        "id": "528",
+        "commonName": "Focus",
+        "effects": "MAG +20%, RES +50%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_MATK_20_MDEF_50",
+        "notes": "-"
+    },
+    {
+        "id": "529",
+        "commonName": "Rage",
+        "effects": "Forces a specified action, affects targeting, resets ATB when removed",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All \"Retaliate\" status, Green Cherry",
+        "codedName": "RAGE",
+        "notes": "-"
+    },
+    {
+        "id": "531",
+        "commonName": "Grand Cross",
+        "effects": "Taunts single-target BLK and WHT attacks, absorbs BLK and WHT attacks to restore 1 consumed ability use",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "Runic",
+        "codedName": "GRAND_CROSS",
+        "notes": "-"
+    },
+    {
+        "id": "532",
+        "commonName": "Burst Mode",
+        "effects": "Replaces the Attack and Defend commands, ATK, DEF, MAG, RES, MND, ACC and EVA +20%, SPD +10%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "TRANCE",
+        "notes": "-"
+    },
+    {
+        "id": "533",
+        "commonName": "Jump Seal",
+        "effects": "Disables Jump attacks",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "FLIGHT_SEAL",
+        "notes": "Used for Nightmare Demon Wall"
+    },
+    {
+        "id": "534",
+        "commonName": "Eye Power",
+        "effects": "DEF and RES +200%, taunts single-target PHY, BLK and WHT attacks",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "Blind",
+        "codedName": "EYE_POWER_CHARM",
+        "notes": "Used for Ormi (X)"
+    },
+    {
+        "id": "535",
+        "commonName": "Imperil [Element] X%",
+        "effects": "[Element] resistance -X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_AS_DISADVANTAGE",
+        "notes": "-"
+    },
+    {
+        "id": "536",
+        "commonName": "Nightmare Evrae Altana",
+        "effects": "Increases magical damage taken from WHT attacks by 200%, reverses damage taken from the Poison status",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EXTREME_EVRAE_ALTANA",
+        "notes": "Used for Nightmare Evrae Altana"
+    },
+    {
+        "id": "537",
+        "commonName": "Nightmare Guado Guard",
+        "effects": "Increases magical damage taken from WHT attacks by 200%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EXTREME_EVRAE_ALTANA_ZAKO",
+        "notes": "Used for Nightmare Evrae Altana"
+    },
+    {
+        "id": "538",
+        "commonName": "Anti Faraway",
+        "effects": "Can't be hit by ranged PHY attacks",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ANTI_FARAWAY_LIMITED",
+        "notes": "Used for Seeker (XI)"
+    },
+    {
+        "id": "539",
+        "commonName": "Nightmare Neo Bahamut",
+        "effects": "Increases magical damage taken from SUM attacks by 100%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EXTREME_BAHAMUT",
+        "notes": "Used for Nightmare Neo Bahamut, Nightmare Valigarmanda"
+    },
+    {
+        "id": "540",
+        "commonName": "Nightmare Tonberry Slow",
+        "effects": "Increases the chance of being inflicted with Slow by 100",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ABYSS_TONBERRY_SLOW",
+        "notes": "Used for Nightmare Tonberry"
+    },
+    {
+        "id": "541",
+        "commonName": "Nightmare Tonberry Stun",
+        "effects": "Increases the chance of being inflicted with Stun by 100",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ABYSS_TONBERRY_STAN",
+        "notes": "Used for Nightmare Tonberry"
+    },
+    {
+        "id": "542",
+        "commonName": "Nightmare Tonberry Stop",
+        "effects": "Increases the chance of being inflicted with Stop by 100",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ABYSS_TONBERRY_STOP",
+        "notes": "Used for Nightmare Tonberry"
+    },
+    {
+        "id": "543",
+        "commonName": "Different Fire Resistance +X%",
+        "effects": "Fire Resistance +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_FIRE_FOR_AI",
+        "notes": "Used for Fiend (VI), Nightmare Kaiser Dragon"
+    },
+    {
+        "id": "544",
+        "commonName": "Different Ice Resistance +X%",
+        "effects": "Ice Resistance +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_ICE_FOR_AI",
+        "notes": "Used for Fiend (VI), Nightmare Kaiser Dragon"
+    },
+    {
+        "id": "545",
+        "commonName": "Different Lightning Resistance +X%",
+        "effects": "Lightning Resistance +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_LIGHTNING_FOR_AI",
+        "notes": "Used for Fiend (VI), Nightmare Kaiser Dragon"
+    },
+    {
+        "id": "546",
+        "commonName": "Different Water Resistance +X%",
+        "effects": "Water Resistance +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_WATER_FOR_AI",
+        "notes": "Used for Fiend (VI), Nightmare Kaiser Dragon"
+    },
+    {
+        "id": "547",
+        "commonName": "Different Earth Resistance +X%",
+        "effects": "Earth Resistance +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_EARTH_FOR_AI",
+        "notes": "Used for Fiend (VI), Nightmare Kaiser Dragon"
+    },
+    {
+        "id": "548",
+        "commonName": "Different Poison Resistance +X%",
+        "effects": "Poison Resistance +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_POISON_FOR_AI",
+        "notes": "Used for Fiend (VI), Nightmare Kaiser Dragon"
+    },
+    {
+        "id": "549",
+        "commonName": "Nightmare Wave Cannon 1",
+        "effects": "Affects Wave Cannon's behaviour",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ABYSS_WAVE_CANNON_LOCK_ON_1",
+        "notes": "Used for Nightmare Guardian"
+    },
+    {
+        "id": "550",
+        "commonName": "Nightmare Wave Cannon 2",
+        "effects": "Affects Wave Cannon's behaviour",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ABYSS_WAVE_CANNON_LOCK_ON_2",
+        "notes": "Used for Nightmare Guardian"
+    },
+    {
+        "id": "551",
+        "commonName": "Nightmare Wave Cannon 3",
+        "effects": "Affects Wave Cannon's behaviour",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ABYSS_WAVE_CANNON_LOCK_ON_3",
+        "notes": "Used for Nightmare Guardian"
+    },
+    {
+        "id": "552",
+        "commonName": "Nightmare Necrophobe ATK Doom",
+        "effects": "HP = 0 after a 20 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ABYSS_NEKURO_DOOM_ATK",
+        "notes": "Used for Nightmare Necrophobe"
+    },
+    {
+        "id": "553",
+        "commonName": "Nightmare Necrophobe MAG Doom",
+        "effects": "HP = 0 after a 20 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ABYSS_NEKURO_DOOM_MATK",
+        "notes": "Used for Nightmare Necrophobe"
+    },
+    {
+        "id": "554",
+        "commonName": "Nightmare Necrophobe DEF Doom",
+        "effects": "HP = 0 after a 20 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ABYSS_NEKURO_DOOM_DEF",
+        "notes": "Used for Nightmare Necrophobe"
+    },
+    {
+        "id": "555",
+        "commonName": "Nightmare Necrophobe RES Doom",
+        "effects": "HP = 0 after a 20 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ABYSS_NEKURO_DOOM_MDEF",
+        "notes": "Used for Nightmare Necrophobe"
+    },
+    {
+        "id": "556",
+        "commonName": "Weapon Chain Counter",
+        "effects": "Keeps track of the number of uses of Weapon Chain",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_WEAPON_MASTER",
+        "notes": "-"
+    },
+    {
+        "id": "557",
+        "commonName": "Geosgaeno Swallow",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "SWALLOWED_GEOSGAENO",
+        "notes": "Used for Geosgaeno (X)"
+    },
+    {
+        "id": "558",
+        "commonName": "Damage *X",
+        "effects": "Multiplies all damage received by X",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ADJUST_DAMAGE_FOR_AI",
+        "notes": "-"
+    },
+    {
+        "id": "559",
+        "commonName": "Zero Damage",
+        "effects": "Reduces all damage received to 0",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ADJUST_DAMAGE_ZERO_ALL",
+        "notes": "Used for Guardian (VI)"
+    },
+    {
+        "id": "560",
+        "commonName": "Flame Cannon Counter",
+        "effects": "Keeps track of the number of uses of Flame Cannon",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_FLAME_CANNON",
+        "notes": "-"
+    },
+    {
+        "id": "561",
+        "commonName": "Trine Combo Counter",
+        "effects": "Keeps track of the number of uses of Trine Combo",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_TORAIN_COMBO",
+        "notes": "-"
+    },
+    {
+        "id": "562",
+        "commonName": "Zero Physical Damage",
+        "effects": "Reduces physical damage received to 0",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ADJUST_DAMAGE_ZERO_PHYSICAL",
+        "notes": "-"
+    },
+    {
+        "id": "563",
+        "commonName": "Zero Magical Damage",
+        "effects": "Reduces magical damage received to 0",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ADJUST_DAMAGE_ZERO_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "564",
+        "commonName": "Doom Timer -3",
+        "effects": "Reduces the character's Doom timer by 3 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DOOM_DECREASE_COUNT_3",
+        "notes": "-"
+    },
+    {
+        "id": "567",
+        "commonName": "Thunderfall Counter",
+        "effects": "Keeps track of the number of uses of Thunderfall",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_THUNDER_FALL",
+        "notes": "-"
+    },
+    {
+        "id": "568",
+        "commonName": "Lurking Tiger Counter",
+        "effects": "Keeps track of the number of uses of Lurking Tiger",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_CHARGE",
+        "notes": "-"
+    },
+    {
+        "id": "569",
+        "commonName": "Radiant Shield Counter",
+        "effects": "Keeps track of the number of uses of Radiant Shield",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_RADIANT_SHIELD",
+        "notes": "-"
+    },
+    {
+        "id": "570",
+        "commonName": "Different Wind Resistance +X%",
+        "effects": "Wind Resistance +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_WIND_FOR_AI",
+        "notes": "Used for Fiend (VI)"
+    },
+    {
+        "id": "571",
+        "commonName": "Different Holy Resistance +X%",
+        "effects": "Holy Resistance +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_HOLY_FOR_AI",
+        "notes": "Used for Fiend (VI)"
+    },
+    {
+        "id": "572",
+        "commonName": "Different Dark Resistance +X%",
+        "effects": "Dark Resistance +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_DARK_FOR_AI",
+        "notes": "Used for Fiend (VI)"
+    },
+    {
+        "id": "573",
+        "commonName": "Draw & Junction Counter",
+        "effects": "Keeps track of the number of uses of Draw & Junction, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_JUNCTION",
+        "notes": "-"
+    },
+    {
+        "id": "574",
+        "commonName": "High Sentinel",
+        "effects": "DEF and RES +200%, taunts single-target PHY and BLK attacks",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "PROVOKE_AND_MDEF_200",
+        "notes": "-"
+    },
+    {
+        "id": "575",
+        "commonName": "Armiger",
+        "effects": "ATK +30%, cast speed x3,00, removed if the user doesn't have Stoneskin: 30%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "PARAM_BOOST_AND_CHANGE_CAST_TIME_FOR_PHANTOM_SWORD",
+        "notes": "-"
+    },
+    {
+        "id": "576",
+        "commonName": "EX: Legendary Swordsman",
+        "effects": "ATK +30%",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATK_BOOST_FOR_LEGENDARY_SWORDSMAN",
+        "notes": "-"
+    },
+    {
+        "id": "577",
+        "commonName": "High Retaliate",
+        "effects": "Can't be hit by PHY attacks, counters PHY attacks with an ability (single, 1,20 physical)",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "Retaliate",
+        "codedName": "COUNTER_AIMING_STRONG_FOR_LEGENDARY_SWORDSMAN",
+        "notes": "-"
+    },
+    {
+        "id": "578",
+        "commonName": "EX: Magitek Warrior",
+        "effects": "MAG +30%, cast speed x2,00",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "MAGITEK_WARRIOR",
+        "notes": "-"
+    },
+    {
+        "id": "579",
+        "commonName": "EX: Paladin",
+        "effects": "DEF +100%",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DEF_BOOST_FOR_PALADIN",
+        "notes": "-"
+    },
+    {
+        "id": "580",
+        "commonName": "Swift Steal Counter",
+        "effects": "Keeps track of the number of uses of Swift Steal",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_SWIFT_STEEL",
+        "notes": "-"
+    },
+    {
+        "id": "581",
+        "commonName": "??? Counter",
+        "effects": "Keeps track of the number of uses of ???",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_FANG_CHARGE",
+        "notes": "Not used"
+    },
+    {
+        "id": "582",
+        "commonName": "Kiss of the Wasp Counter",
+        "effects": "Keeps track of the number of uses of Kiss of the Wasp",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_BEE_POISON",
+        "notes": "-"
+    },
+    {
+        "id": "583",
+        "commonName": "EX: Flash",
+        "effects": "ATK +30%, grants High Quick Cast 1 after using a Lightning attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "FLASH_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "584",
+        "commonName": "Oil Bombs Counter",
+        "effects": "Keeps track of the number of uses of Oil Bombs, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_OIL_BOMB",
+        "notes": "-"
+    },
+    {
+        "id": "585",
+        "commonName": "Shot & Reload Counter",
+        "effects": "Keeps track of the number of uses of Shot & Reload",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_RELOAD",
+        "notes": "-"
+    },
+    {
+        "id": "587",
+        "commonName": "Chase",
+        "effects": "Casts Chase after using an ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACK_DECK_MODE_CHASE",
+        "notes": "-"
+    },
+    {
+        "id": "588",
+        "commonName": "EX: Attack Hand",
+        "effects": "MAG +30%, cast speed x2,00",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACK_DECK_MODE_PARAM_BOOST_AND_CHANGE_CAST_TIME",
+        "notes": "-"
+    },
+    {
+        "id": "589",
+        "commonName": "EX: Gale",
+        "effects": "ATK +30%, grants High Quick Cast 1 after using a Wind attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_GALE",
+        "notes": "-"
+    },
+    {
+        "id": "590",
+        "commonName": "EX: SeeD",
+        "effects": "Casts Blasting End after using two Spellblade abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "SEED_MODE_FINISH_BLOW",
+        "notes": "-"
+    },
+    {
+        "id": "591",
+        "commonName": "EX: Dualcast Magic",
+        "effects": "MAG +30%, 100% chance to dualcast Witch abilities consuming an extra ability use",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_DUAL_CAST_FOR_SHANTOTTO",
+        "notes": "-"
+    },
+    {
+        "id": "592",
+        "commonName": "EX: Cerberus",
+        "effects": "Grants Quick Cast 1 after using a Fire attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_HELLHOUND_CHANGE_CAST_TIME_AFTER_FIRE_ATTACK",
+        "notes": "-"
+    },
+    {
+        "id": "593",
+        "commonName": "Hybrid ATK",
+        "effects": "ATK +30%",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "Cerberus MAG +30%",
+        "codedName": "EX_MODE_HELLHOUND_ATK_BOOST",
+        "notes": "-"
+    },
+    {
+        "id": "594",
+        "commonName": "Hybrid MAG",
+        "effects": "MAG +30%",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "Cerberus ATK +30%",
+        "codedName": "EX_MODE_HELLHOUND_MATK_BOOST",
+        "notes": "-"
+    },
+    {
+        "id": "595",
+        "commonName": "Doom Timer +X",
+        "effects": "Increases the character's Doom timer by X when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DOOM_CHANGE_COUNT",
+        "notes": "-"
+    },
+    {
+        "id": "596",
+        "commonName": "Flame Cloak",
+        "effects": "Affects certain Burst Commands, 50% chance of countering enemy PHY attacks with Backfire",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "COUNTER_AIMING_MAGIC_FOR_CLOAK_OF_FLAME",
+        "notes": "-"
+    },
+    {
+        "id": "598",
+        "commonName": "Wild Moon",
+        "effects": "Grants High Quick Cast 1 after using a Water attack, casts Waterbolt Seal after using a Ninja ability if the user has any Physical Blink",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DISTURBANCE_HARVEST_MODE_CHASE",
+        "notes": "-"
+    },
+    {
+        "id": "599",
+        "commonName": "EX: Light Bless",
+        "effects": "DEF +100%, Knight abilities deal 5% more damage for each Knight ability used, up to +30%",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_LIGHT_BRESS",
+        "notes": "-"
+    },
+    {
+        "id": "50002",
+        "commonName": "EX: Dreadwyrm Trance",
+        "effects": "SUM attacks deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, casts Deathflare when removed",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_TRANCE_BAHAMUT",
+        "notes": "-"
+    },
+    {
+        "id": "50003",
+        "commonName": "Stoneskin: 100%",
+        "effects": "Reduces damage taken to 0, up to an amount equal to 100% of the character's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BARRIER_100",
+        "notes": "-"
+    },
+    {
+        "id": "50004",
+        "commonName": "EX: Royal Power",
+        "effects": "ATK +30%, increases Non-Elemental damage dealt by 10%, removed if the user doesn't have any Stoneskin",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_POWER_OF_ROYAL_FAMILY",
+        "notes": "-"
+    },
+    {
+        "id": "50005",
+        "commonName": "EX: Master Thief",
+        "effects": "Casts Storm Steal after dealing damage with a Thief ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_MASTER_THIEF",
+        "notes": "-"
+    },
+    {
+        "id": "50006",
+        "commonName": "EX: Loyal Retainer",
+        "effects": "ATK +30%, cast speed x1,50 plus x0,50 for each attack used for the duration of the status, up to x6,00",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_LOYAL_RETAINER",
+        "notes": "-"
+    },
+    {
+        "id": "50007",
+        "commonName": "EX: Ace",
+        "effects": "ATK +30%, casts Shoot & Run after dealing Water damage with an ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_ACE",
+        "notes": "-"
+    },
+    {
+        "id": "50008",
+        "commonName": "Descent Into Madness Counter",
+        "effects": "Keeps track of the number of uses of Descent Into Madness, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_DEMON",
+        "notes": "-"
+    },
+    {
+        "id": "50009",
+        "commonName": "Aggressor",
+        "effects": "Grants Quick Cast 1 after using a Dark attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AGGRESSOR",
+        "notes": "-"
+    },
+    {
+        "id": "50010",
+        "commonName": "Warsong 1",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "Warsong 2, Warsong 3, Warsong 4",
+        "codedName": "WAR_SONG_MODE_1",
+        "notes": "-"
+    },
+    {
+        "id": "50011",
+        "commonName": "Warsong 2",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "Warsong 1, Warsong 3, Warsong 4",
+        "codedName": "WAR_SONG_MODE_2",
+        "notes": "-"
+    },
+    {
+        "id": "50012",
+        "commonName": "Warsong 3",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "Warsong 1, Warsong 2, Warsong 4",
+        "codedName": "WAR_SONG_MODE_3",
+        "notes": "-"
+    },
+    {
+        "id": "50013",
+        "commonName": "Warsong 4",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "Warsong 1, Warsong 2, Warsong 3",
+        "codedName": "WAR_SONG_MODE_4",
+        "notes": "-"
+    },
+    {
+        "id": "50014",
+        "commonName": "Anthem 1",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "Anthem 2, Anthem 3, Anthem 4",
+        "codedName": "ANTHEM_MODE_1",
+        "notes": "-"
+    },
+    {
+        "id": "50015",
+        "commonName": "Anthem 2",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "Anthem 1, Anthem 3, Anthem 4",
+        "codedName": "ANTHEM_MODE_2",
+        "notes": "-"
+    },
+    {
+        "id": "50016",
+        "commonName": "Anthem 3",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "Anthem 1, Anthem 2, Anthem 4",
+        "codedName": "ANTHEM_MODE_3",
+        "notes": "-"
+    },
+    {
+        "id": "50017",
+        "commonName": "Anthem 4",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "Anthem 1, Anthem 2, Anthem 3",
+        "codedName": "ANTHEM_MODE_4",
+        "notes": "-"
+    },
+    {
+        "id": "50018",
+        "commonName": "Flaming Love",
+        "effects": "Grants Quick Cast 1 after using a Fire attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_SA_ON_ACTION_EXIT_IF_ABILITY_POSSIBLE_ELEMENT_FIRE",
+        "notes": "-"
+    },
+    {
+        "id": "50019",
+        "commonName": "Lightning Chase",
+        "effects": "Casts Lightning after dealing Dark damage with an ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_WAVE_CANNON",
+        "notes": "-"
+    },
+    {
+        "id": "50020",
+        "commonName": "Trigger Happy",
+        "effects": "Grants Quick Cast 1 after using a Machinist ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_MACHINIST",
+        "notes": "-"
+    },
+    {
+        "id": "50021",
+        "commonName": "Fat Moogle Sleep",
+        "effects": "Increases the chance of being inflicted with Sleep by 100",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ADD_100_TO_EXTRA_DEF_STATUS_AILMENTS_OF_SLEEP",
+        "notes": "Used for Fat Moogle"
+    },
+    {
+        "id": "50022",
+        "commonName": "Attach Dark Stacking",
+        "effects": "Allows to cumulate Attach Dark",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_DARK_BOOSTABLE",
+        "notes": "-"
+    },
+    {
+        "id": "50023",
+        "commonName": "Ragnarok Buster",
+        "effects": "Grants High Quick Cast 1 after using a Ice attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_SA_ON_ACTION_EXIT_IF_ABILITY_POSSIBLE_ELEMENT_ICE",
+        "notes": "-"
+    },
+    {
+        "id": "50024",
+        "commonName": "Dualcast Witch",
+        "effects": "100% chance to dualcast Witch abilities consuming an extra ability use",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_WITCH_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "50025",
+        "commonName": "Burning Duel",
+        "effects": "Casts Burning Blow after dealing a critical hit",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_BURNING_DUEL",
+        "notes": "-"
+    },
+    {
+        "id": "50026",
+        "commonName": "Sephiroth Trance",
+        "effects": "ATK +50%, DEF -50%, cast speed x3,00",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "SEPHIROTH_TRANCE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50027",
+        "commonName": "Turks Full Course",
+        "effects": "Grants Quick Cast 1 after using a Lightning attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_LIGHTNING_ELEMENT",
+        "notes": "-"
+    },
+    {
+        "id": "50028",
+        "commonName": "Heavy Grinder Counter",
+        "effects": "Keeps track of the number of uses of Heavy Grinder, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_HEAVY_GRANDER",
+        "notes": "-"
+    },
+    {
+        "id": "50032",
+        "commonName": "Heavy Grinder Speed x1,11",
+        "effects": "Cast speed x1,11 for Heavy Grinder",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_111_FOR_HEAVY_GRANDER",
+        "notes": "-"
+    },
+    {
+        "id": "50033",
+        "commonName": "Heavy Grinder Speed x1,43",
+        "effects": "Cast speed x1,43 for Heavy Grinder",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_143_FOR_HEAVY_GRANDER",
+        "notes": "-"
+    },
+    {
+        "id": "50034",
+        "commonName": "Heavy Grinder Speed x2,00",
+        "effects": "Cast speed x2,00 for Heavy Grinder",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_FOR_HEAVY_GRANDER",
+        "notes": "-"
+    },
+    {
+        "id": "50035",
+        "commonName": "Heavy Grinder Speed x3,33",
+        "effects": "Cast speed x3,33 for Heavy Grinder",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_333_FOR_HEAVY_GRANDER",
+        "notes": "-"
+    },
+    {
+        "id": "50036",
+        "commonName": "Heavy Grinder Speed x10,00",
+        "effects": "Cast speed x10,00 for Heavy Grinder",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_1000_FOR_HEAVY_GRANDER",
+        "notes": "-"
+    },
+    {
+        "id": "601",
+        "commonName": "MAG +X%",
+        "effects": "MAG +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_MATK",
+        "notes": "-"
+    },
+    {
+        "id": "602",
+        "commonName": "MND +X%",
+        "effects": "MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_MND",
+        "notes": "-"
+    },
+    {
+        "id": "603",
+        "commonName": "ATK +X%",
+        "effects": "ATK +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK",
+        "notes": "-"
+    },
+    {
+        "id": "604",
+        "commonName": "DEF +X%",
+        "effects": "DEF +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_DEF",
+        "notes": "-"
+    },
+    {
+        "id": "605",
+        "commonName": "ATK and ACC +X%",
+        "effects": "ATK and ACC +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_ACC",
+        "notes": "-"
+    },
+    {
+        "id": "606",
+        "commonName": "EVA +X%",
+        "effects": "EVA +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_EVA",
+        "notes": "-"
+    },
+    {
+        "id": "607",
+        "commonName": "RES +X%",
+        "effects": "RES +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_MDEF",
+        "notes": "-"
+    },
+    {
+        "id": "608",
+        "commonName": "DEF and RES +X%",
+        "effects": "DEF and RES +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_DEF_MDEF",
+        "notes": "-"
+    },
+    {
+        "id": "609",
+        "commonName": "ATK, DEF, MAG and RES +X%",
+        "effects": "ATK, DEF, MAG and RES +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_MATK_DEF_MDEF",
+        "notes": "-"
+    },
+    {
+        "id": "610",
+        "commonName": "ATK and MAG +X%",
+        "effects": "ATK and MAG +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_MATK",
+        "notes": "-"
+    },
+    {
+        "id": "611",
+        "commonName": "ATK and DEF +X%",
+        "effects": "ATK and DEF +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_DEF",
+        "notes": "-"
+    },
+    {
+        "id": "612",
+        "commonName": "ATK, DEF, MAG, RES, MND, ACC and SPD +X%",
+        "effects": "ATK, DEF, MAG, RES, MND, ACC and SPD +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_MATK_DEF_MDEF_SPD_ACC_MND",
+        "notes": "-"
+    },
+    {
+        "id": "613",
+        "commonName": "SPD +X%",
+        "effects": "SPD +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_SPD",
+        "notes": "-"
+    },
+    {
+        "id": "614",
+        "commonName": "Critical X%",
+        "effects": "Critical chance =X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_CRITICAL_ABSOLUTE",
+        "notes": "-"
+    },
+    {
+        "id": "615",
+        "commonName": "Special ATK +X%",
+        "effects": "ATK +X% (ignoring the buff stacking caps)",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_FOR_AI",
+        "notes": "Used for Nightmare CPU"
+    },
+    {
+        "id": "616",
+        "commonName": "Special MAG +X%",
+        "effects": "MAG +X% (ignoring the buff stacking caps)",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_MATK_FOR_AI",
+        "notes": "Used for Nightmare CPU"
+    },
+    {
+        "id": "617",
+        "commonName": "Special DEF +X%",
+        "effects": "DEF +X% (ignoring the buff stacking caps)",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_DEF_FOR_AI",
+        "notes": "Used for Nightmare CPU"
+    },
+    {
+        "id": "618",
+        "commonName": "Special RES +X%",
+        "effects": "RES +X% (ignoring the buff stacking caps)",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_MDEF_FOR_AI",
+        "notes": "Used for Nightmare CPU"
+    },
+    {
+        "id": "619",
+        "commonName": "Different DEF and RES +X%",
+        "effects": "DEF and RES +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_DEF_MDEF_NOT_IRON_WALL",
+        "notes": "-"
+    },
+    {
+        "id": "620",
+        "commonName": "DEF and MAG +X%",
+        "effects": "DEF and MAG +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_DEF_MATK",
+        "notes": "-"
+    },
+    {
+        "id": "621",
+        "commonName": "ATK and RES +X%",
+        "effects": "ATK and RES +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_MDEF",
+        "notes": "-"
+    },
+    {
+        "id": "622",
+        "commonName": "MAG and RES +X%",
+        "effects": "MAG and RES +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_MATK_MDEF",
+        "notes": "-"
+    },
+    {
+        "id": "623",
+        "commonName": "MAG and MND +X%",
+        "effects": "MAG and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_MATK_MND",
+        "notes": "-"
+    },
+    {
+        "id": "624",
+        "commonName": "ATK, DEF and MND +X%",
+        "effects": "ATK, DEF and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_DEF_MND",
+        "notes": "-"
+    },
+    {
+        "id": "625",
+        "commonName": "Status Chance +X%",
+        "effects": "Increases the chance of inflicting Status by X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_SA_COEF_FOR_ENEMY",
+        "notes": "-"
+    },
+    {
+        "id": "626",
+        "commonName": "Special Timer ATK +X%",
+        "effects": "ATK +X% (ignoring the buff stacking caps)",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_FOR_AI_TIMER",
+        "notes": "Used for Nightmare Necrophobe"
+    },
+    {
+        "id": "627",
+        "commonName": "Special Timer MAG +X%",
+        "effects": "MAG +X% (ignoring the buff stacking caps)",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_DEF_FOR_AI_TIMER",
+        "notes": "Used for Nightmare Necrophobe"
+    },
+    {
+        "id": "628",
+        "commonName": "Special Timer DEF +X%",
+        "effects": "DEF +X% (ignoring the buff stacking caps)",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_MATK_FOR_AI_TIMER",
+        "notes": "Used for Nightmare Necrophobe"
+    },
+    {
+        "id": "629",
+        "commonName": "Special Timer RES +X%",
+        "effects": "RES +X% (ignoring the buff stacking caps)",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_MDEF_FOR_AI_TIMER",
+        "notes": "Used for Nightmare Necrophobe"
+    },
+    {
+        "id": "630",
+        "commonName": "ATK, DEF, MAG, RES and MND +X%",
+        "effects": "ATK, DEF, MAG, RES and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_DEF_MATK_MDEF_MND",
+        "notes": "-"
+    },
+    {
+        "id": "631",
+        "commonName": "RES and MND +X%",
+        "effects": "RES and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_MDEF_MND",
+        "notes": "-"
+    },
+    {
+        "id": "632",
+        "commonName": "ATK and MND +X%",
+        "effects": "ATK and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_MND",
+        "notes": "-"
+    },
+    {
+        "id": "633",
+        "commonName": "ATK, DEF and MAG +X%",
+        "effects": "ATK, DEF and MAG +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_MATK_DEF",
+        "notes": "-"
+    },
+    {
+        "id": "634",
+        "commonName": "ATK, MAG and RES +X%",
+        "effects": "ATK, MAG and RES +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_MATK_MDEF",
+        "notes": "-"
+    },
+    {
+        "id": "635",
+        "commonName": "Crash +X%",
+        "effects": "DEF and RES +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_DEF_MDEF_CRASH",
+        "notes": "-"
+    },
+    {
+        "id": "636",
+        "commonName": "Swift Steal +X%",
+        "effects": "ATK +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_FOR_SWIFT_STEEL",
+        "notes": "-"
+    },
+    {
+        "id": "637",
+        "commonName": "ATK, DEF and RES +X%",
+        "effects": "ATK, DEF and RES +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_DEF_MDEF",
+        "notes": "-"
+    },
+    {
+        "id": "638",
+        "commonName": "ATK, MAG and MND +X%",
+        "effects": "ATK, MAG and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_DEF_MDEF",
+        "notes": "-"
+    },
+    {
+        "id": "639",
+        "commonName": "Demon ATK +X%",
+        "effects": "ATK +X%",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_FOR_DEMON_SONG",
+        "notes": "-"
+    },
+    {
+        "id": "640",
+        "commonName": "Devil MAG +X%",
+        "effects": "MAG +X%",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_MATK_FOR_DEVIL_SONG",
+        "notes": "-"
+    },
+    {
+        "id": "641",
+        "commonName": "Madness +X%",
+        "effects": "MAG +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_MATK_FOR_KEFKA_BURST_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "642",
+        "commonName": "MAG, RES and MND +X%",
+        "effects": "MAG, RES and MND +X%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_MATK_MDEF_MND",
+        "notes": "-"
+    },
+    {
+        "id": "6001",
+        "commonName": "Dark Bargain",
+        "effects": "ATK +30%, DEF -30%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_ATK_30_DEF_M30",
+        "notes": "-"
+    },
+    {
+        "id": "6002",
+        "commonName": "Stitch in Time",
+        "effects": "MAG +30%, DEF -30%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_MATK_30_DEF_M30",
+        "notes": "-"
+    },
+    {
+        "id": "6003",
+        "commonName": "Combat King",
+        "effects": "ATK, DEF and RES +30%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_ATK_30_DEF_30_MDEF_30",
+        "notes": "-"
+    },
+    {
+        "id": "6004",
+        "commonName": "Hailstorm",
+        "effects": "ATK +30%, RES -30%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_ATK_30_MDEF_M30",
+        "notes": "-"
+    },
+    {
+        "id": "6005",
+        "commonName": "Bushido",
+        "effects": "ATK +30%, RES +25%, Critical chance =50%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_ATK_30_MDEF_25_CRITICAL_50",
+        "notes": "-"
+    },
+    {
+        "id": "6006",
+        "commonName": "Dance of Carnage",
+        "effects": "Critical chance =50%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_50",
+        "notes": "-"
+    },
+    {
+        "id": "6007",
+        "commonName": "Oathsworn Espada",
+        "effects": "ATK and DEF +30%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_ATK_30_DEF_30",
+        "notes": "-"
+    },
+    {
+        "id": "6008",
+        "commonName": "Twin Star",
+        "effects": "ATK +30%, MND +15%, Critical chance =50%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_ATK_30_MND_15_CRITICAL_50",
+        "notes": "-"
+    },
+    {
+        "id": "6009",
+        "effects": "MAG +15%, DEF -15%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_MATK_15_DEF_M15",
+        "notes": "???"
+    },
+    {
+        "id": "6010",
+        "effects": "MAG +15%, RES -15%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_MATK_15_MDEF_M15",
+        "notes": "???"
+    },
+    {
+        "id": "6011",
+        "commonName": "Meikyo Shisui",
+        "effects": "ATK and RES +30%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_ATK_30_MDEF_30",
+        "notes": "-"
+    },
+    {
+        "id": "6012",
+        "effects": "ATK +15%, DEF -15%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_ATK_15_DEF_M15",
+        "notes": "???"
+    },
+    {
+        "id": "6013",
+        "commonName": "Intervention",
+        "effects": "ATK +30%, DEF +50%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_ATK_30_DEF_50",
+        "notes": "-"
+    },
+    {
+        "id": "6014",
+        "commonName": "Lingering Spirit",
+        "effects": "MAG +30%, RES -30%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_MATK_30_MDEF_M30",
+        "notes": "-"
+    },
+    {
+        "id": "6015",
+        "commonName": "Desperate Madness",
+        "effects": "DEF -50%, RES -25%",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_DEF_M50_MDEF_M25",
+        "notes": "-"
+    },
+    {
+        "id": "6016",
+        "commonName": "Cross Slash",
+        "effects": "Critical chance =100%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_100",
+        "notes": "-"
+    },
+    {
+        "id": "6017",
+        "effects": "MAG +30%, DEF -15%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_MATK_30_DEF_M15",
+        "notes": "???"
+    },
+    {
+        "id": "6018",
+        "commonName": "Crimson Curse",
+        "effects": "ATK +35%, DEF -35%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_ATK_35_DEF_M35",
+        "notes": "-"
+    },
+    {
+        "id": "6019",
+        "commonName": "Heartless Angel",
+        "effects": "ATK +50%, DEF and RES -15%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_ATK_50_DEF_M15_MDEF_M15",
+        "notes": "-"
+    },
+    {
+        "id": "6020",
+        "commonName": "Materia Charge",
+        "effects": "ATK and MAG +30%, DEF -30%",
+        "defaultDuration": "20",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_ATK_30_MATK_30_DEF_M30",
+        "notes": "-"
+    },
+    {
+        "id": "701",
+        "commonName": "Invincible",
+        "effects": "Can't be hit by any attack",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INVINCIBLE",
+        "notes": "-"
+    },
+    {
+        "id": "702",
+        "commonName": "Null Physical",
+        "effects": "Can't be hit by PHY attacks",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "NULL_PHYSICAL",
+        "notes": "-"
+    },
+    {
+        "id": "703",
+        "commonName": "Null Magical",
+        "effects": "Can't be hit by BLK, WHT, BLU or SUM attacks",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "NULL_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "704",
+        "commonName": "Faraway",
+        "effects": "Can't be hit by non-ranged PHY attacks",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "FARAWAY",
+        "notes": "-"
+    },
+    {
+        "id": "705",
+        "commonName": "Null Basic Magic",
+        "effects": "Can't be hit by BLK or WHT attacks",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "NULL_BASIC_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "801",
+        "commonName": "Attach Lightning",
+        "effects": "Replaces Attack command, increases Lightning damage dealt by 50/70/100% (abilities) or 80/90/100% (Soul Breaks), Lightning resistance +20%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_LIGHTNING",
+        "notes": "-"
+    },
+    {
+        "id": "804",
+        "commonName": "Attach Fire",
+        "effects": "Replaces Attack command, increases Fire damage dealt by 50/70/100%  (abilities) or 80/90/100% (Soul Breaks), Fire resistance +20%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_FIRE",
+        "notes": "-"
+    },
+    {
+        "id": "807",
+        "commonName": "Attach Wind",
+        "effects": "Replaces Attack command, increases Wind damage dealt by 50/70/100% (abilities) or 80/90/100% (Soul Breaks), Wind resistance +20%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_WIND",
+        "notes": "-"
+    },
+    {
+        "id": "810",
+        "commonName": "Attach Earth",
+        "effects": "Replaces Attack command, increases Earth damage dealt by 50/70/100% (abilities) or 80/90/100% (Soul Breaks), Earth resistance +20%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_EARTH",
+        "notes": "-"
+    },
+    {
+        "id": "813",
+        "commonName": "Attach Dark",
+        "effects": "Replaces Attack command, increases Dark damage dealt by 50/70/100% (abilities) or 80/90/100% (Soul Breaks), Dark resistance +20%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_DARK",
+        "notes": "-"
+    },
+    {
+        "id": "816",
+        "commonName": "Attach Holy",
+        "effects": "Replaces Attack command, increases Holy damage dealt by 50/70/100% (abilities) or 80/90/100% (Soul Breaks), Holy resistance +20%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_HOLY",
+        "notes": "-"
+    },
+    {
+        "id": "819",
+        "commonName": "Attach Water",
+        "effects": "Replaces Attack command, increases Water damage dealt by 50/70/100% (abilities) or 80/90/100% (Soul Breaks), Water resistance +20%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_WATER",
+        "notes": "-"
+    },
+    {
+        "id": "822",
+        "commonName": "Attach Ice",
+        "effects": "Replaces Attack command, increases Ice damage dealt by 50/70/100% (abilities) or 80/90/100% (Soul Breaks), Ice resistance +20%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_ICE",
+        "notes": "-"
+    },
+    {
+        "id": "825",
+        "commonName": "Attach Poison",
+        "effects": "Replaces Attack command, increases Poison damage dealt by 50/70/100% (abilities) or 80/90/100% (Soul Breaks), Poison resistance +20%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_POISON",
+        "notes": "-"
+    },
+    {
+        "id": "828",
+        "commonName": "Imperil Fire X%",
+        "effects": "Fire Resistance -X%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_FIRE",
+        "notes": "-"
+    },
+    {
+        "id": "829",
+        "commonName": "Imperil Ice X%",
+        "effects": "Ice Resistance -X%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_ICE",
+        "notes": "-"
+    },
+    {
+        "id": "830",
+        "commonName": "Imperil Lightning X%",
+        "effects": "Lightning Resistance -X%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_LIGHTNING",
+        "notes": "-"
+    },
+    {
+        "id": "831",
+        "commonName": "Imperil Earth X%",
+        "effects": "Earth Resistance -X%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_EARTH",
+        "notes": "-"
+    },
+    {
+        "id": "832",
+        "commonName": "Imperil Wind X%",
+        "effects": "Wind Resistance -X%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_WIND",
+        "notes": "-"
+    },
+    {
+        "id": "833",
+        "commonName": "Imperil Water X%",
+        "effects": "Water Resistance -X%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_WATER",
+        "notes": "-"
+    },
+    {
+        "id": "834",
+        "commonName": "Imperil Holy X%",
+        "effects": "Holy Resistance -X%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_HOLY",
+        "notes": "-"
+    },
+    {
+        "id": "835",
+        "commonName": "Imperil Dark X%",
+        "effects": "Dark Resistance -X%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_DARK",
+        "notes": "-"
+    },
+    {
+        "id": "836",
+        "commonName": "Imperil Poison X%",
+        "effects": "Poison Resistance -X%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_POISON",
+        "notes": "-"
+    },
+    {
+        "id": "837",
+        "commonName": "Minor Imperil Holy",
+        "effects": "Holy Resistance -10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_HOLY_DISADVANTAGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "838",
+        "commonName": "Minor Imperil Dark",
+        "effects": "Dark Resistance -10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_DARK_DISADVANTAGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "839",
+        "commonName": "Minor Imperil Fire",
+        "effects": "Fire Resistance -10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_FIRE_DISADVANTAGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "840",
+        "commonName": "Minor Imperil Wind",
+        "effects": "Wind Resistance -10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_WIND_DISADVANTAGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "841",
+        "commonName": "Minor Imperil Lightning",
+        "effects": "Lightning Resistance -10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_LIGHTNING_DISADVANTAGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "843",
+        "commonName": "Minor Imperil Ice",
+        "effects": "Ice Resistance -10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_ICE_DISADVANTAGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "8411001",
+        "commonName": "Fire Blink 1",
+        "effects": "Reduces the damage of the next attack that deals Fire damage to 0",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_FIRE_DAMAGE_EVASION_1",
+        "notes": "-"
+    },
+    {
+        "id": "8411011",
+        "commonName": "Ice Blink 1",
+        "effects": "Reduces the damage of the next attack that deals Ice damage to 0",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_ICE_DAMAGE_EVASION_1",
+        "notes": "-"
+    },
+    {
+        "id": "8411041",
+        "commonName": "Wind Blink 1",
+        "effects": "Reduces the damage of the next attack that deals Wind damage to 0",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_WIND_DAMAGE_EVASION_1",
+        "notes": "-"
+    },
+    {
+        "id": "8411061",
+        "commonName": "Holy Blink 1",
+        "effects": "Reduces the damage of the next attack that deals Holy damage to 0",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_HOLY_DAMAGE_EVASION_1",
+        "notes": "-"
+    },
+    {
+        "id": "8421001",
+        "commonName": "Resist Fire",
+        "effects": "Fire Resistance +20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_FIRE_ADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "8421031",
+        "commonName": "Resist Earth",
+        "effects": "Earth Resistance +20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_EARTH_ADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "8421051",
+        "commonName": "Resist Water",
+        "effects": "Water Resistance +20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_WATER_ADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "8421061",
+        "commonName": "Resist Holy",
+        "effects": "Holy Resistance +20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_HOLY_ADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "8421071",
+        "commonName": "Resist Dark",
+        "effects": "Dark Resistance +20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_DARK_ADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "8431001",
+        "commonName": "Minor Resist Fire",
+        "effects": "Fire Resistance +10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_FIRE_ADVANTAGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "8431071",
+        "commonName": "Minor Resist Dark",
+        "effects": "Dark Resistance +10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_DARK_ADVANTAGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "901",
+        "commonName": "Ignore Control Loss",
+        "effects": "Allows to act normally even with status that force specific actions",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "IGNORE_INCONTROLLABLE",
+        "notes": "Used for Enki and Enlil (XIII), Defender Z (X), Magic Master (VI)"
+    },
+    {
+        "id": "902",
+        "commonName": "Ignore Esuna",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DO_NOTHING_FOR_ESNA",
+        "notes": "???"
+    },
+    {
+        "id": "903",
+        "commonName": "Ignore Dispel",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DO_NOTHING_FOR_DISPEL",
+        "notes": "???"
+    },
+    {
+        "id": "999",
+        "commonName": "KO",
+        "effects": "KO'd, can't act, persists after battle",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All",
+        "codedName": "DEATH",
+        "notes": "-"
+    },
+    {
+        "effects": "Notes:"
+    },
+    {
+        "effects": "* Abilities described as \"remove negative effects\", like Esuna, remove the status 200 (Poison), 201 (Silence), 202 (Paralyze), 203 (Confuse), 210 (Blind), 211 (Sleep), 212 (Petrify), 215 (Berserk), 221 (Mini), 222 (Toad) and 524 (Doom of Atomos)."
+    },
+    {
+        "effects": "* Abilities described as \"remove positive effects\", like Dispel,  remove the status 204 (Haste), 207 (Protect), 208 (Shell), 209 (Reflect), 216 (Low Regen), 247 (Medium Regen), 243 (High Regen) and 240 (Triple)."
+    }
+]
