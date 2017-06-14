@@ -14,7 +14,8 @@
         "autoTarget": "Random enemy",
         "sb": 60,
         "school": "Support",
-        "nameJp": "戦意喪失の章"
+        "name(jp)": "戦意喪失の章",
+        "✓": "✓"
     },
     {
         "character": "Tyro",
@@ -31,7 +32,8 @@
         "autoTarget": "Random enemy",
         "sb": 60,
         "school": "Support",
-        "nameJp": "因果応報の章"
+        "name(jp)": "因果応報の章",
+        "✓": "✓"
     },
     {
         "character": "Warrior of Light",
@@ -48,7 +50,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "ストライクオブライト"
+        "name(jp)": "ストライクオブライト",
+        "✓": "✓"
     },
     {
         "character": "Warrior of Light",
@@ -65,7 +68,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "クリスタルフォーム"
+        "name(jp)": "クリスタルフォーム",
+        "✓": "✓"
     },
     {
         "character": "Garland",
@@ -82,7 +86,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Darkness",
-        "nameJp": "デスクロウ"
+        "name(jp)": "デスクロウ",
+        "✓": "✓"
     },
     {
         "character": "Garland",
@@ -99,7 +104,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Darkness",
-        "nameJp": "やみのつなみ"
+        "name(jp)": "やみのつなみ",
+        "✓": "✓"
     },
     {
         "character": "Sarah",
@@ -116,7 +122,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "清き祈り"
+        "name(jp)": "清き祈り",
+        "✓": "✓"
     },
     {
         "character": "Sarah",
@@ -133,7 +140,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "ささやかな願い"
+        "name(jp)": "ささやかな願い",
+        "✓": "✓"
     },
     {
         "character": "Wol",
@@ -150,7 +158,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "トリックアタック"
+        "name(jp)": "トリックアタック",
+        "✓": "✓"
     },
     {
         "character": "Wol",
@@ -167,7 +176,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Support",
-        "nameJp": "ブレイクキラー"
+        "name(jp)": "ブレイクキラー",
+        "✓": "✓"
     },
     {
         "character": "Echo",
@@ -184,7 +194,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "おしおきサンダー"
+        "name(jp)": "おしおきサンダー",
+        "✓": "✓"
     },
     {
         "character": "Echo",
@@ -198,7 +209,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Dancer",
-        "nameJp": "ぼうがいストップ"
+        "name(jp)": "ぼうがいストップ",
+        "✓": "✓"
     },
     {
         "character": "Echo",
@@ -215,7 +227,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "しっかりブレイク"
+        "name(jp)": "しっかりブレイク",
+        "✓": "✓"
     },
     {
         "character": "Echo",
@@ -232,7 +245,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "がっかりマジック"
+        "name(jp)": "がっかりマジック",
+        "✓": "✓"
     },
     {
         "character": "Master",
@@ -249,7 +263,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "疾風怒濤"
+        "name(jp)": "疾風怒濤",
+        "✓": "✓"
     },
     {
         "character": "Master",
@@ -266,7 +281,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "背水一戦"
+        "name(jp)": "背水一戦",
+        "✓": "✓"
     },
     {
         "character": "Matoya",
@@ -283,7 +299,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "二重詠唱・対"
+        "name(jp)": "二重詠唱・対",
+        "✓": "✓"
     },
     {
         "character": "Matoya",
@@ -300,7 +317,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "二重詠唱・極"
+        "name(jp)": "二重詠唱・極",
+        "✓": "✓"
     },
     {
         "character": "Meia",
@@ -314,7 +332,8 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "パッリダ・フルクトゥス"
+        "name(jp)": "パッリダ・フルクトゥス",
+        "✓": "✓"
     },
     {
         "character": "Meia",
@@ -331,7 +350,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "パッリダ・フルクトゥス"
+        "name(jp)": "パッリダ・フルクトゥス",
+        "✓": "✓"
     },
     {
         "character": "Meia",
@@ -348,7 +368,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "パッリダ・シェリング"
+        "name(jp)": "パッリダ・シェリング",
+        "✓": "✓"
     },
     {
         "character": "Meia",
@@ -365,7 +386,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "パッリダ・シェリング"
+        "name(jp)": "パッリダ・シェリング",
+        "✓": "✓"
     },
     {
         "character": "Firion",
@@ -382,7 +404,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "ウェポンチェイン"
+        "name(jp)": "ウェポンチェイン",
+        "✓": "✓"
     },
     {
         "character": "Firion",
@@ -399,7 +422,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "チェインムーブ"
+        "name(jp)": "チェインムーブ",
+        "✓": "✓"
     },
     {
         "character": "Maria",
@@ -416,7 +440,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "ブレイク"
+        "name(jp)": "ブレイク",
+        "✓": "✓"
     },
     {
         "character": "Maria",
@@ -433,7 +458,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "太陽の炎"
+        "name(jp)": "太陽の炎",
+        "✓": "✓"
     },
     {
         "character": "Guy",
@@ -450,7 +476,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "狼の猛牙"
+        "name(jp)": "狼の猛牙",
+        "✓": "✓"
     },
     {
         "character": "Guy",
@@ -467,7 +494,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "巨漢の豪腕"
+        "name(jp)": "巨漢の豪腕",
+        "✓": "✓"
     },
     {
         "character": "Leon",
@@ -484,7 +512,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Darkness",
-        "nameJp": "生命の略奪"
+        "name(jp)": "生命の略奪",
+        "✓": "✓"
     },
     {
         "character": "Leon",
@@ -501,7 +530,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Darkness",
-        "nameJp": "野心の代償"
+        "name(jp)": "野心の代償",
+        "✓": "✓"
     },
     {
         "character": "Minwu",
@@ -518,7 +548,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "ケアル10"
+        "name(jp)": "ケアル10",
+        "✓": "✓"
     },
     {
         "character": "Minwu",
@@ -535,7 +566,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "アンチ16"
+        "name(jp)": "アンチ16",
+        "✓": "✓"
     },
     {
         "character": "Gordon",
@@ -552,7 +584,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Support",
-        "nameJp": "王族の覚悟"
+        "name(jp)": "王族の覚悟",
+        "✓": "✓"
     },
     {
         "character": "Gordon",
@@ -569,7 +602,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Support",
-        "nameJp": "生き残りの意地"
+        "name(jp)": "生き残りの意地",
+        "✓": "✓"
     },
     {
         "character": "Ricard",
@@ -586,7 +620,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Dragoon",
-        "nameJp": "竜騎士団の嵐血"
+        "name(jp)": "竜騎士団の嵐血",
+        "✓": "✓"
     },
     {
         "character": "Ricard",
@@ -603,7 +638,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Dragoon",
-        "nameJp": "飛竜の加護"
+        "name(jp)": "飛竜の加護",
+        "✓": "✓"
     },
     {
         "character": "Josef",
@@ -620,7 +656,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "砕氷の怪腕"
+        "name(jp)": "砕氷の怪腕",
+        "✓": "✓"
     },
     {
         "character": "Josef",
@@ -637,7 +674,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "雪原の男気"
+        "name(jp)": "雪原の男気",
+        "✓": "✓"
     },
     {
         "character": "Leila",
@@ -654,7 +692,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Thief",
-        "nameJp": "ポイズンスティング"
+        "name(jp)": "ポイズンスティング",
+        "✓": "✓"
     },
     {
         "character": "Leila",
@@ -671,7 +710,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Thief",
-        "nameJp": "女海賊の毒牙"
+        "name(jp)": "女海賊の毒牙",
+        "✓": "✓"
     },
     {
         "character": "Emperor",
@@ -688,7 +728,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "封縛の風陣"
+        "name(jp)": "封縛の風陣",
+        "✓": "✓"
     },
     {
         "character": "Emperor",
@@ -705,7 +746,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "生奪いし風"
+        "name(jp)": "生奪いし風",
+        "✓": "✓"
     },
     {
         "character": "Scott",
@@ -722,7 +764,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "魔印・爆裂斬"
+        "name(jp)": "魔印・爆裂斬",
+        "✓": "✓"
     },
     {
         "character": "Scott",
@@ -739,7 +782,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "先駆けの炎斬"
+        "name(jp)": "先駆けの炎斬",
+        "✓": "✓"
     },
     {
         "character": "Luneth",
@@ -756,7 +800,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "疾風の連撃"
+        "name(jp)": "疾風の連撃",
+        "✓": "✓"
     },
     {
         "character": "Luneth",
@@ -773,7 +818,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "暴風の猛撃"
+        "name(jp)": "暴風の猛撃",
+        "✓": "✓"
     },
     {
         "character": "Arc",
@@ -790,7 +836,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "浄化の心得"
+        "name(jp)": "浄化の心得",
+        "✓": "✓"
     },
     {
         "character": "Arc",
@@ -807,7 +854,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "治癒の心得"
+        "name(jp)": "治癒の心得",
+        "✓": "✓"
     },
     {
         "character": "Arc",
@@ -824,7 +872,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "ディアウォータ"
+        "name(jp)": "ディアウォータ",
+        "✓": "✓"
     },
     {
         "character": "Arc",
@@ -841,7 +890,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "ディアケアル"
+        "name(jp)": "ディアケアル",
+        "✓": "✓"
     },
     {
         "character": "Refia",
@@ -858,7 +908,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "焔の極意"
+        "name(jp)": "焔の極意",
+        "✓": "✓"
     },
     {
         "character": "Refia",
@@ -875,7 +926,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "修羅の炎陣"
+        "name(jp)": "修羅の炎陣",
+        "✓": "✓"
     },
     {
         "character": "Ingus",
@@ -892,7 +944,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "騎士の妙技"
+        "name(jp)": "騎士の妙技",
+        "✓": "✓"
     },
     {
         "character": "Ingus",
@@ -909,7 +962,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "サスーンの秘伝"
+        "name(jp)": "サスーンの秘伝",
+        "✓": "✓"
     },
     {
         "character": "Desch",
@@ -926,7 +980,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "古の天鼓"
+        "name(jp)": "古の天鼓",
+        "✓": "✓"
     },
     {
         "character": "Desch",
@@ -943,7 +998,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "滅私の稲妻"
+        "name(jp)": "滅私の稲妻",
+        "✓": "✓"
     },
     {
         "character": "Onion Knight",
@@ -960,7 +1016,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Celerity",
-        "nameJp": "追加斬り"
+        "name(jp)": "追加斬り",
+        "✓": "✓"
     },
     {
         "character": "Onion Knight",
@@ -977,7 +1034,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "速攻だいまほう"
+        "name(jp)": "速攻だいまほう",
+        "✓": "✓"
     },
     {
         "character": "Cloud of Darkness",
@@ -994,7 +1052,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "封・波動球"
+        "name(jp)": "封・波動球",
+        "✓": "✓"
     },
     {
         "character": "Cloud of Darkness",
@@ -1011,7 +1070,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "縛・波動球"
+        "name(jp)": "縛・波動球",
+        "✓": "✓"
     },
     {
         "character": "Aria",
@@ -1028,7 +1088,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "澄んだ祈り"
+        "name(jp)": "澄んだ祈り",
+        "✓": "✓"
     },
     {
         "character": "Aria",
@@ -1045,7 +1106,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "儚き願い"
+        "name(jp)": "儚き願い",
+        "✓": "✓"
     },
     {
         "character": "Cecil (Dark Knight)",
@@ -1062,7 +1124,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Darkness",
-        "nameJp": "漆黒"
+        "name(jp)": "漆黒",
+        "✓": "✓"
     },
     {
         "character": "Cecil (Dark Knight)",
@@ -1079,7 +1142,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Darkness",
-        "nameJp": "ダークフォール"
+        "name(jp)": "ダークフォール",
+        "✓": "✓"
     },
     {
         "character": "Cecil (Paladin)",
@@ -1096,7 +1160,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "ブレスウェポン"
+        "name(jp)": "ブレスウェポン",
+        "✓": "✓"
     },
     {
         "character": "Cecil (Paladin)",
@@ -1113,7 +1178,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "セイクリッドサークル"
+        "name(jp)": "セイクリッドサークル",
+        "✓": "✓"
     },
     {
         "character": "Cecil (Paladin)",
@@ -1130,7 +1196,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "パラディンフォーム"
+        "name(jp)": "パラディンフォーム",
+        "✓": "✓"
     },
     {
         "character": "Cecil (Paladin)",
@@ -1147,7 +1214,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "ライトスラッシュ"
+        "name(jp)": "ライトスラッシュ",
+        "✓": "✓"
     },
     {
         "character": "Kain",
@@ -1164,7 +1232,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Dragoon",
-        "nameJp": "竜騎士団の雷血"
+        "name(jp)": "竜騎士団の雷血",
+        "✓": "✓"
     },
     {
         "character": "Kain",
@@ -1181,7 +1250,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Dragoon",
-        "nameJp": "誇りの竜剣"
+        "name(jp)": "誇りの竜剣",
+        "✓": "✓"
     },
     {
         "character": "Rydia",
@@ -1198,7 +1268,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "大地の一撃"
+        "name(jp)": "大地の一撃",
+        "✓": "✓"
     },
     {
         "character": "Rydia",
@@ -1215,41 +1286,44 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "大地の咆哮"
+        "name(jp)": "大地の咆哮",
+        "✓": "✓"
     },
     {
         "character": "Rydia",
         "source": "Code of the Feymarch",
         "name": "Eidolon King's Blessing",
-        "type": "?",
+        "type": "SUM",
         "target": "Single enemy",
         "formula": "Magical",
-        "multiplier": "?",
+        "multiplier": 7.8,
         "element": "Water, Holy",
-        "time": "?",
-        "effects": "Four single attacks (? each), grants Quick Magical Attacks 2 to the user",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?",
-        "nameJp": "幻獣王の加護"
+        "time": 1.65,
+        "effects": "Four single attacks (1,95 each), minimum damage 1100, grants Quick Magical Attacks 2 to the user",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Summoning",
+        "name(jp)": "幻獣王の加護",
+        "✓": "✓"
     },
     {
         "character": "Rydia",
         "source": "Code of the Feymarch",
         "name": "Eidolon Queen's Blessing",
-        "type": "?",
-        "target": "All enemies",
+        "type": "SUM",
+        "target": "Single enemy",
         "formula": "Magical",
-        "multiplier": "?",
+        "multiplier": 8.56,
         "element": "Water, Holy",
-        "time": "?",
-        "effects": "Two single attacks (? each), smart ether 1 to the user",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?",
-        "nameJp": "幻獣王妃の加護"
+        "time": 1.65,
+        "effects": "Two single attacks (4,28 each), minimum damage 1100, smart ether 1 to the user",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Summoning",
+        "name(jp)": "幻獣王妃の加護",
+        "✓": "✓"
     },
     {
         "character": "Rosa",
@@ -1266,7 +1340,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "ホワイトウォール"
+        "name(jp)": "ホワイトウォール",
+        "✓": "✓"
     },
     {
         "character": "Rosa",
@@ -1283,7 +1358,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "ヒールウェイブ"
+        "name(jp)": "ヒールウェイブ",
+        "✓": "✓"
     },
     {
         "character": "Edward",
@@ -1300,7 +1376,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "沈静のララバイ"
+        "name(jp)": "沈静のララバイ",
+        "✓": "✓"
     },
     {
         "character": "Edward",
@@ -1317,7 +1394,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "虚脱のノクターン"
+        "name(jp)": "虚脱のノクターン",
+        "✓": "✓"
     },
     {
         "character": "Yang",
@@ -1334,7 +1412,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "崩岩連打"
+        "name(jp)": "崩岩連打",
+        "✓": "✓"
     },
     {
         "character": "Yang",
@@ -1351,7 +1430,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "爆進連撃"
+        "name(jp)": "爆進連撃",
+        "✓": "✓"
     },
     {
         "character": "Palom",
@@ -1368,7 +1448,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "ボムサンダー"
+        "name(jp)": "ボムサンダー",
+        "✓": "✓"
     },
     {
         "character": "Palom",
@@ -1385,7 +1466,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "アイスサンダー"
+        "name(jp)": "アイスサンダー",
+        "✓": "✓"
     },
     {
         "character": "Porom",
@@ -1402,7 +1484,8 @@
         "autoTarget": "Ally with KO or lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "ミシディアの光印"
+        "name(jp)": "ミシディアの光印",
+        "✓": "✓"
     },
     {
         "character": "Porom",
@@ -1419,41 +1502,44 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "ケアルウェイブ"
+        "name(jp)": "ケアルウェイブ",
+        "✓": "✓"
     },
     {
         "character": "Tellah",
         "source": "Old Sage's Wisdom",
         "name": "Sage's Secrets",
-        "type": "?",
+        "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
-        "multiplier": "?",
+        "multiplier": 12,
         "element": "Earth, NE",
-        "time": "?",
-        "effects": "Four single attacks (?/?/? each) at ?/? MAG",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?",
-        "nameJp": "賢者の秘術"
+        "time": 1.65,
+        "effects": "Four single attacks (2,35/2,65/3,00 each) at 650/1200 MAG",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Black Magic",
+        "name(jp)": "賢者の秘術",
+        "✓": "✓"
     },
     {
         "character": "Tellah",
         "source": "Old Sage's Wisdom",
         "name": "Forbidden Recall",
-        "type": "?",
+        "type": "BLK",
         "target": "All enemies",
         "formula": "Magical",
-        "multiplier": "?",
+        "multiplier": 7.86,
         "element": "Earth, NE",
-        "time": "?",
-        "effects": "Two group attacks (? each), grants Stitch in Time to the user for ? seconds",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?",
-        "nameJp": "追想の禁術"
+        "time": 1.65,
+        "effects": "Two group attacks (3,93 each), grants Stitch in Time to the user for 20 seconds",
+        "counter": "Y",
+        "autoTarget": "All enemies",
+        "sb": 50,
+        "school": "Black Magic",
+        "name(jp)": "追想の禁術",
+        "✓": "✓"
     },
     {
         "character": "Edge",
@@ -1470,7 +1556,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Ninja",
-        "nameJp": "水鉄砲の術"
+        "name(jp)": "水鉄砲の術",
+        "✓": "✓"
     },
     {
         "character": "Edge",
@@ -1487,7 +1574,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Ninja",
-        "nameJp": "荒水行の術"
+        "name(jp)": "荒水行の術",
+        "✓": "✓"
     },
     {
         "character": "Golbez",
@@ -1501,7 +1589,8 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "黒竜召喚"
+        "name(jp)": "黒竜召喚",
+        "✓": "✓"
     },
     {
         "character": "Golbez",
@@ -1518,7 +1607,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "黒竜召喚"
+        "name(jp)": "黒竜召喚",
+        "✓": "✓"
     },
     {
         "character": "Golbez",
@@ -1535,7 +1625,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "グレアハンド"
+        "name(jp)": "グレアハンド",
+        "✓": "✓"
     },
     {
         "character": "Golbez",
@@ -1552,7 +1643,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "グレアハンド"
+        "name(jp)": "グレアハンド",
+        "✓": "✓"
     },
     {
         "character": "Cid (IV)",
@@ -1569,7 +1661,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Machinist",
-        "nameJp": "雷カナヅチ"
+        "name(jp)": "雷カナヅチ",
+        "✓": "✓"
     },
     {
         "character": "Cid (IV)",
@@ -1586,7 +1679,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Machinist",
-        "nameJp": "稲妻スパナ"
+        "name(jp)": "稲妻スパナ",
+        "✓": "✓"
     },
     {
         "character": "Ceodore",
@@ -1603,7 +1697,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "ケアルスラッシュ"
+        "name(jp)": "ケアルスラッシュ",
+        "✓": "✓"
     },
     {
         "character": "Ceodore",
@@ -1620,7 +1715,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "エスナブレード"
+        "name(jp)": "エスナブレード",
+        "✓": "✓"
     },
     {
         "character": "Rubicante",
@@ -1634,7 +1730,8 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "ほむらのかた"
+        "name(jp)": "ほむらのかた",
+        "✓": "✓"
     },
     {
         "character": "Rubicante",
@@ -1651,7 +1748,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "ほむらのかた"
+        "name(jp)": "ほむらのかた",
+        "✓": "✓"
     },
     {
         "character": "Rubicante",
@@ -1668,7 +1766,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "かえんげき"
+        "name(jp)": "かえんげき",
+        "✓": "✓"
     },
     {
         "character": "Rubicante",
@@ -1685,41 +1784,44 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "かえんげき"
+        "name(jp)": "かえんげき",
+        "✓": "✓"
     },
     {
         "character": "Ursula",
         "source": "Five Star Crimson Palm",
         "name": "Rockbreak Barrage",
-        "type": "?",
+        "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
-        "multiplier": "?",
+        "multiplier": 1.88,
         "element": "Earth, Fire",
-        "time": "?",
-        "effects": "Four single attacks (? each)",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?",
-        "nameJp": "割岩連打"
+        "time": 0.825,
+        "effects": "Four single attacks (0,47 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Monk",
+        "name(jp)": "割岩連打",
+        "✓": "✓"
     },
     {
         "character": "Ursula",
         "source": "Five Star Crimson Palm",
         "name": "Explosive Flurry",
-        "type": "?",
+        "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
-        "multiplier": "?",
+        "multiplier": 1.08,
         "element": "Earth, Fire",
-        "time": "?",
-        "effects": "Two single attacks (? each), grants Critical ?% to the user for ? seconds",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?",
-        "nameJp": "爆裂連撃"
+        "time": 1.65,
+        "effects": "Two single attacks (0,54 each), grants Dance of Carnage to the user for 15 seconds",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Monk",
+        "name(jp)": "爆裂連撃",
+        "✓": "✓"
     },
     {
         "character": "Lenna",
@@ -1736,7 +1838,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "聖女の審判"
+        "name(jp)": "聖女の審判",
+        "✓": "✓"
     },
     {
         "character": "Lenna",
@@ -1753,7 +1856,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "タイクーンの福音"
+        "name(jp)": "タイクーンの福音",
+        "✓": "✓"
     },
     {
         "character": "Galuf",
@@ -1770,7 +1874,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "吸命の拳打"
+        "name(jp)": "吸命の拳打",
+        "✓": "✓"
     },
     {
         "character": "Galuf",
@@ -1787,7 +1892,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "救魂の蹴撃"
+        "name(jp)": "救魂の蹴撃",
+        "✓": "✓"
     },
     {
         "character": "Gogo (V)",
@@ -1801,7 +1907,8 @@
         "autoTarget": "-",
         "sb": 0,
         "school": "Special",
-        "nameJp": "ものまね道"
+        "name(jp)": "ものまね道",
+        "✓": "✓"
     },
     {
         "character": "Gogo (V)",
@@ -1818,7 +1925,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "名人たしなみ・水芸"
+        "name(jp)": "名人たしなみ・水芸",
+        "✓": "✓"
     },
     {
         "character": "Gilgamesh",
@@ -1835,7 +1943,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Samurai",
-        "nameJp": "双突き"
+        "name(jp)": "双突き",
+        "✓": "✓"
     },
     {
         "character": "Gilgamesh",
@@ -1852,7 +1961,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Samurai",
-        "nameJp": "ツバメ返し"
+        "name(jp)": "ツバメ返し",
+        "✓": "✓"
     },
     {
         "character": "Bartz",
@@ -1869,7 +1979,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "魔法剣みだれうち 嵐"
+        "name(jp)": "魔法剣みだれうち 嵐",
+        "✓": "✓"
     },
     {
         "character": "Bartz",
@@ -1886,7 +1997,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "魔法剣みだれうち 爆"
+        "name(jp)": "魔法剣みだれうち 爆",
+        "✓": "✓"
     },
     {
         "character": "Bartz",
@@ -1903,7 +2015,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Thief",
-        "nameJp": "スマッシュダイブ"
+        "name(jp)": "スマッシュダイブ",
+        "✓": "✓"
     },
     {
         "character": "Bartz",
@@ -1920,7 +2033,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "魔法剣みだれうち 流"
+        "name(jp)": "魔法剣みだれうち 流",
+        "✓": "✓"
     },
     {
         "character": "Bartz",
@@ -1937,7 +2051,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "魔法剣みだれうち 砕"
+        "name(jp)": "魔法剣みだれうち 砕",
+        "✓": "✓"
     },
     {
         "character": "Bartz",
@@ -1954,7 +2069,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "直伝剣技・砂塵"
+        "name(jp)": "直伝剣技・砂塵",
+        "✓": "✓"
     },
     {
         "character": "Faris",
@@ -1971,7 +2087,8 @@
         "autoTarget": "Random enemy",
         "sb": 60,
         "school": "Support",
-        "nameJp": "激流"
+        "name(jp)": "激流",
+        "✓": "✓"
     },
     {
         "character": "Faris",
@@ -1988,7 +2105,8 @@
         "autoTarget": "Random enemy",
         "sb": 60,
         "school": "Support",
-        "nameJp": "荒潮"
+        "name(jp)": "荒潮",
+        "✓": "✓"
     },
     {
         "character": "Dorgann",
@@ -2005,7 +2123,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "守護者の覚悟"
+        "name(jp)": "守護者の覚悟",
+        "✓": "✓"
     },
     {
         "character": "Dorgann",
@@ -2022,7 +2141,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "我流剣技・砂塵"
+        "name(jp)": "我流剣技・砂塵",
+        "✓": "✓"
     },
     {
         "character": "Exdeath",
@@ -2039,7 +2159,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "ブラックレイ"
+        "name(jp)": "ブラックレイ",
+        "✓": "✓"
     },
     {
         "character": "Exdeath",
@@ -2056,7 +2177,8 @@
         "autoTarget": "All enemies",
         "sb": 60,
         "school": "Black Magic",
-        "nameJp": "ブラックストーム"
+        "name(jp)": "ブラックストーム",
+        "✓": "✓"
     },
     {
         "character": "Krile",
@@ -2073,7 +2195,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "おにび"
+        "name(jp)": "おにび",
+        "✓": "✓"
     },
     {
         "character": "Krile",
@@ -2090,7 +2213,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "だいふんか"
+        "name(jp)": "だいふんか",
+        "✓": "✓"
     },
     {
         "character": "Terra",
@@ -2107,7 +2231,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "ケイオスファイラ"
+        "name(jp)": "ケイオスファイラ",
+        "✓": "✓"
     },
     {
         "character": "Terra",
@@ -2124,7 +2249,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "ケイオスウォタラ"
+        "name(jp)": "ケイオスウォタラ",
+        "✓": "✓"
     },
     {
         "character": "Locke",
@@ -2141,7 +2267,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Thief",
-        "nameJp": "武器をぶんどる"
+        "name(jp)": "武器をぶんどる",
+        "✓": "✓"
     },
     {
         "character": "Locke",
@@ -2158,7 +2285,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Thief",
-        "nameJp": "不死鳥の翼撃"
+        "name(jp)": "不死鳥の翼撃",
+        "✓": "✓"
     },
     {
         "character": "Celes",
@@ -2175,7 +2303,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "愛と情熱の剣"
+        "name(jp)": "愛と情熱の剣",
+        "✓": "✓"
     },
     {
         "character": "Celes",
@@ -2192,11 +2321,12 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "哀と静寂の剣"
+        "name(jp)": "哀と静寂の剣",
+        "✓": "✓"
     },
     {
         "character": "Celes",
-        "source": "Triumphant Blade",
+        "source": "Invincible Blade",
         "name": "Sword of Brilliant Separation",
         "type": "PHY",
         "target": "Single enemy",
@@ -2209,11 +2339,12 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "鮮麗なる決別の剣"
+        "name(jp)": "鮮麗なる決別の剣",
+        "✓": "✓"
     },
     {
         "character": "Celes",
-        "source": "Triumphant Blade",
+        "source": "Invincible Blade",
         "name": "Sword of Gorgeous Resolve",
         "type": "PHY",
         "target": "All enemies",
@@ -2226,7 +2357,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "絢爛なる覚悟の剣"
+        "name(jp)": "絢爛なる覚悟の剣",
+        "✓": "✓"
     },
     {
         "character": "Mog",
@@ -2243,7 +2375,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "あいのおもいで"
+        "name(jp)": "あいのおもいで",
+        "✓": "✓"
     },
     {
         "character": "Mog",
@@ -2260,7 +2393,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "おおしきせいぎかん"
+        "name(jp)": "おおしきせいぎかん",
+        "✓": "✓"
     },
     {
         "character": "Edgar",
@@ -2277,7 +2411,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Machinist",
-        "nameJp": "バイオアタック"
+        "name(jp)": "バイオアタック",
+        "✓": "✓"
     },
     {
         "character": "Edgar",
@@ -2294,7 +2429,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Machinist",
-        "nameJp": "バイオボム"
+        "name(jp)": "バイオボム",
+        "✓": "✓"
     },
     {
         "character": "Sabin",
@@ -2311,7 +2447,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "フレイムキャノン"
+        "name(jp)": "フレイムキャノン",
+        "✓": "✓"
     },
     {
         "character": "Sabin",
@@ -2328,7 +2465,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "ファイアストライク"
+        "name(jp)": "ファイアストライク",
+        "✓": "✓"
     },
     {
         "character": "Shadow",
@@ -2345,7 +2483,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Ninja",
-        "nameJp": "瞬斬"
+        "name(jp)": "瞬斬",
+        "✓": "✓"
     },
     {
         "character": "Shadow",
@@ -2362,7 +2501,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Ninja",
-        "nameJp": "乱舞術"
+        "name(jp)": "乱舞術",
+        "✓": "✓"
     },
     {
         "character": "Cyan",
@@ -2379,7 +2519,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Samurai",
-        "nameJp": "ドマ流剣技・竜爪"
+        "name(jp)": "ドマ流剣技・竜爪",
+        "✓": "✓"
     },
     {
         "character": "Cyan",
@@ -2396,7 +2537,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Samurai",
-        "nameJp": "ドマ流剣技・諸刃"
+        "name(jp)": "ドマ流剣技・諸刃",
+        "✓": "✓"
     },
     {
         "character": "Gau",
@@ -2410,7 +2552,8 @@
         "autoTarget": "-",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "あばれる・炎"
+        "name(jp)": "あばれる・炎",
+        "✓": "✓"
     },
     {
         "character": "Gau",
@@ -2424,7 +2567,8 @@
         "autoTarget": "-",
         "sb": 50,
         "school": "Special",
-        "nameJp": "あばれる・回復"
+        "name(jp)": "あばれる・回復",
+        "✓": "✓"
     },
     {
         "character": "Setzer",
@@ -2441,7 +2585,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "カードトリック"
+        "name(jp)": "カードトリック",
+        "✓": "✓"
     },
     {
         "character": "Setzer",
@@ -2458,7 +2603,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "マジックミステイク"
+        "name(jp)": "マジックミステイク",
+        "✓": "✓"
     },
     {
         "character": "Strago",
@@ -2475,7 +2621,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "アクアストーン"
+        "name(jp)": "アクアストーン",
+        "✓": "✓"
     },
     {
         "character": "Strago",
@@ -2492,7 +2639,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "アクアウィンド"
+        "name(jp)": "アクアウィンド",
+        "✓": "✓"
     },
     {
         "character": "Relm",
@@ -2509,7 +2657,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "レインボードロー"
+        "name(jp)": "レインボードロー",
+        "✓": "✓"
     },
     {
         "character": "Relm",
@@ -2526,7 +2675,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "ミラクルスプレー"
+        "name(jp)": "ミラクルスプレー",
+        "✓": "✓"
     },
     {
         "character": "Gogo (VI)",
@@ -2540,7 +2690,8 @@
         "autoTarget": "-",
         "sb": 0,
         "school": "Special",
-        "nameJp": "クイックミミック"
+        "name(jp)": "クイックミミック",
+        "✓": "✓"
     },
     {
         "character": "Gogo (VI)",
@@ -2557,7 +2708,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Special",
-        "nameJp": "へんげんアタック"
+        "name(jp)": "へんげんアタック",
+        "✓": "✓"
     },
     {
         "character": "Umaro",
@@ -2571,7 +2723,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "なげつける"
+        "name(jp)": "なげつける",
+        "✓": "✓"
     },
     {
         "character": "Umaro",
@@ -2588,7 +2741,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "フローズンミスト"
+        "name(jp)": "フローズンミスト",
+        "✓": "✓"
     },
     {
         "character": "Kefka",
@@ -2605,7 +2759,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "ゼンブハカイ"
+        "name(jp)": "ゼンブハカイ",
+        "✓": "✓"
     },
     {
         "character": "Kefka",
@@ -2619,7 +2774,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Dancer",
-        "nameJp": "ピエロダンス"
+        "name(jp)": "ピエロダンス",
+        "✓": "✓"
     },
     {
         "character": "Kefka",
@@ -2636,7 +2792,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "狂気のたわむれ"
+        "name(jp)": "狂気のたわむれ",
+        "✓": "✓"
     },
     {
         "character": "Kefka",
@@ -2653,11 +2810,12 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "まじんもどき"
+        "name(jp)": "まじんもどき",
+        "✓": "✓"
     },
     {
         "character": "Leo",
-        "source": "Proof of the General",
+        "source": "Warrior's Warrior",
         "name": "Knight's Code",
         "type": "PHY",
         "target": "Single enemy",
@@ -2670,11 +2828,12 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "騎士の本懐"
+        "name(jp)": "騎士の本懐",
+        "✓": "✓"
     },
     {
         "character": "Leo",
-        "source": "Proof of the General",
+        "source": "Warrior's Warrior",
         "name": "General's Pride",
         "type": "PHY",
         "target": "All enemies",
@@ -2687,7 +2846,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "将軍の矜持"
+        "name(jp)": "将軍の矜持",
+        "✓": "✓"
     },
     {
         "character": "Cloud",
@@ -2704,7 +2864,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "回転斬り"
+        "name(jp)": "回転斬り",
+        "✓": "✓"
     },
     {
         "character": "Cloud",
@@ -2721,7 +2882,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "連斬り"
+        "name(jp)": "連斬り",
+        "✓": "✓"
     },
     {
         "character": "Cloud",
@@ -2738,7 +2900,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "ソニックラッシュ"
+        "name(jp)": "ソニックラッシュ",
+        "✓": "✓"
     },
     {
         "character": "Cloud",
@@ -2755,7 +2918,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "スラッシュブロウ"
+        "name(jp)": "スラッシュブロウ",
+        "✓": "✓"
     },
     {
         "character": "Barret",
@@ -2772,7 +2936,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Support",
-        "nameJp": "ブレイクボム"
+        "name(jp)": "ブレイクボム",
+        "✓": "✓"
     },
     {
         "character": "Barret",
@@ -2789,7 +2954,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Support",
-        "nameJp": "ブレイクランチャー"
+        "name(jp)": "ブレイクランチャー",
+        "✓": "✓"
     },
     {
         "character": "Tifa",
@@ -2806,7 +2972,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "ファルコンダイブ"
+        "name(jp)": "ファルコンダイブ",
+        "✓": "✓"
     },
     {
         "character": "Tifa",
@@ -2823,7 +2990,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "エルボースマッシュ"
+        "name(jp)": "エルボースマッシュ",
+        "✓": "✓"
     },
     {
         "character": "Aerith",
@@ -2840,7 +3008,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "セトラの神秘"
+        "name(jp)": "セトラの神秘",
+        "✓": "✓"
     },
     {
         "character": "Aerith",
@@ -2857,7 +3026,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "星に捧ぐ祈り"
+        "name(jp)": "星に捧ぐ祈り",
+        "✓": "✓"
     },
     {
         "character": "Aerith",
@@ -2874,7 +3044,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "星廻る息吹"
+        "name(jp)": "星廻る息吹",
+        "✓": "✓"
     },
     {
         "character": "Aerith",
@@ -2888,7 +3059,8 @@
         "autoTarget": "Random ally without status",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "古代種の祝福"
+        "name(jp)": "古代種の祝福",
+        "✓": "✓"
     },
     {
         "character": "Red XIII",
@@ -2905,7 +3077,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Support",
-        "nameJp": "ブレイクハウリング"
+        "name(jp)": "ブレイクハウリング",
+        "✓": "✓"
     },
     {
         "character": "Red XIII",
@@ -2922,7 +3095,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Support",
-        "nameJp": "ブレイクファング"
+        "name(jp)": "ブレイクファング",
+        "✓": "✓"
     },
     {
         "character": "Yuffie",
@@ -2939,7 +3113,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Ninja",
-        "nameJp": "水遁・散切の術"
+        "name(jp)": "水遁・散切の術",
+        "✓": "✓"
     },
     {
         "character": "Yuffie",
@@ -2956,7 +3131,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Ninja",
-        "nameJp": "水遁・浸蝕の術"
+        "name(jp)": "水遁・浸蝕の術",
+        "✓": "✓"
     },
     {
         "character": "Yuffie",
@@ -2973,7 +3149,7 @@
         "autoTarget": "?",
         "sb": "?",
         "school": "?",
-        "nameJp": "水遁・分身の術"
+        "name(jp)": "水遁・分身の術"
     },
     {
         "character": "Yuffie",
@@ -2990,7 +3166,7 @@
         "autoTarget": "?",
         "sb": "?",
         "school": "?",
-        "nameJp": "水遁・豊水の術"
+        "name(jp)": "水遁・豊水の術"
     },
     {
         "character": "Cait Sith",
@@ -3007,7 +3183,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "トイボックス・ハンマー"
+        "name(jp)": "トイボックス・ハンマー",
+        "✓": "✓"
     },
     {
         "character": "Cait Sith",
@@ -3024,7 +3201,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "トイボックス・デブチョコボ"
+        "name(jp)": "トイボックス・デブチョコボ",
+        "✓": "✓"
     },
     {
         "character": "Vincent",
@@ -3041,7 +3219,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Darkness",
-        "nameJp": "魔障の爪"
+        "name(jp)": "魔障の爪",
+        "✓": "✓"
     },
     {
         "character": "Vincent",
@@ -3058,7 +3237,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Darkness",
-        "nameJp": "魔獣の咆哮"
+        "name(jp)": "魔獣の咆哮",
+        "✓": "✓"
     },
     {
         "character": "Zack",
@@ -3075,7 +3255,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Celerity",
-        "nameJp": "トルネドターン"
+        "name(jp)": "トルネドターン",
+        "✓": "✓"
     },
     {
         "character": "Zack",
@@ -3092,7 +3273,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Celerity",
-        "nameJp": "ブラストラッシュ"
+        "name(jp)": "ブラストラッシュ",
+        "✓": "✓"
     },
     {
         "character": "Sephiroth",
@@ -3109,7 +3291,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "絶望"
+        "name(jp)": "絶望",
+        "✓": "✓"
     },
     {
         "character": "Sephiroth",
@@ -3126,7 +3309,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "炎獄"
+        "name(jp)": "炎獄",
+        "✓": "✓"
     },
     {
         "character": "Sephiroth",
@@ -3143,7 +3327,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Darkness",
-        "nameJp": "黒翼"
+        "name(jp)": "黒翼",
+        "✓": "✓"
     },
     {
         "character": "Sephiroth",
@@ -3160,7 +3345,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Darkness",
-        "nameJp": "堕天"
+        "name(jp)": "堕天",
+        "✓": "✓"
     },
     {
         "character": "Cid (VII)",
@@ -3177,7 +3363,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "エアロブースト"
+        "name(jp)": "エアロブースト",
+        "✓": "✓"
     },
     {
         "character": "Cid (VII)",
@@ -3194,7 +3381,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "ウインドフォース"
+        "name(jp)": "ウインドフォース",
+        "✓": "✓"
     },
     {
         "character": "Reno",
@@ -3211,7 +3399,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "トラインコンボ"
+        "name(jp)": "トラインコンボ",
+        "✓": "✓"
     },
     {
         "character": "Reno",
@@ -3228,7 +3417,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "スタンロッド"
+        "name(jp)": "スタンロッド",
+        "✓": "✓"
     },
     {
         "character": "Rufus",
@@ -3245,7 +3435,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Shooter",
-        "nameJp": "流速三連魔晄弾"
+        "name(jp)": "流速三連魔晄弾",
+        "✓": "✓"
     },
     {
         "character": "Rufus",
@@ -3262,7 +3453,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Shooter",
-        "nameJp": "統率者の策略"
+        "name(jp)": "統率者の策略",
+        "✓": "✓"
     },
     {
         "character": "Shelke",
@@ -3279,7 +3471,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Support",
-        "nameJp": "ハードブレイクピアス"
+        "name(jp)": "ハードブレイクピアス",
+        "✓": "✓"
     },
     {
         "character": "Shelke",
@@ -3296,7 +3489,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Support",
-        "nameJp": "ウィークネススタブ"
+        "name(jp)": "ウィークネススタブ",
+        "✓": "✓"
     },
     {
         "character": "Rude",
@@ -3313,7 +3507,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Special",
-        "nameJp": "グラウンドサージ"
+        "name(jp)": "グラウンドサージ",
+        "✓": "✓"
     },
     {
         "character": "Rude",
@@ -3327,7 +3522,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "Special",
-        "nameJp": "マテリアチャージ"
+        "name(jp)": "マテリアチャージ",
+        "✓": "✓"
     },
     {
         "character": "Elena",
@@ -3344,7 +3540,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Shooter",
-        "nameJp": "これをおみまいよ！"
+        "name(jp)": "これをおみまいよ！",
+        "✓": "✓"
     },
     {
         "character": "Elena",
@@ -3361,7 +3558,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Shooter",
-        "nameJp": "これでもくらえっ！"
+        "name(jp)": "これでもくらえっ！",
+        "✓": "✓"
     },
     {
         "character": "Squall",
@@ -3378,7 +3576,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "連続剣・炎"
+        "name(jp)": "連続剣・炎",
+        "✓": "✓"
     },
     {
         "character": "Squall",
@@ -3395,7 +3594,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "連続剣・風"
+        "name(jp)": "連続剣・風",
+        "✓": "✓"
     },
     {
         "character": "Squall",
@@ -3412,7 +3612,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "ドロー&ジャンクション"
+        "name(jp)": "ドロー&ジャンクション",
+        "✓": "✓"
     },
     {
         "character": "Squall",
@@ -3429,7 +3630,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "レーヴェ・ロアー"
+        "name(jp)": "レーヴェ・ロアー",
+        "✓": "✓"
     },
     {
         "character": "Rinoa",
@@ -3446,7 +3648,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "真の魔法・崩岩"
+        "name(jp)": "真の魔法・崩岩",
+        "✓": "✓"
     },
     {
         "character": "Rinoa",
@@ -3463,7 +3666,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "真の魔法・氷滅"
+        "name(jp)": "真の魔法・氷滅",
+        "✓": "✓"
     },
     {
         "character": "Rinoa",
@@ -3480,7 +3684,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "真の魔法・凍界"
+        "name(jp)": "真の魔法・凍界",
+        "✓": "✓"
     },
     {
         "character": "Rinoa",
@@ -3494,7 +3699,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Witch",
-        "nameJp": "真の魔法・魔壊"
+        "name(jp)": "真の魔法・魔壊",
+        "✓": "✓"
     },
     {
         "character": "Quistis",
@@ -3511,7 +3717,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "スイートフレグランス"
+        "name(jp)": "スイートフレグランス",
+        "✓": "✓"
     },
     {
         "character": "Quistis",
@@ -3528,7 +3735,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "デンジャラスリキッド"
+        "name(jp)": "デンジャラスリキッド",
+        "✓": "✓"
     },
     {
         "character": "Zell",
@@ -3545,7 +3753,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "無鉄砲ラッシュ"
+        "name(jp)": "無鉄砲ラッシュ",
+        "✓": "✓"
     },
     {
         "character": "Zell",
@@ -3562,7 +3771,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "脊髄反射コンボ"
+        "name(jp)": "脊髄反射コンボ",
+        "✓": "✓"
     },
     {
         "character": "Selphie",
@@ -3579,7 +3789,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "郷愁の祈り"
+        "name(jp)": "郷愁の祈り",
+        "✓": "✓"
     },
     {
         "character": "Selphie",
@@ -3596,7 +3807,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "ムーンストーン"
+        "name(jp)": "ムーンストーン",
+        "✓": "✓"
     },
     {
         "character": "Irvine",
@@ -3613,7 +3825,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "アタックスナイプ"
+        "name(jp)": "アタックスナイプ",
+        "✓": "✓"
     },
     {
         "character": "Irvine",
@@ -3630,7 +3843,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "マジックスナイプ"
+        "name(jp)": "マジックスナイプ",
+        "✓": "✓"
     },
     {
         "character": "Seifer",
@@ -3647,7 +3861,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Darkness",
-        "nameJp": "死にもの狂い"
+        "name(jp)": "死にもの狂い",
+        "✓": "✓"
     },
     {
         "character": "Seifer",
@@ -3664,7 +3879,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Darkness",
-        "nameJp": "大物喰らい"
+        "name(jp)": "大物喰らい",
+        "✓": "✓"
     },
     {
         "character": "Laguna",
@@ -3681,7 +3897,8 @@
         "autoTarget": "Random enemies",
         "sb": 50,
         "school": "Machinist",
-        "nameJp": "ピヨピヨグチの刑"
+        "name(jp)": "ピヨピヨグチの刑",
+        "✓": "✓"
     },
     {
         "character": "Laguna",
@@ -3698,7 +3915,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Machinist",
-        "nameJp": "妖精さんの奇跡"
+        "name(jp)": "妖精さんの奇跡",
+        "✓": "✓"
     },
     {
         "character": "Edea",
@@ -3715,7 +3933,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "呪氷連撃"
+        "name(jp)": "呪氷連撃",
+        "✓": "✓"
     },
     {
         "character": "Edea",
@@ -3732,7 +3951,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "アストラル・フォース"
+        "name(jp)": "アストラル・フォース",
+        "✓": "✓"
     },
     {
         "character": "Raijin",
@@ -3746,7 +3966,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "伏虎練気"
+        "name(jp)": "伏虎練気",
+        "✓": "✓"
     },
     {
         "character": "Raijin",
@@ -3763,7 +3984,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "雷神爆裂撃"
+        "name(jp)": "雷神爆裂撃",
+        "✓": "✓"
     },
     {
         "character": "Fujin",
@@ -3780,7 +4002,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "疾"
+        "name(jp)": "疾",
+        "✓": "✓"
     },
     {
         "character": "Fujin",
@@ -3797,7 +4020,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "破"
+        "name(jp)": "破",
+        "✓": "✓"
     },
     {
         "character": "Kiros",
@@ -3814,7 +4038,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Support",
-        "nameJp": "アーマーペイン"
+        "name(jp)": "アーマーペイン",
+        "✓": "✓"
     },
     {
         "character": "Kiros",
@@ -3831,7 +4056,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Support",
-        "nameJp": "メンタルペイン"
+        "name(jp)": "メンタルペイン",
+        "✓": "✓"
     },
     {
         "character": "Ward",
@@ -3848,7 +4074,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Dragoon",
-        "nameJp": "ヘビーグランダー"
+        "name(jp)": "ヘビーグランダー",
+        "✓": "✓"
     },
     {
         "character": "Ward",
@@ -3865,7 +4092,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Dragoon",
-        "nameJp": "マッシヴフォーム"
+        "name(jp)": "マッシヴフォーム",
+        "✓": "✓"
     },
     {
         "character": "Zidane",
@@ -3882,7 +4110,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Thief",
-        "nameJp": "力をぶんどる【IX】"
+        "name(jp)": "力をぶんどる【IX】",
+        "✓": "✓"
     },
     {
         "character": "Zidane",
@@ -3899,7 +4128,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Thief",
-        "nameJp": "守りをぶんどる【IX】"
+        "name(jp)": "守りをぶんどる【IX】",
+        "✓": "✓"
     },
     {
         "character": "Zidane",
@@ -3916,7 +4146,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Thief",
-        "nameJp": "スイフトスティール"
+        "name(jp)": "スイフトスティール",
+        "✓": "✓"
     },
     {
         "character": "Zidane",
@@ -3933,7 +4164,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Thief",
-        "nameJp": "義賊の施し"
+        "name(jp)": "義賊の施し",
+        "✓": "✓"
     },
     {
         "character": "Garnet",
@@ -3950,7 +4182,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "癒やしの光"
+        "name(jp)": "癒やしの光",
+        "✓": "✓"
     },
     {
         "character": "Garnet",
@@ -3967,7 +4200,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "雷帝の裁き"
+        "name(jp)": "雷帝の裁き",
+        "✓": "✓"
     },
     {
         "character": "Garnet",
@@ -3981,7 +4215,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "ラムウ召喚"
+        "name(jp)": "ラムウ召喚",
+        "✓": "✓"
     },
     {
         "character": "Garnet",
@@ -3998,7 +4233,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "ラムウ召喚"
+        "name(jp)": "ラムウ召喚",
+        "✓": "✓"
     },
     {
         "character": "Garnet",
@@ -4015,7 +4251,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "ぺリドットの光輝"
+        "name(jp)": "ぺリドットの光輝",
+        "✓": "✓"
     },
     {
         "character": "Garnet",
@@ -4032,7 +4269,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "ぺリドットの光輝"
+        "name(jp)": "ぺリドットの光輝",
+        "✓": "✓"
     },
     {
         "character": "Vivi",
@@ -4049,7 +4287,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "W魔法・ファイラ"
+        "name(jp)": "W魔法・ファイラ",
+        "✓": "✓"
     },
     {
         "character": "Vivi",
@@ -4066,11 +4305,12 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "W魔法・全体ファイラ"
+        "name(jp)": "W魔法・全体ファイラ",
+        "✓": "✓"
     },
     {
         "character": "Vivi",
-        "source": "Anger's Magic",
+        "source": "Magic Fury",
         "name": "Fleeting Life",
         "type": "BLK",
         "target": "Single enemy",
@@ -4083,11 +4323,12 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "瞬くいのち"
+        "name(jp)": "瞬くいのち",
+        "✓": "✓"
     },
     {
         "character": "Vivi",
-        "source": "Anger's Magic",
+        "source": "Magic Fury",
         "name": "Sparkling Heart",
         "type": "BLK",
         "target": "All enemies",
@@ -4100,7 +4341,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "煌くこころ"
+        "name(jp)": "煌くこころ",
+        "✓": "✓"
     },
     {
         "character": "Steiner",
@@ -4117,7 +4359,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "烈火剣"
+        "name(jp)": "烈火剣",
+        "✓": "✓"
     },
     {
         "character": "Steiner",
@@ -4134,7 +4377,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "フレイムブレイク"
+        "name(jp)": "フレイムブレイク",
+        "✓": "✓"
     },
     {
         "character": "Freya",
@@ -4151,7 +4395,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Dragoon",
-        "nameJp": "風華"
+        "name(jp)": "風華",
+        "✓": "✓"
     },
     {
         "character": "Freya",
@@ -4168,7 +4413,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Dragoon",
-        "nameJp": "ドラゴンドロー"
+        "name(jp)": "ドラゴンドロー",
+        "✓": "✓"
     },
     {
         "character": "Quina",
@@ -4185,7 +4431,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "イーティングパワー"
+        "name(jp)": "イーティングパワー",
+        "✓": "✓"
     },
     {
         "character": "Quina",
@@ -4202,7 +4449,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "クッキングマジック"
+        "name(jp)": "クッキングマジック",
+        "✓": "✓"
     },
     {
         "character": "Eiko",
@@ -4219,7 +4467,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "エーコのおうえん"
+        "name(jp)": "エーコのおうえん",
+        "✓": "✓"
     },
     {
         "character": "Eiko",
@@ -4236,7 +4485,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "旅立ちの歌"
+        "name(jp)": "旅立ちの歌",
+        "✓": "✓"
     },
     {
         "character": "Amarant",
@@ -4253,7 +4503,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "飛炮拳"
+        "name(jp)": "飛炮拳",
+        "✓": "✓"
     },
     {
         "character": "Amarant",
@@ -4270,7 +4521,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "陽炎脚"
+        "name(jp)": "陽炎脚",
+        "✓": "✓"
     },
     {
         "character": "Beatrix",
@@ -4287,7 +4539,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "守護の剣"
+        "name(jp)": "守護の剣",
+        "✓": "✓"
     },
     {
         "character": "Beatrix",
@@ -4304,7 +4557,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "忠誠の剣"
+        "name(jp)": "忠誠の剣",
+        "✓": "✓"
     },
     {
         "character": "Kuja",
@@ -4321,7 +4575,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "スナッチショット"
+        "name(jp)": "スナッチショット",
+        "✓": "✓"
     },
     {
         "character": "Kuja",
@@ -4338,7 +4593,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "バーストエナジー"
+        "name(jp)": "バーストエナジー",
+        "✓": "✓"
     },
     {
         "character": "Tidus",
@@ -4355,7 +4611,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "ボレーシュート"
+        "name(jp)": "ボレーシュート",
+        "✓": "✓"
     },
     {
         "character": "Tidus",
@@ -4372,7 +4629,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "スピンボール"
+        "name(jp)": "スピンボール",
+        "✓": "✓"
     },
     {
         "character": "Yuna",
@@ -4389,7 +4647,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Special",
-        "nameJp": "マルチショット"
+        "name(jp)": "マルチショット",
+        "✓": "✓"
     },
     {
         "character": "Yuna",
@@ -4406,7 +4665,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "命の泉"
+        "name(jp)": "命の泉",
+        "✓": "✓"
     },
     {
         "character": "Yuna",
@@ -4420,7 +4680,8 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "ヴァルファーレ召喚"
+        "name(jp)": "ヴァルファーレ召喚",
+        "✓": "✓"
     },
     {
         "character": "Yuna",
@@ -4437,7 +4698,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "ヴァルファーレ召喚"
+        "name(jp)": "ヴァルファーレ召喚",
+        "✓": "✓"
     },
     {
         "character": "Yuna",
@@ -4454,7 +4716,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "天来の息吹"
+        "name(jp)": "天来の息吹",
+        "✓": "✓"
     },
     {
         "character": "Yuna",
@@ -4471,7 +4734,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "天来の息吹"
+        "name(jp)": "天来の息吹",
+        "✓": "✓"
     },
     {
         "character": "Wakka",
@@ -4488,7 +4752,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "ウィザータックル"
+        "name(jp)": "ウィザータックル",
+        "✓": "✓"
     },
     {
         "character": "Wakka",
@@ -4505,7 +4770,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "パイルウィザー"
+        "name(jp)": "パイルウィザー",
+        "✓": "✓"
     },
     {
         "character": "Lulu",
@@ -4522,7 +4788,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "氷結ファイア"
+        "name(jp)": "氷結ファイア",
+        "✓": "✓"
     },
     {
         "character": "Lulu",
@@ -4539,7 +4806,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "氷結ウォータ"
+        "name(jp)": "氷結ウォータ",
+        "✓": "✓"
     },
     {
         "character": "Kimahri",
@@ -4556,7 +4824,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "ドレインリキッド"
+        "name(jp)": "ドレインリキッド",
+        "✓": "✓"
     },
     {
         "character": "Kimahri",
@@ -4573,7 +4842,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "アスピルリキッド"
+        "name(jp)": "アスピルリキッド",
+        "✓": "✓"
     },
     {
         "character": "Rikku",
@@ -4590,7 +4860,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Machinist",
-        "nameJp": "ショックストーム"
+        "name(jp)": "ショックストーム",
+        "✓": "✓"
     },
     {
         "character": "Rikku",
@@ -4607,7 +4878,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Machinist",
-        "nameJp": "反パワー&アーマー弾"
+        "name(jp)": "反パワー&アーマー弾",
+        "✓": "✓"
     },
     {
         "character": "Auron",
@@ -4624,7 +4896,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Samurai",
-        "nameJp": "覚悟を決めろ"
+        "name(jp)": "覚悟を決めろ",
+        "✓": "✓"
     },
     {
         "character": "Auron",
@@ -4641,7 +4914,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Samurai",
-        "nameJp": "決断する時"
+        "name(jp)": "決断する時",
+        "✓": "✓"
     },
     {
         "character": "Auron",
@@ -4658,7 +4932,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Samurai",
-        "nameJp": "灼炎"
+        "name(jp)": "灼炎",
+        "✓": "✓"
     },
     {
         "character": "Auron",
@@ -4675,7 +4950,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Samurai",
-        "nameJp": "紅蓮"
+        "name(jp)": "紅蓮",
+        "✓": "✓"
     },
     {
         "character": "Jecht",
@@ -4692,7 +4968,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "ジェクトストリーム"
+        "name(jp)": "ジェクトストリーム",
+        "✓": "✓"
     },
     {
         "character": "Jecht",
@@ -4709,11 +4986,12 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "ジェクトボマー"
+        "name(jp)": "ジェクトボマー",
+        "✓": "✓"
     },
     {
         "character": "Braska",
-        "source": "Summoning Fury",
+        "source": "Trine Summoning",
         "name": "Ifrit",
         "type": "SUM",
         "target": "Self",
@@ -4723,11 +5001,12 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "イフリート召喚"
+        "name(jp)": "イフリート召喚",
+        "✓": "✓"
     },
     {
         "character": "Braska",
-        "source": "Summoning Fury",
+        "source": "Trine Summoning",
         "name": "Ifrit (S)",
         "type": "SUM",
         "target": "All enemies",
@@ -4740,11 +5019,12 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "イフリート召喚"
+        "name(jp)": "イフリート召喚",
+        "✓": "✓"
     },
     {
         "character": "Braska",
-        "source": "Summoning Fury",
+        "source": "Trine Summoning",
         "name": "Wish to Eternity",
         "type": "SUM",
         "target": "Single enemy",
@@ -4757,11 +5037,12 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "永遠への願い"
+        "name(jp)": "永遠への願い",
+        "✓": "✓"
     },
     {
         "character": "Braska",
-        "source": "Summoning Fury",
+        "source": "Trine Summoning",
         "name": "Wish to Eternity (S)",
         "type": "SUM",
         "target": "Single enemy",
@@ -4774,7 +5055,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "永遠への願い"
+        "name(jp)": "永遠への願い",
+        "✓": "✓"
     },
     {
         "character": "Paine",
@@ -4791,7 +5073,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "アクアストーム"
+        "name(jp)": "アクアストーム",
+        "✓": "✓"
     },
     {
         "character": "Paine",
@@ -4808,7 +5091,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "アクアグラウンド"
+        "name(jp)": "アクアグラウンド",
+        "✓": "✓"
     },
     {
         "character": "Seymour",
@@ -4825,7 +5109,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "死色の救済"
+        "name(jp)": "死色の救済",
+        "✓": "✓"
     },
     {
         "character": "Seymour",
@@ -4842,7 +5127,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "幻光天破"
+        "name(jp)": "幻光天破",
+        "✓": "✓"
     },
     {
         "character": "Shantotto",
@@ -4859,7 +5145,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "ブチ切れファイア"
+        "name(jp)": "ブチ切れファイア",
+        "✓": "✓"
     },
     {
         "character": "Shantotto",
@@ -4876,7 +5163,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "ブチ切れブリザド"
+        "name(jp)": "ブチ切れブリザド",
+        "✓": "✓"
     },
     {
         "character": "Ayame",
@@ -4893,7 +5181,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Samurai",
-        "nameJp": "刀極技・凍牙"
+        "name(jp)": "刀極技・凍牙",
+        "✓": "✓"
     },
     {
         "character": "Ayame",
@@ -4910,7 +5199,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Samurai",
-        "nameJp": "刀秘技・氷龍"
+        "name(jp)": "刀秘技・氷龍",
+        "✓": "✓"
     },
     {
         "character": "Curilla",
@@ -4927,7 +5217,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "レクイエスカット"
+        "name(jp)": "レクイエスカット",
+        "✓": "✓"
     },
     {
         "character": "Curilla",
@@ -4944,7 +5235,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "ウリエルブレード"
+        "name(jp)": "ウリエルブレード",
+        "✓": "✓"
     },
     {
         "character": "Prishe",
@@ -4961,7 +5253,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "スピンコンボ"
+        "name(jp)": "スピンコンボ",
+        "✓": "✓"
     },
     {
         "character": "Prishe",
@@ -4978,7 +5271,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "ライジングタックル"
+        "name(jp)": "ライジングタックル",
+        "✓": "✓"
     },
     {
         "character": "Lion",
@@ -4995,7 +5289,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Thief",
-        "nameJp": "ブレイクエッジ"
+        "name(jp)": "ブレイクエッジ",
+        "✓": "✓"
     },
     {
         "character": "Lion",
@@ -5012,7 +5307,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Thief",
-        "nameJp": "ガードステッチ"
+        "name(jp)": "ガードステッチ",
+        "✓": "✓"
     },
     {
         "character": "Aphmau",
@@ -5026,7 +5322,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "アクティベート"
+        "name(jp)": "アクティベート",
+        "✓": "✓"
     },
     {
         "character": "Aphmau",
@@ -5043,7 +5340,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "アクティベート"
+        "name(jp)": "アクティベート",
+        "✓": "✓"
     },
     {
         "character": "Aphmau",
@@ -5057,7 +5355,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "ライトマニューバ"
+        "name(jp)": "ライトマニューバ",
+        "✓": "✓"
     },
     {
         "character": "Aphmau",
@@ -5074,7 +5373,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "ライトマニューバ"
+        "name(jp)": "ライトマニューバ",
+        "✓": "✓"
     },
     {
         "character": "Zeid",
@@ -5091,7 +5391,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Darkness",
-        "nameJp": "ネザーヴォイド"
+        "name(jp)": "ネザーヴォイド",
+        "✓": "✓"
     },
     {
         "character": "Zeid",
@@ -5108,7 +5409,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Darkness",
-        "nameJp": "デスペレートブロー"
+        "name(jp)": "デスペレートブロー",
+        "✓": "✓"
     },
     {
         "character": "Vaan",
@@ -5125,7 +5427,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "魔攻破壊"
+        "name(jp)": "魔攻破壊",
+        "✓": "✓"
     },
     {
         "character": "Vaan",
@@ -5142,7 +5445,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "防御破壊"
+        "name(jp)": "防御破壊",
+        "✓": "✓"
     },
     {
         "character": "Balthier",
@@ -5159,7 +5463,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 60,
         "school": "Machinist",
-        "nameJp": "ソイルショット"
+        "name(jp)": "ソイルショット",
+        "✓": "✓"
     },
     {
         "character": "Balthier",
@@ -5176,11 +5481,12 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Machinist",
-        "nameJp": "ナパームショット"
+        "name(jp)": "ナパームショット",
+        "✓": "✓"
     },
     {
         "character": "Balthier",
-        "source": "Ultimate Fires of War",
+        "source": "Spark of Change",
         "name": "Oil Bombs",
         "type": "PHY",
         "target": "Single enemy",
@@ -5193,11 +5499,12 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Machinist",
-        "nameJp": "オイルボム"
+        "name(jp)": "オイルボム",
+        "✓": "✓"
     },
     {
         "character": "Balthier",
-        "source": "Ultimate Fires of War",
+        "source": "Spark of Change",
         "name": "Flame Rapture",
         "type": "PHY",
         "target": "Single enemy",
@@ -5210,7 +5517,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Machinist",
-        "nameJp": "フレイムラプチャー"
+        "name(jp)": "フレイムラプチャー",
+        "✓": "✓"
     },
     {
         "character": "Fran",
@@ -5227,7 +5535,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Support",
-        "nameJp": "竜牙閃"
+        "name(jp)": "竜牙閃",
+        "✓": "✓"
     },
     {
         "character": "Fran",
@@ -5244,7 +5553,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Support",
-        "nameJp": "崩魔壁"
+        "name(jp)": "崩魔壁",
+        "✓": "✓"
     },
     {
         "character": "Basch",
@@ -5261,7 +5571,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "滅魔の刃"
+        "name(jp)": "滅魔の刃",
+        "✓": "✓"
     },
     {
         "character": "Basch",
@@ -5278,7 +5589,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "破邪の舞"
+        "name(jp)": "破邪の舞",
+        "✓": "✓"
     },
     {
         "character": "Ashe",
@@ -5295,7 +5607,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "清浄なる雷光"
+        "name(jp)": "清浄なる雷光",
+        "✓": "✓"
     },
     {
         "character": "Ashe",
@@ -5312,7 +5625,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "轟きの閃光"
+        "name(jp)": "轟きの閃光",
+        "✓": "✓"
     },
     {
         "character": "Penelo",
@@ -5329,7 +5643,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "ホーリーステップ"
+        "name(jp)": "ホーリーステップ",
+        "✓": "✓"
     },
     {
         "character": "Penelo",
@@ -5346,7 +5661,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "癒しのダンス"
+        "name(jp)": "癒しのダンス",
+        "✓": "✓"
     },
     {
         "character": "Gabranth",
@@ -5363,7 +5679,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "ジャッジ・ロンド"
+        "name(jp)": "ジャッジ・ロンド",
+        "✓": "✓"
     },
     {
         "character": "Gabranth",
@@ -5380,7 +5697,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Darkness",
-        "nameJp": "ジャッジ・ブラッド"
+        "name(jp)": "ジャッジ・ブラッド",
+        "✓": "✓"
     },
     {
         "character": "Larsa",
@@ -5397,7 +5715,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "白眉の静思"
+        "name(jp)": "白眉の静思",
+        "✓": "✓"
     },
     {
         "character": "Larsa",
@@ -5414,7 +5733,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "廉潔の証明"
+        "name(jp)": "廉潔の証明",
+        "✓": "✓"
     },
     {
         "character": "Vayne",
@@ -5431,7 +5751,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "明王掌"
+        "name(jp)": "明王掌",
+        "✓": "✓"
     },
     {
         "character": "Vayne",
@@ -5448,11 +5769,12 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "冥天破"
+        "name(jp)": "冥天破",
+        "✓": "✓"
     },
     {
         "character": "Reks",
-        "source": "White Fall",
+        "source": "Whitefall",
         "name": "Element Drive",
         "type": "PHY",
         "target": "Single enemy",
@@ -5465,11 +5787,12 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "エレメントドライブ"
+        "name(jp)": "エレメントドライブ",
+        "✓": "✓"
     },
     {
         "character": "Reks",
-        "source": "White Fall",
+        "source": "Whitefall",
         "name": "Healing Edge",
         "type": "PHY",
         "target": "Single enemy",
@@ -5482,7 +5805,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "ヒールエッジ"
+        "name(jp)": "ヒールエッジ",
+        "✓": "✓"
     },
     {
         "character": "Lightning",
@@ -5499,7 +5823,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "連閃"
+        "name(jp)": "連閃",
+        "✓": "✓"
     },
     {
         "character": "Lightning",
@@ -5516,7 +5841,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "天臨"
+        "name(jp)": "天臨",
+        "✓": "✓"
     },
     {
         "character": "Lightning",
@@ -5533,7 +5859,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "紫電"
+        "name(jp)": "紫電",
+        "✓": "✓"
     },
     {
         "character": "Lightning",
@@ -5550,7 +5877,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "迅雷"
+        "name(jp)": "迅雷",
+        "✓": "✓"
     },
     {
         "character": "Snow",
@@ -5567,7 +5895,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "リベンジフロスト"
+        "name(jp)": "リベンジフロスト",
+        "✓": "✓"
     },
     {
         "character": "Snow",
@@ -5584,7 +5913,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "アイシクルチャージ"
+        "name(jp)": "アイシクルチャージ",
+        "✓": "✓"
     },
     {
         "character": "Snow",
@@ -5601,7 +5931,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "フロストドライブ"
+        "name(jp)": "フロストドライブ",
+        "✓": "✓"
     },
     {
         "character": "Snow",
@@ -5618,7 +5949,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "ダイヤモンドターン"
+        "name(jp)": "ダイヤモンドターン",
+        "✓": "✓"
     },
     {
         "character": "Vanille",
@@ -5635,7 +5967,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "久遠の光印"
+        "name(jp)": "久遠の光印",
+        "✓": "✓"
     },
     {
         "character": "Vanille",
@@ -5652,7 +5985,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "命脈の息吹"
+        "name(jp)": "命脈の息吹",
+        "✓": "✓"
     },
     {
         "character": "Sazh",
@@ -5669,7 +6003,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "デプロテショット"
+        "name(jp)": "デプロテショット",
+        "✓": "✓"
     },
     {
         "character": "Sazh",
@@ -5686,7 +6021,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "デシェルショット"
+        "name(jp)": "デシェルショット",
+        "✓": "✓"
     },
     {
         "character": "Hope",
@@ -5703,7 +6039,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "鎧袖一触【XIII】"
+        "name(jp)": "鎧袖一触【XIII】",
+        "✓": "✓"
     },
     {
         "character": "Hope",
@@ -5720,7 +6057,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "金剛掌"
+        "name(jp)": "金剛掌",
+        "✓": "✓"
     },
     {
         "character": "Hope",
@@ -5734,7 +6072,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "アレキサンダー召喚"
+        "name(jp)": "アレキサンダー召喚",
+        "✓": "✓"
     },
     {
         "character": "Hope",
@@ -5751,7 +6090,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "アレキサンダー召喚"
+        "name(jp)": "アレキサンダー召喚",
+        "✓": "✓"
     },
     {
         "character": "Hope",
@@ -5768,7 +6108,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "聖裁"
+        "name(jp)": "聖裁",
+        "✓": "✓"
     },
     {
         "character": "Hope",
@@ -5785,7 +6126,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "聖裁"
+        "name(jp)": "聖裁",
+        "✓": "✓"
     },
     {
         "character": "Fang",
@@ -5802,7 +6144,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Dragoon",
-        "nameJp": "ドラゴンクロー"
+        "name(jp)": "ドラゴンクロー",
+        "✓": "✓"
     },
     {
         "character": "Fang",
@@ -5819,12 +6162,13 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Dragoon",
-        "nameJp": "エアリアルレイヴ"
+        "name(jp)": "エアリアルレイヴ",
+        "✓": "✓"
     },
     {
         "character": "Fang",
-        "source": "Furious Whirlwind",
-        "name": "Dancing Winds",
+        "source": "Raging Whirlwind",
+        "name": "Seething Winds",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -5836,12 +6180,13 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "猛り舞う風"
+        "name(jp)": "猛り舞う風",
+        "✓": "✓"
     },
     {
         "character": "Fang",
-        "source": "Furious Whirlwind",
-        "name": "Tearing Winds",
+        "source": "Raging Whirlwind",
+        "name": "Biting Winds",
         "type": "PHY",
         "target": "All enemies",
         "formula": "Physical",
@@ -5853,7 +6198,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "牙を剥く風"
+        "name(jp)": "牙を剥く風",
+        "✓": "✓"
     },
     {
         "character": "Serah",
@@ -5870,7 +6216,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "アイシクルフラッド"
+        "name(jp)": "アイシクルフラッド",
+        "✓": "✓"
     },
     {
         "character": "Serah",
@@ -5887,7 +6234,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "ブリザードストーム"
+        "name(jp)": "ブリザードストーム",
+        "✓": "✓"
     },
     {
         "character": "Cid Raines",
@@ -5904,7 +6252,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "刹那の輝き"
+        "name(jp)": "刹那の輝き",
+        "✓": "✓"
     },
     {
         "character": "Cid Raines",
@@ -5921,7 +6270,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "魂の残滓"
+        "name(jp)": "魂の残滓",
+        "✓": "✓"
     },
     {
         "character": "Noel",
@@ -5938,7 +6288,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "バウンスエッジ"
+        "name(jp)": "バウンスエッジ",
+        "✓": "✓"
     },
     {
         "character": "Noel",
@@ -5955,7 +6306,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "バタフライスティング"
+        "name(jp)": "バタフライスティング",
+        "✓": "✓"
     },
     {
         "character": "Nabaat",
@@ -5972,12 +6324,13 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "苛烈なお仕置き"
+        "name(jp)": "苛烈なお仕置き",
+        "✓": "✓"
     },
     {
         "character": "Nabaat",
         "source": "Sacrifice Pawn",
-        "name": "Diabolic Smile",
+        "name": "Fiendish Smile",
         "type": "BLK",
         "target": "All enemies",
         "formula": "Magical",
@@ -5989,7 +6342,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "魔性の微笑み"
+        "name(jp)": "魔性の微笑み",
+        "✓": "✓"
     },
     {
         "character": "Y'shtola",
@@ -6006,7 +6360,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "テトラグラマトン"
+        "name(jp)": "テトラグラマトン",
+        "✓": "✓"
     },
     {
         "character": "Y'shtola",
@@ -6023,7 +6378,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "メディカ"
+        "name(jp)": "メディカ",
+        "✓": "✓"
     },
     {
         "character": "Thancred",
@@ -6040,7 +6396,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Ninja",
-        "nameJp": "一双"
+        "name(jp)": "一双",
+        "✓": "✓"
     },
     {
         "character": "Thancred",
@@ -6057,11 +6414,12 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Ninja",
-        "nameJp": "残影"
+        "name(jp)": "残影",
+        "✓": "✓"
     },
     {
         "character": "Thancred",
-        "source": "Shifting Kiss of the Jugulator",
+        "source": "Fang of the Serpent",
         "name": "Kiss of the Wasp",
         "type": "PHY",
         "target": "Single enemy",
@@ -6074,11 +6432,12 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Ninja",
-        "nameJp": "蜂毒"
+        "name(jp)": "蜂毒",
+        "✓": "✓"
     },
     {
         "character": "Thancred",
-        "source": "Shifting Kiss of the Jugulator",
+        "source": "Fang of the Serpent",
         "name": "Dream Within a Dream",
         "type": "PHY",
         "target": "Single enemy",
@@ -6091,7 +6450,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Ninja",
-        "nameJp": "夢幻連段"
+        "name(jp)": "夢幻連段",
+        "✓": "✓"
     },
     {
         "character": "Yda",
@@ -6108,7 +6468,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "崩拳"
+        "name(jp)": "崩拳",
+        "✓": "✓"
     },
     {
         "character": "Yda",
@@ -6122,7 +6483,8 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "Monk",
-        "nameJp": "金剛の構え"
+        "name(jp)": "金剛の構え",
+        "✓": "✓"
     },
     {
         "character": "Papalymo",
@@ -6139,7 +6501,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "アストラルファイア"
+        "name(jp)": "アストラルファイア",
+        "✓": "✓"
     },
     {
         "character": "Papalymo",
@@ -6156,7 +6519,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "コンバートフレア"
+        "name(jp)": "コンバートフレア",
+        "✓": "✓"
     },
     {
         "character": "Alphinaud",
@@ -6173,7 +6537,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "ウィンドブレード"
+        "name(jp)": "ウィンドブレード",
+        "✓": "✓"
     },
     {
         "character": "Alphinaud",
@@ -6190,7 +6555,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Summoning",
-        "nameJp": "エーテルフロー"
+        "name(jp)": "エーテルフロー",
+        "✓": "✓"
     },
     {
         "character": "Minfilia",
@@ -6207,7 +6573,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Support",
-        "nameJp": "レイジ・オブ・ハルオーネ"
+        "name(jp)": "レイジ・オブ・ハルオーネ",
+        "✓": "✓"
     },
     {
         "character": "Minfilia",
@@ -6224,7 +6591,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Support",
-        "nameJp": "グローリースラッシュ"
+        "name(jp)": "グローリースラッシュ",
+        "✓": "✓"
     },
     {
         "character": "Cid (XIV)",
@@ -6241,7 +6609,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Machinist",
-        "nameJp": "ショット&リロード"
+        "name(jp)": "ショット&リロード",
+        "✓": "✓"
     },
     {
         "character": "Cid (XIV)",
@@ -6258,7 +6627,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Machinist",
-        "nameJp": "スプリットショット"
+        "name(jp)": "スプリットショット",
+        "✓": "✓"
     },
     {
         "character": "Noctis",
@@ -6275,7 +6645,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "シフトレイド"
+        "name(jp)": "シフトレイド",
+        "✓": "✓"
     },
     {
         "character": "Noctis",
@@ -6289,7 +6660,8 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "マップシフト"
+        "name(jp)": "マップシフト",
+        "✓": "✓"
     },
     {
         "character": "Gladiolus",
@@ -6306,7 +6678,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "盾・地面たたき"
+        "name(jp)": "盾・地面たたき",
+        "✓": "✓"
     },
     {
         "character": "Gladiolus",
@@ -6323,7 +6696,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "ロイヤルガード"
+        "name(jp)": "ロイヤルガード",
+        "✓": "✓"
     },
     {
         "character": "Prompto",
@@ -6340,7 +6714,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Machinist",
-        "nameJp": "高速連射"
+        "name(jp)": "高速連射",
+        "✓": "✓"
     },
     {
         "character": "Prompto",
@@ -6357,7 +6732,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Machinist",
-        "nameJp": "転がり連射"
+        "name(jp)": "転がり連射",
+        "✓": "✓"
     },
     {
         "character": "Iris",
@@ -6374,7 +6750,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "サポート・エリクサー"
+        "name(jp)": "サポート・エリクサー",
+        "✓": "✓"
     },
     {
         "character": "Iris",
@@ -6391,7 +6768,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "サポート・ポーション"
+        "name(jp)": "サポート・ポーション",
+        "✓": "✓"
     },
     {
         "character": "Aranea",
@@ -6408,7 +6786,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Dragoon",
-        "nameJp": "ダッシュ突き"
+        "name(jp)": "ダッシュ突き",
+        "✓": "✓"
     },
     {
         "character": "Aranea",
@@ -6425,7 +6804,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Dragoon",
-        "nameJp": "踏み込み突き"
+        "name(jp)": "踏み込み突き",
+        "✓": "✓"
     },
     {
         "character": "Ramza",
@@ -6442,7 +6822,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "戦士の剣"
+        "name(jp)": "戦士の剣",
+        "✓": "✓"
     },
     {
         "character": "Ramza",
@@ -6456,7 +6837,8 @@
         "autoTarget": "Random ally",
         "sb": 50,
         "school": "Support",
-        "nameJp": "はげます"
+        "name(jp)": "はげます",
+        "✓": "✓"
     },
     {
         "character": "Agrias",
@@ -6473,7 +6855,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "忠の剣技"
+        "name(jp)": "忠の剣技",
+        "✓": "✓"
     },
     {
         "character": "Agrias",
@@ -6490,7 +6873,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "信の剣技"
+        "name(jp)": "信の剣技",
+        "✓": "✓"
     },
     {
         "character": "Delita",
@@ -6507,7 +6891,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "聖炎斬"
+        "name(jp)": "聖炎斬",
+        "✓": "✓"
     },
     {
         "character": "Delita",
@@ -6524,7 +6909,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
-        "nameJp": "氷雷破"
+        "name(jp)": "氷雷破",
+        "✓": "✓"
     },
     {
         "character": "Ovelia",
@@ -6541,7 +6927,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "修道女の哀願"
+        "name(jp)": "修道女の哀願",
+        "✓": "✓"
     },
     {
         "character": "Ovelia",
@@ -6558,7 +6945,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "修道女の慈恵"
+        "name(jp)": "修道女の慈恵",
+        "✓": "✓"
     },
     {
         "character": "Mustadio",
@@ -6575,7 +6963,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Machinist",
-        "nameJp": "ファストトリガー"
+        "name(jp)": "ファストトリガー",
+        "✓": "✓"
     },
     {
         "character": "Mustadio",
@@ -6592,7 +6981,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Support",
-        "nameJp": "パワークラッシュ"
+        "name(jp)": "パワークラッシュ",
+        "✓": "✓"
     },
     {
         "character": "Orlandeau",
@@ -6609,7 +6999,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "剣技・剛"
+        "name(jp)": "剣技・剛",
+        "✓": "✓"
     },
     {
         "character": "Orlandeau",
@@ -6626,7 +7017,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "剣技・闇"
+        "name(jp)": "剣技・闇",
+        "✓": "✓"
     },
     {
         "character": "Gaffgarion",
@@ -6643,7 +7035,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Darkness",
-        "nameJp": "ダークブレード"
+        "name(jp)": "ダークブレード",
+        "✓": "✓"
     },
     {
         "character": "Gaffgarion",
@@ -6660,7 +7053,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Darkness",
-        "nameJp": "ブラッドブレード"
+        "name(jp)": "ブラッドブレード",
+        "✓": "✓"
     },
     {
         "character": "Rapha",
@@ -6677,7 +7071,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "天雷の印"
+        "name(jp)": "天雷の印",
+        "✓": "✓"
     },
     {
         "character": "Rapha",
@@ -6694,7 +7089,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "轟天陣"
+        "name(jp)": "轟天陣",
+        "✓": "✓"
     },
     {
         "character": "Marach",
@@ -6711,7 +7107,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "迅雷の印"
+        "name(jp)": "迅雷の印",
+        "✓": "✓"
     },
     {
         "character": "Marach",
@@ -6728,7 +7125,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "疾雷陣"
+        "name(jp)": "疾雷陣",
+        "✓": "✓"
     },
     {
         "character": "Meliadoul",
@@ -6745,7 +7143,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Support",
-        "nameJp": "ディバインブレイク"
+        "name(jp)": "ディバインブレイク",
+        "✓": "✓"
     },
     {
         "character": "Meliadoul",
@@ -6762,7 +7161,8 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Support",
-        "nameJp": "ディバインクラッシュ"
+        "name(jp)": "ディバインクラッシュ",
+        "✓": "✓"
     },
     {
         "character": "Ace",
@@ -6779,7 +7179,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "ファイアBOM"
+        "name(jp)": "ファイアBOM",
+        "✓": "✓"
     },
     {
         "character": "Ace",
@@ -6796,7 +7197,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "ファイアSHG"
+        "name(jp)": "ファイアSHG",
+        "✓": "✓"
     },
     {
         "character": "Deuce",
@@ -6813,7 +7215,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "ケアルff"
+        "name(jp)": "ケアルff",
+        "✓": "✓"
     },
     {
         "character": "Deuce",
@@ -6830,7 +7233,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "癒しの旋律"
+        "name(jp)": "癒しの旋律",
+        "✓": "✓"
     },
     {
         "character": "Nine",
@@ -6847,7 +7251,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "トルネドランス"
+        "name(jp)": "トルネドランス",
+        "✓": "✓"
     },
     {
         "character": "Nine",
@@ -6864,7 +7269,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "ワイルドブラスト"
+        "name(jp)": "ワイルドブラスト",
+        "✓": "✓"
     },
     {
         "character": "Reynn",
@@ -6881,7 +7287,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "グレイシャーアロー"
+        "name(jp)": "グレイシャーアロー",
+        "✓": "✓"
     },
     {
         "character": "Reynn",
@@ -6898,7 +7305,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
-        "nameJp": "ビッグフローズン"
+        "name(jp)": "ビッグフローズン",
+        "✓": "✓"
     },
     {
         "character": "Lann",
@@ -6915,7 +7323,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "メルトスマッシュ"
+        "name(jp)": "メルトスマッシュ",
+        "✓": "✓"
     },
     {
         "character": "Lann",
@@ -6932,7 +7341,8 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
-        "nameJp": "ソーラーフレイム"
+        "name(jp)": "ソーラーフレイム",
+        "✓": "✓"
     },
     {
         "character": "Morrow",
@@ -6949,7 +7359,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "魔封陣"
+        "name(jp)": "魔封陣",
+        "✓": "✓"
     },
     {
         "character": "Morrow",
@@ -6966,7 +7377,8 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Support",
-        "nameJp": "一刀両断"
+        "name(jp)": "一刀両断",
+        "✓": "✓"
     },
     {
         "character": "Aemo",
@@ -6983,7 +7395,8 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "癒しの歌"
+        "name(jp)": "癒しの歌",
+        "✓": "✓"
     },
     {
         "character": "Aemo",
@@ -7000,7 +7413,8 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "White Magic",
-        "nameJp": "生命の歌"
+        "name(jp)": "生命の歌",
+        "✓": "✓"
     },
     {
         "character": "Wrieg",
@@ -7017,7 +7431,8 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Dragoon",
-        "nameJp": "ジオクラッシュ"
+        "name(jp)": "ジオクラッシュ",
+        "✓": "✓"
     },
     {
         "character": "Wrieg",
@@ -7034,6 +7449,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Knight",
-        "nameJp": "アースストンプ"
+        "name(jp)": "アースストンプ",
+        "✓": "✓"
     }
 ]
