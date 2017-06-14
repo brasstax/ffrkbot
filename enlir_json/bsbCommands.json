@@ -15,6 +15,7 @@
         "sb": 60,
         "school": "Support",
         "name(jp)": "戦意喪失の章",
+        "id": "30510071",
         "✓": "✓"
     },
     {
@@ -33,6 +34,7 @@
         "sb": 60,
         "school": "Support",
         "name(jp)": "因果応報の章",
+        "id": "30510072",
         "✓": "✓"
     },
     {
@@ -51,6 +53,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "ストライクオブライト",
+        "id": "30510542",
         "✓": "✓"
     },
     {
@@ -69,6 +72,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "クリスタルフォーム",
+        "id": "30510541",
         "✓": "✓"
     },
     {
@@ -87,6 +91,7 @@
         "sb": 50,
         "school": "Darkness",
         "name(jp)": "デスクロウ",
+        "id": "30510161",
         "✓": "✓"
     },
     {
@@ -105,6 +110,7 @@
         "sb": 50,
         "school": "Darkness",
         "name(jp)": "やみのつなみ",
+        "id": "30510162",
         "✓": "✓"
     },
     {
@@ -123,6 +129,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "清き祈り",
+        "id": "30510901",
         "✓": "✓"
     },
     {
@@ -141,6 +148,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "ささやかな願い",
+        "id": "30510902",
         "✓": "✓"
     },
     {
@@ -159,6 +167,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "トリックアタック",
+        "id": "30511491",
         "✓": "✓"
     },
     {
@@ -177,6 +186,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "ブレイクキラー",
+        "id": "30511492",
         "✓": "✓"
     },
     {
@@ -195,6 +205,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "おしおきサンダー",
+        "id": "30511501",
         "✓": "✓"
     },
     {
@@ -210,6 +221,7 @@
         "sb": 50,
         "school": "Dancer",
         "name(jp)": "ぼうがいストップ",
+        "id": "30511502",
         "✓": "✓"
     },
     {
@@ -228,6 +240,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "しっかりブレイク",
+        "id": "30511931",
         "✓": "✓"
     },
     {
@@ -246,6 +259,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "がっかりマジック",
+        "id": "30511932",
         "✓": "✓"
     },
     {
@@ -264,6 +278,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "疾風怒濤",
+        "id": "30510872",
         "✓": "✓"
     },
     {
@@ -282,6 +297,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "背水一戦",
+        "id": "30510871",
         "✓": "✓"
     },
     {
@@ -300,6 +316,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "二重詠唱・対",
+        "id": "30510881",
         "✓": "✓"
     },
     {
@@ -318,6 +335,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "二重詠唱・極",
+        "id": "30510882",
         "✓": "✓"
     },
     {
@@ -333,6 +351,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "パッリダ・フルクトゥス",
+        "id": "30511481",
         "✓": "✓"
     },
     {
@@ -351,6 +370,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "パッリダ・フルクトゥス",
+        "id": "30511481",
         "✓": "✓"
     },
     {
@@ -369,6 +389,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "パッリダ・シェリング",
+        "id": "30511482",
         "✓": "✓"
     },
     {
@@ -387,6 +408,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "パッリダ・シェリング",
+        "id": "30511482",
         "✓": "✓"
     },
     {
@@ -405,6 +427,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "ウェポンチェイン",
+        "id": "30510321",
         "✓": "✓"
     },
     {
@@ -423,6 +446,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "チェインムーブ",
+        "id": "30510322",
         "✓": "✓"
     },
     {
@@ -441,6 +465,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "ブレイク",
+        "id": "30510341",
         "✓": "✓"
     },
     {
@@ -459,6 +484,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "太陽の炎",
+        "id": "30510342",
         "✓": "✓"
     },
     {
@@ -477,6 +503,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "狼の猛牙",
+        "id": "30511811",
         "✓": "✓"
     },
     {
@@ -495,6 +522,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "巨漢の豪腕",
+        "id": "30511812",
         "✓": "✓"
     },
     {
@@ -513,6 +541,7 @@
         "sb": 50,
         "school": "Darkness",
         "name(jp)": "生命の略奪",
+        "id": "30510331",
         "✓": "✓"
     },
     {
@@ -531,6 +560,7 @@
         "sb": 50,
         "school": "Darkness",
         "name(jp)": "野心の代償",
+        "id": "30510332",
         "✓": "✓"
     },
     {
@@ -549,6 +579,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "ケアル10",
+        "id": "30510351",
         "✓": "✓"
     },
     {
@@ -567,6 +598,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "アンチ16",
+        "id": "30510352",
         "✓": "✓"
     },
     {
@@ -585,6 +617,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "王族の覚悟",
+        "id": "30511111",
         "✓": "✓"
     },
     {
@@ -603,78 +636,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "生き残りの意地",
-        "✓": "✓"
-    },
-    {
-        "character": "Ricard",
-        "source": "Pride of Deist",
-        "name": "Galeblood Dragon",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.96,
-        "element": "Wind, NE",
-        "time": 1.65,
-        "effects": "Two single ranged attacks (0,98 each), grants No Air Time 2 to the user",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 50,
-        "school": "Dragoon",
-        "name(jp)": "竜騎士団の嵐血",
-        "✓": "✓"
-    },
-    {
-        "character": "Ricard",
-        "source": "Pride of Deist",
-        "name": "Wyvern's Ward",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.88,
-        "element": "Wind, NE",
-        "time": 1.65,
-        "effects": "Four single attacks (0,47 each), grants Dragoon +9% Boost 3 to the user",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 50,
-        "school": "Dragoon",
-        "name(jp)": "飛竜の加護",
-        "✓": "✓"
-    },
-    {
-        "character": "Josef",
-        "source": "Goliath Lifestyle",
-        "name": "Icy Vise",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.41,
-        "element": "Ice, NE",
-        "time": 1.65,
-        "effects": "Three single attacks (0,47 each), six attacks if the user has Unbound Fury",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 50,
-        "school": "Monk",
-        "name(jp)": "砕氷の怪腕",
-        "✓": "✓"
-    },
-    {
-        "character": "Josef",
-        "source": "Goliath Lifestyle",
-        "name": "Chivalry of the Snows",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.88,
-        "element": "Ice, NE",
-        "time": 1.65,
-        "effects": "Four single attacks (0,47 each), grants Unbound Fury to the user for 25 seconds",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 50,
-        "school": "Monk",
-        "name(jp)": "雪原の男気",
+        "id": "30511112",
         "✓": "✓"
     },
     {
@@ -693,6 +655,7 @@
         "sb": 50,
         "school": "Thief",
         "name(jp)": "ポイズンスティング",
+        "id": "30511101",
         "✓": "✓"
     },
     {
@@ -711,6 +674,83 @@
         "sb": 50,
         "school": "Thief",
         "name(jp)": "女海賊の毒牙",
+        "id": "30511102",
+        "✓": "✓"
+    },
+    {
+        "character": "Ricard",
+        "source": "Pride of Deist",
+        "name": "Galeblood Dragon",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.96,
+        "element": "Wind, NE",
+        "time": 1.65,
+        "effects": "Two single ranged attacks (0,98 each), grants No Air Time 2 to the user",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Dragoon",
+        "name(jp)": "竜騎士団の嵐血",
+        "id": "30511891",
+        "✓": "✓"
+    },
+    {
+        "character": "Ricard",
+        "source": "Pride of Deist",
+        "name": "Wyvern's Ward",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.88,
+        "element": "Wind, NE",
+        "time": 1.65,
+        "effects": "Four single attacks (0,47 each), grants Dragoon +9% Boost 3 to the user",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Dragoon",
+        "name(jp)": "飛竜の加護",
+        "id": "30511892",
+        "✓": "✓"
+    },
+    {
+        "character": "Josef",
+        "source": "Goliath Lifestyle",
+        "name": "Icy Vise",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.41,
+        "element": "Ice, NE",
+        "time": 1.65,
+        "effects": "Three single attacks (0,47 each), six attacks if the user has Unbound Fury",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Monk",
+        "name(jp)": "砕氷の怪腕",
+        "id": "30511881",
+        "✓": "✓"
+    },
+    {
+        "character": "Josef",
+        "source": "Goliath Lifestyle",
+        "name": "Chivalry of the Snows",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.88,
+        "element": "Ice, NE",
+        "time": 1.65,
+        "effects": "Four single attacks (0,47 each), grants Unbound Fury to the user for 25 seconds",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Monk",
+        "name(jp)": "雪原の男気",
+        "id": "30511882",
         "✓": "✓"
     },
     {
@@ -729,6 +769,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "封縛の風陣",
+        "id": "30511251",
         "✓": "✓"
     },
     {
@@ -747,6 +788,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "生奪いし風",
+        "id": "30511252",
         "✓": "✓"
     },
     {
@@ -765,6 +807,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "魔印・爆裂斬",
+        "id": "30511901",
         "✓": "✓"
     },
     {
@@ -783,6 +826,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "先駆けの炎斬",
+        "id": "30511902",
         "✓": "✓"
     },
     {
@@ -801,6 +845,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "疾風の連撃",
+        "id": "30510461",
         "✓": "✓"
     },
     {
@@ -819,6 +864,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "暴風の猛撃",
+        "id": "30510462",
         "✓": "✓"
     },
     {
@@ -837,6 +883,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "浄化の心得",
+        "id": "30511221",
         "✓": "✓"
     },
     {
@@ -855,6 +902,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "治癒の心得",
+        "id": "30511222",
         "✓": "✓"
     },
     {
@@ -873,6 +921,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "ディアウォータ",
+        "id": "30511951",
         "✓": "✓"
     },
     {
@@ -891,6 +940,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "ディアケアル",
+        "id": "30511952",
         "✓": "✓"
     },
     {
@@ -909,6 +959,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "焔の極意",
+        "id": "30510491",
         "✓": "✓"
     },
     {
@@ -927,6 +978,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "修羅の炎陣",
+        "id": "30510492",
         "✓": "✓"
     },
     {
@@ -945,6 +997,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "騎士の妙技",
+        "id": "30510481",
         "✓": "✓"
     },
     {
@@ -963,6 +1016,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "サスーンの秘伝",
+        "id": "30510482",
         "✓": "✓"
     },
     {
@@ -981,6 +1035,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "古の天鼓",
+        "id": "30511231",
         "✓": "✓"
     },
     {
@@ -999,6 +1054,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "滅私の稲妻",
+        "id": "30511232",
         "✓": "✓"
     },
     {
@@ -1017,6 +1073,7 @@
         "sb": 50,
         "school": "Celerity",
         "name(jp)": "追加斬り",
+        "id": "30510471",
         "✓": "✓"
     },
     {
@@ -1035,6 +1092,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "速攻だいまほう",
+        "id": "30510472",
         "✓": "✓"
     },
     {
@@ -1053,6 +1111,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "封・波動球",
+        "id": "30511241",
         "✓": "✓"
     },
     {
@@ -1071,6 +1130,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "縛・波動球",
+        "id": "30511242",
         "✓": "✓"
     },
     {
@@ -1089,6 +1149,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "澄んだ祈り",
+        "id": "30511961",
         "✓": "✓"
     },
     {
@@ -1107,6 +1168,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "儚き願い",
+        "id": "30511962",
         "✓": "✓"
     },
     {
@@ -1125,6 +1187,7 @@
         "sb": 50,
         "school": "Darkness",
         "name(jp)": "漆黒",
+        "id": "30510851",
         "✓": "✓"
     },
     {
@@ -1143,6 +1206,7 @@
         "sb": 50,
         "school": "Darkness",
         "name(jp)": "ダークフォール",
+        "id": "30510852",
         "✓": "✓"
     },
     {
@@ -1161,6 +1225,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "ブレスウェポン",
+        "id": "30510051",
         "✓": "✓"
     },
     {
@@ -1179,6 +1244,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "セイクリッドサークル",
+        "id": "30510052",
         "✓": "✓"
     },
     {
@@ -1197,6 +1263,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "パラディンフォーム",
+        "id": "30511731",
         "✓": "✓"
     },
     {
@@ -1215,6 +1282,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "ライトスラッシュ",
+        "id": "30511732",
         "✓": "✓"
     },
     {
@@ -1233,6 +1301,7 @@
         "sb": 50,
         "school": "Dragoon",
         "name(jp)": "竜騎士団の雷血",
+        "id": "30510431",
         "✓": "✓"
     },
     {
@@ -1251,6 +1320,7 @@
         "sb": 50,
         "school": "Dragoon",
         "name(jp)": "誇りの竜剣",
+        "id": "30510432",
         "✓": "✓"
     },
     {
@@ -1269,6 +1339,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "大地の一撃",
+        "id": "30510451",
         "✓": "✓"
     },
     {
@@ -1287,6 +1358,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "大地の咆哮",
+        "id": "30510452",
         "✓": "✓"
     },
     {
@@ -1305,6 +1377,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "幻獣王の加護",
+        "id": "30512071",
         "✓": "✓"
     },
     {
@@ -1323,6 +1396,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "幻獣王妃の加護",
+        "id": "30512072",
         "✓": "✓"
     },
     {
@@ -1341,6 +1415,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "ホワイトウォール",
+        "id": "30510861",
         "✓": "✓"
     },
     {
@@ -1359,6 +1434,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "ヒールウェイブ",
+        "id": "30510862",
         "✓": "✓"
     },
     {
@@ -1377,6 +1453,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "沈静のララバイ",
+        "id": "30510441",
         "✓": "✓"
     },
     {
@@ -1395,6 +1472,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "虚脱のノクターン",
+        "id": "30510442",
         "✓": "✓"
     },
     {
@@ -1413,6 +1491,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "崩岩連打",
+        "id": "30511371",
         "✓": "✓"
     },
     {
@@ -1431,6 +1510,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "爆進連撃",
+        "id": "30511372",
         "✓": "✓"
     },
     {
@@ -1449,6 +1529,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "ボムサンダー",
+        "id": "30511381",
         "✓": "✓"
     },
     {
@@ -1467,6 +1548,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "アイスサンダー",
+        "id": "30511382",
         "✓": "✓"
     },
     {
@@ -1485,6 +1567,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "ミシディアの光印",
+        "id": "30511391",
         "✓": "✓"
     },
     {
@@ -1503,6 +1586,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "ケアルウェイブ",
+        "id": "30511392",
         "✓": "✓"
     },
     {
@@ -1521,6 +1605,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "賢者の秘術",
+        "id": "30512061",
         "✓": "✓"
     },
     {
@@ -1539,6 +1624,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "追想の禁術",
+        "id": "30512062",
         "✓": "✓"
     },
     {
@@ -1557,6 +1643,7 @@
         "sb": 50,
         "school": "Ninja",
         "name(jp)": "水鉄砲の術",
+        "id": "30510531",
         "✓": "✓"
     },
     {
@@ -1575,6 +1662,7 @@
         "sb": 50,
         "school": "Ninja",
         "name(jp)": "荒水行の術",
+        "id": "30510532",
         "✓": "✓"
     },
     {
@@ -1590,6 +1678,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "黒竜召喚",
+        "id": "30510891",
         "✓": "✓"
     },
     {
@@ -1608,6 +1697,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "黒竜召喚",
+        "id": "30510891",
         "✓": "✓"
     },
     {
@@ -1626,6 +1716,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "グレアハンド",
+        "id": "30510892",
         "✓": "✓"
     },
     {
@@ -1644,6 +1735,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "グレアハンド",
+        "id": "30510892",
         "✓": "✓"
     },
     {
@@ -1662,6 +1754,7 @@
         "sb": 50,
         "school": "Machinist",
         "name(jp)": "雷カナヅチ",
+        "id": "30511751",
         "✓": "✓"
     },
     {
@@ -1680,6 +1773,7 @@
         "sb": 50,
         "school": "Machinist",
         "name(jp)": "稲妻スパナ",
+        "id": "30511752",
         "✓": "✓"
     },
     {
@@ -1698,6 +1792,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "ケアルスラッシュ",
+        "id": "30511361",
         "✓": "✓"
     },
     {
@@ -1716,6 +1811,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "エスナブレード",
+        "id": "30511362",
         "✓": "✓"
     },
     {
@@ -1731,6 +1827,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "ほむらのかた",
+        "id": "30511741",
         "✓": "✓"
     },
     {
@@ -1749,6 +1846,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "ほむらのかた",
+        "id": "30511741",
         "✓": "✓"
     },
     {
@@ -1767,6 +1865,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "かえんげき",
+        "id": "30511742",
         "✓": "✓"
     },
     {
@@ -1785,6 +1884,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "かえんげき",
+        "id": "30511742",
         "✓": "✓"
     },
     {
@@ -1803,6 +1903,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "割岩連打",
+        "id": "30512081",
         "✓": "✓"
     },
     {
@@ -1821,6 +1922,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "爆裂連撃",
+        "id": "30512082",
         "✓": "✓"
     },
     {
@@ -1839,6 +1941,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "聖女の審判",
+        "id": "30510661",
         "✓": "✓"
     },
     {
@@ -1857,6 +1960,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "タイクーンの福音",
+        "id": "30510662",
         "✓": "✓"
     },
     {
@@ -1875,6 +1979,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "吸命の拳打",
+        "id": "30510641",
         "✓": "✓"
     },
     {
@@ -1893,6 +1998,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "救魂の蹴撃",
+        "id": "30510642",
         "✓": "✓"
     },
     {
@@ -1908,6 +2014,7 @@
         "sb": 0,
         "school": "Special",
         "name(jp)": "ものまね道",
+        "id": "30511431",
         "✓": "✓"
     },
     {
@@ -1926,6 +2033,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "名人たしなみ・水芸",
+        "id": "30511432",
         "✓": "✓"
     },
     {
@@ -1944,6 +2052,7 @@
         "sb": 50,
         "school": "Samurai",
         "name(jp)": "双突き",
+        "id": "30510251",
         "✓": "✓"
     },
     {
@@ -1962,6 +2071,7 @@
         "sb": 50,
         "school": "Samurai",
         "name(jp)": "ツバメ返し",
+        "id": "30510252",
         "✓": "✓"
     },
     {
@@ -1980,6 +2090,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "魔法剣みだれうち 嵐",
+        "id": "30510061",
         "✓": "✓"
     },
     {
@@ -1998,6 +2109,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "魔法剣みだれうち 爆",
+        "id": "30510062",
         "✓": "✓"
     },
     {
@@ -2016,6 +2128,7 @@
         "sb": 50,
         "school": "Thief",
         "name(jp)": "スマッシュダイブ",
+        "id": "30511441",
         "✓": "✓"
     },
     {
@@ -2034,6 +2147,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "魔法剣みだれうち 流",
+        "id": "30511442",
         "✓": "✓"
     },
     {
@@ -2052,6 +2166,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "魔法剣みだれうち 砕",
+        "id": "30511841",
         "✓": "✓"
     },
     {
@@ -2070,6 +2185,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "直伝剣技・砂塵",
+        "id": "30511842",
         "✓": "✓"
     },
     {
@@ -2088,6 +2204,7 @@
         "sb": 60,
         "school": "Support",
         "name(jp)": "激流",
+        "id": "30510121",
         "✓": "✓"
     },
     {
@@ -2106,6 +2223,7 @@
         "sb": 60,
         "school": "Support",
         "name(jp)": "荒潮",
+        "id": "30510122",
         "✓": "✓"
     },
     {
@@ -2124,6 +2242,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "守護者の覚悟",
+        "id": "30511831",
         "✓": "✓"
     },
     {
@@ -2142,6 +2261,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "我流剣技・砂塵",
+        "id": "30511832",
         "✓": "✓"
     },
     {
@@ -2160,6 +2280,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "ブラックレイ",
+        "id": "30511451",
         "✓": "✓"
     },
     {
@@ -2178,6 +2299,7 @@
         "sb": 60,
         "school": "Black Magic",
         "name(jp)": "ブラックストーム",
+        "id": "30511452",
         "✓": "✓"
     },
     {
@@ -2196,6 +2318,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "おにび",
+        "id": "30510651",
         "✓": "✓"
     },
     {
@@ -2214,6 +2337,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "だいふんか",
+        "id": "30510652",
         "✓": "✓"
     },
     {
@@ -2232,6 +2356,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "ケイオスファイラ",
+        "id": "30510081",
         "✓": "✓"
     },
     {
@@ -2250,6 +2375,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "ケイオスウォタラ",
+        "id": "30510082",
         "✓": "✓"
     },
     {
@@ -2268,6 +2394,7 @@
         "sb": 50,
         "school": "Thief",
         "name(jp)": "武器をぶんどる",
+        "id": "30510221",
         "✓": "✓"
     },
     {
@@ -2286,6 +2413,7 @@
         "sb": 50,
         "school": "Thief",
         "name(jp)": "不死鳥の翼撃",
+        "id": "30510222",
         "✓": "✓"
     },
     {
@@ -2304,6 +2432,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "愛と情熱の剣",
+        "id": "30510261",
         "✓": "✓"
     },
     {
@@ -2322,6 +2451,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "哀と静寂の剣",
+        "id": "30510262",
         "✓": "✓"
     },
     {
@@ -2340,6 +2470,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "鮮麗なる決別の剣",
+        "id": "30511541",
         "✓": "✓"
     },
     {
@@ -2358,6 +2489,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "絢爛なる覚悟の剣",
+        "id": "30511542",
         "✓": "✓"
     },
     {
@@ -2376,6 +2508,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "あいのおもいで",
+        "id": "30511521",
         "✓": "✓"
     },
     {
@@ -2394,6 +2527,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "おおしきせいぎかん",
+        "id": "30511522",
         "✓": "✓"
     },
     {
@@ -2412,6 +2546,7 @@
         "sb": 50,
         "school": "Machinist",
         "name(jp)": "バイオアタック",
+        "id": "30511131",
         "✓": "✓"
     },
     {
@@ -2430,6 +2565,7 @@
         "sb": 50,
         "school": "Machinist",
         "name(jp)": "バイオボム",
+        "id": "30511132",
         "✓": "✓"
     },
     {
@@ -2448,6 +2584,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "フレイムキャノン",
+        "id": "30510591",
         "✓": "✓"
     },
     {
@@ -2466,6 +2603,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "ファイアストライク",
+        "id": "30510592",
         "✓": "✓"
     },
     {
@@ -2484,6 +2622,7 @@
         "sb": 50,
         "school": "Ninja",
         "name(jp)": "瞬斬",
+        "id": "30510581",
         "✓": "✓"
     },
     {
@@ -2502,6 +2641,7 @@
         "sb": 50,
         "school": "Ninja",
         "name(jp)": "乱舞術",
+        "id": "30510582",
         "✓": "✓"
     },
     {
@@ -2520,6 +2660,7 @@
         "sb": 50,
         "school": "Samurai",
         "name(jp)": "ドマ流剣技・竜爪",
+        "id": "30511161",
         "✓": "✓"
     },
     {
@@ -2538,6 +2679,7 @@
         "sb": 50,
         "school": "Samurai",
         "name(jp)": "ドマ流剣技・諸刃",
+        "id": "30511162",
         "✓": "✓"
     },
     {
@@ -2553,6 +2695,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "あばれる・炎",
+        "id": "30511871",
         "✓": "✓"
     },
     {
@@ -2568,6 +2711,7 @@
         "sb": 50,
         "school": "Special",
         "name(jp)": "あばれる・回復",
+        "id": "30511872",
         "✓": "✓"
     },
     {
@@ -2586,6 +2730,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "カードトリック",
+        "id": "30511151",
         "✓": "✓"
     },
     {
@@ -2604,6 +2749,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "マジックミステイク",
+        "id": "30511152",
         "✓": "✓"
     },
     {
@@ -2622,6 +2768,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "アクアストーン",
+        "id": "30511511",
         "✓": "✓"
     },
     {
@@ -2640,6 +2787,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "アクアウィンド",
+        "id": "30511512",
         "✓": "✓"
     },
     {
@@ -2658,6 +2806,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "レインボードロー",
+        "id": "30510571",
         "✓": "✓"
     },
     {
@@ -2676,6 +2825,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "ミラクルスプレー",
+        "id": "30510572",
         "✓": "✓"
     },
     {
@@ -2691,6 +2841,7 @@
         "sb": 0,
         "school": "Special",
         "name(jp)": "クイックミミック",
+        "id": "30511851",
         "✓": "✓"
     },
     {
@@ -2709,6 +2860,7 @@
         "sb": 50,
         "school": "Special",
         "name(jp)": "へんげんアタック",
+        "id": "30511852",
         "✓": "✓"
     },
     {
@@ -2724,6 +2876,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "なげつける",
+        "id": "30511861",
         "✓": "✓"
     },
     {
@@ -2742,6 +2895,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "フローズンミスト",
+        "id": "30511862",
         "✓": "✓"
     },
     {
@@ -2760,6 +2914,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "ゼンブハカイ",
+        "id": "30511141",
         "✓": "✓"
     },
     {
@@ -2775,6 +2930,7 @@
         "sb": 50,
         "school": "Dancer",
         "name(jp)": "ピエロダンス",
+        "id": "30511142",
         "✓": "✓"
     },
     {
@@ -2793,6 +2949,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "狂気のたわむれ",
+        "id": "30511941",
         "✓": "✓"
     },
     {
@@ -2811,6 +2968,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "まじんもどき",
+        "id": "30511942",
         "✓": "✓"
     },
     {
@@ -2829,6 +2987,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "騎士の本懐",
+        "id": "30511531",
         "✓": "✓"
     },
     {
@@ -2847,6 +3006,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "将軍の矜持",
+        "id": "30511532",
         "✓": "✓"
     },
     {
@@ -2865,6 +3025,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "回転斬り",
+        "id": "30511011",
         "✓": "✓"
     },
     {
@@ -2883,6 +3044,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "連斬り",
+        "id": 30511021,
         "✓": "✓"
     },
     {
@@ -2901,6 +3063,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "ソニックラッシュ",
+        "id": "30511061",
         "✓": "✓"
     },
     {
@@ -2919,6 +3082,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "スラッシュブロウ",
+        "id": "30511062",
         "✓": "✓"
     },
     {
@@ -2937,6 +3101,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "ブレイクボム",
+        "id": "30511691",
         "✓": "✓"
     },
     {
@@ -2955,6 +3120,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "ブレイクランチャー",
+        "id": "30511692",
         "✓": "✓"
     },
     {
@@ -2973,6 +3139,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "ファルコンダイブ",
+        "id": "30510201",
         "✓": "✓"
     },
     {
@@ -2991,6 +3158,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "エルボースマッシュ",
+        "id": "30510202",
         "✓": "✓"
     },
     {
@@ -3009,6 +3177,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "セトラの神秘",
+        "id": "30510291",
         "✓": "✓"
     },
     {
@@ -3027,6 +3196,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "星に捧ぐ祈り",
+        "id": "30510292",
         "✓": "✓"
     },
     {
@@ -3045,6 +3215,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "星廻る息吹",
+        "id": "30512031",
         "✓": "✓"
     },
     {
@@ -3060,6 +3231,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "古代種の祝福",
+        "id": "30512032",
         "✓": "✓"
     },
     {
@@ -3078,6 +3250,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "ブレイクハウリング",
+        "id": "30511031",
         "✓": "✓"
     },
     {
@@ -3096,6 +3269,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "ブレイクファング",
+        "id": "30511032",
         "✓": "✓"
     },
     {
@@ -3114,6 +3288,7 @@
         "sb": 50,
         "school": "Ninja",
         "name(jp)": "水遁・散切の術",
+        "id": "30510621",
         "✓": "✓"
     },
     {
@@ -3132,6 +3307,7 @@
         "sb": 50,
         "school": "Ninja",
         "name(jp)": "水遁・浸蝕の術",
+        "id": "30510622",
         "✓": "✓"
     },
     {
@@ -3149,7 +3325,8 @@
         "autoTarget": "?",
         "sb": "?",
         "school": "?",
-        "name(jp)": "水遁・分身の術"
+        "name(jp)": "水遁・分身の術",
+        "id": "30512011"
     },
     {
         "character": "Yuffie",
@@ -3166,7 +3343,8 @@
         "autoTarget": "?",
         "sb": "?",
         "school": "?",
-        "name(jp)": "水遁・豊水の術"
+        "name(jp)": "水遁・豊水の術",
+        "id": "30512012"
     },
     {
         "character": "Cait Sith",
@@ -3184,6 +3362,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "トイボックス・ハンマー",
+        "id": "30511461",
         "✓": "✓"
     },
     {
@@ -3202,6 +3381,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "トイボックス・デブチョコボ",
+        "id": "30511462",
         "✓": "✓"
     },
     {
@@ -3220,6 +3400,7 @@
         "sb": 50,
         "school": "Darkness",
         "name(jp)": "魔障の爪",
+        "id": "30511081",
         "✓": "✓"
     },
     {
@@ -3238,6 +3419,7 @@
         "sb": 50,
         "school": "Darkness",
         "name(jp)": "魔獣の咆哮",
+        "id": "30511082",
         "✓": "✓"
     },
     {
@@ -3256,6 +3438,7 @@
         "sb": 50,
         "school": "Celerity",
         "name(jp)": "トルネドターン",
+        "id": "30510611",
         "✓": "✓"
     },
     {
@@ -3274,6 +3457,7 @@
         "sb": 50,
         "school": "Celerity",
         "name(jp)": "ブラストラッシュ",
+        "id": "30510612",
         "✓": "✓"
     },
     {
@@ -3292,6 +3476,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "絶望",
+        "id": "30510101",
         "✓": "✓"
     },
     {
@@ -3310,6 +3495,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "炎獄",
+        "id": "30510102",
         "✓": "✓"
     },
     {
@@ -3328,6 +3514,7 @@
         "sb": 50,
         "school": "Darkness",
         "name(jp)": "黒翼",
+        "id": "30511471",
         "✓": "✓"
     },
     {
@@ -3346,6 +3533,7 @@
         "sb": 50,
         "school": "Darkness",
         "name(jp)": "堕天",
+        "id": "30511472",
         "✓": "✓"
     },
     {
@@ -3364,6 +3552,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "エアロブースト",
+        "id": "30511071",
         "✓": "✓"
     },
     {
@@ -3382,6 +3571,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "ウインドフォース",
+        "id": "30511072",
         "✓": "✓"
     },
     {
@@ -3400,6 +3590,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "トラインコンボ",
+        "id": "30510632",
         "✓": "✓"
     },
     {
@@ -3418,6 +3609,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "スタンロッド",
+        "id": "30510631",
         "✓": "✓"
     },
     {
@@ -3436,6 +3628,7 @@
         "sb": 50,
         "school": "Shooter",
         "name(jp)": "流速三連魔晄弾",
+        "id": "30512021",
         "✓": "✓"
     },
     {
@@ -3454,6 +3647,7 @@
         "sb": 50,
         "school": "Shooter",
         "name(jp)": "統率者の策略",
+        "id": "30512022",
         "✓": "✓"
     },
     {
@@ -3472,6 +3666,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "ハードブレイクピアス",
+        "id": "30511681",
         "✓": "✓"
     },
     {
@@ -3490,6 +3685,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "ウィークネススタブ",
+        "id": "30511682",
         "✓": "✓"
     },
     {
@@ -3508,6 +3704,7 @@
         "sb": 50,
         "school": "Special",
         "name(jp)": "グラウンドサージ",
+        "id": "30512041",
         "✓": "✓"
     },
     {
@@ -3523,6 +3720,7 @@
         "sb": 50,
         "school": "Special",
         "name(jp)": "マテリアチャージ",
+        "id": "30512042",
         "✓": "✓"
     },
     {
@@ -3541,6 +3739,7 @@
         "sb": 50,
         "school": "Shooter",
         "name(jp)": "これをおみまいよ！",
+        "id": "30512051",
         "✓": "✓"
     },
     {
@@ -3559,6 +3758,7 @@
         "sb": 50,
         "school": "Shooter",
         "name(jp)": "これでもくらえっ！",
+        "id": "30512052",
         "✓": "✓"
     },
     {
@@ -3577,6 +3777,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "連続剣・炎",
+        "id": "30510031",
         "✓": "✓"
     },
     {
@@ -3595,6 +3796,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "連続剣・風",
+        "id": 30510032,
         "✓": "✓"
     },
     {
@@ -3613,6 +3815,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "ドロー&ジャンクション",
+        "id": "30511411",
         "✓": "✓"
     },
     {
@@ -3631,6 +3834,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "レーヴェ・ロアー",
+        "id": "30511412",
         "✓": "✓"
     },
     {
@@ -3649,6 +3853,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "真の魔法・崩岩",
+        "id": "30510111",
         "✓": "✓"
     },
     {
@@ -3667,6 +3872,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "真の魔法・氷滅",
+        "id": "30510112",
         "✓": "✓"
     },
     {
@@ -3685,6 +3891,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "真の魔法・凍界",
+        "id": "30511671",
         "✓": "✓"
     },
     {
@@ -3700,6 +3907,7 @@
         "sb": 50,
         "school": "Witch",
         "name(jp)": "真の魔法・魔壊",
+        "id": "30511672",
         "✓": "✓"
     },
     {
@@ -3718,6 +3926,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "スイートフレグランス",
+        "id": "30510561",
         "✓": "✓"
     },
     {
@@ -3736,6 +3945,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "デンジャラスリキッド",
+        "id": "30510562",
         "✓": "✓"
     },
     {
@@ -3754,6 +3964,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "無鉄砲ラッシュ",
+        "id": "30510551",
         "✓": "✓"
     },
     {
@@ -3772,6 +3983,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "脊髄反射コンボ",
+        "id": "30510552",
         "✓": "✓"
     },
     {
@@ -3790,6 +4002,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "郷愁の祈り",
+        "id": "30510281",
         "✓": "✓"
     },
     {
@@ -3808,6 +4021,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "ムーンストーン",
+        "id": "30510282",
         "✓": "✓"
     },
     {
@@ -3826,6 +4040,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "アタックスナイプ",
+        "id": "30511402",
         "✓": "✓"
     },
     {
@@ -3844,6 +4059,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "マジックスナイプ",
+        "id": "30511401",
         "✓": "✓"
     },
     {
@@ -3862,6 +4078,7 @@
         "sb": 50,
         "school": "Darkness",
         "name(jp)": "死にもの狂い",
+        "id": "30510911",
         "✓": "✓"
     },
     {
@@ -3880,6 +4097,7 @@
         "sb": 50,
         "school": "Darkness",
         "name(jp)": "大物喰らい",
+        "id": "30510912",
         "✓": "✓"
     },
     {
@@ -3898,6 +4116,7 @@
         "sb": 50,
         "school": "Machinist",
         "name(jp)": "ピヨピヨグチの刑",
+        "id": "30511421",
         "✓": "✓"
     },
     {
@@ -3916,6 +4135,7 @@
         "sb": 50,
         "school": "Machinist",
         "name(jp)": "妖精さんの奇跡",
+        "id": "30511422",
         "✓": "✓"
     },
     {
@@ -3934,6 +4154,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "呪氷連撃",
+        "id": "30510941",
         "✓": "✓"
     },
     {
@@ -3952,6 +4173,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "アストラル・フォース",
+        "id": "30510942",
         "✓": "✓"
     },
     {
@@ -3967,6 +4189,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "伏虎練気",
+        "id": "30510931",
         "✓": "✓"
     },
     {
@@ -3985,6 +4208,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "雷神爆裂撃",
+        "id": "30510932",
         "✓": "✓"
     },
     {
@@ -4003,6 +4227,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "疾",
+        "id": "30510921",
         "✓": "✓"
     },
     {
@@ -4021,6 +4246,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "破",
+        "id": "30510922",
         "✓": "✓"
     },
     {
@@ -4039,6 +4265,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "アーマーペイン",
+        "id": "30511991",
         "✓": "✓"
     },
     {
@@ -4057,6 +4284,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "メンタルペイン",
+        "id": "30511992",
         "✓": "✓"
     },
     {
@@ -4075,6 +4303,7 @@
         "sb": 50,
         "school": "Dragoon",
         "name(jp)": "ヘビーグランダー",
+        "id": "30512001",
         "✓": "✓"
     },
     {
@@ -4093,6 +4322,7 @@
         "sb": 50,
         "school": "Dragoon",
         "name(jp)": "マッシヴフォーム",
+        "id": "30512002",
         "✓": "✓"
     },
     {
@@ -4111,6 +4341,7 @@
         "sb": 50,
         "school": "Thief",
         "name(jp)": "力をぶんどる【IX】",
+        "id": "30510131",
         "✓": "✓"
     },
     {
@@ -4129,6 +4360,7 @@
         "sb": 50,
         "school": "Thief",
         "name(jp)": "守りをぶんどる【IX】",
+        "id": "30510132",
         "✓": "✓"
     },
     {
@@ -4147,6 +4379,7 @@
         "sb": 50,
         "school": "Thief",
         "name(jp)": "スイフトスティール",
+        "id": "30511561",
         "✓": "✓"
     },
     {
@@ -4165,6 +4398,7 @@
         "sb": 50,
         "school": "Thief",
         "name(jp)": "義賊の施し",
+        "id": "30511562",
         "✓": "✓"
     },
     {
@@ -4183,6 +4417,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "癒やしの光",
+        "id": "30510141",
         "✓": "✓"
     },
     {
@@ -4201,6 +4436,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "雷帝の裁き",
+        "id": "30510142",
         "✓": "✓"
     },
     {
@@ -4216,6 +4452,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "ラムウ召喚",
+        "id": "30511191",
         "✓": "✓"
     },
     {
@@ -4234,6 +4471,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "ラムウ召喚",
+        "id": "30511191",
         "✓": "✓"
     },
     {
@@ -4252,6 +4490,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "ぺリドットの光輝",
+        "id": "30511192",
         "✓": "✓"
     },
     {
@@ -4270,6 +4509,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "ぺリドットの光輝",
+        "id": "30511192",
         "✓": "✓"
     },
     {
@@ -4288,6 +4528,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "W魔法・ファイラ",
+        "id": "30510311",
         "✓": "✓"
     },
     {
@@ -4306,6 +4547,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "W魔法・全体ファイラ",
+        "id": "30510312",
         "✓": "✓"
     },
     {
@@ -4324,6 +4566,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "瞬くいのち",
+        "id": "30511551",
         "✓": "✓"
     },
     {
@@ -4342,6 +4585,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "煌くこころ",
+        "id": "30511552",
         "✓": "✓"
     },
     {
@@ -4360,6 +4604,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "烈火剣",
+        "id": "30510751",
         "✓": "✓"
     },
     {
@@ -4378,6 +4623,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "フレイムブレイク",
+        "id": "30510752",
         "✓": "✓"
     },
     {
@@ -4396,6 +4642,7 @@
         "sb": 50,
         "school": "Dragoon",
         "name(jp)": "風華",
+        "id": "30510771",
         "✓": "✓"
     },
     {
@@ -4414,6 +4661,7 @@
         "sb": 50,
         "school": "Dragoon",
         "name(jp)": "ドラゴンドロー",
+        "id": "30510772",
         "✓": "✓"
     },
     {
@@ -4432,6 +4680,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "イーティングパワー",
+        "id": "30511201",
         "✓": "✓"
     },
     {
@@ -4450,6 +4699,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "クッキングマジック",
+        "id": "30511202",
         "✓": "✓"
     },
     {
@@ -4468,6 +4718,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "エーコのおうえん",
+        "id": "30510301",
         "✓": "✓"
     },
     {
@@ -4486,6 +4737,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "旅立ちの歌",
+        "id": "30510302",
         "✓": "✓"
     },
     {
@@ -4504,6 +4756,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "飛炮拳",
+        "id": "30511211",
         "✓": "✓"
     },
     {
@@ -4522,6 +4775,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "陽炎脚",
+        "id": "30511212",
         "✓": "✓"
     },
     {
@@ -4540,6 +4794,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "守護の剣",
+        "id": "30510151",
         "✓": "✓"
     },
     {
@@ -4558,6 +4813,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "忠誠の剣",
+        "id": "30510152",
         "✓": "✓"
     },
     {
@@ -4576,6 +4832,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "スナッチショット",
+        "id": "30510761",
         "✓": "✓"
     },
     {
@@ -4594,6 +4851,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "バーストエナジー",
+        "id": "30510762",
         "✓": "✓"
     },
     {
@@ -4612,6 +4870,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "ボレーシュート",
+        "id": "30510091",
         "✓": "✓"
     },
     {
@@ -4630,6 +4889,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "スピンボール",
+        "id": "30510092",
         "✓": "✓"
     },
     {
@@ -4648,6 +4908,7 @@
         "sb": 50,
         "school": "Special",
         "name(jp)": "マルチショット",
+        "id": 30510021,
         "✓": "✓"
     },
     {
@@ -4666,6 +4927,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "命の泉",
+        "id": 30510022,
         "✓": "✓"
     },
     {
@@ -4681,6 +4943,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "ヴァルファーレ召喚",
+        "id": "30510781",
         "✓": "✓"
     },
     {
@@ -4699,6 +4962,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "ヴァルファーレ召喚",
+        "id": "30510781",
         "✓": "✓"
     },
     {
@@ -4717,6 +4981,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "天来の息吹",
+        "id": "30510782",
         "✓": "✓"
     },
     {
@@ -4735,6 +5000,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "天来の息吹",
+        "id": "30510782",
         "✓": "✓"
     },
     {
@@ -4753,6 +5019,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "ウィザータックル",
+        "id": "30510391",
         "✓": "✓"
     },
     {
@@ -4771,6 +5038,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "パイルウィザー",
+        "id": "30510392",
         "✓": "✓"
     },
     {
@@ -4789,6 +5057,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "氷結ファイア",
+        "id": "30510801",
         "✓": "✓"
     },
     {
@@ -4807,6 +5076,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "氷結ウォータ",
+        "id": "30510802",
         "✓": "✓"
     },
     {
@@ -4825,6 +5095,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "ドレインリキッド",
+        "id": "30511351",
         "✓": "✓"
     },
     {
@@ -4843,6 +5114,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "アスピルリキッド",
+        "id": "30511352",
         "✓": "✓"
     },
     {
@@ -4861,6 +5133,7 @@
         "sb": 50,
         "school": "Machinist",
         "name(jp)": "ショックストーム",
+        "id": "30510271",
         "✓": "✓"
     },
     {
@@ -4879,6 +5152,7 @@
         "sb": 50,
         "school": "Machinist",
         "name(jp)": "反パワー&アーマー弾",
+        "id": "30510272",
         "✓": "✓"
     },
     {
@@ -4897,6 +5171,7 @@
         "sb": 50,
         "school": "Samurai",
         "name(jp)": "覚悟を決めろ",
+        "id": "30510381",
         "✓": "✓"
     },
     {
@@ -4915,6 +5190,7 @@
         "sb": 50,
         "school": "Samurai",
         "name(jp)": "決断する時",
+        "id": "30510382",
         "✓": "✓"
     },
     {
@@ -4933,6 +5209,7 @@
         "sb": 50,
         "school": "Samurai",
         "name(jp)": "灼炎",
+        "id": "30511331",
         "✓": "✓"
     },
     {
@@ -4951,6 +5228,7 @@
         "sb": 50,
         "school": "Samurai",
         "name(jp)": "紅蓮",
+        "id": "30511332",
         "✓": "✓"
     },
     {
@@ -4969,6 +5247,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "ジェクトストリーム",
+        "id": "30510211",
         "✓": "✓"
     },
     {
@@ -4987,6 +5266,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "ジェクトボマー",
+        "id": "30510212",
         "✓": "✓"
     },
     {
@@ -5002,6 +5282,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "イフリート召喚",
+        "id": "30511631",
         "✓": "✓"
     },
     {
@@ -5020,6 +5301,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "イフリート召喚",
+        "id": "30511631",
         "✓": "✓"
     },
     {
@@ -5038,6 +5320,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "永遠への願い",
+        "id": "30511632",
         "✓": "✓"
     },
     {
@@ -5056,6 +5339,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "永遠への願い",
+        "id": "30511632",
         "✓": "✓"
     },
     {
@@ -5074,6 +5358,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "アクアストーム",
+        "id": "30511341",
         "✓": "✓"
     },
     {
@@ -5092,6 +5377,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "アクアグラウンド",
+        "id": "30511342",
         "✓": "✓"
     },
     {
@@ -5110,6 +5396,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "死色の救済",
+        "id": "30510791",
         "✓": "✓"
     },
     {
@@ -5128,6 +5415,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "幻光天破",
+        "id": "30510792",
         "✓": "✓"
     },
     {
@@ -5146,6 +5434,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "ブチ切れファイア",
+        "id": "30510991",
         "✓": "✓"
     },
     {
@@ -5164,6 +5453,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "ブチ切れブリザド",
+        "id": "30510992",
         "✓": "✓"
     },
     {
@@ -5182,6 +5472,7 @@
         "sb": 50,
         "school": "Samurai",
         "name(jp)": "刀極技・凍牙",
+        "id": "30510501",
         "✓": "✓"
     },
     {
@@ -5200,6 +5491,7 @@
         "sb": 50,
         "school": "Samurai",
         "name(jp)": "刀秘技・氷龍",
+        "id": "30510502",
         "✓": "✓"
     },
     {
@@ -5218,6 +5510,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "レクイエスカット",
+        "id": "30510511",
         "✓": "✓"
     },
     {
@@ -5236,6 +5529,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "ウリエルブレード",
+        "id": "30510512",
         "✓": "✓"
     },
     {
@@ -5254,6 +5548,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "スピンコンボ",
+        "id": "30511261",
         "✓": "✓"
     },
     {
@@ -5272,6 +5567,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "ライジングタックル",
+        "id": "30511262",
         "✓": "✓"
     },
     {
@@ -5290,6 +5586,7 @@
         "sb": 50,
         "school": "Thief",
         "name(jp)": "ブレイクエッジ",
+        "id": "30511271",
         "✓": "✓"
     },
     {
@@ -5308,6 +5605,7 @@
         "sb": 50,
         "school": "Thief",
         "name(jp)": "ガードステッチ",
+        "id": "30511272",
         "✓": "✓"
     },
     {
@@ -5323,6 +5621,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "アクティベート",
+        "id": "30511761",
         "✓": "✓"
     },
     {
@@ -5341,6 +5640,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "アクティベート",
+        "id": "30511761",
         "✓": "✓"
     },
     {
@@ -5356,6 +5656,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "ライトマニューバ",
+        "id": "30511762",
         "✓": "✓"
     },
     {
@@ -5374,6 +5675,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "ライトマニューバ",
+        "id": "30511762",
         "✓": "✓"
     },
     {
@@ -5392,6 +5694,7 @@
         "sb": 50,
         "school": "Darkness",
         "name(jp)": "ネザーヴォイド",
+        "id": "30511771",
         "✓": "✓"
     },
     {
@@ -5410,6 +5713,7 @@
         "sb": 50,
         "school": "Darkness",
         "name(jp)": "デスペレートブロー",
+        "id": "30511772",
         "✓": "✓"
     },
     {
@@ -5428,6 +5732,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "魔攻破壊",
+        "id": "30510172",
         "✓": "✓"
     },
     {
@@ -5446,6 +5751,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "防御破壊",
+        "id": "30510171",
         "✓": "✓"
     },
     {
@@ -5464,6 +5770,7 @@
         "sb": 60,
         "school": "Machinist",
         "name(jp)": "ソイルショット",
+        "id": "30510231",
         "✓": "✓"
     },
     {
@@ -5482,6 +5789,7 @@
         "sb": 50,
         "school": "Machinist",
         "name(jp)": "ナパームショット",
+        "id": "30510232",
         "✓": "✓"
     },
     {
@@ -5500,6 +5808,7 @@
         "sb": 50,
         "school": "Machinist",
         "name(jp)": "オイルボム",
+        "id": "30511601",
         "✓": "✓"
     },
     {
@@ -5518,6 +5827,7 @@
         "sb": 50,
         "school": "Machinist",
         "name(jp)": "フレイムラプチャー",
+        "id": "30511602",
         "✓": "✓"
     },
     {
@@ -5536,6 +5846,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "竜牙閃",
+        "id": "30510981",
         "✓": "✓"
     },
     {
@@ -5554,6 +5865,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "崩魔壁",
+        "id": "30510982",
         "✓": "✓"
     },
     {
@@ -5572,6 +5884,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "滅魔の刃",
+        "id": "30510961",
         "✓": "✓"
     },
     {
@@ -5590,6 +5903,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "破邪の舞",
+        "id": "30510962",
         "✓": "✓"
     },
     {
@@ -5608,6 +5922,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "清浄なる雷光",
+        "id": "30510361",
         "✓": "✓"
     },
     {
@@ -5626,6 +5941,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "轟きの閃光",
+        "id": "30510362",
         "✓": "✓"
     },
     {
@@ -5644,6 +5960,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "ホーリーステップ",
+        "id": "30510371",
         "✓": "✓"
     },
     {
@@ -5662,6 +5979,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "癒しのダンス",
+        "id": "30510372",
         "✓": "✓"
     },
     {
@@ -5680,6 +5998,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "ジャッジ・ロンド",
+        "id": "30510951",
         "✓": "✓"
     },
     {
@@ -5698,6 +6017,7 @@
         "sb": 50,
         "school": "Darkness",
         "name(jp)": "ジャッジ・ブラッド",
+        "id": "30510952",
         "✓": "✓"
     },
     {
@@ -5716,6 +6036,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "白眉の静思",
+        "id": "30511311",
         "✓": "✓"
     },
     {
@@ -5734,6 +6055,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "廉潔の証明",
+        "id": "30511312",
         "✓": "✓"
     },
     {
@@ -5752,6 +6074,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "明王掌",
+        "id": "30510971",
         "✓": "✓"
     },
     {
@@ -5770,6 +6093,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "冥天破",
+        "id": "30510972",
         "✓": "✓"
     },
     {
@@ -5788,6 +6112,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "エレメントドライブ",
+        "id": "30511591",
         "✓": "✓"
     },
     {
@@ -5806,6 +6131,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "ヒールエッジ",
+        "id": "30511592",
         "✓": "✓"
     },
     {
@@ -5824,6 +6150,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "連閃",
+        "id": "30510041",
         "✓": "✓"
     },
     {
@@ -5842,6 +6169,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "天臨",
+        "id": "30510042",
         "✓": "✓"
     },
     {
@@ -5860,6 +6188,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "紫電",
+        "id": "30511051",
         "✓": "✓"
     },
     {
@@ -5878,6 +6207,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "迅雷",
+        "id": "30511052",
         "✓": "✓"
     },
     {
@@ -5896,6 +6226,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "リベンジフロスト",
+        "id": "30510731",
         "✓": "✓"
     },
     {
@@ -5914,6 +6245,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "アイシクルチャージ",
+        "id": "30510732",
         "✓": "✓"
     },
     {
@@ -5932,6 +6264,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "フロストドライブ",
+        "id": "30511821",
         "✓": "✓"
     },
     {
@@ -5950,6 +6283,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "ダイヤモンドターン",
+        "id": "30511822",
         "✓": "✓"
     },
     {
@@ -5968,6 +6302,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "久遠の光印",
+        "id": "30510401",
         "✓": "✓"
     },
     {
@@ -5986,6 +6321,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "命脈の息吹",
+        "id": "30510402",
         "✓": "✓"
     },
     {
@@ -6004,6 +6340,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "デプロテショット",
+        "id": "30511041",
         "✓": "✓"
     },
     {
@@ -6022,6 +6359,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "デシェルショット",
+        "id": "30511042",
         "✓": "✓"
     },
     {
@@ -6040,6 +6378,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "鎧袖一触【XIII】",
+        "id": "30510191",
         "✓": "✓"
     },
     {
@@ -6058,6 +6397,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "金剛掌",
+        "id": "30510192",
         "✓": "✓"
     },
     {
@@ -6073,6 +6413,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "アレキサンダー召喚",
+        "id": "30511121",
         "✓": "✓"
     },
     {
@@ -6091,6 +6432,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "アレキサンダー召喚",
+        "id": "30511121",
         "✓": "✓"
     },
     {
@@ -6109,6 +6451,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "聖裁",
+        "id": "30511122",
         "✓": "✓"
     },
     {
@@ -6127,6 +6470,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "聖裁",
+        "id": "30511122",
         "✓": "✓"
     },
     {
@@ -6145,6 +6489,7 @@
         "sb": 50,
         "school": "Dragoon",
         "name(jp)": "ドラゴンクロー",
+        "id": "30510241",
         "✓": "✓"
     },
     {
@@ -6163,6 +6508,7 @@
         "sb": 50,
         "school": "Dragoon",
         "name(jp)": "エアリアルレイヴ",
+        "id": "30510242",
         "✓": "✓"
     },
     {
@@ -6181,6 +6527,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "猛り舞う風",
+        "id": "30511581",
         "✓": "✓"
     },
     {
@@ -6199,6 +6546,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "牙を剥く風",
+        "id": "30511582",
         "✓": "✓"
     },
     {
@@ -6217,6 +6565,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "アイシクルフラッド",
+        "id": "30510421",
         "✓": "✓"
     },
     {
@@ -6235,6 +6584,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "ブリザードストーム",
+        "id": "30510422",
         "✓": "✓"
     },
     {
@@ -6253,6 +6603,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "刹那の輝き",
+        "id": "30510741",
         "✓": "✓"
     },
     {
@@ -6271,6 +6622,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "魂の残滓",
+        "id": "30510742",
         "✓": "✓"
     },
     {
@@ -6289,6 +6641,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "バウンスエッジ",
+        "id": "30510411",
         "✓": "✓"
     },
     {
@@ -6307,6 +6660,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "バタフライスティング",
+        "id": "30510412",
         "✓": "✓"
     },
     {
@@ -6325,6 +6679,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "苛烈なお仕置き",
+        "id": "30511571",
         "✓": "✓"
     },
     {
@@ -6343,6 +6698,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "魔性の微笑み",
+        "id": "30511572",
         "✓": "✓"
     },
     {
@@ -6361,6 +6717,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "テトラグラマトン",
+        "id": "30510671",
         "✓": "✓"
     },
     {
@@ -6379,6 +6736,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "メディカ",
+        "id": "30510672",
         "✓": "✓"
     },
     {
@@ -6397,6 +6755,7 @@
         "sb": 50,
         "school": "Ninja",
         "name(jp)": "一双",
+        "id": "30510681",
         "✓": "✓"
     },
     {
@@ -6415,6 +6774,7 @@
         "sb": 50,
         "school": "Ninja",
         "name(jp)": "残影",
+        "id": "30510682",
         "✓": "✓"
     },
     {
@@ -6433,6 +6793,7 @@
         "sb": 50,
         "school": "Ninja",
         "name(jp)": "蜂毒",
+        "id": "30511621",
         "✓": "✓"
     },
     {
@@ -6451,6 +6812,7 @@
         "sb": 50,
         "school": "Ninja",
         "name(jp)": "夢幻連段",
+        "id": "30511622",
         "✓": "✓"
     },
     {
@@ -6469,6 +6831,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "崩拳",
+        "id": "30510691",
         "✓": "✓"
     },
     {
@@ -6484,6 +6847,7 @@
         "sb": 50,
         "school": "Monk",
         "name(jp)": "金剛の構え",
+        "id": "30510692",
         "✓": "✓"
     },
     {
@@ -6502,6 +6866,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "アストラルファイア",
+        "id": "30510701",
         "✓": "✓"
     },
     {
@@ -6520,6 +6885,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "コンバートフレア",
+        "id": "30510702",
         "✓": "✓"
     },
     {
@@ -6538,6 +6904,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "ウィンドブレード",
+        "id": "30510721",
         "✓": "✓"
     },
     {
@@ -6556,6 +6923,7 @@
         "sb": 50,
         "school": "Summoning",
         "name(jp)": "エーテルフロー",
+        "id": "30510722",
         "✓": "✓"
     },
     {
@@ -6574,6 +6942,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "レイジ・オブ・ハルオーネ",
+        "id": "30510711",
         "✓": "✓"
     },
     {
@@ -6592,6 +6961,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "グローリースラッシュ",
+        "id": "30510712",
         "✓": "✓"
     },
     {
@@ -6610,6 +6980,7 @@
         "sb": 50,
         "school": "Machinist",
         "name(jp)": "ショット&リロード",
+        "id": "30511611",
         "✓": "✓"
     },
     {
@@ -6628,6 +6999,7 @@
         "sb": 50,
         "school": "Machinist",
         "name(jp)": "スプリットショット",
+        "id": "30511612",
         "✓": "✓"
     },
     {
@@ -6646,6 +7018,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "シフトレイド",
+        "id": "30511781",
         "✓": "✓"
     },
     {
@@ -6661,6 +7034,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "マップシフト",
+        "id": "30511782",
         "✓": "✓"
     },
     {
@@ -6679,6 +7053,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "盾・地面たたき",
+        "id": "30511791",
         "✓": "✓"
     },
     {
@@ -6697,6 +7072,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "ロイヤルガード",
+        "id": "30511792",
         "✓": "✓"
     },
     {
@@ -6715,6 +7091,7 @@
         "sb": 50,
         "school": "Machinist",
         "name(jp)": "高速連射",
+        "id": "30511981",
         "✓": "✓"
     },
     {
@@ -6733,6 +7110,7 @@
         "sb": 50,
         "school": "Machinist",
         "name(jp)": "転がり連射",
+        "id": "30511982",
         "✓": "✓"
     },
     {
@@ -6751,6 +7129,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "サポート・エリクサー",
+        "id": "30511801",
         "✓": "✓"
     },
     {
@@ -6769,6 +7148,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "サポート・ポーション",
+        "id": "30511802",
         "✓": "✓"
     },
     {
@@ -6787,6 +7167,7 @@
         "sb": 50,
         "school": "Dragoon",
         "name(jp)": "ダッシュ突き",
+        "id": "30511971",
         "✓": "✓"
     },
     {
@@ -6805,6 +7186,7 @@
         "sb": 50,
         "school": "Dragoon",
         "name(jp)": "踏み込み突き",
+        "id": "30511972",
         "✓": "✓"
     },
     {
@@ -6823,6 +7205,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "戦士の剣",
+        "id": "30510181",
         "✓": "✓"
     },
     {
@@ -6838,6 +7221,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "はげます",
+        "id": "30510182",
         "✓": "✓"
     },
     {
@@ -6856,6 +7240,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "忠の剣技",
+        "id": "30510521",
         "✓": "✓"
     },
     {
@@ -6874,6 +7259,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "信の剣技",
+        "id": "30510522",
         "✓": "✓"
     },
     {
@@ -6892,6 +7278,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "聖炎斬",
+        "id": "30510811",
         "✓": "✓"
     },
     {
@@ -6910,6 +7297,7 @@
         "sb": 50,
         "school": "Spellblade",
         "name(jp)": "氷雷破",
+        "id": "30510812",
         "✓": "✓"
     },
     {
@@ -6928,6 +7316,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "修道女の哀願",
+        "id": "30511321",
         "✓": "✓"
     },
     {
@@ -6946,6 +7335,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "修道女の慈恵",
+        "id": "30511322",
         "✓": "✓"
     },
     {
@@ -6964,6 +7354,7 @@
         "sb": 50,
         "school": "Machinist",
         "name(jp)": "ファストトリガー",
+        "id": "30511301",
         "✓": "✓"
     },
     {
@@ -6982,6 +7373,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "パワークラッシュ",
+        "id": "30511302",
         "✓": "✓"
     },
     {
@@ -7000,6 +7392,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "剣技・剛",
+        "id": "30510821",
         "✓": "✓"
     },
     {
@@ -7018,6 +7411,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "剣技・闇",
+        "id": "30510822",
         "✓": "✓"
     },
     {
@@ -7036,6 +7430,7 @@
         "sb": 50,
         "school": "Darkness",
         "name(jp)": "ダークブレード",
+        "id": "30510831",
         "✓": "✓"
     },
     {
@@ -7054,6 +7449,7 @@
         "sb": 50,
         "school": "Darkness",
         "name(jp)": "ブラッドブレード",
+        "id": "30510832",
         "✓": "✓"
     },
     {
@@ -7072,6 +7468,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "天雷の印",
+        "id": "30511281",
         "✓": "✓"
     },
     {
@@ -7090,6 +7487,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "轟天陣",
+        "id": "30511282",
         "✓": "✓"
     },
     {
@@ -7108,6 +7506,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "迅雷の印",
+        "id": "30511291",
         "✓": "✓"
     },
     {
@@ -7126,6 +7525,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "疾雷陣",
+        "id": "30511292",
         "✓": "✓"
     },
     {
@@ -7144,6 +7544,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "ディバインブレイク",
+        "id": "30511921",
         "✓": "✓"
     },
     {
@@ -7162,6 +7563,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "ディバインクラッシュ",
+        "id": "30511922",
         "✓": "✓"
     },
     {
@@ -7180,6 +7582,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "ファイアBOM",
+        "id": "30511641",
         "✓": "✓"
     },
     {
@@ -7198,6 +7601,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "ファイアSHG",
+        "id": "30511642",
         "✓": "✓"
     },
     {
@@ -7216,6 +7620,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "ケアルff",
+        "id": "30511651",
         "✓": "✓"
     },
     {
@@ -7234,6 +7639,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "癒しの旋律",
+        "id": "30511652",
         "✓": "✓"
     },
     {
@@ -7252,6 +7658,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "トルネドランス",
+        "id": "30511661",
         "✓": "✓"
     },
     {
@@ -7270,6 +7677,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "ワイルドブラスト",
+        "id": "30511662",
         "✓": "✓"
     },
     {
@@ -7288,6 +7696,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "グレイシャーアロー",
+        "id": "30511181",
         "✓": "✓"
     },
     {
@@ -7306,6 +7715,7 @@
         "sb": 50,
         "school": "Black Magic",
         "name(jp)": "ビッグフローズン",
+        "id": "30511182",
         "✓": "✓"
     },
     {
@@ -7324,6 +7734,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "メルトスマッシュ",
+        "id": "30511171",
         "✓": "✓"
     },
     {
@@ -7342,6 +7753,7 @@
         "sb": 50,
         "school": "Combat",
         "name(jp)": "ソーラーフレイム",
+        "id": "30511172",
         "✓": "✓"
     },
     {
@@ -7360,6 +7772,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "魔封陣",
+        "id": "30511701",
         "✓": "✓"
     },
     {
@@ -7378,6 +7791,7 @@
         "sb": 50,
         "school": "Support",
         "name(jp)": "一刀両断",
+        "id": "30511702",
         "✓": "✓"
     },
     {
@@ -7396,6 +7810,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "癒しの歌",
+        "id": "30511711",
         "✓": "✓"
     },
     {
@@ -7414,6 +7829,7 @@
         "sb": 50,
         "school": "White Magic",
         "name(jp)": "生命の歌",
+        "id": "30511712",
         "✓": "✓"
     },
     {
@@ -7432,6 +7848,7 @@
         "sb": 50,
         "school": "Dragoon",
         "name(jp)": "ジオクラッシュ",
+        "id": "30511721",
         "✓": "✓"
     },
     {
@@ -7450,6 +7867,7 @@
         "sb": 50,
         "school": "Knight",
         "name(jp)": "アースストンプ",
+        "id": "30511722",
         "✓": "✓"
     }
 ]

@@ -213,10 +213,12 @@ function sendRichEmbedSoulbreak(soulbreak, msg, dm=false, sbType='all') {
   let castTime = soulbreak.time;
   let target = soulbreak.target;
   let sbTier = soulbreak.tier;
+  let sbImage = botUtils.returnImageLink(soulbreak, 'soulstrike');
   let embed = new RichEmbed()
     .setTitle(title)
     .setDescription(description)
     .setColor('#53ddff')
+    .setThumbnail(sbImage)
     .addField('**Type**', skillType, true)
     .addField('**Element**', element, true)
     .addField('**Target**', target, true)
@@ -262,12 +264,14 @@ function processRichEmbedBsb(bsbCommand) {
   let element = botUtils.returnElement(bsbCommand);
   let castTime = bsbCommand.time;
   let sbCharge = bsbCommand.sb;
+  let sbImage = botUtils.returnImageLink(bsbCommand, 'ability');
   let type = bsbCommand.school;
   let multiplier = botUtils.returnMultiplier(bsbCommand);
   let embed = new RichEmbed()
     .setTitle(util.format('**%s BSB Command: %s**', source, command))
     .setDescription(description)
     .setColor('#ea9f3c')
+    .setThumbnail(sbImage)
     .addField('**Type**', type, true)
     .addField('**Element**', element, true)
     .addField('**Target**', target, true)

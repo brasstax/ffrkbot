@@ -107,3 +107,35 @@ exports.returnNotes = function returnNotes(statusEffect) {
     return statusEffect.notes;
   };
 };
+
+/** returnImageLink:
+ * Returns the URL link for an ability, soulbreak, legend materia, or
+ * record materia.
+ * @param {object} ability: a JSON dict of an ability, soulbreak, etc.
+ * @param {string} abilityType: one of: ability, soulstrike, legend_materia,
+ * or record_materia.
+ * @return {string} uri: URI of the image, or a default Discord avatar image
+ * if the image is not found.
+ **/
+exports.returnImageLink = function returnImageLink(ability, abilityType) {
+  let baseUri = 'https://dff.sp.mbga.jp/dff/static/lang/image';
+  let folder = abilityType;
+  let defaultImage = 'https://cdn.discordapp.com/embed/avatars/0.png';
+  let id;
+  try {
+    id = ability.id;
+  } catch (e) {
+    console.log(`Couldn't get ID of ability, error: ${e}`);
+    return defaultImage;
+  };
+  let px;
+  if (folder === 'soulstrike') {
+    px = 256;
+  } else {
+    px = 128;
+  };
+  let endpoint = util.format('%s/%s_%s.png', id, id, px);
+  let fullUri = util.format('%s/%s/%s', baseUri, folder, endpoint);
+  console.log(`fullUri for ${ability.name}: ${fullUri}`);
+  return fullUri;
+};

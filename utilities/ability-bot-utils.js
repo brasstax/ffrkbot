@@ -94,10 +94,12 @@ function sendRichEmbedAbility(result, msg) {
   let target = ability.target;
   let castTime = ability.time;
   let sbCharge = ability.sb;
+  let sbImage = botUtils.returnImageLink(ability, 'ability');
   let embed = new RichEmbed()
     .setTitle(ability.name)
     .setDescription(description)
     .setColor('#53ddff')
+    .setThumbnail(sbImage)
     .addField('**Type**', abilityType, true)
     .addField('**Element**', element, true)
     .addField('**Target**', target, true)
