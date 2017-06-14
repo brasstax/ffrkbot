@@ -28,7 +28,7 @@ exports.status = function lookupStatus(msg, args) {
   query = escapeStringRegexp(query);
   console.log(`Status to look up: ${query}`);
   console.log(`,status caller:` +
-      ` ${msg.author.username}#${$msg.author.discriminator}`);
+      ` ${msg.author.username}#${msg.author.discriminator}`);
   let queryString = util.format('[commonName~/%s/i]', query);
   console.log(`queryString: ${queryString}`);
   let result = jsonQuery(queryString, {
@@ -54,37 +54,28 @@ exports.status = function lookupStatus(msg, args) {
  **/
 function sendRichEmbedStatus(result, msg) {
   statusEffect = result.value;
-  let description;
-  let defaultDuration;
-  let mndModifier;
-  let exclusiveStatus;
-  try {
-    description = botUtils.returnDescription(statusEffect);
-    defaultDuration = returnDefaultDuration(statusEffect);
-    if (defaultDuration === 0) {
-      defaultDuration = 'Until removed';
-    };
-    mndModifier = returnMndModifier(statusEffect);
-    exclusiveStatus = returnExclusiveStatus(statusEffect);
-  } catch (e) {
-    console.log(`Error assigning sendRichEmbedStatus initial variables: ${e}`);
-    console.log(`Setting values to 'N/A'.`);
-    description = 'N/A';
-    defaultDuration = 'N/A';
-    mndModifier = 'N/A';
-    exclusiveStatus = 'N/A';
+  let description = (statusEffect.effects !== undefined) ?
+    (statusEffects.effects) : ('N/A');
+  let defaultDuration = (statusEffect.defaultDuration !== undefined) ?
+    (botUtils.returnDefaultDuration(statusEffect)) : ('N/A');
+  let mndModifier = (statusEffect.mndModifier !== undefined) ?
+    (returnMndModifier(statusEffect)) : ('N/A');
+  let exclusiveStatus = (statusEffect.exclusiveStatus !== undefined) ?
+    (returnExclusiveStatus(statusEffect)) : ('N/A');
+  if (defaultDuration === 0) {
+    defaultDuration = 'Until removed';
   };
-  let name = statusEffect.commonName;
-  let notes = botUtils.returnNotes(statusEffect);
-  let embed = new RichEmbed()
-    .setTitle(name)
-    .setDescription(description)
-    .setColor('#8c42f4')
-    .addField('Default duration', defaultDuration, true)
-    .addField('MND modifier', mndModifier, true)
-    .addField('Mutually exclusive status effects', exclusiveStatus)
-    .addfield('Additional notes', notes);
   return new Promise( (fulfill, reject) => {
+    let name = statusEffect.commonName;
+    let notes = botUtils.returnNotes(statusEffect);
+    let embed = new RichEmbed()
+      .setTitle(name)
+      .setDescription(description)
+      .setColor('#8c42f4')
+      .addField('Default duration', defaultDuration, true)
+      .addField('MND modifier', mndModifier, true)
+      .addField('Mutually-exclusive status effects', exclusiveStatus)
+      .addField('Additional notes', notes);
     msg.channel.send({embed})
       .then( (resolve) => {
         fulfill(resolve);

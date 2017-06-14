@@ -89,7 +89,7 @@ exports.returnPropertyString = function returnPropertyString(property,
  * @return {number} duration
  **/
 exports.returnDefaultDuration = function returnDefaultDuration(statusEffect) {
-  let duration = (Number(statusEffect.defaultDuration) === 'NaN') ?
+  let duration = (isNaN(Number(statusEffect.defaultDuration))) ?
     (0) : (Number(statusEffect.defaultDuration));
   // I have no idea why gsjson returns the defaultDuration as a string.
   return duration;
