@@ -53,19 +53,19 @@ exports.status = function lookupStatus(msg, args) {
  * @return {object} Promise
  **/
 function sendRichEmbedStatus(result, msg) {
-  statusEffect = result.value;
-  let description = (statusEffect.effects !== undefined) ?
-    (statusEffects.effects) : ('N/A');
-  let defaultDuration = (statusEffect.defaultDuration !== undefined) ?
-    (botUtils.returnDefaultDuration(statusEffect)) : ('N/A');
-  let mndModifier = (statusEffect.mndModifier !== undefined) ?
-    (returnMndModifier(statusEffect)) : ('N/A');
-  let exclusiveStatus = (statusEffect.exclusiveStatus !== undefined) ?
-    (returnExclusiveStatus(statusEffect)) : ('N/A');
-  if (defaultDuration === 0) {
-    defaultDuration = 'Until removed';
-  };
   return new Promise( (fulfill, reject) => {
+    statusEffect = result.value;
+    let description = (statusEffect.effects !== undefined) ?
+      (statusEffect.effects) : ('N/A');
+    let defaultDuration = (statusEffect.defaultDuration !== undefined) ?
+      (botUtils.returnDefaultDuration(statusEffect)) : ('N/A');
+    let mndModifier = (statusEffect.mndModifier !== undefined) ?
+      (returnMndModifier(statusEffect)) : ('N/A');
+    let exclusiveStatus = (statusEffect.exclusiveStatus !== undefined) ?
+      (returnExclusiveStatus(statusEffect)) : ('N/A');
+    if (defaultDuration === 0) {
+      defaultDuration = 'Until removed';
+    };
     let name = statusEffect.commonName;
     let notes = botUtils.returnNotes(statusEffect);
     let embed = new RichEmbed()
