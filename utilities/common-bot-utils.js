@@ -1,3 +1,9 @@
+/** common-bot-utils.js
+ * For potentially-common bot utilities.
+ * If a function can be used in more than one command, put it here even
+ * if its name references a specific command (ie the ability stuff here
+ * can and has been used in soulbreak stuff.)
+ **/
 const util = require('util');
 const titlecase = require('titlecase');
 const pad = require('pad');
@@ -87,4 +93,17 @@ exports.returnDefaultDuration = function returnDefaultDuration(statusEffect) {
     (0) : (Number(statusEffect.defaultDuration));
   // I have no idea why gsjson returns the defaultDuration as a string.
   return duration;
+};
+
+/** returnNotes:
+ * Returns the notes of a status effect.
+ * @param {object} statusEffect: the status effect to check.
+ * @return {string} notes
+ **/
+exports.returnNotes = function returnNotes(statusEffect) {
+  if (statusEffect.notes === '-') {
+    return 'N/A';
+  } else {
+    return statusEffect.notes;
+  };
 };
