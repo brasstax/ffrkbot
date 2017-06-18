@@ -11,6 +11,7 @@
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-node": "^5.0.0",
     "google-spreadsheet-to-json": "^1.0.0",
+    "jest": "^20.0.4",
     "json-query": "^2.2.2",
     "pad": "^1.1.0",
     "sqlite": "^2.8.0",
