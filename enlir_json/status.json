@@ -976,6 +976,16 @@
         "notes": "-"
     },
     {
+        "id": "282003",
+        "commonName": "Shooter +15% Boost 3",
+        "effects": "Shooter abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SHOOTER_115_3",
+        "notes": "-"
+    },
+    {
         "id": "282101",
         "commonName": "Darkness +30% Boost",
         "effects": "Darkness abilities deal 30% more damage",
@@ -983,6 +993,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DAMAGE_BOOST_DARKNESS_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282102",
+        "commonName": "Summoning +30% Boost",
+        "effects": "Summoning abilities deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SUMMON_130_15000_MSEC",
         "notes": "-"
     },
     {
@@ -1353,6 +1373,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_CAST_TIME_200_25000_MSEC_ALL",
+        "notes": "-"
+    },
+    {
+        "id": "2052",
+        "commonName": "Quick Spellblade Abilities",
+        "effects": "Cast speed x2,00 for Spellblade abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_FOR_NEO_AQUA_SABER",
         "notes": "-"
     },
     {
@@ -2114,8 +2144,8 @@
     },
     {
         "id": "580",
-        "commonName": "Swift Steal Counter",
-        "effects": "Keeps track of the number of uses of Swift Steal",
+        "commonName": "Swift Steel Counter",
+        "effects": "Keeps track of the number of uses of Swift Steel",
         "defaultDuration": "25",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2144,7 +2174,7 @@
     },
     {
         "id": "583",
-        "commonName": "EX: Flash",
+        "commonName": "EX: Blinding",
         "effects": "ATK +30%, grants High Quick Cast 1 after using a Lightning attack",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2555,6 +2585,16 @@
         "notes": "-"
     },
     {
+        "id": "50029",
+        "commonName": "Fiery Lightning",
+        "effects": "Casts Fiery Lightning every 3,50 seconds",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "BRASKA_AUTO_SUMMON",
+        "notes": "-"
+    },
+    {
         "id": "50032",
         "commonName": "Heavy Grinder Speed x1,11",
         "effects": "Cast speed x1,11 for Heavy Grinder",
@@ -2956,7 +2996,7 @@
     },
     {
         "id": "636",
-        "commonName": "Swift Steal +X%",
+        "commonName": "Swift Steel +X%",
         "effects": "ATK +X%",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -3498,6 +3538,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_LIGHTNING_DISADVANTAGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "842",
+        "commonName": "Minor Imperil Water",
+        "effects": "Water Resistance -10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_WATER_DISADVANTAGE_1",
         "notes": "-"
     },
     {
