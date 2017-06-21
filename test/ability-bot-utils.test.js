@@ -16,27 +16,35 @@ const enlirAbilitiesFile = fs.readFileSync(enlirAbilitiesPath);
 const enlirAbilities = JSON.parse(enlirAbilitiesFile);
 
 describe('ability', () => {
-  describe('ability call', () => {
+  let msg = sinon.createStubInstance(discord.Client);
+  msg.author = sinon.createStubInstance(discord.User);
+  msg.channel = sinon.createStubInstance(discord.TextChannel);
+  msg.channel.send = sinon.stub().resolves(null);
+  msg.author.username = null;
+  msg.author.discriminator = null;
+  describe('lookupAbility', () => {
+    let args = 'waterga';
     it('Should call sendRichEmbedAbility', () => {
-      let msg = sinon.createStubInstance(discord.Client);
-      msg.author = sinon.createStubInstance(discord.User);
-      msg.channel = sinon.createStubInstance(discord.TextChannel);
-      msg.channel.send = sinon.stub().resolves(null);
-      msg.author.username = null;
-      msg.author.discriminator = null;
       let stub = sinon.stub(botUtils, 'sendRichEmbedAbility');
       stub.resolves(null);
-      let args = 'waterga';
       res = botUtils.ability(msg, args);
+      stub.restore();
       assert.equal(res, null, 'ability called sendRichEmbedAbility');
     });
+    it('Should fall back to processAbility when sendRichEmbedAbility fails',
+        () => {
+          let stub = sinon.stub(botUtils, 'sendRichEmbedAbility');
+          stub.rejects(null);
+          res = botUtils.ability(msg, args);
+          stub.restore();
+          assert.equal(res, null, 'ability called processAbility');
+        });
   });
   describe('sendRichEmbedAbility', () => {
     it('Should construct and send a RichEmbedAbility', () => {
       let msg = sinon.createStubInstance(discord.Client);
       msg.channel = sinon.createStubInstance(discord.TextChannel);
       msg.channel.send = sinon.stub().resolves(null);
-      console.log(msg.channel.send());
       let query = 'waterga';
       let queryString = util.format('[name~/%s/i]', query);
       let result = jsonQuery(queryString, {
@@ -45,10 +53,8 @@ describe('ability', () => {
       });
       return botUtils.sendRichEmbedAbility(result, msg)
         .then( (res) => {
-          console.log(res);
           assert.equal(res, null, 'sendRichEmbedAbility succeeded');
         }).catch( (err) => {
-          console.log(err);
           assert.fail(err, null, `sendRichEmbedAbility should return null,` +
             ` but we got ${err}`);
         });
