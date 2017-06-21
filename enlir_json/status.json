@@ -2095,7 +2095,7 @@
     {
         "id": "575",
         "commonName": "Armiger",
-        "effects": "ATK +30%, cast speed x3,00, removed if the user doesn't have Stoneskin: 30%",
+        "effects": "ATK +30%, cast speed x3,00, removed if the user doesn't have any Stoneskin",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
