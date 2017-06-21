@@ -13,7 +13,7 @@ const enlirAbilitiesPath = path.join(enlirJsonPath, 'abilities.json');
 const enlirAbilitiesFile = fs.readFileSync(enlirAbilitiesPath);
 const enlirAbilities = JSON.parse(enlirAbilitiesFile);
 
-/** exports.ability:
+/** lookupAbility:
  * Retrieves information about an ability.
  * @param {Object} msg: A message object from the Discord.js bot.
  * @param {Array} args: An array of arguments. This should only be
@@ -22,7 +22,7 @@ const enlirAbilities = JSON.parse(enlirAbilitiesFile);
  *    up. If the ability name has a space, the ability name should be
  *    encased in 'quotes'.
  **/
-exports.ability = function lookupAbility(msg, args) {
+function lookupAbility(msg, args) {
   if (args.length < 3) {
     msg.reply('Search query must be at least three characters.');
     return;
@@ -53,7 +53,7 @@ exports.ability = function lookupAbility(msg, args) {
  * @param {Object} result: A JSON list of a given ability.
  * @param {Object} msg: a discord.js message object.
  **/
-exports.processAbility = function processAbility(result, msg) {
+function processAbility(result, msg) {
   ability = result.value;
   let description = botUtils.returnDescription(ability);
   let multiplier = botUtils.returnMultiplier(ability);
@@ -85,7 +85,7 @@ exports.processAbility = function processAbility(result, msg) {
  * @param {object} msg: Discord.js-command message object.
  * @return {object} Promise
  **/
-exports.sendRichEmbedAbility = function sendRichEmbedAbility(result, msg) {
+function sendRichEmbedAbility(result, msg) {
   ability = result.value;
   let description = botUtils.returnDescription(ability);
   let multiplier = botUtils.returnMultiplier(ability);
@@ -115,4 +115,10 @@ exports.sendRichEmbedAbility = function sendRichEmbedAbility(result, msg) {
         err(error);
       });
   });
+};
+
+module.exports = {
+  sendRichEmbedAbility: sendRichEmbedAbility,
+  ability: lookupAbility,
+  processAbility: processAbility,
 };
