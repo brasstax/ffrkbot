@@ -53,7 +53,7 @@ exports.ability = function lookupAbility(msg, args) {
  * @param {Object} result: A JSON list of a given ability.
  * @param {Object} msg: a discord.js message object.
  **/
-function processAbility(result, msg) {
+exports.processAbility = function processAbility(result, msg) {
   ability = result.value;
   let description = botUtils.returnDescription(ability);
   let multiplier = botUtils.returnMultiplier(ability);
@@ -85,7 +85,7 @@ function processAbility(result, msg) {
  * @param {object} msg: Discord.js-command message object.
  * @return {object} Promise
  **/
-function sendRichEmbedAbility(result, msg) {
+exports.sendRichEmbedAbility = function sendRichEmbedAbility(result, msg) {
   ability = result.value;
   let description = botUtils.returnDescription(ability);
   let multiplier = botUtils.returnMultiplier(ability);
