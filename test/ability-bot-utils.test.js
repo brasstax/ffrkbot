@@ -1,4 +1,5 @@
 const chai = require('chai');
+const rewire = require('rewire');
 const assert = chai.assert;
 
 const sinon = require('sinon');
@@ -9,13 +10,14 @@ const fs = require('fs');
 const botUtilsPath = path.join(
   __dirname, '..', 'utilities', 'ability-bot-utils.js');
 const jsonQuery = require('json-query');
-const botUtils = require(botUtilsPath);
+const botUtils = rewire(botUtilsPath);
 const enlirJsonPath = path.join(__dirname, '..', 'enlir_json');
 const enlirAbilitiesPath = path.join(enlirJsonPath, 'abilities.json');
 const enlirAbilitiesFile = fs.readFileSync(enlirAbilitiesPath);
 const enlirAbilities = JSON.parse(enlirAbilitiesFile);
 
 describe('ability', () => {
+  let sandbox;
   let msg = sinon.createStubInstance(discord.Client);
   msg.author = sinon.createStubInstance(discord.User);
   msg.channel = sinon.createStubInstance(discord.TextChannel);
@@ -23,28 +25,39 @@ describe('ability', () => {
   msg.author.username = null;
   msg.author.discriminator = null;
   describe('lookupAbility', () => {
-    let args = 'waterga';
-    it('Should call sendRichEmbedAbility', () => {
-      let stub = sinon.stub(botUtils, 'sendRichEmbedAbility');
-      stub.resolves(null);
-      res = botUtils.ability(msg, args);
-      stub.restore();
-      assert.equal(res, null, 'ability called sendRichEmbedAbility');
+    beforeEach( () => {
+      sandbox = sinon.sandbox.create();
+      stubEmbed = sandbox.stub(botUtils, 'sendRichEmbedAbility');
+      stubPlaintext = sandbox.stub(botUtils, 'processAbility');
+      botUtils.__set__({
+        'sendRichEmbedAbility': stubEmbed,
+        'processAbility': stubPlaintext,
+      });
     });
-    it('Should fall back to processAbility when sendRichEmbedAbility fails',
+    afterEach( () => {
+      sandbox.restore();
+    });
+    let args = 'waterga';
+    it('should call sendRichEmbedAbility', () => {
+      stubEmbed.resolves(null);
+      res = botUtils.ability(msg, args);
+      console.log(stubEmbed.callCount);
+      assert.equal(stubEmbed.calledOnce, true,
+        'sendRichEmbedAbility was called once');
+      assert.equal(stubPlaintext.notCalled, true,
+        'processAbility should not be called');
+    });
+    it('should fall back to processAbility when sendRichEmbedAbility fails',
         () => {
-          let stub = sinon.stub(botUtils, 'sendRichEmbedAbility');
-          stub.rejects(null);
+          stubEmbed.rejects(null);
           res = botUtils.ability(msg, args);
-          stub.restore();
-          assert.equal(res, null, 'ability called processAbility');
+          console.log(res);
+          assert.equal(stubEmbed.calledOnce, true,
+            'stubEmbed called once');
         });
   });
   describe('sendRichEmbedAbility', () => {
     it('Should construct and send a RichEmbedAbility', () => {
-      let msg = sinon.createStubInstance(discord.Client);
-      msg.channel = sinon.createStubInstance(discord.TextChannel);
-      msg.channel.send = sinon.stub().resolves(null);
       let query = 'waterga';
       let queryString = util.format('[name~/%s/i]', query);
       let result = jsonQuery(queryString, {
