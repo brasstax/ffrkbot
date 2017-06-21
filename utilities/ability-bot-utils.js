@@ -44,6 +44,7 @@ function lookupAbility(msg, args) {
   } else {
     sendRichEmbedAbility(result, msg)
       .catch( (err) => {
+        console.log(`Failed to call sendRichEmbedAbility, using plaintext`);
         processAbility(result, msg);
       });
   };
