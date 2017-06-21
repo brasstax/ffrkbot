@@ -18,14 +18,17 @@
     "titlecase": "^1.1.2"
   },
   "devDependencies": {
+    "chai": "^4.0.2",
     "eslint": "^3.19.0",
     "eslint-config-google": "^0.8.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Hail Hydrate",
   "license": "ISC"
