@@ -94,13 +94,23 @@ function lookupSoulbreak(msg, character, sbType) {
   return new Promise( (resolve, reject) => {
     if (character.length < 3) {
       msg.channel.send(
-        'Character name must be at least three characters.');
+        'Character name must be at least three characters.')
+        .then( (res) => {
+          resolve(res);
+        }).catch( (err) => {
+          reject(err);
+        });
       return;
     };
     if (checkSoulbreakFilter(sbType) === false) {
       msg.channel.send(
         'Soulbreak type not one of: ' +
-          'All, Default, SB, SSB, BSB, USB, OSB, CSB.');
+          'All, Default, SB, SSB, BSB, USB, OSB, CSB.')
+        .then( (res) => {
+          resolve(res);
+        }).catch( (err) => {
+          reject(err);
+        });
       return;
     };
     console.log(`Alias check: ${checkAlias(character)}`);
@@ -112,7 +122,12 @@ function lookupSoulbreak(msg, character, sbType) {
       console.log(`calling sbQueryResults.`);
       character = titlecase.toLaxTitleCase(character);
       if (res.value.length === 0) {
-        msg.channel.send(`No results for '${character}' '${sbType}'.`);
+        msg.channel.send(`No results for '${character}' '${sbType}'.`)
+        .then( (res) => {
+          resolve(res);
+        }).catch( (err) => {
+          reject(err);
+        });
         return;
       };
       let dm = false;
@@ -122,27 +137,38 @@ function lookupSoulbreak(msg, character, sbType) {
       });
       if (sbType === 'all') {
         console.log(`sending soulbreak summary`);
-        sendSoulbreakRichEmbedSummary(values, msg).catch( (err) => {
-          console.log(`Error sending richEmbed summary ${err}`);
-          console.log(`Sending plaintext summary instead.`);
-          sendSoulbreakPlaintextSummary(values, msg).catch( (err) => {
-            console.log(`Error sending plaintext summary as well: ${err}`);
-          });
+        sendSoulbreakRichEmbedSummary(values, msg)
+          .then( (res) => {
+            resolve(res);
+          }).catch( (err) => {
+            console.log(`Error sending richEmbed summary ${err}`);
+            console.log(`Sending plaintext summary instead.`);
+            sendSoulbreakPlaintextSummary(values, msg)
+              .then( (res) => {
+                resolve(res);
+              }).catch( (err) => {
+                console.log(`Error sending plaintext summary as well: ${err}`);
+                reject(err);
+            });
         });
       } else {
         values.forEach( (value) => {
           let sbResults = sendRichEmbedSoulbreak(value, msg, dm, sbType);
           sbResults.then( (result) => {
-            result.forEach((embed) => {
-              msg.channel.send(embed);
+            result.forEach( (embed) => {
+              msg.channel.send(embed)
+                .then( () => {
+                }).catch( (err) => {
+                console.log(`Error calling sendRichEmbedSoulbreak: ${err}`);
+              });
             });
-          }).catch( (err) => {
-              console.log(`Error calling sendRichEmbedSoulbreak: ${err}`);
-              processSoulbreak(value, msg, dm, character, sbType);
+          }).catch( () => {
+            console.log(`Attempting to call plaintext soulbreak instead.`);
+            processSoulbreak(value, msg, dm, character, sbType);
           });
+          resolve();
         });
       };
-    return;
     });
   });
 };
