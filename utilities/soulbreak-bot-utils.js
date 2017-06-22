@@ -86,7 +86,7 @@ function checkSoulbreakFilter(sbType) {
  *  @param {String} sbType: the type of soul break to search.
  *    (one of: all, default, sb, bsb, usb, osb). Defaults to 'all'.)
  **/
-exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
+function lookupSoulbreak(msg, character, sbType) {
   console.log(util.format(',sb caller: %s#%s',
     msg.author.username, msg.author.discriminator));
   console.log(`Lookup called: ${character} ${sbType}`);
@@ -118,7 +118,11 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
       values.push(value);
     });
     if (sbType === 'all') {
-      sendSoulbreakRichEmbedSummary(values, msg);
+      console.log(`sending soulbreak summary`);
+      sendSoulbreakRichEmbedSummary(values, msg).catch( (err) => {
+        console.log(`Error sending richEmbed summary ${err}`);
+        sendSoulbreakPlaintextSummary(values, msg);
+      });
     } else {
       values.forEach( (value) => {
         let sbResults = sendRichEmbedSoulbreak(value, msg, dm, sbType);
@@ -139,6 +143,7 @@ exports.soulbreak = function lookupSoulbreak(msg, character, sbType) {
  * Sends a summary of a character's soulbreaks as a RichEmbed object.
  * @param {array} soulbreaks: an array of soulbreaks.
  * @param {object} msg: the discord.js-commando message object.
+ * @return {object} Promise
  **/
 function sendSoulbreakRichEmbedSummary(soulbreaks, msg) {
   let character = soulbreaks[0].character;
@@ -155,11 +160,15 @@ function sendSoulbreakRichEmbedSummary(soulbreaks, msg) {
     let nameField = util.format('%s (%s) {Relic: %s}', name, tier, relic);
     embed.addField(nameField, description);
   });
-  msg.channel.send({embed})
-    .catch( (error) => {
-      console.log(`Couldn't send RichEmbed soulbreak summary because ${error}` +
-        `, sending plaintext summary instead`);
-      sendSoulbreakPlaintextSummary(soulbreaks, msg);
+  return new Promise( (resolve, reject) => {
+    msg.channel.send({embed})
+      .then( (res) => {
+        resolve(res);
+      }).catch( (error) => {
+        console.log(`Couldn't send RichEmbed soulbreak summary: ${error}` +
+          `, sending plaintext summary instead`);
+        reject(error);
+    });
   });
 };
 /** sendSoulbreakPlaintextSummary:
@@ -453,4 +462,11 @@ function processBsb(bsbCommand, message=null, sbType='all') {
   };
   console.log(`message: ${message}`);
   return message;
+};
+
+module.exports = {
+  sendSoulbreakRichEmbedSummary: sendSoulbreakRichEmbedSummary,
+  soulbreak: lookupSoulbreak,
+  searchSoulbreak: searchSoulbreak,
+  sendSoulbreakPlaintextSummary: sendSoulbreakPlaintextSummary,
 };
