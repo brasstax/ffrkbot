@@ -29,10 +29,13 @@ module.exports = class ReplyCommand extends Command {
   /** trigger to run upon invocation.
    * @param {Object} msg: discord.js-commando message.
    * @param {Array} args: args from the user input.
-   * @return {Method} msg.say: string
+   * @return {object} Promise
    **/
   run(msg, args) {
     const {ability_name} = args;
-    return botUtils.ability(msg, ability_name);
+    return botUtils.ability(msg, ability_name)
+      .catch( (err) => {
+        console.log(`Error in running ability command: ${e}`);
+      });
   };
 };

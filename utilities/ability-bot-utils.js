@@ -21,6 +21,7 @@ const enlirAbilities = JSON.parse(enlirAbilitiesFile);
  *  * @param {String} abilityName: The desired ability name to look
  *    up. If the ability name has a space, the ability name should be
  *    encased in 'quotes'.
+ * @return {Object} Promise
  **/
 function lookupAbility(msg, args) {
   if (args.length < 3) {
@@ -42,12 +43,22 @@ function lookupAbility(msg, args) {
   if (result.value === null) {
     msg.channel.send(`Ability '${query}' not found.`);
   } else {
-    sendRichEmbedAbility(result, msg)
-      .catch( (err) => {
-        console.log(`Failed to call sendRichEmbedAbility, using plaintext`);
-        processAbility(result, msg);
+    return new Promise( (resolve, reject) => {
+      sendRichEmbedAbility(result, msg)
+        .then( (res) => {
+          resolve(res);
+        }).catch( (err) => {
+          console.log(`Failed to call sendRichEmbedAbility, using plaintext`);
+          try {
+            processAbility(result, msg);
+            resolve(err);
+          } catch (e) {
+            console.log(`Failed to call plaintext processAbility: ${e}`);
+            reject(err);
+          };
+        });
       });
-  };
+    };
 };
 /** processAbility:
  * Processes and outputs information about an ability.
