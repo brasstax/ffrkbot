@@ -43,8 +43,9 @@ describe('soulbreak bot utils testing', () => {
         'sendSoulbreakRichEmbedSummary');
       botUtils.__set__('sendSoulbreakRichEmbedSummary',
         soulbreakSummarySpy);
-      botUtils.soulbreak(msg, query, sbType);
-      assert.equal(soulbreakSummarySpy.calledOnce, true);
+      botUtils.soulbreak(msg, query, sbType).then( () => {
+        assert.equal(soulbreakSummarySpy.calledOnce, true);
+      });
     });
   });
 });

@@ -41,6 +41,9 @@ module.exports = class ReplyCommand extends Command {
    **/
   run(msg, args) {
     const {character_name, sb_type} = args;
-    return botUtils.soulbreak(msg, character_name, sb_type);
+    return botUtils.soulbreak(msg, character_name, sb_type)
+      .catch( (err) => {
+        console.log(`Error calling botUtils.soulbreak: ${err}`);
+      });
   };
 };
