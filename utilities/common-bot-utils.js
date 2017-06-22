@@ -121,11 +121,8 @@ exports.returnImageLink = function returnImageLink(ability, abilityType) {
   let baseUri = 'https://dff.sp.mbga.jp/dff/static/lang/image';
   let folder = abilityType;
   let defaultImage = 'https://cdn.discordapp.com/embed/avatars/0.png';
-  let id;
-  try {
-    id = ability.id;
-  } catch (e) {
-    console.log(`Couldn't get ID of ability, error: ${e}`);
+  let id = ability.id;
+  if (isNaN(Number(id)) === true) {
     return defaultImage;
   };
   let px;
