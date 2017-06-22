@@ -1,4 +1,6 @@
 const chai = require('chai');
+const chaiAsPromised = require('chai-as-promised');
+chai.use(chaiAsPromised);
 const rewire = require('rewire');
 const assert = chai.assert;
 
@@ -40,20 +42,22 @@ describe('ability', () => {
     let args = 'waterga';
     it('should call sendRichEmbedAbility', () => {
       stubEmbed.resolves(null);
-      res = botUtils.ability(msg, args);
-      console.log(stubEmbed.callCount);
-      assert.equal(stubEmbed.calledOnce, true,
-        'sendRichEmbedAbility was called once');
-      assert.equal(stubPlaintext.notCalled, true,
-        'processAbility should not be called');
+      botUtils.ability(msg, args).then( () => {
+        assert.equal(stubEmbed.calledOnce, true,
+          'sendRichEmbedAbility was called once');
+        assert.equal(stubPlaintext.notCalled, true,
+          'processAbility should not be called');
+      });
     });
-    it('should fall back to processAbility when sendRichEmbedAbility fails',
-        () => {
+    it('should call processAbility when sendRichEmbedAbility fails', () => {
           stubEmbed.rejects(null);
-          res = botUtils.ability(msg, args);
-          console.log(res);
-          assert.equal(stubEmbed.calledOnce, true,
-            'stubEmbed called once');
+          botUtils.ability(msg, args)
+            .then( () => {
+            assert.equal(stubEmbed.calledOnce, true,
+              'stubEmbed called once');
+            assert.equal(stubPlaintext.calledOnce, true,
+              'stubPlaintext called once');
+            });
         });
   });
   describe('sendRichEmbedAbility', () => {
