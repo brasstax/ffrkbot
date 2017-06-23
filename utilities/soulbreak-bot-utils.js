@@ -117,9 +117,7 @@ function lookupSoulbreak(msg, character, sbType) {
     if (checkAlias(character) != null) {
       character = checkAlias(character);
     };
-    let sbQueryResults = searchSoulbreak(character, sbType);
-    sbQueryResults.then( (res) => {
-      console.log(`calling sbQueryResults.`);
+    searchSoulbreak(character, sbType).then( (res) => {
       character = titlecase.toLaxTitleCase(character);
       if (res.value.length === 0) {
         msg.channel.send(`No results for '${character}' '${sbType}'.`)
@@ -153,8 +151,7 @@ function lookupSoulbreak(msg, character, sbType) {
         });
       } else {
         values.forEach( (value) => {
-          let sbResults = sendRichEmbedSoulbreak(value, msg, dm, sbType);
-          sbResults.then( (result) => {
+          sendRichEmbedSoulbreak(value, msg, dm, sbType).then( (result) => {
             result.forEach( (embed) => {
               msg.channel.send(embed)
                 .then( () => {
