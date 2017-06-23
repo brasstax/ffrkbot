@@ -7,19 +7,9 @@ const assert = chai.assert;
 const sinon = require('sinon');
 const discord = require('discord.js');
 const path = require('path');
-const util = require('util');
-const fs = require('fs');
 const botUtilsPath = path.join(
   __dirname, '..', 'utilities', 'soulbreak-bot-utils.js');
-const jsonQuery = require('json-query');
 const botUtils = rewire(botUtilsPath);
-const enlirJsonPath = path.join(__dirname, '..', 'enlir_json');
-const enlirSoulbreaksPath = path.join(enlirJsonPath, 'soulbreaks.json');
-const enlirSoulbreaksFile = fs.readFileSync(enlirSoulbreaksPath);
-const enlirSoulbreaks = JSON.parse(enlirSoulbreaksFile);
-const enlirBsbCommandsPath = path.join(enlirJsonPath, 'bsbCommands.json');
-const enlirBsbCommandsFile = fs.readFileSync(enlirBsbCommandsPath);
-const enlirBsbCommands = JSON.parse(enlirBsbCommandsFile);
 
 describe('soulbreak bot utils testing', () => {
   let sandbox;
@@ -47,5 +37,23 @@ describe('soulbreak bot utils testing', () => {
         assert.equal(soulbreakSummarySpy.calledOnce, true);
       });
     });
+    it('should send a plaintext summary of a character\'s soul breaks',
+        () => {
+          msg.channel.send = sandbox.stub().rejects(null);
+          let query = 'tifa';
+          let sbType = 'all';
+          soulbreakSummarySpy = sandbox.spy(botUtils,
+            'sendSoulbreakRichEmbedSummary');
+          soulbreakPlaintextSpy = sandbox.spy(botUtils,
+            'sendSoulbreakPlaintextSummary');
+          botUtils.__set__({
+            'sendSoulbreakRichEmbedSummary': soulbreakSummarySpy,
+            'sendSoulbreakPlaintextSummary': soulbreakPlaintextSpy,
+          });
+          botUtils.soulbreak(msg, query, sbType).then( () => {
+            assert.equal(soulbreakSummarySpy.calledOnce, true);
+            assert.equal(soulbreakPlaintextSpy.calledOnce, true);
+          });
+      });
   });
 });
