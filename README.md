@@ -1,4 +1,5 @@
 # FFRKBot
+[![Build Status](https://travis-ci.org/brasstax/ffrkbot.svg?branch=master)](https://travis-ci.org/brasstax/ffrkbot)
 ## What
 A simple Discord bot using [discord.js](https://discord.js.org). 
 Uses a JSON copy of [Enlir's FFRK database](https://docs.google.com/spreadsheets/d/16K1Zryyxrh7vdKVF1f7eRrUAOC5wuzvC3q2gFLch6LQ).
