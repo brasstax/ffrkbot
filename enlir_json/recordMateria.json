@@ -1926,9 +1926,10 @@
         "realm": "IV",
         "character": "Ursula",
         "name": "Princess of Fabul",
-        "effect": "PHY attacks deal ?% more damage when equipping a light armor",
+        "effect": "Increases physical damage dealt by 10% when equipping a light armor",
         "unlockCriteria": "Use Ursula's Memory Crystal",
-        "name(jp)": "ファブールの王女"
+        "name(jp)": "ファブールの王女",
+        "✓": "✓"
     },
     {
         "realm": "IV",
@@ -5503,34 +5504,54 @@
         "✓": "✓"
     },
     {
-        "realm": "FFTA",
+        "realm": "FFT",
         "character": "Marche",
-        "unlockCriteria": "Use Marche's Memory Crystal"
+        "name": "Wandering Boy",
+        "effect": "PHY attacks deal 10% more damage when equipping a sword",
+        "unlockCriteria": "Use Marche's Memory Crystal",
+        "name(jp)": "迷い込んだ少年",
+        "✓": "✓"
     },
     {
-        "realm": "FFTA",
+        "realm": "FFT",
         "character": "Marche",
-        "unlockCriteria": "Use Marche's Memory Crystal II, chance to obtain with Marche in party"
+        "name": "Crystal Breaker",
+        "effect": "Knight abilities deal ?% more damage",
+        "unlockCriteria": "Use Marche's Memory Crystal II, chance to obtain with Marche in party",
+        "name(jp)": "クリスタルを壊す者"
     },
     {
-        "realm": "FFTA",
+        "realm": "FFT",
         "character": "Marche",
-        "unlockCriteria": "Bring Marche to level 99"
+        "name": "Face Reality",
+        "effect": "Grants Sentinel at the beginning of the battle",
+        "unlockCriteria": "Bring Marche to level 99",
+        "name(jp)": "現実と向き合う覚悟"
     },
     {
-        "realm": "FFTA",
+        "realm": "FFT",
         "character": "Montblanc",
-        "unlockCriteria": "Use Montblanc's Memory Crystal"
+        "name": "Eldest Son",
+        "effect": "BLK attacks deal 10% more damage when equipping a staff",
+        "unlockCriteria": "Use Montblanc's Memory Crystal",
+        "name(jp)": "しっかり者の長男",
+        "✓": "✓"
     },
     {
-        "realm": "FFTA",
+        "realm": "FFT",
         "character": "Montblanc",
-        "unlockCriteria": "Use Montblanc's Memory Crystal II, chance to obtain with Montblanc in party"
+        "name": "Reliable Clan Leader",
+        "effect": "MAG +?%, grants Haste at the beginning of the battle",
+        "unlockCriteria": "Use Montblanc's Memory Crystal II, chance to obtain with Montblanc in party",
+        "name(jp)": "頼りになるクランのリーダー"
     },
     {
-        "realm": "FFTA",
+        "realm": "FFT",
         "character": "Montblanc",
-        "unlockCriteria": "Bring Montblanc to level 99"
+        "name": "Blanc Clan",
+        "effect": "MAG +?% when equipping a robe",
+        "unlockCriteria": "Bring Montblanc to level 99",
+        "name(jp)": "白き者の一族"
     },
     {
         "realm": "Type-0",

@@ -986,6 +986,16 @@
         "notes": "-"
     },
     {
+        "id": "282004",
+        "commonName": "Knight +15% Boost 3",
+        "effects": "Knight abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_KNIGHT_115_3",
+        "notes": "-"
+    },
+    {
         "id": "282101",
         "commonName": "Darkness +30% Boost",
         "effects": "Darkness abilities deal 30% more damage",
@@ -1003,6 +1013,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DAMAGE_BOOST_SUMMON_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282103",
+        "commonName": "Knight +15% Boost",
+        "effects": "Knight abilities deal 15% more damage",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_KNIGHT_115_25000_MSEC",
         "notes": "-"
     },
     {
@@ -1363,6 +1383,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_MACHINIST",
+        "notes": "-"
+    },
+    {
+        "id": "2024",
+        "commonName": "Physical High Quickcast 1",
+        "effects": "Cast speed x3,00 for PHY or NAT attacks that deal physical damage, lasts for 1 turn",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_1_PHYSICAL_DAMAGE_ABILITIES",
         "notes": "-"
     },
     {
@@ -2592,6 +2622,26 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "BRASKA_AUTO_SUMMON",
+        "notes": "-"
+    },
+    {
+        "id": "50030",
+        "commonName": "EX: Speed Combo",
+        "effects": "ATK +30%, grants Physical High Quickcast 1 to all allies in the front row after using a Knight ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_SPEED_COMBO",
+        "notes": "-"
+    },
+    {
+        "id": "50031",
+        "commonName": "Dark Might Chase",
+        "effects": "Casts Dark Might after using a Darkness ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_DARK_BLADE_BARRAGE",
         "notes": "-"
     },
     {
