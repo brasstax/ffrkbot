@@ -53,9 +53,6 @@ function searchSoulbreak(character, sbType='all') {
           console.log('No results found.');
           resolve(result);
         };
-        if (result.value.length > 0) {
-          sbType = result.value[0].tier;
-        };
       };
       if (sbType.toLowerCase() !== 'all') {
         let dataset = result.value;
@@ -186,6 +183,21 @@ function lookupSoulbreak(msg, character, sbType) {
     });
   });
 };
+/** checkSoulbreaksBelongToOne:
+* checks to see if a list of soulbreaks belongs to one character.
+* @param {object} soulbreaks: an array of soulbreaks.
+* @param {string} character: the character to check against.
+* @return {boolean}: soulbreaks either belong or don't belong to that character.
+**/
+function checkSoulbreaksBelongToOne(soulbreaks, character) {
+  let check = true;
+  soulbreaks.forEach( (soulbreak) => {
+    if (soulbreak.character !== character) {
+      check = false;
+    };
+  });
+  return check;
+};
 /** sendSoulbreakRichEmbedSummary:
  * Sends a summary of a character's soulbreaks as a RichEmbed object.
  * @param {array} soulbreaks: an array of soulbreaks.
@@ -195,18 +207,35 @@ function lookupSoulbreak(msg, character, sbType) {
 function sendSoulbreakRichEmbedSummary(soulbreaks, msg) {
   let character = soulbreaks[0].character;
   let description = 'SOULBREAK SUMMARY (use filters for details)';
-  let embed = new RichEmbed()
-    .setTitle(character)
-    .setDescription(description)
-    .setColor('#f44242');
-  soulbreaks.forEach( (soulbreak) => {
-    let name = soulbreak.name;
-    let description = botUtils.returnDescription(soulbreak);
-    let tier = soulbreak.tier;
-    let relic = soulbreak.relic;
-    let nameField = util.format('%s (%s) {Relic: %s}', name, tier, relic);
-    embed.addField(nameField, description);
-  });
+  let embed;
+  if (checkSoulbreaksBelongToOne(soulbreaks, character) === true) {
+    embed = new RichEmbed()
+      .setTitle(character)
+      .setDescription(description)
+      .setColor('#f44242');
+    soulbreaks.forEach( (soulbreak) => {
+      let name = soulbreak.name;
+      let description = botUtils.returnDescription(soulbreak);
+      let tier = soulbreak.tier;
+      let relic = soulbreak.relic;
+      let nameField = util.format('%s (%s) {Relic: %s}', name, tier, relic);
+      embed.addField(nameField, description);
+    });
+    } else {
+    embed = new RichEmbed()
+      .setTitle(description)
+      .setColor('#f44242');
+    soulbreaks.forEach( (soulbreak) => {
+      let character = soulbreak.character;
+      let name = soulbreak.name;
+      let description = botUtils.returnDescription(soulbreak);
+      let tier = soulbreak.tier;
+      let relic = soulbreak.relic;
+      let nameField = util.format(
+        '%s: %s (%s) {Relic: %s}', character, name, tier, relic);
+      embed.addField(nameField, description);
+    });
+    };
   return new Promise( (resolve, reject) => {
     msg.channel.send({embed})
       .then( (res) => {
@@ -521,4 +550,5 @@ module.exports = {
   soulbreak: lookupSoulbreak,
   searchSoulbreak: searchSoulbreak,
   sendSoulbreakPlaintextSummary: sendSoulbreakPlaintextSummary,
+  checkSoulbreaksBelongToOne: checkSoulbreaksBelongToOne,
 };
