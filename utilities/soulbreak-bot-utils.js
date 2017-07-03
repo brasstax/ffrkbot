@@ -43,7 +43,7 @@ function searchSoulbreak(character, sbType='all') {
       });
       if (result.value.length === 0) {
         console.log(`No results found for ${character}, trying SB query.`);
-        characterQueryString = util.format('[*name~/^%s/i]', character);
+        characterQueryString = util.format('[*name~/%s/i]', character);
         console.log(`characterQueryString sb search: ${characterQueryString}`);
         result = jsonQuery(characterQueryString, {
           data: enlirSoulbreaks,
@@ -146,6 +146,18 @@ function lookupSoulbreak(msg, character, sbType) {
       // the returned soulbreak.
       if (values.length === 1) {
         sbType = values[0].tier;
+      }
+      // Discord embed does not allow over 25 fields. Fail out if over 20
+      // results.
+      if (values.length > 20) {
+        console.log('Over 20 results returned, informing user.');
+        msg.channel.send(`Over 20 results for '${character}.' Please` +
+        ` refine your search.`)
+        .then( (res) => {
+          resolve(res);
+        }).catch( (err) => {
+          reject(err);
+        });
       }
       if (sbType === 'all') {
         console.log(`sending soulbreak summary`);
