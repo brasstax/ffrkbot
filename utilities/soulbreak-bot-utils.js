@@ -41,9 +41,21 @@ function searchSoulbreak(character, sbType='all') {
         data: enlirSoulbreaks,
         allowRegexp: true,
       });
-      if (result.value === null) {
-        console.log('No results found.');
-        resolve(result);
+      if (result.value.length === 0) {
+        console.log(`No results found for ${character}, trying SB query.`);
+        characterQueryString = util.format('[*name~/^%s/i]', character);
+        console.log(`characterQueryString sb search: ${characterQueryString}`);
+        result = jsonQuery(characterQueryString, {
+          data: enlirSoulbreaks,
+          allowRegexp: true,
+        });
+        if (result.value.length === 0) {
+          console.log('No results found.');
+          resolve(result);
+        };
+        if (result.value.length > 0) {
+          sbType = result.value[0].tier;
+        };
       };
       if (sbType.toLowerCase() !== 'all') {
         let dataset = result.value;
@@ -133,6 +145,11 @@ function lookupSoulbreak(msg, character, sbType) {
       res.value.forEach( (value) => {
         values.push(value);
       });
+      // If only one result from values, set sbType to the tier of the
+      // the returned soulbreak.
+      if (values.length === 1) {
+        sbType = values[0].tier;
+      }
       if (sbType === 'all') {
         console.log(`sending soulbreak summary`);
         sendSoulbreakRichEmbedSummary(values, msg)
