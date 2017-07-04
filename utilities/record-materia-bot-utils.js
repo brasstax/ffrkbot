@@ -88,7 +88,7 @@ function createRecordMateriaSummary(results) {
     let unlock = recordMateria.unlockCriteria;
     let description = (recordMateria.effect !== undefined) ?
       (recordMateria.effect) : ('N/A');
-    let nameField = util.format('%s: %s (Unlock: %s)', character, name, unlock);
+    let nameField = util.format('%s: %s {Unlock: %s}', character, name, unlock);
     embed.addField(nameField, description);
   });
   return embed;
