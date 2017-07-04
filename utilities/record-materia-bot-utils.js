@@ -11,6 +11,8 @@ const enlirJsonPath = path.join(__dirname, '..', 'enlir_json');
 const enlirRecordMateriaPath = path.join(enlirJsonPath, 'recordMateria.json');
 const enlirRecordMateriaFile = fs.readFileSync(enlirRecordMateriaPath);
 const enlirRecordMateria = JSON.parse(enlirRecordMateriaFile);
+const botPath = path.join(__dirname, 'common-bot-utils');
+const botUtils = require(botPath);
 
 /** exports.recordMateria
  * Retrieves information about a record materia.
@@ -35,6 +37,10 @@ exports.recordMateria = function lookupRecordMateria(msg, args) {
     allowRegexp: true,
   });
   if (result.value.length === 0) {
+    if (botUtils.checkAlias(query) !== null) {
+      query = botUtils.checkAlias(query);
+    };
+    query = escapeStringRegexp(query);
     queryString = util.format('[*character~/%s$/i]', query);
     console.log(`queryString: ${queryString}`);
     result = jsonQuery(queryString, {
@@ -45,8 +51,11 @@ exports.recordMateria = function lookupRecordMateria(msg, args) {
   console.log(result);
   if (result.value.length === 0) {
     msg.channel.send(`Search for ${query} not found.`);
-  } else {
+  } else if (result.value.length === 1) {
     result.value.forEach( (value) => {
+      // sendRichEmbedRecordMateria expects a single result with a .value
+      // property so we create a new Object and set its .value to each result's
+      // .value
       let rm = {Object};
       rm.value = value;
       sendRichEmbedRecordMateria(rm, msg)
@@ -54,9 +63,39 @@ exports.recordMateria = function lookupRecordMateria(msg, args) {
           console.log(`Error with sendRichEmbedRecordMateria: ${err}`);
       });
     });
+  } else {
+    let embed = createRecordMateriaSummary(result);
+    msg.channel.send({embed})
+    .catch( (err) => {
+      console.log(`error sending createRecordMateriaSummary embed: ${err}`);
+    });
   };
 };
 
+/** createRecordMateriaSummary:
+ *  creates a summary of a character's record materia.
+ *  @param {Object} results: the results of a record materia's search
+ *  @return {Object} embed: a discord.js-commando embed object to send
+**/
+function createRecordMateriaSummary(results) {
+  let embed = new RichEmbed()
+    .setTitle('Record Materia Search Results')
+    .setDescription('Search by record materia name for more details')
+    .setColor('#bfdaff');
+  console.log(`${results}`);
+  results.value.forEach( (result) => {
+    console.log(`${result}`);
+    let recordMateria = result;
+    let character = recordMateria.character;
+    let name = recordMateria.name;
+    let unlock = recordMateria.unlockCriteria;
+    let description = (recordMateria.effect !== undefined) ?
+      (recordMateria.effect) : ('N/A');
+    let nameField = util.format('%s: %s (Unlock: %s)', character, name, unlock);
+    embed.addField(nameField, description);
+  });
+  return embed;
+};
 /** sendRichEmbedRecordMateria:
  * Processes and outputs information about a status effect in
  * RichEmbed format.
