@@ -1,8 +1,5 @@
 const {Command} = require('discord.js-commando');
-const path = require('path');
-botPath = path.join(__dirname,
-  '..', '..', 'utilities', 'status-bot-utils.js');
-const botUtils = require(botPath);
+const botUtils = require('../../utilities/status-bot-utils.js');
 
 module.exports = class ReplyCommand extends Command {
   /** constructors a basic ability lookup.

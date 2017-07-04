@@ -2,7 +2,7 @@ const {Command} = require('discord.js-commando');
 const path = require('path');
 botPath = path.join(__dirname,
   '..', '..', 'utilities', 'soulbreak-bot-utils.js');
-const botUtils = require(botPath);
+const botUtils = require('../../utilities/soulbreak-bot-utils.js');
 
 module.exports = class ReplyCommand extends Command {
   /** constructor for looking up soulbreaks.
