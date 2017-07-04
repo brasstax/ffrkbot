@@ -52,8 +52,9 @@ exports.legendMateria = function lookupLegendMateria(msg, args) {
     msg.channel.send(`Query for ${query} not found.`);
   } else if (result.value.length === 1) {
     result.value.forEach( (value) => {
-      let lm = {};
-      lm.value = value;
+      let lm = {
+        value: value,
+      };
       sendRichEmbedLegendMateria(lm, msg)
         .catch( (err) => {
           console.log(`Error with sendRichEmbedLegendMateria: ${err}`);

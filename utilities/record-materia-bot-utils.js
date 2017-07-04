@@ -54,8 +54,9 @@ exports.recordMateria = function lookupRecordMateria(msg, args) {
       // sendRichEmbedRecordMateria expects a single result with a .value
       // property so we create a new Object and set its .value to each result's
       // .value
-      let rm = {};
-      rm.value = value;
+      let rm = {
+        value: value,
+      };
       sendRichEmbedRecordMateria(rm, msg)
         .catch( (err) => {
           console.log(`Error with sendRichEmbedRecordMateria: ${err}`);
