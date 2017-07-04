@@ -12,7 +12,7 @@ describe('common bot utilities', () => {
   describe('returnDescription testing', () => {
     let ability;
     beforeEach( () => {
-      ability = {Object};
+      ability = {};
     });
     it('should return defined ability effects', () => {
       ability.effects = 'Casts haste';
@@ -30,7 +30,7 @@ describe('common bot utilities', () => {
   describe('returnMultiplier testing', () => {
     let ability;
     beforeEach( () => {
-      ability = {Object};
+      ability = {};
     });
     it('should return a numerical multiplier for' +
         ' an ability with a defined numerical multiplier', () => {
@@ -52,7 +52,7 @@ describe('common bot utilities', () => {
   describe('returnElement testing', () => {
     let ability;
     beforeEach( () => {
-      ability = {Object};
+      ability = {};
     });
     it('should return an ability with a defined element', () => {
       ability.element = 'Lightning';
@@ -86,7 +86,7 @@ describe('common bot utilities', () => {
   describe('returnDefaultDuration testing', () => {
     let statusEffect;
     beforeEach( () => {
-      statusEffect = {Object};
+      statusEffect = {};
     });
     it('should return the duration if it\'s a number', () => {
       statusEffect.defaultDuration = 25;
@@ -103,7 +103,7 @@ describe('common bot utilities', () => {
   describe('returnNotes testing', () => {
     let statusEffect;
     beforeEach( () => {
-      statusEffect = {Object};
+      statusEffect = {};
     });
     it('should return the notes of the status effect if defined', () => {
       statusEffect.notes = 'Not used';
@@ -115,8 +115,9 @@ describe('common bot utilities', () => {
     });
   });
   describe('returnImageLink testing', () => {
-    let ability = {Object};
-    ability.name = 'Fire';
+    const ability = {
+      name: 'Fire',
+    };
     let baseUri = 'https://dff.sp.mbga.jp/dff/static/lang/image';
     let abilityUri = baseUri + '/ability/30111001/30111001_128.png';
     let sbUri = baseUri + '/soulstrike/30111001/30111001_256.png';
