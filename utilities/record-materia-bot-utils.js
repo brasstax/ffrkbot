@@ -28,19 +28,32 @@ exports.recordMateria = function lookupRecordMateria(msg, args) {
   console.log(`RecordMateria to look up: ${query}`);
   console.log(`,status caller:` +
       ` ${msg.author.username}#${msg.author.discriminator}`);
-  let queryString = util.format('[name~/%s/i]', query);
+  let queryString = util.format('[*name~/%s/i]', query);
   console.log(`queryString: ${queryString}`);
   let result = jsonQuery(queryString, {
     data: enlirRecordMateria,
     allowRegexp: true,
   });
-  if (result.value === null) {
-    msg.channel.send(`RecordMateria ${query} not found.`);
+  if (result.value.length === 0) {
+    queryString = util.format('[*character~/%s$/i]', query);
+    console.log(`queryString: ${queryString}`);
+    result = jsonQuery(queryString, {
+      data: enlirRecordMateria,
+      allowRegexp: true,
+    });
+  };
+  console.log(result);
+  if (result.value.length === 0) {
+    msg.channel.send(`Search for ${query} not found.`);
   } else {
-    sendRichEmbedRecordMateria(result, msg)
-      .catch( (err) => {
-        console.log(`Error with sendRichEmbedRecordMateria: ${err}`);
+    result.value.forEach( (value) => {
+      let rm = {Object};
+      rm.value = value;
+      sendRichEmbedRecordMateria(rm, msg)
+        .catch( (err) => {
+          console.log(`Error with sendRichEmbedRecordMateria: ${err}`);
       });
+    });
   };
 };
 
