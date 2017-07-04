@@ -53,7 +53,7 @@ exports.legendMateria = function lookupLegendMateria(msg, args) {
   } else if (result.value.length === 1) {
     result.value.forEach( (value) => {
       let lm = {
-        value: value,
+        value,
       };
       sendRichEmbedLegendMateria(lm, msg)
         .catch( (err) => {
