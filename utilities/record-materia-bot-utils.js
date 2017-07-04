@@ -62,7 +62,7 @@ exports.recordMateria = function lookupRecordMateria(msg, args) {
       });
     });
   } else {
-    let embed = createRecordMateriaSummary(result);
+    let embed = exports.createRecordMateriaSummary(result);
     msg.channel.send({embed})
     .catch( (err) => {
       console.log(`error sending createRecordMateriaSummary embed: ${err}`);
@@ -75,6 +75,7 @@ exports.recordMateria = function lookupRecordMateria(msg, args) {
  *  @param {Object} results: the results of a record materia's search
  *  @return {Object} embed: a discord.js-commando embed object to send
 **/
+exports.createRecordMateriaSummary =
 function createRecordMateriaSummary(results) {
   let embed = new RichEmbed()
     .setTitle('Record Materia Search Results')
