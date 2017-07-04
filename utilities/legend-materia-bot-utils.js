@@ -59,6 +59,9 @@ exports.legendMateria = function lookupLegendMateria(msg, args) {
           console.log(`Error with sendRichEmbedLegendMateria: ${err}`);
       });
     });
+  } else if (result.value.length > 20) {
+    msg.channel.send(`Over 20 results found for the search term '${query}'.
+       Please narrow your search.`);
   } else {
     let embed = exports.createLegendMateriaSummary(result);
     msg.channel.send({embed})

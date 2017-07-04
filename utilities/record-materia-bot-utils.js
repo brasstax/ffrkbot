@@ -61,6 +61,9 @@ exports.recordMateria = function lookupRecordMateria(msg, args) {
           console.log(`Error with sendRichEmbedRecordMateria: ${err}`);
       });
     });
+  } else if (result.value.length > 20) {
+    msg.channel.send(`Over 20 results returned for the search term '${query}'.
+       Please narrow your search.`);
   } else {
     let embed = exports.createRecordMateriaSummary(result);
     msg.channel.send({embed})
