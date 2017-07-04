@@ -154,12 +154,12 @@ function lookupSoulbreak(msg, character, sbType) {
         msg.channel.send(`Over 20 results for '${character}.' Please` +
         ` refine your search.`)
         .then( (res) => {
+          console.log(`resolve over 20`);
           resolve(res);
         }).catch( (err) => {
           reject(err);
         });
-      }
-      if (sbType === 'all') {
+      } else if (sbType === 'all') {
         console.log(`sending soulbreak summary`);
         sendSoulbreakRichEmbedSummary(values, msg)
           .then( (res) => {
@@ -248,6 +248,7 @@ function sendSoulbreakRichEmbedSummary(soulbreaks, msg) {
       embed.addField(nameField, description);
     });
     };
+  console.log(`Embed to send: ${embed.title}`);
   return new Promise( (resolve, reject) => {
     msg.channel.send({embed})
       .then( (res) => {
