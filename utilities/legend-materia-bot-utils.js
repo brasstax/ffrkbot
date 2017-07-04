@@ -11,6 +11,8 @@ const enlirJsonPath = path.join(__dirname, '..', 'enlir_json');
 const enlirLegendMateriaPath = path.join(enlirJsonPath, 'legendMateria.json');
 const enlirLegendMateriaFile = fs.readFileSync(enlirLegendMateriaPath);
 const enlirLegendMateria = JSON.parse(enlirLegendMateriaFile);
+const botPath = path.join(__dirname, 'common-bot-utils');
+const botUtils = require(botPath);
 
 /** exports.legendMateria
  * Retrieves information about a legend materia.
@@ -25,25 +27,70 @@ exports.legendMateria = function lookupLegendMateria(msg, args) {
   let query;
   query = titlecase.toLaxTitleCase(args);
   query = escapeStringRegexp(query);
+  let queryString;
   console.log(`LegendMateria to look up: ${query}`);
   console.log(`,status caller:` +
       ` ${msg.author.username}#${msg.author.discriminator}`);
-  let queryString = util.format('[name~/%s/i]', query);
+  if (botUtils.checkAlias(query) !== null) {
+    query = botUtils.checkAlias(query);
+    query = escapeStringRegexp(query);
+  };
+  queryString = util.format('[*character~/%s$/i]', query);
   console.log(`queryString: ${queryString}`);
   let result = jsonQuery(queryString, {
     data: enlirLegendMateria,
     allowRegexp: true,
   });
-  if (result.value === null) {
-    msg.channel.send(`LegendMateria ${query} not found.`);
-  } else {
-    sendRichEmbedLegendMateria(result, msg)
-      .catch( (err) => {
-        console.log(`Error with sendRichEmbedLegendMateria: ${err}`);
+  if (result.value.length === 0) {
+    queryString = util.format('[*name~/%s/i]', query);
+    result = jsonQuery(queryString, {
+      data: enlirLegendMateria,
+      allowRegexp: true,
+    });
+  };
+  if (result.value.length === 0) {
+    msg.channel.send(`Query for ${query} not found.`);
+  } else if (result.value.length === 1) {
+    result.value.forEach( (value) => {
+      let lm = {Object};
+      lm.value = value;
+      sendRichEmbedLegendMateria(lm, msg)
+        .catch( (err) => {
+          console.log(`Error with sendRichEmbedLegendMateria: ${err}`);
       });
+    });
+  } else {
+    let embed = exports.createLegendMateriaSummary(result);
+    msg.channel.send({embed})
+      .catch( (err) => {
+        console.log(`Error with createLegendMateriaSummary embed: ${err}`);
+    });
   };
 };
-
+/** createLegendMateriaSummary:
+ *  creates a summary of a character's legend materia.
+ *  @param {Object} results: the results of a legend materia's search
+ *  @return {Object} embed: a discord.js-commando embed object to send
+**/
+exports.createLegendMateriaSummary =
+function createLegendMateriaSummary(results) {
+  let embed = new RichEmbed()
+    .setTitle('Legend Materia Search Results')
+    .setDescription('Search by legend materia name for more details')
+    .setColor('#bfdaff');
+  results.value.forEach( (result) => {
+    let legendMateria = result;
+    let character = legendMateria.character;
+    let name = legendMateria.name;
+    let relic = (legendMateria.relic !== '-') ?
+      (legendMateria.relic) : ('N/A');
+    let description = (legendMateria.effect !== undefined) ?
+      (legendMateria.effect) : ('N/A');
+    let nameField = util.format('%s: %s {Relic: %s}', character, name, relic);
+    embed.addField(nameField, description);
+  });
+  return embed;
+};
 /** sendRichEmbedLegendMateria:
  * Processes and outputs information about a status effect in
  * RichEmbed format.

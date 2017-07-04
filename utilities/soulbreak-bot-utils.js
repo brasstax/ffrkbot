@@ -11,15 +11,12 @@ const botUtils = require(path.join(__dirname, 'common-bot-utils.js'));
 const enlirJsonPath = path.join(__dirname, '..', 'enlir_json');
 const enlirSoulbreaksPath = path.join(enlirJsonPath, 'soulbreaks.json');
 const enlirBsbCommandsPath = path.join(enlirJsonPath, 'bsbCommands.json');
-const aliasesPath = path.join(__dirname, 'aliases.json');
 
 const enlirSoulbreaksFile = fs.readFileSync(enlirSoulbreaksPath);
 const enlirBsbCommandsFile = fs.readFileSync(enlirBsbCommandsPath);
-const aliasesFile = fs.readFileSync(aliasesPath);
 
 const enlirSoulbreaks = JSON.parse(enlirSoulbreaksFile);
 const enlirBsbCommands = JSON.parse(enlirBsbCommandsFile);
-const aliases = JSON.parse(aliasesFile);
 
 /** searchSoulbreak:
  * Searches and returns the soul breaks for a given character.
@@ -122,9 +119,9 @@ function lookupSoulbreak(msg, character, sbType) {
         });
       return;
     };
-    console.log(`Alias check: ${checkAlias(character)}`);
-    if (checkAlias(character) != null) {
-      character = checkAlias(character);
+    console.log(`Alias check: ${botUtils.checkAlias(character)}`);
+    if (botUtils.checkAlias(character) != null) {
+      character = botUtils.checkAlias(character);
     };
     searchSoulbreak(character, sbType).then( (res) => {
       character = titlecase.toLaxTitleCase(character);
@@ -384,19 +381,6 @@ function processRichEmbedBsb(bsbCommand) {
     embed.setColor('#4cff3f');
   };
   return embed;
-};
-/** checkAlias:
- * Checks to see if an alias belongs to a character.
- * @param {String} alias: The alias to check.
- * @return {String} character: the character's name, or
- * @return {null} null: if no result found.
- **/
-function checkAlias(alias) {
-  if (alias.toLowerCase() in aliases) {
-    return aliases[alias.toLowerCase()];
-  } else {
-    return null;
-  };
 };
 /** checkBsb:
  * Checks to see if a given SB is a BSB.

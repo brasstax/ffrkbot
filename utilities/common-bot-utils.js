@@ -7,6 +7,11 @@
 const util = require('util');
 const titlecase = require('titlecase');
 const pad = require('pad');
+const path = require('path');
+const fs = require('fs');
+const aliasesPath = path.join(__dirname, 'aliases.json');
+const aliasesFile = fs.readFileSync(aliasesPath);
+const aliases = JSON.parse(aliasesFile);
 
 /** returnDescription:
  * Checks the value of an ability or soulbreak's effects to see if
@@ -135,4 +140,17 @@ exports.returnImageLink = function returnImageLink(ability, abilityType) {
   let fullUri = util.format('%s/%s/%s', baseUri, folder, endpoint);
   console.log(`fullUri for ${ability.name}: ${fullUri}`);
   return fullUri;
+};
+/** checkAlias:
+ * Checks to see if an alias belongs to a character.
+ * @param {String} alias: The alias to check.
+ * @return {String} character: the character's name, or
+ * @return {null} null: if no result found.
+ **/
+exports.checkAlias = function checkAlias(alias) {
+  if (alias.toLowerCase() in aliases) {
+    return aliases[alias.toLowerCase()];
+  } else {
+    return null;
+  };
 };
