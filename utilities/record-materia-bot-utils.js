@@ -2,7 +2,6 @@ const util = require('util');
 const {RichEmbed} = require('discord.js');
 const jsonQuery = require('json-query');
 const escapeStringRegexp = require('escape-string-regexp');
-const titlecase = require('titlecase');
 
 const fs = require('fs');
 const path = require('path');
@@ -24,31 +23,30 @@ exports.recordMateria = function lookupRecordMateria(msg, args) {
     msg.reply('Search query must be at least three characters.');
     return;
   };
-  let query;
-  query = titlecase.toLaxTitleCase(args);
+  let query = args;
   query = escapeStringRegexp(query);
   console.log(`RecordMateria to look up: ${query}`);
   console.log(`,status caller:` +
       ` ${msg.author.username}#${msg.author.discriminator}`);
-  let queryString = util.format('[*name~/%s/i]', query);
+  let queryString;
+  if (botUtils.checkAlias(query) !== null) {
+    query = botUtils.checkAlias(query);
+    query = escapeStringRegexp(query);
+  };
+  queryString = util.format('[*character~/%s$/i]', query);
   console.log(`queryString: ${queryString}`);
   let result = jsonQuery(queryString, {
     data: enlirRecordMateria,
     allowRegexp: true,
   });
   if (result.value.length === 0) {
-    if (botUtils.checkAlias(query) !== null) {
-      query = botUtils.checkAlias(query);
-    };
-    query = escapeStringRegexp(query);
-    queryString = util.format('[*character~/%s$/i]', query);
+    queryString = util.format('[*name~/%s/i]', query);
     console.log(`queryString: ${queryString}`);
     result = jsonQuery(queryString, {
       data: enlirRecordMateria,
       allowRegexp: true,
     });
   };
-  console.log(result);
   if (result.value.length === 0) {
     msg.channel.send(`Search for ${query} not found.`);
   } else if (result.value.length === 1) {
@@ -82,9 +80,7 @@ function createRecordMateriaSummary(results) {
     .setTitle('Record Materia Search Results')
     .setDescription('Search by record materia name for more details')
     .setColor('#bfdaff');
-  console.log(`${results}`);
   results.value.forEach( (result) => {
-    console.log(`${result}`);
     let recordMateria = result;
     let character = recordMateria.character;
     let name = recordMateria.name;
