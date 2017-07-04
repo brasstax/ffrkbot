@@ -1028,7 +1028,7 @@
     {
         "id": "283",
         "commonName": "Steiner Trance",
-        "effects": "ATK and DEF +25%, increases Fire, Ice, Lightning, Earth, Wind, Water, Holy, Dark and Poison damage dealt by ?%",
+        "effects": "ATK and DEF +25%, increases Fire, Ice, Lightning, Earth, Wind, Water, Holy, Dark and Poison damage dealt by 25%",
         "defaultDuration": "25",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -1121,7 +1121,7 @@
         "effects": "Arrests ATB charge rate, can't act, causes Instant KO upon taking damage by a PHY attack, duration scales with MND (factor 2)",
         "defaultDuration": "10",
         "mndModifier": "-",
-        "exclusiveStatus": "All \"Retaliate\" status, all \"Attach Fire\" status",
+        "exclusiveStatus": "All \"Retaliate\" status, Attach Fire",
         "codedName": "FROZEN",
         "notes": "???"
     },
@@ -2154,7 +2154,7 @@
     },
     {
         "id": "578",
-        "commonName": "EX: Magitek Warrior",
+        "commonName": "EX: Magitek",
         "effects": "MAG +30%, cast speed x2,00",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2214,8 +2214,8 @@
     },
     {
         "id": "584",
-        "commonName": "Oil Bombs Counter",
-        "effects": "Keeps track of the number of uses of Oil Bombs, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
+        "commonName": "Oil Bomb Counter",
+        "effects": "Keeps track of the number of uses of Oil Bomb, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
         "defaultDuration": "25",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2616,11 +2616,11 @@
     },
     {
         "id": "50029",
-        "commonName": "Fiery Lightning",
+        "commonName": "Auto Fiery Lightning",
         "effects": "Casts Fiery Lightning every 3,50 seconds",
         "defaultDuration": "15",
         "mndModifier": "-",
-        "exclusiveStatus": "-",
+        "exclusiveStatus": "All other \"Auto\" status",
         "codedName": "BRASKA_AUTO_SUMMON",
         "notes": "-"
     },
@@ -2692,6 +2692,56 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_CAST_TIME_1000_FOR_HEAVY_GRANDER",
+        "notes": "-"
+    },
+    {
+        "id": "50037",
+        "commonName": "GARNET_AUTO_SUMMON",
+        "effects": "Casts Judgment Bolt every 3,50 seconds",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Auto\" status",
+        "codedName": "GARNET_AUTO_SUMMON",
+        "notes": "-"
+    },
+    {
+        "id": "50038",
+        "commonName": "DUAL_CAST_FOR_BLACK_MAGIC",
+        "effects": "100% chance to dualcast Black Magic abilities consuming an extra ability use",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_BLACK_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "50039",
+        "commonName": "KNIGHT_OF_INSPIRATION_MODE",
+        "effects": "Grants Attach Fire/Ice/Lightning after taking Fire/Ice/Lightning damage from a BLK, WHT, BLU or SUM attack used by another ally",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "KNIGHT_OF_INSPIRATION_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50041",
+        "commonName": "GARNET_TRANCE_MODE",
+        "effects": "MAG and MND +30%, cast speed x2,00",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "GARNET_TRANCE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50042",
+        "commonName": "EIKO_TRANCE_MODE",
+        "effects": "MAG and MND +30%, cast speed x2,00",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EIKO_TRANCE_MODE",
         "notes": "-"
     },
     {

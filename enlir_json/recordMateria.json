@@ -316,6 +316,11 @@
     },
     {
         "realm": "Core",
+        "character": "Samurai",
+        "unlockCriteria": "Bring Samurai to level 99"
+    },
+    {
+        "realm": "Core",
         "character": "Dragoon",
         "name": "Dragoon's Soul I",
         "effect": "50% chance to restore 1 use for all Dragoon abilities at the beginning of the battle",
@@ -340,6 +345,13 @@
         "unlockCriteria": "Use Dragoon's Memory Crystal II, chance to obtain with Dragoon in party",
         "name(jp)": "竜騎士の強撃",
         "✓": "✓"
+    },
+    {
+        "realm": "Core",
+        "character": "Dragoon",
+        "name": "Heavenly Jump",
+        "unlockCriteria": "Bring Dragoon to level 99",
+        "name(jp)": "天高き飛翔"
     },
     {
         "realm": "Core",
@@ -370,6 +382,11 @@
     },
     {
         "realm": "Core",
+        "character": "Dark Knight",
+        "unlockCriteria": "Bring Dark Knight to level 99"
+    },
+    {
+        "realm": "Core",
         "character": "Spellblade",
         "name": "Spellblade Mastery I",
         "effect": "50% chance to restore 1 use for all Spellblade abilities at the beginning of the battle",
@@ -397,6 +414,14 @@
     },
     {
         "realm": "Core",
+        "character": "Spellblade",
+        "name": "Earth Spellblade Mastery",
+        "effect": "Attack turns into an ability (group, ? physical) that deals Earth damage",
+        "unlockCriteria": "Bring Spellblade to level 99",
+        "name(jp)": "地の魔法剣の神技"
+    },
+    {
+        "realm": "Core",
         "character": "Viking",
         "name": "Hammer Master",
         "effect": "PHY attacks deal 10% more damage when equipping a hammer",
@@ -421,6 +446,11 @@
         "unlockCriteria": "Use Viking's Memory Crystal II, chance to obtain with Viking in party",
         "name(jp)": "荒海の猛者",
         "✓": "✓"
+    },
+    {
+        "realm": "Core",
+        "character": "Viking",
+        "unlockCriteria": "Bring Viking to level 99"
     },
     {
         "realm": "Core",
@@ -511,6 +541,11 @@
         "unlockCriteria": "Use Thief's Memory Crystal II, chance to obtain with Thief in party",
         "name(jp)": "シーフの流儀",
         "✓": "✓"
+    },
+    {
+        "realm": "Core",
+        "character": "Thief",
+        "unlockCriteria": "Bring Thief to level 99"
     },
     {
         "realm": "Core",
@@ -1432,9 +1467,10 @@
         "realm": "III",
         "character": "Aria",
         "name": "Guiding Rainbow",
-        "effect": "WHT abilities restore ?% more HP",
+        "effect": "WHT abilities restore 30% more HP",
         "unlockCriteria": "Bring Aria to level 99",
-        "name(jp)": "光導く虹"
+        "name(jp)": "光導く虹",
+        "✓": "✓"
     },
     {
         "realm": "IV",
@@ -3113,9 +3149,10 @@
         "realm": "VII",
         "character": "Rude",
         "name": "Arm of the Turks",
-        "effect": "ATK and MAG +?% when equipping a fist weapon",
+        "effect": "ATK and MAG +13% when equipping a fist weapon",
         "unlockCriteria": "Bring Rude to level 99",
-        "name(jp)": "タークスの豪腕"
+        "name(jp)": "タークスの豪腕",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -3139,9 +3176,10 @@
         "realm": "VII",
         "character": "Elena",
         "name": "Elite Fighter",
-        "effect": "ATK +?% when equipping a fist weapon",
+        "effect": "ATK +15% when equipping a fist weapon",
         "unlockCriteria": "Bring Elena to level 99",
-        "name(jp)": "格闘クラスのエリート"
+        "name(jp)": "格闘クラスのエリート",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -3728,7 +3766,7 @@
         "realm": "IX",
         "character": "Eiko",
         "name": "Impish Recital",
-        "effect": "PHY attacks deal 20% more damage when equipping an Instrument",
+        "effect": "PHY attacks deal 20% more damage when equipping an instrument",
         "unlockCriteria": "Use Eiko's Memory Crystal II, chance to obtain with Eiko in party",
         "name(jp)": "お茶目な演奏",
         "✓": "✓"
@@ -3826,17 +3864,26 @@
     {
         "realm": "IX",
         "character": "Marcus",
-        "unlockCriteria": "Use Marcus's Memory Crystal"
+        "name": "Troupe of Thieves",
+        "effect": "PHY attacks deal ?% more damage when equipping a dagger",
+        "unlockCriteria": "Use Marcus's Memory Crystal",
+        "name(jp)": "盗賊一座"
     },
     {
         "realm": "IX",
         "character": "Marcus",
-        "unlockCriteria": "Use Marcus's Memory Crystal II, chance to obtain with Marcus in party"
+        "name": "Blank's Bro",
+        "effect": "PHY attacks deal ?% more damage when equipping a dagger",
+        "unlockCriteria": "Use Marcus's Memory Crystal II, chance to obtain with Marcus in party",
+        "name(jp)": "手だれの弟分"
     },
     {
         "realm": "IX",
         "character": "Marcus",
-        "unlockCriteria": "Bring Marcus to level 99"
+        "name": "Polite Robber",
+        "effect": "Grants Haste at the beginning of the battle, ATK and DEF +?%",
+        "unlockCriteria": "Bring Marcus to level 99",
+        "name(jp)": "礼儀正しき盗賊"
     },
     {
         "realm": "X",
@@ -4606,7 +4653,7 @@
     {
         "realm": "XII",
         "character": "Reks",
-        "name": "Young Will",
+        "name": "Spark of Youth",
         "effect": "Spellblade abilities deal 15% more damage",
         "unlockCriteria": "Use Reks's Memory Crystal",
         "name(jp)": "若き志",
@@ -4615,7 +4662,7 @@
     {
         "realm": "XII",
         "character": "Reks",
-        "name": "Calm Judgment",
+        "name": "Cool Head",
         "effect": "Increases damage dealt by 20% when exploiting elemental weaknesses",
         "unlockCriteria": "Use Reks's Memory Crystal II, chance to obtain with Reks in party",
         "name(jp)": "冷静な判断力",
@@ -4624,7 +4671,7 @@
     {
         "realm": "XII",
         "character": "Reks",
-        "name": "Manly Sprout",
+        "name": "Uncanny Ability",
         "effect": "24% chance to turn attack into Thundering Twinstrike",
         "unlockCriteria": "Bring Reks to level 99",
         "name(jp)": "雄才なる萌芽",
@@ -5110,7 +5157,7 @@
     {
         "realm": "XV",
         "character": "Noctis",
-        "name": "Successor of Lucis",
+        "name": "Lucian Heir",
         "effect": "Defend turns into an ability that restores HP to the user for 10% of the user's HP",
         "unlockCriteria": "Use Noctis' Memory Crystal II, chance to obtain with Noctis in party",
         "name(jp)": "ルシス王国の後継者",
@@ -5119,7 +5166,7 @@
     {
         "realm": "XV",
         "character": "Noctis",
-        "name": "Strength Led by the Crystal",
+        "name": "Promised Power",
         "effect": "Attack turns into an ability (single, 2,10 physical) with 0,01 cast time that grants 0 SB points (instead of 50)",
         "unlockCriteria": "Bring Noctis to level 99",
         "name(jp)": "聖石に導かれし力",
@@ -5389,7 +5436,7 @@
     {
         "realm": "FFT",
         "character": "Orlandeau",
-        "name": "Garthering Storm",
+        "name": "Gathering Storm",
         "effect": "Grants Thunder God's Might at the beginning of the battle",
         "unlockCriteria": "Bring Orlandeau to level 99",
         "name(jp)": "乱世の雷神",
