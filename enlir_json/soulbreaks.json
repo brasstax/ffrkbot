@@ -3212,7 +3212,7 @@
         "tier": "SB",
         "relic": "Gauntlets (III)",
         "name(jp)": "捨て身の決心",
-        "id": "22300002",
+        "id": "22230002",
         "✓": "✓"
     },
     {
@@ -7452,7 +7452,7 @@
         "master": "ATK +10",
         "relic": "Kagenui (VI)",
         "name(jp)": "捨て去りし過去",
-        "id": 20890004,
+        "id": "20890005",
         "✓": "✓"
     },
     {
@@ -9597,7 +9597,7 @@
     {
         "realm": "VII",
         "character": "Zack",
-        "name": "Lucky Star",
+        "name": "Lucky Stars",
         "type": "NAT",
         "target": "All allies",
         "time": 2.5,
@@ -10097,7 +10097,7 @@
         "master": "ATK +5, MAG +5",
         "relic": "Telescopic Baton EX (VII)",
         "name(jp)": "タークス・フルコース",
-        "id": 20920005,
+        "id": "20920006",
         "✓": "✓"
     },
     {
@@ -11837,7 +11837,7 @@
         "master": "MAG +10",
         "relic": "Fujin's Pinwheel (VIII)",
         "name(jp)": "我流・暴風圏突入",
-        "id": "22600004",
+        "id": "22600005",
         "✓": "✓"
     },
     {
@@ -13326,17 +13326,18 @@
         "realm": "IX",
         "character": "Marcus",
         "name": "What's This?!",
-        "type": "?",
+        "type": "NAT",
         "target": "All enemies",
-        "time": "?",
-        "effects": "Causes Slow (?%)",
-        "counter": "?",
-        "autoTarget": "?",
+        "time": 2.5,
+        "effects": "Causes Slow (20%)",
+        "counter": "N",
+        "autoTarget": "All enemies",
         "points": "500",
         "tier": "Default",
         "relic": "-",
         "name(jp)": "それはなんだ",
-        "id": "23070003"
+        "id": "23070003",
+        "✓": "✓"
     },
     {
         "realm": "IX",
@@ -15370,7 +15371,7 @@
         "tier": "Default",
         "relic": "-",
         "name(jp)": "オートアタック",
-        "id": "22910001",
+        "id": "22910004",
         "✓": "✓"
     },
     {
@@ -15444,7 +15445,7 @@
         "tier": "Default",
         "relic": "-",
         "name(jp)": "暗黒",
-        "id": "22900001",
+        "id": "22900003",
         "✓": "✓"
     },
     {
@@ -15840,6 +15841,27 @@
     },
     {
         "realm": "XII",
+        "character": "Balthier",
+        "name": "Volcano T",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 7.1,
+        "element": "Fire, NE",
+        "time": 2.5,
+        "effects": "Ten ranged attacks (0,71 each), grants Attach Fire, Volcano T and Quick Cast 1 to the user",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "points": "500",
+        "tier": "USB",
+        "master": "ATK +10",
+        "relic": "Fomalhaut (XII)",
+        "name(jp)": "ブルカノ式T",
+        "id": "20700010",
+        "✓": "✓"
+    },
+    {
+        "realm": "XII",
         "character": "Fran",
         "name": "Feral Strike",
         "type": "PHY",
@@ -16101,6 +16123,26 @@
     },
     {
         "realm": "XII",
+        "character": "Basch",
+        "name": "Fulminating Radiance",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Holy, Fire",
+        "time": "?",
+        "effects": "Ten single ranged attacks (? each), DEF +?% to the user for ? seconds, grants Attach Holy and Knight Rank Boost to the user",
+        "counter": "?",
+        "autoTarget": "?",
+        "points": "500",
+        "tier": "USB",
+        "master": "ATK +10",
+        "relic": "Scorpion Tail (XII)",
+        "name(jp)": "光と紅蓮の衝撃",
+        "id": "22180007"
+    },
+    {
+        "realm": "XII",
         "character": "Ashe",
         "name": "Magick Lore",
         "type": "NAT",
@@ -16221,6 +16263,27 @@
     },
     {
         "realm": "XII",
+        "character": "Ashe",
+        "name": "Empyrean Edict",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 17,
+        "element": "Lightning, NE",
+        "time": 2.5,
+        "effects": "Ten single attacks (1,70 each), MAG and RES +30% to the user for 25 seconds, grants Attach Lightning and Empyrean Edict to the user",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "points": "500",
+        "tier": "USB",
+        "master": "MAG +10",
+        "relic": "Ragnarok (XII)",
+        "name(jp)": "天魔鬼神の霊符",
+        "id": "20710007",
+        "✓": "✓"
+    },
+    {
+        "realm": "XII",
         "character": "Penelo",
         "name": "Healing Step",
         "type": "NAT",
@@ -16337,6 +16400,27 @@
         "relic": "Hermes' Suit (XII)",
         "name(jp)": "ファイナルダンス",
         "id": "22060006",
+        "✓": "✓"
+    },
+    {
+        "realm": "XII",
+        "character": "Penelo",
+        "name": "Revitalize",
+        "type": "WHT",
+        "target": "All allies",
+        "formula": "Magical",
+        "multiplier": 2,
+        "element": "Holy",
+        "time": 2.5,
+        "effects": "Restores HP (85), damages undeads, grants Last Stand, grants Haste and Burst Mode to the user",
+        "counter": "N",
+        "autoTarget": "All allies",
+        "points": "500",
+        "tier": "BSB",
+        "master": "MND +10",
+        "relic": "Doom Mace (XII)",
+        "name(jp)": "リザレクション",
+        "id": "22060007",
         "✓": "✓"
     },
     {
@@ -17639,7 +17723,7 @@
         "master": "MAG +10",
         "relic": "Lunar Stinger (XIII)",
         "name(jp)": "凍てつく月夜の矢",
-        "id": "22060004",
+        "id": "22260004",
         "✓": "✓"
     },
     {
@@ -17657,7 +17741,7 @@
         "master": "MAG +10",
         "relic": "Meteorblaze (XIII)",
         "name(jp)": "祝福の時",
-        "id": "22060005",
+        "id": "22260005",
         "✓": "✓"
     },
     {
@@ -19412,7 +19496,7 @@
         "multiplier": 6.7,
         "element": "Holy, Fire, Lightning, Ice",
         "time": 2.5,
-        "effects": "Ten single attacks (0,67 each), 0,77 multiplier if exploiting elemental weakness, grants Bushido and Instant Cast 2 to the user",
+        "effects": "Ten single attacks (0,67 each), 0,77 multiplier if exploiting elemental weakness, grants Bushido the user for 25 seconds, grants Instant Cast 2 to the user",
         "counter": "N",
         "autoTarget": "Lowest HP% enemy",
         "points": "500",
@@ -20149,7 +20233,8 @@
         "master": "MAG +10",
         "relic": "White Staff (A) (FFT)",
         "name(jp)": "手助け",
-        "id": "23050002"
+        "id": "23050002",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
@@ -22158,7 +22243,7 @@
         "tier": "Shared",
         "relic": "Aegis Shield (V)",
         "name(jp)": "イージスの守護",
-        "id": "21000056",
+        "id": "21000066",
         "✓": "✓"
     },
     {

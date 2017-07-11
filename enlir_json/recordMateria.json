@@ -317,6 +317,7 @@
     {
         "realm": "Core",
         "character": "Samurai",
+        "effect": "?% chance to turn Attack into Flashing Blade",
         "unlockCriteria": "Bring Samurai to level 99"
     },
     {
@@ -350,8 +351,10 @@
         "realm": "Core",
         "character": "Dragoon",
         "name": "Heavenly Jump",
+        "effect": "50% chance to turn Attack into an ability (single, 3,80 physical) with two single ranged attacks (1,90 each), air time (3,50 sec.)",
         "unlockCriteria": "Bring Dragoon to level 99",
-        "name(jp)": "天高き飛翔"
+        "name(jp)": "天高き飛翔",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -383,6 +386,7 @@
     {
         "realm": "Core",
         "character": "Dark Knight",
+        "effect": "?% chance to turn Attack into an ability (single, ? physical) that heals the user for ?% of the damage dealt",
         "unlockCriteria": "Bring Dark Knight to level 99"
     },
     {
@@ -416,9 +420,10 @@
         "realm": "Core",
         "character": "Spellblade",
         "name": "Earth Spellblade Mastery",
-        "effect": "Attack turns into an ability (group, ? physical) that deals Earth damage",
+        "effect": "Attack turns into an ability (group, 1,20 physical) with two group attacks (0,60 each) that deals Earth damage",
         "unlockCriteria": "Bring Spellblade to level 99",
-        "name(jp)": "地の魔法剣の神技"
+        "name(jp)": "地の魔法剣の神技",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -450,6 +455,7 @@
     {
         "realm": "Core",
         "character": "Viking",
+        "effect": "PHY attacks deal ?% more damage when equipping a hammer",
         "unlockCriteria": "Bring Viking to level 99"
     },
     {
@@ -616,7 +622,8 @@
         "name": "Shinobi's Secret",
         "effect": "Attack turns into an ability (group, 18,00 magical), that deals Fire damage and ignores RES",
         "unlockCriteria": "Bring Ninja to level 99",
-        "name(jp)": "忍びの極意"
+        "name(jp)": "忍びの極意",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -1461,7 +1468,8 @@
         "name": "Words of Prayer",
         "effect": "Restores 1 use for all White Magic abilities at the beginning of the battle",
         "unlockCriteria": "Use Aria's Memory Crystal II, chance to obtain with Aria in party",
-        "name(jp)": "祈りの言葉"
+        "name(jp)": "祈りの言葉",
+        "✓": "✓"
     },
     {
         "realm": "III",
@@ -3518,9 +3526,10 @@
         "realm": "VIII",
         "character": "Kiros",
         "name": "Entertaining Friendship",
-        "effect": "?% chance to turn Attack into an ability (single, ? physical) with two single attacks (? each)",
+        "effect": "40% chance to turn Attack into an ability (single, 2,00 physical) with two single attacks (1,00 each)",
         "unlockCriteria": "Use Kiros's Memory Crystal II, chance to obtain with Kiros in party",
-        "name(jp)": "友という名の娯楽"
+        "name(jp)": "友という名の娯楽",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -3543,9 +3552,10 @@
         "realm": "VIII",
         "character": "Ward",
         "name": "Fascinating Giant",
-        "effect": "ATK +?% when equipping a spear",
+        "effect": "ATK +13% when equipping a spear",
         "unlockCriteria": "Use Ward's Memory Crystal II, chance to obtain with Ward in party",
-        "name(jp)": "愛嬌溢れる巨漢"
+        "name(jp)": "愛嬌溢れる巨漢",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -3865,17 +3875,19 @@
         "realm": "IX",
         "character": "Marcus",
         "name": "Troupe of Thieves",
-        "effect": "PHY attacks deal ?% more damage when equipping a dagger",
+        "effect": "ATK +10% when equipping a dagger",
         "unlockCriteria": "Use Marcus's Memory Crystal",
-        "name(jp)": "盗賊一座"
+        "name(jp)": "盗賊一座",
+        "✓": "✓"
     },
     {
         "realm": "IX",
         "character": "Marcus",
         "name": "Blank's Bro",
-        "effect": "PHY attacks deal ?% more damage when equipping a dagger",
+        "effect": "PHY attacks deal 20% more damage when equipping a dagger",
         "unlockCriteria": "Use Marcus's Memory Crystal II, chance to obtain with Marcus in party",
-        "name(jp)": "手だれの弟分"
+        "name(jp)": "手だれの弟分",
+        "✓": "✓"
     },
     {
         "realm": "IX",
@@ -5121,7 +5133,7 @@
     {
         "realm": "XIV",
         "character": "Cid (XIV)",
-        "name": "Truth Under the Snow",
+        "name": "Hidden Truths",
         "effect": "Causes Confuse at the beginning of the battle, ATK and DEF +10%",
         "unlockCriteria": "Use Cid (XIV)'s Memory Crystal",
         "name(jp)": "雪に埋もれた真実",
@@ -5130,7 +5142,7 @@
     {
         "realm": "XIV",
         "character": "Cid (XIV)",
-        "name": "Machinist's Work",
+        "name": "Magiteknician",
         "effect": "ATK +13% when equipping a gun",
         "unlockCriteria": "Use Cid (XIV)'s Memory Crystal II, chance to obtain with Cid (XIV) in party",
         "name(jp)": "機工の業",
@@ -5139,7 +5151,7 @@
     {
         "realm": "XIV",
         "character": "Cid (XIV)",
-        "name": "Engineer's Pride",
+        "name": "Engineer's Mark",
         "effect": "ATK and RES +13% when equipping a gun",
         "unlockCriteria": "Bring Cid (XIV) to level 99",
         "name(jp)": "技師の矜持",
@@ -5563,9 +5575,10 @@
         "realm": "FFT",
         "character": "Marche",
         "name": "Crystal Breaker",
-        "effect": "Knight abilities deal ?% more damage",
+        "effect": "Knight abilities deal 30% more damage",
         "unlockCriteria": "Use Marche's Memory Crystal II, chance to obtain with Marche in party",
-        "name(jp)": "クリスタルを壊す者"
+        "name(jp)": "クリスタルを壊す者",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
@@ -5588,9 +5601,10 @@
         "realm": "FFT",
         "character": "Montblanc",
         "name": "Reliable Clan Leader",
-        "effect": "MAG +?%, grants Haste at the beginning of the battle",
+        "effect": "MAG +10%, grants Haste at the beginning of the battle",
         "unlockCriteria": "Use Montblanc's Memory Crystal II, chance to obtain with Montblanc in party",
-        "name(jp)": "頼りになるクランのリーダー"
+        "name(jp)": "頼りになるクランのリーダー",
+        "✓": "✓"
     },
     {
         "realm": "FFT",

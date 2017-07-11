@@ -1241,17 +1241,19 @@
         "realm": "VII",
         "character": "Yuffie",
         "name": "Hometown Nostalgy",
-        "effect": "Increases Water damage dealt by ?%",
+        "effect": "Increases Water damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "故郷を想う少女"
+        "name(jp)": "故郷を想う少女",
+        "✓": "✓"
     },
     {
         "realm": "VII",
         "character": "Yuffie",
         "name": "Speedy Ninja",
-        "effect": "?% chance to dualcast Ninja abilities",
+        "effect": "35% chance to dualcast Ninja abilities",
         "relic": "-",
-        "name(jp)": "抜け目ない忍者娘"
+        "name(jp)": "抜け目ない忍者娘",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -2335,6 +2337,31 @@
     },
     {
         "realm": "XII",
+        "character": "Basch",
+        "name": "Sincere General",
+        "effect": "Knight abilities deal ?% more damage",
+        "relic": "-",
+        "name(jp)": "誠実なる将軍"
+    },
+    {
+        "realm": "XII",
+        "character": "Basch",
+        "name": "Vow of Protection",
+        "effect": "?% chance to cover PHY attacks that target allies, reducing damage taken by ?%",
+        "relic": "-",
+        "name(jp)": "守護への固き誓い"
+    },
+    {
+        "realm": "XII",
+        "character": "Basch",
+        "name": "Loyalty for Dalmasca",
+        "effect": "Grants Attach Holy at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Basch's Gloves (XII)",
+        "name(jp)": "ダルマスカに捧ぐ忠心"
+    },
+    {
+        "realm": "XII",
         "character": "Ashe",
         "name": "Regal Bearing",
         "effect": "Increases Lightning damage dealt by 10%",
@@ -2349,6 +2376,42 @@
         "effect": "35% chance to dualcast Lightning abilities",
         "relic": "-",
         "name(jp)": "支配を糾す王女",
+        "✓": "✓"
+    },
+    {
+        "realm": "XII",
+        "character": "Ashe",
+        "name": "Forsaken Princess's Pride",
+        "effect": "Grants Attach Lightning at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Ashe's Kote (XII)",
+        "name(jp)": "誇り失わぬ王女",
+        "✓": "✓"
+    },
+    {
+        "realm": "XII",
+        "character": "Penelo",
+        "name": "Outspoken Girlfriend",
+        "effect": "WHT abilities restore ?% more HP",
+        "relic": "-",
+        "name(jp)": "けなげなガールフレンド"
+    },
+    {
+        "realm": "XII",
+        "character": "Penelo",
+        "name": "Aspiring Dancer",
+        "effect": "?% chance to cast a group heal (?) after using a Dancer ability",
+        "relic": "-",
+        "name(jp)": "踊り子を夢見る少女"
+    },
+    {
+        "realm": "XII",
+        "character": "Penelo",
+        "name": "Overflowing Compassion",
+        "effect": "25% chance to dualcast White Magic abilities",
+        "master": "MND +10",
+        "relic": "Feathered Cap (XII)",
+        "name(jp)": "溢れる思いやり",
         "✓": "✓"
     },
     {
@@ -2565,7 +2628,7 @@
     {
         "realm": "XIV",
         "character": "Yda",
-        "name": "Indomitable Spirit",
+        "name": "Unquenchable Spark",
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "不屈の闘志",
@@ -2574,7 +2637,7 @@
     {
         "realm": "XIV",
         "character": "Yda",
-        "name": "Pugilist's Impulse",
+        "name": "Martial Instincts",
         "effect": "35% chance to dualcast Monk abilities",
         "relic": "-",
         "name(jp)": "武道家の衝動",
@@ -2593,7 +2656,7 @@
     {
         "realm": "XIV",
         "character": "Papalymo",
-        "name": "Agent of the Circle",
+        "name": "Overseer of the Circle",
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "救世詩盟のお目付役",
@@ -2602,7 +2665,7 @@
     {
         "realm": "XIV",
         "character": "Papalymo",
-        "name": "Mage's Sparkle",
+        "name": "Thaumaturgic Flair",
         "effect": "35% chance to dualcast Fire abilities",
         "relic": "-",
         "name(jp)": "魔道師の閃き",
@@ -2621,7 +2684,7 @@
     {
         "realm": "XIV",
         "character": "Minfilia",
-        "name": "Blessing of The Twelve",
+        "name": "Blessed of the Twelve",
         "effect": "Increases Holy damage dealt by 10%",
         "relic": "-",
         "name(jp)": "十二神の冥加",

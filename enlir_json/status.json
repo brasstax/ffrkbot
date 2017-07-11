@@ -2358,7 +2358,7 @@
         "effects": "SUM attacks deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, casts Deathflare when removed",
         "defaultDuration": "15",
         "mndModifier": "-",
-        "exclusiveStatus": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
         "codedName": "EX_MODE_TRANCE_BAHAMUT",
         "notes": "-"
     },
@@ -2530,8 +2530,8 @@
         "effects": "Grants Quick Cast 1 after using a Machinist ability",
         "defaultDuration": "15",
         "mndModifier": "-",
-        "exclusiveStatus": "-",
-        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_MACHINIST",
+        "exclusiveStatus": "Volcano T",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_IF_MACHINIST_CATEGORY_AB_LIGHTNING",
         "notes": "-"
     },
     {
@@ -2696,7 +2696,7 @@
     },
     {
         "id": "50037",
-        "commonName": "GARNET_AUTO_SUMMON",
+        "commonName": "Auto Judgement Bolt",
         "effects": "Casts Judgment Bolt every 3,50 seconds",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2706,7 +2706,7 @@
     },
     {
         "id": "50038",
-        "commonName": "DUAL_CAST_FOR_BLACK_MAGIC",
+        "commonName": "Dualcast Black Magic",
         "effects": "100% chance to dualcast Black Magic abilities consuming an extra ability use",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2716,7 +2716,7 @@
     },
     {
         "id": "50039",
-        "commonName": "KNIGHT_OF_INSPIRATION_MODE",
+        "commonName": "Inspired Blade",
         "effects": "Grants Attach Fire/Ice/Lightning after taking Fire/Ice/Lightning damage from a BLK, WHT, BLU or SUM attack used by another ally",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2725,8 +2725,18 @@
         "notes": "-"
     },
     {
+        "id": "50040",
+        "commonName": "Flashing Blade Counter",
+        "effects": "Keeps track of the number of uses of Flashing Blade",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_FLASHING_BLADE",
+        "notes": "-"
+    },
+    {
         "id": "50041",
-        "commonName": "GARNET_TRANCE_MODE",
+        "commonName": "Garnet Trance",
         "effects": "MAG and MND +30%, cast speed x2,00",
         "defaultDuration": "25",
         "mndModifier": "-",
@@ -2736,12 +2746,42 @@
     },
     {
         "id": "50042",
-        "commonName": "EIKO_TRANCE_MODE",
+        "commonName": "Eiko Trance",
         "effects": "MAG and MND +30%, cast speed x2,00",
         "defaultDuration": "25",
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "EIKO_TRANCE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50043",
+        "commonName": "Empyrean Edict",
+        "effects": "Casts Thunderstorm after dealing damage with a Black Magic ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EMPYREAN_EDICT",
+        "notes": "-"
+    },
+    {
+        "id": "50044",
+        "commonName": "Knight Rank Boost",
+        "effects": "Knight abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "LIGHT_FIRE_AND_IMPACT",
+        "notes": "-"
+    },
+    {
+        "id": "50048",
+        "commonName": "Volcano T",
+        "effects": "Grants Quick Cast 1 after using a Machinist ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "Trigger Happy",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_IF_MACHINIST_CATEGORY_AB_FIRE",
         "notes": "-"
     },
     {
