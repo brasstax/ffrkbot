@@ -379,6 +379,21 @@
     },
     {
         "realm": "III",
+        "character": "Onion Knight",
+        "relic": "-"
+    },
+    {
+        "realm": "III",
+        "character": "Onion Knight",
+        "relic": "-"
+    },
+    {
+        "realm": "III",
+        "character": "Onion Knight",
+        "master": "ATK +5, MAG +5"
+    },
+    {
+        "realm": "III",
         "character": "Cloud of Darkness",
         "name": "Mysterious Destroyer",
         "effect": "Increases Dark damage dealt by 10%",
@@ -854,6 +869,31 @@
         "✓": "✓"
     },
     {
+        "realm": "V",
+        "character": "Krile",
+        "name": "Boundless Love",
+        "effect": "Increases Fire damage dealt by ?%",
+        "relic": "-",
+        "name(jp)": "かぎりない愛情"
+    },
+    {
+        "realm": "V",
+        "character": "Krile",
+        "name": "Grandfather's Vessel",
+        "effect": "?% chance to grant Quick Cast 3 to the user after using a Fire attack",
+        "relic": "-",
+        "name(jp)": "宿りし祖父の魂"
+    },
+    {
+        "realm": "V",
+        "character": "Krile",
+        "name": "Enthusiastic Girl",
+        "effect": "Grants Attach Fire at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Krile's Dress (V)",
+        "name(jp)": "熱意あふれる少女"
+    },
+    {
         "realm": "VI",
         "character": "Terra",
         "name": "Esperbond",
@@ -1076,6 +1116,21 @@
     },
     {
         "realm": "VI",
+        "character": "Strago",
+        "relic": "-"
+    },
+    {
+        "realm": "VI",
+        "character": "Strago",
+        "relic": "-"
+    },
+    {
+        "realm": "VI",
+        "character": "Strago",
+        "master": "MAG +10"
+    },
+    {
+        "realm": "VI",
         "character": "Relm",
         "name": "Divine Pictomancer",
         "effect": "WHT abilities restore 15% more HP",
@@ -1128,6 +1183,32 @@
         "master": "ATK +5, MAG +5",
         "relic": "Thornlet (VI)",
         "name(jp)": "世界を救うものまね"
+    },
+    {
+        "realm": "VI",
+        "character": "Kefka",
+        "name": "Mad Magician",
+        "effect": "Increases Dark damage dealt by ?%",
+        "relic": "-",
+        "name(jp)": "嗤う魔導士"
+    },
+    {
+        "realm": "VI",
+        "character": "Kefka",
+        "name": "Enjoyment for Destruction",
+        "effect": "?% chance to grant Quick Cast 3 to the user after using a Dark attack",
+        "relic": "-",
+        "name(jp)": "破壊を謳う享楽の道化"
+    },
+    {
+        "realm": "VI",
+        "character": "Kefka",
+        "name": "Treacherous Clown",
+        "effect": "25% chance to dualcast Dark abilities",
+        "master": "MAG +10",
+        "relic": "Jolly Hair Ornament (VI)",
+        "name(jp)": "裏切りの道化師",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -1183,6 +1264,16 @@
         "master": "ATK +10",
         "relic": "7th Heaven (VII)",
         "name(jp)": "セブンスヘブンの看板娘",
+        "✓": "✓"
+    },
+    {
+        "realm": "VII",
+        "character": "Tifa",
+        "name": "Warm-Hearted Fighter",
+        "effect": "Grants Attach Earth at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Tifa's Model (VII)",
+        "name(jp)": "心温かな女闘士",
         "✓": "✓"
     },
     {
@@ -1938,7 +2029,7 @@
     {
         "realm": "X",
         "character": "Lulu",
-        "name": "Knowledgeable Witch",
+        "name": "Witching Ways",
         "effect": "BLK attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "博識の魔女",
@@ -1947,7 +2038,7 @@
     {
         "realm": "X",
         "character": "Lulu",
-        "name": "Black Magic's Seduction",
+        "name": "Dark Temptation",
         "effect": "35% chance to dualcast Ice abilities",
         "relic": "-",
         "name(jp)": "黒魔法の誘惑",
@@ -1992,7 +2083,7 @@
     {
         "realm": "X",
         "character": "Rikku",
-        "name": "Spiral-Shaped Eyes",
+        "name": "Spiral Eyes",
         "effect": "Celerity abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "螺旋模様の瞳",
@@ -2001,7 +2092,7 @@
     {
         "realm": "X",
         "character": "Rikku",
-        "name": "Al Bhed Child",
+        "name": "Al Bhed Prodigy",
         "effect": "Increases the duration of stat buffs by 40%",
         "relic": "-",
         "name(jp)": "アルベド族の申し子",
@@ -2020,7 +2111,7 @@
     {
         "realm": "X",
         "character": "Auron",
-        "name": "Guidance to the Truth",
+        "name": "Hand of Revelation",
         "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "真実への導き手",
@@ -2029,7 +2120,7 @@
     {
         "realm": "X",
         "character": "Auron",
-        "name": "High Summoner's Guardian",
+        "name": "High Guardian",
         "effect": "35% chance to dualcast Samurai abilities",
         "relic": "-",
         "name(jp)": "大召喚士のガード",
@@ -2122,6 +2213,32 @@
         "✓": "✓"
     },
     {
+        "realm": "X",
+        "character": "Seymour",
+        "name": "Hidden Ambition",
+        "effect": "Increases Dark damage dealt by ?%",
+        "relic": "-",
+        "name(jp)": "野心を秘めし召喚士"
+    },
+    {
+        "realm": "X",
+        "character": "Seymour",
+        "name": "Dead Who Deprives the Light",
+        "effect": "?% chance of restioring HP to the user for ?% of the damage dealt after using a single-target Dark attack",
+        "relic": "-",
+        "name(jp)": "光を奪いし死人"
+    },
+    {
+        "realm": "X",
+        "character": "Seymour",
+        "name": "Ruinous Savior",
+        "effect": "25% chance to dualcast Dark abilities",
+        "master": "MAG +10",
+        "relic": "Mortirod (X)",
+        "name(jp)": "破滅に導く救済者",
+        "✓": "✓"
+    },
+    {
         "realm": "XI",
         "character": "Shantotto",
         "name": "Peerless Power",
@@ -2137,6 +2254,16 @@
         "effect": "Restores HP for 100% of the user's maximum HP and grants Play Rough Mode when HP fall below 20%",
         "relic": "-",
         "name(jp)": "黒きアンタッチャブル",
+        "✓": "✓"
+    },
+    {
+        "realm": "XI",
+        "character": "Shantotto",
+        "name": "Absolute Selfishness",
+        "effect": "10% chance to dualcast Witch abilities twice",
+        "master": "MAG +10",
+        "relic": "Wizard's Coat (XI)",
+        "name(jp)": "絶対なる唯我独尊",
         "✓": "✓"
     },
     {
@@ -2551,6 +2678,21 @@
         "relic": "Rod of Thorns (XIII)",
         "name(jp)": "優しき贖罪",
         "✓": "✓"
+    },
+    {
+        "realm": "XIII",
+        "character": "Serah",
+        "relic": "-"
+    },
+    {
+        "realm": "XIII",
+        "character": "Serah",
+        "relic": "-"
+    },
+    {
+        "realm": "XIII",
+        "character": "Serah",
+        "master": "MAG +10"
     },
     {
         "realm": "XIII",

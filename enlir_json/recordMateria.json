@@ -5158,6 +5158,51 @@
         "✓": "✓"
     },
     {
+        "realm": "XIV",
+        "character": "Ysayle",
+        "unlockCriteria": "Use Ysayle's Memory Crystal"
+    },
+    {
+        "realm": "XIV",
+        "character": "Ysayle",
+        "unlockCriteria": "Use Ysayle's Memory Crystal II, chance to obtain with Ysayle in party"
+    },
+    {
+        "realm": "XIV",
+        "character": "Ysayle",
+        "unlockCriteria": "Bring Ysayle to level 99"
+    },
+    {
+        "realm": "XIV",
+        "character": "Haurchefant",
+        "unlockCriteria": "Use Haurchefant's Memory Crystal"
+    },
+    {
+        "realm": "XIV",
+        "character": "Haurchefant",
+        "unlockCriteria": "Use Haurchefant's Memory Crystal II, chance to obtain with Haurchefant in party"
+    },
+    {
+        "realm": "XIV",
+        "character": "Haurchefant",
+        "unlockCriteria": "Bring Haurchefant to level 99"
+    },
+    {
+        "realm": "XIV",
+        "character": "Estinien",
+        "unlockCriteria": "Use Estinien's Memory Crystal"
+    },
+    {
+        "realm": "XIV",
+        "character": "Estinien",
+        "unlockCriteria": "Use Estinien's Memory Crystal II, chance to obtain with Estinien in party"
+    },
+    {
+        "realm": "XIV",
+        "character": "Estinien",
+        "unlockCriteria": "Bring Estinien to level 99"
+    },
+    {
         "realm": "XV",
         "character": "Noctis",
         "name": "Sleeping Prince",
@@ -5694,6 +5739,51 @@
         "unlockCriteria": "Bring Nine to level 99",
         "name(jp)": "ブッコミ上等",
         "✓": "✓"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Machina",
+        "unlockCriteria": "Use Machina's Memory Crystal"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Machina",
+        "unlockCriteria": "Use Machina's Memory Crystal II, chance to obtain with Machina in party"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Machina",
+        "unlockCriteria": "Bring Machina to level 99"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Rem",
+        "unlockCriteria": "Use Rem's Memory Crystal"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Rem",
+        "unlockCriteria": "Use Rem's Memory Crystal II, chance to obtain with Rem in party"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Rem",
+        "unlockCriteria": "Bring Rem to level 99"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Queen",
+        "unlockCriteria": "Use Queen's Memory Crystal"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Queen",
+        "unlockCriteria": "Use Queen's Memory Crystal II, chance to obtain with Queen in party"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Queen",
+        "unlockCriteria": "Bring Queen to level 99"
     },
     {
         "realm": "Beyond",

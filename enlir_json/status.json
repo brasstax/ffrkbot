@@ -2,10 +2,10 @@
     {
         "id": "200",
         "commonName": "Poison",
-        "effects": "Damages for 1/64 max HP every 5 seconds, persists after battle",
+        "effects": "Damages for 1/64 max HP every 5,00 seconds, persists after battle",
         "defaultDuration": "-",
         "mndModifier": "-",
-        "exclusiveStatus": "Low Regen, Medium Regen, High Regen, Sap",
+        "exclusiveStatus": "Low Regen, Medium Regen, High Regen, Sap, Phantom Regen",
         "codedName": "POISON",
         "notes": "-"
     },
@@ -162,7 +162,7 @@
     {
         "id": "216",
         "commonName": "Low Regen",
-        "effects": "Heals for 3% max HP every 3 seconds",
+        "effects": "Heals for 3% max HP every 3,00 seconds",
         "defaultDuration": "30",
         "mndModifier": "3,0%",
         "exclusiveStatus": "Medium Regen, High Regen, Poison, Sap, Zombie",
@@ -238,10 +238,10 @@
     {
         "id": "229",
         "commonName": "Sap",
-        "effects": "Damages for 1/64 max HP every 2 seconds",
+        "effects": "Damages for 1/64 max HP every 2,00 seconds",
         "defaultDuration": "40",
         "mndModifier": "-",
-        "exclusiveStatus": "Low Regen, Medium Regen, High Regen, Poison",
+        "exclusiveStatus": "Low Regen, Medium Regen, High Regen, Poison, Phantom Regen",
         "codedName": "SAP",
         "notes": "-"
     },
@@ -368,7 +368,7 @@
     {
         "id": "243",
         "commonName": "High Regen",
-        "effects": "Heals for 5% max HP every 2.5 seconds",
+        "effects": "Heals for 5% max HP every 2,50 seconds",
         "defaultDuration": "35",
         "mndModifier": "3,0%",
         "exclusiveStatus": "Low Regen, Medium Regen, Poison, Sap, Zombie",
@@ -408,7 +408,7 @@
     {
         "id": "247",
         "commonName": "Medium Regen",
-        "effects": "Heals for 4% max HP every 2.5 seconds",
+        "effects": "Heals for 4% max HP every 2,50 seconds",
         "defaultDuration": "30",
         "mndModifier": "3,0%",
         "exclusiveStatus": "Low Regen, High Regen, Poison, Sap, Zombie",
@@ -768,7 +768,7 @@
     {
         "id": "273",
         "commonName": "Perma-Regen",
-        "effects": "Heals for 5% max HP every 2.5 seconds",
+        "effects": "Heals for 5% max HP every 2,50 seconds",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "Low Regen, Medium Regen, High Regen, Poison, Sap, Zombie",
@@ -2775,6 +2775,16 @@
         "notes": "-"
     },
     {
+        "id": "50045",
+        "commonName": "Phantom Regen",
+        "effects": "Heals for 15% max HP every 3,50 seconds",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "Poison, Sap",
+        "codedName": "PHANTOM_LIGHT_REGEN",
+        "notes": "-"
+    },
+    {
         "id": "50048",
         "commonName": "Volcano T",
         "effects": "Grants Quick Cast 1 after using a Machinist ability",
@@ -3801,6 +3811,16 @@
         "notes": "-"
     },
     {
+        "id": "8431011",
+        "commonName": "Minor Resist Ice",
+        "effects": "Ice Resistance +10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_ICE_ADVANTAGE_1",
+        "notes": "-"
+    },
+    {
         "id": "8431071",
         "commonName": "Minor Resist Dark",
         "effects": "Dark Resistance +10%, cumulable",
@@ -3855,6 +3875,6 @@
         "effects": "* Abilities described as \"remove negative effects\", like Esuna, remove the status 200 (Poison), 201 (Silence), 202 (Paralyze), 203 (Confuse), 210 (Blind), 211 (Sleep), 212 (Petrify), 215 (Berserk), 221 (Mini), 222 (Toad) and 524 (Doom of Atomos)."
     },
     {
-        "effects": "* Abilities described as \"remove positive effects\", like Dispel,  remove the status 204 (Haste), 207 (Protect), 208 (Shell), 209 (Reflect), 216 (Low Regen), 247 (Medium Regen), 243 (High Regen) and 240 (Triple)."
+        "effects": "* Abilities described as \"remove positive effects\", like Dispel,  remove the status 204 (Haste), 207 (Protect), 208 (Shell), 209 (Reflect), 216 (Low Regen), 247 (Medium Regen), 243 (High Regen), 50045 (Phantom Regen) and 240 (Triple)."
     }
 ]
