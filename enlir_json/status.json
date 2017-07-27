@@ -2234,8 +2234,8 @@
     },
     {
         "id": "587",
-        "commonName": "Chase",
-        "effects": "Casts Chase after using an ability",
+        "commonName": "Follow-Up",
+        "effects": "Casts Follow-Up after using an ability",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2334,7 +2334,7 @@
     },
     {
         "id": "598",
-        "commonName": "Wild Moon",
+        "commonName": "Chaotic Moon",
         "effects": "Grants High Quick Cast 1 after using a Water attack, casts Waterbolt Seal after using a Ninja ability if the user has any Physical Blink",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2516,7 +2516,7 @@
     },
     {
         "id": "50019",
-        "commonName": "Lightning Chase",
+        "commonName": "Lightning Follow-Up",
         "effects": "Casts Lightning after dealing Dark damage with an ability",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2636,7 +2636,7 @@
     },
     {
         "id": "50031",
-        "commonName": "Dark Might Chase",
+        "commonName": "Dark Might Follow-Up",
         "effects": "Casts Dark Might after using a Darkness ability",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2792,6 +2792,36 @@
         "mndModifier": "-",
         "exclusiveStatus": "Trigger Happy",
         "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_IF_MACHINIST_CATEGORY_AB_FIRE",
+        "notes": "-"
+    },
+    {
+        "id": "50049",
+        "commonName": "Auto Destructive Barrage",
+        "effects": "Casts Destructive Barrage every 3,50 seconds",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Auto\" status",
+        "codedName": "HOPE_AUTO_SUMMON",
+        "notes": "-"
+    },
+    {
+        "id": "50050",
+        "commonName": "EX: Time Reader",
+        "effects": "MAG +30%, grants High Quick Cast 1 after using a Ice attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_ETRO_ARROW",
+        "notes": "-"
+    },
+    {
+        "id": "50051",
+        "commonName": "Revenge Counter",
+        "effects": "Counters enemy PHY and BLK attacks with Revenge Counter",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "COUNTER_AIMING_FOR_INDOMITABLE_HERO",
         "notes": "-"
     },
     {
@@ -3212,6 +3242,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CUSTOM_MATK_MDEF_MND",
+        "notes": "-"
+    },
+    {
+        "id": "643",
+        "commonName": "DEF, MAG and RES +X%",
+        "effects": "DEF, MAG and RES +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_MATK_DEF_MDEF",
         "notes": "-"
     },
     {

@@ -92,7 +92,7 @@
     {
         "realm": "Core",
         "character": "Monk",
-        "name": "Clear-Minded",
+        "name": "Blemished Insight",
         "effect": "10% chance to counter PHY attacks with Chakra",
         "unlockCriteria": "Use Monk's Memory Crystal II, chance to obtain with Monk in party",
         "name(jp)": "磨き抜かれし感覚",
@@ -479,7 +479,7 @@
     {
         "realm": "Core",
         "character": "Berserker",
-        "name": "Berserker's Onslaught",
+        "name": "Berserker's Might",
         "effect": "ATK +10%, causes Berserk at the beginning of the battle",
         "unlockCriteria": "Use Berserker's Memory Crystal II, chance to obtain with Berserker in party",
         "name(jp)": "狂戦士の猛攻",
@@ -1988,9 +1988,10 @@
         "realm": "IV",
         "character": "Ursula",
         "name": "Grasped Secrets",
-        "effect": "?% chance to turn Attack into Gaia Crush",
+        "effect": "15% chance to turn Attack into Gaia Rush",
         "unlockCriteria": "Bring Ursula to level 99",
-        "name(jp)": "極意を得し者"
+        "name(jp)": "極意を得し者",
+        "✓": "✓"
     },
     {
         "realm": "V",
@@ -3535,9 +3536,10 @@
         "realm": "VIII",
         "character": "Kiros",
         "name": "Dressing Funny",
-        "effect": "?% chance to turn Attack into Shadow Mirage",
+        "effect": "24% chance to turn Attack into Shadow Mirage",
         "unlockCriteria": "Bring Kiros to level 99",
-        "name(jp)": "奇抜なファッション"
+        "name(jp)": "奇抜なファッション",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -3561,9 +3563,10 @@
         "realm": "VIII",
         "character": "Ward",
         "name": "Silent Bonds",
-        "effect": "?% chance to turn Attack into Soaring Jump",
+        "effect": "48% chance to turn Attack into Soaring Jump",
         "unlockCriteria": "Bring Ward to level 99",
-        "name(jp)": "無声の絆"
+        "name(jp)": "無声の絆",
+        "✓": "✓"
     },
     {
         "realm": "IX",
@@ -3893,9 +3896,10 @@
         "realm": "IX",
         "character": "Marcus",
         "name": "Polite Robber",
-        "effect": "Grants Haste at the beginning of the battle, ATK and DEF +?%",
+        "effect": "Grants Haste at the beginning of the battle, ATK and DEF +10%",
         "unlockCriteria": "Bring Marcus to level 99",
-        "name(jp)": "礼儀正しき盗賊"
+        "name(jp)": "礼儀正しき盗賊",
+        "✓": "✓"
     },
     {
         "realm": "X",
@@ -5631,7 +5635,8 @@
         "name": "Face Reality",
         "effect": "Grants Sentinel at the beginning of the battle",
         "unlockCriteria": "Bring Marche to level 99",
-        "name(jp)": "現実と向き合う覚悟"
+        "name(jp)": "現実と向き合う覚悟",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
@@ -5655,14 +5660,15 @@
         "realm": "FFT",
         "character": "Montblanc",
         "name": "Blanc Clan",
-        "effect": "MAG +?% when equipping a robe",
+        "effect": "MAG +15% when equipping a robe",
         "unlockCriteria": "Bring Montblanc to level 99",
-        "name(jp)": "白き者の一族"
+        "name(jp)": "白き者の一族",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Ace",
-        "name": "Cards Master",
+        "name": "Cards Wheeler",
         "effect": "MAG +10% when equipping a thrown weapon",
         "unlockCriteria": "Use Ace's Memory Crystal",
         "name(jp)": "カードの使い手",
@@ -5671,7 +5677,7 @@
     {
         "realm": "Type-0",
         "character": "Ace",
-        "name": "Card's Judgment",
+        "name": "Master Dealer",
         "effect": "MAG +13% when equipping a thrown weapon",
         "unlockCriteria": "Use Ace's Memory Crystal II, chance to obtain with Ace in party",
         "name(jp)": "華麗なるカードさばき",
@@ -5680,7 +5686,7 @@
     {
         "realm": "Type-0",
         "character": "Ace",
-        "name": "Class Zero's Ace",
+        "name": "Class Ace",
         "effect": "MAG +13%, grants Physical Blink 1 at the beginning of the battle",
         "unlockCriteria": "Bring Ace to level 99",
         "name(jp)": "0組のエース格",
@@ -5689,7 +5695,7 @@
     {
         "realm": "Type-0",
         "character": "Deuce",
-        "name": "Gentle Girl",
+        "name": "Tender Touch",
         "effect": "WHT abilities restore 10% more HP",
         "unlockCriteria": "Use Deuce's Memory Crystal",
         "name(jp)": "温厚な少女",
@@ -5698,7 +5704,7 @@
     {
         "realm": "Type-0",
         "character": "Deuce",
-        "name": "Musical Interest",
+        "name": "Musical Inclination",
         "effect": "MND +10% when equipping an instrument",
         "unlockCriteria": "Use Deuce's Memory Crystal II, chance to obtain with Deuce in party",
         "name(jp)": "音楽への関心",
@@ -5707,7 +5713,7 @@
     {
         "realm": "Type-0",
         "character": "Deuce",
-        "name": "Power of Kindness",
+        "name": "Soft Power",
         "effect": "MND +25% when equipping an instrument",
         "unlockCriteria": "Bring Deuce to level 99",
         "name(jp)": "優しき力を司る者",
@@ -5716,7 +5722,7 @@
     {
         "realm": "Type-0",
         "character": "Nine",
-        "name": "Wild Mouth",
+        "name": "Wild Side",
         "effect": "ATK +10%, DEF -10%",
         "unlockCriteria": "Use Nine's Memory Crystal",
         "name(jp)": "ワイルドな言動",
@@ -5725,7 +5731,7 @@
     {
         "realm": "Type-0",
         "character": "Nine",
-        "name": "Spear Virtuoso",
+        "name": "Spearmaster",
         "effect": "PHY attacks deal 20% more damage when equipping a spear",
         "unlockCriteria": "Use Nine's Memory Crystal II, chance to obtain with Nine in party",
         "name(jp)": "槍の名手",
@@ -5734,7 +5740,7 @@
     {
         "realm": "Type-0",
         "character": "Nine",
-        "name": "Cheeky Superiority",
+        "name": "Head Basher",
         "effect": "ATK +15% when equipping a spear",
         "unlockCriteria": "Bring Nine to level 99",
         "name(jp)": "ブッコミ上等",
