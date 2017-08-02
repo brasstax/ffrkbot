@@ -3464,7 +3464,7 @@
         "realm": "VIII",
         "character": "Raijin",
         "name": "Faithful Friend",
-        "effect": "30% chance to turn Attack into an ability that restores HP for 40% of the target's maximum HP",
+        "effect": "30% chance to turn Attack into an ability (single) that restores HP for 40% of the target's maximum HP",
         "unlockCriteria": "Use Raijin's Memory Crystal",
         "name(jp)": "気のいい大男",
         "✓": "✓"

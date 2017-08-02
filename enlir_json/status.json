@@ -306,6 +306,16 @@
         "notes": "-"
     },
     {
+        "id": "23601",
+        "commonName": "Light Doom: 30",
+        "effects": "HP = 0 after a 30 seconds timer, can't overwrite other timers",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DOOM_LIGHT_30",
+        "notes": "-"
+    },
+    {
         "id": "237",
         "commonName": "Doom: 45",
         "effects": "HP = 0 after a 45 seconds timer",
@@ -936,13 +946,23 @@
         "notes": "-"
     },
     {
-        "id": "28202",
+        "id": "28201",
         "commonName": "Ice Radiant Shield: 75%",
         "effects": "Returns 75% of the damage taken to the attacker as Ice damage",
         "defaultDuration": "30",
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "RADIANT_SHIELD_ICE_75",
+        "notes": "-"
+    },
+    {
+        "id": "28301",
+        "commonName": "Earth Radiant Shield: 75%",
+        "effects": "Returns 75% of the damage taken to the attacker as Earth damage",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_EARTH_75",
         "notes": "-"
     },
     {
@@ -993,6 +1013,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DAMAGE_BOOST_KNIGHT_115_3",
+        "notes": "-"
+    },
+    {
+        "id": "282005",
+        "commonName": "Darkness +15% Boost 3",
+        "effects": "Darkness abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_DARKNESS_115_3",
         "notes": "-"
     },
     {
@@ -2265,7 +2295,7 @@
     {
         "id": "590",
         "commonName": "EX: SeeD",
-        "effects": "Casts Blasting End after using two Spellblade abilities",
+        "effects": "Casts Shattering Finish after using two Spellblade abilities",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2785,6 +2815,26 @@
         "notes": "-"
     },
     {
+        "id": "50046",
+        "commonName": "EX: Ninja",
+        "effects": "ATK +30%, cast speed x1,00 plus x0,30 for each attack used for the duration of the status, up to x3,00",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_NINJA_FOR_ONION_KNIGHT",
+        "notes": "-"
+    },
+    {
+        "id": "50047",
+        "commonName": "EX: Sage",
+        "effects": "MAG +30%, BLK attacks deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_SAGE_FOR_ONION_KNIGHT",
+        "notes": "-"
+    },
+    {
         "id": "50048",
         "commonName": "Volcano T",
         "effects": "Grants Quick Cast 1 after using a Machinist ability",
@@ -2822,6 +2872,26 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "COUNTER_AIMING_FOR_INDOMITABLE_HERO",
+        "notes": "-"
+    },
+    {
+        "id": "50052",
+        "commonName": "Burning Steel",
+        "effects": "Casts Flame Hunt after using a Fire attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_BURNING_STEAL",
+        "notes": "-"
+    },
+    {
+        "id": "50053",
+        "commonName": "Blazing Pummel",
+        "effects": "Casts Phoenix Attack after using a Fire attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_RAGING_FIST",
         "notes": "-"
     },
     {

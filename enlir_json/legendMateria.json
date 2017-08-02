@@ -380,17 +380,30 @@
     {
         "realm": "III",
         "character": "Onion Knight",
-        "relic": "-"
+        "name": "Mastery of Weapons",
+        "effect": "35% chance to dualcast Celerity abilities",
+        "relic": "-",
+        "name(jp)": "武器術の頂",
+        "✓": "✓"
     },
     {
         "realm": "III",
         "character": "Onion Knight",
-        "relic": "-"
+        "name": "Mastery of Magicks",
+        "effect": "35% chance to dualcast Black Magic abilities",
+        "relic": "-",
+        "name(jp)": "魔法術の頂",
+        "✓": "✓"
     },
     {
         "realm": "III",
         "character": "Onion Knight",
-        "master": "ATK +5, MAG +5"
+        "name": "Kid of Legend",
+        "effect": "Grants Instant Cast 2 at the beginning of the battle",
+        "master": "ATK +5, MAG +5",
+        "relic": "Onion Mantle (III)",
+        "name(jp)": "伝説の称号を持つ少年",
+        "✓": "✓"
     },
     {
         "realm": "III",
@@ -702,7 +715,7 @@
         "realm": "IV",
         "character": "Ceodore",
         "name": "New Red Wings",
-        "effect": "?% chance to cast an ability that restores HP for ?% of the target's maximum HP after using a Knight ability",
+        "effect": "?% chance to cast an ability (single) that restores HP for ?% of the target's maximum HP after using a Knight ability",
         "relic": "-",
         "name(jp)": "新たなる赤き翼"
     },
@@ -1117,17 +1130,29 @@
     {
         "realm": "VI",
         "character": "Strago",
-        "relic": "-"
+        "name": "Hunter of Secrets",
+        "effect": "Increases Water damage dealt by 10%",
+        "relic": "-",
+        "name(jp)": "モンスターの謎を追う者",
+        "✓": "✓"
     },
     {
         "realm": "VI",
         "character": "Strago",
-        "relic": "-"
+        "name": "Bonds of Hope",
+        "effect": "25% chance to cast an ability (group) that restores HP for 30% of the target's maximum HP after taking damage from an enemy",
+        "relic": "-",
+        "name(jp)": "希望を呼び覚ます絆",
+        "✓": "✓"
     },
     {
         "realm": "VI",
         "character": "Strago",
-        "master": "MAG +10"
+        "name": "Powers to Challenge Fire",
+        "effect": "?% chance to dualcast Water abilities",
+        "master": "MAG +10",
+        "relic": "Rod of Faith (VI)",
+        "name(jp)": "烈火に挑む魔導の力"
     },
     {
         "realm": "VI",
@@ -1633,7 +1658,7 @@
     {
         "realm": "VIII",
         "character": "Seifer",
-        "name": "Disturbed Deserter",
+        "name": "Bad Seed",
         "effect": "Increases Dark damage dealt by ?%",
         "relic": "-",
         "name(jp)": "問題児の暴走"
@@ -1641,7 +1666,7 @@
     {
         "realm": "VIII",
         "character": "Seifer",
-        "name": "Obsession for Victory",
+        "name": "Drive to Win",
         "effect": "Grants Last Stand and Reraise: ?% at the beginning of the battle",
         "relic": "-",
         "name(jp)": "勝利への執念"
@@ -1660,17 +1685,19 @@
         "realm": "VIII",
         "character": "Laguna",
         "name": "Aspiring Journalist",
-        "effect": "Machinist abilities deal ?% more damage",
+        "effect": "Machinist abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "ジャーナリスト志望"
+        "name(jp)": "ジャーナリスト志望",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
         "character": "Laguna",
         "name": "Tactical Gunner",
-        "effect": "?% chance to dualcast Machinist abilities",
+        "effect": "35% chance to dualcast Machinist abilities",
         "relic": "-",
-        "name(jp)": "タクティカルガンナー"
+        "name(jp)": "タクティカルガンナー",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -1738,7 +1765,7 @@
     {
         "realm": "VIII",
         "character": "Fujin",
-        "name": "Sharp Wind",
+        "name": "Biting Winds",
         "effect": "Increases Wind damage dealt by 10%",
         "relic": "-",
         "name(jp)": "鋭利なる風",
@@ -1747,7 +1774,7 @@
     {
         "realm": "VIII",
         "character": "Fujin",
-        "name": "Godspeed Fighting Style",
+        "name": "Blistering Speed",
         "effect": "30% chance to grant Quick Cast 3 to the user after using a Wind attack",
         "relic": "-",
         "name(jp)": "神速の闘法",
@@ -2705,16 +2732,17 @@
         "realm": "XIII",
         "character": "Sazh",
         "name": "Struggling Father",
-        "effect": "Grants Instant Cast 1 at the beginning of the battle, begins the round with full ATB gauge",
+        "effect": "Grants Haste and Instant Cast 1 at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Sazh's Coat (XIII)",
-        "name(jp)": "奮闘する父"
+        "name(jp)": "奮闘する父",
+        "✓": "✓"
     },
     {
         "realm": "XIII",
         "character": "Hope",
         "name": "Love for the Mother",
-        "effect": "Increases Holy damage dealt by 10%",
+        "effect": "Increases Holy damage dealt by ?%",
         "relic": "-",
         "name(jp)": "母への想い"
     },
@@ -2722,7 +2750,7 @@
         "realm": "XIII",
         "character": "Hope",
         "name": "Hope Beyond Love and Hate",
-        "effect": "25% chance to dualcast Holy abilities",
+        "effect": "?% chance to dualcast Holy abilities",
         "relic": "-",
         "name(jp)": "恩讐を越える希望"
     },
@@ -2733,7 +2761,8 @@
         "effect": "Grants Attach Holy at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Hope's Model (XIII)",
-        "name(jp)": "めざましき成長"
+        "name(jp)": "めざましき成長",
+        "✓": "✓"
     },
     {
         "realm": "XIII",
@@ -3030,17 +3059,19 @@
         "realm": "XV",
         "character": "Iris",
         "name": "Amicitia Teachings",
-        "effect": "WHT abilities restore ?% more HP",
+        "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
-        "name(jp)": "アミシティア家の教え"
+        "name(jp)": "アミシティア家の教え",
+        "✓": "✓"
     },
     {
         "realm": "XV",
         "character": "Iris",
         "name": "Brave Logistic Support",
-        "effect": "MND +?% for each hit dealt with White Magic abilities, up to +?%",
+        "effect": "MND +1% for each hit dealt with White Magic abilities, up to +35%",
         "relic": "-",
-        "name(jp)": "健気な後方支援"
+        "name(jp)": "健気な後方支援",
+        "✓": "✓"
     },
     {
         "realm": "XV",
