@@ -98,9 +98,9 @@ function lookupSoulbreak(msg, character, sbType) {
     msg.author.username, msg.author.discriminator));
   console.log(`Lookup called: ${character} ${sbType}`);
   return new Promise( (resolve, reject) => {
-    if (character.length < 3) {
+    if (character.length < 2) {
       msg.channel.send(
-        'Character name must be at least three characters.')
+        'Character name must be at least two characters.')
         .then( (res) => {
           resolve(res);
         }).catch( (err) => {

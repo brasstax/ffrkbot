@@ -55,10 +55,10 @@ describe('soulbreak bot utils testing', () => {
             assert.equal(soulbreakPlaintextSpy.calledOnce, true);
           });
       });
-    it('should inform when search query is less than three letters', () => {
-      let message = 'Character name must be at least three characters.';
+    it('should inform when search query is less than two letters', () => {
+      let message = 'Character name must be at least two characters.';
       msg.channel.send = sandbox.stub().resolves(null);
-      let query = 'ba';
+      let query = 'b';
       return botUtils.soulbreak(msg, query, 'all').then( () => {
         assert.equal(msg.channel.send.calledOnce, true);
         assert.equal(msg.channel.send.calledWith(message), true);
