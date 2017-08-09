@@ -47,7 +47,7 @@
     {
         "realm": "Core",
         "character": "Warrior",
-        "name": "Warrior's Spirit",
+        "name": "Warrior's Drive",
         "effect": "Restores 1 use for all Combat abilities at the beginning of the battle",
         "unlockCriteria": "Use Warrior's Memory Crystal II, chance to obtain with Warrior in party",
         "name(jp)": "戦士の気迫",
@@ -65,7 +65,7 @@
     {
         "realm": "Core",
         "character": "Knight",
-        "name": "Importance of Protection",
+        "name": "Defensive Aspect",
         "effect": "Grants Protect and Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Knight's Memory Crystal II, chance to obtain with Knight in party",
         "name(jp)": "護りの要",
@@ -182,7 +182,7 @@
     {
         "realm": "Core",
         "character": "Magus",
-        "name": "Prohibited Sorcery",
+        "name": "Forbidden Knowledge",
         "effect": "Attack turns into an ability (single, 1,50 magical) that deals Fire, Lightning and Ice damage",
         "unlockCriteria": "Use Magus's Memory Crystal II, chance to obtain with Magus in party",
         "name(jp)": "禁忌の魔術",
@@ -386,8 +386,10 @@
     {
         "realm": "Core",
         "character": "Dark Knight",
+        "name": "Embrace of Darkness",
         "effect": "?% chance to turn Attack into an ability (single, ? physical) that heals the user for ?% of the damage dealt",
-        "unlockCriteria": "Bring Dark Knight to level 99"
+        "unlockCriteria": "Bring Dark Knight to level 99",
+        "name(jp)": "闇の絶技"
     },
     {
         "realm": "Core",
@@ -455,8 +457,10 @@
     {
         "realm": "Core",
         "character": "Viking",
-        "effect": "PHY attacks deal ?% more damage when equipping a hammer",
-        "unlockCriteria": "Bring Viking to level 99"
+        "name": "Sealord's Bravery",
+        "effect": "ATK +?% when equipping a hammer",
+        "unlockCriteria": "Bring Viking to level 99",
+        "name(jp)": "雄々しき海の勇"
     },
     {
         "realm": "Core",
@@ -885,6 +889,21 @@
         "unlockCriteria": "Bring Meia to level 99",
         "name(jp)": "パラミティアの復讐者",
         "✓": "✓"
+    },
+    {
+        "realm": "I",
+        "character": "Thief (I)",
+        "unlockCriteria": "Use Thief (I)'s Memory Crystal"
+    },
+    {
+        "realm": "I",
+        "character": "Thief (I)",
+        "unlockCriteria": "Use Thief (I)'s Memory Crystal II, chance to obtain with Thief (I) in party"
+    },
+    {
+        "realm": "I",
+        "character": "Thief (I)",
+        "unlockCriteria": "Bring Thief (I) to level 99"
     },
     {
         "realm": "II",
@@ -3112,7 +3131,7 @@
     {
         "realm": "VII",
         "character": "Shelke",
-        "name": "Girl's Profile",
+        "name": "Forever Young",
         "effect": "50% chance to restore 1 use for all Celerity abilities at the beginning of the battle",
         "unlockCriteria": "Use Shelke's Memory Crystal",
         "name(jp)": "少女の面影",
@@ -3121,7 +3140,7 @@
     {
         "realm": "VII",
         "character": "Shelke",
-        "name": "Transparent SOLDIER",
+        "name": "Invisible Soldier",
         "effect": "Celerity abilities deal 25% more damage",
         "unlockCriteria": "Use Shelke's Memory Crystal II, chance to obtain with Shelke in party",
         "name(jp)": "無色のソルジャー",
@@ -3130,7 +3149,7 @@
     {
         "realm": "VII",
         "character": "Shelke",
-        "name": "Dual Spear Master",
+        "name": "Double Destruction",
         "effect": "42% chance to turn Attack into Double Cut",
         "unlockCriteria": "Bring Shelke to level 99",
         "name(jp)": "二槍の使い手",
@@ -5163,21 +5182,6 @@
     },
     {
         "realm": "XIV",
-        "character": "Ysayle",
-        "unlockCriteria": "Use Ysayle's Memory Crystal"
-    },
-    {
-        "realm": "XIV",
-        "character": "Ysayle",
-        "unlockCriteria": "Use Ysayle's Memory Crystal II, chance to obtain with Ysayle in party"
-    },
-    {
-        "realm": "XIV",
-        "character": "Ysayle",
-        "unlockCriteria": "Bring Ysayle to level 99"
-    },
-    {
-        "realm": "XIV",
         "character": "Haurchefant",
         "unlockCriteria": "Use Haurchefant's Memory Crystal"
     },
@@ -5205,6 +5209,21 @@
         "realm": "XIV",
         "character": "Estinien",
         "unlockCriteria": "Bring Estinien to level 99"
+    },
+    {
+        "realm": "XIV",
+        "character": "Ysayle",
+        "unlockCriteria": "Use Ysayle's Memory Crystal"
+    },
+    {
+        "realm": "XIV",
+        "character": "Ysayle",
+        "unlockCriteria": "Use Ysayle's Memory Crystal II, chance to obtain with Ysayle in party"
+    },
+    {
+        "realm": "XIV",
+        "character": "Ysayle",
+        "unlockCriteria": "Bring Ysayle to level 99"
     },
     {
         "realm": "XV",
@@ -5664,6 +5683,21 @@
         "unlockCriteria": "Bring Montblanc to level 99",
         "name(jp)": "白き者の一族",
         "✓": "✓"
+    },
+    {
+        "realm": "FFT",
+        "character": "Alma",
+        "unlockCriteria": "Use Alma's Memory Crystal"
+    },
+    {
+        "realm": "FFT",
+        "character": "Alma",
+        "unlockCriteria": "Use Alma's Memory Crystal II, chance to obtain with Alma in party"
+    },
+    {
+        "realm": "FFT",
+        "character": "Alma",
+        "unlockCriteria": "Bring Alma to level 99"
     },
     {
         "realm": "Type-0",

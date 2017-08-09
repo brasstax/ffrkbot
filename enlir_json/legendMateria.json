@@ -85,6 +85,34 @@
     },
     {
         "realm": "I",
+        "character": "Sarah",
+        "relic": "-"
+    },
+    {
+        "realm": "I",
+        "character": "Sarah",
+        "relic": "-"
+    },
+    {
+        "realm": "I",
+        "character": "Sarah"
+    },
+    {
+        "realm": "I",
+        "character": "Echo",
+        "relic": "-"
+    },
+    {
+        "realm": "I",
+        "character": "Echo",
+        "relic": "-"
+    },
+    {
+        "realm": "I",
+        "character": "Echo"
+    },
+    {
+        "realm": "I",
         "character": "Master",
         "name": "Sharpened Iron Fist",
         "effect": "Monk abilities deal 15% more damage",
@@ -110,6 +138,48 @@
         "relic": "Kenpo Gi (I)",
         "name(jp)": "熟練の瞬技",
         "✓": "✓"
+    },
+    {
+        "realm": "I",
+        "character": "Matoya",
+        "relic": "-"
+    },
+    {
+        "realm": "I",
+        "character": "Matoya",
+        "relic": "-"
+    },
+    {
+        "realm": "I",
+        "character": "Matoya"
+    },
+    {
+        "realm": "I",
+        "character": "Meia",
+        "relic": "-"
+    },
+    {
+        "realm": "I",
+        "character": "Meia",
+        "relic": "-"
+    },
+    {
+        "realm": "I",
+        "character": "Meia"
+    },
+    {
+        "realm": "I",
+        "character": "Thief (I)",
+        "relic": "-"
+    },
+    {
+        "realm": "I",
+        "character": "Thief (I)",
+        "relic": "-"
+    },
+    {
+        "realm": "I",
+        "character": "Thief (I)"
     },
     {
         "realm": "II",
@@ -1330,7 +1400,7 @@
     {
         "realm": "VII",
         "character": "Red XIII",
-        "name": "Ferocious Fang",
+        "name": "Dire Fang",
         "effect": "Support abilities deal ?% more damage",
         "relic": "-",
         "name(jp)": "獰猛な牙"
@@ -1384,7 +1454,7 @@
     {
         "realm": "VII",
         "character": "Vincent",
-        "name": "Turks of Turks",
+        "name": "Turk Among Turks",
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "タークス・オブ・タークス",
@@ -1393,7 +1463,7 @@
     {
         "realm": "VII",
         "character": "Vincent",
-        "name": "Inner Beast",
+        "name": "Beast Within",
         "effect": "Restores HP for 100% of the user's maximum HP and grants Galian Beast when HP fall below 20%",
         "relic": "-",
         "name(jp)": "獣を宿す者",
@@ -1924,10 +1994,11 @@
         "realm": "IX",
         "character": "Eiko",
         "name": "Thoughts of Home",
-        "effect": "?% chance to dualcast White Magic abilities",
+        "effect": "25% chance to dualcast White Magic abilities",
         "master": "MND +10",
         "relic": "Eiko's Model (IX)",
-        "name(jp)": "故郷に馳せる想い"
+        "name(jp)": "故郷に馳せる想い",
+        "✓": "✓"
     },
     {
         "realm": "IX",
@@ -2947,6 +3018,20 @@
     },
     {
         "realm": "XIV",
+        "character": "Alphinaud",
+        "relic": "-"
+    },
+    {
+        "realm": "XIV",
+        "character": "Alphinaud",
+        "relic": "-"
+    },
+    {
+        "realm": "XIV",
+        "character": "Alphinaud"
+    },
+    {
+        "realm": "XIV",
         "character": "Minfilia",
         "name": "Blessed of the Twelve",
         "effect": "Increases Holy damage dealt by 10%",
@@ -2972,6 +3057,62 @@
         "relic": "Magitek Shield (XIV)",
         "name(jp)": "盟主の資質",
         "✓": "✓"
+    },
+    {
+        "realm": "XIV",
+        "character": "Cid (XIV)",
+        "relic": "-"
+    },
+    {
+        "realm": "XIV",
+        "character": "Cid (XIV)",
+        "relic": "-"
+    },
+    {
+        "realm": "XIV",
+        "character": "Cid (XIV)"
+    },
+    {
+        "realm": "XIV",
+        "character": "Haurchefant",
+        "relic": "-"
+    },
+    {
+        "realm": "XIV",
+        "character": "Haurchefant",
+        "relic": "-"
+    },
+    {
+        "realm": "XIV",
+        "character": "Haurchefant"
+    },
+    {
+        "realm": "XIV",
+        "character": "Estinien",
+        "relic": "-"
+    },
+    {
+        "realm": "XIV",
+        "character": "Estinien",
+        "relic": "-"
+    },
+    {
+        "realm": "XIV",
+        "character": "Estinien"
+    },
+    {
+        "realm": "XIV",
+        "character": "Ysayle",
+        "relic": "-"
+    },
+    {
+        "realm": "XIV",
+        "character": "Ysayle",
+        "relic": "-"
+    },
+    {
+        "realm": "XIV",
+        "character": "Ysayle"
     },
     {
         "realm": "XV",
@@ -3219,6 +3360,34 @@
     },
     {
         "realm": "FFT",
+        "character": "Mustadio",
+        "relic": "-"
+    },
+    {
+        "realm": "FFT",
+        "character": "Mustadio",
+        "relic": "-"
+    },
+    {
+        "realm": "FFT",
+        "character": "Mustadio"
+    },
+    {
+        "realm": "FFT",
+        "character": "Orlandeau",
+        "relic": "-"
+    },
+    {
+        "realm": "FFT",
+        "character": "Orlandeau",
+        "relic": "-"
+    },
+    {
+        "realm": "FFT",
+        "character": "Orlandeau"
+    },
+    {
+        "realm": "FFT",
         "character": "Gaffgarion",
         "name": "Fell Knight's Rise",
         "effect": "Increases Dark damage dealt by ?%",
@@ -3299,6 +3468,20 @@
     },
     {
         "realm": "FFT",
+        "character": "Meliadoul",
+        "relic": "-"
+    },
+    {
+        "realm": "FFT",
+        "character": "Meliadoul",
+        "relic": "-"
+    },
+    {
+        "realm": "FFT",
+        "character": "Meliadoul"
+    },
+    {
+        "realm": "FFT",
         "character": "Marche",
         "name": "Reluctant Advance",
         "effect": "Increases Holy damage dealt by 10%",
@@ -3349,6 +3532,20 @@
         "master": "MAG +10",
         "relic": "Silken Robe (A) (FFT)",
         "name(jp)": "補うための魔法の知識"
+    },
+    {
+        "realm": "FFT",
+        "character": "Alma",
+        "relic": "-"
+    },
+    {
+        "realm": "FFT",
+        "character": "Alma",
+        "relic": "-"
+    },
+    {
+        "realm": "FFT",
+        "character": "Alma"
     },
     {
         "realm": "Type-0",
@@ -3433,6 +3630,42 @@
         "relic": "Heavy Lance (Type-0)",
         "name(jp)": "破天荒な跳躍",
         "✓": "✓"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Machina"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Machina"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Machina"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Rem"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Rem"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Rem"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Queen"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Queen"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Queen"
     },
     {
         "realm": "Beyond",

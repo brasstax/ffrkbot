@@ -3275,7 +3275,7 @@
     {
         "character": "Barret",
         "source": "Massive Hammerblow",
-        "name": "Break Bomb",
+        "name": "Breakdown Bomb",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -3294,7 +3294,7 @@
     {
         "character": "Barret",
         "source": "Massive Hammerblow",
-        "name": "Break Launcher",
+        "name": "Breakdown Launcher",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -3880,7 +3880,7 @@
     {
         "character": "Shelke",
         "source": "Synaptic Net Dive",
-        "name": "Hard Break Pierce",
+        "name": "Magemash Pierce",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -3899,7 +3899,7 @@
     {
         "character": "Shelke",
         "source": "Synaptic Net Dive",
-        "name": "Weakness Stab",
+        "name": "Debilitating Stab",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
