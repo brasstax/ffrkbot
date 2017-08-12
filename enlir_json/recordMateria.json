@@ -387,9 +387,10 @@
         "realm": "Core",
         "character": "Dark Knight",
         "name": "Embrace of Darkness",
-        "effect": "?% chance to turn Attack into an ability (single, ? physical) that heals the user for ?% of the damage dealt",
+        "effect": "60% chance to turn Attack into an ability (single, 1,67 physical) that heals the user for 32% of the damage dealt",
         "unlockCriteria": "Bring Dark Knight to level 99",
-        "name(jp)": "闇の絶技"
+        "name(jp)": "闇の絶技",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -458,9 +459,10 @@
         "realm": "Core",
         "character": "Viking",
         "name": "Sealord's Bravery",
-        "effect": "ATK +?% when equipping a hammer",
+        "effect": "ATK +15% when equipping a hammer",
         "unlockCriteria": "Bring Viking to level 99",
-        "name(jp)": "雄々しき海の勇"
+        "name(jp)": "雄々しき海の勇",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -4959,7 +4961,7 @@
         "realm": "XIII",
         "character": "Noel",
         "name": "Life's Protector",
-        "effect": "Grants Haste at the beginning of the battle, ATK and RES +10%",
+        "effect": "ATK and RES +10%, grants Haste at the beginning of the battle",
         "unlockCriteria": "Bring Noel to level 99",
         "name(jp)": "命の重みを知る守護者",
         "✓": "✓"
@@ -5782,47 +5784,71 @@
     },
     {
         "realm": "Type-0",
-        "character": "Machina",
-        "unlockCriteria": "Use Machina's Memory Crystal"
-    },
-    {
-        "realm": "Type-0",
-        "character": "Machina",
-        "unlockCriteria": "Use Machina's Memory Crystal II, chance to obtain with Machina in party"
-    },
-    {
-        "realm": "Type-0",
-        "character": "Machina",
-        "unlockCriteria": "Bring Machina to level 99"
+        "character": "Rem",
+        "name": "Dagger Mistress",
+        "effect": "MND +10% when equipping a dagger",
+        "unlockCriteria": "Use Rem's Memory Crystal",
+        "name(jp)": "ダガーを操る少女",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Rem",
-        "unlockCriteria": "Use Rem's Memory Crystal"
+        "name": "Tender Support",
+        "effect": "WHT attacks deal ?% more damage",
+        "unlockCriteria": "Use Rem's Memory Crystal II, chance to obtain with Rem in party",
+        "name(jp)": "親身な対応"
     },
     {
         "realm": "Type-0",
         "character": "Rem",
-        "unlockCriteria": "Use Rem's Memory Crystal II, chance to obtain with Rem in party"
-    },
-    {
-        "realm": "Type-0",
-        "character": "Rem",
+        "effect": "WHT attacks deal ?% more damage",
         "unlockCriteria": "Bring Rem to level 99"
     },
     {
         "realm": "Type-0",
-        "character": "Queen",
-        "unlockCriteria": "Use Queen's Memory Crystal"
+        "character": "Machina",
+        "name": "Breezy Student",
+        "effect": "Spellblade abilities deal 15% more damage",
+        "unlockCriteria": "Use Machina's Memory Crystal",
+        "name(jp)": "さわやかな優等生",
+        "✓": "✓"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Machina",
+        "name": "Pure Spirit",
+        "effect": "?% chance to turn attack into an ability (group, ? physical)",
+        "unlockCriteria": "Use Machina's Memory Crystal II, chance to obtain with Machina in party",
+        "name(jp)": "純粋すぎる心"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Machina",
+        "effect": "Spellblade abilities deal ?% more damage",
+        "unlockCriteria": "Bring Machina to level 99"
     },
     {
         "realm": "Type-0",
         "character": "Queen",
-        "unlockCriteria": "Use Queen's Memory Crystal II, chance to obtain with Queen in party"
+        "name": "Clean Integrity",
+        "effect": "ATK +10% when equipping a sword",
+        "unlockCriteria": "Use Queen's Memory Crystal",
+        "name(jp)": "清廉潔白な賢女",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Queen",
+        "name": "Swift Rush",
+        "effect": "Attack turns into an ability (single, 1,00 physical) with 0,01 cast time",
+        "unlockCriteria": "Use Queen's Memory Crystal II, chance to obtain with Queen in party",
+        "name(jp)": "すばやい突進"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Queen",
+        "effect": "?% chance to turn Attack into Double Cut",
         "unlockCriteria": "Bring Queen to level 99"
     },
     {

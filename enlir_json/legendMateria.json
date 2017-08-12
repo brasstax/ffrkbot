@@ -3633,39 +3633,78 @@
     },
     {
         "realm": "Type-0",
-        "character": "Machina"
+        "character": "Rem",
+        "name": "Spellmaster Exchange Student",
+        "effect": "Increases Holy damage dealt by ?%",
+        "relic": "-",
+        "name(jp)": "魔力に秀でた転入生"
     },
     {
         "realm": "Type-0",
-        "character": "Machina"
+        "character": "Rem",
+        "name": "Throne of Love",
+        "effect": "?% chance to dualcast White Magic abilities",
+        "relic": "-",
+        "name(jp)": "愛の座を司る者"
     },
     {
         "realm": "Type-0",
-        "character": "Machina"
+        "character": "Rem",
+        "name": "Maiden's Love",
+        "effect": "MND +?% for each hit dealt with White Magic abilities, up to +?%",
+        "master": "MND +10",
+        "relic": "Gold Hairpin (Type-0)",
+        "name(jp)": "慈愛の乙女"
     },
     {
         "realm": "Type-0",
-        "character": "Rem"
+        "character": "Machina",
+        "name": "Swordsman Exchange Student",
+        "effect": "Spellblade abilities deal ?% more damage",
+        "relic": "-",
+        "name(jp)": "剣技冴え渡る転入生"
     },
     {
         "realm": "Type-0",
-        "character": "Rem"
+        "character": "Machina",
+        "name": "Throne of Fear",
+        "effect": "?% chance to grant Stoneskin: 30% to the user after using a Spellblade ability",
+        "relic": "-",
+        "name(jp)": "恐れの座を司る者"
     },
     {
         "realm": "Type-0",
-        "character": "Rem"
+        "character": "Machina",
+        "name": "Craving for Power",
+        "effect": "Grants Attach Earth at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Platinum Bangle (Type-0)",
+        "name(jp)": "力を渇望する少年"
     },
     {
         "realm": "Type-0",
-        "character": "Queen"
+        "character": "Queen",
+        "name": "Rational Prodigy",
+        "effect": "Increases Lightning damage dealt by ?%",
+        "relic": "-",
+        "name(jp)": "理路整然な才媛"
     },
     {
         "realm": "Type-0",
-        "character": "Queen"
+        "character": "Queen",
+        "name": "Secret Berserk",
+        "effect": "Restores HP for 100% of the user's maximum HP and grants Queen Trance when HP fall below ?%",
+        "relic": "-",
+        "name(jp)": "秘められた羅刹の心"
     },
     {
         "realm": "Type-0",
-        "character": "Queen"
+        "character": "Queen",
+        "name": "Steely Tactics",
+        "effect": "?% chance to dualcast Lightning abilities",
+        "master": "ATK +10",
+        "relic": "Queen's Natsubi Uniform (Type-0)",
+        "name(jp)": "冷静沈着な戦術"
     },
     {
         "realm": "Beyond",

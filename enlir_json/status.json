@@ -578,7 +578,7 @@
     {
         "id": "262",
         "commonName": "Greased Lightning 1",
-        "effects": "ATK + 15%, cast speed x1,33, removed upon taking damage by any attack",
+        "effects": "ATK + 15%, cast speed x1,33, removed upon taking damage",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -588,7 +588,7 @@
     {
         "id": "263",
         "commonName": "Greased Lightning 2",
-        "effects": "ATK + 30%, cast speed x2,00, removed upon taking damage by any attack",
+        "effects": "ATK + 30%, cast speed x2,00, removed upon taking damage",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -598,7 +598,7 @@
     {
         "id": "264",
         "commonName": "Greased Lightning 3",
-        "effects": "ATK + 50%, cast speed x4,00, removed upon taking damage by any attack",
+        "effects": "ATK + 50%, cast speed x4,00, removed upon taking damage",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -1026,6 +1026,16 @@
         "notes": "-"
     },
     {
+        "id": "282007",
+        "commonName": "White Magic +15% Boost 3",
+        "effects": "White Magic abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_WHITE_MAGIC_115_3",
+        "notes": "-"
+    },
+    {
         "id": "282101",
         "commonName": "Darkness +30% Boost",
         "effects": "Darkness abilities deal 30% more damage",
@@ -1188,7 +1198,7 @@
     {
         "id": "296",
         "commonName": "Gambling Break",
-        "effects": "Grants High Quick Cast 1 and randomly casts Spade/Club/Diamond/Heart Card after dealing damage with a Support ability",
+        "effects": "Grants High Quick Cast 1 and randomly casts Spade/Club/Diamond/Heart Card after using a Support ability",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2415,7 +2425,7 @@
     {
         "id": "50005",
         "commonName": "EX: Master Thief",
-        "effects": "Casts Storm Steal after dealing damage with a Thief ability",
+        "effects": "Casts Storm Steal after using a Thief ability",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2435,7 +2445,7 @@
     {
         "id": "50007",
         "commonName": "EX: Ace",
-        "effects": "ATK +30%, casts Shoot & Run after dealing Water damage with an ability",
+        "effects": "ATK +30%, casts Shoot & Run after using a Water attack",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2547,7 +2557,7 @@
     {
         "id": "50019",
         "commonName": "Lightning Follow-Up",
-        "effects": "Casts Lightning after dealing Dark damage with an ability",
+        "effects": "Casts Lightning after using Dark attack",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2787,7 +2797,7 @@
     {
         "id": "50043",
         "commonName": "Empyrean Edict",
-        "effects": "Casts Thunderstorm after dealing damage with a Black Magic ability",
+        "effects": "Casts Thunderstorm after using a Black Magic ability",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2892,6 +2902,36 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHASE_MODE_FOR_RAGING_FIST",
+        "notes": "-"
+    },
+    {
+        "id": "50054",
+        "commonName": "EX: Vermillion Bird",
+        "effects": "MND +50%, DEF and RES -15%, grants High Quick Cast 1 to the user after exploiting elemental weakness",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_VERMILION_BIRD",
+        "notes": "-"
+    },
+    {
+        "id": "50055",
+        "commonName": "Awakening",
+        "effects": "Cast speed x2,00, casts Blade Rush after using a Spellblade ability, removed upon taking damage",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ASSAULT_MODE_RUSH_BLADE",
+        "notes": "-"
+    },
+    {
+        "id": "50056",
+        "commonName": "Queen Trance",
+        "effects": "ATK +50%, RES -50%, cast speed x2,00",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "QUEEN_TRANCE_MODE",
         "notes": "-"
     },
     {
