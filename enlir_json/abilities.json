@@ -2090,7 +2090,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Holy",
         "gilRequired": 6000,
-        "introducingEvent": "Branded Name",
+        "introducingEvent": "Engraving Our Names",
         "id": 30121301,
         "✓": "✓"
     },
@@ -4905,7 +4905,7 @@
         "orb2Required": "Major Black",
         "orb3Required": "Major Earth",
         "gilRequired": 20000,
-        "introducingEvent": "Branded Name",
+        "introducingEvent": "Engraving Our Names",
         "id": 30141161,
         "✓": "✓"
     },

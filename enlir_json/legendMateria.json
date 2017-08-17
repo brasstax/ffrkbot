@@ -3635,17 +3635,19 @@
         "realm": "Type-0",
         "character": "Rem",
         "name": "Spellmaster Exchange Student",
-        "effect": "Increases Holy damage dealt by ?%",
+        "effect": "Increases Holy damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "魔力に秀でた転入生"
+        "name(jp)": "魔力に秀でた転入生",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Rem",
         "name": "Throne of Love",
-        "effect": "?% chance to dualcast White Magic abilities",
+        "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
-        "name(jp)": "愛の座を司る者"
+        "name(jp)": "愛の座を司る者",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
@@ -3701,10 +3703,11 @@
         "realm": "Type-0",
         "character": "Queen",
         "name": "Steely Tactics",
-        "effect": "?% chance to dualcast Lightning abilities",
+        "effect": "25% chance to dualcast Lightning abilities",
         "master": "ATK +10",
         "relic": "Queen's Natsubi Uniform (Type-0)",
-        "name(jp)": "冷静沈着な戦術"
+        "name(jp)": "冷静沈着な戦術",
+        "✓": "✓"
     },
     {
         "realm": "Beyond",

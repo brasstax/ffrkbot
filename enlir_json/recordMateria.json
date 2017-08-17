@@ -2711,7 +2711,7 @@
         "realm": "VI",
         "character": "Leo",
         "name": "One Against Many",
-        "effect": "Attack turns into an ability (group, 1,00 physical) with 4,5 cast time",
+        "effect": "Attack turns into an ability (group, 1,00 physical) with 4,50 cast time",
         "unlockCriteria": "Use Leo's Memory Crystal II, chance to obtain with Leo in party",
         "name(jp)": "一騎当千",
         "✓": "✓"
@@ -5795,15 +5795,19 @@
         "realm": "Type-0",
         "character": "Rem",
         "name": "Tender Support",
-        "effect": "WHT attacks deal ?% more damage",
+        "effect": "WHT attacks deal 20% more damage",
         "unlockCriteria": "Use Rem's Memory Crystal II, chance to obtain with Rem in party",
-        "name(jp)": "親身な対応"
+        "name(jp)": "親身な対応",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Rem",
-        "effect": "WHT attacks deal ?% more damage",
-        "unlockCriteria": "Bring Rem to level 99"
+        "name": "Ungraspable Thoughts",
+        "effect": "WHT attacks deal 30% more damage",
+        "unlockCriteria": "Bring Rem to level 99",
+        "name(jp)": "一途な想い",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
@@ -5818,15 +5822,19 @@
         "realm": "Type-0",
         "character": "Machina",
         "name": "Pure Spirit",
-        "effect": "?% chance to turn attack into an ability (group, ? physical)",
+        "effect": "Attack turns into an ability (group, 1,00 physical) with 4,50 cast time",
         "unlockCriteria": "Use Machina's Memory Crystal II, chance to obtain with Machina in party",
-        "name(jp)": "純粋すぎる心"
+        "name(jp)": "純粋すぎる心",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Machina",
-        "effect": "Spellblade abilities deal ?% more damage",
-        "unlockCriteria": "Bring Machina to level 99"
+        "name": "Spiral Blades",
+        "effect": "Spellblade abilities deal 40% more damage",
+        "unlockCriteria": "Bring Machina to level 99",
+        "name(jp)": "振るいし螺旋の刃",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
@@ -5848,8 +5856,10 @@
     {
         "realm": "Type-0",
         "character": "Queen",
+        "name": "Strength of Reason",
         "effect": "?% chance to turn Attack into Double Cut",
-        "unlockCriteria": "Bring Queen to level 99"
+        "unlockCriteria": "Bring Queen to level 99",
+        "name(jp)": "賢き力を司る者"
     },
     {
         "realm": "Beyond",
