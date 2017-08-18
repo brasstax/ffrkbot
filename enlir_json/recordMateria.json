@@ -5184,48 +5184,72 @@
     },
     {
         "realm": "XIV",
-        "character": "Haurchefant",
-        "unlockCriteria": "Use Haurchefant's Memory Crystal"
+        "character": "Ysayle",
+        "name": "Icy Girl",
+        "effect": "MAG +10%, ATK -10%",
+        "unlockCriteria": "Use Ysayle's Memory Crystal",
+        "name(jp)": "凍えし少女",
+        "✓": "✓"
+    },
+    {
+        "realm": "XIV",
+        "character": "Ysayle",
+        "name": "Heretic Priestess",
+        "effect": "Increases Ice damage dealt by ?%",
+        "unlockCriteria": "Use Ysayle's Memory Crystal II, chance to obtain with Ysayle in party",
+        "name(jp)": "異端者を総べる巫女"
+    },
+    {
+        "realm": "XIV",
+        "character": "Ysayle",
+        "effect": "Attack turns into an ability (group, ? magical) that deals Ice damage",
+        "unlockCriteria": "Bring Ysayle to level 99"
     },
     {
         "realm": "XIV",
         "character": "Haurchefant",
-        "unlockCriteria": "Use Haurchefant's Memory Crystal II, chance to obtain with Haurchefant in party"
+        "name": "Knightly Teachings",
+        "effect": "Knight abilities deal 15% more damage",
+        "unlockCriteria": "Use Haurchefant's Memory Crystal",
+        "name(jp)": "騎士の教え",
+        "✓": "✓"
     },
     {
         "realm": "XIV",
         "character": "Haurchefant",
+        "name": "Knight of the Fortemps",
+        "effect": "DEF +?% when equipping a shield",
+        "unlockCriteria": "Use Haurchefant's Memory Crystal II, chance to obtain with Haurchefant in party",
+        "name(jp)": "フォルタン家のイイ騎士"
+    },
+    {
+        "realm": "XIV",
+        "character": "Haurchefant",
+        "effect": "??? and ??? +?% when equipping a shield",
         "unlockCriteria": "Bring Haurchefant to level 99"
     },
     {
         "realm": "XIV",
         "character": "Estinien",
-        "unlockCriteria": "Use Estinien's Memory Crystal"
+        "name": "Dragonhunter",
+        "effect": "PHY attacks deal 10% more damage when equipping a spear",
+        "unlockCriteria": "Use Estinien's Memory Crystal",
+        "name(jp)": "竜を狩る者",
+        "✓": "✓"
     },
     {
         "realm": "XIV",
         "character": "Estinien",
-        "unlockCriteria": "Use Estinien's Memory Crystal II, chance to obtain with Estinien in party"
+        "name": "Name of the Dragon",
+        "effect": "Jump attacks deal ?% more damage",
+        "unlockCriteria": "Use Estinien's Memory Crystal II, chance to obtain with Estinien in party",
+        "name(jp)": "屠龍の名"
     },
     {
         "realm": "XIV",
         "character": "Estinien",
+        "effect": "Dragoon abilities deal ?% more damage",
         "unlockCriteria": "Bring Estinien to level 99"
-    },
-    {
-        "realm": "XIV",
-        "character": "Ysayle",
-        "unlockCriteria": "Use Ysayle's Memory Crystal"
-    },
-    {
-        "realm": "XIV",
-        "character": "Ysayle",
-        "unlockCriteria": "Use Ysayle's Memory Crystal II, chance to obtain with Ysayle in party"
-    },
-    {
-        "realm": "XIV",
-        "character": "Ysayle",
-        "unlockCriteria": "Bring Ysayle to level 99"
     },
     {
         "realm": "XV",
@@ -5257,7 +5281,7 @@
     {
         "realm": "XV",
         "character": "Gladiolus",
-        "name": "Reliable Brother",
+        "name": "Staunch Ally",
         "effect": "DEF +5% for each 10% missing HP",
         "unlockCriteria": "Use Gladiolus' Memory Crystal",
         "name(jp)": "頼りになる兄貴分",
@@ -5266,7 +5290,7 @@
     {
         "realm": "XV",
         "character": "Gladiolus",
-        "name": "Strong Guardian",
+        "name": "Stalwart Watch",
         "effect": "Grants Protect at the beginning of the battle",
         "unlockCriteria": "Use Gladiolus' Memory Crystal II, chance to obtain with Gladiolus in party",
         "name(jp)": "強固なる防人",
@@ -5275,7 +5299,7 @@
     {
         "realm": "XV",
         "character": "Gladiolus",
-        "name": "Crownsguard's Cornerstone",
+        "name": "Crown Defense",
         "effect": "ATK +15% when equipping a shield",
         "unlockCriteria": "Bring Gladiolus to level 99",
         "name(jp)": "王都警備隊の要",
@@ -5311,7 +5335,7 @@
     {
         "realm": "XV",
         "character": "Iris",
-        "name": "Prince's Childhood Friend",
+        "name": "Puppy Love",
         "effect": "WHT abilities restore 10% more HP",
         "unlockCriteria": "Use Iris' Memory Crystal",
         "name(jp)": "王子を慕う幼馴染",
@@ -5320,7 +5344,7 @@
     {
         "realm": "XV",
         "character": "Iris",
-        "name": "Walking Together",
+        "name": "The Two of Us",
         "effect": "Attack turns into a single heal (26)",
         "unlockCriteria": "Use Iris' Memory Crystal II, chance to obtain with Iris in party",
         "name(jp)": "ふたりでおさんぽ",
@@ -5329,7 +5353,7 @@
     {
         "realm": "XV",
         "character": "Iris",
-        "name": "Inner Strength",
+        "name": "Stern Stuff",
         "effect": "35% chance to counter attacks that cause Slow with an ability that grants Haste to the user",
         "unlockCriteria": "Bring Iris to level 99",
         "name(jp)": "芯の強き少女",

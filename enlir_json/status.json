@@ -651,7 +651,7 @@
         "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
         "defaultDuration": "-",
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Summon\" status",
+        "exclusiveStatus": "All other \"Summoning Strike\" status",
         "codedName": "SUMMONING",
         "notes": "-"
     },
@@ -661,7 +661,7 @@
         "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
         "defaultDuration": "-",
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Summon\" status",
+        "exclusiveStatus": "All other \"Summoning Strike\" status",
         "codedName": "SUMMONING_003",
         "notes": "-"
     },
@@ -671,7 +671,7 @@
         "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
         "defaultDuration": "-",
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Summon\" status",
+        "exclusiveStatus": "All other \"Summoning Strike\" status",
         "codedName": "SUMMONING_004",
         "notes": "-"
     },
@@ -681,7 +681,7 @@
         "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
         "defaultDuration": "-",
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Summon\" status",
+        "exclusiveStatus": "All other \"Summoning Strike\" status",
         "codedName": "SUMMONING_005",
         "notes": "-"
     },
@@ -691,7 +691,7 @@
         "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
         "defaultDuration": "-",
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Summon\" status",
+        "exclusiveStatus": "All other \"Summoning Strike\" status",
         "codedName": "SUMMONING_006",
         "notes": "-"
     },
@@ -741,7 +741,7 @@
         "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
         "defaultDuration": "-",
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Summon\" status",
+        "exclusiveStatus": "All other \"Summoning Strike\" status",
         "codedName": "BLACK_DRAGON_SUMMONING",
         "notes": "-"
     },
@@ -1026,6 +1026,16 @@
         "notes": "-"
     },
     {
+        "id": "282006",
+        "commonName": "Jump +15% Boost 3",
+        "effects": "Jump attacks deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_FLIGHT_ATTACK_115_3",
+        "notes": "-"
+    },
+    {
         "id": "282007",
         "commonName": "White Magic +15% Boost 3",
         "effects": "White Magic abilities deal 15% more damage, lasts for 3 turns",
@@ -1121,7 +1131,7 @@
         "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
         "defaultDuration": "-",
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Summon\" status",
+        "exclusiveStatus": "All other \"Summoning Strike\" status",
         "codedName": "ACTIVATE_SUMMONING",
         "notes": "-"
     },
@@ -1463,6 +1473,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_CAST_TIME_MAX_15000_MSEC_FLIGHT_ATTACK",
+        "notes": "-"
+    },
+    {
+        "id": "2054",
+        "commonName": "Short Quick Cast",
+        "effects": "Cast speed x2,00",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_MSEC_ALL",
         "notes": "-"
     },
     {
@@ -2935,6 +2955,86 @@
         "notes": "-"
     },
     {
+        "id": "50057",
+        "commonName": "Zero Physical Damage V2",
+        "effects": "Reduces to 0 all damage received from non-NIN attacks that deal physical damage and all damage received from PHY attacks ",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ADJUST_DAMAGE_ZERO_PHYSICAL_V2",
+        "notes": "-"
+    },
+    {
+        "id": "50058",
+        "commonName": "Zero Magical Damage V2",
+        "effects": "Reduces to 0 all damage received from non-NIN attacks that deal magical damage and all damage received from BLK, WHT, BLU or SUM attacks ",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ADJUST_DAMAGE_ZERO_MAGIC_V2",
+        "notes": "-"
+    },
+    {
+        "id": "50059",
+        "commonName": "No Air Time 4",
+        "effects": "Changes the air time of Jump attacks to 0.01 seconds, lasts for 4 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ZERO_FLIGHT_4",
+        "notes": "-"
+    },
+    {
+        "id": "50060",
+        "commonName": "Azure Dragoon",
+        "effects": "Grants Quick Cast 1 after using a Dragoon ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_DRAGOON",
+        "notes": "-"
+    },
+    {
+        "id": "50061",
+        "commonName": "Blood of the Dragon",
+        "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Summoning Strike\" status",
+        "codedName": "BLUE_DRAGON_BLOOD",
+        "notes": "-"
+    },
+    {
+        "id": "50062",
+        "commonName": "Icicle Impact",
+        "effects": "Casts Ice Brand after using a Ice attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_ICICLE_IMPACT",
+        "notes": "-"
+    },
+    {
+        "id": "50063",
+        "commonName": "Gauss Round",
+        "effects": "Casts Wild Fire when removed",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EXIT_ABILITY_FOR_GAUSS_ROUND",
+        "notes": "-"
+    },
+    {
+        "id": "50064",
+        "commonName": "Haurcefant Cover",
+        "effects": "While front row, 100% chance to cover PHY, BLK, WHT, BLU and SUM attacks that target back row allies, reducing damage taken by 50%",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "COVER_FOR_HAURCHEFANT",
+        "notes": "-"
+    },
+    {
         "id": "601",
         "commonName": "MAG +X%",
         "effects": "MAG +X%",
@@ -3558,6 +3658,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CUSTOM_PARAM_MULTI_ATK_30_MATK_30_DEF_M30",
+        "notes": "-"
+    },
+    {
+        "id": "6021",
+        "commonName": "Cover Boost",
+        "effects": "DEF and RES +100%, MND +50%",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_DEF_100_MDEF_100_MND_50",
         "notes": "-"
     },
     {

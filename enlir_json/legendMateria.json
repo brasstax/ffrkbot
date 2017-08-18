@@ -1375,17 +1375,19 @@
         "realm": "VII",
         "character": "Aerith",
         "name": "Descendant of the Ancients",
-        "effect": "WHT abilities restore ?% more HP",
+        "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
-        "name(jp)": "古代種の末裔"
+        "name(jp)": "古代種の末裔",
+        "✓": "✓"
     },
     {
         "realm": "VII",
         "character": "Aerith",
         "name": "Caretaker of the Planet",
-        "effect": "?% chance to cast a group heal (?) after using a White Magic ability",
+        "effect": "35% chance to cast a group heal (25) after using a White Magic ability",
         "relic": "-",
-        "name(jp)": "星を見守る慈母"
+        "name(jp)": "星を見守る慈母",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -1729,17 +1731,19 @@
         "realm": "VIII",
         "character": "Seifer",
         "name": "Bad Seed",
-        "effect": "Increases Dark damage dealt by ?%",
+        "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "問題児の暴走"
+        "name(jp)": "問題児の暴走",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
         "character": "Seifer",
         "name": "Drive to Win",
-        "effect": "Grants Last Stand and Reraise: ?% at the beginning of the battle",
+        "effect": "Grants Last Stand and Reraise: 40% at the beginning of the battle",
         "relic": "-",
-        "name(jp)": "勝利への執念"
+        "name(jp)": "勝利への執念",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -2787,17 +2791,19 @@
         "realm": "XIII",
         "character": "Sazh",
         "name": "Cheerful Father",
-        "effect": "Support abilities deal ?% more damage",
+        "effect": "Support abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "陽気な父ちゃん"
+        "name(jp)": "陽気な父ちゃん",
+        "✓": "✓"
     },
     {
         "realm": "XIII",
         "character": "Sazh",
         "name": "Love for the Son",
-        "effect": "Increases the duration of stat buffs by ?%",
+        "effect": "Increases the duration of stat buffs by 40%",
         "relic": "-",
-        "name(jp)": "息子への想い"
+        "name(jp)": "息子への想い",
+        "✓": "✓"
     },
     {
         "realm": "XIII",
@@ -3019,16 +3025,30 @@
     {
         "realm": "XIV",
         "character": "Alphinaud",
-        "relic": "-"
+        "name": "Newfound Resolve",
+        "effect": "SUM attacks deal 10% more damage",
+        "relic": "-",
+        "name(jp)": "新たなる決意",
+        "✓": "✓"
     },
     {
         "realm": "XIV",
         "character": "Alphinaud",
-        "relic": "-"
+        "name": "Idealist of Salvation",
+        "effect": "35% chance to dualcast Summoning abilities",
+        "relic": "-",
+        "name(jp)": "救世の策士",
+        "✓": "✓"
     },
     {
         "realm": "XIV",
-        "character": "Alphinaud"
+        "character": "Alphinaud",
+        "name": "Journey of Learning",
+        "effect": "Grants Attach Wind at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Caller's Himation (XIV)",
+        "name(jp)": "学び多き旅路",
+        "✓": "✓"
     },
     {
         "realm": "XIV",
@@ -3061,63 +3081,109 @@
     {
         "realm": "XIV",
         "character": "Cid (XIV)",
-        "relic": "-"
+        "name": "Knowledge of Allagan",
+        "effect": "Machinist abilities deal ?% more damage",
+        "relic": "-",
+        "name(jp)": "古代アラグ文明の知識"
     },
     {
         "realm": "XIV",
         "character": "Cid (XIV)",
-        "relic": "-"
+        "name": "Skybound Machinist",
+        "effect": "?% chance to dualcast Machinist abilities",
+        "relic": "-",
+        "name(jp)": "天を駆ける技師"
     },
     {
         "realm": "XIV",
-        "character": "Cid (XIV)"
-    },
-    {
-        "realm": "XIV",
-        "character": "Haurchefant",
-        "relic": "-"
-    },
-    {
-        "realm": "XIV",
-        "character": "Haurchefant",
-        "relic": "-"
-    },
-    {
-        "realm": "XIV",
-        "character": "Haurchefant"
-    },
-    {
-        "realm": "XIV",
-        "character": "Estinien",
-        "relic": "-"
-    },
-    {
-        "realm": "XIV",
-        "character": "Estinien",
-        "relic": "-"
-    },
-    {
-        "realm": "XIV",
-        "character": "Estinien"
+        "character": "Cid (XIV)",
+        "name": "Technology for Freedom",
+        "effect": "Machinist abilities deal ?% more damage when equipping a gun",
+        "master": "ATK +10",
+        "relic": "Machinist's Shirt (XIV)",
+        "name(jp)": "自由のための技術"
     },
     {
         "realm": "XIV",
         "character": "Ysayle",
-        "relic": "-"
+        "name": "Saint's Spirit",
+        "effect": "Increases Ice damage dealt by ?%",
+        "relic": "-",
+        "name(jp)": "聖女に重ねた心"
     },
     {
         "realm": "XIV",
         "character": "Ysayle",
-        "relic": "-"
+        "name": "Aspect of the Goddess",
+        "effect": "?% chance to grant Quick Cast 3 to the user after using a Ice attack",
+        "relic": "-",
+        "name(jp)": "神降ろしの巫女"
     },
     {
         "realm": "XIV",
-        "character": "Ysayle"
+        "character": "Ysayle",
+        "name": "Beyond Feelings",
+        "effect": "?% chance to cause Minor Imperil Ice to the target after using a Ice attack on an enemy",
+        "master": "MAG +10",
+        "relic": "Halonic Exorcist's Rod (XIV)",
+        "name(jp)": "想いを超える力"
+    },
+    {
+        "realm": "XIV",
+        "character": "Haurchefant",
+        "name": "Silver-Haired Swordsman",
+        "effect": "Knight abilities deal ?% more damage",
+        "relic": "-",
+        "name(jp)": "銀髪の剣士"
+    },
+    {
+        "realm": "XIV",
+        "character": "Haurchefant",
+        "name": "Proud Hero",
+        "effect": "Restores HP for 100% of the user's maximum HP and grants Last Stand and HP Stock (2000) when HP fall below ?%",
+        "relic": "-",
+        "name(jp)": "誇り高き英雄"
+    },
+    {
+        "realm": "XIV",
+        "character": "Haurchefant",
+        "name": "Shield's Oath",
+        "effect": "25% chance to reduce damage taken by 30% when equipping a shield",
+        "master": "ATK +10",
+        "relic": "Fortemps Haubergeon (XIV)",
+        "name(jp)": "一角獣への誓い",
+        "✓": "✓"
+    },
+    {
+        "realm": "XIV",
+        "character": "Estinien",
+        "name": "Vengeful Resolve",
+        "effect": "Dragoon abilities deal ?% more damage",
+        "relic": "-",
+        "name(jp)": "復讐の決意"
+    },
+    {
+        "realm": "XIV",
+        "character": "Estinien",
+        "name": "Dragoon of the Azure Skies",
+        "effect": "?% chance to grant Quick Cast 3 to the user after using a Dragoon ability",
+        "relic": "-",
+        "name(jp)": "蒼天の竜騎士"
+    },
+    {
+        "realm": "XIV",
+        "character": "Estinien",
+        "name": "Piercing Will",
+        "effect": "Grants Attach Wind at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Drachen Gauntlets (XIV)",
+        "name(jp)": "貫く意思の槍",
+        "✓": "✓"
     },
     {
         "realm": "XV",
         "character": "Noctis",
-        "name": "Trail of the True King",
+        "name": "Path of the True King",
         "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "真なる王への軌跡",
@@ -3126,7 +3192,7 @@
     {
         "realm": "XV",
         "character": "Noctis",
-        "name": "Successor of the Father King",
+        "name": "Heir to Greatness",
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "偉大な父王の跡継ぎ",
@@ -3145,7 +3211,7 @@
     {
         "realm": "XV",
         "character": "Gladiolus",
-        "name": "Vanguard Valor",
+        "name": "Leader of the Van",
         "effect": "PHY attacks deal ?% more damage when equipping a sword",
         "relic": "-",
         "name(jp)": "先陣を切る武勇"
@@ -3153,7 +3219,7 @@
     {
         "realm": "XV",
         "character": "Gladiolus",
-        "name": "Guardian Servant",
+        "name": "To Duty Born",
         "effect": "ATK +?% for each hit taken by damaging attacks, up to +?%",
         "relic": "-",
         "name(jp)": "守護者たる器"
@@ -3199,7 +3265,7 @@
     {
         "realm": "XV",
         "character": "Iris",
-        "name": "Amicitia Teachings",
+        "name": "Amicitia Touch",
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "アミシティア家の教え",
@@ -3208,7 +3274,7 @@
     {
         "realm": "XV",
         "character": "Iris",
-        "name": "Brave Logistic Support",
+        "name": "Got Your Back",
         "effect": "MND +1% for each hit dealt with White Magic abilities, up to +35%",
         "relic": "-",
         "name(jp)": "健気な後方支援",
