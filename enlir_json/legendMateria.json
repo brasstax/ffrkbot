@@ -3098,10 +3098,11 @@
         "realm": "XIV",
         "character": "Cid (XIV)",
         "name": "Technology for Freedom",
-        "effect": "Machinist abilities deal ?% more damage when equipping a gun",
+        "effect": "Machinist abilities deal 25% more damage when equipping a gun",
         "master": "ATK +10",
         "relic": "Machinist's Shirt (XIV)",
-        "name(jp)": "自由のための技術"
+        "name(jp)": "自由のための技術",
+        "✓": "✓"
     },
     {
         "realm": "XIV",
@@ -3123,10 +3124,11 @@
         "realm": "XIV",
         "character": "Ysayle",
         "name": "Beyond Feelings",
-        "effect": "?% chance to cause Minor Imperil Ice to the target after using a Ice attack on an enemy",
+        "effect": "20% chance to cause Minor Imperil Ice to the target after using a Ice attack on an enemy",
         "master": "MAG +10",
         "relic": "Halonic Exorcist's Rod (XIV)",
-        "name(jp)": "想いを超える力"
+        "name(jp)": "想いを超える力",
+        "✓": "✓"
     },
     {
         "realm": "XIV",
@@ -3719,10 +3721,11 @@
         "realm": "Type-0",
         "character": "Rem",
         "name": "Maiden's Love",
-        "effect": "MND +?% for each hit dealt with White Magic abilities, up to +?%",
+        "effect": "MND +1% for each hit dealt with White Magic abilities, up to +25%",
         "master": "MND +10",
         "relic": "Gold Hairpin (Type-0)",
-        "name(jp)": "慈愛の乙女"
+        "name(jp)": "慈愛の乙女",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
@@ -3747,7 +3750,8 @@
         "effect": "Grants Attach Earth at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Platinum Bangle (Type-0)",
-        "name(jp)": "力を渇望する少年"
+        "name(jp)": "力を渇望する少年",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
