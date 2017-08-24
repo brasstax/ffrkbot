@@ -1187,8 +1187,8 @@
     },
     {
         "id": "294",
-        "commonName": "EX: Spellblade Flurry",
-        "effects": "ATK +30%, cast speed x2,00, casts Wind/Water/Fire/Earth Flurry after dealing Wind/Water/Fire/Earth damage with a Spellblade ability",
+        "commonName": "EX: Spellblade Barrage",
+        "effects": "ATK +30%, cast speed x2,00, casts Wind/Water/Fire/Earth Barrage after dealing Wind/Water/Fire/Earth damage with a Spellblade ability",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2385,7 +2385,7 @@
     {
         "id": "596",
         "commonName": "Flame Cloak",
-        "effects": "Affects certain Burst Commands, 50% chance of countering enemy PHY attacks with Backfire",
+        "effects": "Affects certain Burst Commands, 50% chance of countering enemy PHY attacks with Fiery Retribution",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3664,7 +3664,7 @@
         "id": "6021",
         "commonName": "Cover Boost",
         "effects": "DEF and RES +100%, MND +50%",
-        "defaultDuration": "15",
+        "defaultDuration": "25",
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CUSTOM_PARAM_MULTI_DEF_100_MDEF_100_MND_50",

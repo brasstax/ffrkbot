@@ -1177,6 +1177,26 @@
     },
     {
         "realm": "I",
+        "character": "Garland",
+        "counter": "?",
+        "autoTarget": "?",
+        "points": "500",
+        "tier": "USB",
+        "master": "ATK +10",
+        "id": "22310008"
+    },
+    {
+        "realm": "I",
+        "character": "Garland",
+        "counter": "?",
+        "autoTarget": "?",
+        "points": "500",
+        "tier": "BSB",
+        "master": "ATK +10",
+        "id": "22310009"
+    },
+    {
+        "realm": "I",
         "character": "Sarah",
         "name": "Guiding Light",
         "type": "WHT",
@@ -1263,6 +1283,16 @@
         "name(jp)": "古の祈り歌",
         "id": "22300005",
         "✓": "✓"
+    },
+    {
+        "realm": "I",
+        "character": "Sarah",
+        "counter": "?",
+        "autoTarget": "?",
+        "points": "500",
+        "tier": "USB",
+        "master": "MND +10",
+        "id": "22300006"
     },
     {
         "realm": "I",
@@ -1545,6 +1575,16 @@
     },
     {
         "realm": "I",
+        "character": "Master",
+        "counter": "?",
+        "autoTarget": "?",
+        "points": "500",
+        "tier": "USB",
+        "master": "ATK +10",
+        "id": "22580004"
+    },
+    {
+        "realm": "I",
         "character": "Matoya",
         "name": "Cleansing Tincture",
         "type": "WHT",
@@ -1598,6 +1638,16 @@
         "name(jp)": "魔女の秘薬",
         "id": "22590002",
         "✓": "✓"
+    },
+    {
+        "realm": "I",
+        "character": "Matoya",
+        "counter": "?",
+        "autoTarget": "?",
+        "points": "500",
+        "tier": "USB",
+        "master": "MAG +10",
+        "id": "22590004"
     },
     {
         "realm": "I",
@@ -1689,7 +1739,31 @@
         "points": "500",
         "tier": "Default",
         "relic": "-",
+        "id": "23140003"
+    },
+    {
+        "realm": "I",
+        "character": "Thief (I)",
+        "type": "?",
+        "time": "?",
+        "counter": "?",
+        "autoTarget": "?",
+        "points": "500",
+        "tier": "BSB",
+        "master": "ATK +10",
         "id": "23140001"
+    },
+    {
+        "realm": "I",
+        "character": "Thief (I)",
+        "type": "?",
+        "time": "?",
+        "counter": "?",
+        "autoTarget": "?",
+        "points": "500",
+        "tier": "SSB",
+        "master": "ATK +10",
+        "id": "23140002"
     },
     {
         "realm": "II",
@@ -6127,14 +6201,14 @@
     {
         "realm": "V",
         "character": "Bartz",
-        "name": "Chosen Traveller",
+        "name": "Chosen Traveler",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
         "multiplier": 7,
         "element": "Wind, Water, Fire, Earth",
         "time": 2.5,
-        "effects": "Ten single attacks (0,70 each), grants EX: Spellblade Flurry to the user for 15 seconds",
+        "effects": "Ten single attacks (0,70 each), grants EX: Spellblade Barrage to the user for 15 seconds",
         "counter": "N",
         "autoTarget": "Lowest HP% enemy",
         "points": "500",
@@ -6148,7 +6222,7 @@
     {
         "realm": "V",
         "character": "Bartz",
-        "name": "Dwelling Earth",
+        "name": "Latent Power",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -6161,7 +6235,7 @@
         "points": "500",
         "tier": "BSB",
         "master": "ATK +10",
-        "relic": "Great Sword (V)",
+        "relic": "Greatsword (V)",
         "name(jp)": "土のかけらに宿りし力",
         "id": "20400011",
         "✓": "✓"

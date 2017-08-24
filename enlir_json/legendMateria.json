@@ -68,7 +68,7 @@
         "realm": "I",
         "character": "Garland",
         "name": "Font of Darkness",
-        "effect": "40% chance of restioring HP to the user for 40% of the damage dealt after using a single-target Dark attack",
+        "effect": "40% chance of restoring HP to the user for 40% of the damage dealt after using a single-target Dark attack",
         "relic": "-",
         "name(jp)": "闇の元凶",
         "✓": "✓"
@@ -95,7 +95,9 @@
     },
     {
         "realm": "I",
-        "character": "Sarah"
+        "character": "Sarah",
+        "effect": "?% chance to cast a group heal (?) after using a Bard ability",
+        "master": "MND +10"
     },
     {
         "realm": "I",
@@ -109,7 +111,9 @@
     },
     {
         "realm": "I",
-        "character": "Echo"
+        "character": "Echo",
+        "effect": "?% chance to cast an ability (group) that restores HP for ?% of the target's maximum HP after using a Dancer ability",
+        "master": "MAG +10"
     },
     {
         "realm": "I",
@@ -151,7 +155,9 @@
     },
     {
         "realm": "I",
-        "character": "Matoya"
+        "character": "Matoya",
+        "effect": "Witch abilities deal ?% more damage when equipping a staff",
+        "master": "MAG +10"
     },
     {
         "realm": "I",
@@ -165,7 +171,9 @@
     },
     {
         "realm": "I",
-        "character": "Meia"
+        "character": "Meia",
+        "effect": "Grants Attach Water at the beginning of the battle",
+        "master": "MAG +10"
     },
     {
         "realm": "I",
@@ -179,7 +187,9 @@
     },
     {
         "realm": "I",
-        "character": "Thief (I)"
+        "character": "Thief (I)",
+        "effect": "?% chance to increase Gil gained at the end of battle by 30% when equipping a dagger",
+        "master": "ATK +10"
     },
     {
         "realm": "II",

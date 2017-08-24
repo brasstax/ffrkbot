@@ -4730,7 +4730,7 @@
         "orb2Required": "Major Black",
         "orb3Required": "Major Earth",
         "gilRequired": 20000,
-        "introducingEvent": "Four Hearts",
+        "introducingEvent": "Four as One",
         "id": 30141091,
         "✓": "✓"
     },
@@ -7872,7 +7872,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
         "gilRequired": 20000,
-        "introducingEvent": "The Shadow Lord Awakens",
+        "introducingEvent": "The Shadow Stirs",
         "id": 30271101,
         "✓": "✓"
     },

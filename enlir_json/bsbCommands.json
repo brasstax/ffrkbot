@@ -2263,8 +2263,8 @@
     },
     {
         "character": "Bartz",
-        "source": "Dwelling Earth",
-        "name": "Flurry Crush",
+        "source": "Latent Power",
+        "name": "Sundering Spellblade",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -2282,8 +2282,8 @@
     },
     {
         "character": "Bartz",
-        "source": "Dwelling Earth",
-        "name": "Inherited Dust Sword",
+        "source": "Latent Power",
+        "name": "Whirling Sands",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
