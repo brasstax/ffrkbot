@@ -1446,6 +1446,16 @@
         "notes": "-"
     },
     {
+        "id": "2025",
+        "commonName": "Quick Thief Abilities 2",
+        "effects": "Cast speed x2,00 for Thief abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_THIEF",
+        "notes": "-"
+    },
+    {
         "id": "2051",
         "commonName": "Quick Cast",
         "effects": "Cast speed x2,00",
@@ -2455,7 +2465,7 @@
     {
         "id": "50006",
         "commonName": "EX: Loyal Retainer",
-        "effects": "ATK +30%, cast speed x1,50 plus x0,50 for each attack used for the duration of the status, up to x6,00",
+        "effects": "ATK +30%, cast speed x2,00 plus x0,50 for each attack used for the duration of the status, up to x6,50",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2847,7 +2857,7 @@
     {
         "id": "50046",
         "commonName": "EX: Ninja",
-        "effects": "ATK +30%, cast speed x1,00 plus x0,30 for each attack used for the duration of the status, up to x3,00",
+        "effects": "ATK +30%, cast speed x1,30 plus x0,30 for each attack used for the duration of the status, up to x3,40",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3032,6 +3042,66 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "COVER_FOR_HAURCHEFANT",
+        "notes": "-"
+    },
+    {
+        "id": "50065",
+        "commonName": "Root of Hatred",
+        "effects": "Grants Quick Cast 1 after using a Darkness ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_IF_DARKNESS_CATEGORY",
+        "notes": "-"
+    },
+    {
+        "id": "50066",
+        "commonName": "Crystal Spell",
+        "effects": "Grants Quick Cast 1 after using a Witch ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_IF_WITCH_CATEGORY",
+        "notes": "-"
+    },
+    {
+        "id": "50067",
+        "commonName": "Chaos Follow-Up",
+        "effects": "Casts Chaos Follow-Up after using a Darkness ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_CHASE_OF_CHAOS",
+        "notes": "-"
+    },
+    {
+        "id": "50068",
+        "commonName": "Unarmed Champion",
+        "effects": "Casts Rush after dealing a critical hit",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_UNARMED_CHAMPION",
+        "notes": "-"
+    },
+    {
+        "id": "50069",
+        "commonName": "B Select Follow-Up",
+        "effects": "Casts TCELES B HSUP after exploiting elemental weakness",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_TCELES_NOTTUB_B",
+        "notes": "-"
+    },
+    {
+        "id": "50072",
+        "commonName": "Chain Cast Counter",
+        "effects": "Keeps track of the number of uses of Chain Cast, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_MASTER_OF_REINCARNATION",
         "notes": "-"
     },
     {

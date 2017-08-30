@@ -114,6 +114,44 @@
         "✓": "✓"
     },
     {
+        "character": "Garland",
+        "source": "Dark Class Change",
+        "name": "Chain Cast",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 0.8,
+        "element": "Dark, NE",
+        "time": 1.65,
+        "effects": "Two single attacks (0,40 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Darkness",
+        "name(jp)": "チェーンバンプ",
+        "id": "30512301",
+        "✓": "✓"
+    },
+    {
+        "character": "Garland",
+        "source": "Dark Class Change",
+        "name": "Twist Drill",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.16,
+        "element": "Dark, NE",
+        "time": 1.65,
+        "effects": "4/5/6/7 single attacks (0,54/0,89/1,05/1,25 each) scaling with Chain Cast uses, +0/5/10/25% critical chance",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Darkness",
+        "name(jp)": "ツイストドリル",
+        "id": "30512302",
+        "✓": "✓"
+    },
+    {
         "character": "Sarah",
         "source": "Age-old Hymn",
         "name": "Inviolate Prayer",
@@ -340,7 +378,7 @@
     },
     {
         "character": "Meia",
-        "source": "Summon Famfrit",
+        "source": "Famfrit",
         "name": "Pallida Fructus",
         "type": "SUM",
         "target": "Self",
@@ -356,7 +394,7 @@
     },
     {
         "character": "Meia",
-        "source": "Summon Famfrit",
+        "source": "Famfrit",
         "name": "Pallida Fructus (S)",
         "type": "SUM",
         "target": "All enemies",
@@ -375,7 +413,7 @@
     },
     {
         "character": "Meia",
-        "source": "Summon Famfrit",
+        "source": "Famfrit",
         "name": "Pallida Sharing",
         "type": "SUM",
         "target": "Single enemy",
@@ -394,7 +432,7 @@
     },
     {
         "character": "Meia",
-        "source": "Summon Famfrit",
+        "source": "Famfrit",
         "name": "Pallida Sharing (S)",
         "type": "SUM",
         "target": "Single enemy",
@@ -409,6 +447,44 @@
         "school": "Summoning",
         "name(jp)": "パッリダ・シェリング",
         "id": "30511482",
+        "✓": "✓"
+    },
+    {
+        "character": "Thief (I)",
+        "source": "Invisible Break",
+        "name": "Storm Trick",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.2,
+        "element": "Wind, Poison",
+        "time": 1.2,
+        "effects": "Four single attacks (0,55 each), grants Quick Thief Abilities 2 to the user",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Thief",
+        "name(jp)": "ストームトリック",
+        "id": "30512311",
+        "✓": "✓"
+    },
+    {
+        "character": "Thief (I)",
+        "source": "Invisible Break",
+        "name": "Storm Break",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.2,
+        "element": "Wind, Poison",
+        "time": 1.2,
+        "effects": "Two single attacks (1,10 each), DEF -40% for 15 seconds",
+        "counter": "N",
+        "autoTarget": "Random enemy without status",
+        "sb": 50,
+        "school": "Thief",
+        "name(jp)": "ストームブレイク",
+        "id": "30512312",
         "✓": "✓"
     },
     {
@@ -489,7 +565,7 @@
     },
     {
         "character": "Guy",
-        "source": "Gigant Break",
+        "source": "Gigantbreak",
         "name": "Wolf's Fierceness",
         "type": "PHY",
         "target": "Single enemy",
@@ -508,7 +584,7 @@
     },
     {
         "character": "Guy",
-        "source": "Gigant Break",
+        "source": "Gigantbreak",
         "name": "Gigant's Arm",
         "type": "PHY",
         "target": "All enemies",
@@ -717,7 +793,7 @@
     },
     {
         "character": "Josef",
-        "source": "Goliath Lifestyle",
+        "source": "Undaunted Hero",
         "name": "Icy Vise",
         "type": "PHY",
         "target": "Single enemy",
@@ -736,7 +812,7 @@
     },
     {
         "character": "Josef",
-        "source": "Goliath Lifestyle",
+        "source": "Undaunted Hero",
         "name": "Chivalry of the Snows",
         "type": "PHY",
         "target": "Single enemy",
@@ -793,7 +869,7 @@
     },
     {
         "character": "Scott",
-        "source": "Violent Flames",
+        "source": "Scathing Sun",
         "name": "Spellseal Blast Slash",
         "type": "PHY",
         "target": "Single enemy",
@@ -812,7 +888,7 @@
     },
     {
         "character": "Scott",
-        "source": "Violent Flames",
+        "source": "Scathing Sun",
         "name": "Flaming Leader",
         "type": "PHY",
         "target": "All enemies",
@@ -907,7 +983,7 @@
     },
     {
         "character": "Arc",
-        "source": "Valiant Dawn",
+        "source": "Break of Valor",
         "name": "Dia Water",
         "type": "WHT",
         "target": "Single enemy",
@@ -926,7 +1002,7 @@
     },
     {
         "character": "Arc",
-        "source": "Valiant Dawn",
+        "source": "Break of Valor",
         "name": "Dia Cure",
         "type": "WHT",
         "target": "Single ally",
@@ -2339,7 +2415,7 @@
     },
     {
         "character": "Dorgann",
-        "source": "Foreign Land",
+        "source": "Uncharted Lands",
         "name": "Guardian's Resolve",
         "type": "PHY",
         "target": "Single enemy",
@@ -2358,7 +2434,7 @@
     },
     {
         "character": "Dorgann",
-        "source": "Foreign Land",
+        "source": "Uncharted Lands",
         "name": "Self-Taught Dust Sword",
         "type": "PHY",
         "target": "Single enemy",
@@ -2871,7 +2947,7 @@
     },
     {
         "character": "Gau",
-        "source": "Feral Stampede",
+        "source": "Maul of the Wild",
         "name": "Flame Rage",
         "type": "PHY",
         "target": "-",
@@ -2887,7 +2963,7 @@
     },
     {
         "character": "Gau",
-        "source": "Feral Stampede",
+        "source": "Maul of the Wild",
         "name": "Recover Rage",
         "type": "NAT",
         "target": "-",
@@ -3052,7 +3128,7 @@
     },
     {
         "character": "Umaro",
-        "source": "Along with the Boss",
+        "source": "Master's Voice",
         "name": "Throw Ally",
         "type": "NAT",
         "target": "Single ally",
@@ -3068,7 +3144,7 @@
     },
     {
         "character": "Umaro",
-        "source": "Along with the Boss",
+        "source": "Master's Voice",
         "name": "Frozen Mist",
         "type": "PHY",
         "target": "Single enemy",
@@ -5986,7 +6062,7 @@
     },
     {
         "character": "Aphmau",
-        "source": "Optimization",
+        "source": "Realignment",
         "name": "Activate",
         "type": "WHT",
         "target": "Single ally",
@@ -6002,7 +6078,7 @@
     },
     {
         "character": "Aphmau",
-        "source": "Optimization",
+        "source": "Realignment",
         "name": "Activate (S)",
         "type": "WHT",
         "target": "Single enemy",
@@ -6021,7 +6097,7 @@
     },
     {
         "character": "Aphmau",
-        "source": "Optimization",
+        "source": "Realignment",
         "name": "Light Maneuver",
         "type": "WHT",
         "target": "All allies",
@@ -6037,7 +6113,7 @@
     },
     {
         "character": "Aphmau",
-        "source": "Optimization",
+        "source": "Realignment",
         "name": "Light Maneuver (S)",
         "type": "WHT",
         "target": "Single enemy",
@@ -6076,7 +6152,7 @@
     {
         "character": "Zeid",
         "source": "Abyssal Strike",
-        "name": "Desperate Blows",
+        "name": "Desperate Strike",
         "type": "PHY",
         "target": "All enemies",
         "formula": "Physical",
@@ -6664,7 +6740,7 @@
     },
     {
         "character": "Snow",
-        "source": "The Hero is Coming!",
+        "source": "A Hero Rides",
         "name": "Frost Drive",
         "type": "PHY",
         "target": "Single enemy",
@@ -6683,7 +6759,7 @@
     },
     {
         "character": "Snow",
-        "source": "The Hero is Coming!",
+        "source": "A Hero Rides",
         "name": "Diamond Turn",
         "type": "PHY",
         "target": "All enemies",
@@ -8165,7 +8241,7 @@
     },
     {
         "character": "Meliadoul",
-        "source": "Unyielding Blade Crush Helm",
+        "source": "Crush Helm",
         "name": "Divine Break",
         "type": "PHY",
         "target": "Single enemy",
@@ -8184,7 +8260,7 @@
     },
     {
         "character": "Meliadoul",
-        "source": "Unyielding Blade Crush Helm",
+        "source": "Crush Helm",
         "name": "Divine Crash",
         "type": "PHY",
         "target": "Single enemy",

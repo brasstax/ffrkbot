@@ -529,35 +529,35 @@
     },
     {
         "realm": "Core",
-        "character": "Thief",
+        "character": "Thief (Core)",
         "name": "Thief's Pride I",
         "effect": "50% chance to restore 1 use for all Thief abilities at the beginning of the battle",
-        "unlockCriteria": "Use Thief's Memory Crystal",
+        "unlockCriteria": "Use Thief (Core)'s Memory Crystal",
         "name(jp)": "シーフのプライドⅠ",
         "✓": "✓"
     },
     {
         "realm": "Core",
-        "character": "Thief",
+        "character": "Thief (Core)",
         "name": "Thief's Pride II",
         "effect": "Restores 1 use for all Thief abilities at the beginning of the battle",
-        "unlockCriteria": "Chance to obtain with Thief in party",
+        "unlockCriteria": "Chance to obtain with Thief (Core) in party",
         "name(jp)": "シーフのプライドⅡ",
         "✓": "✓"
     },
     {
         "realm": "Core",
-        "character": "Thief",
+        "character": "Thief (Core)",
         "name": "Way of the Thief",
         "effect": "35% chance to turn Attack into Steal HP",
-        "unlockCriteria": "Use Thief's Memory Crystal II, chance to obtain with Thief in party",
+        "unlockCriteria": "Use Thief's Memory Crystal II, chance to obtain with Thief (Core) in party",
         "name(jp)": "シーフの流儀",
         "✓": "✓"
     },
     {
         "realm": "Core",
-        "character": "Thief",
-        "unlockCriteria": "Bring Thief to level 99"
+        "character": "Thief (Core)",
+        "unlockCriteria": "Bring Thief (Core) to level 99"
     },
     {
         "realm": "Core",
@@ -895,17 +895,26 @@
     {
         "realm": "I",
         "character": "Thief (I)",
-        "unlockCriteria": "Use Thief (I)'s Memory Crystal"
+        "name": "Speedy Thief",
+        "effect": "Thief abilities deal ?% more damage",
+        "unlockCriteria": "Use Thief (I)'s Memory Crystal",
+        "name(jp)": "抜け目ない盗賊"
     },
     {
         "realm": "I",
         "character": "Thief (I)",
-        "unlockCriteria": "Use Thief (I)'s Memory Crystal II, chance to obtain with Thief (I) in party"
+        "name": "Master of Celerity",
+        "effect": "Grants Haste at the beginning of the battle, ATK +?%",
+        "unlockCriteria": "Use Thief (I)'s Memory Crystal II, chance to obtain with Thief (I) in party",
+        "name(jp)": "早技の名手"
     },
     {
         "realm": "I",
         "character": "Thief (I)",
-        "unlockCriteria": "Bring Thief (I) to level 99"
+        "name": "Dagger's Essence",
+        "effect": "ATK and RES +?% when equipping a dagger",
+        "unlockCriteria": "Bring Thief (I) to level 99",
+        "name(jp)": "短剣の極意"
     },
     {
         "realm": "II",
@@ -3557,7 +3566,7 @@
         "realm": "VIII",
         "character": "Kiros",
         "name": "Dressing Funny",
-        "effect": "24% chance to turn Attack into Shadow Mirage",
+        "effect": "24% chance to turn Attack into Ancestral Reflection",
         "unlockCriteria": "Bring Kiros to level 99",
         "name(jp)": "奇抜なファッション",
         "✓": "✓"
@@ -4294,7 +4303,7 @@
     {
         "realm": "XI",
         "character": "Ayame",
-        "name": "Sharpened Belief",
+        "name": "Hardened Faith",
         "effect": "24% chance to turn Attack into Hailstorm",
         "unlockCriteria": "Bring Ayame to level 99",
         "name(jp)": "研ぎ澄ます信念",
@@ -4321,7 +4330,7 @@
     {
         "realm": "XI",
         "character": "Curilla",
-        "name": "Temple Knight Leader",
+        "name": "Knight Captain",
         "effect": "Grants Sentinel at the beginning of the battle",
         "unlockCriteria": "Bring Curilla to level 99",
         "name(jp)": "神殿騎士団の長",
@@ -4384,7 +4393,7 @@
     {
         "realm": "XI",
         "character": "Aphmau",
-        "name": "Innocent Heart",
+        "name": "Pure of Thought",
         "effect": "MND +10% when equipping a staff",
         "unlockCriteria": "Use Aphmau's Memory Crystal",
         "name(jp)": "純真な乙女心",
@@ -4393,7 +4402,7 @@
     {
         "realm": "XI",
         "character": "Aphmau",
-        "name": "Handsfree Puppetmaster",
+        "name": "Unarmed Puppetmaster",
         "effect": "Attack turns into an ability (single, 2,00 magical, WHT type)",
         "unlockCriteria": "Use Aphmau's Memory Crystal II, chance to obtain with Aphmau in party",
         "name(jp)": "無手の傀儡師",
@@ -4402,7 +4411,7 @@
     {
         "realm": "XI",
         "character": "Aphmau",
-        "name": "Successor of the Emperor",
+        "name": "Imperial Heir",
         "effect": "MND +25% when equipping a staff",
         "unlockCriteria": "Bring Aphmau to level 99",
         "name(jp)": "聖皇を継ぎし者",
@@ -4420,7 +4429,7 @@
     {
         "realm": "XI",
         "character": "Zeid",
-        "name": "Hard-Worker's Sword",
+        "name": "Karmic Blade",
         "effect": "13% chance to dualcast Darkness abilities",
         "unlockCriteria": "Use Zied's Memory Crystal II, chance to obtain with Zied in party",
         "name(jp)": "業を背負う者の剣",
@@ -4429,7 +4438,7 @@
     {
         "realm": "XI",
         "character": "Zeid",
-        "name": "Best Musketeer's Dark Sword",
+        "name": "Darkest Iron",
         "effect": "Darkness abilities deal 40% more damage",
         "unlockCriteria": "Bring Zied to level 99",
         "name(jp)": "銃士隊最強の暗黒剣",

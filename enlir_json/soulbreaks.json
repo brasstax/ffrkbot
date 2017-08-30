@@ -697,7 +697,7 @@
     },
     {
         "realm": "Core",
-        "character": "Thief",
+        "character": "Thief (Core)",
         "name": "Nekodamashi",
         "type": "PHY",
         "target": "Single enemy",
@@ -805,7 +805,7 @@
     },
     {
         "realm": "Core",
-        "character": "Urara",
+        "character": "Elarra",
         "name": "Fabula Guardian",
         "type": "NAT",
         "target": "All allies",
@@ -822,7 +822,7 @@
     },
     {
         "realm": "Core",
-        "character": "Urara",
+        "character": "Elarra",
         "name": "Fabula Raider",
         "type": "NAT",
         "target": "All allies",
@@ -1028,7 +1028,7 @@
         "points": "500",
         "tier": "USB",
         "master": "ATK +10",
-        "relic": "Braveheart EX (I)",
+        "relic": "Braveheart+ (I)",
         "name(jp)": "エンドオール",
         "id": "20330008",
         "✓": "✓"
@@ -1157,7 +1157,7 @@
     {
         "realm": "I",
         "character": "Garland",
-        "name": "Eminence of Battle",
+        "name": "Bent on Destruction",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -1178,22 +1178,44 @@
     {
         "realm": "I",
         "character": "Garland",
-        "counter": "?",
-        "autoTarget": "?",
+        "name": "Root of Hatred",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 7.1,
+        "element": "Dark, NE",
+        "time": 2.5,
+        "effects": "Ten single attacks (0,71 each), grants Attach Dark, Root of Hatred and Chaos Follow-Up to the user",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
         "points": "500",
         "tier": "USB",
         "master": "ATK +10",
-        "id": "22310008"
+        "relic": "Rebellion (I)",
+        "name(jp)": "憎悪の根源",
+        "id": "22310008",
+        "✓": "✓"
     },
     {
         "realm": "I",
         "character": "Garland",
-        "counter": "?",
-        "autoTarget": "?",
+        "name": "Dark Class Change",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 6.64,
+        "element": "Dark, NE",
+        "time": 2.5,
+        "effects": "Eight single attacks (0,83 each), grants Haste, Attach Dark and Burst Mode to the user",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
         "points": "500",
         "tier": "BSB",
         "master": "ATK +10",
-        "id": "22310009"
+        "relic": "Claymore (I)",
+        "name(jp)": "ダーククラスチェンジ",
+        "id": "22310009",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -1287,12 +1309,20 @@
     {
         "realm": "I",
         "character": "Sarah",
-        "counter": "?",
-        "autoTarget": "?",
+        "name": "Warrior's Song",
+        "type": "NAT",
+        "target": "All allies",
+        "time": 2.5,
+        "effects": "ATK and MAG +30% for 25 seconds, grants Haste, Shell and HP Stock (2000)",
+        "counter": "N",
+        "autoTarget": "All allies",
         "points": "500",
         "tier": "USB",
         "master": "MND +10",
-        "id": "22300006"
+        "relic": "Sage's Staff (I)",
+        "name(jp)": "戦士に捧ぐ歌",
+        "id": "22300006",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -1576,12 +1606,23 @@
     {
         "realm": "I",
         "character": "Master",
-        "counter": "?",
-        "autoTarget": "?",
+        "name": "Unarmed Champion",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 7.2,
+        "element": "-",
+        "time": 2.5,
+        "effects": "Ten single attacks (0,72 each), ATK and RES +30% to the user for 25 seconds, grants Critical Damage +50% and Unarmed Champion to the user",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
         "points": "500",
         "tier": "USB",
         "master": "ATK +10",
-        "id": "22580004"
+        "relic": "Power Vest (I)",
+        "name(jp)": "無手の頂",
+        "id": "22580004",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -1642,12 +1683,23 @@
     {
         "realm": "I",
         "character": "Matoya",
-        "counter": "?",
-        "autoTarget": "?",
+        "name": "Crystal Spell",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 16.8,
+        "element": "Fire, Ice, Lightning",
+        "time": 2.5,
+        "effects": "Ten single attacks (1,68 each), MAG and RES +30% to the user for 25 seconds, grants Crystal Spell and B Select Follow-Up to the user",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
         "points": "500",
         "tier": "USB",
         "master": "MAG +10",
-        "id": "22590004"
+        "relic": "Gaia Gear (I)",
+        "name(jp)": "水晶の大魔術",
+        "id": "22590004",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -1669,7 +1721,7 @@
     {
         "realm": "I",
         "character": "Meia",
-        "name": "Summon Famfrit",
+        "name": "Famfrit",
         "type": "SUM",
         "target": "All enemies",
         "formula": "Magical",
@@ -1732,38 +1784,63 @@
     {
         "realm": "I",
         "character": "Thief (I)",
-        "type": "?",
-        "time": "?",
-        "counter": "?",
-        "autoTarget": "?",
+        "name": "Poison Trick",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.3,
+        "element": "Poison",
+        "time": 0.01,
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
         "points": "500",
         "tier": "Default",
         "relic": "-",
-        "id": "23140003"
+        "name(jp)": "ポイズントリック",
+        "id": "23140003",
+        "✓": "✓"
     },
     {
         "realm": "I",
         "character": "Thief (I)",
-        "type": "?",
-        "time": "?",
-        "counter": "?",
-        "autoTarget": "?",
+        "name": "Invisible Break",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 4.8,
+        "element": "Wind, Posion",
+        "time": 0.01,
+        "effects": "Ten random attacks (0,48 each), ATK and DEF -50% for 25 seconds, grants Haste and Burst Mode to the user",
+        "counter": "N",
+        "autoTarget": "Random enemies",
         "points": "500",
         "tier": "BSB",
         "master": "ATK +10",
-        "id": "23140001"
+        "relic": "Orichalcum (I)",
+        "name(jp)": "インビジブレイク",
+        "id": "23140001",
+        "✓": "✓"
     },
     {
         "realm": "I",
         "character": "Thief (I)",
-        "type": "?",
-        "time": "?",
-        "counter": "?",
-        "autoTarget": "?",
+        "name": "Scourge Edge",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 8.91,
+        "element": "Wind, Posion",
+        "time": 2.5,
+        "effects": "8/9/10/11 single attacks (0,81 each) at 140/175/190 SPD, DEF and MAG -40% for 25 seconds",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
         "points": "500",
         "tier": "SSB",
         "master": "ATK +10",
-        "id": "23140002"
+        "relic": "Mythril Knife (I)",
+        "name(jp)": "クラウダエッジ",
+        "id": "23140002",
+        "✓": "✓"
     },
     {
         "realm": "II",
@@ -2056,7 +2133,7 @@
     {
         "realm": "II",
         "character": "Guy",
-        "name": "Gigant Break",
+        "name": "Gigantbreak",
         "type": "PHY",
         "target": "All enemies",
         "formula": "Physical",
@@ -2069,7 +2146,7 @@
         "points": "500",
         "tier": "BSB",
         "master": "ATK +10",
-        "relic": "Gigantaxe (II)",
+        "relic": "Gigant Axe (II)",
         "name(jp)": "ギガントブレイク",
         "id": "22430003",
         "✓": "✓"
@@ -2250,7 +2327,7 @@
     {
         "realm": "II",
         "character": "Minwu",
-        "name": "Revive",
+        "name": "Enduring Revival",
         "type": "WHT",
         "target": "All allies",
         "time": 0.01,
@@ -2260,7 +2337,7 @@
         "points": "500",
         "tier": "USB",
         "master": "MND +10",
-        "relic": "Staff of Light (II)",
+        "relic": "Shining Staff (II)",
         "name(jp)": "リバイヴ",
         "id": "22120005",
         "✓": "✓"
@@ -2363,7 +2440,7 @@
     {
         "realm": "II",
         "character": "Gordon",
-        "name": "Awakened Leadership",
+        "name": "A Leader Wakes",
         "type": "PHY",
         "target": "All enemies",
         "formula": "Physical",
@@ -2640,7 +2717,7 @@
     {
         "realm": "II",
         "character": "Josef",
-        "name": "Goliath Lifestyle",
+        "name": "Undaunted Hero",
         "type": "NAT",
         "target": "All allies",
         "time": 2.5,
@@ -2717,7 +2794,7 @@
     {
         "realm": "II",
         "character": "Emperor",
-        "name": "Hell Magic Cataclysm",
+        "name": "Dire Apocalypse",
         "type": "BLK",
         "target": "All enemies",
         "formula": "Magical",
@@ -2755,7 +2832,7 @@
     {
         "realm": "II",
         "character": "Scott",
-        "name": "Violent Flames",
+        "name": "Scathing Sun",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -2789,7 +2866,7 @@
         "points": "500",
         "tier": "SSB",
         "master": "ATK +10",
-        "relic": "Scott's Mantle (II)",
+        "relic": "Scott's Cloak (II)",
         "name(jp)": "愛のリング",
         "id": "22940002",
         "✓": "✓"
@@ -2914,7 +2991,7 @@
     {
         "realm": "III",
         "character": "Luneth",
-        "name": "Memory of the Wind",
+        "name": "Zephyr Memories",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -3029,7 +3106,7 @@
     {
         "realm": "III",
         "character": "Arc",
-        "name": "Valiant Dawn",
+        "name": "Break of Valor",
         "type": "WHT",
         "target": "Single enemy",
         "formula": "Magical",
@@ -3129,7 +3206,7 @@
     {
         "realm": "III",
         "character": "Refia",
-        "name": "Flaming Love",
+        "name": "Burning Devotion",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -3247,7 +3324,7 @@
     {
         "realm": "III",
         "character": "Ingus",
-        "name": "Unbreakable Steel",
+        "name": "Attested Strength",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -3388,7 +3465,7 @@
     {
         "realm": "III",
         "character": "Desch",
-        "name": "Storm of Duty",
+        "name": "Roar of Duty",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
@@ -3608,7 +3685,7 @@
     {
         "realm": "III",
         "character": "Cloud of Darkness",
-        "name": "Wide Angle Particle Beam",
+        "name": "Crashing Darkness",
         "type": "BLK",
         "target": "All enemies",
         "formula": "Magical",
@@ -3695,7 +3772,7 @@
         "points": "500",
         "tier": "SSB",
         "master": "MND +10",
-        "relic": "Aria's Dress (III)",
+        "relic": "Aria's Presence (III)",
         "name(jp)": "献身に捧げし身命",
         "id": "22960002",
         "✓": "✓"
@@ -6235,7 +6312,7 @@
         "points": "500",
         "tier": "BSB",
         "master": "ATK +10",
-        "relic": "Greatsword (V)",
+        "relic": "Great Sword (V)",
         "name(jp)": "土のかけらに宿りし力",
         "id": "20400011",
         "✓": "✓"
@@ -6387,7 +6464,7 @@
     {
         "realm": "V",
         "character": "Faris",
-        "name": "My Real Name Is Sarisa",
+        "name": "Pirate Princess",
         "type": "PHY",
         "target": "Random enemies",
         "formula": "Physical",
@@ -6400,7 +6477,7 @@
         "points": "500",
         "tier": "USB",
         "master": "ATK +10",
-        "relic": "Fairy's Bow (V)",
+        "relic": "Fairy Bow (V)",
         "name(jp)": "真の名はサリサ",
         "id": "20930008",
         "✓": "✓"
@@ -6446,7 +6523,7 @@
     {
         "realm": "V",
         "character": "Dorgann",
-        "name": "Foreign Land",
+        "name": "Uncharted Lands",
         "type": "NAT",
         "target": "All enemies",
         "time": 2.5,
@@ -6456,7 +6533,7 @@
         "points": "500",
         "tier": "BSB",
         "master": "ATK +10",
-        "relic": "Dorgann's Armor (V)",
+        "relic": "Dorgann's Redoubt (V)",
         "name(jp)": "未知なる大地",
         "id": "22510003",
         "✓": "✓"
@@ -7769,7 +7846,7 @@
     {
         "realm": "VI",
         "character": "Shadow",
-        "name": "Overcome Past",
+        "name": "Abandoned Past",
         "type": "PHY",
         "target": "Random enemies",
         "formula": "Physical",
@@ -7994,7 +8071,7 @@
     {
         "realm": "VI",
         "character": "Gau",
-        "name": "Feral Stampede",
+        "name": "Maul of the Wild",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -8132,7 +8209,7 @@
     {
         "realm": "VI",
         "character": "Setzer",
-        "name": "Random Joker",
+        "name": "Jokers Wild",
         "type": "PHY",
         "target": "Random enemies",
         "formula": "Physical",
@@ -8409,7 +8486,7 @@
         "points": "500",
         "tier": "BSB",
         "master": "ATK +5, MAG +5",
-        "relic": "Strange Helmet (VI)",
+        "relic": "Helm of Wonders (VI)",
         "name(jp)": "おしおきメテオ",
         "id": "22930001",
         "✓": "✓"
@@ -8417,7 +8494,7 @@
     {
         "realm": "VI",
         "character": "Gogo (VI)",
-        "name": "Zone Eater Inhale",
+        "name": "Maw of the Beast",
         "type": "NAT",
         "target": "All enemies",
         "formula": "-",
@@ -8430,7 +8507,7 @@
         "points": "500",
         "tier": "SSB",
         "master": "ATK +5, MAG +5",
-        "relic": "Mime's Sword (VI)",
+        "relic": "Mimic Blade (VI)",
         "name(jp)": "ゾーンイーターすいこみ",
         "id": "22930002",
         "✓": "✓"
@@ -8458,7 +8535,7 @@
     {
         "realm": "VI",
         "character": "Umaro",
-        "name": "Along with the Boss",
+        "name": "Master's Voice",
         "type": "PHY",
         "target": "All enemies",
         "formula": "Physical",
@@ -13943,7 +14020,7 @@
         "multiplier": 7.92,
         "element": "Water",
         "time": 2.5,
-        "effects": "Eleven single attacks (0,72 each), Water Chain +20%",
+        "effects": "Eleven single attacks (0,72 each), Water Chain +20%, grants Quick Cast 2 to all allies",
         "counter": "N",
         "autoTarget": "Lowest HP% enemy",
         "points": "500",
@@ -13957,7 +14034,7 @@
     {
         "realm": "X",
         "character": "Tidus",
-        "name": "Memories of That Day",
+        "name": "Day to Remember",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -15468,7 +15545,7 @@
     {
         "realm": "XI",
         "character": "Shantotto",
-        "name": "One Against Billions",
+        "name": "A Thousand Suns",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
@@ -15551,7 +15628,7 @@
     {
         "realm": "XI",
         "character": "Ayame",
-        "name": "Tachi Fudo",
+        "name": "Ancestral Blade",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -15794,7 +15871,7 @@
     {
         "realm": "XI",
         "character": "Aphmau",
-        "name": "Auto-Attack",
+        "name": "Auto Attack",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
@@ -15832,7 +15909,7 @@
     {
         "realm": "XI",
         "character": "Aphmau",
-        "name": "Optimization",
+        "name": "Realignment",
         "type": "WHT",
         "target": "All allies",
         "time": 2.5,
@@ -15850,7 +15927,7 @@
     {
         "realm": "XI",
         "character": "Aphmau",
-        "name": "Resist and Repair",
+        "name": "Remove & Resist",
         "type": "WHT",
         "target": "All allies",
         "time": 2.5,
@@ -17368,7 +17445,7 @@
         "multiplier": 7.68,
         "element": "Lightning, NE",
         "time": 2.5,
-        "effects": "Eight random attacks (0,98 each), causes Imperil Lightning 20% for 25 seconds, grants Haste and Burst Mode to the user",
+        "effects": "Eight random attacks (0,96 each), causes Imperil Lightning 20% for 25 seconds, grants Haste and Burst Mode to the user",
         "counter": "N",
         "autoTarget": "Random enemies",
         "points": "500",
@@ -17542,7 +17619,7 @@
     {
         "realm": "XIII",
         "character": "Snow",
-        "name": "The Hero is Coming!",
+        "name": "A Hero Rides",
         "type": "NAT",
         "target": "All allies",
         "time": 2.5,
@@ -18338,7 +18415,7 @@
         "points": 500,
         "tier": "SSB",
         "master": "MAG +10",
-        "relic": "Raines's Glove (XIII)",
+        "relic": "Raines's Gloves (XIII)",
         "name(jp)": "セラフィックレイ",
         "id": "22410002",
         "✓": "✓"
@@ -19616,7 +19693,7 @@
     {
         "realm": "XV",
         "character": "Noctis",
-        "name": "Awakening Armiger",
+        "name": "Armiger Wakes",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -20329,7 +20406,7 @@
     {
         "realm": "FFT",
         "character": "Delita",
-        "name": "Hail to the King",
+        "name": "King Apparent",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -20441,7 +20518,7 @@
     {
         "realm": "FFT",
         "character": "Ovelia",
-        "name": "Holy Magicks Dispelna",
+        "name": "Divine Dispelna",
         "type": "WHT",
         "target": "All allies",
         "time": 0.01,
@@ -20783,7 +20860,7 @@
     {
         "realm": "FFT",
         "character": "Rapha",
-        "name": "Scorpio Miracle",
+        "name": "Miracle of Scorpio",
         "type": "NAT",
         "target": "All allies",
         "time": 2.5,
@@ -20860,7 +20937,7 @@
     {
         "realm": "FFT",
         "character": "Marach",
-        "name": "Khamja Cooperation",
+        "name": "Khamja Collusion",
         "type": "BLK",
         "target": "Random enemies",
         "formula": "Magical",
@@ -20901,7 +20978,7 @@
     {
         "realm": "FFT",
         "character": "Meliadoul",
-        "name": "Unyielding Blade Crush Helm",
+        "name": "Crush Helm",
         "type": "PHY",
         "target": "Random enemies",
         "formula": "Physical",
@@ -20922,7 +20999,7 @@
     {
         "realm": "FFT",
         "character": "Meliadoul",
-        "name": "Unyielding Blade Crush Armor",
+        "name": "Crush Armor",
         "type": "PHY",
         "target": "All enemies",
         "formula": "Physical",
@@ -20935,7 +21012,7 @@
         "points": "500",
         "tier": "SSB",
         "master": "ATK +10",
-        "relic": "Knight Templar's Robe (FFT)",
+        "relic": "Templar Robe (FFT)",
         "name(jp)": "剛剣・強甲破点突き",
         "id": "22950002",
         "✓": "✓"
