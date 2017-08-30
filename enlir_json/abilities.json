@@ -4730,7 +4730,7 @@
         "orb2Required": "Major Black",
         "orb3Required": "Major Earth",
         "gilRequired": 20000,
-        "introducingEvent": "Four Hearts",
+        "introducingEvent": "Four as One",
         "id": 30141091,
         "✓": "✓"
     },
@@ -4861,7 +4861,7 @@
     },
     {
         "school": "Spellblade",
-        "name": "Freeze Strike",
+        "name": "Frost Strike",
         "rarity": 5,
         "type": "PHY",
         "target": "All enemies",
@@ -4880,7 +4880,7 @@
         "orb2Required": "Major Black",
         "orb3Required": "Major Ice",
         "gilRequired": 20000,
-        "introducingEvent": "Inherited Flaming Will",
+        "introducingEvent": "The Torch Burns On",
         "id": 30141151,
         "✓": "✓"
     },
@@ -6345,7 +6345,7 @@
     },
     {
         "school": "Samurai",
-        "name": "Wildfire Blade",
+        "name": "Warring Flame",
         "rarity": 5,
         "type": "PHY",
         "target": "Single enemy",
@@ -6364,13 +6364,13 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Ice",
         "gilRequired": 20000,
-        "introducingEvent": "Searching for Friends",
+        "introducingEvent": "The More the Merrier",
         "id": 30221101,
         "✓": "✓"
     },
     {
         "school": "Samurai",
-        "name": "Blazemoon Stance",
+        "name": "Smoldering Moon",
         "rarity": 5,
         "type": "PHY",
         "target": "Single enemy",
@@ -6389,7 +6389,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Ice",
         "gilRequired": 20000,
-        "introducingEvent": "Searching for Friends",
+        "introducingEvent": "The More the Merrier",
         "id": 30221111,
         "✓": "✓"
     },
@@ -6744,7 +6744,7 @@
     },
     {
         "school": "Ninja",
-        "name": "Shadow Mirage",
+        "name": "Ancestral Reflection",
         "rarity": 5,
         "type": "PHY",
         "target": "Single enemy",
@@ -6763,13 +6763,13 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
         "gilRequired": 20000,
-        "introducingEvent": "Searching for Friends",
+        "introducingEvent": "The More the Merrier",
         "id": 30231141,
         "✓": "✓"
     },
     {
         "school": "Ninja",
-        "name": "Dark Seal",
+        "name": "Shadow Embodied",
         "rarity": 5,
         "type": "PHY",
         "target": "Single enemy",
@@ -6788,7 +6788,7 @@
         "orb2Required": "Major Ice",
         "orb3Required": "Major Dark",
         "gilRequired": 20000,
-        "introducingEvent": "Searching for Friends",
+        "introducingEvent": "The More the Merrier",
         "id": 30231151,
         "✓": "✓"
     },
@@ -7636,7 +7636,7 @@
         "multiplier": 3.8,
         "element": "Dark",
         "time": 1.65,
-        "effects": "Two single attacks (1,90 each), damages the user for 25% max HP",
+        "effects": "Two single attacks (1,90 each), damages the user for 20% max HP",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 65,
@@ -7853,7 +7853,7 @@
     },
     {
         "school": "Darkness",
-        "name": "Dire Weapon",
+        "name": "Dread Weapon",
         "rarity": 5,
         "type": "PHY",
         "target": "Single enemy",
@@ -7872,7 +7872,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
         "gilRequired": 20000,
-        "introducingEvent": "The Shadow Lord Awakens",
+        "introducingEvent": "The Shadow Stirs",
         "id": 30271101,
         "✓": "✓"
     },
