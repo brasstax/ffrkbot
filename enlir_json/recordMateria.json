@@ -896,17 +896,19 @@
         "realm": "I",
         "character": "Thief (I)",
         "name": "Speedy Thief",
-        "effect": "Thief abilities deal ?% more damage",
+        "effect": "Thief abilities deal 15% more damage",
         "unlockCriteria": "Use Thief (I)'s Memory Crystal",
-        "name(jp)": "抜け目ない盗賊"
+        "name(jp)": "抜け目ない盗賊",
+        "✓": "✓"
     },
     {
         "realm": "I",
         "character": "Thief (I)",
         "name": "Master of Celerity",
-        "effect": "Grants Haste at the beginning of the battle, ATK +?%",
+        "effect": "Grants Haste at the beginning of the battle, ATK +10%",
         "unlockCriteria": "Use Thief (I)'s Memory Crystal II, chance to obtain with Thief (I) in party",
-        "name(jp)": "早技の名手"
+        "name(jp)": "早技の名手",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -5204,9 +5206,10 @@
         "realm": "XIV",
         "character": "Ysayle",
         "name": "Heretic Priestess",
-        "effect": "Increases Ice damage dealt by ?%",
+        "effect": "Increases Ice damage dealt by 20%",
         "unlockCriteria": "Use Ysayle's Memory Crystal II, chance to obtain with Ysayle in party",
-        "name(jp)": "異端者を総べる巫女"
+        "name(jp)": "異端者を総べる巫女",
+        "✓": "✓"
     },
     {
         "realm": "XIV",
@@ -5229,9 +5232,10 @@
         "realm": "XIV",
         "character": "Haurchefant",
         "name": "Knight of the Fortemps",
-        "effect": "DEF +?% when equipping a shield",
+        "effect": "DEF +20% when equipping a shield",
         "unlockCriteria": "Use Haurchefant's Memory Crystal II, chance to obtain with Haurchefant in party",
-        "name(jp)": "フォルタン家のイイ騎士"
+        "name(jp)": "フォルタン家のイイ騎士",
+        "✓": "✓"
     },
     {
         "realm": "XIV",
@@ -5254,9 +5258,10 @@
         "realm": "XIV",
         "character": "Estinien",
         "name": "Name of the Dragon",
-        "effect": "Jump attacks deal ?% more damage",
+        "effect": "Jump attacks deal 25% more damage",
         "unlockCriteria": "Use Estinien's Memory Crystal II, chance to obtain with Estinien in party",
-        "name(jp)": "屠龍の名"
+        "name(jp)": "屠龍の名",
+        "✓": "✓"
     },
     {
         "realm": "XIV",
@@ -5728,16 +5733,24 @@
     {
         "realm": "FFT",
         "character": "Alma",
-        "unlockCriteria": "Use Alma's Memory Crystal"
+        "name": "Youngest Beoulve",
+        "effect": "WHT abilities restore 10% more HP",
+        "unlockCriteria": "Use Alma's Memory Crystal",
+        "name(jp)": "ベオルブの末子",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
         "character": "Alma",
-        "unlockCriteria": "Use Alma's Memory Crystal II, chance to obtain with Alma in party"
+        "name": "Monastery Teachings",
+        "effect": "?% chance to dualcast White Magic abilities",
+        "unlockCriteria": "Use Alma's Memory Crystal II, chance to obtain with Alma in party",
+        "name(jp)": "修道院での教え"
     },
     {
         "realm": "FFT",
         "character": "Alma",
+        "effect": "DEF and MND +?% when equipping a staff",
         "unlockCriteria": "Bring Alma to level 99"
     },
     {

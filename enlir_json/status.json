@@ -55,7 +55,7 @@
         "effects": "Wait speed x0,50",
         "defaultDuration": "20",
         "mndModifier": "0.005%",
-        "exclusiveStatus": "Haste",
+        "exclusiveStatus": "Haste, Infinite Haste",
         "codedName": "SLOW",
         "notes": "-"
     },
@@ -553,6 +553,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "HP_STOCK_6000",
+        "notes": "-"
+    },
+    {
+        "id": "25903",
+        "commonName": "HP Stock (3000)",
+        "effects": "Automatically restores HP, up to 3000 HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "HP_STOCK_3000",
         "notes": "-"
     },
     {
@@ -3095,6 +3105,26 @@
         "notes": "-"
     },
     {
+        "id": "50070",
+        "commonName": "EX: Sword Saint",
+        "effects": "ATK +50%, 100% chance to dualcast Knight and Darkness abilities consuming an extra ability use",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_SWORD_MASTER",
+        "notes": "-"
+    },
+    {
+        "id": "50071",
+        "commonName": "Infinite Haste",
+        "effects": "Wait speed x2,00",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "HASTE_FULL_TIME",
+        "notes": "-"
+    },
+    {
         "id": "50072",
         "commonName": "Chain Cast Counter",
         "effects": "Keeps track of the number of uses of Chain Cast, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
@@ -4041,6 +4071,16 @@
         "notes": "-"
     },
     {
+        "id": "844",
+        "commonName": "Minor Imperil Earth",
+        "effects": "Earth Resistance -10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_EARTH_DISADVANTAGE_1",
+        "notes": "-"
+    },
+    {
         "id": "8411001",
         "commonName": "Fire Blink 1",
         "effects": "Reduces the damage of the next attack that deals Fire damage to 0",
@@ -4148,6 +4188,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_ICE_ADVANTAGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "8431061",
+        "commonName": "Minor Resist Holy",
+        "effects": "Holy Resistance +10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_HOLY_ADVANTAGE_1",
         "notes": "-"
     },
     {

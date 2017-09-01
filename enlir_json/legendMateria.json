@@ -113,17 +113,19 @@
         "realm": "I",
         "character": "Echo",
         "name": "Blank's Guide",
-        "effect": "Reduces damage taken by BLK attacks by ?%",
+        "effect": "Reduces damage taken by BLK attacks by 10%",
         "relic": "-",
-        "name(jp)": "ブランクを導く者"
+        "name(jp)": "ブランクを導く者",
+        "✓": "✓"
     },
     {
         "realm": "I",
         "character": "Echo",
         "name": "Mischievous Nature",
-        "effect": "Increases the duration of stat debuffs by ?%",
+        "effect": "Increases the duration of stat debuffs by 40%",
         "relic": "-",
-        "name(jp)": "いたずら好きの本領"
+        "name(jp)": "いたずら好きの本領",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -905,7 +907,7 @@
     {
         "realm": "V",
         "character": "Galuf",
-        "name": "Martyr of the Second World",
+        "name": "Walker of Worlds",
         "effect": "Monk abilities deal ?% more damage",
         "relic": "-",
         "name(jp)": "第二世界の烈士"
@@ -913,7 +915,7 @@
     {
         "realm": "V",
         "character": "Galuf",
-        "name": "Bravery for Posterity",
+        "name": "Timeless Valor",
         "effect": "ATK +?% for each hit dealt with Monk abilities, up to +?%",
         "relic": "-",
         "name(jp)": "後世に伝えし勇猛"
@@ -959,7 +961,7 @@
     {
         "realm": "V",
         "character": "Faris",
-        "name": "Memory of Sarisa",
+        "name": "Sarisa's Memory",
         "effect": "Support abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "サリサの記憶",
@@ -968,7 +970,7 @@
     {
         "realm": "V",
         "character": "Faris",
-        "name": "Familial Recollection",
+        "name": "Forgotten Family",
         "effect": "Increases the duration of stat debuffs by 40%",
         "relic": "-",
         "name(jp)": "蘇りし肉親との思い出",
@@ -987,7 +989,7 @@
     {
         "realm": "V",
         "character": "Exdeath",
-        "name": "Incarnation of an Evil Tree",
+        "name": "Evil Incarnate",
         "effect": "Increases Dark damage dealt by ?%",
         "relic": "-",
         "name(jp)": "邪木の化身"
@@ -995,7 +997,7 @@
     {
         "realm": "V",
         "character": "Exdeath",
-        "name": "Universal Chaos",
+        "name": "Reign of Chaos",
         "effect": "?% chance to dualcast Dark abilities",
         "relic": "-",
         "name(jp)": "乱されし宇宙の法則"
@@ -3490,30 +3492,55 @@
     {
         "realm": "FFT",
         "character": "Mustadio",
-        "relic": "-"
+        "name": "Machina Expertise",
+        "effect": "Machinist abilities deal ?% more damage",
+        "relic": "-",
+        "name(jp)": "機械への造詣"
     },
     {
         "realm": "FFT",
         "character": "Mustadio",
-        "relic": "-"
+        "name": "Discoveries of Lost Civilizations",
+        "effect": "?% chance to dualcast Machinist abilities",
+        "relic": "-",
+        "name(jp)": "失われた文明の発掘者"
     },
     {
         "realm": "FFT",
-        "character": "Mustadio"
+        "character": "Mustadio",
+        "name": "Machinist's Rapid Fire",
+        "effect": "?% chance to grant Quick Cast 1 to the user after using a Machinist ability",
+        "master": "ATK +10",
+        "relic": "Empyreal Armband (FFT)",
+        "name(jp)": "機工士の早撃ち"
     },
     {
         "realm": "FFT",
         "character": "Orlandeau",
-        "relic": "-"
+        "name": "Unbeaten Knight",
+        "effect": "PHY attacks deal 10% more damage",
+        "relic": "-",
+        "name(jp)": "無敗の騎士",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
         "character": "Orlandeau",
-        "relic": "-"
+        "name": "Sword Saint Above Knights",
+        "effect": "Grants Infinite Haste and Instant Cast 3 at the beginning of the battle",
+        "relic": "-",
+        "name(jp)": "騎士の頂点に立つ剣聖",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
-        "character": "Orlandeau"
+        "character": "Orlandeau",
+        "name": "Supreme Swordplay",
+        "effect": "25% chance to dualcast Knight or Darkness abilities",
+        "master": "ATK +10",
+        "relic": "Flame Shield (FFT)",
+        "name(jp)": "至高の剣技",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
@@ -3527,7 +3554,7 @@
         "realm": "FFT",
         "character": "Gaffgarion",
         "name": "Warforged Fell Knight",
-        "effect": "?% chance smart ether 1 to the user after using a Dark attack",
+        "effect": "?% chance of smart ether 1 to the user after using a Dark attack",
         "relic": "-",
         "name(jp)": "歴戦のダークナイト"
     },
@@ -3598,16 +3625,27 @@
     {
         "realm": "FFT",
         "character": "Meliadoul",
-        "relic": "-"
+        "name": "Divine Knight Blademaster",
+        "effect": "Knight abilities deal ?% more damage",
+        "relic": "-",
+        "name(jp)": "ディバインナイトの剣技"
     },
     {
         "realm": "FFT",
         "character": "Meliadoul",
-        "relic": "-"
+        "name": "Divine Knight's Finesse",
+        "effect": "?% chance to cause Minor Imperil Earth to the target after using a Knight ability on an enemy",
+        "relic": "-",
+        "name(jp)": "ディバインナイトの絶技"
     },
     {
         "realm": "FFT",
-        "character": "Meliadoul"
+        "character": "Meliadoul",
+        "name": "Unyielding Blade Essence",
+        "effect": "Knight abilities deal ?% more damage when equipping a sword",
+        "master": "ATK +10",
+        "relic": "Venus Blade (FFT)",
+        "name(jp)": "剛剣の真髄"
     },
     {
         "realm": "FFT",
@@ -3665,16 +3703,28 @@
     {
         "realm": "FFT",
         "character": "Alma",
-        "relic": "-"
+        "name": "Cheerful Sister",
+        "effect": "WHT abilities restore ?% more HP",
+        "relic": "-",
+        "name(jp)": "明朗活発な妹"
     },
     {
         "realm": "FFT",
         "character": "Alma",
-        "relic": "-"
+        "name": "Saint Reincarnate",
+        "effect": "?% chance to dualcast White Magic abilities",
+        "relic": "-",
+        "name(jp)": "聖者の生まれ変わり"
     },
     {
         "realm": "FFT",
-        "character": "Alma"
+        "character": "Alma",
+        "name": "Fraternal Devotion",
+        "effect": "27% chance to grant Magical Blink 1 to the target after using a single-target White Magic ability that restores HP on an ally",
+        "master": "MND +10",
+        "relic": "Wizard's Rod (FFT)",
+        "name(jp)": "兄を案じる心",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
