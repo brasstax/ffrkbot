@@ -908,17 +908,19 @@
         "realm": "V",
         "character": "Galuf",
         "name": "Walker of Worlds",
-        "effect": "Monk abilities deal ?% more damage",
+        "effect": "Monk abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "第二世界の烈士"
+        "name(jp)": "第二世界の烈士",
+        "✓": "✓"
     },
     {
         "realm": "V",
         "character": "Galuf",
         "name": "Timeless Valor",
-        "effect": "ATK +?% for each hit dealt with Monk abilities, up to +?%",
+        "effect": "ATK +2% for each hit dealt with Monk abilities, up to +50%",
         "relic": "-",
-        "name(jp)": "後世に伝えし勇猛"
+        "name(jp)": "後世に伝えし勇猛",
+        "✓": "✓"
     },
     {
         "realm": "V",
