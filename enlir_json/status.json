@@ -1056,6 +1056,16 @@
         "notes": "-"
     },
     {
+        "id": "282008",
+        "commonName": "Monk +15% Boost 3",
+        "effects": "Monk abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_MONK_115_3",
+        "notes": "-"
+    },
+    {
         "id": "282101",
         "commonName": "Darkness +30% Boost",
         "effects": "Darkness abilities deal 30% more damage",
@@ -1181,7 +1191,7 @@
         "effects": "Arrests ATB charge rate, can't act, causes Instant KO upon taking damage by a PHY attack, duration scales with MND (factor 2)",
         "defaultDuration": "10",
         "mndModifier": "-",
-        "exclusiveStatus": "All \"Retaliate\" status, Attach Fire",
+        "exclusiveStatus": "All \"Retaliate\" status, Attach Fire, all \"Buff Fire\" status",
         "codedName": "FROZEN",
         "notes": "???"
     },
@@ -1503,6 +1513,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_CAST_TIME_200_15000_MSEC_ALL",
+        "notes": "-"
+    },
+    {
+        "id": "2055",
+        "commonName": "Quick Sharpshooter Abilities",
+        "effects": "Cast speed x2,00 for Sharpshooter abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_MSEC_ABILITY_CATEGORY_ID_SHOOTER",
         "notes": "-"
     },
     {
@@ -2404,7 +2424,7 @@
     },
     {
         "id": "596",
-        "commonName": "Flame Cloak",
+        "commonName": "Fire Cloak",
         "effects": "Affects certain Burst Commands, 50% chance of countering enemy PHY attacks with Fiery Retribution",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2415,7 +2435,7 @@
     {
         "id": "598",
         "commonName": "Chaotic Moon",
-        "effects": "Grants High Quick Cast 1 after using a Water attack, casts Waterbolt Seal after using a Ninja ability if the user has any Physical Blink",
+        "effects": "Grants High Quick Cast 1 after using a Water attack, casts Lurking Shadow after using a Ninja ability if the user has any Physical Blink",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3135,6 +3155,36 @@
         "notes": "-"
     },
     {
+        "id": "50073",
+        "commonName": "EX: Chosen Sorceress",
+        "effects": "MAG +30%, casts Sub-Zero Calamity after using a Black Magic ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_FOR_BELOW_ZERO_CALAMITY",
+        "notes": "-"
+    },
+    {
+        "id": "50074",
+        "commonName": "Tsui Follow-Up",
+        "effects": "Casts Tsui after using two Wind attacks",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_STORM_REGISTANCE_USELESS",
+        "notes": "-"
+    },
+    {
+        "id": "50075",
+        "commonName": "Clean Shot Follow-Up",
+        "effects": "Casts Clean Shot after using three Sharpshooter abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_BRAVE_SHOOTING",
+        "notes": "-"
+    },
+    {
         "id": "601",
         "commonName": "MAG +X%",
         "effects": "MAG +X%",
@@ -3836,7 +3886,7 @@
         "effects": "Replaces Attack command, increases Fire damage dealt by 50/70/100%  (abilities) or 80/90/100% (Soul Breaks), Fire resistance +20%",
         "defaultDuration": "25",
         "mndModifier": "-",
-        "exclusiveStatus": "-",
+        "exclusiveStatus": "Frozen",
         "codedName": "ATTACH_ELEMENT_FIRE",
         "notes": "-"
     },
@@ -4081,6 +4131,176 @@
         "notes": "-"
     },
     {
+        "id": "8001",
+        "commonName": "Minor Buff Fire",
+        "effects": "Increases Fire damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "Frozen",
+        "codedName": "CHANGE_ELEMENT_ATK_FIRE_10",
+        "notes": "-"
+    },
+    {
+        "id": "8002",
+        "commonName": "Minor Buff Ice",
+        "effects": "Increases Ice damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_ICE_10",
+        "notes": "-"
+    },
+    {
+        "id": "8003",
+        "commonName": "Minor Buff Lightning",
+        "effects": "Increases Lightning damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_LIGHTNING_10",
+        "notes": "-"
+    },
+    {
+        "id": "8004",
+        "commonName": "Minor Buff Earth",
+        "effects": "Increases Earth damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_EARTH_10",
+        "notes": "-"
+    },
+    {
+        "id": "8005",
+        "commonName": "Minor Buff Wind",
+        "effects": "Increases Wind damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_WIND_10",
+        "notes": "-"
+    },
+    {
+        "id": "8006",
+        "commonName": "Minor Buff Water",
+        "effects": "Increases Water damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_WATER_10",
+        "notes": "-"
+    },
+    {
+        "id": "8007",
+        "commonName": "Minor Buff Holy",
+        "effects": "Increases Holy damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_HOLY_10",
+        "notes": "-"
+    },
+    {
+        "id": "8008",
+        "commonName": "Minor Buff Dark",
+        "effects": "Increases Dark damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_DARK_10",
+        "notes": "-"
+    },
+    {
+        "id": "8009",
+        "commonName": "Medium Debuff Fire",
+        "effects": "Reduces Fire damage dealt by 20%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_FIRE_M20",
+        "notes": "-"
+    },
+    {
+        "id": "8010",
+        "commonName": "Medium Debuff Ice",
+        "effects": "Reduces Ice damage dealt by 20%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_ICE_M20",
+        "notes": "-"
+    },
+    {
+        "id": "8011",
+        "commonName": "Medium Debuff Lightning",
+        "effects": "Reduces Lightning damage dealt by 20%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_LIGHTNING_M20",
+        "notes": "-"
+    },
+    {
+        "id": "8012",
+        "commonName": "Medium Debuff Earth",
+        "effects": "Reduces Earth damage dealt by 20%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_EARTH_M20",
+        "notes": "-"
+    },
+    {
+        "id": "8013",
+        "commonName": "Medium Debuff Wind",
+        "effects": "Reduces Wind damage dealt by 20%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_WIND_M20",
+        "notes": "-"
+    },
+    {
+        "id": "8014",
+        "commonName": "Medium Debuff Water",
+        "effects": "Reduces Water damage dealt by 20%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_WATER_M20",
+        "notes": "-"
+    },
+    {
+        "id": "8015",
+        "commonName": "Medium Debuff Holy",
+        "effects": "Reduces Holy damage dealt by 20%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_HOLY_M20",
+        "notes": "-"
+    },
+    {
+        "id": "8016",
+        "commonName": "Medium Debuff Dark",
+        "effects": "Reduces Dark damage dealt by 20%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_DARK_M20",
+        "notes": "-"
+    },
+    {
+        "id": "8051",
+        "commonName": "Absolute Medium Buff Fire",
+        "effects": "Increases Fire damage dealt by 20%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "Frozen, all other \"Buff Fire\" and  \"Debuff Fire\" status",
+        "codedName": "SET_EXCLUSIVE_ELEMENT_ATK_FIRE_20",
+        "notes": "-"
+    },
+    {
         "id": "8411001",
         "commonName": "Fire Blink 1",
         "effects": "Reduces the damage of the next attack that deals Fire damage to 0",
@@ -4111,6 +4331,16 @@
         "notes": "-"
     },
     {
+        "id": "8411051",
+        "commonName": "Water Blink 1",
+        "effects": "Reduces the damage of the next attack that deals Water damage to 0",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_WATER_DAMAGE_EVASION_1",
+        "notes": "-"
+    },
+    {
         "id": "8411061",
         "commonName": "Holy Blink 1",
         "effects": "Reduces the damage of the next attack that deals Holy damage to 0",
@@ -4128,6 +4358,26 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_FIRE_ADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "8421011",
+        "commonName": "Resist Ice",
+        "effects": "Ice Resistance +20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_ICE_ADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "8421021",
+        "commonName": "Resist Lightning",
+        "effects": "Lightning Resistance +20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_LIGHTNING_ADVANTAGE_2",
         "notes": "-"
     },
     {

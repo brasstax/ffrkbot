@@ -317,8 +317,10 @@
     {
         "realm": "Core",
         "character": "Samurai",
-        "effect": "?% chance to turn Attack into Flashing Blade",
-        "unlockCriteria": "Bring Samurai to level 99"
+        "name": "Mystical Enlightenment",
+        "effect": "?% chance to turn Attack into an ability (group, ? physical) with two group attacks (? each) and 100% hit rate",
+        "unlockCriteria": "Bring Samurai to level 99",
+        "name(jp)": "奥義の開眼"
     },
     {
         "realm": "Core",
@@ -521,7 +523,7 @@
     {
         "realm": "Core",
         "character": "Ranger",
-        "name": "Excellent Sharpshooter",
+        "name": "Distinguished Marksman",
         "effect": "33% chance to turn Attack into Barrage",
         "unlockCriteria": "Bring Ranger to level 99",
         "name(jp)": "卓越せし射手",
@@ -557,7 +559,10 @@
     {
         "realm": "Core",
         "character": "Thief (Core)",
-        "unlockCriteria": "Bring Thief (Core) to level 99"
+        "name": "Thief's Trump Card",
+        "effect": "?% chance to turn Attack into an ability (single, ? physical) with two single Poison attacks (? each, ? when equipping a dagger)",
+        "unlockCriteria": "Bring Thief (Core) to level 99",
+        "name(jp)": "シーフの奥の手"
     },
     {
         "realm": "Core",
@@ -589,7 +594,7 @@
     {
         "realm": "Core",
         "character": "Bard",
-        "name": "Song of Repose",
+        "name": "Chant of Repose",
         "effect": "Attack turns into an ability (single, 2,00 magical) that causes Sleep (20%)",
         "unlockCriteria": "Bring Bard to level 99",
         "name(jp)": "安息の呪歌",
@@ -914,9 +919,10 @@
         "realm": "I",
         "character": "Thief (I)",
         "name": "Dagger's Essence",
-        "effect": "ATK and RES +?% when equipping a dagger",
+        "effect": "ATK and RES +13% when equipping a dagger",
         "unlockCriteria": "Bring Thief (I) to level 99",
-        "name(jp)": "短剣の極意"
+        "name(jp)": "短剣の極意",
+        "✓": "✓"
     },
     {
         "realm": "II",
@@ -1974,7 +1980,7 @@
     {
         "realm": "IV",
         "character": "Rubicante",
-        "name": "Master of the Flame",
+        "name": "Lord of Flame",
         "effect": "Increases Fire damage dealt by 10%",
         "unlockCriteria": "Use Rubicante's Memory Crystal",
         "name(jp)": "炎をつかさどる者",
@@ -1983,7 +1989,7 @@
     {
         "realm": "IV",
         "character": "Rubicante",
-        "name": "Training in the Flame Arts",
+        "name": "Master of Fire",
         "effect": "Attack turns into an ability (group, 1,50 magical) that deals Fire damage",
         "unlockCriteria": "Use Rubicante's Memory Crystal II, chance to obtain with Rubicante in party",
         "name(jp)": "炎術の手練",
@@ -3118,7 +3124,7 @@
         "realm": "VII",
         "character": "Rufus",
         "name": "Savage Shots",
-        "effect": "Shooter abilities deal 15% more damage",
+        "effect": "Sharpshooter abilities deal 15% more damage",
         "unlockCriteria": "Use Rufus' Memory Crystal",
         "name(jp)": "非情なる狙撃",
         "✓": "✓"
@@ -3127,7 +3133,7 @@
         "realm": "VII",
         "character": "Rufus",
         "name": "Master of Fear",
-        "effect": "Shooter abilities deal 30% more damage",
+        "effect": "Sharpshooter abilities deal 30% more damage",
         "unlockCriteria": "Use Rufus' Memory Crystal II, chance to obtain with Rufus in party",
         "name(jp)": "恐怖の統率者",
         "✓": "✓"
@@ -3406,7 +3412,7 @@
         "realm": "VIII",
         "character": "Irvine",
         "name": "Nerves of Steel",
-        "effect": "Shooter abilities deal 40% more damage",
+        "effect": "Sharpshooter abilities deal 40% more damage",
         "unlockCriteria": "Bring Irvine to level 99",
         "name(jp)": "重圧を超えし狙撃手",
         "✓": "✓"
@@ -5267,9 +5273,10 @@
         "realm": "XIV",
         "character": "Estinien",
         "name": "Wyrm Eye's Might",
-        "effect": "Dragoon abilities deal ?% more damage",
+        "effect": "Dragoon abilities deal 35% more damage",
         "unlockCriteria": "Bring Estinien to level 99",
-        "name(jp)": "竜の眼の力"
+        "name(jp)": "竜の眼の力",
+        "✓": "✓"
     },
     {
         "realm": "XV",

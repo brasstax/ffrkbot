@@ -647,7 +647,7 @@
     {
         "realm": "IV",
         "character": "Kain",
-        "name": "Wyrm's Roar",
+        "name": "Echoing Roar",
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "轟きし竜の咆哮",
@@ -783,7 +783,7 @@
     {
         "realm": "IV",
         "character": "Edge",
-        "name": "Passioned Prince",
+        "name": "Passionate Prince",
         "effect": "Increases Water damage dealt by 10%",
         "relic": "-",
         "name(jp)": "激情の王子",
@@ -792,7 +792,7 @@
     {
         "realm": "IV",
         "character": "Edge",
-        "name": "Essence of Eblan",
+        "name": "Spirit of Eblan",
         "effect": "35% chance to dualcast Ninja abilities",
         "relic": "-",
         "name(jp)": "エブラーナ流の真髄",
@@ -1792,6 +1792,57 @@
     },
     {
         "realm": "VIII",
+        "character": "Selphie",
+        "name": "Quenchless Smile",
+        "effect": "WHT abilities restore ?% more HP",
+        "relic": "-",
+        "name(jp)": "絶やさぬ笑顔"
+    },
+    {
+        "realm": "VIII",
+        "character": "Selphie",
+        "name": "Love for Home",
+        "effect": "?% chance to dualcast White Magic abilities",
+        "relic": "-",
+        "name(jp)": "秘めたる郷土愛"
+    },
+    {
+        "realm": "VIII",
+        "character": "Selphie",
+        "name": "Festival Obsession",
+        "effect": "?% chance to grant Last Stand to the target after using a single-target White Magic ability that restores HP on an ally",
+        "master": "MND +10",
+        "relic": "Selphie's Guise (VIII)",
+        "name(jp)": "学園祭への執念"
+    },
+    {
+        "realm": "VIII",
+        "character": "Irvine",
+        "name": "Gentle Sniper",
+        "effect": "PHY attacks deal ?% more damage when equipping a gun",
+        "relic": "-",
+        "name(jp)": "優しき狙撃手"
+    },
+    {
+        "realm": "VIII",
+        "character": "Irvine",
+        "name": "Quick Hand",
+        "effect": "?% chance to grant Quick Cast 3 to the user after using a Sharpshooter ability",
+        "relic": "-",
+        "name(jp)": "凄腕の速射術"
+    },
+    {
+        "realm": "VIII",
+        "character": "Irvine",
+        "name": "Awareness of the Past",
+        "effect": "20% chance to cause Minor Imperil Fire to the target after using a Sharpshooter ability on an enemy",
+        "master": "ATK +10",
+        "relic": "Irvine's Longcoat (VIII)",
+        "name(jp)": "過去を知る者",
+        "✓": "✓"
+    },
+    {
+        "realm": "VIII",
         "character": "Seifer",
         "name": "Bad Seed",
         "effect": "Increases Dark damage dealt by 10%",
@@ -2181,7 +2232,7 @@
         "realm": "X",
         "character": "Wakka",
         "name": "Passion for the Blitz",
-        "effect": "?% chance to cause Minor Imperil Water to the target after using a Shooter ability on an enemy",
+        "effect": "?% chance to cause Minor Imperil Water to the target after using a Sharpshooter ability on an enemy",
         "relic": "-",
         "name(jp)": "ブリッツに込めた想い"
     },
