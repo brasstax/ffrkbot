@@ -21,7 +21,7 @@
         "realm": "Core",
         "character": "Tyro",
         "name": "Dr. Mog's Teachings",
-        "effect": "Fills 1 Soul Break segment at the beginning of the Dungeon",
+        "effect": "Grants 500 Soul Break points at the beginning of the Dungeon",
         "unlockCriteria": "Use Tyro's Memory Crystal II, chance to obtain with Tyro in party",
         "name(jp)": "Dr.モグの教え",
         "✓": "✓"
@@ -1998,7 +1998,7 @@
     {
         "realm": "IV",
         "character": "Rubicante",
-        "name": "Proud Nemesis",
+        "name": "Honorable Foe",
         "effect": "MAG and MND +13% when equipping a light armor",
         "unlockCriteria": "Bring Rubicante to level 99",
         "name(jp)": "誇り高き宿敵",
@@ -2764,7 +2764,7 @@
         "realm": "VII",
         "character": "Cloud",
         "name": "Mako Might",
-        "effect": "Fills 1 Soul Break segment at the beginning of the Dungeon",
+        "effect": "Grants 500 Soul Break points at the beginning of the Dungeon",
         "unlockCriteria": "Use Cloud's Memory Crystal II, chance to obtain with Cloud in party",
         "name(jp)": "魔晄の力",
         "✓": "✓"

@@ -1466,17 +1466,19 @@
         "realm": "VII",
         "character": "Red XIII",
         "name": "Dire Fang",
-        "effect": "Support abilities deal ?% more damage",
+        "effect": "Support abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "獰猛な牙"
+        "name(jp)": "獰猛な牙",
+        "✓": "✓"
     },
     {
         "realm": "VII",
         "character": "Red XIII",
         "name": "Proud Warrior",
-        "effect": "Increases the duration of stat buffs by ?%",
+        "effect": "Increases the duration of stat buffs by 40%",
         "relic": "-",
-        "name(jp)": "誇り高き戦士"
+        "name(jp)": "誇り高き戦士",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -1810,10 +1812,11 @@
         "realm": "VIII",
         "character": "Selphie",
         "name": "Festival Obsession",
-        "effect": "?% chance to grant Last Stand to the target after using a single-target White Magic ability that restores HP on an ally",
+        "effect": "20% chance to grant Last Stand to the target after using a single-target White Magic ability that restores HP on an ally",
         "master": "MND +10",
         "relic": "Selphie's Guise (VIII)",
-        "name(jp)": "学園祭への執念"
+        "name(jp)": "学園祭への執念",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -1891,10 +1894,11 @@
         "realm": "VIII",
         "character": "Laguna",
         "name": "Playful Fellow",
-        "effect": "?% chance to cause Minor Imperil Ice to the target after using a Machinist ability on an enemy",
+        "effect": "20% chance to cause Minor Imperil Ice to the target after using a Machinist ability on an enemy",
         "master": "ATK +10",
         "relic": "President Outfit (VIII)",
-        "name(jp)": "好漢の茶目っ気"
+        "name(jp)": "好漢の茶目っ気",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -2959,9 +2963,10 @@
         "realm": "XIII",
         "character": "Serah",
         "name": "Wish for Reunion",
-        "effect": "BLK attacks deal ?% more damage",
+        "effect": "Increases Ice damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "再会への願い"
+        "name(jp)": "再会への願い",
+        "✓": "✓"
     },
     {
         "realm": "XIII",

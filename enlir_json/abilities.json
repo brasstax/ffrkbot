@@ -5551,6 +5551,22 @@
         "✓": "✓"
     },
     {
+        "school": "Monk",
+        "name": "Icicle Crush",
+        "rarity": 5,
+        "type": "?",
+        "time": "?",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "sb(jp)": "?",
+        "uses": "?",
+        "max": "?",
+        "gilRequired": 20000,
+        "introducingEvent": "3rd Anniversary Carnival",
+        "id": 30191141
+    },
+    {
         "school": "Thief",
         "name": "Steal HP",
         "rarity": 2,
