@@ -3514,6 +3514,20 @@
         "✓": "✓"
     },
     {
+        "school": "Celerity",
+        "rarity": 5,
+        "type": "?",
+        "time": "?",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "sb(jp)": "?",
+        "uses": 2,
+        "max": 10,
+        "gilRequired": 20000,
+        "id": 30171181
+    },
+    {
         "school": "Summoning",
         "name": "Goblin",
         "rarity": 1,
@@ -5552,7 +5566,7 @@
     },
     {
         "school": "Monk",
-        "name": "Icicle Crush",
+        "name": "Icicle Rush",
         "rarity": 5,
         "type": "?",
         "time": "?",
@@ -6989,7 +7003,7 @@
     },
     {
         "school": "Bard",
-        "name": "Allegro Con Moto",
+        "name": "Allegro con Moto",
         "rarity": 6,
         "type": "NAT",
         "target": "All allies",

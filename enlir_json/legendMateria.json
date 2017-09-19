@@ -185,10 +185,11 @@
         "realm": "I",
         "character": "Matoya",
         "name": "Witch's Touch",
-        "effect": "Witch abilities deal ?% more damage when equipping a staff",
+        "effect": "Witch abilities deal 25% more damage when equipping a staff",
         "master": "MAG +10",
         "relic": "Matoya's Hat (I)",
-        "name(jp)": "魔道の老手"
+        "name(jp)": "魔道の老手",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -864,17 +865,19 @@
         "realm": "IV",
         "character": "Ursula",
         "name": "Memories of Youth",
-        "effect": "Monk abilities deal ?% more damage",
+        "effect": "Monk abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "幼き日の記憶"
+        "name(jp)": "幼き日の記憶",
+        "✓": "✓"
     },
     {
         "realm": "IV",
         "character": "Ursula",
         "name": "Acknowledged by Father",
-        "effect": "ATK +?% for each hit dealt with Monk abilities, up to +?%",
+        "effect": "ATK +2% for each hit dealt with Monk abilities, up to +50%",
         "relic": "-",
-        "name(jp)": "父が認めし武才"
+        "name(jp)": "父が認めし武才",
+        "✓": "✓"
     },
     {
         "realm": "IV",
@@ -1018,17 +1021,19 @@
         "realm": "V",
         "character": "Krile",
         "name": "Boundless Love",
-        "effect": "Increases Fire damage dealt by ?%",
+        "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "かぎりない愛情"
+        "name(jp)": "かぎりない愛情",
+        "✓": "✓"
     },
     {
         "realm": "V",
         "character": "Krile",
         "name": "Grandfather's Vessel",
-        "effect": "?% chance to grant Quick Cast 3 to the user after using a Fire attack",
+        "effect": "30% chance to grant Quick Cast 3 to the user after using a Fire attack",
         "relic": "-",
-        "name(jp)": "宿りし祖父の魂"
+        "name(jp)": "宿りし祖父の魂",
+        "✓": "✓"
     },
     {
         "realm": "V",
@@ -1037,7 +1042,8 @@
         "effect": "Grants Attach Fire at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Krile's Dress (V)",
-        "name(jp)": "熱意あふれる少女"
+        "name(jp)": "熱意あふれる少女",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -1282,10 +1288,11 @@
         "realm": "VI",
         "character": "Strago",
         "name": "Powers to Challenge Fire",
-        "effect": "?% chance to dualcast Water abilities",
+        "effect": "25% chance to dualcast Water abilities",
         "master": "MAG +10",
         "relic": "Rod of Faith (VI)",
-        "name(jp)": "烈火に挑む魔導の力"
+        "name(jp)": "烈火に挑む魔導の力",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -1309,7 +1316,7 @@
         "realm": "VI",
         "character": "Relm",
         "name": "Wondrous Hues",
-        "effect": "25% chance to grant Magical Blink 1 to the target after using a single-target White Magic ability that restores HP on an ally",
+        "effect": "27% chance to grant Magical Blink 1 to the target after using a single-target White Magic ability that restores HP on an ally",
         "master": "MND +10",
         "relic": "Relm's Hat (VI)",
         "name(jp)": "奇跡の色彩",
@@ -2442,17 +2449,19 @@
         "realm": "X",
         "character": "Seymour",
         "name": "Hidden Ambition",
-        "effect": "Increases Dark damage dealt by ?%",
+        "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "野心を秘めし召喚士"
+        "name(jp)": "野心を秘めし召喚士",
+        "✓": "✓"
     },
     {
         "realm": "X",
         "character": "Seymour",
         "name": "Dead Who Deprives the Light",
-        "effect": "?% chance of restioring HP to the user for ?% of the damage dealt after using a single-target Dark attack",
+        "effect": "40% chance of restioring HP to the user for 40% of the damage dealt after using a single-target Dark attack",
         "relic": "-",
-        "name(jp)": "光を奪いし死人"
+        "name(jp)": "光を奪いし死人",
+        "✓": "✓"
     },
     {
         "realm": "X",
@@ -2711,7 +2720,8 @@
         "effect": "Grants Attach Holy at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Basch's Gloves (XII)",
-        "name(jp)": "ダルマスカに捧ぐ忠心"
+        "name(jp)": "ダルマスカに捧ぐ忠心",
+        "✓": "✓"
     },
     {
         "realm": "XII",
@@ -3498,7 +3508,7 @@
     {
         "realm": "FFT",
         "character": "Delita",
-        "name": "Firm Resolve",
+        "name": "Unshakeable Resolve",
         "effect": "Spellblade abilities deal ?% more damage",
         "relic": "-",
         "name(jp)": "確固たる意志"
@@ -3506,7 +3516,7 @@
     {
         "realm": "FFT",
         "character": "Delita",
-        "name": "Hero of the War of the Lions",
+        "name": "War Hero",
         "effect": "?% chance to dualcast Spellblade abilities",
         "relic": "-",
         "name(jp)": "獅子戦争の英雄"
@@ -3567,10 +3577,11 @@
         "realm": "FFT",
         "character": "Mustadio",
         "name": "Machinist's Rapid Fire",
-        "effect": "?% chance to grant Quick Cast 1 to the user after using a Machinist ability",
+        "effect": "35% chance to grant Quick Cast 1 to the user after using a Machinist ability",
         "master": "ATK +10",
         "relic": "Empyreal Armband (FFT)",
-        "name(jp)": "機工士の早撃ち"
+        "name(jp)": "機工士の早撃ち",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
@@ -3629,7 +3640,7 @@
     {
         "realm": "FFT",
         "character": "Rapha",
-        "name": "Skyseer's Secrets",
+        "name": "Skyseer Mystique",
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "天道士の秘術",
@@ -3638,7 +3649,7 @@
     {
         "realm": "FFT",
         "character": "Rapha",
-        "name": "Sky Mystery",
+        "name": "Sky Mantra Secrets",
         "effect": "35% chance to dualcast Lightning abilities",
         "relic": "-",
         "name(jp)": "天道術の神秘",
@@ -3648,15 +3659,16 @@
         "realm": "FFT",
         "character": "Rapha",
         "name": "Keeper of Faith",
-        "effect": "?% chance to grant Quick Cast 1 to the user after using a Lightning attack",
+        "effect": "35% chance to grant Quick Cast 1 to the user after using a Lightning attack",
         "master": "MAG +10",
         "relic": "Rapha's Bracer (FFT)",
-        "name(jp)": "受け継ぎし真言"
+        "name(jp)": "受け継ぎし真言",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
         "character": "Marach",
-        "name": "Netherseer's Secrets",
+        "name": "Netherseer Mystique",
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "天冥士の秘術",
@@ -3665,7 +3677,7 @@
     {
         "realm": "FFT",
         "character": "Marach",
-        "name": "Nether Mystery",
+        "name": "Nether Mantra Secrets",
         "effect": "35% chance to dualcast Lightning abilities",
         "relic": "-",
         "name(jp)": "天冥術の神秘",
@@ -3678,7 +3690,8 @@
         "effect": "Grants Attach Lightning at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Marach's Guise (FFT)",
-        "name(jp)": "裏真言の真価"
+        "name(jp)": "裏真言の真価",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
@@ -3700,10 +3713,11 @@
         "realm": "FFT",
         "character": "Meliadoul",
         "name": "Unyielding Blade Essence",
-        "effect": "Knight abilities deal ?% more damage when equipping a sword",
+        "effect": "Knight abilities deal 25% more damage when equipping a sword",
         "master": "ATK +10",
         "relic": "Venus Blade (FFT)",
-        "name(jp)": "剛剣の真髄"
+        "name(jp)": "剛剣の真髄",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
@@ -3753,26 +3767,29 @@
         "realm": "FFT",
         "character": "Montblanc",
         "name": "Redeeming Knowledge",
-        "effect": "?% chance to grant Quick Cast 1 to the user after using a BLK attack",
+        "effect": "35% chance to grant Quick Cast 1 to the user after using a BLK attack",
         "master": "MAG +10",
         "relic": "Silken Robe (A) (FFT)",
-        "name(jp)": "補うための魔法の知識"
+        "name(jp)": "補うための魔法の知識",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
         "character": "Alma",
         "name": "Cheerful Sister",
-        "effect": "WHT abilities restore ?% more HP",
+        "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
-        "name(jp)": "明朗活発な妹"
+        "name(jp)": "明朗活発な妹",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
         "character": "Alma",
         "name": "Saint Reincarnate",
-        "effect": "?% chance to dualcast White Magic abilities",
+        "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
-        "name(jp)": "聖者の生まれ変わり"
+        "name(jp)": "聖者の生まれ変わり",
+        "✓": "✓"
     },
     {
         "realm": "FFT",

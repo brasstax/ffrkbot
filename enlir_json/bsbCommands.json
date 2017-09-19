@@ -8413,7 +8413,7 @@
     {
         "character": "Meliadoul",
         "source": "Crush Helm",
-        "name": "Divine Crash",
+        "name": "Divine Crush",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",

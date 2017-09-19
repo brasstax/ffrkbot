@@ -5659,7 +5659,7 @@
     {
         "realm": "FFT",
         "character": "Meliadoul",
-        "name": "Lady of the Unyielding Blade",
+        "name": "Hardened Blade",
         "effect": "16% chance to turn Attack into Armor Break",
         "unlockCriteria": "Use Meliadoul's Memory Crystal",
         "name(jp)": "剛剣の使い手",
@@ -5668,7 +5668,7 @@
     {
         "realm": "FFT",
         "character": "Meliadoul",
-        "name": "Stubborn Knight Templar",
+        "name": "Tenacious Templar",
         "effect": "DEF +20% when equipping a light armor",
         "unlockCriteria": "Use Meliadoul's Memory Crystal II, chance to obtain with Meliadoul in party",
         "name(jp)": "頑ななる神殿騎士",
@@ -5677,7 +5677,7 @@
     {
         "realm": "FFT",
         "character": "Meliadoul",
-        "name": "Seeking Truth",
+        "name": "Steeling Gaze",
         "effect": "Support abilities deal 40% more damage",
         "unlockCriteria": "Bring Meliadoul to level 99",
         "name(jp)": "真実を求める眼差し",
