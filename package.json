@@ -12,10 +12,12 @@
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-node": "^5.0.0",
     "google-spreadsheet-to-json": "^1.0.0",
+    "gsjson": "^0.1.8",
     "jest": "^20.0.4",
     "json-query": "^2.2.2",
     "pad": "^1.1.0",
     "sqlite": "^2.8.0",
+    "sqlite3": "^3.1.10",
     "superagent": "^3.6.0",
     "titlecase": "^1.1.2"
   },
