@@ -12,7 +12,6 @@
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-node": "^5.0.0",
     "google-spreadsheet-to-json": "^1.0.0",
-    "gsjson": "^0.1.8",
     "jest": "^20.0.4",
     "json-query": "^2.2.2",
     "pad": "^1.1.0",
@@ -29,6 +28,7 @@
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
+    "gsjson": "^0.1.8",
     "mocha": "^3.4.2",
     "rewire": "^2.5.2",
     "sinon": "^2.3.5"

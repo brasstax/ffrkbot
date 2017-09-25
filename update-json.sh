@@ -5,3 +5,4 @@ gsjson 16K1Zryyxrh7vdKVF1f7eRrUAOC5wuzvC3q2gFLch6LQ -w "Status" -b enlir_json/st
 gsjson 16K1Zryyxrh7vdKVF1f7eRrUAOC5wuzvC3q2gFLch6LQ -w "Abilities" -b enlir_json/abilities.json
 gsjson 16K1Zryyxrh7vdKVF1f7eRrUAOC5wuzvC3q2gFLch6LQ -w "Commands" -b enlir_json/bsbCommands.json
 gsjson 16K1Zryyxrh7vdKVF1f7eRrUAOC5wuzvC3q2gFLch6LQ -w "Legend Materia" -b enlir_json/legendMateria.json
+gsjson 16K1Zryyxrh7vdKVF1f7eRrUAOC5wuzvC3q2gFLch6LQ -w "Other" -b enlir_json/other.json
