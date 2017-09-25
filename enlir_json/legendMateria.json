@@ -299,10 +299,11 @@
         "realm": "II",
         "character": "Leon",
         "name": "Dark Bloom",
-        "effect": "?% chance to dualcast Darkness abilities",
+        "effect": "25% chance to dualcast Darkness abilities",
         "master": "ATK +10",
         "relic": "Diamond Armor (II)",
-        "name(jp)": "開花せし闇の力"
+        "name(jp)": "開花せし闇の力",
+        "✓": "✓"
     },
     {
         "realm": "II",
@@ -401,6 +402,15 @@
     },
     {
         "realm": "III",
+        "character": "Luneth",
+        "name": "Orphan of Ur",
+        "effect": "Grants Attach Wind at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Blessed Hammer (III)",
+        "name(jp)": "ウルのやんちゃ坊主"
+    },
+    {
+        "realm": "III",
         "character": "Arc",
         "name": "Boy's Compassion",
         "effect": "WHT abilities restore ?% more HP",
@@ -480,6 +490,15 @@
         "relic": "Genji Shield (III)",
         "name(jp)": "忠義の精神",
         "✓": "✓"
+    },
+    {
+        "realm": "III",
+        "character": "Ingus",
+        "name": "Steely Soldier",
+        "effect": "Grants Attach Earth at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Genji Armor (III)",
+        "name(jp)": "奥ゆかしき凄腕兵士"
     },
     {
         "realm": "III",
@@ -1188,7 +1207,7 @@
     {
         "realm": "VI",
         "character": "Shadow",
-        "name": "Arts of Assassination",
+        "name": "Murderous Method",
         "effect": "Ninja abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "暗殺の技法",
@@ -1197,7 +1216,7 @@
     {
         "realm": "VI",
         "character": "Shadow",
-        "name": "Living for Battle",
+        "name": "Heat of Battle",
         "effect": "35% chance to dualcast Ninja abilities",
         "relic": "-",
         "name(jp)": "戦いの中に生きる者",
@@ -1216,7 +1235,7 @@
     {
         "realm": "VI",
         "character": "Cyan",
-        "name": "Journey for Vengeance",
+        "name": "Path of Vengeance",
         "effect": "Samurai abilities deal ?% more damage",
         "relic": "-",
         "name(jp)": "仇討ちの旅路"
@@ -1224,7 +1243,7 @@
     {
         "realm": "VI",
         "character": "Cyan",
-        "name": "Stray Warrior",
+        "name": "True Conviction",
         "effect": "?% chance to dualcast Samurai abilities",
         "relic": "-",
         "name(jp)": "迷い断ちし真の武人"
@@ -1241,7 +1260,7 @@
     {
         "realm": "VI",
         "character": "Setzer",
-        "name": "Led by a Flying Bird",
+        "name": "Taking Wing",
         "effect": "Support abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "飛ぶ鳥に導かれて",
@@ -1250,7 +1269,7 @@
     {
         "realm": "VI",
         "character": "Setzer",
-        "name": "Gambling on Fate",
+        "name": "Fate-Defying Bet",
         "effect": "30% chance to cast an ability (single, 0,25 physical) with ATK, MAG, MND -30% after dealing damage with a Support ability",
         "relic": "-",
         "name(jp)": "運命を切り開く賭け",
@@ -1325,7 +1344,7 @@
     {
         "realm": "VI",
         "character": "Gogo (VI)",
-        "name": "Arts of the Mime",
+        "name": "Mimic's Craft",
         "effect": "Mimic attacks deal 15% more damage",
         "relic": "-",
         "name(jp)": "ものまね士の技術",
@@ -1334,7 +1353,7 @@
     {
         "realm": "VI",
         "character": "Gogo (VI)",
-        "name": "True Mimic",
+        "name": "Perfect Likeness",
         "effect": "ATK and MAG +2% for each hit dealt with Mimic attacks, up to +30%",
         "relic": "-",
         "name(jp)": "真なる模倣",
@@ -1639,17 +1658,19 @@
         "realm": "VII",
         "character": "Reno",
         "name": "Ray Master",
-        "effect": "Increases Lightning damage dealt by ?%",
+        "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "光線の使い手"
+        "name(jp)": "光線の使い手",
+        "✓": "✓"
     },
     {
         "realm": "VII",
         "character": "Reno",
         "name": "Speedy Worker",
-        "effect": "?% chance to dualcast Lightning abilities",
+        "effect": "35% chance to dualcast Lightning abilities",
         "relic": "-",
-        "name(jp)": "神速の仕事人"
+        "name(jp)": "神速の仕事人",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -2016,6 +2037,15 @@
         "relic": "Zidane's Gloves (IX)",
         "name(jp)": "盗賊の即断",
         "✓": "✓"
+    },
+    {
+        "realm": "IX",
+        "character": "Zidane",
+        "name": "Thief's Manners",
+        "effect": "?% chance to dualcast Wind abilities",
+        "master": "ATK +10",
+        "relic": "Ninja Gear (IX)",
+        "name(jp)": "盗賊の機転"
     },
     {
         "realm": "IX",
@@ -3366,6 +3396,14 @@
         "relic": "Kite Shield (XV)",
         "name(jp)": "王の盾",
         "✓": "✓"
+    },
+    {
+        "realm": "XV",
+        "character": "Gladiolus",
+        "name": "Hold on the Prince",
+        "master": "ATK +10",
+        "relic": "Gladiolus's Fatigues (XV)",
+        "name(jp)": "若き統領の挟持"
     },
     {
         "realm": "XV",

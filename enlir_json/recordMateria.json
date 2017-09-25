@@ -318,9 +318,10 @@
         "realm": "Core",
         "character": "Samurai",
         "name": "Mystical Enlightenment",
-        "effect": "?% chance to turn Attack into an ability (group, ? physical) with two group attacks (? each) and 100% hit rate",
+        "effect": "50% chance to turn Attack into an ability (group, 1,80 physical) with two group attacks (0,90 each) and 100% hit rate",
         "unlockCriteria": "Bring Samurai to level 99",
-        "name(jp)": "奥義の開眼"
+        "name(jp)": "奥義の開眼",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -469,7 +470,7 @@
     {
         "realm": "Core",
         "character": "Berserker",
-        "name": "Berserker's War Axe",
+        "name": "Berserker's Axe",
         "effect": "PHY attacks deal 10% more damage when equipping an axe",
         "unlockCriteria": "Use Berserker's Memory Crystal",
         "name(jp)": "狂戦士の戦斧",
@@ -560,9 +561,10 @@
         "realm": "Core",
         "character": "Thief (Core)",
         "name": "Thief's Trump Card",
-        "effect": "?% chance to turn Attack into an ability (single, ? physical) with two single Poison attacks (? each, ? when equipping a dagger)",
+        "effect": "50% chance to turn Attack into an ability (single, 1,94 physical) with two single Poison attacks (0,97 each, 1,17 with a dagger)",
         "unlockCriteria": "Bring Thief (Core) to level 99",
-        "name(jp)": "シーフの奥の手"
+        "name(jp)": "シーフの奥の手",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -2637,7 +2639,7 @@
     {
         "realm": "VI",
         "character": "Gogo (VI)",
-        "name": "Parrot",
+        "name": "Defensive Instinct",
         "effect": "10% chance to counter PHY attacks with an ability that grants Protect to the user",
         "unlockCriteria": "Use Gogo (VI)'s Memory Crystal",
         "name(jp)": "オウム返し",
@@ -2646,7 +2648,7 @@
     {
         "realm": "VI",
         "character": "Gogo (VI)",
-        "name": "Mime's Style",
+        "name": "Mimic-Fashion",
         "effect": "MND +20%, grants Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Gogo (VI)'s Memory Crystal II, chance to obtain with Gogo (VI) in party",
         "name(jp)": "ものまね士の流儀",
@@ -2664,7 +2666,7 @@
     {
         "realm": "VI",
         "character": "Umaro",
-        "name": "Snowstorm's Berserker",
+        "name": "Blizzard Berserker",
         "effect": "Grants Berserk at the beginning of the battle",
         "unlockCriteria": "Use Umaro's Memory Crystal",
         "name(jp)": "吹雪の狂戦士",
@@ -2673,7 +2675,7 @@
     {
         "realm": "VI",
         "character": "Umaro",
-        "name": "Bone Sculptor",
+        "name": "Bone Carver",
         "effect": "ATK +13% when equipping a hammer",
         "unlockCriteria": "Use Umaro's Memory Crystal II, chance to obtain with Umaro in party",
         "name(jp)": "洞窟の骨彫刻家",

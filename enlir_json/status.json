@@ -1218,7 +1218,7 @@
     {
         "id": "295",
         "commonName": "Overcome Past",
-        "effects": "Grants High Quick Cast 1 after using a Dark attack, casts Residual Blade after using a Ninja ability if the user has any Physical Blink",
+        "effects": "Grants High Quick Cast 1 after using a Dark attack, casts Vanishing Blade after using a Ninja ability if the user has any Physical Blink",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -1228,7 +1228,7 @@
     {
         "id": "296",
         "commonName": "Gambling Break",
-        "effects": "Grants High Quick Cast 1 and randomly casts Spade/Club/Diamond/Heart Card after using a Support ability",
+        "effects": "Grants High Quick Cast 1 and randomly casts Deadly Spade/Club/Diamond/Heart after using a Support ability",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2354,7 +2354,7 @@
     },
     {
         "id": "589",
-        "commonName": "EX: Gale",
+        "commonName": "EX: Windborn",
         "effects": "ATK +30%, grants High Quick Cast 1 after using a Wind attack",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2374,7 +2374,7 @@
     },
     {
         "id": "591",
-        "commonName": "EX: Dualcast Magic",
+        "commonName": "EX: Twinstrike",
         "effects": "MAG +30%, 100% chance to dualcast Witch abilities consuming an extra ability use",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2444,7 +2444,7 @@
     },
     {
         "id": "599",
-        "commonName": "EX: Light Bless",
+        "commonName": "EX: Light's Blessing",
         "effects": "DEF +100%, Knight abilities deal 5% more damage for each Knight ability used, up to +30%",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2474,7 +2474,7 @@
     },
     {
         "id": "50004",
-        "commonName": "EX: Royal Power",
+        "commonName": "EX: Royal Might",
         "effects": "ATK +30%, increases Non-Elemental damage dealt by 10%, removed if the user doesn't have any Stoneskin",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2485,7 +2485,7 @@
     {
         "id": "50005",
         "commonName": "EX: Master Thief",
-        "effects": "Casts Storm Steal after using a Thief ability",
+        "effects": "Casts Steel Storm after using a Thief ability",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2494,7 +2494,7 @@
     },
     {
         "id": "50006",
-        "commonName": "EX: Loyal Retainer",
+        "commonName": "EX: Loyal Shield",
         "effects": "ATK +30%, cast speed x2,00 plus x0,50 for each attack used for the duration of the status, up to x6,50",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2505,7 +2505,7 @@
     {
         "id": "50007",
         "commonName": "EX: Ace",
-        "effects": "ATK +30%, casts Shoot & Run after using a Water attack",
+        "effects": "ATK +30%, casts Run & Shoot after using a Water attack",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3182,6 +3182,86 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHASE_MODE_FOR_BRAVE_SHOOTING",
+        "notes": "-"
+    },
+    {
+        "id": "50076",
+        "commonName": "Attach Lightning Stacking",
+        "effects": "Allow to stack Attach Lightning , up to Attach Lightning 3",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_LIGHTNING_BOOSTABLE",
+        "notes": "-"
+    },
+    {
+        "id": "50077",
+        "commonName": "Attach Fire Stacking",
+        "effects": "Allow to stack Attach Fire, up to Attach Fire 3",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_FIRE_BOOSTABLE",
+        "notes": "-"
+    },
+    {
+        "id": "50078",
+        "commonName": "Attach Wind Stacking",
+        "effects": "Allow to stack Attach Wind, up to Attach Wind 3",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_WIND_BOOSTABLE",
+        "notes": "-"
+    },
+    {
+        "id": "50079",
+        "commonName": "Attach Ice Stacking",
+        "effects": "Allow to stack Attach Ice, up to Attach Ice 3",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_ICE_BOOSTABLE",
+        "notes": "-"
+    },
+    {
+        "id": "50080",
+        "commonName": "Waterblade Follow-Up",
+        "effects": "Casts Waterblade Barrage after using a Water attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_HANDS_DOWN",
+        "notes": "-"
+    },
+    {
+        "id": "50081",
+        "commonName": "Ninja Rank Boost",
+        "effects": "Ninja abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ART_OF_NINJA_OVERLAID_BODY",
+        "notes": "-"
+    },
+    {
+        "id": "50082",
+        "commonName": "Climhazzard",
+        "effects": "Grants Quick Cast 1 after using a Wind attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_IF_WIND_ELEMENT",
+        "notes": "-"
+    },
+    {
+        "id": "50094",
+        "commonName": "Null Ninjutsu",
+        "effects": "Reduces to 0 all damage received from NIN attacks",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ADJUST_DAMAGE_ZERO_NINJUTSU",
         "notes": "-"
     },
     {
