@@ -11,14 +11,23 @@ const botUtils = require(path.join(__dirname, 'common-bot-utils.js'));
 const enlirJsonPath = path.join(__dirname, '..', 'enlir_json');
 const enlirStatusPath = path.join(enlirJsonPath, 'status.json');
 const enlirStatusFile = fs.readFileSync(enlirStatusPath);
+const enlirOtherPath = path.join(enlirJsonPath, 'other.json');
+const enlirOtherFile = fs.readFileSync(enlirOtherPath);
 const enlirStatus = JSON.parse(enlirStatusFile);
+const enlirOther = JSON.parse(enlirOtherFile);
+
+const enlirModifiedStatus =
+  addOtherStatusToEnlirStatus(enlirStatus, enlirOther);
 
 /** exports.status
  * Retrieves information about a status condition.
  * @param {object} msg: A message object from the discord.js bot.
  * @param {string} args: the status to look up.
+ * @param {object} data: The enlirStatus dataset we want to use. We will
+ * eventually pass in a modified enlirStatus that includes status from the Other
+ * dataset.
  **/
-exports.status = function lookupStatus(msg, args) {
+exports.status = function lookupStatus(msg, args, data=enlirModifiedStatus) {
   if (args.length < 3) {
     msg.reply('Search query must be at least three characters.');
     return;
@@ -32,7 +41,7 @@ exports.status = function lookupStatus(msg, args) {
   let queryString = util.format('[commonName~/%s/i]', query);
   console.log(`queryString: ${queryString}`);
   let result = jsonQuery(queryString, {
-    data: enlirStatus,
+    data: data,
     allowRegexp: true,
   });
   if (result.value === null) {
@@ -44,6 +53,29 @@ exports.status = function lookupStatus(msg, args) {
       });
   };
 };
+
+/** addOtherStatusToEnlirStatus:
+ *  Processes Enlir's Other spreadsheet for Status effects and puts them into
+ *  the main status sheet. Enlir has some statuses in a worksheet known as Other
+ *  most likely because they do not count as actual status effects in-game
+ *  (No MND modifier, no duration, etc.) We want to combine these into the main
+ *  status effect dataset for easier searching.
+ *  @param {object} enlirStatus: the first set of Enlir's statuses in JSON.
+ *  @param {object} enlirOther: the second set of Enlir's statuses in the Other
+ *  sheet.
+ *  @return {object} enlirCombinedStatus: enlirStatus combined with the status-
+ *  effect entries from enlirOther.
+ **/
+ function addOtherStatusToEnlirStatus(enlirStatus, enlirOther) {
+   enlirOther.forEach((entry) => {
+     if (entry.character === 'Status') {
+       enlirStatus.push(entry);
+       // next line is because the status sheet uses commonName as the key
+       enlirStatus[enlirStatus.length - 1].commonName = entry.name;
+     }
+   });
+   return enlirStatus;
+ };
 
 /** sendRichEmbedStatus:
  * Processes and outputs information about a status effect in
@@ -66,16 +98,33 @@ function sendRichEmbedStatus(result, msg) {
     if (defaultDuration === 0) {
       defaultDuration = 'Until removed';
     };
+    let multiplier = (statusEffect.multiplier !== undefined) ?
+      (botUtils.returnMultiplier(statusEffect)) : ('N/A');
+    let sb = (statusEffect.sb !== undefined) ?
+      (statusEffect.sb) : (0);
+    let time = (statusEffect.time !== undefined) ?
+      (statusEffect.time) : ('N/A');
     let name = statusEffect.commonName;
     let notes = botUtils.returnNotes(statusEffect);
-    let embed = new RichEmbed()
-      .setTitle(name)
-      .setDescription(description)
-      .setColor('#8c42f4')
-      .addField('Default duration', defaultDuration, true)
-      .addField('MND modifier', mndModifier, true)
-      .addField('Mutually-exclusive status effects', exclusiveStatus)
-      .addField('Additional notes', notes);
+    let embed;
+    if (notes !== undefined) {
+      embed = new RichEmbed()
+        .setTitle(name)
+        .setDescription(description)
+        .setColor('#8c42f4')
+        .addField('Default duration', defaultDuration, true)
+        .addField('MND modifier', mndModifier, true)
+        .addField('Mutually-exclusive status effects', exclusiveStatus)
+        .addField('Additional notes', notes);
+    } else {
+      embed = new RichEmbed()
+        .setTitle(name)
+        .setDescription(description)
+        .setColor('#8c42f4')
+        .addField('Multipler', multiplier)
+        .addField('Soulbreak gauge charge', sb)
+        .addField('Cast time', time);
+    }
     msg.channel.send({embed})
       .then( (resolve) => {
         fulfill(resolve);
