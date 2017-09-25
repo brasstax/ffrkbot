@@ -75,7 +75,7 @@ function sendRichEmbedOther(result, msg) {
       .setColor('#bfdaff')
       .addField('Source', source, true)
       .addField('Target', target, true)
-      .addField('Cast time', time, true)
+      .addField('Cast time', time)
       .addField('Soul Break charge', sb, true)
       .addField('Multiplier', multiplier, true);
     msg.channel.send({embed})
