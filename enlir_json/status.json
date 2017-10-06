@@ -1526,6 +1526,16 @@
         "notes": "-"
     },
     {
+        "id": "2056",
+        "commonName": "Quick Jump Attacks",
+        "effects": "Cast speed x2,00 for Jump attacks",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_MSEC_FLIGHT_ATTACK",
+        "notes": "-"
+    },
+    {
         "id": "501",
         "commonName": "MAG Boost",
         "effects": "MAG +25%",
@@ -2384,7 +2394,7 @@
     },
     {
         "id": "592",
-        "commonName": "EX: Cerberus",
+        "commonName": "EX: Hellhound",
         "effects": "Grants Quick Cast 1 after using a Fire attack",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2398,7 +2408,7 @@
         "effects": "ATK +30%",
         "defaultDuration": "15",
         "mndModifier": "-",
-        "exclusiveStatus": "Cerberus MAG +30%",
+        "exclusiveStatus": "Hybrid MAG +30%",
         "codedName": "EX_MODE_HELLHOUND_ATK_BOOST",
         "notes": "-"
     },
@@ -2408,7 +2418,7 @@
         "effects": "MAG +30%",
         "defaultDuration": "15",
         "mndModifier": "-",
-        "exclusiveStatus": "Cerberus ATK +30%",
+        "exclusiveStatus": "Hybrid ATK +30%",
         "codedName": "EX_MODE_HELLHOUND_MATK_BOOST",
         "notes": "-"
     },
@@ -3066,7 +3076,7 @@
     },
     {
         "id": "50064",
-        "commonName": "Haurcefant Cover",
+        "commonName": "Haurchefant Cover",
         "effects": "While front row, 100% chance to cover PHY, BLK, WHT, BLU and SUM attacks that target back row allies, reducing damage taken by 50%",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -3252,6 +3262,46 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_IF_WIND_ELEMENT",
+        "notes": "-"
+    },
+    {
+        "id": "50084",
+        "commonName": "Stock Raid Follow-Up",
+        "effects": "Casts Stock Raid after using a Holy attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_STOCK_RAID",
+        "notes": "-"
+    },
+    {
+        "id": "50086",
+        "commonName": "EX: Angel of Death",
+        "effects": "Darkness abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, casts Ultima (IX) when removed",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "EX_MODE_FOR_DEATH_GOD",
+        "notes": "-"
+    },
+    {
+        "id": "50091",
+        "commonName": "Freya Trance",
+        "effects": "ATK and RES +30%, casts Freya Follow-Up after using a Dragoon jump attack",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "FREYA_TRANCE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50093",
+        "commonName": "Quina Trance",
+        "effects": "ATK, DEF, MAG, RES and MND +15%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "QUINA_TRANCE_MODE",
         "notes": "-"
     },
     {

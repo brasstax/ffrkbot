@@ -2286,6 +2286,36 @@
         "✓": "✓"
     },
     {
+        "realm": "V",
+        "character": "Kelger",
+        "unlockCriteria": "Use Kelger's Memory Crystal"
+    },
+    {
+        "realm": "V",
+        "character": "Kelger",
+        "unlockCriteria": "Use Kelger's Memory Crystal II, chance to obtain with Kelger in party"
+    },
+    {
+        "realm": "V",
+        "character": "Kelger",
+        "unlockCriteria": "Bring Kelger to level 99"
+    },
+    {
+        "realm": "V",
+        "character": "Xezat",
+        "unlockCriteria": "Use Xezat's Memory Crystal"
+    },
+    {
+        "realm": "V",
+        "character": "Xezat",
+        "unlockCriteria": "Use Xezat's Memory Crystal II, chance to obtain with Xezat in party"
+    },
+    {
+        "realm": "V",
+        "character": "Xezat",
+        "unlockCriteria": "Bring Xezat to level 99"
+    },
+    {
         "realm": "VI",
         "character": "Terra",
         "name": "Hidden Power",
@@ -2657,7 +2687,7 @@
     {
         "realm": "VI",
         "character": "Gogo (VI)",
-        "name": "Mysterious Comrade",
+        "name": "Enigmatic Ally",
         "effect": "DEF and RES +20% when equipping a helmet",
         "unlockCriteria": "Bring Gogo (VI) to level 99",
         "name(jp)": "謎に包まれし仲間",
@@ -2684,7 +2714,7 @@
     {
         "realm": "VI",
         "character": "Umaro",
-        "name": "Power of the Icy Gems",
+        "name": "Icy Jewel",
         "effect": "16% chance to turn Attack into an ability (group, 3,46 physical) with two group attacks (1,73 each) that deals Ice damage",
         "unlockCriteria": "Bring Umaro to level 99",
         "name(jp)": "凍てつく宝玉の力",
@@ -5223,9 +5253,10 @@
         "realm": "XIV",
         "character": "Ysayle",
         "name": "Dragonsong's Truth",
-        "effect": "Attack turns into an ability (single, ? magical) that deals Ice damage",
+        "effect": "Attack turns into an ability (single, 0,70 magical) that deals Ice damage",
         "unlockCriteria": "Bring Ysayle to level 99",
-        "name(jp)": "真の竜詩を知る者"
+        "name(jp)": "真の竜詩を知る者",
+        "✓": "✓"
     },
     {
         "realm": "XIV",
@@ -5249,9 +5280,10 @@
         "realm": "XIV",
         "character": "Haurchefant",
         "name": "Shield of Friends",
-        "effect": "DEF and RES +?% when equipping a shield",
+        "effect": "DEF and RES +20% when equipping a shield",
         "unlockCriteria": "Bring Haurchefant to level 99",
-        "name(jp)": "民と友を護る盾"
+        "name(jp)": "民と友を護る盾",
+        "✓": "✓"
     },
     {
         "realm": "XIV",
@@ -5916,15 +5948,17 @@
         "name": "Swift Rush",
         "effect": "Attack turns into an ability (single, 1,00 physical) with 0,01 cast time",
         "unlockCriteria": "Use Queen's Memory Crystal II, chance to obtain with Queen in party",
-        "name(jp)": "すばやい突進"
+        "name(jp)": "すばやい突進",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Queen",
         "name": "Strength of Reason",
-        "effect": "?% chance to turn Attack into Double Cut",
+        "effect": "42% chance to turn Attack into Double Cut",
         "unlockCriteria": "Bring Queen to level 99",
-        "name(jp)": "賢き力を司る者"
+        "name(jp)": "賢き力を司る者",
+        "✓": "✓"
     },
     {
         "realm": "Beyond",

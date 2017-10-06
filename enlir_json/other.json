@@ -322,17 +322,18 @@
         "character": "Status",
         "source": "Waterblade Follow-Up",
         "name": "Waterblade Barrage",
-        "type": "?",
+        "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
-        "multiplier": "?",
+        "multiplier": 2.56,
         "element": "Water, NE",
-        "time": "?",
-        "effects": "4/6/8 single attacks (? each) if the user has Physical Blink 0/1/2",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?"
+        "time": 0.01,
+        "effects": "4/6/8 single attacks (0,32 each) if the user has Physical Blink 0/1/2",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Ninja",
+        "✓": "✓"
     },
     {
         "character": "Status",
@@ -452,6 +453,51 @@
         "sb": 0,
         "school": "Summoning",
         "✓": "✓"
+    },
+    {
+        "character": "Status",
+        "source": "Freya Trance",
+        "name": "Freya Follow-Up",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Wind, NE",
+        "time": "?",
+        "effects": "Three single ranged attacks (? each)",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
+    },
+    {
+        "character": "Status",
+        "source": "Stock Raid Follow-Up",
+        "name": "Stock Raid",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Holy, NE",
+        "time": "?",
+        "effects": "2/3/4/5/6 single attacks (? each) at rank 1/2/3/4/5 of the triggering ability",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
+    },
+    {
+        "character": "Status",
+        "source": "EX: Angel of Death",
+        "name": "Ultima (IX)",
+        "type": "?",
+        "target": "All enemies",
+        "time": "?",
+        "effects": "Eight group attacks that deal damage for 4,375% of the damage dealt with BLK attacks",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
     },
     {
         "character": "Status",
@@ -636,7 +682,7 @@
     },
     {
         "character": "Berserker",
-        "source": "Berserker's Rage",
+        "source": "Berserker's Rage (100%)",
         "name": "Attack",
         "type": "PHY",
         "target": "Single",
@@ -652,7 +698,7 @@
     },
     {
         "character": "Gau",
-        "source": "Rage I",
+        "source": "Rage I (100%)",
         "name": "Cat Scratch",
         "type": "NAT",
         "target": "Random enemy",
@@ -668,7 +714,7 @@
     },
     {
         "character": "Gau",
-        "source": "Gigavolt Rage",
+        "source": "Gigavolt Rage (100%)",
         "name": "Megavolt Rage",
         "type": "PHY",
         "target": "Random enemy",
@@ -685,7 +731,7 @@
     },
     {
         "character": "Gau",
-        "source": "Meteor Rage",
+        "source": "Meteor Rage (100%)",
         "name": "Mini Meteor Rage",
         "type": "PHY",
         "target": "All enemies",
@@ -702,8 +748,8 @@
     },
     {
         "character": "Gau",
-        "source": "Flame Rage (30%)",
-        "name": "Flame Rage",
+        "source": "Feral Flame (30%)",
+        "name": "Feral Flame",
         "type": "PHY",
         "target": "All enemies",
         "formula": "Physical",
@@ -719,8 +765,8 @@
     },
     {
         "character": "Gau",
-        "source": "Flame Rage (30%)",
-        "name": "Flame Rage",
+        "source": "Feral Flame (30%)",
+        "name": "Feral Flame",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -736,8 +782,8 @@
     },
     {
         "character": "Gau",
-        "source": "Flame Rage (40%)",
-        "name": "Flame Rage",
+        "source": "Feral Flame (40%)",
+        "name": "Feral Flame",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -1606,7 +1652,7 @@
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
-        "school": "Combat",
+        "school": "Black Magic",
         "✓": "✓"
     },
     {
@@ -1805,7 +1851,7 @@
     },
     {
         "character": "Umaro",
-        "source": "Power of the Icy Gems",
+        "source": "Icy Jewel",
         "name": "Ice Storm",
         "type": "PHY",
         "target": "All enemies",
@@ -2007,7 +2053,7 @@
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
-        "school": "Combat",
+        "school": "Black Magic",
         "✓": "✓"
     },
     {
@@ -2101,6 +2147,22 @@
         "sb": 50,
         "school": "Knight",
         "✓": "✓"
+    },
+    {
+        "character": "Freya",
+        "source": "Devoted Knight",
+        "name": "Devoted Knight",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Wind, NE",
+        "time": "?",
+        "effects": "Two single ranged attacks (? each), smart ether 1 to the user",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
     },
     {
         "character": "Tidus",
@@ -2354,16 +2416,17 @@
         "character": "Ysayle",
         "source": "Dragonsong's Truth",
         "name": "Attack",
-        "type": "?",
+        "type": "BLK",
         "target": "Single",
-        "formula": "Physical",
-        "multiplier": "?",
+        "formula": "Magical",
+        "multiplier": 0.7,
         "element": "Ice",
-        "time": "?",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?"
+        "time": 1.5,
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Black Magic",
+        "✓": "✓"
     },
     {
         "character": "Noctis",
@@ -2635,6 +2698,22 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Special",
+        "✓": "✓"
+    },
+    {
+        "character": "Queen",
+        "source": "Swift Rush",
+        "name": "Attack",
+        "type": "PHY",
+        "target": "All enemies",
+        "formula": "Physical",
+        "multiplier": 1,
+        "element": "-",
+        "time": 0.01,
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Combat",
         "✓": "✓"
     }
 ]

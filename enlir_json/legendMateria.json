@@ -195,17 +195,19 @@
         "realm": "I",
         "character": "Meia",
         "name": "Beautiful Heretic",
-        "effect": "Increases Water damage dealt by ?%",
+        "effect": "Increases Water damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "美貌の異端者"
+        "name(jp)": "美貌の異端者",
+        "✓": "✓"
     },
     {
         "realm": "I",
         "character": "Meia",
         "name": "Mutable Witch",
-        "effect": "?% chance to grant Quick Cast 3 to the user after using a Water attack",
+        "effect": "30% chance to grant Quick Cast 3 to the user after using a Water attack",
         "relic": "-",
-        "name(jp)": "変幻自在な魔女"
+        "name(jp)": "変幻自在な魔女",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -278,6 +280,29 @@
         "relic": "-",
         "name(jp)": "熟練の大魔術",
         "✓": "✓"
+    },
+    {
+        "realm": "II",
+        "character": "Maria",
+        "name": "Gracious Girl",
+        "effect": "Grants Attach Earth at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Maria's Armguards (II)",
+        "name(jp)": "深き慈しみの少女"
+    },
+    {
+        "realm": "II",
+        "character": "Guy",
+        "relic": "-"
+    },
+    {
+        "realm": "II",
+        "character": "Guy",
+        "relic": "-"
+    },
+    {
+        "realm": "II",
+        "character": "Guy"
     },
     {
         "realm": "II",
@@ -359,19 +384,49 @@
     },
     {
         "realm": "II",
+        "character": "Ricard",
+        "relic": "-"
+    },
+    {
+        "realm": "II",
+        "character": "Ricard",
+        "relic": "-"
+    },
+    {
+        "realm": "II",
+        "character": "Ricard"
+    },
+    {
+        "realm": "II",
+        "character": "Josef",
+        "relic": "-"
+    },
+    {
+        "realm": "II",
+        "character": "Josef",
+        "relic": "-"
+    },
+    {
+        "realm": "II",
+        "character": "Josef"
+    },
+    {
+        "realm": "II",
         "character": "Emperor",
         "name": "Hellish Might",
-        "effect": "BLK attacks deal ?% more damage",
+        "effect": "BLK attacks deal 10% more damage",
         "relic": "-",
-        "name(jp)": "魔界より出でし力"
+        "name(jp)": "魔界より出でし力",
+        "✓": "✓"
     },
     {
         "realm": "II",
         "character": "Emperor",
         "name": "Ultimate Power of Hell",
-        "effect": "?% chance to counter BLK attacks with an ability (single) that causes Minor Imperil Earth",
+        "effect": "45% chance to counter enemy BLK attacks with an ability (group) that causes Imperil Earth 10% for 15 seconds",
         "relic": "-",
-        "name(jp)": "地獄で得し究極の力"
+        "name(jp)": "地獄で得し究極の力",
+        "✓": "✓"
     },
     {
         "realm": "II",
@@ -381,6 +436,20 @@
         "master": "MAG +10",
         "relic": "Emperor's Armor (II)",
         "name(jp)": "ソウルオブリバース"
+    },
+    {
+        "realm": "II",
+        "character": "Scott",
+        "relic": "-"
+    },
+    {
+        "realm": "II",
+        "character": "Scott",
+        "relic": "-"
+    },
+    {
+        "realm": "II",
+        "character": "Scott"
     },
     {
         "realm": "III",
@@ -407,7 +476,8 @@
         "effect": "Grants Attach Wind at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Blessed Hammer (III)",
-        "name(jp)": "ウルのやんちゃ坊主"
+        "name(jp)": "ウルのやんちゃ坊主",
+        "✓": "✓"
     },
     {
         "realm": "III",
@@ -498,7 +568,8 @@
         "effect": "Grants Attach Earth at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Genji Armor (III)",
-        "name(jp)": "奥ゆかしき凄腕兵士"
+        "name(jp)": "奥ゆかしき凄腕兵士",
+        "✓": "✓"
     },
     {
         "realm": "III",
@@ -1012,6 +1083,20 @@
     },
     {
         "realm": "V",
+        "character": "Dorgann",
+        "relic": "-"
+    },
+    {
+        "realm": "V",
+        "character": "Dorgann",
+        "relic": "-"
+    },
+    {
+        "realm": "V",
+        "character": "Dorgann"
+    },
+    {
+        "realm": "V",
         "character": "Exdeath",
         "name": "Evil Incarnate",
         "effect": "Increases Dark damage dealt by ?%",
@@ -1063,6 +1148,34 @@
         "relic": "Krile's Dress (V)",
         "name(jp)": "熱意あふれる少女",
         "✓": "✓"
+    },
+    {
+        "realm": "V",
+        "character": "Kelger",
+        "relic": "-"
+    },
+    {
+        "realm": "V",
+        "character": "Kelger",
+        "relic": "-"
+    },
+    {
+        "realm": "V",
+        "character": "Kelger"
+    },
+    {
+        "realm": "V",
+        "character": "Xezat",
+        "relic": "-"
+    },
+    {
+        "realm": "V",
+        "character": "Xezat",
+        "relic": "-"
+    },
+    {
+        "realm": "V",
+        "character": "Xezat"
     },
     {
         "realm": "VI",
@@ -1418,7 +1531,7 @@
         "name": "Sprinting Wolf",
         "effect": "35% chance to grant Quick Cast 1 to the user after using a Wind attack",
         "master": "ATK +10",
-        "relic": "Steady Light (VI)",
+        "relic": "Steady Light (VII)",
         "name(jp)": "狼の疾走",
         "✓": "✓"
     },
@@ -1624,7 +1737,7 @@
         "name": "Fateful Secret",
         "effect": "Grants Attach Dark at the beginning of the battle",
         "master": "ATK +10",
-        "relic": "Sephiroth's Coat EX (VII)",
+        "relic": "Sephiroth's Coat+ (VII)",
         "name(jp)": "運命を変えし秘密",
         "✓": "✓"
     },
@@ -1678,7 +1791,7 @@
         "name": "Research Dept.'s Pride",
         "effect": "Grants Attach Lightning at the beginning of the battle",
         "master": "ATK +5, MAG +5",
-        "relic": "Light Rod EX (VII)",
+        "relic": "Light Rod+ (VII)",
         "name(jp)": "調査課の自負と誇り",
         "✓": "✓"
     },
@@ -1952,7 +2065,7 @@
         "name": "Immense Power",
         "effect": "35% chance to grant Quick Cast 1 to the user after using a Ice attack",
         "master": "MAG +10",
-        "relic": "Sorceress's Crown EX (VIII)",
+        "relic": "Sorceress's Crown+ (VIII)",
         "name(jp)": "巨大なる魔力",
         "✓": "✓"
     },
@@ -2042,10 +2155,11 @@
         "realm": "IX",
         "character": "Zidane",
         "name": "Thief's Manners",
-        "effect": "?% chance to dualcast Wind abilities",
+        "effect": "25% chance to dualcast Wind abilities",
         "master": "ATK +10",
         "relic": "Ninja Gear (IX)",
-        "name(jp)": "盗賊の機転"
+        "name(jp)": "盗賊の機転",
+        "✓": "✓"
     },
     {
         "realm": "IX",
@@ -2130,6 +2244,56 @@
         "relic": "Gold Armor (IX)",
         "name(jp)": "創意工夫の魔法剣",
         "✓": "✓"
+    },
+    {
+        "realm": "IX",
+        "character": "Freya",
+        "name": "Stunning Dragon Knight",
+        "effect": "Increases Wind damage dealt by ?%",
+        "relic": "-",
+        "name(jp)": "美しき女竜騎士"
+    },
+    {
+        "realm": "IX",
+        "character": "Freya",
+        "name": "Love Unforgotten",
+        "effect": "Restores HP for 100% of the user's maximum HP and grants Freya Trance when HP fall below ?%",
+        "relic": "-",
+        "name(jp)": "忘れえぬ愛を抱く者"
+    },
+    {
+        "realm": "IX",
+        "character": "Freya",
+        "name": "Devoted Knight",
+        "effect": "?% chance to cast an ability (single, ? physical) with two Wind/NE attacks (? each), smart ether 1 after using a Dragoon ability",
+        "master": "ATK +10",
+        "relic": "Freya's Hat (IX)",
+        "name(jp)": "精進を怠らぬ騎士"
+    },
+    {
+        "realm": "IX",
+        "character": "Quina",
+        "name": "Way of the Qu",
+        "effect": "PHY attacks deal ?% more damage when equipping a spear",
+        "relic": "-",
+        "name(jp)": "ク族のたしなみ"
+    },
+    {
+        "realm": "IX",
+        "character": "Quina",
+        "name": "Feast of the Qu",
+        "effect": "Restores HP for 100% of the user's maximum HP, grants 500 SB points and grants Quina Trance when HP fall below ?%",
+        "relic": "-",
+        "name(jp)": "ク族の晩餐"
+    },
+    {
+        "realm": "IX",
+        "character": "Quina",
+        "name": "Preparation of the Qu",
+        "effect": "Grants Last Stand and High Regen at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Silver Fork (IX)",
+        "name(jp)": "ク族の備え"
     },
     {
         "realm": "IX",
@@ -2327,7 +2491,7 @@
         "realm": "X",
         "character": "Kimahri",
         "name": "Hornless's Pride",
-        "effect": "?% chance to counter BLK attacks with an ability (single) that causes Minor Imperil Water",
+        "effect": "?% chance to counter enemy BLK attacks with an ability (group) that causes Imperil Water 10% for 15 seconds",
         "relic": "-",
         "name(jp)": "ツノ折れの誇り"
     },
@@ -2835,6 +2999,20 @@
     },
     {
         "realm": "XII",
+        "character": "Larsa",
+        "relic": "-"
+    },
+    {
+        "realm": "XII",
+        "character": "Larsa",
+        "relic": "-"
+    },
+    {
+        "realm": "XII",
+        "character": "Larsa"
+    },
+    {
+        "realm": "XII",
         "character": "Vayne",
         "name": "Unswerving Resolve",
         "effect": "Increases Dark damage dealt by 10%",
@@ -2860,6 +3038,20 @@
         "relic": "Novus Leathers (XII)",
         "name(jp)": "血塗られた剣",
         "✓": "✓"
+    },
+    {
+        "realm": "XII",
+        "character": "Reks",
+        "relic": "-"
+    },
+    {
+        "realm": "XII",
+        "character": "Reks",
+        "relic": "-"
+    },
+    {
+        "realm": "XII",
+        "character": "Reks"
     },
     {
         "realm": "XIII",
@@ -3012,9 +3204,10 @@
         "realm": "XIII",
         "character": "Serah",
         "name": "Traveler Beyond Time",
-        "effect": "MAG +?% for each hit dealt with BLK attacks that deal Ice damage, up to +?%",
+        "effect": "MAG +1% for each hit dealt with BLK attacks that deal Ice damage, up to +30%",
         "relic": "-",
-        "name(jp)": "時を超える旅人"
+        "name(jp)": "時を超える旅人",
+        "✓": "✓"
     },
     {
         "realm": "XIII",
@@ -3065,7 +3258,7 @@
     {
         "realm": "XIII",
         "character": "Noel",
-        "name": "Resolve to Change Hystory",
+        "name": "Resolve to Change History",
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "歴史を変える覚悟"
@@ -3401,9 +3594,11 @@
         "realm": "XV",
         "character": "Gladiolus",
         "name": "Hold on the Prince",
+        "effect": "25% chance to dualcast Knight abilities",
         "master": "ATK +10",
         "relic": "Gladiolus's Fatigues (XV)",
-        "name(jp)": "若き統領の挟持"
+        "name(jp)": "若き統領の挟持",
+        "✓": "✓"
     },
     {
         "realm": "XV",
@@ -3465,17 +3660,19 @@
         "realm": "XV",
         "character": "Aranea",
         "name": "Mercenary Captian",
-        "effect": "Increases Lightning damage dealt by ?%",
+        "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "男勝りの傭兵隊長"
+        "name(jp)": "男勝りの傭兵隊長",
+        "✓": "✓"
     },
     {
         "realm": "XV",
         "character": "Aranea",
         "name": "Airborne Unit General",
-        "effect": "ATK +?% for each hit dealt with Dragoon abilities, up to +?%",
+        "effect": "ATK +2% for each hit dealt with Dragoon abilities, up to +50%",
         "relic": "-",
-        "name(jp)": "空中機動師団准将"
+        "name(jp)": "空中機動師団准将",
+        "✓": "✓"
     },
     {
         "realm": "XV",
@@ -3547,17 +3744,19 @@
         "realm": "FFT",
         "character": "Delita",
         "name": "Unshakeable Resolve",
-        "effect": "Spellblade abilities deal ?% more damage",
+        "effect": "Spellblade abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "確固たる意志"
+        "name(jp)": "確固たる意志",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
         "character": "Delita",
         "name": "War Hero",
-        "effect": "?% chance to dualcast Spellblade abilities",
+        "effect": "35% chance to dualcast Spellblade abilities",
         "relic": "-",
-        "name(jp)": "獅子戦争の英雄"
+        "name(jp)": "獅子戦争の英雄",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
