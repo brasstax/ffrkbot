@@ -75,7 +75,7 @@ describe('soulbreak bot utils testing', () => {
     });
     it('should inform when a user has not put in a valid SB type', () => {
       let message = 'Soulbreak type not one of: ' +
-        'All, Default, SB, SSB, BSB, USB, OSB, CSB.';
+        'All, Default, SB, SSB, BSB, USB, OSB, CSB, FSB, UOSB.';
       msg.channel.send = sandbox.stub().resolves(null);
       let query = 'tifa';
       return botUtils.soulbreak(msg, query, 'aaaaaaa').then( () => {

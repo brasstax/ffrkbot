@@ -77,7 +77,7 @@ function searchSoulbreak(character, sbType='all') {
  **/
 function checkSoulbreakFilter(sbType) {
   let possibleSbTypes = ['all', 'default', 'sb', 'ssb',
-    'bsb', 'usb', 'osb', 'csb'];
+    'bsb', 'usb', 'osb', 'csb', 'fsb', 'uosb'];
   if (possibleSbTypes.indexOf(sbType.toLowerCase()) === -1) {
     return false;
   } else {
@@ -111,7 +111,7 @@ function lookupSoulbreak(msg, character, sbType) {
     if (checkSoulbreakFilter(sbType) === false) {
       msg.channel.send(
         'Soulbreak type not one of: ' +
-          'All, Default, SB, SSB, BSB, USB, OSB, CSB.')
+          'All, Default, SB, SSB, BSB, USB, OSB, CSB, FSB, UOSB.')
         .then( (res) => {
           resolve(res);
         }).catch( (err) => {
