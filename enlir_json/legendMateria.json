@@ -20,10 +20,10 @@
     {
         "realm": "Core",
         "character": "Tyro",
-        "name": "Keeper's Insight",
+        "name": "Archival Secrets",
         "effect": "Grants Instant Cast 2 at the beginning of the battle",
         "master": "ATK +10",
-        "relic": "Keeper's Hat (Core)",
+        "relic": "Keeper's Cap (Core)",
         "name(jp)": "歴史省の奥伝",
         "✓": "✓"
     },
@@ -434,7 +434,7 @@
         "name": "Soul of Rebirth",
         "effect": "Restores HP for 100% of the user's maximum HP and grants Quick Cast when HP fall below ?%",
         "master": "MAG +10",
-        "relic": "Emperor's Armor (II)",
+        "relic": "Imperial Shell (II)",
         "name(jp)": "ソウルオブリバース"
     },
     {
@@ -784,10 +784,10 @@
     {
         "realm": "IV",
         "character": "Rydia",
-        "name": "Summoning Prodigy",
+        "name": "Gifted Summoner",
         "effect": "35% chance to grant Quick Cast 1 to the user after using a Summoning ability",
         "master": "MAG +10",
-        "relic": "Rydia's Model (IV)",
+        "relic": "Rydia's Guise (IV)",
         "name(jp)": "類まれな召喚の才",
         "✓": "✓"
     },
@@ -864,10 +864,10 @@
     {
         "realm": "IV",
         "character": "Tellah",
-        "name": "Sage's Destiny",
+        "name": "Sage's Acumen",
         "effect": "Increases the duration of stat buffs by30%",
         "master": "MAG +10",
-        "relic": "Devout's Robe (IV)",
+        "relic": "Magus Robe (IV)",
         "name(jp)": "賢者の本領",
         "✓": "✓"
     },
@@ -918,10 +918,10 @@
     {
         "realm": "IV",
         "character": "Golbez",
-        "name": "Black Intimidation",
+        "name": "Air of Intimidation",
         "effect": "Grants Attach Dark at the beginning of the battle",
         "master": "MAG +10",
-        "relic": "Golbez's Helm (IV)",
+        "relic": "Golbez's Bascinet (IV)",
         "name(jp)": "黒き威圧感",
         "✓": "✓"
     },
@@ -944,7 +944,7 @@
     {
         "realm": "IV",
         "character": "Ceodore",
-        "name": "Inherited Sense of Justice",
+        "name": "His Father's Justice",
         "effect": "30% chance to cover PHY attacks that target allies, reducing damage taken by 20%",
         "master": "ATK +10",
         "relic": "Genji Helm (IV)",
@@ -972,7 +972,7 @@
     {
         "realm": "IV",
         "character": "Ursula",
-        "name": "Learning from the Strong",
+        "name": "Back Unbent",
         "effect": "25% chance to dualcast Monk abilities",
         "master": "ATK +10",
         "relic": "Ursula's Dress (IV)",
@@ -996,6 +996,15 @@
         "relic": "-",
         "name(jp)": "慈愛に満ちた心",
         "✓": "✓"
+    },
+    {
+        "realm": "V",
+        "character": "Lenna",
+        "name": "Impartial Kindness",
+        "effect": "?% chance to cast a group heal (?) after using a White Magic ability",
+        "master": "MND +10",
+        "relic": "Crown of Laurels (V)",
+        "name(jp)": "わけへだてなき優しさ"
     },
     {
         "realm": "V",
@@ -1084,32 +1093,46 @@
     {
         "realm": "V",
         "character": "Dorgann",
-        "relic": "-"
+        "name": "Courageous Decision",
+        "effect": "Knight abilities deal ?% more damage",
+        "relic": "-",
+        "name(jp)": "勇気ある決断"
     },
     {
         "realm": "V",
         "character": "Dorgann",
-        "relic": "-"
+        "name": "Crystal Watcher",
+        "effect": "?% chance to dualcast Knight abilities",
+        "relic": "-",
+        "name(jp)": "クリスタルを見守りし者"
     },
     {
         "realm": "V",
-        "character": "Dorgann"
+        "character": "Dorgann",
+        "name": "Traveler of Worlds",
+        "effect": "Grants Attach Earth at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Bastard Sword (V)",
+        "name(jp)": "大地を歩んだ冒険者",
+        "✓": "✓"
     },
     {
         "realm": "V",
         "character": "Exdeath",
         "name": "Evil Incarnate",
-        "effect": "Increases Dark damage dealt by ?%",
+        "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "邪木の化身"
+        "name(jp)": "邪木の化身",
+        "✓": "✓"
     },
     {
         "realm": "V",
         "character": "Exdeath",
         "name": "Reign of Chaos",
-        "effect": "?% chance to dualcast Dark abilities",
+        "effect": "35% chance to dualcast Dark abilities",
         "relic": "-",
-        "name(jp)": "乱されし宇宙の法則"
+        "name(jp)": "乱されし宇宙の法則",
+        "✓": "✓"
     },
     {
         "realm": "V",
@@ -1151,31 +1174,55 @@
     },
     {
         "realm": "V",
-        "character": "Kelger",
-        "relic": "-"
-    },
-    {
-        "realm": "V",
-        "character": "Kelger",
-        "relic": "-"
-    },
-    {
-        "realm": "V",
-        "character": "Kelger"
+        "character": "Xezat",
+        "name": "Aged Swordsman",
+        "effect": "Spellblade abilities deal ?% more damage",
+        "relic": "-",
+        "name(jp)": "老練なる剣士"
     },
     {
         "realm": "V",
         "character": "Xezat",
-        "relic": "-"
+        "name": "Warforged King",
+        "effect": "?% chance of smart ether 1 to the user after using a Ice attack",
+        "relic": "-",
+        "name(jp)": "兵法に長けた老王"
     },
     {
         "realm": "V",
         "character": "Xezat",
-        "relic": "-"
+        "name": "Fleet's Leader",
+        "effect": "25% chance to dualcast Spellblade abilities",
+        "master": "ATK +10",
+        "relic": "Xezat's Bracers (V)",
+        "name(jp)": "船団を率いし器",
+        "✓": "✓"
     },
     {
         "realm": "V",
-        "character": "Xezat"
+        "character": "Kelger",
+        "name": "Warrior Who Despises Evil",
+        "effect": "Increases Earth damage dealt by ?%",
+        "relic": "-",
+        "name(jp)": "悪を憎む戦士"
+    },
+    {
+        "realm": "V",
+        "character": "Kelger",
+        "name": "Chief of the Werewolves",
+        "effect": "?% chance to grant Quick Cast 3 to the user after using a Ninja ability",
+        "relic": "-",
+        "name(jp)": "ウェアウルフの長"
+    },
+    {
+        "realm": "V",
+        "character": "Kelger",
+        "name": "Agile Werewolf",
+        "effect": "25% chance to grant Physical Blink 1 to the user after using a Ninja ability",
+        "master": "ATK +10",
+        "relic": "Kelger's Mantle (V)",
+        "name(jp)": "敏速なるウェアウルフ",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -1282,10 +1329,10 @@
     {
         "realm": "VI",
         "character": "Mog",
-        "name": "Chief of the Moogles",
+        "name": "Boss Moogle",
         "effect": "Increases the duration of stat buffs by 30%",
         "master": "MND +10",
-        "relic": "Tinkerbell (VI)",
+        "relic": "Pixie's Scythe (VI)",
         "name(jp)": "モーグリ族の長",
         "✓": "✓"
     },
@@ -1349,17 +1396,19 @@
         "realm": "VI",
         "character": "Cyan",
         "name": "Path of Vengeance",
-        "effect": "Samurai abilities deal ?% more damage",
+        "effect": "Samurai abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "仇討ちの旅路"
+        "name(jp)": "仇討ちの旅路",
+        "✓": "✓"
     },
     {
         "realm": "VI",
         "character": "Cyan",
         "name": "True Conviction",
-        "effect": "?% chance to dualcast Samurai abilities",
+        "effect": "35% chance to dualcast Samurai abilities",
         "relic": "-",
-        "name(jp)": "迷い断ちし真の武人"
+        "name(jp)": "迷い断ちし真の武人",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -1594,7 +1643,7 @@
     {
         "realm": "VII",
         "character": "Aerith",
-        "name": "Flower Seller of the Slums",
+        "name": "Flower of the Slums",
         "effect": "25% chance to dualcast White Magic abilities",
         "master": "MND +10",
         "relic": "Aerith's Jacket (VII)",
@@ -1737,7 +1786,7 @@
         "name": "Fateful Secret",
         "effect": "Grants Attach Dark at the beginning of the battle",
         "master": "ATK +10",
-        "relic": "Sephiroth's Coat+ (VII)",
+        "relic": "Sephiroth's Darkcoat (VII)",
         "name(jp)": "運命を変えし秘密",
         "✓": "✓"
     },
@@ -1760,7 +1809,7 @@
     {
         "realm": "VII",
         "character": "Cid (VII)",
-        "name": "Champion of the Firmament",
+        "name": "Champion of the Skies",
         "effect": "Jump attacks deal 20% more damage when equipping a spear",
         "master": "ATK +10",
         "relic": "Cid's Jacket (VII)",
@@ -1788,10 +1837,10 @@
     {
         "realm": "VII",
         "character": "Reno",
-        "name": "Research Dept.'s Pride",
+        "name": "Swaggering Investigator",
         "effect": "Grants Attach Lightning at the beginning of the battle",
         "master": "ATK +5, MAG +5",
-        "relic": "Light Rod+ (VII)",
+        "relic": "Enhanced Light Rod (VII)",
         "name(jp)": "調査課の自負と誇り",
         "✓": "✓"
     },
@@ -1814,7 +1863,7 @@
     {
         "realm": "VII",
         "character": "Rufus",
-        "name": "World's Representative",
+        "name": "Titan of Industry",
         "effect": "35% chance to grant Quick Cast 1 to the user after using a Dark attack",
         "master": "ATK +10",
         "relic": "Rufus's Jacket (VII)",
@@ -1842,7 +1891,7 @@
     {
         "realm": "VII",
         "character": "Shelke",
-        "name": "Timeless Warrior",
+        "name": "Edge of Eternity",
         "effect": "Increases the duration of stat debuffs by 30%",
         "master": "ATK +10",
         "relic": "Slash Lance (VII)",
@@ -1926,7 +1975,7 @@
     {
         "realm": "VIII",
         "character": "Zell",
-        "name": "Wild Spirit",
+        "name": "Untamed Spirit",
         "effect": "Grants Critical 50% at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Zell's Jacket (VIII)",
@@ -2034,10 +2083,10 @@
     {
         "realm": "VIII",
         "character": "Laguna",
-        "name": "Playful Fellow",
+        "name": "Splash of Fun",
         "effect": "20% chance to cause Minor Imperil Ice to the target after using a Machinist ability on an enemy",
         "master": "ATK +10",
-        "relic": "President Outfit (VIII)",
+        "relic": "Presidential Casual (VIII)",
         "name(jp)": "好漢の茶目っ気",
         "✓": "✓"
     },
@@ -2062,10 +2111,10 @@
     {
         "realm": "VIII",
         "character": "Edea",
-        "name": "Immense Power",
+        "name": "Overwhelming Power",
         "effect": "35% chance to grant Quick Cast 1 to the user after using a Ice attack",
         "master": "MAG +10",
-        "relic": "Sorceress's Crown+ (VIII)",
+        "relic": "Sorceress Crown+ (VIII)",
         "name(jp)": "巨大なる魔力",
         "✓": "✓"
     },
@@ -2088,7 +2137,7 @@
     {
         "realm": "VIII",
         "character": "Raijin",
-        "name": "Roaring Thunder",
+        "name": "Thunderous Crescendo",
         "effect": "35% chance to grant Quick Cast 1 to the user after using a Monk ability",
         "master": "ATK +10",
         "relic": "Bolt Armlet (VIII)",
@@ -2265,10 +2314,11 @@
         "realm": "IX",
         "character": "Freya",
         "name": "Devoted Knight",
-        "effect": "?% chance to cast an ability (single, ? physical) with two Wind/NE attacks (? each), smart ether 1 after using a Dragoon ability",
+        "effect": "25% chance to cast an ability (single, 1,08 physical) with two Wind/NE attacks and smart ether 1 after using a Dragoon ability",
         "master": "ATK +10",
         "relic": "Freya's Hat (IX)",
-        "name(jp)": "精進を怠らぬ騎士"
+        "name(jp)": "精進を怠らぬ騎士",
+        "✓": "✓"
     },
     {
         "realm": "IX",
@@ -2293,7 +2343,8 @@
         "effect": "Grants Last Stand and High Regen at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Silver Fork (IX)",
-        "name(jp)": "ク族の備え"
+        "name(jp)": "ク族の備え",
+        "✓": "✓"
     },
     {
         "realm": "IX",
@@ -2354,7 +2405,7 @@
     {
         "realm": "IX",
         "character": "Kuja",
-        "name": "King of the Sleepless City",
+        "name": "King of the Dark City",
         "effect": "Reduces damage taken by BLK attacks by 10%",
         "relic": "-",
         "name(jp)": "眠らない街のキング",
@@ -2363,7 +2414,7 @@
     {
         "realm": "IX",
         "character": "Kuja",
-        "name": "Perishable Angel of Death",
+        "name": "Death Eternal",
         "effect": "35% chance to dualcast Dark abilities",
         "relic": "-",
         "name(jp)": "永遠ならざる死神",
@@ -2580,10 +2631,10 @@
     {
         "realm": "X",
         "character": "Jecht",
-        "name": "Blitz Champion",
+        "name": "God of Blitz",
         "effect": "Grants Attach Dark at the beginning of the battle",
         "master": "ATK +10",
-        "relic": "Jecht's Guise (DFF) (X)",
+        "relic": "Jecht's Sparring Suite (X)",
         "name(jp)": "ブリッツの王者"
     },
     {
@@ -2605,10 +2656,10 @@
     {
         "realm": "X",
         "character": "Braska",
-        "name": "High Summoner's Silent Fury",
+        "name": "Quiet Fury",
         "effect": "Grants Attach Fire at the beginning of the battle",
         "master": "MAG +10",
-        "relic": "Braska's Hat (X)",
+        "relic": "High Summoner's Helm (X)",
         "name(jp)": "大召喚士の静かなる怒り"
     },
     {
@@ -2632,10 +2683,10 @@
     {
         "realm": "X",
         "character": "Paine",
-        "name": "Gullwing Agent",
+        "name": "Gullwing Enforcer",
         "effect": "ATK +2% for each hit dealt with Spellblade abilities, up to +34%",
         "master": "ATK +10",
-        "relic": "Gunner's Model (X)",
+        "relic": "Gunner's Guise (X)",
         "name(jp)": "カモメ団のお目付役",
         "✓": "✓"
     },
@@ -2974,18 +3025,20 @@
     {
         "realm": "XII",
         "character": "Gabranth",
-        "name": "Lack of Feelings",
-        "effect": "Increases Dark damage dealt by ?%",
+        "name": "Dark Thoughts",
+        "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "無明の感情"
+        "name(jp)": "無明の感情",
+        "✓": "✓"
     },
     {
         "realm": "XII",
         "character": "Gabranth",
-        "name": "A Food Named Hatred",
-        "effect": "ATK +?% for each hit dealt with attacks that deal Dark damage, up to +?%",
+        "name": "Fed by Hatred",
+        "effect": "ATK +2% for each hit dealt with attacks that deal Dark damage, up to +50%",
         "relic": "-",
-        "name(jp)": "憎しみという名の糧"
+        "name(jp)": "憎しみという名の糧",
+        "✓": "✓"
     },
     {
         "realm": "XII",
@@ -3251,9 +3304,10 @@
         "realm": "XIII",
         "character": "Noel",
         "name": "Hunter from the Future",
-        "effect": "PHY attacks deal ?% more damage",
+        "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
-        "name(jp)": "未来から来たハンター"
+        "name(jp)": "未来から来たハンター",
+        "✓": "✓"
     },
     {
         "realm": "XIII",
@@ -3603,7 +3657,7 @@
     {
         "realm": "XV",
         "character": "Prompto",
-        "name": "Recorder of the Journey",
+        "name": "Memorable Journey",
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "旅の記録者",
@@ -3612,7 +3666,7 @@
     {
         "realm": "XV",
         "character": "Prompto",
-        "name": "Certified Friend",
+        "name": "Fast Friends",
         "effect": "30% chance to cause Minor Imperil Lightning to the target after using a Machinist ability on an enemy",
         "relic": "-",
         "name(jp)": "掴みし友人の資格",
@@ -3621,7 +3675,7 @@
     {
         "realm": "XV",
         "character": "Prompto",
-        "name": "Commoner's Preparedness",
+        "name": "Common Valor",
         "effect": "25% chance to dualcast Machinist abilities",
         "master": "ATK +10",
         "relic": "Iron Bangle (XV)",
@@ -3659,7 +3713,7 @@
     {
         "realm": "XV",
         "character": "Aranea",
-        "name": "Mercenary Captian",
+        "name": "Edgy Mercenary",
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "男勝りの傭兵隊長",
@@ -3668,7 +3722,7 @@
     {
         "realm": "XV",
         "character": "Aranea",
-        "name": "Airborne Unit General",
+        "name": "Airborne Commander",
         "effect": "ATK +2% for each hit dealt with Dragoon abilities, up to +50%",
         "relic": "-",
         "name(jp)": "空中機動師団准将",
@@ -3677,10 +3731,10 @@
     {
         "realm": "XV",
         "character": "Aranea",
-        "name": "Skyward Heroine",
+        "name": "Soaring Valkyrie",
         "effect": "Grants Attach Lightning at the beginning of the battle",
         "master": "ATK +10",
-        "relic": "Aranea's Armguards (XV)",
+        "relic": "Aranea's Gauntlet (XV)",
         "name(jp)": "天空を翔けし女傑",
         "✓": "✓"
     },
@@ -3852,17 +3906,19 @@
         "realm": "FFT",
         "character": "Gaffgarion",
         "name": "Fell Knight's Rise",
-        "effect": "Increases Dark damage dealt by ?%",
+        "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "ダークナイトの本領"
+        "name(jp)": "ダークナイトの本領",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
         "character": "Gaffgarion",
         "name": "Warforged Fell Knight",
-        "effect": "?% chance of smart ether 1 to the user after using a Dark attack",
+        "effect": "25% chance of smart ether 1 to the user after using a Dark attack",
         "relic": "-",
-        "name(jp)": "歴戦のダークナイト"
+        "name(jp)": "歴戦のダークナイト",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
@@ -4262,17 +4318,19 @@
         "realm": "Beyond",
         "character": "Wrieg",
         "name": "Will to Succed",
-        "effect": "Increases Earth damage dealt by ?%",
+        "effect": "Increases Earth damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "継ぐ意志"
+        "name(jp)": "継ぐ意志",
+        "✓": "✓"
     },
     {
         "realm": "Beyond",
         "character": "Wrieg",
         "name": "Resolve to Push Forward",
-        "effect": "ATK +?% for each hit taken by damaging attacks, up to +?%",
+        "effect": "ATK +3% for each hit taken by damaging attacks, up to +50%",
         "relic": "-",
-        "name(jp)": "背負う覚悟"
+        "name(jp)": "背負う覚悟",
+        "✓": "✓"
     },
     {
         "realm": "Beyond",

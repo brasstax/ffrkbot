@@ -3150,7 +3150,7 @@
         "effects": "Wait speed x2,00",
         "defaultDuration": "-",
         "mndModifier": "-",
-        "exclusiveStatus": "-",
+        "exclusiveStatus": "Haste, Slow",
         "codedName": "HASTE_FULL_TIME",
         "notes": "-"
     },
@@ -3246,7 +3246,7 @@
     },
     {
         "id": "50081",
-        "commonName": "Ninja Rank Boost",
+        "commonName": "Yuffie's Ninja Rank Boost",
         "effects": "Ninja abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -3275,6 +3275,16 @@
         "notes": "-"
     },
     {
+        "id": "50085",
+        "commonName": "Sandstorm Follow-Up",
+        "effects": "Casts Sandstorm after using a Knight ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_AKATSUKI",
+        "notes": "-"
+    },
+    {
         "id": "50086",
         "commonName": "EX: Angel of Death",
         "effects": "Darkness abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, casts Ultima (IX) when removed",
@@ -3282,6 +3292,46 @@
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Rank Boost\" status",
         "codedName": "EX_MODE_FOR_DEATH_GOD",
+        "notes": "-"
+    },
+    {
+        "id": "50087",
+        "commonName": "Spellblade Rank Boost",
+        "effects": "Spellblade abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_SPELL_BLADE_MAX_130",
+        "notes": "-"
+    },
+    {
+        "id": "50088",
+        "commonName": "Ninja Rank Boost",
+        "effects": "Ninja abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_NINJA_MAX_130",
+        "notes": "-"
+    },
+    {
+        "id": "50089",
+        "commonName": "Lupine Follow-Up",
+        "effects": "Casts Lupine Follow-Up after using a Earth attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_RUPINE_ATTACK",
+        "notes": "-"
+    },
+    {
+        "id": "50090",
+        "commonName": "Flame Dance Follow-Up",
+        "effects": "Casts Flame Dance after using a Fire attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_COLLAPSE_OF_HEAVEN_AND_EARTH",
         "notes": "-"
     },
     {

@@ -55,6 +55,12 @@
     },
     {
         "realm": "Core",
+        "character": "Warrior",
+        "effect": "PHY attacks deal ?% more damage when equipping a sword",
+        "unlockCriteria": "Bring Warrior to level 99"
+    },
+    {
+        "realm": "Core",
         "character": "Knight",
         "name": "Knight of Steel",
         "effect": "DEF +10% when equipping a helm",
@@ -70,6 +76,12 @@
         "unlockCriteria": "Use Knight's Memory Crystal II, chance to obtain with Knight in party",
         "name(jp)": "護りの要",
         "✓": "✓"
+    },
+    {
+        "realm": "Core",
+        "character": "Knight",
+        "effect": "DEF +?% when equipping a helm",
+        "unlockCriteria": "Bring Knight to level 99"
     },
     {
         "realm": "Core",
@@ -97,6 +109,12 @@
         "unlockCriteria": "Use Monk's Memory Crystal II, chance to obtain with Monk in party",
         "name(jp)": "磨き抜かれし感覚",
         "✓": "✓"
+    },
+    {
+        "realm": "Core",
+        "character": "Monk",
+        "effect": "?% chance to counter PHY attacks with Chakra",
+        "unlockCriteria": "Bring Monk to level 99"
     },
     {
         "realm": "Core",
@@ -155,7 +173,7 @@
     {
         "realm": "Core",
         "character": "Black Mage",
-        "name": "Omnicast Blaze",
+        "name": "Omnicast Direflame",
         "effect": "Attack turns into an ability (group, 2,08 magical) that deals Fire damage",
         "unlockCriteria": "Bring Black Mage to level 99",
         "name(jp)": "全体化・猛炎",
@@ -190,6 +208,12 @@
     },
     {
         "realm": "Core",
+        "character": "Magus",
+        "effect": "Attack turns into an ability (single, ? magical) that deals Fire, Lightning and Ice damage",
+        "unlockCriteria": "Bring Magus to level 99"
+    },
+    {
+        "realm": "Core",
         "character": "White Mage",
         "name": "Concentration I",
         "effect": "50% chance to restore 1 use for all White Magic abilities at the beginning of the battle",
@@ -218,7 +242,7 @@
     {
         "realm": "Core",
         "character": "White Mage",
-        "name": "Miracle of Mending",
+        "name": "White Mage Wonder",
         "effect": "Attack turns into a single heal (39)",
         "unlockCriteria": "Bring White Mage to level 99",
         "name(jp)": "白魔道士の奇跡",
@@ -250,6 +274,14 @@
         "unlockCriteria": "Use Devout's Memory Crystal II, chance to obtain with Devout in party",
         "name(jp)": "浄化の精神",
         "✓": "✓"
+    },
+    {
+        "realm": "Core",
+        "character": "Devout",
+        "name": "Cleansing Bless",
+        "effect": "If an ally has negative effects, ?% chance to turn Attack into an ability that removes negative effects",
+        "unlockCriteria": "Bring Devout to level 99",
+        "name(jp)": "浄化の祝福"
     },
     {
         "realm": "Core",
@@ -493,6 +525,14 @@
         "unlockCriteria": "Use Berserker's Memory Crystal II, chance to obtain with Berserker in party",
         "name(jp)": "狂戦士の猛攻",
         "✓": "✓"
+    },
+    {
+        "realm": "Core",
+        "character": "Berserker",
+        "name": "Berserker's Violence",
+        "effect": "PHY attacks deal ?% more damage when equipping an axe",
+        "unlockCriteria": "Bring Berserker to level 99",
+        "name(jp)": "狂戦士の暴乱"
     },
     {
         "realm": "Core",
@@ -2287,33 +2327,49 @@
     },
     {
         "realm": "V",
-        "character": "Kelger",
-        "unlockCriteria": "Use Kelger's Memory Crystal"
-    },
-    {
-        "realm": "V",
-        "character": "Kelger",
-        "unlockCriteria": "Use Kelger's Memory Crystal II, chance to obtain with Kelger in party"
-    },
-    {
-        "realm": "V",
-        "character": "Kelger",
-        "unlockCriteria": "Bring Kelger to level 99"
+        "character": "Xezat",
+        "name": "Friendly King",
+        "effect": "50% chance to restore 1 use for all Spellblade abilities at the beginning of the battle",
+        "unlockCriteria": "Use Xezat's Memory Crystal",
+        "name(jp)": "気さくな王",
+        "✓": "✓"
     },
     {
         "realm": "V",
         "character": "Xezat",
-        "unlockCriteria": "Use Xezat's Memory Crystal"
+        "name": "Swordsman's Pride",
+        "effect": "Spellblade abilities deal ?% more damage",
+        "unlockCriteria": "Use Xezat's Memory Crystal II, chance to obtain with Xezat in party",
+        "name(jp)": "剣士の自負"
     },
     {
         "realm": "V",
         "character": "Xezat",
-        "unlockCriteria": "Use Xezat's Memory Crystal II, chance to obtain with Xezat in party"
-    },
-    {
-        "realm": "V",
-        "character": "Xezat",
+        "effect": "?% chance to turn Attack into Frost Strike",
         "unlockCriteria": "Bring Xezat to level 99"
+    },
+    {
+        "realm": "V",
+        "character": "Kelger",
+        "name": "Brave Werewolf",
+        "effect": "50% chance to restore 1 use for all Celerity abilities at the beginning of the battle",
+        "unlockCriteria": "Use Kelger's Memory Crystal",
+        "name(jp)": "勇猛なるウェアウルフ",
+        "✓": "✓"
+    },
+    {
+        "realm": "V",
+        "character": "Kelger",
+        "name": "Speedy Wolf",
+        "effect": "?% chance to begin the round with full ATB gauge",
+        "unlockCriteria": "Use Kelger's Memory Crystal II, chance to obtain with Kelger in party",
+        "name(jp)": "迅速な狼戦士"
+    },
+    {
+        "realm": "V",
+        "character": "Kelger",
+        "effect": "Attack turns into an ability (single, ? physical) with 0,01 cast time that grants 0 SB points (instead of 50)",
+        "unlockCriteria": "Bring Kelger to level 99"
     },
     {
         "realm": "VI",
@@ -5369,7 +5425,7 @@
     {
         "realm": "XV",
         "character": "Prompto",
-        "name": "Cheerful Moodmaker",
+        "name": "Life of the Party",
         "effect": "ATK +10% when equipping a gun",
         "unlockCriteria": "Use Prompto's Memory Crystal",
         "name(jp)": "陽気なムードメーカー",
@@ -5378,7 +5434,7 @@
     {
         "realm": "XV",
         "character": "Prompto",
-        "name": "Bold Sympathy",
+        "name": "Social Butterfly",
         "effect": "13% chance to dualcast Machinist abilities",
         "unlockCriteria": "Use Prompto's Memory Crystal II, chance to obtain with Prompto in party",
         "name(jp)": "大胆な人懐っこさ",
@@ -5423,7 +5479,7 @@
     {
         "realm": "XV",
         "character": "Aranea",
-        "name": "Assault Spear Master",
+        "name": "Spearhead",
         "effect": "PHY attacks deal 10% more damage when equipping a spear",
         "unlockCriteria": "Use Aranea's Memory Crystal",
         "name(jp)": "突撃槍の使い手",
@@ -5432,7 +5488,7 @@
     {
         "realm": "XV",
         "character": "Aranea",
-        "name": "Beautiful Flight",
+        "name": "Dazzling Flight",
         "effect": "Dragoon abilities deal 30% more damage",
         "unlockCriteria": "Use Aranea's Memory Crystal II, chance to obtain with Aranea in party",
         "name(jp)": "美麗なる飛翔",
