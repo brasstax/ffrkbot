@@ -54,7 +54,7 @@
         "commonName": "Slow",
         "effects": "Wait speed x0,50",
         "defaultDuration": "20",
-        "mndModifier": "0.005%",
+        "mndModifier": "0,005%",
         "exclusiveStatus": "Haste, Infinite Haste",
         "codedName": "SLOW",
         "notes": "-"
@@ -487,7 +487,7 @@
     },
     {
         "id": "255",
-        "commonName": "Target Ally",
+        "commonName": "Void Target",
         "effects": "Affects Lady Amandine's behaviour",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -508,7 +508,7 @@
     {
         "id": "257",
         "commonName": "No Air Time 2",
-        "effects": "Changes the air time of Jump attacks to 0.01 seconds, lasts for 2 turns",
+        "effects": "Changes the air time of Jump attacks to 0,01 seconds, lasts for 2 turns",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -518,7 +518,7 @@
     {
         "id": "258",
         "commonName": "No Air Time 3",
-        "effects": "Changes the air time of Jump attacks to 0.01 seconds, lasts for 3 turns",
+        "effects": "Changes the air time of Jump attacks to 0,01 seconds, lasts for 3 turns",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -976,6 +976,16 @@
         "notes": "-"
     },
     {
+        "id": "28401",
+        "commonName": "Lightning Radiant Shield: 75%",
+        "effects": "Returns 75% of the damage taken to the attacker as Lightning damage",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_LIGHTNING_75",
+        "notes": "-"
+    },
+    {
         "id": "282",
         "commonName": "Spellblade +15% Boost 2",
         "effects": "Spellblade abilities deal 15% more damage, lasts for 2 turns",
@@ -1217,7 +1227,7 @@
     },
     {
         "id": "295",
-        "commonName": "Overcome Past",
+        "commonName": "Abandoned Past",
         "effects": "Grants High Quick Cast 1 after using a Dark attack, casts Vanishing Blade after using a Ninja ability if the user has any Physical Blink",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -1228,7 +1238,7 @@
     {
         "id": "296",
         "commonName": "Gambling Break",
-        "effects": "Grants High Quick Cast 1 and randomly casts Deadly Spade/Club/Diamond/Heart after using a Support ability",
+        "effects": "Grants High Quick Cast 1 and randomly casts Deadly Spade/Club/Diamond/Heart after dealing damage with a Support ability",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -1247,7 +1257,7 @@
     },
     {
         "id": "2001",
-        "commonName": "Quick Magical Attacks 3",
+        "commonName": "Magical Quick Cast 3",
         "effects": "Cast speed x2,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 3 turns",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -1257,7 +1267,7 @@
     },
     {
         "id": "2002",
-        "commonName": "Quick Magical Attacks 5",
+        "commonName": "Magical Quick Cast 5",
         "effects": "Cast speed x2,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 5 turns",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -1277,7 +1287,7 @@
     },
     {
         "id": "2004",
-        "commonName": "Quick Magical Attacks 4",
+        "commonName": "Magical Quick Cast 4",
         "effects": "Cast speed x2,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 4 turns",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -1287,7 +1297,7 @@
     },
     {
         "id": "2005",
-        "commonName": "Instant Physical Attacks 1",
+        "commonName": "Physical Instant Cast 1",
         "effects": "Cast speed x9999999 for PHY or NAT attacks that deal physical damage, lasts for 1 turn",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -1297,7 +1307,7 @@
     },
     {
         "id": "2006",
-        "commonName": "Instant Magical Attacks 1",
+        "commonName": "Magical Instant Cast 1",
         "effects": "Cast speed x9999999 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 1 turn",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -1327,7 +1337,7 @@
     },
     {
         "id": "2009",
-        "commonName": "Quick Magical Attacks 1",
+        "commonName": "Magical Quick Cast 1",
         "effects": "Cast speed x2,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 1 turns",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -1337,7 +1347,7 @@
     },
     {
         "id": "2010",
-        "commonName": "Quick Monk Abilities 5",
+        "commonName": "Monk Quick Cast 5",
         "effects": "Cast speed x2,00 for Monk abilities, lasts for 5 turns",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -1347,7 +1357,7 @@
     },
     {
         "id": "2011",
-        "commonName": "Instant Machinist Abilities 2",
+        "commonName": "Machinist Instant Cast 2",
         "effects": "Cast speed x9999999 for Machinist abilities, lasts for 2 turns",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -1357,7 +1367,7 @@
     },
     {
         "id": "2012",
-        "commonName": "Quick Magical Attacks 2",
+        "commonName": "Magical Quick Cast 2",
         "effects": "Cast speed x2,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 2 turns",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -1397,7 +1407,7 @@
     },
     {
         "id": "2017",
-        "commonName": "Quick Knight Abilities 2",
+        "commonName": "Knight Quick Cast 2",
         "effects": "Cast speed x2,00 for Knight abilities, lasts for 2 turns",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -1407,7 +1417,7 @@
     },
     {
         "id": "2018",
-        "commonName": "Instant Monk Abilities 3",
+        "commonName": "Monk Instant Cast 3",
         "effects": "Cast speed x9999999 for Monk abilities, lasts for 3 turns",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -1447,7 +1457,7 @@
     },
     {
         "id": "2022",
-        "commonName": "Quick Machinist Abilities 2",
+        "commonName": "Machinist Quick Cast 2",
         "effects": "Cast speed x2,00 for Machinist abilities, lasts for 2 turns",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -1457,7 +1467,7 @@
     },
     {
         "id": "2024",
-        "commonName": "Physical High Quickcast 1",
+        "commonName": "Physical High Quick Cast 1",
         "effects": "Cast speed x3,00 for PHY or NAT attacks that deal physical damage, lasts for 1 turn",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -1467,7 +1477,7 @@
     },
     {
         "id": "2025",
-        "commonName": "Quick Thief Abilities 2",
+        "commonName": "Thief Quick Cast 2",
         "effects": "Cast speed x2,00 for Thief abilities, lasts for 2 turns",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -1487,7 +1497,7 @@
     },
     {
         "id": "2052",
-        "commonName": "Quick Spellblade Abilities",
+        "commonName": "Spellblade Quick Cast",
         "effects": "Cast speed x2,00 for Spellblade abilities",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -1497,7 +1507,7 @@
     },
     {
         "id": "2053",
-        "commonName": "Instant Jump Attacks",
+        "commonName": "Jump Instant Cast",
         "effects": "Cast speed x9999999 for Jump attacks",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -1517,7 +1527,7 @@
     },
     {
         "id": "2055",
-        "commonName": "Quick Sharpshooter Abilities",
+        "commonName": "Sharpshooter Quick Cast",
         "effects": "Cast speed x2,00 for Sharpshooter abilities",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -1527,7 +1537,7 @@
     },
     {
         "id": "2056",
-        "commonName": "Quick Jump Attacks",
+        "commonName": "Jump Quick Cast",
         "effects": "Cast speed x2,00 for Jump attacks",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -1610,7 +1620,7 @@
         "effects": "Taunts single-target BLK attacks, absorbs BLK attacks to restore 1 consumed ability use",
         "defaultDuration": "-",
         "mndModifier": "-",
-        "exclusiveStatus": "Grand Cross",
+        "exclusiveStatus": "High Runic",
         "codedName": "RUNIC",
         "notes": "-"
     },
@@ -1815,7 +1825,7 @@
     },
     {
         "id": "531",
-        "commonName": "Grand Cross",
+        "commonName": "High Runic",
         "effects": "Taunts single-target BLK and WHT attacks, absorbs BLK and WHT attacks to restore 1 consumed ability use",
         "defaultDuration": "25",
         "mndModifier": "-",
@@ -1885,7 +1895,7 @@
     },
     {
         "id": "538",
-        "commonName": "Anti Faraway",
+        "commonName": "Airy Shield",
         "effects": "Can't be hit by ranged PHY attacks",
         "defaultDuration": "30",
         "mndModifier": "-",
@@ -2174,8 +2184,8 @@
     },
     {
         "id": "569",
-        "commonName": "Radiant Shield Counter",
-        "effects": "Keeps track of the number of uses of Radiant Shield",
+        "commonName": "Desperate Madness Counter",
+        "effects": "Keeps track of the number of uses of Desperate Madness",
         "defaultDuration": "25",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2344,8 +2354,8 @@
     },
     {
         "id": "587",
-        "commonName": "Follow-Up",
-        "effects": "Casts Follow-Up after using an ability",
+        "commonName": "Ace Follow-Up",
+        "effects": "Casts Ace Follow-Up after using an ability",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2404,21 +2414,21 @@
     },
     {
         "id": "593",
-        "commonName": "Hybrid ATK",
+        "commonName": "Hellhound ATK",
         "effects": "ATK +30%",
         "defaultDuration": "15",
         "mndModifier": "-",
-        "exclusiveStatus": "Hybrid MAG +30%",
+        "exclusiveStatus": "Hellhound MAG",
         "codedName": "EX_MODE_HELLHOUND_ATK_BOOST",
         "notes": "-"
     },
     {
         "id": "594",
-        "commonName": "Hybrid MAG",
+        "commonName": "Hellhound MAG",
         "effects": "MAG +30%",
         "defaultDuration": "15",
         "mndModifier": "-",
-        "exclusiveStatus": "Hybrid ATK +30%",
+        "exclusiveStatus": "Hellhound ATK",
         "codedName": "EX_MODE_HELLHOUND_MATK_BOOST",
         "notes": "-"
     },
@@ -2495,7 +2505,7 @@
     {
         "id": "50005",
         "commonName": "EX: Master Thief",
-        "effects": "Casts Steel Storm after using a Thief ability",
+        "effects": "Casts Steel Storm after dealing damage with a Thief ability",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2515,7 +2525,7 @@
     {
         "id": "50007",
         "commonName": "EX: Ace",
-        "effects": "ATK +30%, casts Run & Shoot after using a Water attack",
+        "effects": "ATK +30%, casts Run & Shoot after dealing damage with a Water attack",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2534,7 +2544,7 @@
     },
     {
         "id": "50009",
-        "commonName": "Aggressor",
+        "commonName": "Dark Quick Cycle",
         "effects": "Grants Quick Cast 1 after using a Dark attack",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2616,7 +2626,7 @@
     },
     {
         "id": "50018",
-        "commonName": "Flaming Love",
+        "commonName": "Fire Quick Cycle",
         "effects": "Grants Quick Cast 1 after using a Fire attack",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2636,11 +2646,11 @@
     },
     {
         "id": "50020",
-        "commonName": "Trigger Happy",
+        "commonName": "Machinist Quick Cycle I",
         "effects": "Grants Quick Cast 1 after using a Machinist ability",
         "defaultDuration": "15",
         "mndModifier": "-",
-        "exclusiveStatus": "Volcano T",
+        "exclusiveStatus": "Machinist Quick Cycle II",
         "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_IF_MACHINIST_CATEGORY_AB_LIGHTNING",
         "notes": "-"
     },
@@ -2666,7 +2676,7 @@
     },
     {
         "id": "50023",
-        "commonName": "Ragnarok Buster",
+        "commonName": "Ice High Quick Cycle",
         "effects": "Grants High Quick Cast 1 after using a Ice attack",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2686,7 +2696,7 @@
     },
     {
         "id": "50025",
-        "commonName": "Burning Duel",
+        "commonName": "Burning Blow Follow-Up",
         "effects": "Casts Burning Blow after dealing a critical hit",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2706,7 +2716,7 @@
     },
     {
         "id": "50027",
-        "commonName": "Turks Full Course",
+        "commonName": "Lightning Quick Cycle",
         "effects": "Grants Quick Cast 1 after using a Lightning attack",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2737,7 +2747,7 @@
     {
         "id": "50030",
         "commonName": "EX: Speed Combo",
-        "effects": "ATK +30%, grants Physical High Quickcast 1 to all allies in the front row after using a Knight ability",
+        "effects": "ATK +30%, grants Physical High Quick Cast 1 to all allies in the front row after using a Knight ability",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2747,7 +2757,7 @@
     {
         "id": "50031",
         "commonName": "Dark Might Follow-Up",
-        "effects": "Casts Dark Might after using a Darkness ability",
+        "effects": "Casts Dark Might after dealing damage with a Darkness ability",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2866,8 +2876,8 @@
     },
     {
         "id": "50043",
-        "commonName": "Empyrean Edict",
-        "effects": "Casts Thunderstorm after using a Black Magic ability",
+        "commonName": "Thunderstorm Follow-Up",
+        "effects": "Casts Thunderstorm after dealing damage with a Black Magic ability",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2916,11 +2926,11 @@
     },
     {
         "id": "50048",
-        "commonName": "Volcano T",
+        "commonName": "Machinist Quick Cycle II",
         "effects": "Grants Quick Cast 1 after using a Machinist ability",
         "defaultDuration": "15",
         "mndModifier": "-",
-        "exclusiveStatus": "Trigger Happy",
+        "exclusiveStatus": "Machinist Quick Cycle I",
         "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_IF_MACHINIST_CATEGORY_AB_FIRE",
         "notes": "-"
     },
@@ -2956,7 +2966,7 @@
     },
     {
         "id": "50052",
-        "commonName": "Burning Steel",
+        "commonName": "Flame Hunt Follow-Up",
         "effects": "Casts Flame Hunt after using a Fire attack",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -2966,7 +2976,7 @@
     },
     {
         "id": "50053",
-        "commonName": "Blazing Pummel",
+        "commonName": "Phoenix Attack Follow-Up",
         "effects": "Casts Phoenix Attack after using a Fire attack",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -3006,7 +3016,7 @@
     },
     {
         "id": "50057",
-        "commonName": "Zero Physical Damage V2",
+        "commonName": "Null Physical",
         "effects": "Reduces to 0 all damage received from non-NIN attacks that deal physical damage and all damage received from PHY attacks ",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -3016,7 +3026,7 @@
     },
     {
         "id": "50058",
-        "commonName": "Zero Magical Damage V2",
+        "commonName": "Null Magical",
         "effects": "Reduces to 0 all damage received from non-NIN attacks that deal magical damage and all damage received from BLK, WHT, BLU or SUM attacks ",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -3027,7 +3037,7 @@
     {
         "id": "50059",
         "commonName": "No Air Time 4",
-        "effects": "Changes the air time of Jump attacks to 0.01 seconds, lasts for 4 turns",
+        "effects": "Changes the air time of Jump attacks to 0,01 seconds, lasts for 4 turns",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3036,7 +3046,7 @@
     },
     {
         "id": "50060",
-        "commonName": "Azure Dragoon",
+        "commonName": "Dragoon Quick Cycle",
         "effects": "Grants Quick Cast 1 after using a Dragoon ability",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -3056,8 +3066,8 @@
     },
     {
         "id": "50062",
-        "commonName": "Icicle Impact",
-        "effects": "Casts Ice Brand after using a Ice attack",
+        "commonName": "Ice Brand Follow-Up",
+        "effects": "Casts Ice Brand after dealing damage with a Ice attack",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3066,7 +3076,7 @@
     },
     {
         "id": "50063",
-        "commonName": "Gauss Round",
+        "commonName": "Wild Fire Finisher",
         "effects": "Casts Wild Fire when removed",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -3086,8 +3096,8 @@
     },
     {
         "id": "50065",
-        "commonName": "Root of Hatred",
-        "effects": "Grants Quick Cast 1 after using a Darkness ability",
+        "commonName": "Darkness Quick Cycle",
+        "effects": "Grants Quick Cast 1 after dealing damage with a Darkness ability",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3096,7 +3106,7 @@
     },
     {
         "id": "50066",
-        "commonName": "Crystal Spell",
+        "commonName": "Witch Quick Cycle",
         "effects": "Grants Quick Cast 1 after using a Witch ability",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -3116,7 +3126,7 @@
     },
     {
         "id": "50068",
-        "commonName": "Unarmed Champion",
+        "commonName": "Rush Follow-Up",
         "effects": "Casts Rush after dealing a critical hit",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -3167,7 +3177,7 @@
     {
         "id": "50073",
         "commonName": "EX: Chosen Sorceress",
-        "effects": "MAG +30%, casts Sub-Zero Calamity after using a Black Magic ability",
+        "effects": "MAG +30%, casts Sub-Zero Calamity after dealing damage with a Black Magic ability",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3256,7 +3266,7 @@
     },
     {
         "id": "50082",
-        "commonName": "Climhazzard",
+        "commonName": "Wind Quick Cycle",
         "effects": "Grants Quick Cast 1 after using a Wind attack",
         "defaultDuration": "15",
         "mndModifier": "-",
@@ -3267,7 +3277,7 @@
     {
         "id": "50084",
         "commonName": "Stock Raid Follow-Up",
-        "effects": "Casts Stock Raid after using a Holy attack",
+        "effects": "Casts Stock Raid after dealing damage with a Holy attack",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3327,7 +3337,7 @@
     {
         "id": "50090",
         "commonName": "Flame Dance Follow-Up",
-        "effects": "Casts Flame Dance after using a Fire attack",
+        "effects": "Casts Flame Dance after dealing damage with a Fire attack",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3337,7 +3347,7 @@
     {
         "id": "50091",
         "commonName": "Freya Trance",
-        "effects": "ATK and RES +30%, casts Freya Follow-Up after using a Dragoon jump attack",
+        "effects": "ATK and RES +30%, casts Love Unforgotten after using a Dragoon jump attack",
         "defaultDuration": "25",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3362,6 +3372,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "ADJUST_DAMAGE_ZERO_NINJUTSU",
+        "notes": "-"
+    },
+    {
+        "id": "50095",
+        "commonName": "Sephira Follow-Up",
+        "effects": "Casts Sephira after using a Dark attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_TREE_OF_SEPHIRA",
         "notes": "-"
     },
     {
@@ -3496,7 +3516,7 @@
     },
     {
         "id": "614",
-        "commonName": "Critical X%",
+        "commonName": "Critical Chance X%",
         "effects": "Critical chance =X%",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -3806,7 +3826,7 @@
     },
     {
         "id": "6002",
-        "commonName": "Stitch in Time",
+        "commonName": "Magic Bargain",
         "effects": "MAG +30%, DEF -30%",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -3982,7 +4002,7 @@
     },
     {
         "id": "6020",
-        "commonName": "Materia Charge",
+        "commonName": "Stitch in Time",
         "effects": "ATK and MAG +30%, DEF -30%",
         "defaultDuration": "20",
         "mndModifier": "-",
@@ -4012,7 +4032,7 @@
     },
     {
         "id": "702",
-        "commonName": "Null Physical",
+        "commonName": "Avoid Physical",
         "effects": "Can't be hit by PHY attacks",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -4022,7 +4042,7 @@
     },
     {
         "id": "703",
-        "commonName": "Null Magical",
+        "commonName": "Avoid Magical",
         "effects": "Can't be hit by BLK, WHT, BLU or SUM attacks",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -4042,7 +4062,7 @@
     },
     {
         "id": "705",
-        "commonName": "Null Basic Magic",
+        "commonName": "Avoid Basic Magic",
         "effects": "Can't be hit by BLK or WHT attacks",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -4478,7 +4498,7 @@
         "mndModifier": "-",
         "exclusiveStatus": "Frozen, all other \"Buff Fire\" and  \"Debuff Fire\" status",
         "codedName": "SET_EXCLUSIVE_ELEMENT_ATK_FIRE_20",
-        "notes": "-"
+        "notes": "Not used"
     },
     {
         "id": "8411001",
@@ -4532,7 +4552,7 @@
     },
     {
         "id": "8421001",
-        "commonName": "Resist Fire",
+        "commonName": "Medium Resist Fire",
         "effects": "Fire Resistance +20%, cumulable",
         "defaultDuration": "25",
         "mndModifier": "-",
@@ -4542,7 +4562,7 @@
     },
     {
         "id": "8421011",
-        "commonName": "Resist Ice",
+        "commonName": "Medium Resist Ice",
         "effects": "Ice Resistance +20%, cumulable",
         "defaultDuration": "25",
         "mndModifier": "-",
@@ -4552,7 +4572,7 @@
     },
     {
         "id": "8421021",
-        "commonName": "Resist Lightning",
+        "commonName": "Medium Resist Lightning",
         "effects": "Lightning Resistance +20%, cumulable",
         "defaultDuration": "25",
         "mndModifier": "-",
@@ -4562,7 +4582,7 @@
     },
     {
         "id": "8421031",
-        "commonName": "Resist Earth",
+        "commonName": "Medium Resist Earth",
         "effects": "Earth Resistance +20%, cumulable",
         "defaultDuration": "25",
         "mndModifier": "-",
@@ -4572,7 +4592,7 @@
     },
     {
         "id": "8421051",
-        "commonName": "Resist Water",
+        "commonName": "Medium Resist Water",
         "effects": "Water Resistance +20%, cumulable",
         "defaultDuration": "25",
         "mndModifier": "-",
@@ -4582,7 +4602,7 @@
     },
     {
         "id": "8421061",
-        "commonName": "Resist Holy",
+        "commonName": "Medium Resist Holy",
         "effects": "Holy Resistance +20%, cumulable",
         "defaultDuration": "25",
         "mndModifier": "-",
@@ -4592,7 +4612,7 @@
     },
     {
         "id": "8421071",
-        "commonName": "Resist Dark",
+        "commonName": "Medium Resist Dark",
         "effects": "Dark Resistance +20%, cumulable",
         "defaultDuration": "25",
         "mndModifier": "-",

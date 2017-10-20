@@ -279,9 +279,10 @@
         "realm": "Core",
         "character": "Devout",
         "name": "Cleansing Bless",
-        "effect": "If an ally has negative effects, ?% chance to turn Attack into an ability that removes negative effects",
+        "effect": "If an ally has negative effects, 70% chance to turn Attack into an ability that removes negative effects",
         "unlockCriteria": "Bring Devout to level 99",
-        "name(jp)": "浄化の祝福"
+        "name(jp)": "浄化の祝福",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -530,9 +531,10 @@
         "realm": "Core",
         "character": "Berserker",
         "name": "Berserker's Violence",
-        "effect": "PHY attacks deal ?% more damage when equipping an axe",
+        "effect": "PHY attacks deal 30% more damage when equipping an axe",
         "unlockCriteria": "Bring Berserker to level 99",
-        "name(jp)": "狂戦士の暴乱"
+        "name(jp)": "狂戦士の暴乱",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -2338,15 +2340,19 @@
         "realm": "V",
         "character": "Xezat",
         "name": "Swordsman's Pride",
-        "effect": "Spellblade abilities deal ?% more damage",
+        "effect": "Spellblade abilities deal 30% more damage",
         "unlockCriteria": "Use Xezat's Memory Crystal II, chance to obtain with Xezat in party",
-        "name(jp)": "剣士の自負"
+        "name(jp)": "剣士の自負",
+        "✓": "✓"
     },
     {
         "realm": "V",
         "character": "Xezat",
-        "effect": "?% chance to turn Attack into Frost Strike",
-        "unlockCriteria": "Bring Xezat to level 99"
+        "name": "Icy Swordsman",
+        "effect": "24% chance to turn Attack into Frost Strike",
+        "unlockCriteria": "Bring Xezat to level 99",
+        "name(jp)": "氷の異名を持つ剣士",
+        "✓": "✓"
     },
     {
         "realm": "V",
@@ -2361,15 +2367,19 @@
         "realm": "V",
         "character": "Kelger",
         "name": "Speedy Wolf",
-        "effect": "?% chance to begin the round with full ATB gauge",
+        "effect": "50% chance to begin the round with full ATB gauge",
         "unlockCriteria": "Use Kelger's Memory Crystal II, chance to obtain with Kelger in party",
-        "name(jp)": "迅速な狼戦士"
+        "name(jp)": "迅速な狼戦士",
+        "✓": "✓"
     },
     {
         "realm": "V",
         "character": "Kelger",
-        "effect": "Attack turns into an ability (single, ? physical) with 0,01 cast time that grants 0 SB points (instead of 50)",
-        "unlockCriteria": "Bring Kelger to level 99"
+        "name": "Feral Fangs",
+        "effect": "Attack turns into an ability (single, 2,10 physical) with 0,01 cast time that grants 0 SB points (instead of 50)",
+        "unlockCriteria": "Bring Kelger to level 99",
+        "name(jp)": "どう猛なる狼の牙",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -5443,7 +5453,7 @@
     {
         "realm": "XV",
         "character": "Prompto",
-        "name": "Secret Affairs",
+        "name": "Hidden Struggle",
         "effect": "PHY attacks deal 30% more damage when equipping a gun",
         "unlockCriteria": "Bring Prompto to level 99",
         "name(jp)": "密かなる努力",
@@ -5497,7 +5507,7 @@
     {
         "realm": "XV",
         "character": "Aranea",
-        "name": "Third Army Mercenary Captain",
+        "name": "Mother of Mercenaries",
         "effect": "PHY attacks deal 30% more damage when equipping a helm",
         "unlockCriteria": "Bring Aranea to level 99",
         "name(jp)": "姉御肌の傭兵隊長",

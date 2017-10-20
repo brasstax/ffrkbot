@@ -68,7 +68,7 @@
         "realm": "I",
         "character": "Garland",
         "name": "Font of Darkness",
-        "effect": "40% chance of restoring HP to the user for 40% of the damage dealt after using a single-target Dark attack",
+        "effect": "40% chance of restoring HP to the user for 40% of the damage dealt with single-target Dark attacks",
         "relic": "-",
         "name(jp)": "闇の元凶",
         "✓": "✓"
@@ -693,7 +693,7 @@
         "realm": "IV",
         "character": "Cecil (Dark Knight)",
         "name": "Red-Blood Fangs",
-        "effect": "?% chance of restioring HP to the user for ?% of the damage dealt after using a single-target Dark attack",
+        "effect": "?% chance of restoring HP to the user for ?% of the damage dealt with single-target Dark attacks",
         "relic": "-",
         "name(jp)": "赤き血の牙"
     },
@@ -701,7 +701,7 @@
         "realm": "IV",
         "character": "Cecil (Dark Knight)",
         "name": "Blade of the Crimson Curse",
-        "effect": "Grants Guts and Crimson Curse when HP fall below 20%",
+        "effect": "Grants Last Stand and Crimson Curse when HP fall below 20%",
         "master": "ATK +10",
         "relic": "Hades Armor (IV)",
         "name(jp)": "赤き呪いの剣",
@@ -1202,17 +1202,19 @@
         "realm": "V",
         "character": "Kelger",
         "name": "Warrior Who Despises Evil",
-        "effect": "Increases Earth damage dealt by ?%",
+        "effect": "Increases Earth damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "悪を憎む戦士"
+        "name(jp)": "悪を憎む戦士",
+        "✓": "✓"
     },
     {
         "realm": "V",
         "character": "Kelger",
         "name": "Chief of the Werewolves",
-        "effect": "?% chance to grant Quick Cast 3 to the user after using a Ninja ability",
+        "effect": "30% chance to grant Quick Cast 3 to the user after using a Ninja ability",
         "relic": "-",
-        "name(jp)": "ウェアウルフの長"
+        "name(jp)": "ウェアウルフの長",
+        "✓": "✓"
     },
     {
         "realm": "V",
@@ -2298,17 +2300,19 @@
         "realm": "IX",
         "character": "Freya",
         "name": "Stunning Dragon Knight",
-        "effect": "Increases Wind damage dealt by ?%",
+        "effect": "Increases Wind damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "美しき女竜騎士"
+        "name(jp)": "美しき女竜騎士",
+        "✓": "✓"
     },
     {
         "realm": "IX",
         "character": "Freya",
         "name": "Love Unforgotten",
-        "effect": "Restores HP for 100% of the user's maximum HP and grants Freya Trance when HP fall below ?%",
+        "effect": "Restores HP for 100% of the user's maximum HP and grants Freya Trance when HP fall below 20%",
         "relic": "-",
-        "name(jp)": "忘れえぬ愛を抱く者"
+        "name(jp)": "忘れえぬ愛を抱く者",
+        "✓": "✓"
     },
     {
         "realm": "IX",
@@ -2703,7 +2707,7 @@
         "realm": "X",
         "character": "Seymour",
         "name": "Dead Who Deprives the Light",
-        "effect": "40% chance of restioring HP to the user for 40% of the damage dealt after using a single-target Dark attack",
+        "effect": "40% chance of restoring HP to the user for 40% of the damage dealt with single-target Dark attacks",
         "relic": "-",
         "name(jp)": "光を奪いし死人",
         "✓": "✓"
@@ -2888,6 +2892,15 @@
     },
     {
         "realm": "XII",
+        "character": "Vaan",
+        "name": "Aspirant Sky Pirate",
+        "effect": "?% chance of smart ether 1 to the user after using a Thief ability",
+        "master": "ATK +10",
+        "relic": "Vaan's Bracers (XII)",
+        "name(jp)": "空賊への憧れ"
+    },
+    {
+        "realm": "XII",
         "character": "Balthier",
         "name": "Cool Customer",
         "effect": "Increases Fire damage dealt by 10%",
@@ -2992,7 +3005,7 @@
         "name": "Forsaken Princess's Pride",
         "effect": "Grants Attach Lightning at the beginning of the battle",
         "master": "MAG +10",
-        "relic": "Ashe's Kote (XII)",
+        "relic": "Ashe's Bracers (XII)",
         "name(jp)": "誇り失わぬ王女",
         "✓": "✓"
     },
@@ -3053,16 +3066,27 @@
     {
         "realm": "XII",
         "character": "Larsa",
-        "relic": "-"
+        "name": "Consul's Talent",
+        "effect": "WHT abilities restore ?% more HP",
+        "relic": "-",
+        "name(jp)": "執政者の才"
     },
     {
         "realm": "XII",
         "character": "Larsa",
-        "relic": "-"
+        "name": "Future Emperor",
+        "effect": "?% chance to dualcast White Magic abilities",
+        "relic": "-",
+        "name(jp)": "次代の皇帝"
     },
     {
         "realm": "XII",
-        "character": "Larsa"
+        "character": "Larsa",
+        "name": "Mending Belief",
+        "effect": "?% chance to grant Astra to the target after using a single-target White Magic ability that restores HP on an ally",
+        "master": "MND +10",
+        "relic": "Swordbreaker (XII)",
+        "name(jp)": "歪みを正す信念"
     },
     {
         "realm": "XII",
@@ -3095,16 +3119,27 @@
     {
         "realm": "XII",
         "character": "Reks",
-        "relic": "-"
+        "name": "Fraternal Bond",
+        "effect": "Spellblade abilities deal ?% more damage",
+        "relic": "-",
+        "name(jp)": "弟想いの兄"
     },
     {
         "realm": "XII",
         "character": "Reks",
-        "relic": "-"
+        "name": "Brave Patriot",
+        "effect": "?% chance to dualcast Spellblade abilities",
+        "relic": "-",
+        "name(jp)": "勇敢なる愛国者"
     },
     {
         "realm": "XII",
-        "character": "Reks"
+        "character": "Reks",
+        "name": "Young Brave Soldier",
+        "effect": "?% chance to cast an ability (single) that restores HP for ?% of the target's maximum HP after using a Spellblade ability",
+        "master": "ATK +10",
+        "relic": "Bone Mail (XII)",
+        "name(jp)": "若き義勇兵"
     },
     {
         "realm": "XIII",
@@ -3222,17 +3257,19 @@
         "realm": "XIII",
         "character": "Hope",
         "name": "Love for the Mother",
-        "effect": "Increases Holy damage dealt by ?%",
+        "effect": "Increases Holy damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "母への想い"
+        "name(jp)": "母への想い",
+        "✓": "✓"
     },
     {
         "realm": "XIII",
         "character": "Hope",
         "name": "Hope Beyond Love and Hate",
-        "effect": "?% chance to dualcast Holy abilities",
+        "effect": "35% chance to dualcast Holy abilities",
         "relic": "-",
-        "name(jp)": "恩讐を越える希望"
+        "name(jp)": "恩讐を越える希望",
+        "✓": "✓"
     },
     {
         "realm": "XIII",
@@ -3359,9 +3396,10 @@
         "realm": "XIV",
         "character": "Thancred",
         "name": "Wandering Scion",
-        "effect": "PHY attacks deal ?% more damage when equipping a dagger",
+        "effect": "PHY attacks deal 10% more damage when equipping a dagger",
         "relic": "-",
-        "name(jp)": "放浪の賢人"
+        "name(jp)": "放浪の賢人",
+        "✓": "✓"
     },
     {
         "realm": "XIV",
