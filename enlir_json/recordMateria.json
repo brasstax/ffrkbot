@@ -1286,7 +1286,7 @@
     {
         "realm": "II",
         "character": "Scott",
-        "name": "Corageous Prince",
+        "name": "Valiant Prince",
         "effect": "Spellblade abilities deal 15% more damage",
         "unlockCriteria": "Use Scott's Memory Crystal",
         "name(jp)": "勇ましき王子",
@@ -1304,7 +1304,7 @@
     {
         "realm": "II",
         "character": "Scott",
-        "name": "Unfaded Ardor",
+        "name": "Undying Flame",
         "effect": "Grants Reraise: 40% at the beginning of the battle, DEF +20%",
         "unlockCriteria": "Bring Scott to level 99",
         "name(jp)": "消えぬ闘炎",
@@ -3653,7 +3653,7 @@
     {
         "realm": "VIII",
         "character": "Kiros",
-        "name": "Serious One of the Team",
+        "name": "Straight Man",
         "effect": "Ninja abilities deal 15% more damage",
         "unlockCriteria": "Use Kiros's Memory Crystal",
         "name(jp)": "チームのツッコミ役",
@@ -3662,7 +3662,7 @@
     {
         "realm": "VIII",
         "character": "Kiros",
-        "name": "Entertaining Friendship",
+        "name": "Loyal Friend",
         "effect": "40% chance to turn Attack into an ability (single, 2,00 physical) with two single attacks (1,00 each)",
         "unlockCriteria": "Use Kiros's Memory Crystal II, chance to obtain with Kiros in party",
         "name(jp)": "友という名の娯楽",
@@ -3680,7 +3680,7 @@
     {
         "realm": "VIII",
         "character": "Ward",
-        "name": "Rich Expressions",
+        "name": "Profound Depths",
         "effect": "Dragoon abilities deal 15% more damage",
         "unlockCriteria": "Use Ward's Memory Crystal",
         "name(jp)": "豊かな表情",
@@ -3689,7 +3689,7 @@
     {
         "realm": "VIII",
         "character": "Ward",
-        "name": "Fascinating Giant",
+        "name": "Gentle Giant",
         "effect": "ATK +13% when equipping a spear",
         "unlockCriteria": "Use Ward's Memory Crystal II, chance to obtain with Ward in party",
         "name(jp)": "愛嬌溢れる巨漢",

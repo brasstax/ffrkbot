@@ -316,6 +316,15 @@
         "notes": "-"
     },
     {
+        "id": "23602",
+        "commonName": "Light Doom: 15",
+        "effects": "HP = 0 after a 15 seconds timer, can't overwrite other timers",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DOOM_LIGHT_15",
+        "notes": "-"
+    },
+    {
         "id": "237",
         "commonName": "Doom: 45",
         "effects": "HP = 0 after a 45 seconds timer",
@@ -747,7 +756,7 @@
     },
     {
         "id": "270",
-        "commonName": "Summon Black Dragon",
+        "commonName": "Summon Shadow Dragon",
         "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -2395,7 +2404,7 @@
     {
         "id": "591",
         "commonName": "EX: Twinstrike",
-        "effects": "MAG +30%, 100% chance to dualcast Witch abilities consuming an extra ability use",
+        "effects": "MAG +30%, dualcasts Witch abilities consuming an extra ability use",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2534,8 +2543,8 @@
     },
     {
         "id": "50008",
-        "commonName": "Descent Into Madness Counter",
-        "effects": "Keeps track of the number of uses of Descent Into Madness, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
+        "commonName": "Mad Delights Counter",
+        "effects": "Keeps track of the number of uses of Mad Delights, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2686,8 +2695,8 @@
     },
     {
         "id": "50024",
-        "commonName": "Dualcast Witch",
-        "effects": "100% chance to dualcast Witch abilities consuming an extra ability use",
+        "commonName": "Witch Double",
+        "effects": "Dualcasts Witch abilities consuming an extra ability use",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2696,8 +2705,8 @@
     },
     {
         "id": "50025",
-        "commonName": "Burning Blow Follow-Up",
-        "effects": "Casts Burning Blow after dealing a critical hit",
+        "commonName": "Fiery Fist Follow-Up",
+        "effects": "Casts Fiery Fist after dealing a critical hit",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2826,8 +2835,8 @@
     },
     {
         "id": "50038",
-        "commonName": "Dualcast Black Magic",
-        "effects": "100% chance to dualcast Black Magic abilities consuming an extra ability use",
+        "commonName": "Black Magic Double",
+        "effects": "Dualcasts Black Magic abilities consuming an extra ability use",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3147,7 +3156,7 @@
     {
         "id": "50070",
         "commonName": "EX: Sword Saint",
-        "effects": "ATK +50%, 100% chance to dualcast Knight and Darkness abilities consuming an extra ability use",
+        "effects": "ATK +50%, dualcasts Knight and Darkness abilities consuming an extra ability use",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3382,6 +3391,36 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHASE_MODE_FOR_TREE_OF_SEPHIRA",
+        "notes": "-"
+    },
+    {
+        "id": "50102",
+        "commonName": "White Magic Double",
+        "effects": "Dualcasts White Magic abilities consuming an extra ability use",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_WHITE_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "50103",
+        "commonName": "Monk Rank Boost",
+        "effects": "Monk abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_MONK_MAX_MIDDLE",
+        "notes": "-"
+    },
+    {
+        "id": "50104",
+        "commonName": "White Magic Rank Boost",
+        "effects": "White Magic abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_WHITE_MAGIC_MAX_MIDDLE",
         "notes": "-"
     },
     {

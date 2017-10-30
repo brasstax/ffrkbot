@@ -3498,7 +3498,7 @@
         "multiplier": 4.76,
         "element": "-",
         "time": 1.2,
-        "effects": "4/5/6/7 single attacks (0,68 each) if the user dealt 7/10/13 attacks",
+        "effects": "4/5/6/7 single attacks (0,68 each) if the user used 7/10/13 actions",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 65,
@@ -3523,7 +3523,7 @@
         "multiplier": 3.75,
         "element": "Wind",
         "time": 1.2,
-        "effects": "3/4/5 single attacks (0,75 each) if the user dealt 3/5 attacks",
+        "effects": "3/4/5 single attacks (0,75 each) if the used 3/5 actions",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 70,
@@ -3588,7 +3588,7 @@
     },
     {
         "school": "Summoning",
-        "name": "Drake",
+        "name": "Dragon",
         "rarity": 2,
         "type": "SUM",
         "target": "All enemies",
@@ -5211,7 +5211,7 @@
     },
     {
         "school": "Dragoon",
-        "name": "Aerial Dive",
+        "name": "Aerial Drive",
         "rarity": 5,
         "type": "PHY",
         "target": "Single enemy",
@@ -7114,7 +7114,7 @@
         "orb2Required": "Earth Crystal",
         "orb3Required": "Holy Crystal",
         "gilRequired": 200000,
-        "introducingEvent": "Golden Vault",
+        "introducingEvent": "The Dark Mage",
         "id": 30241071,
         "✓": "✓"
     },
@@ -7136,7 +7136,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
         "gilRequired": 20000,
-        "introducingEvent": "The Stage of Shining Melodies",
+        "introducingEvent": "Limelit Stage",
         "id": 30241081,
         "✓": "✓"
     },
@@ -7158,7 +7158,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Earth",
         "gilRequired": 20000,
-        "introducingEvent": "The Stage of Shining Melodies",
+        "introducingEvent": "Limelit Stage",
         "id": 30241091,
         "✓": "✓"
     },
@@ -7653,7 +7653,7 @@
     },
     {
         "school": "Machinist",
-        "name": "Cold Offering",
+        "name": "Frost Offering",
         "rarity": 5,
         "type": "PHY",
         "target": "Single enemy",
