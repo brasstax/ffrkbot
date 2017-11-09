@@ -113,8 +113,10 @@
     {
         "realm": "Core",
         "character": "Monk",
+        "name": "Honed Senses",
         "effect": "?% chance to counter PHY attacks with Chakra",
-        "unlockCriteria": "Bring Monk to level 99"
+        "unlockCriteria": "Bring Monk to level 99",
+        "name(jp)": "研ぎ澄まされし感覚"
     },
     {
         "realm": "Core",
@@ -209,8 +211,10 @@
     {
         "realm": "Core",
         "character": "Magus",
-        "effect": "Attack turns into an ability (single, ? magical) that deals Fire, Lightning and Ice damage",
-        "unlockCriteria": "Bring Magus to level 99"
+        "name": "Forbidden Arcana",
+        "effect": "Attack turns into an ability (group, ? magical) that deals Fire, Lightning and Ice damage",
+        "unlockCriteria": "Bring Magus to level 99",
+        "name(jp)": "禁忌の大魔術"
     },
     {
         "realm": "Core",
@@ -314,7 +318,7 @@
     {
         "realm": "Core",
         "character": "Summoner",
-        "name": "Pact with Espers",
+        "name": "Summoner's Oath",
         "effect": "40% chance to turn Attack into an ability with 2,50 cast time that randomly casts Goblin, Chocobo, Drake or Bomb",
         "unlockCriteria": "Bring Summoner to level 99",
         "name(jp)": "召喚獣との盟約",
@@ -710,7 +714,7 @@
     {
         "realm": "Core",
         "character": "Gladiator",
-        "name": "Gladiator's Secret Sword",
+        "name": "Gladiator's Guile",
         "effect": "Attack turns into an ability (single, 1,00 physical) with ATK -30% for 15 seconds",
         "unlockCriteria": "Bring Gladiator to level 99",
         "name(jp)": "剣闘士の秘剣",
@@ -1547,7 +1551,7 @@
     {
         "realm": "III",
         "character": "Aria",
-        "name": "Words of Prayer",
+        "name": "Word of Prayer",
         "effect": "Restores 1 use for all White Magic abilities at the beginning of the battle",
         "unlockCriteria": "Use Aria's Memory Crystal II, chance to obtain with Aria in party",
         "name(jp)": "祈りの言葉",
@@ -1556,7 +1560,7 @@
     {
         "realm": "III",
         "character": "Aria",
-        "name": "Guiding Rainbow",
+        "name": "Guiding Light",
         "effect": "WHT abilities restore 30% more HP",
         "unlockCriteria": "Bring Aria to level 99",
         "name(jp)": "光導く虹",
@@ -3671,7 +3675,7 @@
     {
         "realm": "VIII",
         "character": "Kiros",
-        "name": "Dressing Funny",
+        "name": "Eccentric Styling",
         "effect": "24% chance to turn Attack into Ancestral Reflection",
         "unlockCriteria": "Bring Kiros to level 99",
         "name(jp)": "奇抜なファッション",
@@ -3698,7 +3702,7 @@
     {
         "realm": "VIII",
         "character": "Ward",
-        "name": "Silent Bonds",
+        "name": "Silent Bond",
         "effect": "48% chance to turn Attack into Soaring Jump",
         "unlockCriteria": "Bring Ward to level 99",
         "name(jp)": "無声の絆",

@@ -87,17 +87,19 @@
         "realm": "I",
         "character": "Sarah",
         "name": "Kind-Hearted Princess",
-        "effect": "WHT abilities restore ?% more HP",
+        "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
-        "name(jp)": "心優しい姫"
+        "name(jp)": "心優しい姫",
+        "✓": "✓"
     },
     {
         "realm": "I",
         "character": "Sarah",
         "name": "Beloved Princess",
-        "effect": "?% chance to dualcast White Magic abilities",
+        "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
-        "name(jp)": "民に愛されし姫君"
+        "name(jp)": "民に愛されし姫君",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -392,17 +394,19 @@
         "realm": "II",
         "character": "Gordon",
         "name": "Glimpse of Bravery",
-        "effect": "Support abilities deal ?% more damage",
+        "effect": "Support abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "勇気の片鱗"
+        "name(jp)": "勇気の片鱗",
+        "✓": "✓"
     },
     {
         "realm": "II",
         "character": "Gordon",
         "name": "Love's Vow",
-        "effect": "?% chance to cause Minor Imperil Fire to the target after using a Support ability on an enemy",
+        "effect": "30% chance to cause Minor Imperil Fire to the target after using a Support ability on an enemy",
         "relic": "-",
-        "name(jp)": "愛する者への誓い"
+        "name(jp)": "愛する者への誓い",
+        "✓": "✓"
     },
     {
         "realm": "II",
@@ -550,18 +554,20 @@
     {
         "realm": "III",
         "character": "Arc",
-        "name": "Boy's Compassion",
-        "effect": "WHT abilities restore ?% more HP",
+        "name": "Youthful Embrace",
+        "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
-        "name(jp)": "少年の思いやり"
+        "name(jp)": "少年の思いやり",
+        "✓": "✓"
     },
     {
         "realm": "III",
         "character": "Arc",
-        "name": "Reliable Growth",
-        "effect": "?% chance to dualcast White Magic abilities",
+        "name": "Childhood's End",
+        "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
-        "name(jp)": "頼もしき成長"
+        "name(jp)": "頼もしき成長",
+        "✓": "✓"
     },
     {
         "realm": "III",
@@ -651,7 +657,7 @@
     {
         "realm": "III",
         "character": "Desch",
-        "name": "Awakened Memories",
+        "name": "Rekindled Memory",
         "effect": "35% chance to dualcast abilities that deal Lightning damage",
         "relic": "-",
         "name(jp)": "蘇る太古の記憶",
@@ -698,7 +704,7 @@
     {
         "realm": "III",
         "character": "Cloud of Darkness",
-        "name": "Mysterious Destroyer",
+        "name": "Eldritch Destroyer",
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "妖しき破壊者",
@@ -707,7 +713,7 @@
     {
         "realm": "III",
         "character": "Cloud of Darkness",
-        "name": "Overflowing Dark Wave",
+        "name": "Effusing Darkness",
         "effect": "35% chance to cast an ability (group, 4,40 magical) that deals Dark damage after using a Dark ability",
         "relic": "-",
         "name(jp)": "溢れし闇の波動",
@@ -726,7 +732,7 @@
     {
         "realm": "III",
         "character": "Aria",
-        "name": "Pure Heart",
+        "name": "Pure of Heart",
         "effect": "WHT abilities restore ?% more HP",
         "relic": "-",
         "name(jp)": "清らかなる心"
@@ -734,7 +740,7 @@
     {
         "realm": "III",
         "character": "Aria",
-        "name": "Maiden of the Water Crystal",
+        "name": "Water Crystal's Boon",
         "effect": "Reduces damage taken by Fire attacks by ?%",
         "relic": "-",
         "name(jp)": "水のクリスタルの巫女"
@@ -1366,7 +1372,7 @@
         "realm": "VI",
         "character": "Celes",
         "name": "Rune Knight Soulmaster",
-        "effect": "Exploiting elemental weakness grants 50% more SB points (additive with the default 50% bonus)",
+        "effect": "Exploiting elemental weakness grants 50% more Soul Break points (additive with the default 50% bonus)",
         "relic": "-",
         "name(jp)": "ルーンナイトの神技",
         "✓": "✓"
@@ -1408,6 +1414,20 @@
         "relic": "Pixie's Scythe (VI)",
         "name(jp)": "モーグリ族の長",
         "✓": "✓"
+    },
+    {
+        "realm": "VI",
+        "character": "Edgar",
+        "relic": "-"
+    },
+    {
+        "realm": "VI",
+        "character": "Edgar",
+        "relic": "-"
+    },
+    {
+        "realm": "VI",
+        "character": "Edgar"
     },
     {
         "realm": "VI",
@@ -1628,6 +1648,20 @@
         "relic": "Jolly Hair Ornament (VI)",
         "name(jp)": "裏切りの道化師",
         "✓": "✓"
+    },
+    {
+        "realm": "VI",
+        "character": "Leo",
+        "relic": "-"
+    },
+    {
+        "realm": "VI",
+        "character": "Leo",
+        "relic": "-"
+    },
+    {
+        "realm": "VI",
+        "character": "Leo"
     },
     {
         "realm": "VII",
@@ -2049,7 +2083,7 @@
         "realm": "VIII",
         "character": "Zell",
         "name": "Untamed Spirit",
-        "effect": "Grants Critical 50% at the beginning of the battle",
+        "effect": "Grants Critical Chance 50% at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Zell's Jacket (VIII)",
         "name(jp)": "暴れん坊の気迫",
@@ -2553,6 +2587,26 @@
     },
     {
         "realm": "X",
+        "character": "Yuna",
+        "name": "Father's Legacy",
+        "effect": "25% chance to dualcast Summoning abilities",
+        "master": "MAG +10",
+        "relic": "Staff of Thorns (X)",
+        "name(jp)": "受け継ぎし父の遺志",
+        "✓": "✓"
+    },
+    {
+        "realm": "X",
+        "character": "Yuna",
+        "name": "Promised Whistle",
+        "effect": "25% chance to dualcast White Magic abilities",
+        "master": "MND +10",
+        "relic": "Wedding Dress (X)",
+        "name(jp)": "指笛の約束",
+        "✓": "✓"
+    },
+    {
+        "realm": "X",
         "character": "Wakka",
         "name": "Everyone's Big Brother",
         "effect": "Increases Water damage dealt by ?%",
@@ -2710,7 +2764,8 @@
         "effect": "Grants Attach Dark at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Jecht's Sparring Suite (X)",
-        "name(jp)": "ブリッツの王者"
+        "name(jp)": "ブリッツの王者",
+        "✓": "✓"
     },
     {
         "realm": "X",
@@ -2735,7 +2790,8 @@
         "effect": "Grants Attach Fire at the beginning of the battle",
         "master": "MAG +10",
         "relic": "High Summoner's Helm (X)",
-        "name(jp)": "大召喚士の静かなる怒り"
+        "name(jp)": "大召喚士の静かなる怒り",
+        "✓": "✓"
     },
     {
         "realm": "X",
@@ -2879,6 +2935,23 @@
     },
     {
         "realm": "XI",
+        "character": "Prishe",
+        "effect": "PHY attacks deal ?% more damage when equipping a fist weapon",
+        "relic": "-"
+    },
+    {
+        "realm": "XI",
+        "character": "Prishe",
+        "effect": "?% chance to dualcast Monk abilities",
+        "relic": "-"
+    },
+    {
+        "realm": "XI",
+        "character": "Prishe",
+        "effect": "Grants Critical Chance 50% at the beginning of the battle"
+    },
+    {
+        "realm": "XI",
         "character": "Lion",
         "name": "Agent's Shiv",
         "effect": "PHY attacks deal 10% more damage when equipping a dagger",
@@ -2932,6 +3005,23 @@
         "relic": "Alkyoneus's Bracelet (XI)",
         "name(jp)": "宮廷傀儡師の秘術",
         "✓": "✓"
+    },
+    {
+        "realm": "XI",
+        "character": "Zeid",
+        "effect": "Increases Dark damage dealt by ?%",
+        "relic": "-"
+    },
+    {
+        "realm": "XI",
+        "character": "Zeid",
+        "effect": "?% chance of restoring HP to the user for ?% of the damage dealt with single-target Dark attacks",
+        "relic": "-"
+    },
+    {
+        "realm": "XI",
+        "character": "Zeid",
+        "effect": "Grants Attach Dark at the beginning of the battle"
     },
     {
         "realm": "XII",
@@ -3358,6 +3448,20 @@
     },
     {
         "realm": "XIII",
+        "character": "Fang",
+        "relic": "-"
+    },
+    {
+        "realm": "XIII",
+        "character": "Fang",
+        "relic": "-"
+    },
+    {
+        "realm": "XIII",
+        "character": "Fang"
+    },
+    {
+        "realm": "XIII",
         "character": "Serah",
         "name": "Wish for Reunion",
         "effect": "Increases Ice damage dealt by 10%",
@@ -3438,6 +3542,20 @@
         "relic": "Noel's Kote (XIII)",
         "name(jp)": "未来を切り開く剣技",
         "✓": "✓"
+    },
+    {
+        "realm": "XIII",
+        "character": "Nabaat",
+        "relic": "-"
+    },
+    {
+        "realm": "XIII",
+        "character": "Nabaat",
+        "relic": "-"
+    },
+    {
+        "realm": "XIII",
+        "character": "Nabaat"
     },
     {
         "realm": "XIV",
@@ -4376,6 +4494,34 @@
         "relic": "Queen's Natsubi Uniform (Type-0)",
         "name(jp)": "冷静沈着な戦術",
         "✓": "✓"
+    },
+    {
+        "realm": "Type-0",
+        "character": "King",
+        "relic": "-"
+    },
+    {
+        "realm": "Type-0",
+        "character": "King",
+        "relic": "-"
+    },
+    {
+        "realm": "Type-0",
+        "character": "King"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Cinque",
+        "relic": "-"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Cinque",
+        "relic": "-"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Cinque"
     },
     {
         "realm": "Beyond",

@@ -17,9 +17,8 @@
         "max": 10,
         "orb1Required": "Minor Black",
         "orb2Required": "Minor Fire",
-        "gilRequired": 1000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30111001,
+        "id": "30111001",
         "✓": "✓"
     },
     {
@@ -40,9 +39,8 @@
         "max": 10,
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Fire",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30111002,
+        "id": "30111002",
         "✓": "✓"
     },
     {
@@ -63,9 +61,8 @@
         "max": 10,
         "orb1Required": "Black",
         "orb2Required": "Fire",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30111003,
+        "id": "30111003",
         "✓": "✓"
     },
     {
@@ -86,9 +83,8 @@
         "max": 10,
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Fire",
-        "gilRequired": 10000,
         "introducingEvent": "Operation Mi'ihen",
-        "id": 30111004,
+        "id": "30111004",
         "✓": "✓"
     },
     {
@@ -109,9 +105,8 @@
         "max": 10,
         "orb1Required": "Minor Black",
         "orb2Required": "Minor Ice",
-        "gilRequired": 1000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30111011,
+        "id": "30111011",
         "✓": "✓"
     },
     {
@@ -132,9 +127,8 @@
         "max": 10,
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Ice",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30111012,
+        "id": "30111012",
         "✓": "✓"
     },
     {
@@ -155,9 +149,8 @@
         "max": 10,
         "orb1Required": "Black",
         "orb2Required": "Ice",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30111013,
+        "id": "30111013",
         "✓": "✓"
     },
     {
@@ -178,9 +171,8 @@
         "max": 10,
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Ice",
-        "gilRequired": 10000,
         "introducingEvent": "Operation Mi'ihen",
-        "id": 30111014,
+        "id": "30111014",
         "✓": "✓"
     },
     {
@@ -201,9 +193,8 @@
         "max": 10,
         "orb1Required": "Minor Black",
         "orb2Required": "Minor Lightning",
-        "gilRequired": 1000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30111021,
+        "id": "30111021",
         "✓": "✓"
     },
     {
@@ -224,9 +215,8 @@
         "max": 10,
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Lightning",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30111022,
+        "id": "30111022",
         "✓": "✓"
     },
     {
@@ -247,9 +237,8 @@
         "max": 10,
         "orb1Required": "Black",
         "orb2Required": "Lightning",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30111023,
+        "id": "30111023",
         "✓": "✓"
     },
     {
@@ -270,9 +259,8 @@
         "max": 10,
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Lightning",
-        "gilRequired": 10000,
         "introducingEvent": "The Pulse Fal'Cie",
-        "id": 30111024,
+        "id": "30111024",
         "✓": "✓"
     },
     {
@@ -294,9 +282,8 @@
         "orb1Required": "Minor Black",
         "orb2Required": "Minor Fire",
         "orb3Required": "Minor Ice",
-        "gilRequired": 1000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30111031,
+        "id": "30111031",
         "✓": "✓"
     },
     {
@@ -318,9 +305,8 @@
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Fire",
         "orb3Required": "Lesser Ice",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30111032,
+        "id": "30111032",
         "✓": "✓"
     },
     {
@@ -342,9 +328,8 @@
         "orb1Required": "Black",
         "orb2Required": "Fire",
         "orb3Required": "Ice",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #4",
-        "id": 30111033,
+        "id": "30111033",
         "✓": "✓"
     },
     {
@@ -366,9 +351,8 @@
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Ice",
-        "gilRequired": 10000,
         "introducingEvent": "The Dreadnought Leviathan",
-        "id": 30111034,
+        "id": "30111034",
         "✓": "✓"
     },
     {
@@ -390,9 +374,8 @@
         "max": 10,
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Dark",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30111041,
+        "id": "30111041",
         "✓": "✓"
     },
     {
@@ -414,9 +397,8 @@
         "max": 10,
         "orb1Required": "Black",
         "orb2Required": "Dark",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30111042,
+        "id": "30111042",
         "✓": "✓"
     },
     {
@@ -438,9 +420,8 @@
         "max": 10,
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Dark",
-        "gilRequired": 12000,
         "introducingEvent": "Man in Black",
-        "id": 30111043,
+        "id": "30111043",
         "✓": "✓"
     },
     {
@@ -462,9 +443,8 @@
         "orb1Required": "Black",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Dark",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30111051,
+        "id": "30111051",
         "✓": "✓"
     },
     {
@@ -486,9 +466,8 @@
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Dark",
-        "gilRequired": 10000,
         "introducingEvent": "Third Pilgrimage",
-        "id": 30111052,
+        "id": "30111052",
         "✓": "✓"
     },
     {
@@ -508,9 +487,8 @@
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Dark",
-        "gilRequired": 10000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30111061,
+        "id": "30111061",
         "✓": "✓"
     },
     {
@@ -532,9 +510,8 @@
         "orb1Required": "Major Black",
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Fire",
-        "gilRequired": 50000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30111071,
+        "id": "30111071",
         "✓": "✓"
     },
     {
@@ -554,9 +531,8 @@
         "orb1Required": "Minor Black",
         "orb2Required": "Minor Ice",
         "orb3Required": "Minor Dark",
-        "gilRequired": 1000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30111081,
+        "id": "30111081",
         "✓": "✓"
     },
     {
@@ -575,9 +551,8 @@
         "max": 10,
         "orb1Required": "Minor Black",
         "orb2Required": "Minor Dark",
-        "gilRequired": 1000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30111091,
+        "id": "30111091",
         "✓": "✓"
     },
     {
@@ -596,9 +571,8 @@
         "max": 10,
         "orb1Required": "Minor Black",
         "orb2Required": "Minor Dark",
-        "gilRequired": 1000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30111101,
+        "id": "30111101",
         "✓": "✓"
     },
     {
@@ -618,9 +592,8 @@
         "orb1Required": "Black",
         "orb2Required": "Lightning",
         "orb3Required": "Dark",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30111111,
+        "id": "30111111",
         "✓": "✓"
     },
     {
@@ -640,9 +613,8 @@
         "orb1Required": "Black",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Dark",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30111121,
+        "id": "30111121",
         "✓": "✓"
     },
     {
@@ -664,9 +636,8 @@
         "orb1Required": "Black",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Earth",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30111131,
+        "id": "30111131",
         "✓": "✓"
     },
     {
@@ -686,9 +657,8 @@
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Earth",
-        "gilRequired": 10000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30111141,
+        "id": "30111141",
         "✓": "✓"
     },
     {
@@ -710,9 +680,8 @@
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Earth",
         "orb3Required": "Greater Dark",
-        "gilRequired": 10000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30111151,
+        "id": "30111151",
         "✓": "✓"
     },
     {
@@ -733,9 +702,8 @@
         "max": 10,
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Fire",
-        "gilRequired": 3000,
         "introducingEvent": "Evil of Mardias",
-        "id": 30111161,
+        "id": "30111161",
         "✓": "✓"
     },
     {
@@ -756,9 +724,8 @@
         "max": 10,
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Ice",
-        "gilRequired": 3000,
         "introducingEvent": "Evil of Mardias",
-        "id": 30111171,
+        "id": "30111171",
         "✓": "✓"
     },
     {
@@ -781,9 +748,8 @@
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Fire",
         "orb4Required": "Major Earth",
-        "gilRequired": 50000,
         "introducingEvent": "Man in Black",
-        "id": 30111181,
+        "id": "30111181",
         "✓": "✓"
     },
     {
@@ -802,9 +768,8 @@
         "max": 12,
         "orb1Required": "Minor Black",
         "orb2Required": "Minor Dark",
-        "gilRequired": 1000,
         "introducingEvent": "Touched by Magic",
-        "id": 30111201,
+        "id": "30111201",
         "✓": "✓"
     },
     {
@@ -823,9 +788,8 @@
         "max": 12,
         "orb1Required": "Black",
         "orb2Required": "Dark",
-        "gilRequired": 5000,
         "introducingEvent": "Touched by Magic",
-        "id": 30111202,
+        "id": "30111202",
         "✓": "✓"
     },
     {
@@ -847,9 +811,8 @@
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Holy",
         "orb3Required": "Lesser Dark",
-        "gilRequired": 3000,
         "introducingEvent": "Chasing Hope",
-        "id": 30111211,
+        "id": "30111211",
         "✓": "✓"
     },
     {
@@ -871,9 +834,8 @@
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Holy",
         "orb3Required": "Greater Dark",
-        "gilRequired": 10000,
         "introducingEvent": "Chasing Hope",
-        "id": 30111213,
+        "id": "30111213",
         "✓": "✓"
     },
     {
@@ -894,9 +856,8 @@
         "max": 10,
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Ice",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #13",
-        "id": 30111221,
+        "id": "30111221",
         "✓": "✓"
     },
     {
@@ -917,9 +878,8 @@
         "max": 10,
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Lightning",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #16",
-        "id": 30111231,
+        "id": "30111231",
         "✓": "✓"
     },
     {
@@ -943,9 +903,8 @@
         "orb2Required": "Non-Elemental Crystal",
         "orb3Required": "Fire Crystal",
         "orb4Required": "Ultima Record",
-        "gilRequired": 200000,
         "introducingEvent": "Ultima Record",
-        "id": 30111241,
+        "id": "30111241",
         "✓": "✓"
     },
     {
@@ -969,9 +928,8 @@
         "orb2Required": "Fire Crystal",
         "orb3Required": "Earth Crystal",
         "orb4Required": "Meltdown Record",
-        "gilRequired": 200000,
         "introducingEvent": "Meltdown Record",
-        "id": 30111251,
+        "id": "30111251",
         "✓": "✓"
     },
     {
@@ -994,9 +952,8 @@
         "orb1Required": "Major Black",
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Ice",
-        "gilRequired": 20000,
         "introducingEvent": "Go Go Gullwings!",
-        "id": 30111261,
+        "id": "30111261",
         "✓": "✓"
     },
     {
@@ -1019,9 +976,8 @@
         "orb1Required": "Major Black",
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Fire",
-        "gilRequired": 20000,
         "introducingEvent": "Friendship Ribbon",
-        "id": 30111271,
+        "id": "30111271",
         "✓": "✓"
     },
     {
@@ -1042,9 +998,8 @@
         "max": 10,
         "orb1Required": "Minor Black",
         "orb2Required": "Minor Earth",
-        "gilRequired": 1000,
         "introducingEvent": "Thorns of the Rose",
-        "id": 30111291,
+        "id": "30111291",
         "✓": "✓"
     },
     {
@@ -1065,9 +1020,8 @@
         "max": 10,
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Earth",
-        "gilRequired": 3000,
         "introducingEvent": "Thorns of the Rose",
-        "id": 30111292,
+        "id": "30111292",
         "✓": "✓"
     },
     {
@@ -1088,9 +1042,8 @@
         "max": 10,
         "orb1Required": "Black",
         "orb2Required": "Earth",
-        "gilRequired": 5000,
         "introducingEvent": "Thorns of the Rose",
-        "id": 30111293,
+        "id": "30111293",
         "✓": "✓"
     },
     {
@@ -1111,9 +1064,8 @@
         "max": 10,
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Earth",
-        "gilRequired": 10000,
         "introducingEvent": "Thorns of the Rose",
-        "id": 30111294,
+        "id": "30111294",
         "✓": "✓"
     },
     {
@@ -1136,9 +1088,8 @@
         "orb1Required": "Major Black",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Thorns of the Rose",
-        "id": 30111295,
+        "id": "30111295",
         "✓": "✓"
     },
     {
@@ -1161,9 +1112,8 @@
         "orb1Required": "Major Black",
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
-        "gilRequired": 20000,
         "introducingEvent": "Heir of the Dynast-King",
-        "id": 30111301,
+        "id": "30111301",
         "✓": "✓"
     },
     {
@@ -1186,9 +1136,8 @@
         "orb1Required": "Major Black",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "The Lion Wakes",
-        "id": 30111311,
+        "id": "30111311",
         "✓": "✓"
     },
     {
@@ -1211,9 +1160,8 @@
         "orb1Required": "Major Black",
         "orb2Required": "Major Fire",
         "orb3Required": "Major Ice",
-        "gilRequired": 20000,
         "introducingEvent": "Scouring the Dephts",
-        "id": 30111321,
+        "id": "30111321",
         "✓": "✓"
     },
     {
@@ -1235,9 +1183,8 @@
         "max": 10,
         "orb1Required": "Black",
         "orb2Required": "Dark",
-        "gilRequired": 5000,
         "introducingEvent": "Magitek Facility Infiltration",
-        "id": 30991001,
+        "id": "30991001",
         "✓": "✓"
     },
     {
@@ -1259,9 +1206,8 @@
         "max": 10,
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Dark",
-        "gilRequired": 12000,
         "introducingEvent": "Touched by Magic",
-        "id": 30991003,
+        "id": "30991003",
         "✓": "✓"
     },
     {
@@ -1283,9 +1229,8 @@
         "max": 12,
         "orb1Required": "Minor White",
         "orb2Required": "Minor Holy",
-        "gilRequired": 1000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30121001,
+        "id": "30121001",
         "✓": "✓"
     },
     {
@@ -1307,9 +1252,8 @@
         "max": 12,
         "orb1Required": "Lesser White",
         "orb2Required": "Lesser Holy",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30121002,
+        "id": "30121002",
         "✓": "✓"
     },
     {
@@ -1332,9 +1276,8 @@
         "orb1Required": "White",
         "orb2Required": "Wind",
         "orb3Required": "Holy",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30121003,
+        "id": "30121003",
         "✓": "✓"
     },
     {
@@ -1357,9 +1300,8 @@
         "orb1Required": "Greater White",
         "orb2Required": "Greater Wind",
         "orb3Required": "Greater Holy",
-        "gilRequired": 10000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30121004,
+        "id": "30121004",
         "✓": "✓"
     },
     {
@@ -1383,9 +1325,8 @@
         "orb2Required": "Earth Crystal",
         "orb3Required": "Holy Crystal",
         "orb4Required": "Curada Record",
-        "gilRequired": 200000,
         "introducingEvent": "Curada Record",
-        "id": 30121005,
+        "id": "30121005",
         "✓": "✓"
     },
     {
@@ -1404,9 +1345,8 @@
         "max": 12,
         "orb1Required": "Minor White",
         "orb2Required": "Minor Ice",
-        "gilRequired": 1000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30121010,
+        "id": "30121010",
         "✓": "✓"
     },
     {
@@ -1425,9 +1365,8 @@
         "max": 12,
         "orb1Required": "Minor White",
         "orb2Required": "Minor Dark",
-        "gilRequired": 1000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30121020,
+        "id": "30121020",
         "✓": "✓"
     },
     {
@@ -1446,9 +1385,8 @@
         "max": 12,
         "orb1Required": "Minor White",
         "orb2Required": "Minor Dark",
-        "gilRequired": 1000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30121030,
+        "id": "30121030",
         "✓": "✓"
     },
     {
@@ -1467,9 +1405,8 @@
         "max": 12,
         "orb1Required": "Minor White",
         "orb2Required": "Minor Earth",
-        "gilRequired": 1000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30121040,
+        "id": "30121040",
         "✓": "✓"
     },
     {
@@ -1488,9 +1425,8 @@
         "max": 10,
         "orb1Required": "Greater White",
         "orb2Required": "Greater Earth",
-        "gilRequired": 10000,
         "introducingEvent": "Magitek Facility Infiltration",
-        "id": 30121042,
+        "id": "30121042",
         "✓": "✓"
     },
     {
@@ -1510,9 +1446,8 @@
         "orb1Required": "Minor White",
         "orb2Required": "Minor Earth",
         "orb3Required": "Minor Holy",
-        "gilRequired": 1000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30121051,
+        "id": "30121051",
         "✓": "✓"
     },
     {
@@ -1532,9 +1467,8 @@
         "orb1Required": "Greater White",
         "orb2Required": "Greater Earth",
         "orb3Required": "Greater Holy",
-        "gilRequired": 10000,
         "introducingEvent": "The Battle Arena",
-        "id": 30121052,
+        "id": "30121052",
         "✓": "✓"
     },
     {
@@ -1553,9 +1487,8 @@
         "max": 12,
         "orb1Required": "Minor White",
         "orb2Required": "Minor Ice",
-        "gilRequired": 1000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30121061,
+        "id": "30121061",
         "✓": "✓"
     },
     {
@@ -1574,9 +1507,8 @@
         "max": 12,
         "orb1Required": "White",
         "orb2Required": "Ice",
-        "gilRequired": 5000,
         "introducingEvent": "Magitek Facility Infiltration",
-        "id": 30121062,
+        "id": "30121062",
         "✓": "✓"
     },
     {
@@ -1595,9 +1527,8 @@
         "max": 12,
         "orb1Required": "Minor White",
         "orb2Required": "Minor Wind",
-        "gilRequired": 1000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30121071,
+        "id": "30121071",
         "✓": "✓"
     },
     {
@@ -1616,9 +1547,8 @@
         "max": 12,
         "orb1Required": "Greater White",
         "orb2Required": "Greater Wind",
-        "gilRequired": 10000,
         "introducingEvent": "Magitek Facility Infiltration",
-        "id": 30121072,
+        "id": "30121072",
         "✓": "✓"
     },
     {
@@ -1637,9 +1567,8 @@
         "max": 12,
         "orb1Required": "Lesser White",
         "orb2Required": "Lesser Holy",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30121081,
+        "id": "30121081",
         "✓": "✓"
     },
     {
@@ -1658,9 +1587,8 @@
         "max": 12,
         "orb1Required": "Lesser White",
         "orb2Required": "Lesser Earth",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30121091,
+        "id": "30121091",
         "✓": "✓"
     },
     {
@@ -1679,9 +1607,8 @@
         "max": 12,
         "orb1Required": "White",
         "orb2Required": "Wind",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30121101,
+        "id": "30121101",
         "✓": "✓"
     },
     {
@@ -1701,9 +1628,8 @@
         "orb1Required": "White",
         "orb2Required": "Wind",
         "orb3Required": "Holy",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30121111,
+        "id": "30121111",
         "✓": "✓"
     },
     {
@@ -1722,9 +1648,8 @@
         "max": 10,
         "orb1Required": "Greater White",
         "orb2Required": "Greater Holy",
-        "gilRequired": 10000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30121121,
+        "id": "30121121",
         "✓": "✓"
     },
     {
@@ -1746,9 +1671,8 @@
         "orb1Required": "Major White",
         "orb2Required": "Major Ice",
         "orb3Required": "Major Holy",
-        "gilRequired": 50000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30121131,
+        "id": "30121131",
         "✓": "✓"
     },
     {
@@ -1768,9 +1692,8 @@
         "orb1Required": "Lesser White",
         "orb2Required": "Lesser Earth",
         "orb3Required": "Lesser Holy",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30121141,
+        "id": "30121141",
         "✓": "✓"
     },
     {
@@ -1792,9 +1715,8 @@
         "orb1Required": "Lesser White",
         "orb2Required": "Lesser Wind",
         "orb3Required": "Lesser Holy",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30121161,
+        "id": "30121161",
         "✓": "✓"
     },
     {
@@ -1816,9 +1738,8 @@
         "orb1Required": "White",
         "orb2Required": "Wind",
         "orb3Required": "Holy",
-        "gilRequired": 5000,
         "introducingEvent": "Marriage of Convenience",
-        "id": 30121162,
+        "id": "30121162",
         "✓": "✓"
     },
     {
@@ -1840,9 +1761,8 @@
         "orb1Required": "Greater White",
         "orb2Required": "Greater Wind",
         "orb3Required": "Greater Holy",
-        "gilRequired": 10000,
         "introducingEvent": "Footsteps of the Cetra",
-        "id": 30121164,
+        "id": "30121164",
         "✓": "✓"
     },
     {
@@ -1862,9 +1782,8 @@
         "orb1Required": "White",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Holy",
-        "gilRequired": 5000,
         "introducingEvent": "Man in Black",
-        "id": 30121171,
+        "id": "30121171",
         "✓": "✓"
     },
     {
@@ -1883,9 +1802,8 @@
         "max": 10,
         "orb1Required": "White",
         "orb2Required": "Non-Elemental",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #4",
-        "id": 30121181,
+        "id": "30121181",
         "✓": "✓"
     },
     {
@@ -1904,9 +1822,8 @@
         "max": 10,
         "orb1Required": "Power",
         "orb2Required": "White",
-        "gilRequired": 5000,
         "introducingEvent": "Evil of Mardias",
-        "id": 30121191,
+        "id": "30121191",
         "✓": "✓"
     },
     {
@@ -1925,9 +1842,8 @@
         "max": 10,
         "orb1Required": "White",
         "orb2Required": "Dark",
-        "gilRequired": 5000,
         "introducingEvent": "Footsteps of the Cetra",
-        "id": 30121203,
+        "id": "30121203",
         "✓": "✓"
     },
     {
@@ -1950,9 +1866,8 @@
         "orb1Required": "White",
         "orb2Required": "Wind",
         "orb3Required": "Holy",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #13",
-        "id": 30121211,
+        "id": "30121211",
         "✓": "✓"
     },
     {
@@ -1972,9 +1887,8 @@
         "orb1Required": "White",
         "orb2Required": "Earth",
         "orb3Required": "Holy",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #16",
-        "id": 30121221,
+        "id": "30121221",
         "✓": "✓"
     },
     {
@@ -1994,9 +1908,8 @@
         "orb1Required": "Major White",
         "orb2Required": "Major Wind",
         "orb3Required": "Major Holy",
-        "gilRequired": 20000,
         "introducingEvent": "Seer of Destiny",
-        "id": 30121231,
+        "id": "30121231",
         "✓": "✓"
     },
     {
@@ -2017,9 +1930,8 @@
         "orb2Required": "Wind Crystal",
         "orb3Required": "Holy Crystal",
         "orb4Required": "Reraise Record",
-        "gilRequired": 200000,
         "introducingEvent": "Reraise Record",
-        "id": 30121241,
+        "id": "30121241",
         "✓": "✓"
     },
     {
@@ -2042,9 +1954,8 @@
         "orb1Required": "Greater White",
         "orb2Required": "Greater Wind",
         "orb3Required": "Greater Holy",
-        "gilRequired": 12000,
         "introducingEvent": "The Miraculous Artist",
-        "id": 30121251,
+        "id": "30121251",
         "✓": "✓"
     },
     {
@@ -2067,9 +1978,8 @@
         "orb1Required": "Major White",
         "orb2Required": "Major Wind",
         "orb3Required": "Major Holy",
-        "gilRequired": 20000,
         "introducingEvent": "A Dream for Spira",
-        "id": 30121291,
+        "id": "30121291",
         "✓": "✓"
     },
     {
@@ -2089,9 +1999,8 @@
         "orb1Required": "White",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Holy",
-        "gilRequired": 6000,
         "introducingEvent": "Engraving Our Names",
-        "id": 30121301,
+        "id": "30121301",
         "✓": "✓"
     },
     {
@@ -2110,9 +2019,8 @@
         "max": 10,
         "orb1Required": "White",
         "orb2Required": "Holy",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30991002,
+        "id": "30991002",
         "✓": "✓"
     },
     {
@@ -2134,9 +2042,8 @@
         "max": 10,
         "orb1Required": "Minor Power",
         "orb2Required": "Minor Lightning",
-        "gilRequired": 1200,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30151011,
+        "id": "30151011",
         "✓": "✓"
     },
     {
@@ -2158,9 +2065,8 @@
         "max": 10,
         "orb1Required": "Minor Power",
         "orb2Required": "Minor Non-Elemental",
-        "gilRequired": 1200,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30151021,
+        "id": "30151021",
         "✓": "✓"
     },
     {
@@ -2181,9 +2087,8 @@
         "max": 10,
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Non-Elemental",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30151031,
+        "id": "30151031",
         "✓": "✓"
     },
     {
@@ -2205,9 +2110,8 @@
         "max": 10,
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Wind",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30151041,
+        "id": "30151041",
         "✓": "✓"
     },
     {
@@ -2228,9 +2132,8 @@
         "max": 10,
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Wind",
-        "gilRequired": 12000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30151051,
+        "id": "30151051",
         "✓": "✓"
     },
     {
@@ -2253,9 +2156,8 @@
         "orb1Required": "Power",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Dark",
-        "gilRequired": 6000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30151061,
+        "id": "30151061",
         "✓": "✓"
     },
     {
@@ -2278,9 +2180,8 @@
         "orb1Required": "Power",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Earth",
-        "gilRequired": 6000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30151071,
+        "id": "30151071",
         "✓": "✓"
     },
     {
@@ -2303,9 +2204,8 @@
         "orb1Required": "Power",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Lightning",
-        "gilRequired": 6000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30151081,
+        "id": "30151081",
         "✓": "✓"
     },
     {
@@ -2328,9 +2228,8 @@
         "orb1Required": "Power",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Ice",
-        "gilRequired": 6000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30151091,
+        "id": "30151091",
         "✓": "✓"
     },
     {
@@ -2353,9 +2252,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Earth",
-        "gilRequired": 12000,
         "introducingEvent": "Festival of Gold",
-        "id": 30151101,
+        "id": "30151101",
         "✓": "✓"
     },
     {
@@ -2378,9 +2276,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Wind",
-        "gilRequired": 60000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30151111,
+        "id": "30151111",
         "✓": "✓"
     },
     {
@@ -2400,9 +2297,8 @@
         "orb1Required": "Power",
         "orb2Required": "Fire",
         "orb3Required": "Earth",
-        "gilRequired": 6000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30151121,
+        "id": "30151121",
         "✓": "✓"
     },
     {
@@ -2425,9 +2321,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Dark",
-        "gilRequired": 12000,
         "introducingEvent": "Evil of Mardias",
-        "id": 30151131,
+        "id": "30151131",
         "✓": "✓"
     },
     {
@@ -2449,9 +2344,8 @@
         "orb1Required": "Power",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Wind",
-        "gilRequired": 6000,
         "introducingEvent": "Lightning Strikes",
-        "id": 30151141,
+        "id": "30151141",
         "✓": "✓"
     },
     {
@@ -2474,9 +2368,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Dark",
-        "gilRequired": 12000,
         "introducingEvent": "Lost Memories",
-        "id": 30151151,
+        "id": "30151151",
         "✓": "✓"
     },
     {
@@ -2500,9 +2393,8 @@
         "orb2Required": "Fire Crystal",
         "orb3Required": "Earth Crystal",
         "orb4Required": "Crushdown Record",
-        "gilRequired": 200000,
         "introducingEvent": "Crushdown Record",
-        "id": 30151161,
+        "id": "30151161",
         "✓": "✓"
     },
     {
@@ -2525,9 +2417,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Wind",
-        "gilRequired": 20000,
         "introducingEvent": "Window on the Past",
-        "id": 30151171,
+        "id": "30151171",
         "✓": "✓"
     },
     {
@@ -2550,9 +2441,8 @@
         "orb1Required": "Power",
         "orb2Required": "White",
         "orb3Required": "Non-Elemental",
-        "gilRequired": 6000,
         "introducingEvent": "Ward of the Four Crystals",
-        "id": 30151181,
+        "id": "30151181",
         "✓": "✓"
     },
     {
@@ -2576,9 +2466,8 @@
         "orb2Required": "Fire Crystal",
         "orb3Required": "Dark Crystal",
         "orb4Required": "Omega Drive Record",
-        "gilRequired": 200000,
         "introducingEvent": "Omega Drive Record",
-        "id": 30151191,
+        "id": "30151191",
         "✓": "✓"
     },
     {
@@ -2601,9 +2490,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Wind",
-        "gilRequired": 12000,
         "introducingEvent": "Fang's Oath",
-        "id": 30171111,
+        "id": "30171111",
         "✓": "✓"
     },
     {
@@ -2622,9 +2510,8 @@
         "max": 12,
         "orb1Required": "Minor Power",
         "orb2Required": "Minor Holy",
-        "gilRequired": 1200,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30161011,
+        "id": "30161011",
         "✓": "✓"
     },
     {
@@ -2643,9 +2530,8 @@
         "max": 12,
         "orb1Required": "Minor Power",
         "orb2Required": "Minor Holy",
-        "gilRequired": 1200,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30161021,
+        "id": "30161021",
         "✓": "✓"
     },
     {
@@ -2664,9 +2550,8 @@
         "max": 10,
         "orb1Required": "Power",
         "orb2Required": "Lightning",
-        "gilRequired": 6000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30161031,
+        "id": "30161031",
         "✓": "✓"
     },
     {
@@ -2688,9 +2573,8 @@
         "max": 10,
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Ice",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30161041,
+        "id": "30161041",
         "✓": "✓"
     },
     {
@@ -2712,9 +2596,8 @@
         "max": 10,
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Ice",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30161051,
+        "id": "30161051",
         "✓": "✓"
     },
     {
@@ -2736,9 +2619,8 @@
         "max": 10,
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Dark",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30161061,
+        "id": "30161061",
         "✓": "✓"
     },
     {
@@ -2760,9 +2642,8 @@
         "max": 10,
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Dark",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30161071,
+        "id": "30161071",
         "✓": "✓"
     },
     {
@@ -2781,9 +2662,8 @@
         "max": 10,
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Fire",
-        "gilRequired": 12000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30161081,
+        "id": "30161081",
         "✓": "✓"
     },
     {
@@ -2803,9 +2683,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major White",
         "orb3Required": "Major Black",
-        "gilRequired": 60000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30161091,
+        "id": "30161091",
         "✓": "✓"
     },
     {
@@ -2825,9 +2704,8 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Non-Elemental",
         "orb3Required": "Lesser Dark",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30161101,
+        "id": "30161101",
         "✓": "✓"
     },
     {
@@ -2849,9 +2727,8 @@
         "max": 10,
         "orb1Required": "Power",
         "orb2Required": "Ice",
-        "gilRequired": 6000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30161112,
+        "id": "30161112",
         "✓": "✓"
     },
     {
@@ -2873,9 +2750,8 @@
         "max": 10,
         "orb1Required": "Power",
         "orb2Required": "Non-Elemental",
-        "gilRequired": 6000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30161122,
+        "id": "30161122",
         "✓": "✓"
     },
     {
@@ -2898,9 +2774,8 @@
         "orb1Required": "Power",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Dark",
-        "gilRequired": 6000,
         "introducingEvent": "Magitek Facility Infiltration",
-        "id": 30161132,
+        "id": "30161132",
         "✓": "✓"
     },
     {
@@ -2923,9 +2798,8 @@
         "orb1Required": "Power",
         "orb2Required": "Ice",
         "orb3Required": "Dark",
-        "gilRequired": 6000,
         "introducingEvent": "Magitek Facility Infiltration",
-        "id": 30161142,
+        "id": "30161142",
         "✓": "✓"
     },
     {
@@ -2948,9 +2822,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Ice",
-        "gilRequired": 12000,
         "introducingEvent": "Magitek Facility Infiltration",
-        "id": 30161152,
+        "id": "30161152",
         "✓": "✓"
     },
     {
@@ -2973,9 +2846,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Dark",
-        "gilRequired": 12000,
         "introducingEvent": "Magitek Facility Infiltration",
-        "id": 30161162,
+        "id": "30161162",
         "✓": "✓"
     },
     {
@@ -2998,9 +2870,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Lightning",
-        "gilRequired": 12000,
         "introducingEvent": "The Jenova Project",
-        "id": 30161172,
+        "id": "30161172",
         "✓": "✓"
     },
     {
@@ -3023,9 +2894,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Earth",
-        "gilRequired": 12000,
         "introducingEvent": "The SeeD Exam Homecoming",
-        "id": 30161182,
+        "id": "30161182",
         "✓": "✓"
     },
     {
@@ -3044,9 +2914,8 @@
         "max": 12,
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Holy",
-        "gilRequired": 3000,
         "introducingEvent": "The SeeD Exam Homecoming",
-        "id": 30161191,
+        "id": "30161191",
         "✓": "✓"
     },
     {
@@ -3065,9 +2934,8 @@
         "max": 12,
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Holy",
-        "gilRequired": 3000,
         "introducingEvent": "Evil of Mardias",
-        "id": 30161201,
+        "id": "30161201",
         "✓": "✓"
     },
     {
@@ -3090,9 +2958,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Ice",
         "orb3Required": "Major Lightning",
-        "gilRequired": 20000,
         "introducingEvent": "Take Memories Back",
-        "id": 30161211,
+        "id": "30161211",
         "✓": "✓"
     },
     {
@@ -3116,9 +2983,8 @@
         "orb2Required": "Non-Elemental Crystal",
         "orb3Required": "Lightning Crystal",
         "orb4Required": "Quadruple Foul Record",
-        "gilRequired": 200000,
         "introducingEvent": "Tetra Foul Record",
-        "id": 30161221,
+        "id": "30161221",
         "✓": "✓"
     },
     {
@@ -3142,9 +3008,8 @@
         "orb2Required": "Non-Elemental Crystal",
         "orb3Required": "Dark Crystal",
         "orb4Required": "Affliction Break Record",
-        "gilRequired": 200000,
         "introducingEvent": "Affliction Break Record",
-        "id": 30161231,
+        "id": "30161231",
         "✓": "✓"
     },
     {
@@ -3167,9 +3032,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater White",
         "orb3Required": "Greater Non-Elemental",
-        "gilRequired": 12000,
         "introducingEvent": "Ward of the Four Crystals",
-        "id": 30161241,
+        "id": "30161241",
         "✓": "✓"
     },
     {
@@ -3191,9 +3055,8 @@
         "max": 10,
         "orb1Required": "Minor Power",
         "orb2Required": "Minor Wind",
-        "gilRequired": 1200,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30171001,
+        "id": "30171001",
         "✓": "✓"
     },
     {
@@ -3212,9 +3075,8 @@
         "max": 12,
         "orb1Required": "Power",
         "orb2Required": "Wind",
-        "gilRequired": 6000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30171011,
+        "id": "30171011",
         "✓": "✓"
     },
     {
@@ -3236,9 +3098,8 @@
         "max": 10,
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Non-Elemental",
-        "gilRequired": 12000,
         "introducingEvent": "Magitek Facility Infiltration",
-        "id": 30171021,
+        "id": "30171021",
         "✓": "✓"
     },
     {
@@ -3260,9 +3121,8 @@
         "max": 10,
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Wind",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30171031,
+        "id": "30171031",
         "✓": "✓"
     },
     {
@@ -3284,9 +3144,8 @@
         "max": 10,
         "orb1Required": "Power",
         "orb2Required": "Earth",
-        "gilRequired": 6000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30171051,
+        "id": "30171051",
         "✓": "✓"
     },
     {
@@ -3307,9 +3166,8 @@
         "max": 10,
         "orb1Required": "Major Power",
         "orb2Required": "Major Wind",
-        "gilRequired": 60000,
         "introducingEvent": "Magitek Facility Infiltration",
-        "id": 30171061,
+        "id": "30171061",
         "✓": "✓"
     },
     {
@@ -3331,9 +3189,8 @@
         "max": 10,
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Wind",
-        "gilRequired": 3000,
         "introducingEvent": "Aspiring Hero",
-        "id": 30171071,
+        "id": "30171071",
         "✓": "✓"
     },
     {
@@ -3356,9 +3213,8 @@
         "orb1Required": "Power",
         "orb2Required": "Lightning",
         "orb3Required": "Wind",
-        "gilRequired": 6000,
         "introducingEvent": "Aspiring Hero",
-        "id": 30171081,
+        "id": "30171081",
         "✓": "✓"
     },
     {
@@ -3381,9 +3237,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Wind",
-        "gilRequired": 12000,
         "introducingEvent": "Aspiring Hero",
-        "id": 30171091,
+        "id": "30171091",
         "✓": "✓"
     },
     {
@@ -3406,9 +3261,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Wind",
-        "gilRequired": 12000,
         "introducingEvent": "Defying Fate",
-        "id": 30171101,
+        "id": "30171101",
         "✓": "✓"
     },
     {
@@ -3431,9 +3285,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major White",
         "orb3Required": "Major Wind",
-        "gilRequired": 20000,
         "introducingEvent": "Window on the Past",
-        "id": 30171131,
+        "id": "30171131",
         "✓": "✓"
     },
     {
@@ -3457,9 +3310,8 @@
         "orb2Required": "Ice Crystal",
         "orb3Required": "Wind Crystal",
         "orb4Required": "Northern Cross Record",
-        "gilRequired": 200000,
         "introducingEvent": "Northern Cross Record",
-        "id": 30171121,
+        "id": "30171121",
         "✓": "✓"
     },
     {
@@ -3483,9 +3335,8 @@
         "orb2Required": "Lightning Crystal",
         "orb3Required": "Wind Crystal",
         "orb4Required": "Dervish Record",
-        "gilRequired": 200000,
         "introducingEvent": "Dervish Record",
-        "id": 30171141,
+        "id": "30171141",
         "✓": "✓"
     },
     {
@@ -3508,9 +3359,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
-        "gilRequired": 20000,
         "introducingEvent": "Shield of the King",
-        "id": 30171171,
+        "id": "30171171",
         "✓": "✓"
     },
     {
@@ -3533,9 +3383,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Wind",
-        "gilRequired": 20000,
         "introducingEvent": "3rd Anniversary Carnival",
-        "id": 30171181,
+        "id": "30171181",
         "✓": "✓"
     },
     {
@@ -3557,9 +3406,8 @@
         "max": 5,
         "orb1Required": "Minor Summon",
         "orb2Required": "Minor Non-Elemental",
-        "gilRequired": 2000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30131001,
+        "id": "30131001",
         "✓": "✓"
     },
     {
@@ -3581,9 +3429,8 @@
         "max": 5,
         "orb1Required": "Lesser Summon",
         "orb2Required": "Lesser Non-Elemental",
-        "gilRequired": 6000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30131011,
+        "id": "30131011",
         "✓": "✓"
     },
     {
@@ -3605,9 +3452,8 @@
         "max": 5,
         "orb1Required": "Lesser Summon",
         "orb2Required": "Lesser Non-Elemental",
-        "gilRequired": 6000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30131021,
+        "id": "30131021",
         "✓": "✓"
     },
     {
@@ -3629,9 +3475,8 @@
         "max": 5,
         "orb1Required": "Minor Summon",
         "orb2Required": "Lesser Fire",
-        "gilRequired": 2000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30131031,
+        "id": "30131031",
         "✓": "✓"
     },
     {
@@ -3653,9 +3498,8 @@
         "max": 5,
         "orb1Required": "Summon",
         "orb2Required": "Ice",
-        "gilRequired": 10000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30131041,
+        "id": "30131041",
         "✓": "✓"
     },
     {
@@ -3677,9 +3521,8 @@
         "max": 5,
         "orb1Required": "Summon",
         "orb2Required": "Lightning",
-        "gilRequired": 10000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30131051,
+        "id": "30131051",
         "✓": "✓"
     },
     {
@@ -3701,9 +3544,8 @@
         "max": 5,
         "orb1Required": "Summon",
         "orb2Required": "Fire",
-        "gilRequired": 10000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30131061,
+        "id": "30131061",
         "✓": "✓"
     },
     {
@@ -3726,9 +3568,8 @@
         "orb1Required": "Greater Summon",
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Wind",
-        "gilRequired": 20000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30131071,
+        "id": "30131071",
         "✓": "✓"
     },
     {
@@ -3751,9 +3592,8 @@
         "orb1Required": "Greater Summon",
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Ice",
-        "gilRequired": 20000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30131081,
+        "id": "30131081",
         "✓": "✓"
     },
     {
@@ -3773,9 +3613,8 @@
         "orb1Required": "Lesser White",
         "orb2Required": "Lesser Summon",
         "orb3Required": "Lesser Holy",
-        "gilRequired": 10000,
         "introducingEvent": "Magitek Facility Infiltration",
-        "id": 30131101,
+        "id": "30131101",
         "✓": "✓"
     },
     {
@@ -3797,9 +3636,8 @@
         "max": 5,
         "orb1Required": "Greater Summon",
         "orb2Required": "Greater Non-Elemental",
-        "gilRequired": 20000,
         "introducingEvent": "Magitek Facility Infiltration",
-        "id": 30131121,
+        "id": "30131121",
         "✓": "✓"
     },
     {
@@ -3822,9 +3660,8 @@
         "orb1Required": "Major Summon",
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Magitek Facility Infiltration",
-        "id": 30131131,
+        "id": "30131131",
         "✓": "✓"
     },
     {
@@ -3848,9 +3685,8 @@
         "orb2Required": "Greater Fire",
         "orb3Required": "Major Fire",
         "orb4Required": "Greater Holy",
-        "gilRequired": 20000,
         "introducingEvent": "Legendary Plunder",
-        "id": 30131141,
+        "id": "30131141",
         "✓": "✓"
     },
     {
@@ -3874,9 +3710,8 @@
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Wind",
         "orb4Required": "Major Wind",
-        "gilRequired": 20000,
         "introducingEvent": "Operation Mi'ihen",
-        "id": 30131151,
+        "id": "30131151",
         "✓": "✓"
     },
     {
@@ -3895,9 +3730,8 @@
         "max": 5,
         "orb1Required": "Greater Summon",
         "orb2Required": "Greater Holy",
-        "gilRequired": 20000,
         "introducingEvent": "Princess of Alexandria",
-        "id": 30131171,
+        "id": "30131171",
         "✓": "✓"
     },
     {
@@ -3921,9 +3755,8 @@
         "orb2Required": "Greater Lightning",
         "orb3Required": "Major Lightning",
         "orb4Required": "Greater Wind",
-        "gilRequired": 20000,
         "introducingEvent": "Marriage of Convenience",
-        "id": 30131181,
+        "id": "30131181",
         "✓": "✓"
     },
     {
@@ -3947,9 +3780,8 @@
         "orb2Required": "Greater Summon",
         "orb3Required": "Greater Holy",
         "orb4Required": "Major Holy",
-        "gilRequired": 20000,
         "introducingEvent": "A Fateful Coin Toss",
-        "id": 30131191,
+        "id": "30131191",
         "✓": "✓"
     },
     {
@@ -3973,9 +3805,8 @@
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Lightning",
         "orb4Required": "Major Lightning",
-        "gilRequired": 20000,
         "introducingEvent": "To Slay a Sorceress (Reissue)",
-        "id": 30131201,
+        "id": "30131201",
         "✓": "✓"
     },
     {
@@ -3998,9 +3829,8 @@
         "orb1Required": "Major Summon",
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Dungeons Update #8",
-        "id": 30131211,
+        "id": "30131211",
         "✓": "✓"
     },
     {
@@ -4020,9 +3850,8 @@
         "orb1Required": "Greater Summon",
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Earth",
-        "gilRequired": 20000,
         "introducingEvent": "Festival of Gold 2",
-        "id": 30131221,
+        "id": "30131221",
         "✓": "✓"
     },
     {
@@ -4045,9 +3874,8 @@
         "orb1Required": "Greater Summon",
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Earth",
-        "gilRequired": 20000,
         "introducingEvent": "Anniversary Celebration",
-        "id": 30131231,
+        "id": "30131231",
         "✓": "✓"
     },
     {
@@ -4071,9 +3899,8 @@
         "orb2Required": "Non-Elemental Crystal",
         "orb3Required": "Dark Crystal",
         "orb4Required": "Neo Bahamut Record",
-        "gilRequired": 200000,
         "introducingEvent": "Neo Bahamut Record",
-        "id": 30131232,
+        "id": "30131232",
         "✓": "✓"
     },
     {
@@ -4096,9 +3923,8 @@
         "orb1Required": "Greater Summon",
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Earth",
-        "gilRequired": 20000,
         "introducingEvent": "Festive Fantasy",
-        "id": 30131241,
+        "id": "30131241",
         "✓": "✓"
     },
     {
@@ -4121,9 +3947,8 @@
         "orb1Required": "Greater Summon",
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Dark",
-        "gilRequired": 20000,
         "introducingEvent": "The Seven Heroes",
-        "id": 30131291,
+        "id": "30131291",
         "✓": "✓"
     },
     {
@@ -4146,9 +3971,8 @@
         "orb1Required": "Major Summon",
         "orb2Required": "Major Fire",
         "orb3Required": "Major Earth",
-        "gilRequired": 20000,
         "introducingEvent": "Reclaiming the Skies",
-        "id": 30131301,
+        "id": "30131301",
         "✓": "✓"
     },
     {
@@ -4172,9 +3996,8 @@
         "orb2Required": "Ice Crystal",
         "orb3Required": "Lightning Crystal",
         "orb4Required": "Valigarmanda Record",
-        "gilRequired": 200000,
         "introducingEvent": "Valigarmanda Record",
-        "id": 30131311,
+        "id": "30131311",
         "✓": "✓"
     },
     {
@@ -4197,9 +4020,8 @@
         "orb1Required": "Major Summon",
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Ward of the Four Crystals",
-        "id": 30131321,
+        "id": "30131321",
         "✓": "✓"
     },
     {
@@ -4222,9 +4044,8 @@
         "orb1Required": "Major White",
         "orb2Required": "Major Summon",
         "orb3Required": "Major Wind",
-        "gilRequired": 20000,
         "introducingEvent": "Lady of the Vortex",
-        "id": 30131331,
+        "id": "30131331",
         "✓": "✓"
     },
     {
@@ -4247,9 +4068,8 @@
         "orb1Required": "Major White",
         "orb2Required": "Major Summon",
         "orb3Required": "Major Ice",
-        "gilRequired": 20000,
         "introducingEvent": "Like Father Like Daughter",
-        "id": 30131341,
+        "id": "30131341",
         "✓": "✓"
     },
     {
@@ -4272,9 +4092,8 @@
         "orb1Required": "Major Summon",
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Holy",
-        "gilRequired": 20000,
         "introducingEvent": "Protect the Espers",
-        "id": 30131351,
+        "id": "30131351",
         "✓": "✓"
     },
     {
@@ -4296,9 +4115,8 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Black",
         "orb3Required": "Lesser Fire",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30141001,
+        "id": "30141001",
         "✓": "✓"
     },
     {
@@ -4320,9 +4138,8 @@
         "orb1Required": "Power",
         "orb2Required": "Black",
         "orb3Required": "Fire",
-        "gilRequired": 6000,
         "introducingEvent": "Magitek Facility Infiltration",
-        "id": 30141002,
+        "id": "30141002",
         "✓": "✓"
     },
     {
@@ -4344,9 +4161,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Black",
         "orb3Required": "Greater Fire",
-        "gilRequired": 12000,
         "introducingEvent": "Back to the Skies",
-        "id": 30141003,
+        "id": "30141003",
         "✓": "✓"
     },
     {
@@ -4368,9 +4184,8 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Black",
         "orb3Required": "Lesser Ice",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30141011,
+        "id": "30141011",
         "✓": "✓"
     },
     {
@@ -4392,9 +4207,8 @@
         "orb1Required": "Power",
         "orb2Required": "Black",
         "orb3Required": "Ice",
-        "gilRequired": 6000,
         "introducingEvent": "Magitek Facility Infiltration",
-        "id": 30141012,
+        "id": "30141012",
         "✓": "✓"
     },
     {
@@ -4416,9 +4230,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Black",
         "orb3Required": "Greater Ice",
-        "gilRequired": 12000,
         "introducingEvent": "Successors of the Dawn",
-        "id": 30141013,
+        "id": "30141013",
         "✓": "✓"
     },
     {
@@ -4440,9 +4253,8 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Black",
         "orb3Required": "Lesser Lightning",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30141021,
+        "id": "30141021",
         "✓": "✓"
     },
     {
@@ -4464,9 +4276,8 @@
         "orb1Required": "Power",
         "orb2Required": "Black",
         "orb3Required": "Lightning",
-        "gilRequired": 6000,
         "introducingEvent": "Festival of Gold",
-        "id": 30141022,
+        "id": "30141022",
         "✓": "✓"
     },
     {
@@ -4488,9 +4299,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Black",
         "orb3Required": "Greater Lightning",
-        "gilRequired": 12000,
         "introducingEvent": "Big Bridge Showdown",
-        "id": 30141023,
+        "id": "30141023",
         "✓": "✓"
     },
     {
@@ -4513,9 +4323,8 @@
         "orb1Required": "Power",
         "orb2Required": "Black",
         "orb3Required": "Dark",
-        "gilRequired": 6000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30141031,
+        "id": "30141031",
         "✓": "✓"
     },
     {
@@ -4537,9 +4346,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Fire",
-        "gilRequired": 60000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30141041,
+        "id": "30141041",
         "✓": "✓"
     },
     {
@@ -4561,9 +4369,8 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Ice",
         "orb3Required": "Lesser Lightning",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30141051,
+        "id": "30141051",
         "✓": "✓"
     },
     {
@@ -4585,9 +4392,8 @@
         "orb1Required": "Power",
         "orb2Required": "Ice",
         "orb3Required": "Lightning",
-        "gilRequired": 6000,
         "introducingEvent": "Back to the Skies",
-        "id": 30141052,
+        "id": "30141052",
         "✓": "✓"
     },
     {
@@ -4609,9 +4415,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Lightning",
-        "gilRequired": 12000,
         "introducingEvent": "Kingdom of Swords and Sorcery",
-        "id": 30141053,
+        "id": "30141053",
         "✓": "✓"
     },
     {
@@ -4632,9 +4437,8 @@
         "max": 10,
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Wind",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30141061,
+        "id": "30141061",
         "✓": "✓"
     },
     {
@@ -4656,9 +4460,8 @@
         "orb1Required": "Power",
         "orb2Required": "Black",
         "orb3Required": "Wind",
-        "gilRequired": 6000,
         "introducingEvent": "Lost Memories",
-        "id": 30141062,
+        "id": "30141062",
         "✓": "✓"
     },
     {
@@ -4681,9 +4484,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Black",
         "orb3Required": "Greater Earth",
-        "gilRequired": 12000,
         "introducingEvent": "Lightning Strikes",
-        "id": 30141071,
+        "id": "30141071",
         "✓": "✓"
     },
     {
@@ -4705,9 +4507,8 @@
         "orb1Required": "Power",
         "orb2Required": "Black",
         "orb3Required": "Dark",
-        "gilRequired": 6000,
         "introducingEvent": "Successors of the Dawn",
-        "id": 30141081,
+        "id": "30141081",
         "✓": "✓"
     },
     {
@@ -4729,9 +4530,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Black",
         "orb3Required": "Greater Dark",
-        "gilRequired": 12000,
         "introducingEvent": "Broken Chains",
-        "id": 30141082,
+        "id": "30141082",
         "✓": "✓"
     },
     {
@@ -4754,9 +4554,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Black",
         "orb3Required": "Major Earth",
-        "gilRequired": 20000,
         "introducingEvent": "Four as One",
-        "id": 30141091,
+        "id": "30141091",
         "✓": "✓"
     },
     {
@@ -4779,9 +4578,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Black",
         "orb3Required": "Major Wind",
-        "gilRequired": 20000,
         "introducingEvent": "Kingdom of Swords and Sorcery",
-        "id": 30141101,
+        "id": "30141101",
         "✓": "✓"
     },
     {
@@ -4804,9 +4602,8 @@
         "orb1Required": "Power Crystal",
         "orb2Required": "Ice Crystal",
         "orb3Required": "Wind Crystal",
-        "gilRequired": 200000,
         "introducingEvent": "The Five Dooms",
-        "id": 30141111,
+        "id": "30141111",
         "✓": "✓"
     },
     {
@@ -4829,9 +4626,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Fire",
         "orb3Required": "Major Lightning",
-        "gilRequired": 20000,
         "introducingEvent": "Flash of Defiance",
-        "id": 30141121,
+        "id": "30141121",
         "✓": "✓"
     },
     {
@@ -4854,9 +4650,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Fire",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Where the Heart Lies",
-        "id": 30141131,
+        "id": "30141131",
         "✓": "✓"
     },
     {
@@ -4879,9 +4674,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Ice",
         "orb3Required": "Major Lightning",
-        "gilRequired": 20000,
         "introducingEvent": "A Dream for Spira",
-        "id": 30141141,
+        "id": "30141141",
         "✓": "✓"
     },
     {
@@ -4904,9 +4698,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Black",
         "orb3Required": "Major Ice",
-        "gilRequired": 20000,
         "introducingEvent": "The Torch Burns On",
-        "id": 30141151,
+        "id": "30141151",
         "✓": "✓"
     },
     {
@@ -4929,9 +4722,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Black",
         "orb3Required": "Major Earth",
-        "gilRequired": 20000,
         "introducingEvent": "Engraving Our Names",
-        "id": 30141161,
+        "id": "30141161",
         "✓": "✓"
     },
     {
@@ -4954,9 +4746,8 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Lightning",
         "orb3Required": "Lesser Wind",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30181001,
+        "id": "30181001",
         "✓": "✓"
     },
     {
@@ -4979,9 +4770,8 @@
         "orb1Required": "Power",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Wind",
-        "gilRequired": 5000,
         "introducingEvent": "Big Bridge Showdown",
-        "id": 30181011,
+        "id": "30181011",
         "✓": "✓"
     },
     {
@@ -5004,9 +4794,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Wind",
-        "gilRequired": 12000,
         "introducingEvent": "Dungeons Update #13",
-        "id": 30181021,
+        "id": "30181021",
         "✓": "✓"
     },
     {
@@ -5029,9 +4818,8 @@
         "orb1Required": "Power",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Ice",
-        "gilRequired": 5000,
         "introducingEvent": "The Burning Blade!",
-        "id": 30181031,
+        "id": "30181031",
         "✓": "✓"
     },
     {
@@ -5054,9 +4842,8 @@
         "orb1Required": "Power",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Lightning",
-        "gilRequired": 5000,
         "introducingEvent": "Fang's Oath",
-        "id": 30181041,
+        "id": "30181041",
         "✓": "✓"
     },
     {
@@ -5079,9 +4866,8 @@
         "orb1Required": "Major Ice",
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
-        "gilRequired": 20000,
         "introducingEvent": "A Summoner Reborn",
-        "id": 30181051,
+        "id": "30181051",
         "✓": "✓"
     },
     {
@@ -5104,9 +4890,8 @@
         "orb1Required": "Greater Lightning",
         "orb2Required": "Greater Wind",
         "orb3Required": "Greater Dark",
-        "gilRequired": 12000,
         "introducingEvent": "A Summoner Reborn",
-        "id": 30181061,
+        "id": "30181061",
         "✓": "✓"
     },
     {
@@ -5129,9 +4914,8 @@
         "orb1Required": "Major Non-Elemental",
         "orb2Required": "Major Fire",
         "orb3Required": "Major Lightning",
-        "gilRequired": 20000,
         "introducingEvent": "A Summoner Grown",
-        "id": 30181071,
+        "id": "30181071",
         "✓": "✓"
     },
     {
@@ -5154,9 +4938,8 @@
         "orb1Required": "Greater Ice",
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Earth",
-        "gilRequired": 12000,
         "introducingEvent": "A Summoner Grown",
-        "id": 30181081,
+        "id": "30181081",
         "✓": "✓"
     },
     {
@@ -5179,9 +4962,8 @@
         "orb1Required": "Lightning Crystal",
         "orb2Required": "Earth Crystal",
         "orb3Required": "Wind Crystal",
-        "gilRequired": 200000,
         "introducingEvent": "The Five Dooms",
-        "id": 30181091,
+        "id": "30181091",
         "✓": "✓"
     },
     {
@@ -5204,9 +4986,8 @@
         "orb1Required": "Major Ice",
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
-        "gilRequired": 20000,
         "introducingEvent": "Reclaiming the Skies",
-        "id": 30181101,
+        "id": "30181101",
         "✓": "✓"
     },
     {
@@ -5229,9 +5010,8 @@
         "orb1Required": "Major Lightning",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Wind",
-        "gilRequired": 20000,
         "introducingEvent": "Masters of the Planet",
-        "id": 30181121,
+        "id": "30181121",
         "✓": "✓"
     },
     {
@@ -5254,9 +5034,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
-        "gilRequired": 20000,
         "introducingEvent": "The Wandering Flower",
-        "id": 30181131,
+        "id": "30181131",
         "✓": "✓"
     },
     {
@@ -5278,9 +5057,8 @@
         "max": 10,
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Lightning",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30191001,
+        "id": "30191001",
         "✓": "✓"
     },
     {
@@ -5302,9 +5080,8 @@
         "max": 10,
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Non-Elemental",
-        "gilRequired": 3000,
         "introducingEvent": "The Battle Arena",
-        "id": 30191011,
+        "id": "30191011",
         "✓": "✓"
     },
     {
@@ -5326,9 +5103,8 @@
         "max": 10,
         "orb1Required": "Power",
         "orb2Required": "Holy",
-        "gilRequired": 6000,
         "introducingEvent": "The Battle Arena",
-        "id": 30191021,
+        "id": "30191021",
         "✓": "✓"
     },
     {
@@ -5350,9 +5126,8 @@
         "max": 10,
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Dark",
-        "gilRequired": 12000,
         "introducingEvent": "The Battle Arena",
-        "id": 30191031,
+        "id": "30191031",
         "✓": "✓"
     },
     {
@@ -5375,9 +5150,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Holy",
-        "gilRequired": 12000,
         "introducingEvent": "A Place to Call Home",
-        "id": 30191041,
+        "id": "30191041",
         "✓": "✓"
     },
     {
@@ -5399,9 +5173,8 @@
         "orb1Required": "Power",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Wind",
-        "gilRequired": 6000,
         "introducingEvent": "A Place to Call Home",
-        "id": 30191051,
+        "id": "30191051",
         "✓": "✓"
     },
     {
@@ -5420,9 +5193,8 @@
         "max": 12,
         "orb1Required": "Power",
         "orb2Required": "Earth",
-        "gilRequired": 6000,
         "introducingEvent": "Dungeons Update #16",
-        "id": 30191061,
+        "id": "30191061",
         "✓": "✓"
     },
     {
@@ -5445,9 +5217,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Fire",
         "orb3Required": "Major Lightning",
-        "gilRequired": 20000,
         "introducingEvent": "Forgotten Bond",
-        "id": 30191071,
+        "id": "30191071",
         "✓": "✓"
     },
     {
@@ -5470,9 +5241,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Earth",
-        "gilRequired": 12000,
         "introducingEvent": "Destiny's Path",
-        "id": 30191081,
+        "id": "30191081",
         "✓": "✓"
     },
     {
@@ -5495,9 +5265,8 @@
         "orb1Required": "Fire Crystal",
         "orb2Required": "Lightning Crystal",
         "orb3Required": "Earth Crystal",
-        "gilRequired": 200000,
         "introducingEvent": "The Five Dooms",
-        "id": 30191091,
+        "id": "30191091",
         "✓": "✓"
     },
     {
@@ -5520,9 +5289,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Fire",
         "orb3Required": "Major Earth",
-        "gilRequired": 20000,
         "introducingEvent": "Go Go Gullwings!",
-        "id": 30191101,
+        "id": "30191101",
         "✓": "✓"
     },
     {
@@ -5545,9 +5313,8 @@
         "orb1Required": "Major White",
         "orb2Required": "Major Fire",
         "orb3Required": "Major Earth",
-        "gilRequired": 20000,
         "introducingEvent": "Aspiring Knight",
-        "id": 30191111,
+        "id": "30191111",
         "✓": "✓"
     },
     {
@@ -5570,9 +5337,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Fire",
         "orb3Required": "Major Earth",
-        "gilRequired": 20000,
         "introducingEvent": "The Maiden of Water",
-        "id": 30191121,
+        "id": "30191121",
         "✓": "✓"
     },
     {
@@ -5595,9 +5361,8 @@
         "orb1Required": "Major Non-Elemental",
         "orb2Required": "Major Fire",
         "orb3Required": "Major Earth",
-        "gilRequired": 20000,
         "introducingEvent": "Like Father Like Daughter",
-        "id": 30191131,
+        "id": "30191131",
         "✓": "✓"
     },
     {
@@ -5620,9 +5385,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Ice",
         "orb3Required": "Major Earth",
-        "gilRequired": 20000,
         "introducingEvent": "3rd Anniversary Carnival",
-        "id": 30191141,
+        "id": "30191141",
         "✓": "✓"
     },
     {
@@ -5644,9 +5408,8 @@
         "max": 10,
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Wind",
-        "gilRequired": 3000,
         "introducingEvent": "Kingdom Reborn",
-        "id": 30201001,
+        "id": "30201001",
         "✓": "✓"
     },
     {
@@ -5666,9 +5429,8 @@
         "orb1Required": "Power",
         "orb2Required": "Lightning",
         "orb3Required": "Wind",
-        "gilRequired": 6000,
         "introducingEvent": "Kingdom Reborn",
-        "id": 30201011,
+        "id": "30201011",
         "✓": "✓"
     },
     {
@@ -5688,9 +5450,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Earth",
         "orb3Required": "Greater Wind",
-        "gilRequired": 12000,
         "introducingEvent": "Kingdom Reborn",
-        "id": 30201021,
+        "id": "30201021",
         "✓": "✓"
     },
     {
@@ -5710,9 +5471,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Wind",
-        "gilRequired": 12000,
         "introducingEvent": "A Place to Call Home",
-        "id": 30201031,
+        "id": "30201031",
         "✓": "✓"
     },
     {
@@ -5735,9 +5495,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
-        "gilRequired": 20000,
         "introducingEvent": "The Jet-Black Assassin",
-        "id": 30201041,
+        "id": "30201041",
         "✓": "✓"
     },
     {
@@ -5760,9 +5519,8 @@
         "orb1Required": "Major Lightning",
         "orb2Required": "Major Wind",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Seer of Destiny",
-        "id": 30201051,
+        "id": "30201051",
         "✓": "✓"
     },
     {
@@ -5785,9 +5543,8 @@
         "orb1Required": "Fire Crystal",
         "orb2Required": "Wind Crystal",
         "orb3Required": "Dark Crystal",
-        "gilRequired": 200000,
         "introducingEvent": "The Five Dooms",
-        "id": 30201061,
+        "id": "30201061",
         "✓": "✓"
     },
     {
@@ -5810,9 +5567,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Wind",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Where the Heart Lies",
-        "id": 30201071,
+        "id": "30201071",
         "✓": "✓"
     },
     {
@@ -5835,9 +5591,8 @@
         "orb1Required": "Major Earth",
         "orb2Required": "Major Wind",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Scheming Tyrant",
-        "id": 30201081,
+        "id": "30201081",
         "✓": "✓"
     },
     {
@@ -5856,9 +5611,8 @@
         "max": 12,
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Earth",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #1",
-        "id": 30211001,
+        "id": "30211001",
         "✓": "✓"
     },
     {
@@ -5877,9 +5631,8 @@
         "max": 10,
         "orb1Required": "Power",
         "orb2Required": "Holy",
-        "gilRequired": 5000,
         "introducingEvent": "To the Holy Land",
-        "id": 30211002,
+        "id": "30211002",
         "✓": "✓"
     },
     {
@@ -5899,9 +5652,8 @@
         "orb1Required": "Greater Non-Elemental",
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Holy",
-        "gilRequired": 12000,
         "introducingEvent": "To the Holy Land",
-        "id": 30211011,
+        "id": "30211011",
         "✓": "✓"
     },
     {
@@ -5924,9 +5676,8 @@
         "orb1Required": "Power",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Earth",
-        "gilRequired": 6000,
         "introducingEvent": "Gunblade of the Sorceress",
-        "id": 30211021,
+        "id": "30211021",
         "✓": "✓"
     },
     {
@@ -5946,9 +5697,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Black",
         "orb3Required": "Greater Fire",
-        "gilRequired": 12000,
         "introducingEvent": "Gunblade of the Sorceress",
-        "id": 30211031,
+        "id": "30211031",
         "✓": "✓"
     },
     {
@@ -5967,9 +5717,8 @@
         "max": 10,
         "orb1Required": "Power",
         "orb2Required": "Earth",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #16",
-        "id": 30211041,
+        "id": "30211041",
         "✓": "✓"
     },
     {
@@ -5992,9 +5741,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Holy",
-        "gilRequired": 12000,
         "introducingEvent": "Someone to Protect",
-        "id": 30211051,
+        "id": "30211051",
         "✓": "✓"
     },
     {
@@ -6017,9 +5765,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater White",
         "orb3Required": "Greater Earth",
-        "gilRequired": 12000,
         "introducingEvent": "Someone to Protect",
-        "id": 30211061,
+        "id": "30211061",
         "✓": "✓"
     },
     {
@@ -6042,9 +5789,8 @@
         "orb1Required": "Power",
         "orb2Required": "Earth",
         "orb3Required": "Holy",
-        "gilRequired": 6000,
         "introducingEvent": "Someone to Protect",
-        "id": 30211071,
+        "id": "30211071",
         "✓": "✓"
     },
     {
@@ -6067,9 +5813,8 @@
         "orb1Required": "Major Earth",
         "orb2Required": "Major Wind",
         "orb3Required": "Major Holy",
-        "gilRequired": 20000,
         "introducingEvent": "By Stone Revealed",
-        "id": 30211081,
+        "id": "30211081",
         "✓": "✓"
     },
     {
@@ -6092,9 +5837,8 @@
         "orb1Required": "Ice Crystal",
         "orb2Required": "Earth Crystal",
         "orb3Required": "Holy Crystal",
-        "gilRequired": 200000,
         "introducingEvent": "The Five Dooms",
-        "id": 30211091,
+        "id": "30211091",
         "✓": "✓"
     },
     {
@@ -6117,9 +5861,8 @@
         "orb1Required": "Major Ice",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Holy",
-        "gilRequired": 20000,
         "introducingEvent": "Aspiring Knight",
-        "id": 30211101,
+        "id": "30211101",
         "✓": "✓"
     },
     {
@@ -6142,9 +5885,8 @@
         "orb1Required": "Major Non-Elemental",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Holy",
-        "gilRequired": 20000,
         "introducingEvent": "Family Secrets",
-        "id": 30211111,
+        "id": "30211111",
         "✓": "✓"
     },
     {
@@ -6167,9 +5909,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Holy",
-        "gilRequired": 20000,
         "introducingEvent": "FF 30th Anniversary Parade",
-        "id": 30211121,
+        "id": "30211121",
         "✓": "✓"
     },
     {
@@ -6192,9 +5933,8 @@
         "orb1Required": "Major Fire",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Holy",
-        "gilRequired": 20000,
         "introducingEvent": "Decisive Battle for the World",
-        "id": 30211131,
+        "id": "30211131",
         "✓": "✓"
     },
     {
@@ -6217,9 +5957,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Holy",
-        "gilRequired": 20000,
         "introducingEvent": "The Sealed Spirit",
-        "id": 30211141,
+        "id": "30211141",
         "✓": "✓"
     },
     {
@@ -6239,9 +5978,8 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Non-Elemental",
         "orb3Required": "Lesser Earth",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30221001,
+        "id": "30221001",
         "✓": "✓"
     },
     {
@@ -6264,9 +6002,8 @@
         "orb1Required": "Power",
         "orb2Required": "Lightning",
         "orb3Required": "Dark",
-        "gilRequired": 6000,
         "introducingEvent": "Ultimate Guardian",
-        "id": 30221011,
+        "id": "30221011",
         "✓": "✓"
     },
     {
@@ -6289,9 +6026,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Ice",
-        "gilRequired": 12000,
         "introducingEvent": "Ultimate Guardian",
-        "id": 30221021,
+        "id": "30221021",
         "✓": "✓"
     },
     {
@@ -6314,9 +6050,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Ice",
-        "gilRequired": 20000,
         "introducingEvent": "The Malice Within",
-        "id": 30221031,
+        "id": "30221031",
         "✓": "✓"
     },
     {
@@ -6329,7 +6064,7 @@
         "multiplier": 2.2,
         "element": "-",
         "time": 1.65,
-        "effects": "Causes Sap (100%) to the user, ATK +30% to the user for 20 seconds",
+        "effects": "Causes Sap to the user, ATK +30% to the user for 20 seconds",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 60,
@@ -6339,9 +6074,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Dark",
-        "gilRequired": 10000,
         "introducingEvent": "The Malice Within",
-        "id": 30221041,
+        "id": "30221041",
         "✓": "✓"
     },
     {
@@ -6364,9 +6098,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Ice",
-        "gilRequired": 12000,
         "introducingEvent": "Festive Fantasy",
-        "id": 30221051,
+        "id": "30221051",
         "✓": "✓"
     },
     {
@@ -6388,9 +6121,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Fire",
-        "gilRequired": 12000,
         "introducingEvent": "The Lone Wolf's Lament",
-        "id": 30221061,
+        "id": "30221061",
         "✓": "✓"
     },
     {
@@ -6413,9 +6145,8 @@
         "orb1Required": "Non-Elemental Crystal",
         "orb2Required": "Ice Crystal",
         "orb3Required": "Dark Crystal",
-        "gilRequired": 200000,
         "introducingEvent": "The Five Dooms",
-        "id": 30221081,
+        "id": "30221081",
         "✓": "✓"
     },
     {
@@ -6438,9 +6169,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Ice",
-        "gilRequired": 20000,
         "introducingEvent": "Women of the World",
-        "id": 30221091,
+        "id": "30221091",
         "✓": "✓"
     },
     {
@@ -6463,9 +6193,8 @@
         "orb1Required": "Major Non-Elemental",
         "orb2Required": "Major Fire",
         "orb3Required": "Major Ice",
-        "gilRequired": 20000,
         "introducingEvent": "The More the Merrier",
-        "id": 30221101,
+        "id": "30221101",
         "✓": "✓"
     },
     {
@@ -6488,9 +6217,56 @@
         "orb1Required": "Major Non-Elemental",
         "orb2Required": "Major Fire",
         "orb3Required": "Major Ice",
-        "gilRequired": 20000,
         "introducingEvent": "The More the Merrier",
-        "id": 30221111,
+        "id": "30221111",
+        "✓": "✓"
+    },
+    {
+        "school": "Samurai",
+        "name": "Warring Frost",
+        "rarity": 5,
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 3,
+        "element": "Ice",
+        "time": 1.65,
+        "effects": "Four single attacks (0,75 each), +50% critical chance if the user has Retaliate or High Retaliate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 65,
+        "sb(jp)": 70,
+        "uses": 2,
+        "max": 10,
+        "orb1Required": "Major Non-Elemental",
+        "orb2Required": "Major Ice",
+        "orb3Required": "Major Lightning",
+        "introducingEvent": "Rivalry and Despair",
+        "id": "30221121",
+        "✓": "✓"
+    },
+    {
+        "school": "Samurai",
+        "name": "Cold Moon",
+        "rarity": 5,
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2,
+        "element": "Ice",
+        "time": 1.65,
+        "effects": "Two single attacks (1,00 each), grants Retaliate to the user",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 65,
+        "sb(jp)": 70,
+        "uses": 2,
+        "max": 10,
+        "orb1Required": "Major Non-Elemental",
+        "orb2Required": "Major Ice",
+        "orb3Required": "Major Lightning",
+        "introducingEvent": "Rivalry and Despair",
+        "id": "30221131",
         "✓": "✓"
     },
     {
@@ -6513,9 +6289,8 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Lightning",
         "orb3Required": "Lesser Wind",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #2",
-        "id": 30231001,
+        "id": "30231001",
         "✓": "✓"
     },
     {
@@ -6537,9 +6312,8 @@
         "max": 10,
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Dark",
-        "gilRequired": 10000,
         "introducingEvent": "Assassin in Black",
-        "id": 30231011,
+        "id": "30231011",
         "✓": "✓"
     },
     {
@@ -6551,7 +6325,7 @@
         "formula": "Magical",
         "multiplier": 21,
         "element": "Lightning",
-        "time": 0.825,
+        "time": 0.83,
         "effects": "Ignores RES",
         "counter": "Y",
         "autoTarget": "All enemies",
@@ -6562,9 +6336,8 @@
         "orb1Required": "Power",
         "orb2Required": "Lightning",
         "orb3Required": "Dark",
-        "gilRequired": 6000,
         "introducingEvent": "Assassin in Black",
-        "id": 30231021,
+        "id": "30231021",
         "✓": "✓"
     },
     {
@@ -6576,7 +6349,7 @@
         "formula": "Magical",
         "multiplier": 21,
         "element": "Water",
-        "time": 0.825,
+        "time": 0.83,
         "effects": "Ignores RES",
         "counter": "Y",
         "autoTarget": "All enemies",
@@ -6587,9 +6360,8 @@
         "orb1Required": "Power",
         "orb2Required": "Ice",
         "orb3Required": "Dark",
-        "gilRequired": 6000,
         "introducingEvent": "The Burning Blade!",
-        "id": 30231031,
+        "id": "30231031",
         "✓": "✓"
     },
     {
@@ -6612,9 +6384,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Dark",
-        "gilRequired": 10000,
         "introducingEvent": "The Burning Blade!",
-        "id": 30231041,
+        "id": "30231041",
         "✓": "✓"
     },
     {
@@ -6626,7 +6397,7 @@
         "formula": "Magical",
         "multiplier": 21,
         "element": "Fire",
-        "time": 0.825,
+        "time": 0.83,
         "effects": "Ignores RES",
         "counter": "Y",
         "autoTarget": "All enemies",
@@ -6637,9 +6408,8 @@
         "orb1Required": "Power",
         "orb2Required": "Fire",
         "orb3Required": "Dark",
-        "gilRequired": 6000,
         "introducingEvent": "Hidden Resolve",
-        "id": 30231051,
+        "id": "30231051",
         "✓": "✓"
     },
     {
@@ -6651,7 +6421,7 @@
         "formula": "Magical",
         "multiplier": 39,
         "element": "-",
-        "time": 0.825,
+        "time": 0.83,
         "effects": "Ignores RES, causes Sleep (50%)",
         "counter": "Y",
         "autoTarget": "Random enemy without status",
@@ -6662,9 +6432,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Black",
         "orb3Required": "Greater Dark",
-        "gilRequired": 10000,
         "introducingEvent": "Hidden Resolve",
-        "id": 30231061,
+        "id": "30231061",
         "✓": "✓"
     },
     {
@@ -6687,9 +6456,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Ice",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "The Miraculous Artist",
-        "id": 30231071,
+        "id": "30231071",
         "✓": "✓"
     },
     {
@@ -6701,7 +6469,7 @@
         "formula": "Magical",
         "multiplier": 26,
         "element": "Wind",
-        "time": 0.825,
+        "time": 0.83,
         "effects": "Ignores RES",
         "counter": "Y",
         "autoTarget": "All enemies",
@@ -6712,9 +6480,8 @@
         "orb1Required": "Greater Non-Elemental",
         "orb2Required": "Greater Wind",
         "orb3Required": "Greater Dark",
-        "gilRequired": 10000,
         "introducingEvent": "The Lord of Crags",
-        "id": 30231081,
+        "id": "30231081",
         "✓": "✓"
     },
     {
@@ -6737,9 +6504,8 @@
         "orb1Required": "Ice Crystal",
         "orb2Required": "Wind Crystal",
         "orb3Required": "Dark Crystal",
-        "gilRequired": 200000,
         "introducingEvent": "The Five Dooms",
-        "id": 30231091,
+        "id": "30231091",
         "✓": "✓"
     },
     {
@@ -6751,7 +6517,7 @@
         "formula": "Magical",
         "multiplier": 52,
         "element": "Fire",
-        "time": 0.825,
+        "time": 0.83,
         "effects": "Two single attacks (26,00 each), ignores RES",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
@@ -6762,9 +6528,8 @@
         "orb1Required": "Major Fire",
         "orb2Required": "Major Ice",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Lady of the Vortex",
-        "id": 30231101,
+        "id": "30231101",
         "✓": "✓"
     },
     {
@@ -6776,7 +6541,7 @@
         "formula": "Magical",
         "multiplier": 52,
         "element": "Wind",
-        "time": 0.825,
+        "time": 0.83,
         "effects": "Two single attacks (26,00 each), ignores RES",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
@@ -6787,9 +6552,8 @@
         "orb1Required": "Major Ice",
         "orb2Required": "Major Wind",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Cutting Winds, Soaring Lightning",
-        "id": 30231111,
+        "id": "30231111",
         "✓": "✓"
     },
     {
@@ -6801,7 +6565,7 @@
         "formula": "Physical",
         "multiplier": 2,
         "element": "Water",
-        "time": 0.825,
+        "time": 0.83,
         "effects": "Grants Physical Blink 1 and Physical Blink Stacking 2 to the user",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
@@ -6812,9 +6576,8 @@
         "orb1Required": "Major Ice",
         "orb2Required": "Major Wind",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Fate Calls, Power Awakens",
-        "id": 30231121,
+        "id": "30231121",
         "✓": "✓"
     },
     {
@@ -6826,7 +6589,7 @@
         "formula": "Physical",
         "multiplier": 4,
         "element": "Water",
-        "time": 0.825,
+        "time": 0.83,
         "effects": "2/3/4 single attacks (1,00 each) if the user has Physical Blink 0/1/2",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
@@ -6837,9 +6600,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Ice",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Fate Calls, Power Awakens",
-        "id": 30231131,
+        "id": "30231131",
         "✓": "✓"
     },
     {
@@ -6851,7 +6613,7 @@
         "formula": "Physical",
         "multiplier": 2,
         "element": "Dark",
-        "time": 0.825,
+        "time": 0.83,
         "effects": "Grants Physical Blink 1 and Physical Blink Stacking 2 to the user",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
@@ -6862,9 +6624,8 @@
         "orb1Required": "Major Ice",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "The More the Merrier",
-        "id": 30231141,
+        "id": "30231141",
         "✓": "✓"
     },
     {
@@ -6876,7 +6637,7 @@
         "formula": "Physical",
         "multiplier": 4,
         "element": "Dark",
-        "time": 0.825,
+        "time": 0.83,
         "effects": "2/3/4 single attacks (1,00 each) if the user has Physical Blink 0/1/2",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
@@ -6887,9 +6648,8 @@
         "orb1Required": "Major Non-Elemental",
         "orb2Required": "Major Ice",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "The More the Merrier",
-        "id": 30231151,
+        "id": "30231151",
         "✓": "✓"
     },
     {
@@ -6901,7 +6661,7 @@
         "formula": "Physical",
         "multiplier": 2,
         "element": "Earth",
-        "time": 0.825,
+        "time": 0.83,
         "effects": "Two single attacks (1,00 each), grants Physical Blink 1 and Physical Blink Stacking 2 to the user",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
@@ -6912,9 +6672,8 @@
         "orb1Required": "Major Earth",
         "orb2Required": "Major Wind",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Fading Bonds",
-        "id": 30231161,
+        "id": "30231161",
         "✓": "✓"
     },
     {
@@ -6926,7 +6685,7 @@
         "formula": "Physical",
         "multiplier": 4.9,
         "element": "Earth",
-        "time": 0.825,
+        "time": 0.83,
         "effects": "3/5/7 single attacks (0,70 each) if the user has Physical Blink 0/1/2",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
@@ -6937,9 +6696,8 @@
         "orb1Required": "Major Ice",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Fading Bonds",
-        "id": 30231171,
+        "id": "30231171",
         "✓": "✓"
     },
     {
@@ -6960,9 +6718,8 @@
         "max": 10,
         "orb1Required": "Lesser White",
         "orb2Required": "Lesser Dark",
-        "gilRequired": 3000,
         "introducingEvent": "To the Holy Land",
-        "id": 30241001,
+        "id": "30241001",
         "✓": "✓"
     },
     {
@@ -6982,9 +6739,8 @@
         "orb1Required": "Power",
         "orb2Required": "White",
         "orb3Required": "Wind",
-        "gilRequired": 5000,
         "introducingEvent": "To the Holy Land",
-        "id": 30241002,
+        "id": "30241002",
         "✓": "✓"
     },
     {
@@ -7003,9 +6759,8 @@
         "max": 10,
         "orb1Required": "Lesser White",
         "orb2Required": "Lesser Ice",
-        "gilRequired": 3000,
         "introducingEvent": "Dungeons Update #11",
-        "id": 30241011,
+        "id": "30241011",
         "✓": "✓"
     },
     {
@@ -7025,9 +6780,8 @@
         "orb1Required": "Power",
         "orb2Required": "White",
         "orb3Required": "Dark",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #11",
-        "id": 30241021,
+        "id": "30241021",
         "✓": "✓"
     },
     {
@@ -7047,9 +6801,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater White",
         "orb3Required": "Greater Earth",
-        "gilRequired": 12000,
         "introducingEvent": "Dungeons Update #11",
-        "id": 30241031,
+        "id": "30241031",
         "✓": "✓"
     },
     {
@@ -7069,9 +6822,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater White",
         "orb3Required": "Greater Earth",
-        "gilRequired": 12000,
         "introducingEvent": "Defying Fate",
-        "id": 30241041,
+        "id": "30241041",
         "✓": "✓"
     },
     {
@@ -7091,9 +6843,8 @@
         "orb1Required": "Major White",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Holy",
-        "gilRequired": 20000,
         "introducingEvent": "The Spark Before Fire",
-        "id": 30241061,
+        "id": "30241061",
         "✓": "✓"
     },
     {
@@ -7113,9 +6864,8 @@
         "orb1Required": "White Crystal",
         "orb2Required": "Earth Crystal",
         "orb3Required": "Holy Crystal",
-        "gilRequired": 200000,
         "introducingEvent": "The Dark Mage",
-        "id": 30241071,
+        "id": "30241071",
         "✓": "✓"
     },
     {
@@ -7135,9 +6885,8 @@
         "orb1Required": "Major White",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Limelit Stage",
-        "id": 30241081,
+        "id": "30241081",
         "✓": "✓"
     },
     {
@@ -7157,9 +6906,8 @@
         "orb1Required": "Major White",
         "orb2Required": "Major Fire",
         "orb3Required": "Major Earth",
-        "gilRequired": 20000,
         "introducingEvent": "Limelit Stage",
-        "id": 30241091,
+        "id": "30241091",
         "✓": "✓"
     },
     {
@@ -7179,9 +6927,8 @@
         "orb1Required": "Power",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Earth",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #11",
-        "id": 30251021,
+        "id": "30251021",
         "✓": "✓"
     },
     {
@@ -7201,9 +6948,8 @@
         "orb1Required": "Greater White",
         "orb2Required": "Greater Earth",
         "orb3Required": "Greater Holy",
-        "gilRequired": 12000,
         "introducingEvent": "A Brewing Nightmare",
-        "id": 30251022,
+        "id": "30251022",
         "✓": "✓"
     },
     {
@@ -7223,9 +6969,8 @@
         "orb1Required": "Power",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Ice",
-        "gilRequired": 5000,
         "introducingEvent": "Dungeons Update #11",
-        "id": 30251031,
+        "id": "30251031",
         "✓": "✓"
     },
     {
@@ -7245,9 +6990,8 @@
         "orb1Required": "Greater White",
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Wind",
-        "gilRequired": 10000,
         "introducingEvent": "Forgotten Bond",
-        "id": 30251032,
+        "id": "30251032",
         "✓": "✓"
     },
     {
@@ -7267,9 +7011,8 @@
         "orb1Required": "Power",
         "orb2Required": "Non-Elemental",
         "orb3Required": "Earth",
-        "gilRequired": 5000,
         "introducingEvent": "Defying Fate",
-        "id": 30251041,
+        "id": "30251041",
         "✓": "✓"
     },
     {
@@ -7289,9 +7032,8 @@
         "orb1Required": "Greater Fire",
         "orb2Required": "Greater Wind",
         "orb3Required": "Greater Dark",
-        "gilRequired": 10000,
         "introducingEvent": "Forgotten Bond",
-        "id": 30251042,
+        "id": "30251042",
         "✓": "✓"
     },
     {
@@ -7311,9 +7053,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Wind",
         "orb3Required": "Greater Dark",
-        "gilRequired": 10000,
         "introducingEvent": "Tempered Resolve",
-        "id": 30251051,
+        "id": "30251051",
         "✓": "✓"
     },
     {
@@ -7333,9 +7074,8 @@
         "orb1Required": "Power",
         "orb2Required": "Ice",
         "orb3Required": "Wind",
-        "gilRequired": 5000,
         "introducingEvent": "Tempered Resolve",
-        "id": 30251061,
+        "id": "30251061",
         "✓": "✓"
     },
     {
@@ -7355,9 +7095,8 @@
         "orb1Required": "Greater White",
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Holy",
-        "gilRequired": 12000,
         "introducingEvent": "A Brewing Nightmare",
-        "id": 30251062,
+        "id": "30251062",
         "✓": "✓"
     },
     {
@@ -7377,9 +7116,8 @@
         "orb1Required": "Major White",
         "orb2Required": "Major Holy",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "A Brewing Nightmare",
-        "id": 30251071,
+        "id": "30251071",
         "✓": "✓"
     },
     {
@@ -7399,9 +7137,8 @@
         "orb1Required": "Major White",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Holy",
-        "gilRequired": 20000,
         "introducingEvent": "Faded Illusion, True Path Revealed",
-        "id": 30251081,
+        "id": "30251081",
         "✓": "✓"
     },
     {
@@ -7421,9 +7158,8 @@
         "orb1Required": "Major White",
         "orb2Required": "Major Black",
         "orb3Required": "Major Holy",
-        "gilRequired": 20000,
         "introducingEvent": "Faded Illusion, True Path Revealed",
-        "id": 30251091,
+        "id": "30251091",
         "✓": "✓"
     },
     {
@@ -7446,9 +7182,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Dark",
-        "gilRequired": 12000,
         "introducingEvent": "A Meeting Beyond Time",
-        "id": 30261011,
+        "id": "30261011",
         "✓": "✓"
     },
     {
@@ -7471,9 +7206,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Lightning",
-        "gilRequired": 12000,
         "introducingEvent": "A Meeting Beyond Time",
-        "id": 30261021,
+        "id": "30261021",
         "✓": "✓"
     },
     {
@@ -7496,9 +7230,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Ice",
-        "gilRequired": 12000,
         "introducingEvent": "Eternal Calm",
-        "id": 30261031,
+        "id": "30261031",
         "✓": "✓"
     },
     {
@@ -7521,9 +7254,8 @@
         "orb1Required": "Greater Ice",
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Dark",
-        "gilRequired": 12000,
         "introducingEvent": "Consorting with Sky Pirates",
-        "id": 30261041,
+        "id": "30261041",
         "✓": "✓"
     },
     {
@@ -7546,9 +7278,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Fire",
         "orb3Required": "Major Earth",
-        "gilRequired": 20000,
         "introducingEvent": "Two Sides of a Coin",
-        "id": 30261051,
+        "id": "30261051",
         "✓": "✓"
     },
     {
@@ -7571,9 +7302,8 @@
         "orb1Required": "Ice Crystal",
         "orb2Required": "Lightning Crystal",
         "orb3Required": "Dark Crystal",
-        "gilRequired": 200000,
         "introducingEvent": "The Five Dooms",
-        "id": 30261061,
+        "id": "30261061",
         "✓": "✓"
     },
     {
@@ -7596,9 +7326,8 @@
         "orb1Required": "Major Fire",
         "orb2Required": "Major Ice",
         "orb3Required": "Major Lightning",
-        "gilRequired": 20000,
         "introducingEvent": "A Sword for Peace",
-        "id": 30261071,
+        "id": "30261071",
         "✓": "✓"
     },
     {
@@ -7621,9 +7350,8 @@
         "orb1Required": "Major Black",
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
-        "gilRequired": 20000,
         "introducingEvent": "Family Secrets",
-        "id": 30261081,
+        "id": "30261081",
         "✓": "✓"
     },
     {
@@ -7646,9 +7374,8 @@
         "orb1Required": "Major Non-Elemental",
         "orb2Required": "Major Ice",
         "orb3Required": "Major Lightning",
-        "gilRequired": 20000,
         "introducingEvent": "Road Trip to Remember",
-        "id": 30261091,
+        "id": "30261091",
         "✓": "✓"
     },
     {
@@ -7671,9 +7398,8 @@
         "orb1Required": "Major Black",
         "orb2Required": "Major Ice",
         "orb3Required": "Major Lightning",
-        "gilRequired": 20000,
         "introducingEvent": "Borrowed Dreams",
-        "id": 30261101,
+        "id": "30261101",
         "✓": "✓"
     },
     {
@@ -7696,9 +7422,8 @@
         "orb1Required": "Major Non-Elemental",
         "orb2Required": "Major Fire",
         "orb3Required": "Major Lightning",
-        "gilRequired": 20000,
         "introducingEvent": "Faded Illusion, True Path Revealed",
-        "id": 30261111,
+        "id": "30261111",
         "✓": "✓"
     },
     {
@@ -7721,9 +7446,8 @@
         "orb1Required": "Major Fire",
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
-        "gilRequired": 20000,
         "introducingEvent": "Faded Illusion, True Path Revealed",
-        "id": 30261121,
+        "id": "30261121",
         "✓": "✓"
     },
     {
@@ -7746,9 +7470,8 @@
         "orb1Required": "Major Ice",
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
-        "gilRequired": 20000,
         "introducingEvent": "Faded Illusion, True Path Revealed",
-        "id": 30261131,
+        "id": "30261131",
         "✓": "✓"
     },
     {
@@ -7771,9 +7494,8 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Dark",
-        "gilRequired": 12000,
         "introducingEvent": "Twin Stars of Mysidia",
-        "id": 30271001,
+        "id": "30271001",
         "✓": "✓"
     },
     {
@@ -7796,9 +7518,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Twin Stars of Mysidia",
-        "id": 30271011,
+        "id": "30271011",
         "✓": "✓"
     },
     {
@@ -7821,9 +7542,8 @@
         "orb1Required": "Major Black",
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Gaia's Angel of Death",
-        "id": 30271021,
+        "id": "30271021",
         "✓": "✓"
     },
     {
@@ -7846,9 +7566,8 @@
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Dark",
-        "gilRequired": 12000,
         "introducingEvent": "Gaia's Angel of Death",
-        "id": 30271031,
+        "id": "30271031",
         "✓": "✓"
     },
     {
@@ -7871,9 +7590,8 @@
         "orb1Required": "Greater Ice",
         "orb2Required": "Greater Earth",
         "orb3Required": "Greater Dark",
-        "gilRequired": 12000,
         "introducingEvent": "In the Footsteps of Greatness",
-        "id": 30271041,
+        "id": "30271041",
         "✓": "✓"
     },
     {
@@ -7896,9 +7614,8 @@
         "orb1Required": "Major Fire",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "In the Footsteps of Greatness",
-        "id": 30271051,
+        "id": "30271051",
         "✓": "✓"
     },
     {
@@ -7921,9 +7638,8 @@
         "orb1Required": "Major Non-Elemental",
         "orb2Required": "Major Ice",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Flash of Defiance",
-        "id": 30271061,
+        "id": "30271061",
         "✓": "✓"
     },
     {
@@ -7946,9 +7662,8 @@
         "orb1Required": "Major Black",
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Destroyer of Light and Dark",
-        "id": 30271071,
+        "id": "30271071",
         "✓": "✓"
     },
     {
@@ -7971,9 +7686,8 @@
         "orb1Required": "Major Black",
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Awakening Cloud",
-        "id": 30271081,
+        "id": "30271081",
         "✓": "✓"
     },
     {
@@ -7996,9 +7710,8 @@
         "orb1Required": "Major Black",
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Awakening Cloud",
-        "id": 30271091,
+        "id": "30271091",
         "✓": "✓"
     },
     {
@@ -8021,9 +7734,8 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "The Shadow Stirs",
-        "id": 30271101,
+        "id": "30271101",
         "✓": "✓"
     },
     {
@@ -8046,10 +7758,29 @@
         "orb1Required": "Major Black",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Inherited Flaming Will",
-        "id": 30271111,
+        "id": "30271111",
         "✓": "✓"
+    },
+    {
+        "school": "Darkness",
+        "name": "Dark Brand",
+        "rarity": 5,
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Hybrid",
+        "multiplier": "-",
+        "element": "Dark",
+        "time": "?",
+        "effects": "Three single hybrid attacks (?/? each), ?% chance to cause Imperil Dark ?% for ? seconds",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "sb(jp)": "?",
+        "uses": 2,
+        "max": 10,
+        "introducingEvent": "Fal'Cie Puppets",
+        "id": "30271121"
     },
     {
         "school": "Sharpshooter",
@@ -8071,9 +7802,8 @@
         "orb1Required": "Major Ice",
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Holy",
-        "gilRequired": 20000,
         "introducingEvent": "This Is Our Story",
-        "id": 30281001,
+        "id": "30281001",
         "✓": "✓"
     },
     {
@@ -8096,9 +7826,8 @@
         "orb1Required": "Greater Non-Elemental",
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Ice",
-        "gilRequired": 12000,
         "introducingEvent": "This Is Our Story",
-        "id": 30281011,
+        "id": "30281011",
         "✓": "✓"
     },
     {
@@ -8121,9 +7850,8 @@
         "orb1Required": "Greater Ice",
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Holy",
-        "gilRequired": 12000,
         "introducingEvent": "Dreaming's End",
-        "id": 30281021,
+        "id": "30281021",
         "✓": "✓"
     },
     {
@@ -8146,9 +7874,8 @@
         "orb1Required": "Major Ice",
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Pawn Among Kings",
-        "id": 30281051,
+        "id": "30281051",
         "✓": "✓"
     },
     {
@@ -8171,9 +7898,8 @@
         "orb1Required": "Major White",
         "orb2Required": "Major Fire",
         "orb3Required": "Major Lightning",
-        "gilRequired": 20000,
         "introducingEvent": "Type-0: Into the Fray",
-        "id": 30281061,
+        "id": "30281061",
         "✓": "✓"
     },
     {
@@ -8196,9 +7922,8 @@
         "orb1Required": "Greater White",
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Lightning",
-        "gilRequired": 12000,
         "introducingEvent": "Type-0: Into the Fray",
-        "id": 30281071,
+        "id": "30281071",
         "✓": "✓"
     },
     {
@@ -8221,9 +7946,8 @@
         "orb1Required": "Major Black",
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Women of the World",
-        "id": 30301001,
+        "id": "30301001",
         "✓": "✓"
     },
     {
@@ -8246,9 +7970,8 @@
         "orb1Required": "Major Non-Elemental",
         "orb2Required": "Major Ice",
         "orb3Required": "Major Dark",
-        "gilRequired": 20000,
         "introducingEvent": "Women of the World",
-        "id": 30301011,
+        "id": "30301011",
         "✓": "✓"
     },
     {
@@ -8271,9 +7994,8 @@
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Dark",
-        "gilRequired": 12000,
         "introducingEvent": "Women of the World",
-        "id": 30301021,
+        "id": "30301021",
         "✓": "✓"
     },
     {
@@ -8296,9 +8018,8 @@
         "orb1Required": "Greater Non-Elemental",
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Dark",
-        "gilRequired": 12000,
         "introducingEvent": "Women of the World",
-        "id": 30301031,
+        "id": "30301031",
         "✓": "✓"
     }
 ]
