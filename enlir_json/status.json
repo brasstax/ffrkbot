@@ -3434,6 +3434,26 @@
         "notes": "-"
     },
     {
+        "id": "50099",
+        "commonName": "Seraphim Wing Follow-Up",
+        "effects": "Casts Seraphim Wing after using a Holy or Dark attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_FAKE_MIRACLE",
+        "notes": "-"
+    },
+    {
+        "id": "50100",
+        "commonName": "Icicle Bite Counter",
+        "effects": "Keeps track of the number of uses of Icicle Bite, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_FROZEN_BITE",
+        "notes": "-"
+    },
+    {
         "id": "50101",
         "commonName": "Attach Water Stacking",
         "effects": "Allow to stack Attach Water, up to Attach Water 3",
@@ -3471,6 +3491,26 @@
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Rank Boost\" status",
         "codedName": "ABILITY_BOOST_FOR_WHITE_MAGIC_MAX_MIDDLE",
+        "notes": "-"
+    },
+    {
+        "id": "50105",
+        "commonName": "Monk Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Monk attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_IF_MONK_CATEGORY",
+        "notes": "-"
+    },
+    {
+        "id": "50106",
+        "commonName": "Abyssal Bite Follow-Up",
+        "effects": "Casts Abyssal Bite after using a Darkness ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_FLUSH_OF_DARKNESS",
         "notes": "-"
     },
     {

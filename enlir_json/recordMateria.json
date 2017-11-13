@@ -114,9 +114,10 @@
         "realm": "Core",
         "character": "Monk",
         "name": "Honed Senses",
-        "effect": "?% chance to counter PHY attacks with Chakra",
+        "effect": "30% chance to counter PHY attacks with Chakra",
         "unlockCriteria": "Bring Monk to level 99",
-        "name(jp)": "研ぎ澄まされし感覚"
+        "name(jp)": "研ぎ澄まされし感覚",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -212,9 +213,10 @@
         "realm": "Core",
         "character": "Magus",
         "name": "Forbidden Arcana",
-        "effect": "Attack turns into an ability (group, ? magical) that deals Fire, Lightning and Ice damage",
+        "effect": "Attack turns into an ability (group, 2,00 magical) that deals Fire, Lightning and Ice damage",
         "unlockCriteria": "Bring Magus to level 99",
-        "name(jp)": "禁忌の大魔術"
+        "name(jp)": "禁忌の大魔術",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -3279,7 +3281,7 @@
     {
         "realm": "VII",
         "character": "Rude",
-        "name": "Taciturn Big Man",
+        "name": "Strong and Silent",
         "effect": "Increases Earth damage dealt by 10%",
         "unlockCriteria": "Use Rude's Memory Crystal",
         "name(jp)": "黙して語らぬ巨漢",
@@ -3288,7 +3290,7 @@
     {
         "realm": "VII",
         "character": "Rude",
-        "name": "Quiet Spirit",
+        "name": "Quiet Determination",
         "effect": "Grants Shell and Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Rude's Memory Crystal II, chance to obtain with Rude in party",
         "name(jp)": "静かな闘志",
@@ -3306,7 +3308,7 @@
     {
         "realm": "VII",
         "character": "Elena",
-        "name": "Hard Worker's Strength",
+        "name": "Elbow Grease",
         "effect": "15% chance to begin the round with full ATB gauge",
         "unlockCriteria": "Use Elena's Memory Crystal",
         "name(jp)": "努力家の秘技",
@@ -3315,7 +3317,7 @@
     {
         "realm": "VII",
         "character": "Elena",
-        "name": "Turks Newcomer",
+        "name": "New Recruit",
         "effect": "PHY attacks deal 20% more damage when equipping a gun",
         "unlockCriteria": "Use Elena's Memory Crystal II, chance to obtain with Elena in party",
         "name(jp)": "タークスの新人",

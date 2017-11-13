@@ -977,9 +977,10 @@
         "realm": "IV",
         "character": "Golbez",
         "name": "Master of the Four Fiends",
-        "effect": "Increases Dark damage dealt by ?%",
+        "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "四天王を束ねる者"
+        "name(jp)": "四天王を束ねる者",
+        "✓": "✓"
     },
     {
         "realm": "IV",
@@ -987,7 +988,8 @@
         "name": "Majestic Magus",
         "effect": "Grants Last Stand and Sentinel at the beginning of the battle",
         "relic": "-",
-        "name(jp)": "威厳溢れる魔人"
+        "name(jp)": "威厳溢れる魔人",
+        "✓": "✓"
     },
     {
         "realm": "IV",
@@ -1003,17 +1005,19 @@
         "realm": "IV",
         "character": "Ceodore",
         "name": "Young Prince's Will",
-        "effect": "Knight abilities deal ?% more damage",
+        "effect": "Knight abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "若き王子の志"
+        "name(jp)": "若き王子の志",
+        "✓": "✓"
     },
     {
         "realm": "IV",
         "character": "Ceodore",
         "name": "New Red Wings",
-        "effect": "?% chance to cast an ability (single) that restores HP for ?% of the target's maximum HP after using a Knight ability",
+        "effect": "35% chance to cast an ability (single) that restores HP for 40% of the target's maximum HP after using a Knight ability",
         "relic": "-",
-        "name(jp)": "新たなる赤き翼"
+        "name(jp)": "新たなる赤き翼",
+        "✓": "✓"
     },
     {
         "realm": "IV",
@@ -1732,7 +1736,7 @@
     {
         "realm": "VII",
         "character": "Aerith",
-        "name": "Descendant of the Ancients",
+        "name": "Daughter of the Ancients",
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "古代種の末裔",
@@ -1741,7 +1745,7 @@
     {
         "realm": "VII",
         "character": "Aerith",
-        "name": "Caretaker of the Planet",
+        "name": "Motherly Protector",
         "effect": "35% chance to cast a group heal (25) after using a White Magic ability",
         "relic": "-",
         "name(jp)": "星を見守る慈母",
@@ -1881,7 +1885,7 @@
     {
         "realm": "VII",
         "character": "Sephiroth",
-        "name": "Successor of Jenova",
+        "name": "Jenova's Echo",
         "effect": "Restores HP for 100% of the user's maximum HP and grants Sephiroth Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "ジェノバの意思を継ぐ者",
@@ -1900,7 +1904,7 @@
     {
         "realm": "VII",
         "character": "Cid (VII)",
-        "name": "Smoking Captain",
+        "name": "Captain's Habit",
         "effect": "Increases Wind damage dealt by ?%",
         "relic": "-",
         "name(jp)": "愛煙家の艇長"
@@ -1908,7 +1912,7 @@
     {
         "realm": "VII",
         "character": "Cid (VII)",
-        "name": "Leader of the Sky",
+        "name": "Air Supremacy",
         "effect": "ATK +?% for each hit dealt with PHY attacks that deal Wind damage, up to +?%",
         "relic": "-",
         "name(jp)": "空のリーダー"
@@ -1926,7 +1930,7 @@
     {
         "realm": "VII",
         "character": "Reno",
-        "name": "Ray Master",
+        "name": "Master of Lightning",
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "光線の使い手",
@@ -1935,7 +1939,7 @@
     {
         "realm": "VII",
         "character": "Reno",
-        "name": "Speedy Worker",
+        "name": "Finishing Buisness",
         "effect": "35% chance to dualcast abilities that deal Lightning damage",
         "relic": "-",
         "name(jp)": "神速の仕事人",
@@ -1954,7 +1958,7 @@
     {
         "realm": "VII",
         "character": "Rufus",
-        "name": "Shinra's Heir",
+        "name": "Shinra's Scion",
         "effect": "PHY attacks deal ?% more damage when equipping a gun",
         "relic": "-",
         "name(jp)": "神羅の御曹司"
@@ -1962,7 +1966,7 @@
     {
         "realm": "VII",
         "character": "Rufus",
-        "name": "Young Tactician",
+        "name": "Scheming Son",
         "effect": "?% chance to cause Minor Imperil Dark to the target after using a Dark attack on an enemy",
         "relic": "-",
         "name(jp)": "若き策略家"
@@ -1980,7 +1984,7 @@
     {
         "realm": "VII",
         "character": "Shelke",
-        "name": "Orange Dual Spears",
+        "name": "Crackling Spears",
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "橙を帯びし二槍",
@@ -1989,7 +1993,7 @@
     {
         "realm": "VII",
         "character": "Shelke",
-        "name": "Transparent",
+        "name": "The Transparent",
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "無式",
@@ -2433,17 +2437,19 @@
         "realm": "IX",
         "character": "Quina",
         "name": "Way of the Qu",
-        "effect": "PHY attacks deal ?% more damage when equipping a spear",
+        "effect": "PHY attacks deal 10% more damage when equipping a spear",
         "relic": "-",
-        "name(jp)": "ク族のたしなみ"
+        "name(jp)": "ク族のたしなみ",
+        "✓": "✓"
     },
     {
         "realm": "IX",
         "character": "Quina",
         "name": "Feast of the Qu",
-        "effect": "Restores HP for 100% of the user's maximum HP, grants 500 SB points and grants Quina Trance when HP fall below ?%",
+        "effect": "Restores HP for 100% of the user's maximum HP, grants 500 SB points and grants Quina Trance when HP fall below 20%",
         "relic": "-",
-        "name(jp)": "ク族の晩餐"
+        "name(jp)": "ク族の晩餐",
+        "✓": "✓"
     },
     {
         "realm": "IX",
@@ -2745,17 +2751,19 @@
         "realm": "X",
         "character": "Jecht",
         "name": "Unmannered Father",
-        "effect": "Increases Dark damage dealt by ?%",
+        "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "素直になれない親父"
+        "name(jp)": "素直になれない親父",
+        "✓": "✓"
     },
     {
         "realm": "X",
         "character": "Jecht",
         "name": "Entrusted Thoughts",
-        "effect": "?% chance to dualcast abilities that deal Dark damage",
+        "effect": "35% chance to dualcast abilities that deal Dark damage",
         "relic": "-",
-        "name(jp)": "託した想い"
+        "name(jp)": "託した想い",
+        "✓": "✓"
     },
     {
         "realm": "X",
@@ -2936,19 +2944,28 @@
     {
         "realm": "XI",
         "character": "Prishe",
+        "name": "Patrol's Leader",
         "effect": "PHY attacks deal ?% more damage when equipping a fist weapon",
-        "relic": "-"
+        "relic": "-",
+        "name(jp)": "自警団のリーダー"
     },
     {
         "realm": "XI",
         "character": "Prishe",
+        "name": "Flippant Maiden",
         "effect": "?% chance to dualcast Monk abilities",
-        "relic": "-"
+        "relic": "-",
+        "name(jp)": "猪突猛進の元気娘"
     },
     {
         "realm": "XI",
         "character": "Prishe",
-        "effect": "Grants Critical Chance 50% at the beginning of the battle"
+        "name": "Crystal's Might",
+        "effect": "Grants Dance of Carnage at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Temple Cyclas (XI)",
+        "name(jp)": "宿りし魔晶石の力",
+        "✓": "✓"
     },
     {
         "realm": "XI",
@@ -3009,19 +3026,28 @@
     {
         "realm": "XI",
         "character": "Zeid",
+        "name": "Darkspawn Hunter",
         "effect": "Increases Dark damage dealt by ?%",
-        "relic": "-"
+        "relic": "-",
+        "name(jp)": "闇の血族を狩る者"
     },
     {
         "realm": "XI",
         "character": "Zeid",
+        "name": "Black Sword of the Galka",
         "effect": "?% chance of restoring HP to the user for ?% of the damage dealt with single-target Dark attacks",
-        "relic": "-"
+        "relic": "-",
+        "name(jp)": "ガルカに伝わりし黒き秘剣"
     },
     {
         "realm": "XI",
         "character": "Zeid",
-        "effect": "Grants Attach Dark at the beginning of the battle"
+        "name": "Shining Black Blade",
+        "effect": "Grants Attach Dark at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Balin's Sword (XI)",
+        "name(jp)": "黒く輝く刃",
+        "✓": "✓"
     },
     {
         "realm": "XII",
@@ -3392,6 +3418,16 @@
     },
     {
         "realm": "XIII",
+        "character": "Vanille",
+        "name": "Tender Spur",
+        "effect": "25% chance to grant Heals +30% for 10 seconds to the user after using a WHT ability",
+        "master": "MND +10",
+        "relic": "Vanille's Guise (XIII)",
+        "name(jp)": "穏やかな励まし",
+        "✓": "✓"
+    },
+    {
+        "realm": "XIII",
         "character": "Sazh",
         "name": "Cheerful Father",
         "effect": "Support abilities deal 15% more damage",
@@ -3442,23 +3478,34 @@
         "name": "Matured Awareness",
         "effect": "Grants Attach Holy at the beginning of the battle",
         "master": "MAG +10",
-        "relic": "Hope's Model (XIII)",
+        "relic": "Hope's Guise (XIII)",
         "name(jp)": "めざましき成長",
         "✓": "✓"
     },
     {
         "realm": "XIII",
         "character": "Fang",
-        "relic": "-"
+        "name": "Fearless Warrior",
+        "effect": "Increases Wind damage dealt by ?%",
+        "relic": "-",
+        "name(jp)": "精悍なる戦士"
     },
     {
         "realm": "XIII",
         "character": "Fang",
-        "relic": "-"
+        "name": "Soaring Dragon's Roar",
+        "effect": "?% chance to cast an ability (single, ? physical) with ? Wind/NE attacks after using a Dragoon ability",
+        "relic": "-",
+        "name(jp)": "大空翔けし竜の咆哮"
     },
     {
         "realm": "XIII",
-        "character": "Fang"
+        "character": "Fang",
+        "name": "Woman Above Men",
+        "effect": "Dragoon abilities deal ?% more damage when equipping a spear",
+        "master": "ATK +10",
+        "relic": "Fang's Guise (XIII)",
+        "name(jp)": "男まさりの女闘士"
     },
     {
         "realm": "XIII",
@@ -3531,7 +3578,8 @@
         "name": "Resolve to Change History",
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
-        "name(jp)": "歴史を変える覚悟"
+        "name(jp)": "歴史を変える覚悟",
+        "✓": "✓"
     },
     {
         "realm": "XIII",
@@ -3539,23 +3587,44 @@
         "name": "Swordskill for the Future",
         "effect": "PHY attacks deal 20% more damage when equipping a sword",
         "master": "ATK +10",
-        "relic": "Noel's Kote (XIII)",
+        "relic": "Noel's Bracer (XIII)",
         "name(jp)": "未来を切り開く剣技",
         "✓": "✓"
     },
     {
         "realm": "XIII",
-        "character": "Nabaat",
-        "relic": "-"
+        "character": "Noel",
+        "name": "Hunter's Quality",
+        "effect": "?% chance to dualcast abilities that deal Ice damage",
+        "master": "ATK +10",
+        "relic": "Noel's Guise (XIII)",
+        "name(jp)": "高きハンターの資質"
     },
     {
         "realm": "XIII",
         "character": "Nabaat",
-        "relic": "-"
+        "name": "Cold Nature",
+        "effect": "Increases Dark damage dealt by ?%",
+        "relic": "-",
+        "name(jp)": "冷徹な本性"
     },
     {
         "realm": "XIII",
-        "character": "Nabaat"
+        "character": "Nabaat",
+        "name": "Concealed Ambition",
+        "effect": "?% chance to cause Minor Imperil Dark to the target after using a Dark attack on an enemy",
+        "relic": "-",
+        "name(jp)": "美貌の裏に潜む野心"
+    },
+    {
+        "realm": "XIII",
+        "character": "Nabaat",
+        "name": "Malice Revealed",
+        "effect": "25% chance to dualcast abilities that deal Dark damage",
+        "master": "MAG +10",
+        "relic": "Nabaat's Gloves (XIII)",
+        "name(jp)": "悪意の発露",
+        "✓": "✓"
     },
     {
         "realm": "XIV",
