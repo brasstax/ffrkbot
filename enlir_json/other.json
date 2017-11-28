@@ -84,6 +84,40 @@
     },
     {
         "character": "Status",
+        "source": "Dia Splash Follow-Up",
+        "name": "Dia Splash",
+        "type": "WHT",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 9.78,
+        "element": "Holy, Water, NE",
+        "time": 0.01,
+        "effects": "2/3/4/5/6 single attacks (1,63 each) at rank 1/2/3/4/5 of the triggering ability",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "White Magic",
+        "✓": "✓"
+    },
+    {
+        "character": "Status",
+        "source": "Titan Strike Follow-Up",
+        "name": "Titan Strike",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.04,
+        "element": "Earth, NE",
+        "time": 0.01,
+        "effects": "4/5/6 single attacks (0,34 each) at 798/2736 DEF, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Knight",
+        "✓": "✓"
+    },
+    {
+        "character": "Status",
         "source": "Lightning Follow-Up",
         "name": "Lightning",
         "type": "BLK",
@@ -606,6 +640,23 @@
     },
     {
         "character": "Status",
+        "source": "Auto Firebolt Barrage",
+        "name": "Firebolt Barrage",
+        "type": "SUM",
+        "target": "All enemies",
+        "formula": "Magical",
+        "multiplier": 6.8,
+        "element": "Fire, Lightning",
+        "time": 0.01,
+        "effects": "Four group attacks (1,70 each), minimum damage 1100",
+        "counter": "N",
+        "autoTarget": "All enemies",
+        "sb": 0,
+        "school": "Summoning",
+        "✓": "✓"
+    },
+    {
+        "character": "Status",
         "source": "Overwhelming Follow-Up",
         "name": "Overwhelming Follow-Up",
         "type": "BLK",
@@ -619,23 +670,6 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Auto Fiery Lightning",
-        "name": "Fiery Lightning",
-        "type": "SUM",
-        "target": "All enemies",
-        "formula": "Magical",
-        "multiplier": 6.8,
-        "element": "Fire, Lightning",
-        "time": 0.01,
-        "effects": "Four group attacks (1,70 each), minimum damage 1100",
-        "counter": "N",
-        "autoTarget": "All enemies",
-        "sb": 0,
-        "school": "Summoning",
         "✓": "✓"
     },
     {
@@ -818,6 +852,22 @@
         "sb": 0,
         "school": "Black Magic",
         "✓": "✓"
+    },
+    {
+        "character": "Status",
+        "source": "Wild Lance Follow-Up",
+        "name": "Wild Lance",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Wind, NE",
+        "time": "?",
+        "effects": "? single attacks (? each), ?% chance to cause Imperil Wind ?% for ? seconds",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
     },
     {
         "character": "Status",
@@ -1464,7 +1514,7 @@
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
-        "school": "Combat",
+        "school": "Special",
         "✓": "✓"
     },
     {
@@ -1546,7 +1596,7 @@
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
-        "school": "Combat",
+        "school": "Special",
         "✓": "✓"
     },
     {
@@ -1562,7 +1612,7 @@
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
-        "school": "Combat",
+        "school": "Special",
         "✓": "✓"
     },
     {
@@ -2119,8 +2169,8 @@
     },
     {
         "character": "Zack",
-        "source": "SOLDIER's Chase",
-        "name": "SOLDIER's Chase",
+        "source": "SOLDIER Follow-Up",
+        "name": "SOLDIER Follow-Up",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -2905,6 +2955,22 @@
         "✓": "✓"
     },
     {
+        "character": "Rem",
+        "source": "Saint Fire",
+        "name": "Saint Fire",
+        "type": "WHT",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 5.05,
+        "element": "Holy, Fire, NE",
+        "time": 0.01,
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "White Magic",
+        "✓": "✓"
+    },
+    {
         "character": "Machina",
         "source": "Pure Spirit",
         "name": "Attack",
@@ -2934,6 +3000,22 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "✓": "✓"
+    },
+    {
+        "character": "Cinque",
+        "source": "Lunatic Behavior",
+        "name": "Attack",
+        "type": "PHY",
+        "target": "Single",
+        "formula": "Physical",
+        "multiplier": 2.8,
+        "element": "-",
+        "time": 1.5,
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Special",
         "✓": "✓"
     }
 ]

@@ -2057,7 +2057,7 @@
     {
         "realm": "IV",
         "character": "Ursula",
-        "name": "Princess of Fabul",
+        "name": "Fabul Princess",
         "effect": "Increases physical damage dealt by 10% when equipping a light armor",
         "unlockCriteria": "Use Ursula's Memory Crystal",
         "name(jp)": "ファブールの王女",
@@ -2066,7 +2066,7 @@
     {
         "realm": "IV",
         "character": "Ursula",
-        "name": "Longing for Strength",
+        "name": "Flirting with Power",
         "effect": "ATK +13% when equipping a fist weapon",
         "unlockCriteria": "Use Ursula's Memory Crystal II, chance to obtain with Ursula in party",
         "name(jp)": "強さに憧れる少女",
@@ -2075,7 +2075,7 @@
     {
         "realm": "IV",
         "character": "Ursula",
-        "name": "Grasped Secrets",
+        "name": "Deadly Secrets",
         "effect": "15% chance to turn Attack into Gaia Rush",
         "unlockCriteria": "Bring Ursula to level 99",
         "name(jp)": "極意を得し者",
@@ -4335,7 +4335,7 @@
         "realm": "X",
         "character": "Paine",
         "name": "Steely Warrior",
-        "effect": "24% chance to turn Attack into Engulfing Twinstrike",
+        "effect": "24% chance to turn Attack into Engulfing Quadstrike",
         "unlockCriteria": "Bring Paine to level 99",
         "name(jp)": "冷静沈着な剣士",
         "✓": "✓"
@@ -4830,7 +4830,7 @@
         "realm": "XII",
         "character": "Reks",
         "name": "Uncanny Ability",
-        "effect": "24% chance to turn attack into Thundering Twinstrike",
+        "effect": "24% chance to turn attack into Thundering Quadstrike",
         "unlockCriteria": "Bring Reks to level 99",
         "name(jp)": "雄才なる萌芽",
         "✓": "✓"
@@ -6026,11 +6026,61 @@
     {
         "realm": "Type-0",
         "character": "Queen",
-        "name": "Strength of Reason",
+        "name": "Rational Power",
         "effect": "42% chance to turn Attack into Double Cut",
         "unlockCriteria": "Bring Queen to level 99",
         "name(jp)": "賢き力を司る者",
         "✓": "✓"
+    },
+    {
+        "realm": "Type-0",
+        "character": "King",
+        "name": "All-back Student",
+        "effect": "PHY attacks deal 10% more damage when equipping a gun",
+        "unlockCriteria": "Use King's Memory Crystal",
+        "name(jp)": "オールバックの候補生",
+        "✓": "✓"
+    },
+    {
+        "realm": "Type-0",
+        "character": "King",
+        "name": "Quiet Tactician",
+        "effect": "Restores 1 use for all Machinist abilities at the beginning of the battle",
+        "unlockCriteria": "Use King's Memory Crystal II, chance to obtain with King in party",
+        "name(jp)": "冷静な戦術"
+    },
+    {
+        "realm": "Type-0",
+        "character": "King",
+        "name": "Decisive Power",
+        "effect": "?% chance to turn Attack into Spark Offering",
+        "unlockCriteria": "Bring King to level 99",
+        "name(jp)": "決断する力を司る者"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Cinque",
+        "name": "Lunatic Behavior",
+        "effect": "8% chance to turn attack into an ability (single, 2,80 physical)",
+        "unlockCriteria": "Use Cinque's Memory Crystal",
+        "name(jp)": "突拍子もない言動",
+        "✓": "✓"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Cinque",
+        "name": "Innate Superstrength",
+        "effect": "Increases Earth damage dealt by ?%",
+        "unlockCriteria": "Use Cinque's Memory Crystal II, chance to obtain with Cinque in party",
+        "name(jp)": "剛力な天然少女"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Cinque",
+        "name": "Innocent Power",
+        "effect": "Heavy abilities deal ?% more damage",
+        "unlockCriteria": "Bring Cinque to level 99",
+        "name(jp)": "純真なる力を司る者"
     },
     {
         "realm": "Beyond",

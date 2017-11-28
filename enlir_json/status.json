@@ -595,6 +595,16 @@
         "notes": "-"
     },
     {
+        "id": "26100",
+        "commonName": "Fire Stoneskin: 100%",
+        "effects": "Reduces Fire damage taken to 0, up to an amount equal to 100% of the character's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_FIRE_DAMAGE_BARRIER_100",
+        "notes": "-"
+    },
+    {
         "id": "262",
         "commonName": "Greased Lightning 1",
         "effects": "ATK + 15%, cast speed x1,33, removed upon taking damage",
@@ -1092,6 +1102,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DAMAGE_BOOST_MONK_115_3",
+        "notes": "-"
+    },
+    {
+        "id": "282009",
+        "commonName": "Heavy +15% Boost 3",
+        "effects": "Heavy abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_HEAVY_115_3",
         "notes": "-"
     },
     {
@@ -2573,7 +2593,7 @@
     },
     {
         "id": "50010",
-        "commonName": "Warsong 1",
+        "commonName": "Warrior's Hymn 1",
         "defaultDuration": 10,
         "mndModifier": "-",
         "exclusiveStatus": "Warsong 2, Warsong 3, Warsong 4",
@@ -2582,7 +2602,7 @@
     },
     {
         "id": "50011",
-        "commonName": "Warsong 2",
+        "commonName": "Warrior's Hymn 2",
         "defaultDuration": 10,
         "mndModifier": "-",
         "exclusiveStatus": "Warsong 1, Warsong 3, Warsong 4",
@@ -2591,7 +2611,7 @@
     },
     {
         "id": "50012",
-        "commonName": "Warsong 3",
+        "commonName": "Warrior's Hymn 3",
         "defaultDuration": 10,
         "mndModifier": "-",
         "exclusiveStatus": "Warsong 1, Warsong 2, Warsong 4",
@@ -2600,7 +2620,7 @@
     },
     {
         "id": "50013",
-        "commonName": "Warsong 4",
+        "commonName": "Warrior's Hymn 4",
         "defaultDuration": 10,
         "mndModifier": "-",
         "exclusiveStatus": "Warsong 1, Warsong 2, Warsong 3",
@@ -2609,7 +2629,7 @@
     },
     {
         "id": "50014",
-        "commonName": "Anthem 1",
+        "commonName": "Mage's Hymn 1",
         "defaultDuration": 10,
         "mndModifier": "-",
         "exclusiveStatus": "Anthem 2, Anthem 3, Anthem 4",
@@ -2618,7 +2638,7 @@
     },
     {
         "id": "50015",
-        "commonName": "Anthem 2",
+        "commonName": "Mage's Hymn 2",
         "defaultDuration": 10,
         "mndModifier": "-",
         "exclusiveStatus": "Anthem 1, Anthem 3, Anthem 4",
@@ -2627,7 +2647,7 @@
     },
     {
         "id": "50016",
-        "commonName": "Anthem 3",
+        "commonName": "Mage's Hymn 3",
         "defaultDuration": 10,
         "mndModifier": "-",
         "exclusiveStatus": "Anthem 1, Anthem 2, Anthem 4",
@@ -2636,7 +2656,7 @@
     },
     {
         "id": "50017",
-        "commonName": "Anthem 4",
+        "commonName": "Mage's Hymn 4",
         "defaultDuration": 10,
         "mndModifier": "-",
         "exclusiveStatus": "Anthem 1, Anthem 2, Anthem 3",
@@ -2755,8 +2775,8 @@
     },
     {
         "id": "50029",
-        "commonName": "Auto Fiery Lightning",
-        "effects": "Casts Fiery Lightning every 3,50 seconds",
+        "commonName": "Auto Firebolt Barrage",
+        "effects": "Casts Firebolt Barrage every 3,50 seconds",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Auto\" status",
@@ -2855,7 +2875,7 @@
     },
     {
         "id": "50039",
-        "commonName": "Inspired Blade",
+        "commonName": "Enlightnined Blade",
         "effects": "Grants Attach Fire/Ice/Lightning after taking Fire/Ice/Lightning damage from a BLK, WHT, BLU or SUM attack used by another ally",
         "defaultDuration": 15,
         "mndModifier": "-",
@@ -3496,7 +3516,7 @@
     {
         "id": "50105",
         "commonName": "Monk Quick Cycle",
-        "effects": "Grants Quick Cast 1 after using a Monk attack",
+        "effects": "Grants Quick Cast 1 after using a Monk ability",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3511,6 +3531,142 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHASE_MODE_FOR_FLUSH_OF_DARKNESS",
+        "notes": "-"
+    },
+    {
+        "id": "50107",
+        "commonName": "Dia Splash Follow-Up",
+        "effects": "Casts Dia Splash after using a Holy attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_DIA_SPLASH",
+        "notes": "-"
+    },
+    {
+        "id": "50108",
+        "commonName": "Titan Strike Follow-Up",
+        "effects": "Casts Titan Strike after using a Knight ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_TITAN_STRIKE",
+        "notes": "-"
+    },
+    {
+        "id": "50109",
+        "commonName": "Heavy Charge X",
+        "effects": "Keeps track of the Heavy Charge level, up to level 2",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "HEAVY_CHARGE",
+        "notes": "-"
+    },
+    {
+        "id": "50110",
+        "commonName": "Heavy Charge +1",
+        "effects": "Increases the Heavy Charge level by 1 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INCREASE_HEAVY_CHARGE_LEVEL_1",
+        "notes": "-"
+    },
+    {
+        "id": "50111",
+        "commonName": "Heavy Charge +2",
+        "effects": "Increases the Heavy Charge level by 2 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INCREASE_HEAVY_CHARGE_LEVEL_2",
+        "notes": "-"
+    },
+    {
+        "id": "50112",
+        "commonName": "Heavy Charge =0",
+        "effects": "Sets the Heavy Charge level to 0 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "UNSET_HEAVY_CHARGE",
+        "notes": "-"
+    },
+    {
+        "id": "50113",
+        "commonName": "Heavy Charge Booster",
+        "effects": "Increases the Heavy Charge level by 1 when the Heavy Charge level is increased",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INCREASE_HEAVY_CHARGE_LEVEL_1_WHEN_HEAVY_CHARGE_LEVEL_INCREASED",
+        "notes": "-"
+    },
+    {
+        "id": "50114",
+        "commonName": "Machinist Double",
+        "effects": "Dualcasts Machinist abilities consuming an extra ability use",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_MACHINIST_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "50115",
+        "commonName": "Heavy Rank Boost",
+        "effects": "Heavy abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_HEAVY_MAX_130",
+        "notes": "-"
+    },
+    {
+        "id": "50116",
+        "commonName": "Wild Lance Follow-Up",
+        "effects": "Casts Wild Lance after dealing damage with a Dragoon ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_SPIRAL_LANCE",
+        "notes": "-"
+    },
+    {
+        "id": "50118",
+        "commonName": "Goddess's Hymn 1",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "Goddess's Hymn 2, Goddess's Hymn 3, Goddess's Hymn 4",
+        "codedName": "SACRED_SONG_MODE_1",
+        "notes": "-"
+    },
+    {
+        "id": "50119",
+        "commonName": "Goddess's Hymn 2",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "Goddess's Hymn 1, Goddess's Hymn 3, Goddess's Hymn 4",
+        "codedName": "SACRED_SONG_MODE_2",
+        "notes": "-"
+    },
+    {
+        "id": "50120",
+        "commonName": "Goddess's Hymn 3",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "Goddess's Hymn 1, Goddess's Hymn 2, Goddess's Hymn 4",
+        "codedName": "SACRED_SONG_MODE_3",
+        "notes": "-"
+    },
+    {
+        "id": "50121",
+        "commonName": "Goddess's Hymn 4",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "Goddess's Hymn 1, Goddess's Hymn 2, Goddess's Hymn 3",
+        "codedName": "SACRED_SONG_MODE_4",
         "notes": "-"
     },
     {
@@ -3905,7 +4061,7 @@
     },
     {
         "id": "639",
-        "commonName": "Demon ATK +X%",
+        "commonName": "Hymn ATK +X%",
         "effects": "ATK +X%",
         "defaultDuration": 10,
         "mndModifier": "-",
@@ -3915,7 +4071,7 @@
     },
     {
         "id": "640",
-        "commonName": "Devil MAG +X%",
+        "commonName": "Hymn MAG +X%",
         "effects": "MAG +X%",
         "defaultDuration": 10,
         "mndModifier": "-",
