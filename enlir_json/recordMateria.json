@@ -5792,7 +5792,7 @@
     {
         "realm": "FFT",
         "character": "Marche",
-        "name": "Wandering Boy",
+        "name": "Between Worlds",
         "effect": "PHY attacks deal 10% more damage when equipping a sword",
         "unlockCriteria": "Use Marche's Memory Crystal",
         "name(jp)": "迷い込んだ少年",
@@ -5819,7 +5819,7 @@
     {
         "realm": "FFT",
         "character": "Montblanc",
-        "name": "Eldest Son",
+        "name": "Tried and True",
         "effect": "BLK attacks deal 10% more damage when equipping a staff",
         "unlockCriteria": "Use Montblanc's Memory Crystal",
         "name(jp)": "しっかり者の長男",
@@ -5828,7 +5828,7 @@
     {
         "realm": "FFT",
         "character": "Montblanc",
-        "name": "Reliable Clan Leader",
+        "name": "Born Leader",
         "effect": "MAG +10%, grants Haste at the beginning of the battle",
         "unlockCriteria": "Use Montblanc's Memory Crystal II, chance to obtain with Montblanc in party",
         "name(jp)": "頼りになるクランのリーダー",
@@ -6053,9 +6053,10 @@
         "realm": "Type-0",
         "character": "King",
         "name": "Decisive Power",
-        "effect": "?% chance to turn Attack into Spark Offering",
+        "effect": "16% chance to turn Attack into Spark Offering",
         "unlockCriteria": "Bring King to level 99",
-        "name(jp)": "決断する力を司る者"
+        "name(jp)": "決断する力を司る者",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
@@ -6078,9 +6079,10 @@
         "realm": "Type-0",
         "character": "Cinque",
         "name": "Innocent Power",
-        "effect": "Heavy abilities deal ?% more damage",
+        "effect": "Heavy abilities deal 40% more damage",
         "unlockCriteria": "Bring Cinque to level 99",
-        "name(jp)": "純真なる力を司る者"
+        "name(jp)": "純真なる力を司る者",
+        "✓": "✓"
     },
     {
         "realm": "Beyond",

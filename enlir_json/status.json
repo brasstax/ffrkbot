@@ -268,7 +268,7 @@
     {
         "id": "233",
         "commonName": "Water Ball",
-        "effects": "Damages for 1/128 max HP every second, arrests ATB charge rate, can't act, resets ATB when set, removed by WHT, BLK and BLU attacks that deal magical damage, counts towards Game Over",
+        "effects": "Damages for 1/128 max HP every second, arrests ATB charge rate, can't act, resets ATB when set, counts towards Game Over",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "All except KO",
@@ -1142,6 +1142,26 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DAMAGE_BOOST_KNIGHT_115_25000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282104",
+        "commonName": "Spellblade +30% Boost",
+        "effects": "Spellblade abilities deal 30% more damage",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SPELLBLADE_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282105",
+        "commonName": "Knight +30% Boost",
+        "effects": "Knight abilities deal 30% more damage",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_KNIGHT_130_15000_MSEC",
         "notes": "-"
     },
     {
@@ -2875,7 +2895,7 @@
     },
     {
         "id": "50039",
-        "commonName": "Enlightnined Blade",
+        "commonName": "Enlightened Blade",
         "effects": "Grants Attach Fire/Ice/Lightning after taking Fire/Ice/Lightning damage from a BLK, WHT, BLU or SUM attack used by another ally",
         "defaultDuration": 15,
         "mndModifier": "-",
@@ -3680,6 +3700,56 @@
         "notes": "-"
     },
     {
+        "id": "50123",
+        "commonName": "EX_MODE_ADVENTURER",
+        "effects": "ATK +30%, casts Valiant Flame after using a Fire attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_ADVENTURER",
+        "notes": "-"
+    },
+    {
+        "id": "50124",
+        "commonName": "DUAL_CAST_FOR_SPELL_BLADE",
+        "effects": "Dualcasts Spellblade abilities consuming an extra ability use",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_SPELL_BLADE",
+        "notes": "-"
+    },
+    {
+        "id": "50125",
+        "commonName": "EX_MODE_MACHINERY",
+        "effects": "ATK +30%, Machinist cast speed x2,00, casts Poison/Fire/Lightning Debilitator after dealing Poison/Fire/Lightning damage with a Machinist ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_MACHINERY",
+        "notes": "-"
+    },
+    {
+        "id": "50126",
+        "commonName": "ABILITY_BOOST_FOR_MACHINIST_MAX_130",
+        "effects": "Machinist abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_MACHINIST_MAX_130",
+        "notes": "-"
+    },
+    {
+        "id": "50127",
+        "commonName": "CHASE_MODE_FOR_SHOCK_INPERIAL",
+        "effects": "Casts Sword Arts after using a Knight ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_SHOCK_INPERIAL",
+        "notes": "-"
+    },
+    {
         "id": "601",
         "commonName": "MAG +X%",
         "effects": "MAG +X%",
@@ -4277,7 +4347,7 @@
     },
     {
         "id": "6018",
-        "commonName": "Crimson Curse",
+        "commonName": "Thirsting Blade",
         "effects": "ATK +35%, DEF -35%",
         "defaultDuration": 25,
         "mndModifier": "-",

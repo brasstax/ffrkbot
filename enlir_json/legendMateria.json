@@ -773,7 +773,7 @@
     {
         "realm": "IV",
         "character": "Cecil (Dark Knight)",
-        "name": "Dark Knight's Dilemma",
+        "name": "Dark Knight's Honor",
         "effect": "Increases Dark damage dealt by ?%",
         "relic": "-",
         "name(jp)": "暗黒騎士の侠気"
@@ -781,7 +781,7 @@
     {
         "realm": "IV",
         "character": "Cecil (Dark Knight)",
-        "name": "Red-Blood Fangs",
+        "name": "Thirsting Fang",
         "effect": "?% chance of restoring HP to the user for ?% of the damage dealt with single-target Dark attacks",
         "relic": "-",
         "name(jp)": "赤き血の牙"
@@ -789,8 +789,8 @@
     {
         "realm": "IV",
         "character": "Cecil (Dark Knight)",
-        "name": "Blade of the Crimson Curse",
-        "effect": "Grants Last Stand and Crimson Curse when HP fall below 20%",
+        "name": "Thirsting Blade",
+        "effect": "Grants Last Stand and Thirsting Blade when HP fall below 20%",
         "master": "ATK +10",
         "relic": "Hades Armor (IV)",
         "name(jp)": "赤き呪いの剣",
@@ -1437,16 +1437,29 @@
     {
         "realm": "VI",
         "character": "Edgar",
-        "relic": "-"
+        "name": "Ladies Courtesy",
+        "effect": "Machinist abilities deal 15% more damage",
+        "relic": "-",
+        "name(jp)": "レディへの礼儀",
+        "✓": "✓"
     },
     {
         "realm": "VI",
         "character": "Edgar",
-        "relic": "-"
+        "name": "Young Ruler",
+        "effect": "?% chance to dualcast Machinist abilities",
+        "relic": "-",
+        "name(jp)": "国を統べる若き王"
     },
     {
         "realm": "VI",
-        "character": "Edgar"
+        "character": "Edgar",
+        "name": "Herald of Machinery",
+        "effect": "10% chance to dualcast Machinist abilities twice",
+        "master": "ATK +10",
+        "relic": "Genji Shield (VI)",
+        "name(jp)": "機械文明の牽引者",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -1671,16 +1684,27 @@
     {
         "realm": "VI",
         "character": "Leo",
-        "relic": "-"
+        "name": "Gestahl's Moral",
+        "effect": "Knight abilities deal ?% more damage",
+        "relic": "-",
+        "name(jp)": "ガストラ帝国の良心"
     },
     {
         "realm": "VI",
         "character": "Leo",
-        "relic": "-"
+        "name": "Martyr General",
+        "effect": "?% chance to dualcast Knight abilities",
+        "relic": "-",
+        "name(jp)": "信念に殉ずる将軍"
     },
     {
         "realm": "VI",
-        "character": "Leo"
+        "character": "Leo",
+        "name": "Hope for Peace",
+        "effect": "PHY attacks deal ?% more damage when equipping a sword",
+        "master": "ATK +10",
+        "relic": "Aegis Shield (VI)",
+        "name(jp)": "和平への希望"
     },
     {
         "realm": "VII",
@@ -1807,7 +1831,7 @@
     {
         "realm": "VII",
         "character": "Yuffie",
-        "name": "Hometown Nostalgy",
+        "name": "The Elder Ways",
         "effect": "Increases Water damage dealt by 10%",
         "relic": "-",
         "name(jp)": "故郷を想う少女",
@@ -1816,7 +1840,7 @@
     {
         "realm": "VII",
         "character": "Yuffie",
-        "name": "Speedy Ninja",
+        "name": "Keen Ninja",
         "effect": "35% chance to dualcast Ninja abilities",
         "relic": "-",
         "name(jp)": "抜け目ない忍者娘",
@@ -2683,7 +2707,7 @@
     {
         "realm": "X",
         "character": "Kimahri",
-        "name": "Resolved to Win",
+        "name": "Eye on Victory",
         "effect": "Increases Water damage dealt by ?%",
         "relic": "-",
         "name(jp)": "勝つと決めた"
@@ -2691,7 +2715,7 @@
     {
         "realm": "X",
         "character": "Kimahri",
-        "name": "Hornless's Pride",
+        "name": "Hornless Pride",
         "effect": "?% chance to counter enemy BLK attacks with an ability (group) that causes Imperil Water 10% for 15 seconds",
         "relic": "-",
         "name(jp)": "ツノ折れの誇り"
@@ -2699,7 +2723,7 @@
     {
         "realm": "X",
         "character": "Kimahri",
-        "name": "Spear's Anger",
+        "name": "Spear of Wrath",
         "effect": "PHY attacks deal 20% more damage when equipping a spear",
         "master": "ATK +10",
         "relic": "Thanatos Lance (X)",
@@ -3044,17 +3068,19 @@
         "realm": "XI",
         "character": "Zeid",
         "name": "Darkspawn Hunter",
-        "effect": "Increases Dark damage dealt by ?%",
+        "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "闇の血族を狩る者"
+        "name(jp)": "闇の血族を狩る者",
+        "✓": "✓"
     },
     {
         "realm": "XI",
         "character": "Zeid",
         "name": "Black Sword of the Galka",
-        "effect": "?% chance of restoring HP to the user for ?% of the damage dealt with single-target Dark attacks",
+        "effect": "40% chance of restoring HP to the user for 40% of the damage dealt with single-target Dark attacks",
         "relic": "-",
-        "name(jp)": "ガルカに伝わりし黒き秘剣"
+        "name(jp)": "ガルカに伝わりし黒き秘剣",
+        "✓": "✓"
     },
     {
         "realm": "XI",
@@ -4226,7 +4252,7 @@
     {
         "realm": "FFT",
         "character": "Gaffgarion",
-        "name": "Dark Knight's Rise",
+        "name": "Dark Expertise",
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "ダークナイトの本領",
@@ -4235,7 +4261,7 @@
     {
         "realm": "FFT",
         "character": "Gaffgarion",
-        "name": "Warforged Dark Knight",
+        "name": "Tested Knight",
         "effect": "25% chance of smart ether 1 to the user after using a Dark attack",
         "relic": "-",
         "name(jp)": "歴戦のダークナイト",
@@ -4336,7 +4362,7 @@
     {
         "realm": "FFT",
         "character": "Marche",
-        "name": "Reluctant Advance",
+        "name": "Indomitable Hope",
         "effect": "Increases Holy damage dealt by 10%",
         "relic": "-",
         "name(jp)": "迷いながらも進む意志",
@@ -4345,7 +4371,7 @@
     {
         "realm": "FFT",
         "character": "Marche",
-        "name": "Strength to Not Escape",
+        "name": "Inescapable Might",
         "effect": "35% chance to dualcast Knight abilities",
         "relic": "-",
         "name(jp)": "逃げない強さ",
@@ -4364,7 +4390,7 @@
     {
         "realm": "FFT",
         "character": "Montblanc",
-        "name": "Black Mage's Quality",
+        "name": "Black Mage Flair",
         "effect": "BLK attacks deal ?% more damage",
         "relic": "-",
         "name(jp)": "黒魔道士の資質"
@@ -4372,7 +4398,7 @@
     {
         "realm": "FFT",
         "character": "Montblanc",
-        "name": "Time Mage's Quality",
+        "name": "Time Mage Flair",
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "時魔道士の資質"
@@ -4607,9 +4633,10 @@
         "realm": "Type-0",
         "character": "King",
         "name": "Vermillion Guns",
-        "effect": "PHY attacks deal ?% more damage when equipping a gun",
+        "effect": "PHY attacks deal 10% more damage when equipping a gun",
         "relic": "-",
-        "name(jp)": "朱雀の二丁拳銃"
+        "name(jp)": "朱雀の二丁拳銃",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
@@ -4626,7 +4653,8 @@
         "effect": "Grants Attach Lightning at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Platinum Gloves (Type-0)",
-        "name(jp)": "内に秘めたる深情"
+        "name(jp)": "内に秘めたる深情",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
