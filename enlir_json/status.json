@@ -2303,7 +2303,7 @@
     },
     {
         "id": "575",
-        "commonName": "Armiger",
+        "commonName": "Armiger Mode",
         "effects": "ATK +30%, cast speed x3,00, removed if the user doesn't have any Stoneskin",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -2815,8 +2815,8 @@
     },
     {
         "id": "50031",
-        "commonName": "Dark Might Follow-Up",
-        "effects": "Casts Dark Might after dealing damage with a Darkness ability",
+        "commonName": "Everlasting Darkness Follow-Up",
+        "effects": "Casts Everlasting Darkness after dealing damage with a Darkness ability",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2875,8 +2875,8 @@
     },
     {
         "id": "50037",
-        "commonName": "Auto Judgement Bolt",
-        "effects": "Casts Judgment Bolt every 3,50 seconds",
+        "commonName": "Auto Storm's Retribution",
+        "effects": "Casts Storm's Retribution every 3,50 seconds",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Auto\" status",
@@ -2895,7 +2895,7 @@
     },
     {
         "id": "50039",
-        "commonName": "Enlightened Blade",
+        "commonName": "Shining Knight Mode",
         "effects": "Grants Attach Fire/Ice/Lightning after taking Fire/Ice/Lightning damage from a BLK, WHT, BLU or SUM attack used by another ally",
         "defaultDuration": 15,
         "mndModifier": "-",

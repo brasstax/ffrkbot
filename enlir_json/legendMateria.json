@@ -936,6 +936,28 @@
     },
     {
         "realm": "IV",
+        "relic": "-"
+    },
+    {
+        "realm": "IV",
+        "relic": "-"
+    },
+    {
+        "realm": "IV"
+    },
+    {
+        "realm": "IV",
+        "relic": "-"
+    },
+    {
+        "realm": "IV",
+        "relic": "-"
+    },
+    {
+        "realm": "IV"
+    },
+    {
+        "realm": "IV",
         "character": "Tellah",
         "name": "Keen Insight",
         "effect": "BLK attacks deal ?% more damage",
@@ -987,6 +1009,17 @@
         "relic": "Edge's Cloak (IV)",
         "name(jp)": "エブラーナの秘技",
         "✓": "✓"
+    },
+    {
+        "realm": "IV",
+        "relic": "-"
+    },
+    {
+        "realm": "IV",
+        "relic": "-"
+    },
+    {
+        "realm": "IV"
     },
     {
         "realm": "IV",
@@ -1071,6 +1104,17 @@
         "relic": "Ursula's Dress (IV)",
         "name(jp)": "強き背を追って",
         "✓": "✓"
+    },
+    {
+        "realm": "IV",
+        "relic": "-"
+    },
+    {
+        "realm": "IV",
+        "relic": "-"
+    },
+    {
+        "realm": "IV"
     },
     {
         "realm": "V",
@@ -1542,7 +1586,8 @@
         "effect": "Grants Attach Fire at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Cyan's Bracer (VI)",
-        "name(jp)": "己の信ずる道"
+        "name(jp)": "己の信ずる道",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -1701,10 +1746,11 @@
         "realm": "VI",
         "character": "Leo",
         "name": "Hope for Peace",
-        "effect": "PHY attacks deal ?% more damage when equipping a sword",
+        "effect": "PHY attacks deal 20% more damage when equipping a sword",
         "master": "ATK +10",
         "relic": "Aegis Shield (VI)",
-        "name(jp)": "和平への希望"
+        "name(jp)": "和平への希望",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -4000,6 +4046,20 @@
         "relic": "Gladiolus's Fatigues (XV)",
         "name(jp)": "若き統領の挟持",
         "✓": "✓"
+    },
+    {
+        "realm": "XV",
+        "character": "Ignis",
+        "relic": "-"
+    },
+    {
+        "realm": "XV",
+        "character": "Ignis",
+        "relic": "-"
+    },
+    {
+        "realm": "XV",
+        "character": "Ignis"
     },
     {
         "realm": "XV",

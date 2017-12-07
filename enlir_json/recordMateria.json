@@ -56,8 +56,11 @@
     {
         "realm": "Core",
         "character": "Warrior",
-        "effect": "PHY attacks deal ?% more damage when equipping a sword",
-        "unlockCriteria": "Bring Warrior to level 99"
+        "name": "Warrior's Honor",
+        "effect": "PHY attacks deal 30% more damage when equipping a sword",
+        "unlockCriteria": "Bring Warrior to level 99",
+        "name(jp)": "戦士の威信",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -80,8 +83,11 @@
     {
         "realm": "Core",
         "character": "Knight",
-        "effect": "DEF +?% when equipping a helm",
-        "unlockCriteria": "Bring Knight to level 99"
+        "name": "Sturdy Knight",
+        "effect": "DEF +25% when equipping a helm",
+        "unlockCriteria": "Bring Knight to level 99",
+        "name(jp)": "牢固なる騎士",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -140,7 +146,7 @@
     {
         "realm": "Core",
         "character": "Red Mage",
-        "name": "Universal Mage",
+        "name": "Mage-of-all-Trades",
         "effect": "Attack randomly turns into an ability (single, 2,60 magical) that deals Fire, Ice or Lightning damage or a single heal (39)",
         "unlockCriteria": "Bring Red Mage to level 99",
         "name(jp)": "万能の魔道士",
@@ -680,7 +686,7 @@
     {
         "realm": "Core",
         "character": "Ninja",
-        "name": "Shinobi's Secret",
+        "name": "Master Ninja",
         "effect": "Attack turns into an ability (group, 18,00 magical), that deals Fire damage and ignores RES",
         "unlockCriteria": "Bring Ninja to level 99",
         "name(jp)": "忍びの極意",
@@ -2080,6 +2086,21 @@
         "unlockCriteria": "Bring Ursula to level 99",
         "name(jp)": "極意を得し者",
         "✓": "✓"
+    },
+    {
+        "realm": "IV",
+        "character": "Barbariccia",
+        "unlockCriteria": "Use Barbariccia's Memory Crystal"
+    },
+    {
+        "realm": "IV",
+        "character": "Barbariccia",
+        "unlockCriteria": "Use Barbariccia's Memory Crystal II, chance to obtain with Barbariccia in party"
+    },
+    {
+        "realm": "IV",
+        "character": "Barbariccia",
+        "unlockCriteria": "Bring Barbariccia to level 99"
     },
     {
         "realm": "V",
@@ -4632,7 +4653,7 @@
         "realm": "XII",
         "character": "Fran",
         "name": "Art of the Barrage",
-        "effect": "16% chance to turn Attack into an ability (single, 2,80 physical) with four random attacks (0,70 each)",
+        "effect": "16% chance to turn Attack into an ability (single, 4,00 physical) with four random attacks (1,00 each)",
         "unlockCriteria": "Use Fran's Memory Crystal II, chance to obtain with Fran in party",
         "name(jp)": "連射の極意",
         "✓": "✓"
@@ -5440,6 +5461,21 @@
     },
     {
         "realm": "XV",
+        "character": "Ignis",
+        "unlockCriteria": "Use Ignis' Memory Crystal"
+    },
+    {
+        "realm": "XV",
+        "character": "Ignis",
+        "unlockCriteria": "Use Ignis' Memory Crystal II, chance to obtain with Ignis in party"
+    },
+    {
+        "realm": "XV",
+        "character": "Ignis",
+        "unlockCriteria": "Bring Ignis to level 99"
+    },
+    {
+        "realm": "XV",
         "character": "Prompto",
         "name": "Life of the Party",
         "effect": "ATK +10% when equipping a gun",
@@ -5810,7 +5846,7 @@
     {
         "realm": "FFT",
         "character": "Marche",
-        "name": "Face Reality",
+        "name": "Facing Reality",
         "effect": "Grants Sentinel at the beginning of the battle",
         "unlockCriteria": "Bring Marche to level 99",
         "name(jp)": "現実と向き合う覚悟",
@@ -5837,7 +5873,7 @@
     {
         "realm": "FFT",
         "character": "Montblanc",
-        "name": "Blanc Clan",
+        "name": "Fluffy Fortitude",
         "effect": "MAG +15% when equipping a robe",
         "unlockCriteria": "Bring Montblanc to level 99",
         "name(jp)": "白き者の一族",
