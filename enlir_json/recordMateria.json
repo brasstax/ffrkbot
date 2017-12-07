@@ -5462,16 +5462,19 @@
     {
         "realm": "XV",
         "character": "Ignis",
+        "effect": "PHY attacks deal ?% more damage when equipping a dagger",
         "unlockCriteria": "Use Ignis' Memory Crystal"
     },
     {
         "realm": "XV",
         "character": "Ignis",
+        "effect": "?% chance to counter PHY attacks with an ability (single, ? physical) that heals the user for ?% of the damage dealt",
         "unlockCriteria": "Use Ignis' Memory Crystal II, chance to obtain with Ignis in party"
     },
     {
         "realm": "XV",
         "character": "Ignis",
+        "effect": "PHY attacks deal ?% more damage when equipping a dagger",
         "unlockCriteria": "Bring Ignis to level 99"
     },
     {

@@ -1605,6 +1605,16 @@
         "notes": "-"
     },
     {
+        "id": "2057",
+        "commonName": "Short High Quick Cast",
+        "effects": "Cast speed x3,00",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_MSEC_ALL",
+        "notes": "-"
+    },
+    {
         "id": "501",
         "commonName": "MAG Boost",
         "effects": "MAG +25%",
@@ -3577,7 +3587,7 @@
         "id": "50109",
         "commonName": "Heavy Charge X",
         "effects": "Keeps track of the Heavy Charge level, up to level 2",
-        "defaultDuration": "-",
+        "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "HEAVY_CHARGE",
@@ -3747,6 +3757,66 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHASE_MODE_FOR_SHOCK_INPERIAL",
+        "notes": "-"
+    },
+    {
+        "id": "50130",
+        "commonName": "Ingredients X",
+        "effects": "Keeps track of the Ingredients level, up to level 2, removed if the user hasn't Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "POSSESS_COOKING_INGREDIENT",
+        "notes": "-"
+    },
+    {
+        "id": "50131",
+        "commonName": "Ingredients +1",
+        "effects": "Increases the Ingredients level by 1 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_COOKING_INGREDIENT_ADD_1",
+        "notes": "-"
+    },
+    {
+        "id": "50132",
+        "commonName": "Ingredients +2",
+        "effects": "Increases the Ingredients level by 2 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_COOKING_INGREDIENT_ADD_2",
+        "notes": "-"
+    },
+    {
+        "id": "50133",
+        "commonName": "Ingredients -1",
+        "effects": "Decreases the Ingredients level by 1 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_COOKING_INGREDIENT_MINUS_1",
+        "notes": "-"
+    },
+    {
+        "id": "50134",
+        "commonName": "Sagefire",
+        "effects": "Grants Quick Cast 1 to all allies in the character's row after using a Fire attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_SA_ABILITY_FOR_FLAME_OF_SAGE",
+        "notes": "-"
+    },
+    {
+        "id": "50135",
+        "commonName": "Dragon Boost Follow-Up",
+        "effects": "Casts Dragon Boost after dealing damage with a Dragoon ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_DRAGON_LEAP",
         "notes": "-"
     },
     {

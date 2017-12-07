@@ -479,7 +479,7 @@
         "target": "Single enemy",
         "formula": "Physical",
         "multiplier": "?",
-        "element": "Earth, Holy",
+        "element": "Earth, Holy, NE",
         "time": "?",
         "effects": "Four single attacks (? each)",
         "counter": "?",
@@ -902,6 +902,22 @@
         "sb": 0,
         "school": "Black Magic",
         "✓": "✓"
+    },
+    {
+        "character": "Status",
+        "source": "Dragon Boost Follow-Up",
+        "name": "Dragon Boost",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Lightning, Dark, NE",
+        "time": "?",
+        "effects": "Five single ranged attacks (? each)",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
     },
     {
         "character": "Status",

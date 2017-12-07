@@ -2409,7 +2409,7 @@
     {
         "realm": "IX",
         "character": "Garnet",
-        "name": "Secret Identity",
+        "name": "Hidden Lineage",
         "effect": "SUM attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "秘められた素性",
@@ -2418,7 +2418,7 @@
     {
         "realm": "IX",
         "character": "Garnet",
-        "name": "Unwavering Princess",
+        "name": "Doubt Abandoned",
         "effect": "Restores HP for 100% of the user's maximum HP and grants Garnet Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "迷いを捨てた美姫",
@@ -2549,7 +2549,7 @@
     {
         "realm": "IX",
         "character": "Eiko",
-        "name": "Aspirant Lady",
+        "name": "Aspiring Lady",
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "レディへの憧れ",
@@ -2558,7 +2558,7 @@
     {
         "realm": "IX",
         "character": "Eiko",
-        "name": "Protection of Madain Sari",
+        "name": "Ward of Madain Sari",
         "effect": "Restores HP for 100% of the user's maximum HP and grants Eiko Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "マダイン・サリの加護",
@@ -4050,16 +4050,23 @@
     {
         "realm": "XV",
         "character": "Ignis",
+        "effect": "Increases Fire damage dealt by ?%",
         "relic": "-"
     },
     {
         "realm": "XV",
         "character": "Ignis",
+        "effect": "?% chance to dualcast abilities that deal Fire damage",
         "relic": "-"
     },
     {
         "realm": "XV",
-        "character": "Ignis"
+        "character": "Ignis",
+        "name": "Serious Chef",
+        "effect": "Grants Quick Cast 3 at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Ignis's Fatigues (XV)",
+        "name(jp)": "生真面目な料理人"
     },
     {
         "realm": "XV",
