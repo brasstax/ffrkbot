@@ -2172,7 +2172,7 @@
         "realm": "VIII",
         "character": "Zell",
         "name": "Untamed Spirit",
-        "effect": "Grants Critical Chance 50% at the beginning of the battle",
+        "effect": "Grants Critical Damage +50% at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Zell's Jacket (VIII)",
         "name(jp)": "暴れん坊の気迫",
@@ -4050,14 +4050,20 @@
     {
         "realm": "XV",
         "character": "Ignis",
-        "effect": "Increases Fire damage dealt by ?%",
-        "relic": "-"
+        "name": "Wise Youth",
+        "effect": "Increases Fire damage dealt by 10%",
+        "relic": "-",
+        "name(jp)": "若き賢者",
+        "✓": "✓"
     },
     {
         "realm": "XV",
         "character": "Ignis",
-        "effect": "?% chance to dualcast abilities that deal Fire damage",
-        "relic": "-"
+        "name": "Flame for the King",
+        "effect": "35% chance to dualcast abilities that deal Fire damage",
+        "relic": "-",
+        "name(jp)": "王を照らす炎",
+        "✓": "✓"
     },
     {
         "realm": "XV",
@@ -4066,7 +4072,8 @@
         "effect": "Grants Quick Cast 3 at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Ignis's Fatigues (XV)",
-        "name(jp)": "生真面目な料理人"
+        "name(jp)": "生真面目な料理人",
+        "✓": "✓"
     },
     {
         "realm": "XV",
