@@ -4058,7 +4058,7 @@
     {
         "realm": "IX",
         "character": "Marcus",
-        "name": "Polite Robber",
+        "name": "Noble Thief",
         "effect": "Grants Haste at the beginning of the battle, ATK and DEF +10%",
         "unlockCriteria": "Bring Marcus to level 99",
         "name(jp)": "礼儀正しき盗賊",
@@ -5472,15 +5472,19 @@
         "realm": "XV",
         "character": "Ignis",
         "name": "Royal Tutor",
-        "effect": "?% chance to counter PHY attacks with an ability (single, ? physical) that heals the user for ?% of the damage dealt",
+        "effect": "15% chance to counter PHY attacks with an ability (single, 1,00 physical) that heals the user for 30% of the damage dealt",
         "unlockCriteria": "Use Ignis' Memory Crystal II, chance to obtain with Ignis in party",
-        "name(jp)": "王族の側仕え"
+        "name(jp)": "王族の側仕え",
+        "✓": "✓"
     },
     {
         "realm": "XV",
         "character": "Ignis",
-        "effect": "PHY attacks deal ?% more damage when equipping a dagger",
-        "unlockCriteria": "Bring Ignis to level 99"
+        "name": "Reliable Strategist",
+        "effect": "PHY attacks deal 30% more damage when equipping a dagger",
+        "unlockCriteria": "Bring Ignis to level 99",
+        "name(jp)": " 有望なる軍師 ",
+        "✓": "✓"
     },
     {
         "realm": "XV",

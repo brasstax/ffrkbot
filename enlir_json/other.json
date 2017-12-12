@@ -2832,6 +2832,23 @@
         "✓": "✓"
     },
     {
+        "character": "Ignis",
+        "source": "Royal Tutor",
+        "name": "Royal Tutor",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1,
+        "element": "-",
+        "time": 1.65,
+        "effects": "Heals to the user for 30% of the damage dealt",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Special",
+        "✓": "✓"
+    },
+    {
         "character": "Iris",
         "source": "The Two of Us",
         "name": "Attack",

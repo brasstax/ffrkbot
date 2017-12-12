@@ -5692,7 +5692,7 @@
     {
         "character": "Marcus",
         "source": "Poison Impulse",
-        "name": "Magic Poison",
+        "name": "Poisoned Magic",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -5711,7 +5711,7 @@
     {
         "character": "Marcus",
         "source": "Poison Impulse",
-        "name": "Armor Poison",
+        "name": "Poisoned Armor",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
