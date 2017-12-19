@@ -7330,7 +7330,7 @@
     {
         "character": "Snow",
         "source": "A Hero Rides",
-        "name": "Diamond Turn",
+        "name": "Spinning Diamond",
         "type": "PHY",
         "target": "All enemies",
         "formula": "Physical",
@@ -7669,7 +7669,7 @@
     {
         "character": "Serah",
         "source": "Eternity Umpromised",
-        "name": "Artemis Turn",
+        "name": "Artemis Spin",
         "type": "BLK",
         "target": "All enemies",
         "formula": "Magical",
@@ -7771,7 +7771,7 @@
         "multiplier": 1.56,
         "element": "Ice, NE",
         "time": 1.65,
-        "effects": "3/4/5/6 single attacks (0,52 each) sclaing with uses",
+        "effects": "3/4/5/6 single attacks (0,52 each) scaling with uses",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,

@@ -57,6 +57,15 @@
     },
     {
         "realm": "I",
+        "character": "Warrior of Light",
+        "name": "Righteous Spirit",
+        "effect": "Grants Attach Holy at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Flame Shield (I)",
+        "name(jp)": "正義を信じぬく心"
+    },
+    {
+        "realm": "I",
         "character": "Garland",
         "name": "Embracer of the Dark",
         "effect": "Increases Dark damage dealt by 10%",
@@ -2864,17 +2873,19 @@
         "realm": "X",
         "character": "Braska",
         "name": "Softspoken Summoner",
-        "effect": "Increases Fire damage dealt by ?%",
+        "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "穏便な大召喚士"
+        "name(jp)": "穏便な大召喚士",
+        "✓": "✓"
     },
     {
         "realm": "X",
         "character": "Braska",
         "name": "High Summoner's Wish",
-        "effect": "?% chance to dualcast Summoning abilities",
+        "effect": "35% chance to dualcast Summoning abilities",
         "relic": "-",
-        "name(jp)": "大召喚士の悲願"
+        "name(jp)": "大召喚士の悲願",
+        "✓": "✓"
     },
     {
         "realm": "X",
@@ -3520,7 +3531,7 @@
     {
         "realm": "XIII",
         "character": "Sazh",
-        "name": "Cheerful Father",
+        "name": "Happy Pappy",
         "effect": "Support abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "陽気な父ちゃん",
@@ -3529,7 +3540,7 @@
     {
         "realm": "XIII",
         "character": "Sazh",
-        "name": "Love for the Son",
+        "name": "Fatherly Love",
         "effect": "Increases the duration of stat buffs by 40%",
         "relic": "-",
         "name(jp)": "息子への想い",
@@ -3548,7 +3559,7 @@
     {
         "realm": "XIII",
         "character": "Hope",
-        "name": "Love for the Mother",
+        "name": "Maternal Memory",
         "effect": "Increases Holy damage dealt by 10%",
         "relic": "-",
         "name(jp)": "母への想い",
@@ -3557,7 +3568,7 @@
     {
         "realm": "XIII",
         "character": "Hope",
-        "name": "Hope Beyond Love and Hate",
+        "name": "Beyond Love and Hate",
         "effect": "35% chance to dualcast abilities that deal Holy damage",
         "relic": "-",
         "name(jp)": "恩讐を越える希望",
@@ -3601,7 +3612,7 @@
     {
         "realm": "XIII",
         "character": "Serah",
-        "name": "Wish for Reunion",
+        "name": "Undaunted Hope",
         "effect": "Increases Ice damage dealt by 10%",
         "relic": "-",
         "name(jp)": "再会への願い",
@@ -3610,7 +3621,7 @@
     {
         "realm": "XIII",
         "character": "Serah",
-        "name": "Traveler Beyond Time",
+        "name": "Time Traveller",
         "effect": "MAG +1% for each hit dealt with BLK attacks that deal Ice damage, up to +30%",
         "relic": "-",
         "name(jp)": "時を超える旅人",
@@ -3657,7 +3668,7 @@
     {
         "realm": "XIII",
         "character": "Noel",
-        "name": "Hunter from the Future",
+        "name": "Hunter from Tomorrow",
         "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "未来から来たハンター",
@@ -3666,7 +3677,7 @@
     {
         "realm": "XIII",
         "character": "Noel",
-        "name": "Resolve to Change History",
+        "name": "Rewriting History",
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "歴史を変える覚悟",

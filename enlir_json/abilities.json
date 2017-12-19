@@ -17,6 +17,7 @@
         "orb1Required": "Minor Black",
         "orb2Required": "Minor Fire",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ファイア",
         "id": "30111001",
         "✓": "✓"
     },
@@ -38,6 +39,7 @@
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Fire",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ファイラ",
         "id": "30111002",
         "✓": "✓"
     },
@@ -59,6 +61,7 @@
         "orb1Required": "Black",
         "orb2Required": "Fire",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "ファイガ",
         "id": "30111003",
         "✓": "✓"
     },
@@ -80,6 +83,7 @@
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Fire",
         "introducingEvent": "Operation Mi'ihen",
+        "name(jp)": "ファイジャ",
         "id": "30111004",
         "✓": "✓"
     },
@@ -101,6 +105,7 @@
         "orb1Required": "Minor Black",
         "orb2Required": "Minor Ice",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ブリザド",
         "id": "30111011",
         "✓": "✓"
     },
@@ -122,6 +127,7 @@
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Ice",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ブリザラ",
         "id": "30111012",
         "✓": "✓"
     },
@@ -143,6 +149,7 @@
         "orb1Required": "Black",
         "orb2Required": "Ice",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "ブリザガ",
         "id": "30111013",
         "✓": "✓"
     },
@@ -164,6 +171,7 @@
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Ice",
         "introducingEvent": "Operation Mi'ihen",
+        "name(jp)": "ブリザジャ",
         "id": "30111014",
         "✓": "✓"
     },
@@ -185,6 +193,7 @@
         "orb1Required": "Minor Black",
         "orb2Required": "Minor Lightning",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "サンダー",
         "id": "30111021",
         "✓": "✓"
     },
@@ -206,6 +215,7 @@
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Lightning",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "サンダラ",
         "id": "30111022",
         "✓": "✓"
     },
@@ -227,6 +237,7 @@
         "orb1Required": "Black",
         "orb2Required": "Lightning",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "サンダガ",
         "id": "30111023",
         "✓": "✓"
     },
@@ -248,6 +259,7 @@
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Lightning",
         "introducingEvent": "The Pulse Fal'Cie",
+        "name(jp)": "サンダジャ",
         "id": "30111024",
         "✓": "✓"
     },
@@ -270,6 +282,7 @@
         "orb2Required": "Minor Fire",
         "orb3Required": "Minor Ice",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ウォータ",
         "id": "30111031",
         "✓": "✓"
     },
@@ -292,6 +305,7 @@
         "orb2Required": "Lesser Fire",
         "orb3Required": "Lesser Ice",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ウォタラ",
         "id": "30111032",
         "✓": "✓"
     },
@@ -314,6 +328,7 @@
         "orb2Required": "Fire",
         "orb3Required": "Ice",
         "introducingEvent": "Dungeons Update #4",
+        "name(jp)": "ウォタガ",
         "id": "30111033",
         "✓": "✓"
     },
@@ -336,6 +351,7 @@
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Ice",
         "introducingEvent": "The Dreadnought Leviathan",
+        "name(jp)": "ウォタジャ",
         "id": "30111034",
         "✓": "✓"
     },
@@ -358,6 +374,7 @@
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Dark",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "バイオ",
         "id": "30111041",
         "✓": "✓"
     },
@@ -380,6 +397,7 @@
         "orb1Required": "Black",
         "orb2Required": "Dark",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "バイオラ",
         "id": "30111042",
         "✓": "✓"
     },
@@ -402,6 +420,7 @@
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Dark",
         "introducingEvent": "Man in Black",
+        "name(jp)": "バイオガ",
         "id": "30111043",
         "✓": "✓"
     },
@@ -424,6 +443,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Dark",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "ダーク",
         "id": "30111051",
         "✓": "✓"
     },
@@ -446,6 +466,7 @@
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Dark",
         "introducingEvent": "Third Pilgrimage",
+        "name(jp)": "ダーラ",
         "id": "30111052",
         "✓": "✓"
     },
@@ -466,6 +487,7 @@
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Dark",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "デス",
         "id": "30111061",
         "✓": "✓"
     },
@@ -489,6 +511,7 @@
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Fire",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "フレア",
         "id": "30111071",
         "✓": "✓"
     },
@@ -509,6 +532,7 @@
         "orb2Required": "Minor Ice",
         "orb3Required": "Minor Dark",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "スリプル",
         "id": "30111081",
         "✓": "✓"
     },
@@ -528,6 +552,7 @@
         "orb1Required": "Minor Black",
         "orb2Required": "Minor Dark",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ポイズン",
         "id": "30111091",
         "✓": "✓"
     },
@@ -547,6 +572,7 @@
         "orb1Required": "Minor Black",
         "orb2Required": "Minor Dark",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "コンフュ",
         "id": "30111101",
         "✓": "✓"
     },
@@ -567,6 +593,7 @@
         "orb2Required": "Lightning",
         "orb3Required": "Dark",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "グラビデ",
         "id": "30111111",
         "✓": "✓"
     },
@@ -587,6 +614,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Dark",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ストップ",
         "id": "30111121",
         "✓": "✓"
     },
@@ -609,6 +637,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Earth",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "コメット",
         "id": "30111131",
         "✓": "✓"
     },
@@ -629,6 +658,7 @@
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Earth",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ブレイク",
         "id": "30111141",
         "✓": "✓"
     },
@@ -651,6 +681,7 @@
         "orb2Required": "Greater Earth",
         "orb3Required": "Greater Dark",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "クエイク",
         "id": "30111151",
         "✓": "✓"
     },
@@ -672,6 +703,7 @@
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Fire",
         "introducingEvent": "Evil of Mardias",
+        "name(jp)": "ファイアボール",
         "id": "30111161",
         "✓": "✓"
     },
@@ -693,6 +725,7 @@
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Ice",
         "introducingEvent": "Evil of Mardias",
+        "name(jp)": "レインコール",
         "id": "30111171",
         "✓": "✓"
     },
@@ -717,6 +750,7 @@
         "orb3Required": "Major Fire",
         "orb4Required": "Major Earth",
         "introducingEvent": "Man in Black",
+        "name(jp)": "メテオ",
         "id": "30111181",
         "✓": "✓"
     },
@@ -736,6 +770,7 @@
         "orb1Required": "Minor Black",
         "orb2Required": "Minor Dark",
         "introducingEvent": "Touched by Magic",
+        "name(jp)": "ブライン",
         "id": "30111201",
         "✓": "✓"
     },
@@ -755,6 +790,7 @@
         "orb1Required": "Black",
         "orb2Required": "Dark",
         "introducingEvent": "Touched by Magic",
+        "name(jp)": "ブライガ",
         "id": "30111202",
         "✓": "✓"
     },
@@ -777,6 +813,7 @@
         "orb2Required": "Lesser Holy",
         "orb3Required": "Lesser Dark",
         "introducingEvent": "Chasing Hope",
+        "name(jp)": "ルイン",
         "id": "30111211",
         "✓": "✓"
     },
@@ -799,6 +836,7 @@
         "orb2Required": "Greater Holy",
         "orb3Required": "Greater Dark",
         "introducingEvent": "Chasing Hope",
+        "name(jp)": "ルインガ",
         "id": "30111213",
         "✓": "✓"
     },
@@ -820,6 +858,7 @@
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Ice",
         "introducingEvent": "Dungeons Update #13",
+        "name(jp)": "陽気なスノーボール",
         "id": "30111221",
         "✓": "✓"
     },
@@ -841,6 +880,7 @@
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Lightning",
         "introducingEvent": "Dungeons Update #16",
+        "name(jp)": "いかずち",
         "id": "30111231",
         "✓": "✓"
     },
@@ -865,6 +905,7 @@
         "orb3Required": "Fire Crystal",
         "orb4Required": "Ultima Record",
         "introducingEvent": "Ultima Record",
+        "name(jp)": "アルテマ",
         "id": "30111241",
         "✓": "✓"
     },
@@ -889,6 +930,7 @@
         "orb3Required": "Earth Crystal",
         "orb4Required": "Meltdown Record",
         "introducingEvent": "Meltdown Record",
+        "name(jp)": "メルトン",
         "id": "30111251",
         "✓": "✓"
     },
@@ -912,6 +954,7 @@
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Ice",
         "introducingEvent": "Go Go Gullwings!",
+        "name(jp)": "連続ブリザガ",
         "id": "30111261",
         "✓": "✓"
     },
@@ -935,6 +978,7 @@
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Fire",
         "introducingEvent": "Friendship Ribbon",
+        "name(jp)": "連続ファイガ",
         "id": "30111271",
         "✓": "✓"
     },
@@ -956,6 +1000,7 @@
         "orb1Required": "Minor Black",
         "orb2Required": "Minor Earth",
         "introducingEvent": "Thorns of the Rose",
+        "name(jp)": "ストーン",
         "id": "30111291",
         "✓": "✓"
     },
@@ -977,6 +1022,7 @@
         "orb1Required": "Lesser Black",
         "orb2Required": "Lesser Earth",
         "introducingEvent": "Thorns of the Rose",
+        "name(jp)": "ストンラ",
         "id": "30111292",
         "✓": "✓"
     },
@@ -998,6 +1044,7 @@
         "orb1Required": "Black",
         "orb2Required": "Earth",
         "introducingEvent": "Thorns of the Rose",
+        "name(jp)": "ストンガ",
         "id": "30111293",
         "✓": "✓"
     },
@@ -1019,6 +1066,7 @@
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Earth",
         "introducingEvent": "Thorns of the Rose",
+        "name(jp)": "ストンジャ",
         "id": "30111294",
         "✓": "✓"
     },
@@ -1042,6 +1090,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
         "introducingEvent": "Thorns of the Rose",
+        "name(jp)": "連続ストンガ",
         "id": "30111295",
         "✓": "✓"
     },
@@ -1065,6 +1114,7 @@
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
         "introducingEvent": "Heir of the Dynast-King",
+        "name(jp)": "連続サンダガ",
         "id": "30111301",
         "✓": "✓"
     },
@@ -1088,6 +1138,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
         "introducingEvent": "The Lion Wakes",
+        "name(jp)": "連続バイオラ",
         "id": "30111311",
         "✓": "✓"
     },
@@ -1111,6 +1162,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Ice",
         "introducingEvent": "Scouring the Dephts",
+        "name(jp)": "連続ウォタガ",
         "id": "30111321",
         "✓": "✓"
     },
@@ -1133,6 +1185,7 @@
         "orb1Required": "Black",
         "orb2Required": "Dark",
         "introducingEvent": "Magitek Facility Infiltration",
+        "name(jp)": "ドレイン",
         "id": "30991001",
         "✓": "✓"
     },
@@ -1155,6 +1208,7 @@
         "orb1Required": "Greater Black",
         "orb2Required": "Greater Dark",
         "introducingEvent": "Touched by Magic",
+        "name(jp)": "ドレイガ",
         "id": "30991003",
         "✓": "✓"
     },
@@ -1177,6 +1231,7 @@
         "orb1Required": "Minor White",
         "orb2Required": "Minor Holy",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ケアル",
         "id": "30121001",
         "✓": "✓"
     },
@@ -1199,6 +1254,7 @@
         "orb1Required": "Lesser White",
         "orb2Required": "Lesser Holy",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ケアルラ",
         "id": "30121002",
         "✓": "✓"
     },
@@ -1222,6 +1278,7 @@
         "orb2Required": "Wind",
         "orb3Required": "Holy",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ケアルダ",
         "id": "30121003",
         "✓": "✓"
     },
@@ -1245,6 +1302,7 @@
         "orb2Required": "Greater Wind",
         "orb3Required": "Greater Holy",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "ケアルガ",
         "id": "30121004",
         "✓": "✓"
     },
@@ -1269,6 +1327,7 @@
         "orb3Required": "Holy Crystal",
         "orb4Required": "Curada Record",
         "introducingEvent": "Curada Record",
+        "name(jp)": "ケアルジャ",
         "id": "30121005",
         "✓": "✓"
     },
@@ -1288,6 +1347,7 @@
         "orb1Required": "Minor White",
         "orb2Required": "Minor Ice",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ボキャル",
         "id": "30121010",
         "✓": "✓"
     },
@@ -1307,6 +1367,7 @@
         "orb1Required": "Minor White",
         "orb2Required": "Minor Dark",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ポイゾナ",
         "id": "30121020",
         "✓": "✓"
     },
@@ -1326,6 +1387,7 @@
         "orb1Required": "Minor White",
         "orb2Required": "Minor Dark",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ブラナ",
         "id": "30121030",
         "✓": "✓"
     },
@@ -1345,6 +1407,7 @@
         "orb1Required": "Minor White",
         "orb2Required": "Minor Earth",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "プロテス",
         "id": "30121040",
         "✓": "✓"
     },
@@ -1364,6 +1427,7 @@
         "orb1Required": "Greater White",
         "orb2Required": "Greater Earth",
         "introducingEvent": "Magitek Facility Infiltration",
+        "name(jp)": "プロテガ",
         "id": "30121042",
         "✓": "✓"
     },
@@ -1384,6 +1448,7 @@
         "orb2Required": "Minor Earth",
         "orb3Required": "Minor Holy",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "シェル",
         "id": "30121051",
         "✓": "✓"
     },
@@ -1404,6 +1469,7 @@
         "orb2Required": "Greater Earth",
         "orb3Required": "Greater Holy",
         "introducingEvent": "The Battle Arena",
+        "name(jp)": "シェルガ",
         "id": "30121052",
         "✓": "✓"
     },
@@ -1423,6 +1489,7 @@
         "orb1Required": "Minor White",
         "orb2Required": "Minor Ice",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "サイレス",
         "id": "30121061",
         "✓": "✓"
     },
@@ -1442,6 +1509,7 @@
         "orb1Required": "White",
         "orb2Required": "Ice",
         "introducingEvent": "Magitek Facility Infiltration",
+        "name(jp)": "サイレガ",
         "id": "30121062",
         "✓": "✓"
     },
@@ -1461,6 +1529,7 @@
         "orb1Required": "Minor White",
         "orb2Required": "Minor Wind",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "スロウ",
         "id": "30121071",
         "✓": "✓"
     },
@@ -1480,6 +1549,7 @@
         "orb1Required": "Greater White",
         "orb2Required": "Greater Wind",
         "introducingEvent": "Magitek Facility Infiltration",
+        "name(jp)": "スロウガ",
         "id": "30121072",
         "✓": "✓"
     },
@@ -1499,6 +1569,7 @@
         "orb1Required": "Lesser White",
         "orb2Required": "Lesser Holy",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "リジェネ",
         "id": "30121081",
         "✓": "✓"
     },
@@ -1518,6 +1589,7 @@
         "orb1Required": "Lesser White",
         "orb2Required": "Lesser Earth",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ストナ",
         "id": "30121091",
         "✓": "✓"
     },
@@ -1537,6 +1609,7 @@
         "orb1Required": "White",
         "orb2Required": "Wind",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ヘイスト",
         "id": "30121101",
         "✓": "✓"
     },
@@ -1557,6 +1630,7 @@
         "orb2Required": "Wind",
         "orb3Required": "Holy",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "エスナ",
         "id": "30121111",
         "✓": "✓"
     },
@@ -1576,6 +1650,7 @@
         "orb1Required": "Greater White",
         "orb2Required": "Greater Holy",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "レイズ",
         "id": "30121121",
         "✓": "✓"
     },
@@ -1599,6 +1674,7 @@
         "orb2Required": "Major Ice",
         "orb3Required": "Major Holy",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "ホーリー",
         "id": "30121131",
         "✓": "✓"
     },
@@ -1619,6 +1695,7 @@
         "orb2Required": "Lesser Earth",
         "orb3Required": "Lesser Holy",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "ホールド",
         "id": "30121141",
         "✓": "✓"
     },
@@ -1641,6 +1718,7 @@
         "orb2Required": "Lesser Wind",
         "orb3Required": "Lesser Holy",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "ディア",
         "id": "30121161",
         "✓": "✓"
     },
@@ -1663,6 +1741,7 @@
         "orb2Required": "Wind",
         "orb3Required": "Holy",
         "introducingEvent": "Marriage of Convenience",
+        "name(jp)": "アディア",
         "id": "30121162",
         "✓": "✓"
     },
@@ -1685,6 +1764,7 @@
         "orb2Required": "Greater Wind",
         "orb3Required": "Greater Holy",
         "introducingEvent": "Footsteps of the Cetra",
+        "name(jp)": "ダディア",
         "id": "30121164",
         "✓": "✓"
     },
@@ -1705,6 +1785,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Holy",
         "introducingEvent": "Man in Black",
+        "name(jp)": "デスペル",
         "id": "30121171",
         "✓": "✓"
     },
@@ -1724,6 +1805,7 @@
         "orb1Required": "White",
         "orb2Required": "Non-Elemental",
         "introducingEvent": "Dungeons Update #4",
+        "name(jp)": "バーサク",
         "id": "30121181",
         "✓": "✓"
     },
@@ -1743,6 +1825,7 @@
         "orb1Required": "Power",
         "orb2Required": "White",
         "introducingEvent": "Evil of Mardias",
+        "name(jp)": "力の水",
         "id": "30121191",
         "✓": "✓"
     },
@@ -1762,6 +1845,7 @@
         "orb1Required": "White",
         "orb2Required": "Dark",
         "introducingEvent": "Footsteps of the Cetra",
+        "name(jp)": "フェイス",
         "id": "30121203",
         "✓": "✓"
     },
@@ -1785,6 +1869,7 @@
         "orb2Required": "Wind",
         "orb3Required": "Holy",
         "introducingEvent": "Dungeons Update #13",
+        "name(jp)": "セラピーケアル",
         "id": "30121211",
         "✓": "✓"
     },
@@ -1805,6 +1890,7 @@
         "orb2Required": "Earth",
         "orb3Required": "Holy",
         "introducingEvent": "Dungeons Update #16",
+        "name(jp)": "祈りのメメント",
         "id": "30121221",
         "✓": "✓"
     },
@@ -1825,6 +1911,7 @@
         "orb2Required": "Major Wind",
         "orb3Required": "Major Holy",
         "introducingEvent": "Seer of Destiny",
+        "name(jp)": "アレイズ",
         "id": "30121231",
         "✓": "✓"
     },
@@ -1846,6 +1933,7 @@
         "orb3Required": "Holy Crystal",
         "orb4Required": "Reraise Record",
         "introducingEvent": "Reraise Record",
+        "name(jp)": "リレイズ",
         "id": "30121241",
         "✓": "✓"
     },
@@ -1869,6 +1957,7 @@
         "orb2Required": "Greater Wind",
         "orb3Required": "Greater Holy",
         "introducingEvent": "The Miraculous Artist",
+        "name(jp)": "マレイズ",
         "id": "30121251",
         "✓": "✓"
     },
@@ -1892,6 +1981,7 @@
         "orb2Required": "Major Wind",
         "orb3Required": "Major Holy",
         "introducingEvent": "A Dream for Spira",
+        "name(jp)": "ウルトラキュアー",
         "id": "30121291",
         "✓": "✓"
     },
@@ -1912,6 +2002,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Holy",
         "introducingEvent": "Engraving Our Names",
+        "name(jp)": "グレイス",
         "id": "30121301",
         "✓": "✓"
     },
@@ -1935,6 +2026,7 @@
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Holy",
         "introducingEvent": "Vermillion Youths",
+        "name(jp)": "デディア",
         "id": "30121311",
         "✓": "✓"
     },
@@ -1954,6 +2046,7 @@
         "orb1Required": "White",
         "orb2Required": "Holy",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "リフレク",
         "id": "30991002",
         "✓": "✓"
     },
@@ -1976,6 +2069,7 @@
         "orb1Required": "Minor Power",
         "orb2Required": "Minor Lightning",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "みねうち",
         "id": "30151011",
         "✓": "✓"
     },
@@ -1998,6 +2092,7 @@
         "orb1Required": "Minor Power",
         "orb2Required": "Minor Non-Elemental",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "体当たり",
         "id": "30151021",
         "✓": "✓"
     },
@@ -2019,6 +2114,7 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Non-Elemental",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "チャージ",
         "id": "30151031",
         "✓": "✓"
     },
@@ -2041,6 +2137,7 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Wind",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "連続斬り",
         "id": "30151041",
         "✓": "✓"
     },
@@ -2062,6 +2159,7 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Wind",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ぜんぎり",
         "id": "30151051",
         "✓": "✓"
     },
@@ -2085,6 +2183,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Dark",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "マジックブレイク",
         "id": "30151061",
         "✓": "✓"
     },
@@ -2108,6 +2207,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Earth",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "アーマーブレイク",
         "id": "30151071",
         "✓": "✓"
     },
@@ -2131,6 +2231,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Lightning",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "パワーブレイク",
         "id": "30151081",
         "✓": "✓"
     },
@@ -2154,6 +2255,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Ice",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "メンタルブレイク",
         "id": "30151091",
         "✓": "✓"
     },
@@ -2177,6 +2279,7 @@
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Earth",
         "introducingEvent": "Festival of Gold",
+        "name(jp)": "叩き潰す",
         "id": "30151101",
         "✓": "✓"
     },
@@ -2200,6 +2303,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Wind",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "みだれうち",
         "id": "30151111",
         "✓": "✓"
     },
@@ -2220,6 +2324,7 @@
         "orb2Required": "Fire",
         "orb3Required": "Earth",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "ぶちかます",
         "id": "30151121",
         "✓": "✓"
     },
@@ -2243,6 +2348,7 @@
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Dark",
         "introducingEvent": "Evil of Mardias",
+        "name(jp)": "邪剣波",
         "id": "30151131",
         "✓": "✓"
     },
@@ -2265,6 +2371,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Wind",
         "introducingEvent": "Lightning Strikes",
+        "name(jp)": "スマッシュアッパー",
         "id": "30151141",
         "✓": "✓"
     },
@@ -2288,6 +2395,7 @@
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Dark",
         "introducingEvent": "Lost Memories",
+        "name(jp)": "肉斬骨断",
         "id": "30151151",
         "✓": "✓"
     },
@@ -2312,6 +2420,7 @@
         "orb3Required": "Earth Crystal",
         "orb4Required": "Crushdown Record",
         "introducingEvent": "Crushdown Record",
+        "name(jp)": "クラッシュダウン",
         "id": "30151161",
         "✓": "✓"
     },
@@ -2335,6 +2444,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Wind",
         "introducingEvent": "Window on the Past",
+        "name(jp)": "フルチャージ",
         "id": "30151171",
         "✓": "✓"
     },
@@ -2358,6 +2468,7 @@
         "orb2Required": "White",
         "orb3Required": "Non-Elemental",
         "introducingEvent": "Ward of the Four Crystals",
+        "name(jp)": "マインドブレイク",
         "id": "30151181",
         "✓": "✓"
     },
@@ -2382,6 +2493,7 @@
         "orb3Required": "Dark Crystal",
         "orb4Required": "Omega Drive Record",
         "introducingEvent": "Omega Drive Record",
+        "name(jp)": "オメガドライブ",
         "id": "30151191",
         "✓": "✓"
     },
@@ -2405,6 +2517,7 @@
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Wind",
         "introducingEvent": "Fang's Oath",
+        "name(jp)": "エンドアスピル",
         "id": "30171111",
         "✓": "✓"
     },
@@ -2424,6 +2537,7 @@
         "orb1Required": "Minor Power",
         "orb2Required": "Minor Holy",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "手当て",
         "id": "30161011",
         "✓": "✓"
     },
@@ -2443,6 +2557,7 @@
         "orb1Required": "Minor Power",
         "orb2Required": "Minor Holy",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "おうえん",
         "id": "30161021",
         "✓": "✓"
     },
@@ -2462,6 +2577,7 @@
         "orb1Required": "Power",
         "orb2Required": "Lightning",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "いあつ",
         "id": "30161031",
         "✓": "✓"
     },
@@ -2484,6 +2600,7 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Ice",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "スリプルアタック",
         "id": "30161041",
         "✓": "✓"
     },
@@ -2506,6 +2623,7 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Ice",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "サイレスアタック",
         "id": "30161051",
         "✓": "✓"
     },
@@ -2528,6 +2646,7 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Dark",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ベノムアタック",
         "id": "30161061",
         "✓": "✓"
     },
@@ -2550,6 +2669,7 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Dark",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ブラインアタック",
         "id": "30161071",
         "✓": "✓"
     },
@@ -2569,6 +2689,7 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Fire",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "いかり",
         "id": "30161081",
         "✓": "✓"
     },
@@ -2589,6 +2710,7 @@
         "orb2Required": "Major White",
         "orb3Required": "Major Black",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "たくす",
         "id": "30161091",
         "✓": "✓"
     },
@@ -2609,6 +2731,7 @@
         "orb2Required": "Lesser Non-Elemental",
         "orb3Required": "Lesser Dark",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "うそなき",
         "id": "30161101",
         "✓": "✓"
     },
@@ -2631,6 +2754,7 @@
         "orb1Required": "Power",
         "orb2Required": "Ice",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "サイレスバスター",
         "id": "30161112",
         "✓": "✓"
     },
@@ -2653,6 +2777,7 @@
         "orb1Required": "Power",
         "orb2Required": "Non-Elemental",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "ブラインバスター",
         "id": "30161122",
         "✓": "✓"
     },
@@ -2676,6 +2801,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Dark",
         "introducingEvent": "Magitek Facility Infiltration",
+        "name(jp)": "ベノムバスター",
         "id": "30161132",
         "✓": "✓"
     },
@@ -2699,6 +2825,7 @@
         "orb2Required": "Ice",
         "orb3Required": "Dark",
         "introducingEvent": "Magitek Facility Infiltration",
+        "name(jp)": "スリプルバスター",
         "id": "30161142",
         "✓": "✓"
     },
@@ -2722,6 +2849,7 @@
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Ice",
         "introducingEvent": "Magitek Facility Infiltration",
+        "name(jp)": "ハイメンタルブレイク",
         "id": "30161152",
         "✓": "✓"
     },
@@ -2745,6 +2873,7 @@
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Dark",
         "introducingEvent": "Magitek Facility Infiltration",
+        "name(jp)": "ハイマジックブレイク",
         "id": "30161162",
         "✓": "✓"
     },
@@ -2768,6 +2897,7 @@
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Lightning",
         "introducingEvent": "The Jenova Project",
+        "name(jp)": "ハイパワーブレイク",
         "id": "30161172",
         "✓": "✓"
     },
@@ -2791,6 +2921,7 @@
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Earth",
         "introducingEvent": "The SeeD Exam Homecoming",
+        "name(jp)": "ハイアーマーブレイク",
         "id": "30161182",
         "✓": "✓"
     },
@@ -2810,6 +2941,7 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Holy",
         "introducingEvent": "The SeeD Exam Homecoming",
+        "name(jp)": "蘇生",
         "id": "30161191",
         "✓": "✓"
     },
@@ -2829,6 +2961,7 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Holy",
         "introducingEvent": "Evil of Mardias",
+        "name(jp)": "生命波",
         "id": "30161201",
         "✓": "✓"
     },
@@ -2852,6 +2985,7 @@
         "orb2Required": "Major Ice",
         "orb3Required": "Major Lightning",
         "introducingEvent": "Take Memories Back",
+        "name(jp)": "フルブレイク",
         "id": "30161211",
         "✓": "✓"
     },
@@ -2876,6 +3010,7 @@
         "orb3Required": "Lightning Crystal",
         "orb4Required": "Quadruple Foul Record",
         "introducingEvent": "Tetra Foul Record",
+        "name(jp)": "ペナルティ4",
         "id": "30161221",
         "✓": "✓"
     },
@@ -2900,6 +3035,7 @@
         "orb3Required": "Dark Crystal",
         "orb4Required": "Affliction Break Record",
         "introducingEvent": "Affliction Break Record",
+        "name(jp)": "ペナルティブレイク",
         "id": "30161231",
         "✓": "✓"
     },
@@ -2923,6 +3059,7 @@
         "orb2Required": "Greater White",
         "orb3Required": "Greater Non-Elemental",
         "introducingEvent": "Ward of the Four Crystals",
+        "name(jp)": "ハイマインドブレイク",
         "id": "30161241",
         "✓": "✓"
     },
@@ -2945,6 +3082,7 @@
         "orb1Required": "Minor Power",
         "orb2Required": "Minor Wind",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ねらう",
         "id": "30171001",
         "✓": "✓"
     },
@@ -2964,6 +3102,7 @@
         "orb1Required": "Power",
         "orb2Required": "Wind",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ちょこまかうごく",
         "id": "30171011",
         "✓": "✓"
     },
@@ -2986,6 +3125,7 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Non-Elemental",
         "introducingEvent": "Magitek Facility Infiltration",
+        "name(jp)": "影縫い",
         "id": "30171021",
         "✓": "✓"
     },
@@ -3008,6 +3148,7 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Wind",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "かまいたち",
         "id": "30171031",
         "✓": "✓"
     },
@@ -3030,6 +3171,7 @@
         "orb1Required": "Power",
         "orb2Required": "Earth",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "足を狙う",
         "id": "30171051",
         "✓": "✓"
     },
@@ -3052,6 +3194,7 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Wind",
         "introducingEvent": "Magitek Facility Infiltration",
+        "name(jp)": "クイックトリック",
         "id": "30171061",
         "✓": "✓"
     },
@@ -3074,6 +3217,7 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Wind",
         "introducingEvent": "Aspiring Hero",
+        "name(jp)": "ダガーショット",
         "id": "30171071",
         "✓": "✓"
     },
@@ -3097,6 +3241,7 @@
         "orb2Required": "Lightning",
         "orb3Required": "Wind",
         "introducingEvent": "Aspiring Hero",
+        "name(jp)": "デュアルディレイ",
         "id": "30171081",
         "✓": "✓"
     },
@@ -3120,6 +3265,7 @@
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Wind",
         "introducingEvent": "Aspiring Hero",
+        "name(jp)": "断動",
         "id": "30171091",
         "✓": "✓"
     },
@@ -3143,30 +3289,8 @@
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Wind",
         "introducingEvent": "Defying Fate",
+        "name(jp)": "パラライズショット",
         "id": "30171101",
-        "✓": "✓"
-    },
-    {
-        "school": "Celerity",
-        "name": "Powerchain",
-        "rarity": 5,
-        "type": "PHY",
-        "target": "Single",
-        "formula": "Physical",
-        "multiplier": 2,
-        "element": "-",
-        "time": 1.2,
-        "effects": "Two single attacks (1,00 each), grants Instant Cast 1 to the user",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 75,
-        "uses": 2,
-        "max": 10,
-        "orb1Required": "Major Power",
-        "orb2Required": "Major White",
-        "orb3Required": "Major Wind",
-        "introducingEvent": "Window on the Past",
-        "id": "30171131",
         "✓": "✓"
     },
     {
@@ -3190,7 +3314,32 @@
         "orb3Required": "Wind Crystal",
         "orb4Required": "Northern Cross Record",
         "introducingEvent": "Northern Cross Record",
+        "name(jp)": "ノーザンクロス",
         "id": "30171121",
+        "✓": "✓"
+    },
+    {
+        "school": "Celerity",
+        "name": "Powerchain",
+        "rarity": 5,
+        "type": "PHY",
+        "target": "Single",
+        "formula": "Physical",
+        "multiplier": 2,
+        "element": "-",
+        "time": 1.2,
+        "effects": "Two single attacks (1,00 each), grants Instant Cast 1 to the user",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 75,
+        "uses": 2,
+        "max": 10,
+        "orb1Required": "Major Power",
+        "orb2Required": "Major White",
+        "orb3Required": "Major Wind",
+        "introducingEvent": "Window on the Past",
+        "name(jp)": "チェーンスターター",
+        "id": "30171131",
         "✓": "✓"
     },
     {
@@ -3214,6 +3363,7 @@
         "orb3Required": "Wind Crystal",
         "orb4Required": "Dervish Record",
         "introducingEvent": "Dervish Record",
+        "name(jp)": "スピードスター",
         "id": "30171141",
         "✓": "✓"
     },
@@ -3237,6 +3387,7 @@
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
         "introducingEvent": "Shield of the King",
+        "name(jp)": "リッパーラッシュ",
         "id": "30171171",
         "✓": "✓"
     },
@@ -3260,6 +3411,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Wind",
         "introducingEvent": "3rd Anniversary Carnival",
+        "name(jp)": "リッパーブラスト",
         "id": "30171181",
         "✓": "✓"
     },
@@ -3282,6 +3434,7 @@
         "orb1Required": "Minor Summon",
         "orb2Required": "Minor Non-Elemental",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ゴブリン ",
         "id": "30131001",
         "✓": "✓"
     },
@@ -3304,6 +3457,7 @@
         "orb1Required": "Lesser Summon",
         "orb2Required": "Lesser Non-Elemental",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "チョコボ",
         "id": "30131011",
         "✓": "✓"
     },
@@ -3326,6 +3480,7 @@
         "orb1Required": "Lesser Summon",
         "orb2Required": "Lesser Non-Elemental",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ドラゴン",
         "id": "30131021",
         "✓": "✓"
     },
@@ -3348,6 +3503,7 @@
         "orb1Required": "Minor Summon",
         "orb2Required": "Lesser Fire",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ボム",
         "id": "30131031",
         "✓": "✓"
     },
@@ -3370,6 +3526,7 @@
         "orb1Required": "Summon",
         "orb2Required": "Ice",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "シヴァ",
         "id": "30131041",
         "✓": "✓"
     },
@@ -3392,6 +3549,7 @@
         "orb1Required": "Summon",
         "orb2Required": "Lightning",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ラムウ",
         "id": "30131051",
         "✓": "✓"
     },
@@ -3414,6 +3572,7 @@
         "orb1Required": "Summon",
         "orb2Required": "Fire",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "イフリート",
         "id": "30131061",
         "✓": "✓"
     },
@@ -3437,6 +3596,7 @@
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Wind",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "シルドラ",
         "id": "30131071",
         "✓": "✓"
     },
@@ -3460,6 +3620,7 @@
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Ice",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "リヴァイアサン",
         "id": "30131081",
         "✓": "✓"
     },
@@ -3480,6 +3641,7 @@
         "orb2Required": "Lesser Summon",
         "orb3Required": "Lesser Holy",
         "introducingEvent": "Magitek Facility Infiltration",
+        "name(jp)": "キリン",
         "id": "30131101",
         "✓": "✓"
     },
@@ -3502,6 +3664,7 @@
         "orb1Required": "Greater Summon",
         "orb2Required": "Greater Non-Elemental",
         "introducingEvent": "Magitek Facility Infiltration",
+        "name(jp)": "マディン",
         "id": "30131121",
         "✓": "✓"
     },
@@ -3525,6 +3688,7 @@
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Dark",
         "introducingEvent": "Magitek Facility Infiltration",
+        "name(jp)": "オーディン",
         "id": "30131131",
         "✓": "✓"
     },
@@ -3549,6 +3713,7 @@
         "orb3Required": "Major Fire",
         "orb4Required": "Greater Holy",
         "introducingEvent": "Legendary Plunder",
+        "name(jp)": "フェニックス",
         "id": "30131141",
         "✓": "✓"
     },
@@ -3573,6 +3738,7 @@
         "orb3Required": "Greater Wind",
         "orb4Required": "Major Wind",
         "introducingEvent": "Operation Mi'ihen",
+        "name(jp)": "ヴァルファーレ",
         "id": "30131151",
         "✓": "✓"
     },
@@ -3592,6 +3758,7 @@
         "orb1Required": "Greater Summon",
         "orb2Required": "Greater Holy",
         "introducingEvent": "Princess of Alexandria",
+        "name(jp)": "カーバンクル",
         "id": "30131171",
         "✓": "✓"
     },
@@ -3616,6 +3783,7 @@
         "orb3Required": "Major Lightning",
         "orb4Required": "Greater Wind",
         "introducingEvent": "Marriage of Convenience",
+        "name(jp)": "イクシオン",
         "id": "30131181",
         "✓": "✓"
     },
@@ -3640,6 +3808,7 @@
         "orb3Required": "Greater Holy",
         "orb4Required": "Major Holy",
         "introducingEvent": "A Fateful Coin Toss",
+        "name(jp)": "アレクサンダー",
         "id": "30131191",
         "✓": "✓"
     },
@@ -3664,6 +3833,7 @@
         "orb3Required": "Greater Lightning",
         "orb4Required": "Major Lightning",
         "introducingEvent": "To Slay a Sorceress (Reissue)",
+        "name(jp)": "ケツァクウァトル",
         "id": "30131201",
         "✓": "✓"
     },
@@ -3687,6 +3857,7 @@
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Dark",
         "introducingEvent": "Dungeons Update #8",
+        "name(jp)": "バハムート",
         "id": "30131211",
         "✓": "✓"
     },
@@ -3707,6 +3878,7 @@
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Earth",
         "introducingEvent": "Festival of Gold 2",
+        "name(jp)": "サボテンダー",
         "id": "30131221",
         "✓": "✓"
     },
@@ -3730,6 +3902,7 @@
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Earth",
         "introducingEvent": "Anniversary Celebration",
+        "name(jp)": "オルトロス",
         "id": "30131231",
         "✓": "✓"
     },
@@ -3754,6 +3927,7 @@
         "orb3Required": "Dark Crystal",
         "orb4Required": "Neo Bahamut Record",
         "introducingEvent": "Neo Bahamut Record",
+        "name(jp)": "バハムート改",
         "id": "30131232",
         "✓": "✓"
     },
@@ -3777,6 +3951,7 @@
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Earth",
         "introducingEvent": "Festive Fantasy",
+        "name(jp)": "デブチョコボ",
         "id": "30131241",
         "✓": "✓"
     },
@@ -3800,6 +3975,7 @@
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Dark",
         "introducingEvent": "The Seven Heroes",
+        "name(jp)": "ノエル",
         "id": "30131291",
         "✓": "✓"
     },
@@ -3823,6 +3999,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Earth",
         "introducingEvent": "Reclaiming the Skies",
+        "name(jp)": "タイタン",
         "id": "30131301",
         "✓": "✓"
     },
@@ -3847,6 +4024,7 @@
         "orb3Required": "Lightning Crystal",
         "orb4Required": "Valigarmanda Record",
         "introducingEvent": "Valigarmanda Record",
+        "name(jp)": "ヴァリガルマンダ",
         "id": "30131311",
         "✓": "✓"
     },
@@ -3870,6 +4048,7 @@
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Dark",
         "introducingEvent": "Ward of the Four Crystals",
+        "name(jp)": "アルテマウェポン",
         "id": "30131321",
         "✓": "✓"
     },
@@ -3893,6 +4072,7 @@
         "orb2Required": "Major Summon",
         "orb3Required": "Major Wind",
         "introducingEvent": "Lady of the Vortex",
+        "name(jp)": "ティアマット",
         "id": "30131331",
         "✓": "✓"
     },
@@ -3916,6 +4096,7 @@
         "orb2Required": "Major Summon",
         "orb3Required": "Major Ice",
         "introducingEvent": "Like Father Like Daughter",
+        "name(jp)": "タイダリアサン",
         "id": "30131341",
         "✓": "✓"
     },
@@ -3939,6 +4120,7 @@
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Holy",
         "introducingEvent": "Protect the Espers!",
+        "name(jp)": "マディーン",
         "id": "30131351",
         "✓": "✓"
     },
@@ -3961,6 +4143,7 @@
         "orb2Required": "Lesser Black",
         "orb3Required": "Lesser Fire",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ファイア剣",
         "id": "30141001",
         "✓": "✓"
     },
@@ -3983,6 +4166,7 @@
         "orb2Required": "Black",
         "orb3Required": "Fire",
         "introducingEvent": "Magitek Facility Infiltration",
+        "name(jp)": "ファイラ剣",
         "id": "30141002",
         "✓": "✓"
     },
@@ -4005,6 +4189,7 @@
         "orb2Required": "Greater Black",
         "orb3Required": "Greater Fire",
         "introducingEvent": "Back to the Skies",
+        "name(jp)": "ファイガ剣",
         "id": "30141003",
         "✓": "✓"
     },
@@ -4027,6 +4212,7 @@
         "orb2Required": "Lesser Black",
         "orb3Required": "Lesser Ice",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ブリザド剣",
         "id": "30141011",
         "✓": "✓"
     },
@@ -4049,6 +4235,7 @@
         "orb2Required": "Black",
         "orb3Required": "Ice",
         "introducingEvent": "Magitek Facility Infiltration",
+        "name(jp)": "ブリザラ剣",
         "id": "30141012",
         "✓": "✓"
     },
@@ -4071,6 +4258,7 @@
         "orb2Required": "Greater Black",
         "orb3Required": "Greater Ice",
         "introducingEvent": "Successors of the Dawn",
+        "name(jp)": "ブリザガ剣",
         "id": "30141013",
         "✓": "✓"
     },
@@ -4093,6 +4281,7 @@
         "orb2Required": "Lesser Black",
         "orb3Required": "Lesser Lightning",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "サンダー剣",
         "id": "30141021",
         "✓": "✓"
     },
@@ -4115,6 +4304,7 @@
         "orb2Required": "Black",
         "orb3Required": "Lightning",
         "introducingEvent": "Festival of Gold",
+        "name(jp)": "サンダラ剣",
         "id": "30141022",
         "✓": "✓"
     },
@@ -4137,6 +4327,7 @@
         "orb2Required": "Greater Black",
         "orb3Required": "Greater Lightning",
         "introducingEvent": "Big Bridge Showdown",
+        "name(jp)": "サンダガ剣",
         "id": "30141023",
         "✓": "✓"
     },
@@ -4160,6 +4351,7 @@
         "orb2Required": "Black",
         "orb3Required": "Dark",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ドレイン剣",
         "id": "30141031",
         "✓": "✓"
     },
@@ -4183,6 +4375,7 @@
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Fire",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "フレア剣",
         "id": "30141041",
         "✓": "✓"
     },
@@ -4205,6 +4398,7 @@
         "orb2Required": "Lesser Ice",
         "orb3Required": "Lesser Lightning",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "ウォータ剣",
         "id": "30141051",
         "✓": "✓"
     },
@@ -4227,6 +4421,7 @@
         "orb2Required": "Ice",
         "orb3Required": "Lightning",
         "introducingEvent": "Back to the Skies",
+        "name(jp)": "ウォタラ剣",
         "id": "30141052",
         "✓": "✓"
     },
@@ -4249,6 +4444,7 @@
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Lightning",
         "introducingEvent": "Kingdom of Swords and Sorcery",
+        "name(jp)": "ウォタガ剣",
         "id": "30141053",
         "✓": "✓"
     },
@@ -4270,6 +4466,7 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Wind",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "エアロ剣",
         "id": "30141061",
         "✓": "✓"
     },
@@ -4292,6 +4489,7 @@
         "orb2Required": "Black",
         "orb3Required": "Wind",
         "introducingEvent": "Lost Memories",
+        "name(jp)": "エアロラ剣",
         "id": "30141062",
         "✓": "✓"
     },
@@ -4315,6 +4513,7 @@
         "orb2Required": "Greater Black",
         "orb3Required": "Greater Earth",
         "introducingEvent": "Lightning Strikes",
+        "name(jp)": "ブレイク剣",
         "id": "30141071",
         "✓": "✓"
     },
@@ -4337,6 +4536,7 @@
         "orb2Required": "Black",
         "orb3Required": "Dark",
         "introducingEvent": "Successors of the Dawn",
+        "name(jp)": "バイオ剣",
         "id": "30141081",
         "✓": "✓"
     },
@@ -4359,6 +4559,7 @@
         "orb2Required": "Greater Black",
         "orb3Required": "Greater Dark",
         "introducingEvent": "Broken Chains",
+        "name(jp)": "バイオラ剣",
         "id": "30141082",
         "✓": "✓"
     },
@@ -4382,6 +4583,7 @@
         "orb2Required": "Major Black",
         "orb3Required": "Major Earth",
         "introducingEvent": "Four as One",
+        "name(jp)": "クエイク剣",
         "id": "30141091",
         "✓": "✓"
     },
@@ -4405,6 +4607,7 @@
         "orb2Required": "Major Black",
         "orb3Required": "Major Wind",
         "introducingEvent": "Kingdom of Swords and Sorcery",
+        "name(jp)": "トルネド剣",
         "id": "30141101",
         "✓": "✓"
     },
@@ -4428,6 +4631,7 @@
         "orb2Required": "Ice Crystal",
         "orb3Required": "Wind Crystal",
         "introducingEvent": "The Five Dooms",
+        "name(jp)": "二刀魔法剣・吹雪",
         "id": "30141111",
         "✓": "✓"
     },
@@ -4451,6 +4655,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Lightning",
         "introducingEvent": "Flash of Defiance",
+        "name(jp)": "連続魔法剣・雷鳴",
         "id": "30141121",
         "✓": "✓"
     },
@@ -4474,6 +4679,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Dark",
         "introducingEvent": "Where the Heart Lies",
+        "name(jp)": "連続魔法剣・豪炎",
         "id": "30141131",
         "✓": "✓"
     },
@@ -4497,6 +4703,7 @@
         "orb2Required": "Major Ice",
         "orb3Required": "Major Lightning",
         "introducingEvent": "A Dream for Spira",
+        "name(jp)": "連続魔法剣・水燕",
         "id": "30141141",
         "✓": "✓"
     },
@@ -4520,6 +4727,7 @@
         "orb2Required": "Major Black",
         "orb3Required": "Major Ice",
         "introducingEvent": "The Torch Burns On",
+        "name(jp)": "フリーズ剣",
         "id": "30141151",
         "✓": "✓"
     },
@@ -4543,6 +4751,7 @@
         "orb2Required": "Major Black",
         "orb3Required": "Major Earth",
         "introducingEvent": "Engraving Our Names",
+        "name(jp)": "連続魔法剣・砂紋",
         "id": "30141161",
         "✓": "✓"
     },
@@ -4566,6 +4775,7 @@
         "orb2Required": "Lesser Lightning",
         "orb3Required": "Lesser Wind",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ジャンプ",
         "id": "30181001",
         "✓": "✓"
     },
@@ -4589,6 +4799,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Wind",
         "introducingEvent": "Big Bridge Showdown",
+        "name(jp)": "ジャンプ・風",
         "id": "30181011",
         "✓": "✓"
     },
@@ -4612,6 +4823,7 @@
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Wind",
         "introducingEvent": "Dungeons Update #13",
+        "name(jp)": "渾身ジャンプ",
         "id": "30181021",
         "✓": "✓"
     },
@@ -4635,6 +4847,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Ice",
         "introducingEvent": "The Burning Blade!",
+        "name(jp)": "ジャンプ・氷",
         "id": "30181031",
         "✓": "✓"
     },
@@ -4658,6 +4871,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Lightning",
         "introducingEvent": "Fang's Oath",
+        "name(jp)": "ジャンプ・雷",
         "id": "30181041",
         "✓": "✓"
     },
@@ -4681,6 +4895,7 @@
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
         "introducingEvent": "A Summoner Reborn",
+        "name(jp)": "スカイグランダー",
         "id": "30181051",
         "✓": "✓"
     },
@@ -4704,6 +4919,7 @@
         "orb2Required": "Greater Wind",
         "orb3Required": "Greater Dark",
         "introducingEvent": "A Summoner Reborn",
+        "name(jp)": "ドレインダイブ",
         "id": "30181061",
         "✓": "✓"
     },
@@ -4727,6 +4943,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Lightning",
         "introducingEvent": "A Summoner Grown",
+        "name(jp)": "ドラグーンジャンプ",
         "id": "30181071",
         "✓": "✓"
     },
@@ -4750,6 +4967,7 @@
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Earth",
         "introducingEvent": "A Summoner Grown",
+        "name(jp)": "竜の血",
         "id": "30181081",
         "✓": "✓"
     },
@@ -4773,6 +4991,7 @@
         "orb2Required": "Earth Crystal",
         "orb3Required": "Wind Crystal",
         "introducingEvent": "The Five Dooms",
+        "name(jp)": "スカイハイ",
         "id": "30181091",
         "✓": "✓"
     },
@@ -4796,6 +5015,7 @@
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
         "introducingEvent": "Reclaiming the Skies",
+        "name(jp)": "ライトニングダイブ",
         "id": "30181101",
         "✓": "✓"
     },
@@ -4819,6 +5039,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Wind",
         "introducingEvent": "Masters of the Planet",
+        "name(jp)": "エアリアルダイブ",
         "id": "30181121",
         "✓": "✓"
     },
@@ -4842,6 +5063,7 @@
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
         "introducingEvent": "The Wandering Flower",
+        "name(jp)": "サイクロンボルト",
         "id": "30181131",
         "✓": "✓"
     },
@@ -4864,6 +5086,7 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Lightning",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "ひっさつ",
         "id": "30191001",
         "✓": "✓"
     },
@@ -4886,6 +5109,7 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Non-Elemental",
         "introducingEvent": "The Battle Arena",
+        "name(jp)": "気孔弾",
         "id": "30191011",
         "✓": "✓"
     },
@@ -4908,6 +5132,7 @@
         "orb1Required": "Power",
         "orb2Required": "Holy",
         "introducingEvent": "The Battle Arena",
+        "name(jp)": "チャクラ",
         "id": "30191021",
         "✓": "✓"
     },
@@ -4930,6 +5155,7 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Dark",
         "introducingEvent": "The Battle Arena",
+        "name(jp)": "点穴",
         "id": "30191031",
         "✓": "✓"
     },
@@ -4953,6 +5179,7 @@
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Holy",
         "introducingEvent": "A Place to Call Home",
+        "name(jp)": "練気拳",
         "id": "30191041",
         "✓": "✓"
     },
@@ -4975,6 +5202,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Wind",
         "introducingEvent": "A Place to Call Home",
+        "name(jp)": "けり",
         "id": "30191051",
         "✓": "✓"
     },
@@ -4994,6 +5222,7 @@
         "orb1Required": "Power",
         "orb2Required": "Earth",
         "introducingEvent": "Dungeons Update #16",
+        "name(jp)": "力のメメント",
         "id": "30191061",
         "✓": "✓"
     },
@@ -5017,6 +5246,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Lightning",
         "introducingEvent": "Forgotten Bond",
+        "name(jp)": "爆裂正拳突き",
         "id": "30191071",
         "✓": "✓"
     },
@@ -5040,6 +5270,7 @@
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Earth",
         "introducingEvent": "Destiny's Path",
+        "name(jp)": "鎧通し",
         "id": "30191081",
         "✓": "✓"
     },
@@ -5063,6 +5294,7 @@
         "orb2Required": "Lightning Crystal",
         "orb3Required": "Earth Crystal",
         "introducingEvent": "The Five Dooms",
+        "name(jp)": "乱命拳",
         "id": "30191091",
         "✓": "✓"
     },
@@ -5086,6 +5318,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Earth",
         "introducingEvent": "Go Go Gullwings!",
+        "name(jp)": "メテオクラッシュ",
         "id": "30191101",
         "✓": "✓"
     },
@@ -5109,6 +5342,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Earth",
         "introducingEvent": "Aspiring Knight",
+        "name(jp)": "内丹気砲",
         "id": "30191111",
         "✓": "✓"
     },
@@ -5132,6 +5366,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Earth",
         "introducingEvent": "The Maiden of Water",
+        "name(jp)": "バーニングラッシュ",
         "id": "30191121",
         "✓": "✓"
     },
@@ -5155,6 +5390,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Earth",
         "introducingEvent": "Like Father Like Daughter",
+        "name(jp)": "ガイアラッシュ",
         "id": "30191131",
         "✓": "✓"
     },
@@ -5178,6 +5414,7 @@
         "orb2Required": "Major Ice",
         "orb3Required": "Major Earth",
         "introducingEvent": "3rd Anniversary Carnival",
+        "name(jp)": "アイシクルラッシュ",
         "id": "30191141",
         "✓": "✓"
     },
@@ -5200,6 +5437,7 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Wind",
         "introducingEvent": "Kingdom Reborn",
+        "name(jp)": "HPを盗む",
         "id": "30201001",
         "✓": "✓"
     },
@@ -5220,6 +5458,7 @@
         "orb2Required": "Lightning",
         "orb3Required": "Wind",
         "introducingEvent": "Kingdom Reborn",
+        "name(jp)": "時間を盗む",
         "id": "30201011",
         "✓": "✓"
     },
@@ -5240,6 +5479,7 @@
         "orb2Required": "Greater Earth",
         "orb3Required": "Greater Wind",
         "introducingEvent": "Kingdom Reborn",
+        "name(jp)": "守りを盗む",
         "id": "30201021",
         "✓": "✓"
     },
@@ -5260,6 +5500,7 @@
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Wind",
         "introducingEvent": "A Place to Call Home",
+        "name(jp)": "力を盗む",
         "id": "30201031",
         "✓": "✓"
     },
@@ -5283,6 +5524,7 @@
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
         "introducingEvent": "The Jet-Black Assassin",
+        "name(jp)": "時間をぶんどる",
         "id": "30201041",
         "✓": "✓"
     },
@@ -5306,6 +5548,7 @@
         "orb2Required": "Major Wind",
         "orb3Required": "Major Dark",
         "introducingEvent": "Seer of Destiny",
+        "name(jp)": "シーフズレイド",
         "id": "30201051",
         "✓": "✓"
     },
@@ -5329,6 +5572,7 @@
         "orb2Required": "Wind Crystal",
         "orb3Required": "Dark Crystal",
         "introducingEvent": "The Five Dooms",
+        "name(jp)": "闘志をぶんどる",
         "id": "30201061",
         "✓": "✓"
     },
@@ -5352,6 +5596,7 @@
         "orb2Required": "Major Wind",
         "orb3Required": "Major Dark",
         "introducingEvent": "Where the Heart Lies",
+        "name(jp)": "ダッシュバイト",
         "id": "30201071",
         "✓": "✓"
     },
@@ -5375,6 +5620,7 @@
         "orb2Required": "Major Wind",
         "orb3Required": "Major Dark",
         "introducingEvent": "Scheming Tyrant",
+        "name(jp)": "ポイズンリーフ",
         "id": "30201081",
         "✓": "✓"
     },
@@ -5398,6 +5644,7 @@
         "orb2Required": "Major Wind",
         "orb3Required": "Major Dark",
         "introducingEvent": "The Returners Strike Back",
+        "name(jp)": "ソウルバーン",
         "id": "30201091",
         "✓": "✓"
     },
@@ -5417,6 +5664,7 @@
         "orb1Required": "Lesser Power",
         "orb2Required": "Lesser Earth",
         "introducingEvent": "Dungeons Update #1",
+        "name(jp)": "まもり",
         "id": "30211001",
         "✓": "✓"
     },
@@ -5436,6 +5684,7 @@
         "orb1Required": "Power",
         "orb2Required": "Holy",
         "introducingEvent": "To the Holy Land",
+        "name(jp)": "ひきつける",
         "id": "30211002",
         "✓": "✓"
     },
@@ -5456,6 +5705,7 @@
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Holy",
         "introducingEvent": "To the Holy Land",
+        "name(jp)": "サガク剣",
         "id": "30211011",
         "✓": "✓"
     },
@@ -5479,6 +5729,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Earth",
         "introducingEvent": "Gunblade of the Sorceress",
+        "name(jp)": "メンタルバッシュ",
         "id": "30211021",
         "✓": "✓"
     },
@@ -5499,6 +5750,7 @@
         "orb2Required": "Greater Black",
         "orb3Required": "Greater Fire",
         "introducingEvent": "Gunblade of the Sorceress",
+        "name(jp)": "魔法ひきつけ",
         "id": "30211031",
         "✓": "✓"
     },
@@ -5518,6 +5770,7 @@
         "orb1Required": "Power",
         "orb2Required": "Earth",
         "introducingEvent": "Dungeons Update #16",
+        "name(jp)": "守りのメメント",
         "id": "30211041",
         "✓": "✓"
     },
@@ -5541,6 +5794,7 @@
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Holy",
         "introducingEvent": "Someone to Protect",
+        "name(jp)": "バニシュレイド",
         "id": "30211051",
         "✓": "✓"
     },
@@ -5564,6 +5818,7 @@
         "orb2Required": "Greater White",
         "orb3Required": "Greater Earth",
         "introducingEvent": "Someone to Protect",
+        "name(jp)": "アーマーストライク",
         "id": "30211061",
         "✓": "✓"
     },
@@ -5587,6 +5842,7 @@
         "orb2Required": "Earth",
         "orb3Required": "Holy",
         "introducingEvent": "Someone to Protect",
+        "name(jp)": "シールドバッシュ",
         "id": "30211071",
         "✓": "✓"
     },
@@ -5610,6 +5866,7 @@
         "orb2Required": "Major Wind",
         "orb3Required": "Major Holy",
         "introducingEvent": "By Stone Revealed",
+        "name(jp)": "セイントクロス",
         "id": "30211081",
         "✓": "✓"
     },
@@ -5633,6 +5890,7 @@
         "orb2Required": "Earth Crystal",
         "orb3Required": "Holy Crystal",
         "introducingEvent": "The Five Dooms",
+        "name(jp)": "イージスストライク",
         "id": "30211091",
         "✓": "✓"
     },
@@ -5656,6 +5914,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Holy",
         "introducingEvent": "Aspiring Knight",
+        "name(jp)": "ガイアクロス",
         "id": "30211101",
         "✓": "✓"
     },
@@ -5679,6 +5938,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Holy",
         "introducingEvent": "Family Secrets",
+        "name(jp)": "ガードブリンガー",
         "id": "30211111",
         "✓": "✓"
     },
@@ -5702,12 +5962,13 @@
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Holy",
         "introducingEvent": "FF 30th Anniversary Parade",
+        "name(jp)": "ディバインクロス",
         "id": "30211121",
         "✓": "✓"
     },
     {
         "school": "Knight",
-        "name": "Earthbringer",
+        "name": "Earth Bringer",
         "rarity": 5,
         "type": "PHY",
         "target": "Single enemy",
@@ -5725,6 +5986,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Holy",
         "introducingEvent": "The Onion Knight Rises",
+        "name(jp)": "アースブリンガー",
         "id": "30211131",
         "✓": "✓"
     },
@@ -5748,6 +6010,7 @@
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Holy",
         "introducingEvent": "The Sealed Spirit",
+        "name(jp)": "アサルトセイバー",
         "id": "30211141",
         "✓": "✓"
     },
@@ -5771,6 +6034,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Holy",
         "introducingEvent": "The Returners Strike Back",
+        "name(jp)": "アースセイバー",
         "id": "30211151",
         "✓": "✓"
     },
@@ -5791,6 +6055,7 @@
         "orb2Required": "Lesser Non-Elemental",
         "orb3Required": "Lesser Earth",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "かまえる",
         "id": "30221001",
         "✓": "✓"
     },
@@ -5814,6 +6079,7 @@
         "orb2Required": "Lightning",
         "orb3Required": "Dark",
         "introducingEvent": "Ultimate Guardian",
+        "name(jp)": "居合い抜き",
         "id": "30221011",
         "✓": "✓"
     },
@@ -5837,6 +6103,7 @@
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Ice",
         "introducingEvent": "Ultimate Guardian",
+        "name(jp)": "雪風",
         "id": "30221021",
         "✓": "✓"
     },
@@ -5860,6 +6127,7 @@
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Ice",
         "introducingEvent": "The Malice Within",
+        "name(jp)": "剣閃",
         "id": "30221031",
         "✓": "✓"
     },
@@ -5883,6 +6151,7 @@
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Dark",
         "introducingEvent": "The Malice Within",
+        "name(jp)": "明鏡",
         "id": "30221041",
         "✓": "✓"
     },
@@ -5899,13 +6168,14 @@
         "effects": "Causes Silence (20%)",
         "counter": "Y",
         "autoTarget": "All enemies",
-        "sb": "-",
+        "sb": 50,
         "uses": 2,
         "max": 10,
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Ice",
         "introducingEvent": "Festive Fantasy",
+        "name(jp)": "-",
         "id": "30221051",
         "✓": "✓"
     },
@@ -5928,6 +6198,7 @@
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Fire",
         "introducingEvent": "The Lone Wolf's Lament",
+        "name(jp)": "花焔",
         "id": "30221061",
         "✓": "✓"
     },
@@ -5951,6 +6222,7 @@
         "orb2Required": "Ice Crystal",
         "orb3Required": "Dark Crystal",
         "introducingEvent": "The Five Dooms",
+        "name(jp)": "羅刹",
         "id": "30221081",
         "✓": "✓"
     },
@@ -5974,6 +6246,7 @@
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Ice",
         "introducingEvent": "Women of the World",
+        "name(jp)": "氷雨",
         "id": "30221091",
         "✓": "✓"
     },
@@ -5997,6 +6270,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Ice",
         "introducingEvent": "The More the Merrier",
+        "name(jp)": "抜刀・乱炎",
         "id": "30221101",
         "✓": "✓"
     },
@@ -6020,6 +6294,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Ice",
         "introducingEvent": "The More the Merrier",
+        "name(jp)": "構え・焔月",
         "id": "30221111",
         "✓": "✓"
     },
@@ -6043,6 +6318,7 @@
         "orb2Required": "Major Ice",
         "orb3Required": "Major Lightning",
         "introducingEvent": "Rivalry and Despair",
+        "name(jp)": "抜刀・乱氷",
         "id": "30221121",
         "✓": "✓"
     },
@@ -6066,6 +6342,7 @@
         "orb2Required": "Major Ice",
         "orb3Required": "Major Lightning",
         "introducingEvent": "Rivalry and Despair",
+        "name(jp)": "構え・冷月",
         "id": "30221131",
         "✓": "✓"
     },
@@ -6089,6 +6366,7 @@
         "orb2Required": "Lesser Lightning",
         "orb3Required": "Lesser Wind",
         "introducingEvent": "Dungeons Update #2",
+        "name(jp)": "手裏剣",
         "id": "30231001",
         "✓": "✓"
     },
@@ -6111,6 +6389,7 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Dark",
         "introducingEvent": "Assassin in Black",
+        "name(jp)": "散華",
         "id": "30231011",
         "✓": "✓"
     },
@@ -6134,6 +6413,7 @@
         "orb2Required": "Lightning",
         "orb3Required": "Dark",
         "introducingEvent": "Assassin in Black",
+        "name(jp)": "雷迅",
         "id": "30231021",
         "✓": "✓"
     },
@@ -6157,6 +6437,7 @@
         "orb2Required": "Ice",
         "orb3Required": "Dark",
         "introducingEvent": "The Burning Blade!",
+        "name(jp)": "水遁",
         "id": "30231031",
         "✓": "✓"
     },
@@ -6180,6 +6461,7 @@
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Dark",
         "introducingEvent": "The Burning Blade!",
+        "name(jp)": "影刃",
         "id": "30231041",
         "✓": "✓"
     },
@@ -6203,6 +6485,7 @@
         "orb2Required": "Fire",
         "orb3Required": "Dark",
         "introducingEvent": "Hidden Resolve",
+        "name(jp)": "火遁",
         "id": "30231051",
         "✓": "✓"
     },
@@ -6226,6 +6509,7 @@
         "orb2Required": "Greater Black",
         "orb3Required": "Greater Dark",
         "introducingEvent": "Hidden Resolve",
+        "name(jp)": "幻夢",
         "id": "30231061",
         "✓": "✓"
     },
@@ -6249,6 +6533,7 @@
         "orb2Required": "Major Ice",
         "orb3Required": "Major Dark",
         "introducingEvent": "The Miraculous Artist",
+        "name(jp)": "狂影刃",
         "id": "30231071",
         "✓": "✓"
     },
@@ -6272,6 +6557,7 @@
         "orb2Required": "Greater Wind",
         "orb3Required": "Greater Dark",
         "introducingEvent": "The Lord of Crags",
+        "name(jp)": "旋風",
         "id": "30231081",
         "✓": "✓"
     },
@@ -6295,6 +6581,7 @@
         "orb2Required": "Wind Crystal",
         "orb3Required": "Dark Crystal",
         "introducingEvent": "The Five Dooms",
+        "name(jp)": "快刀乱麻",
         "id": "30231091",
         "✓": "✓"
     },
@@ -6318,6 +6605,7 @@
         "orb2Required": "Major Ice",
         "orb3Required": "Major Dark",
         "introducingEvent": "Lady of the Vortex",
+        "name(jp)": "かえんじん",
         "id": "30231101",
         "✓": "✓"
     },
@@ -6341,6 +6629,7 @@
         "orb2Required": "Major Wind",
         "orb3Required": "Major Dark",
         "introducingEvent": "Cutting Winds, Soaring Lightning",
+        "name(jp)": "ぼうふうじん",
         "id": "30231111",
         "✓": "✓"
     },
@@ -6364,6 +6653,7 @@
         "orb2Required": "Major Wind",
         "orb3Required": "Major Dark",
         "introducingEvent": "Fate Calls, Power Awakens",
+        "name(jp)": "みなもうつし",
         "id": "30231121",
         "✓": "✓"
     },
@@ -6387,6 +6677,7 @@
         "orb2Required": "Major Ice",
         "orb3Required": "Major Dark",
         "introducingEvent": "Fate Calls, Power Awakens",
+        "name(jp)": "げきりゅうじん",
         "id": "30231131",
         "✓": "✓"
     },
@@ -6410,6 +6701,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
         "introducingEvent": "The More the Merrier",
+        "name(jp)": "みかげうつし",
         "id": "30231141",
         "✓": "✓"
     },
@@ -6433,6 +6725,7 @@
         "orb2Required": "Major Ice",
         "orb3Required": "Major Dark",
         "introducingEvent": "The More the Merrier",
+        "name(jp)": "しっこくじん",
         "id": "30231151",
         "✓": "✓"
     },
@@ -6456,6 +6749,7 @@
         "orb2Required": "Major Wind",
         "orb3Required": "Major Dark",
         "introducingEvent": "Fading Bonds",
+        "name(jp)": "すなかげろう",
         "id": "30231161",
         "✓": "✓"
     },
@@ -6479,6 +6773,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
         "introducingEvent": "Fading Bonds",
+        "name(jp)": "さばくじん",
         "id": "30231171",
         "✓": "✓"
     },
@@ -6500,6 +6795,7 @@
         "orb1Required": "Lesser White",
         "orb2Required": "Lesser Dark",
         "introducingEvent": "To the Holy Land",
+        "name(jp)": "レクイエム",
         "id": "30241001",
         "✓": "✓"
     },
@@ -6520,6 +6816,7 @@
         "orb2Required": "White",
         "orb3Required": "Wind",
         "introducingEvent": "To the Holy Land",
+        "name(jp)": "ちからのうた",
         "id": "30241002",
         "✓": "✓"
     },
@@ -6539,6 +6836,7 @@
         "orb1Required": "Lesser White",
         "orb2Required": "Lesser Ice",
         "introducingEvent": "Dungeons Update #11",
+        "name(jp)": "子守歌",
         "id": "30241011",
         "✓": "✓"
     },
@@ -6559,6 +6857,7 @@
         "orb2Required": "White",
         "orb3Required": "Dark",
         "introducingEvent": "Dungeons Update #11",
+        "name(jp)": "魔力の歌",
         "id": "30241021",
         "✓": "✓"
     },
@@ -6579,6 +6878,7 @@
         "orb2Required": "Greater White",
         "orb3Required": "Greater Earth",
         "introducingEvent": "Dungeons Update #11",
+        "name(jp)": "耐魔のエチュード",
         "id": "30241031",
         "✓": "✓"
     },
@@ -6599,6 +6899,7 @@
         "orb2Required": "Greater White",
         "orb3Required": "Greater Earth",
         "introducingEvent": "Defying Fate",
+        "name(jp)": "堅守のエチュード",
         "id": "30241041",
         "✓": "✓"
     },
@@ -6619,6 +6920,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Holy",
         "introducingEvent": "The Spark Before Fire",
+        "name(jp)": "天使の詩",
         "id": "30241061",
         "✓": "✓"
     },
@@ -6639,6 +6941,7 @@
         "orb2Required": "Earth Crystal",
         "orb3Required": "Holy Crystal",
         "introducingEvent": "The Dark Mage",
+        "name(jp)": "アレグロコンモート",
         "id": "30241071",
         "✓": "✓"
     },
@@ -6659,6 +6962,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
         "introducingEvent": "Limelit Stage",
+        "name(jp)": "魔神の賛歌",
         "id": "30241081",
         "✓": "✓"
     },
@@ -6679,6 +6983,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Earth",
         "introducingEvent": "Limelit Stage",
+        "name(jp)": "鬼神の戦歌",
         "id": "30241091",
         "✓": "✓"
     },
@@ -6699,6 +7004,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Holy",
         "introducingEvent": "Vermillion Youths",
+        "name(jp)": "女神の聖歌",
         "id": "30241101",
         "✓": "✓"
     },
@@ -6719,6 +7025,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Earth",
         "introducingEvent": "Dungeons Update #11",
+        "name(jp)": "ボックスステップ",
         "id": "30251021",
         "✓": "✓"
     },
@@ -6739,6 +7046,7 @@
         "orb2Required": "Greater Earth",
         "orb3Required": "Greater Holy",
         "introducingEvent": "A Brewing Nightmare",
+        "name(jp)": "ハイボックスステップ",
         "id": "30251022",
         "✓": "✓"
     },
@@ -6759,6 +7067,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Ice",
         "introducingEvent": "Dungeons Update #11",
+        "name(jp)": "スタッターステップ",
         "id": "30251031",
         "✓": "✓"
     },
@@ -6779,6 +7088,7 @@
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Wind",
         "introducingEvent": "Forgotten Bond",
+        "name(jp)": "ハイスタッターステップ",
         "id": "30251032",
         "✓": "✓"
     },
@@ -6799,6 +7109,7 @@
         "orb2Required": "Non-Elemental",
         "orb3Required": "Earth",
         "introducingEvent": "Defying Fate",
+        "name(jp)": "ウィークポルカ",
         "id": "30251041",
         "✓": "✓"
     },
@@ -6819,6 +7130,7 @@
         "orb2Required": "Greater Wind",
         "orb3Required": "Greater Dark",
         "introducingEvent": "Forgotten Bond",
+        "name(jp)": "ハイウィークポルカ",
         "id": "30251042",
         "✓": "✓"
     },
@@ -6839,6 +7151,7 @@
         "orb2Required": "Greater Wind",
         "orb3Required": "Greater Dark",
         "introducingEvent": "Tempered Resolve",
+        "name(jp)": "ストップルンバ",
         "id": "30251051",
         "✓": "✓"
     },
@@ -6859,6 +7172,7 @@
         "orb2Required": "Ice",
         "orb3Required": "Wind",
         "introducingEvent": "Tempered Resolve",
+        "name(jp)": "アンフェイス",
         "id": "30251061",
         "✓": "✓"
     },
@@ -6879,6 +7193,7 @@
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Holy",
         "introducingEvent": "A Brewing Nightmare",
+        "name(jp)": "ハイアンフェイス",
         "id": "30251062",
         "✓": "✓"
     },
@@ -6899,6 +7214,7 @@
         "orb2Required": "Major Holy",
         "orb3Required": "Major Dark",
         "introducingEvent": "A Brewing Nightmare",
+        "name(jp)": "ブレイクフィーバー",
         "id": "30251071",
         "✓": "✓"
     },
@@ -6919,12 +7235,13 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Holy",
         "introducingEvent": "Unswayed by Phantoms",
+        "name(jp)": "クラッシュタンゴ",
         "id": "30251081",
         "✓": "✓"
     },
     {
         "school": "Dancer",
-        "name": "Smashing Jitterbug",
+        "name": "Enfeebling Jitterbug",
         "rarity": 5,
         "type": "NAT",
         "target": "All enemies",
@@ -6939,6 +7256,7 @@
         "orb2Required": "Major Black",
         "orb3Required": "Major Holy",
         "introducingEvent": "Unswayed by Phantoms",
+        "name(jp)": "スマッシュジルバ",
         "id": "30251091",
         "✓": "✓"
     },
@@ -6962,6 +7280,7 @@
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Dark",
         "introducingEvent": "A Meeting Beyond Time",
+        "name(jp)": "ブライン弾",
         "id": "30261011",
         "✓": "✓"
     },
@@ -6985,6 +7304,7 @@
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Lightning",
         "introducingEvent": "A Meeting Beyond Time",
+        "name(jp)": "サイレス弾",
         "id": "30261021",
         "✓": "✓"
     },
@@ -7008,6 +7328,7 @@
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Ice",
         "introducingEvent": "Eternal Calm",
+        "name(jp)": "ポイズン弾",
         "id": "30261031",
         "✓": "✓"
     },
@@ -7031,6 +7352,7 @@
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Dark",
         "introducingEvent": "Consorting with Sky Pirates",
+        "name(jp)": "コンフュ弾",
         "id": "30261041",
         "✓": "✓"
     },
@@ -7054,6 +7376,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Earth",
         "introducingEvent": "Two Sides of a Coin",
+        "name(jp)": "バイオグレネード",
         "id": "30261051",
         "✓": "✓"
     },
@@ -7077,6 +7400,7 @@
         "orb2Required": "Lightning Crystal",
         "orb3Required": "Dark Crystal",
         "introducingEvent": "The Five Dooms",
+        "name(jp)": "ペナルティスナイプ",
         "id": "30261061",
         "✓": "✓"
     },
@@ -7100,6 +7424,7 @@
         "orb2Required": "Major Ice",
         "orb3Required": "Major Lightning",
         "introducingEvent": "A Sword for Peace",
+        "name(jp)": "ラピッドファイア",
         "id": "30261071",
         "✓": "✓"
     },
@@ -7123,6 +7448,7 @@
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
         "introducingEvent": "Family Secrets",
+        "name(jp)": "テンペストスナイプ",
         "id": "30261081",
         "✓": "✓"
     },
@@ -7146,6 +7472,7 @@
         "orb2Required": "Major Ice",
         "orb3Required": "Major Lightning",
         "introducingEvent": "Road Trip to Remember",
+        "name(jp)": "スパークオファ",
         "id": "30261091",
         "✓": "✓"
     },
@@ -7169,12 +7496,13 @@
         "orb2Required": "Major Ice",
         "orb3Required": "Major Lightning",
         "introducingEvent": "Borrowed Dreams",
+        "name(jp)": "コールドオファ",
         "id": "30261101",
         "✓": "✓"
     },
     {
         "school": "Machinist",
-        "name": "Heat Offering",
+        "name": "Rising Heat",
         "rarity": 5,
         "type": "PHY",
         "target": "Single enemy",
@@ -7192,6 +7520,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Lightning",
         "introducingEvent": "Unswayed by Phantoms",
+        "name(jp)": "ヒートオファ",
         "id": "30261111",
         "✓": "✓"
     },
@@ -7215,6 +7544,7 @@
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
         "introducingEvent": "Unswayed by Phantoms",
+        "name(jp)": "バーニングスナイプ",
         "id": "30261121",
         "✓": "✓"
     },
@@ -7238,6 +7568,7 @@
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
         "introducingEvent": "Unswayed by Phantoms",
+        "name(jp)": "フリージングスナイプ",
         "id": "30261131",
         "✓": "✓"
     },
@@ -7261,6 +7592,7 @@
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Dark",
         "introducingEvent": "Twin Stars of Mysidia",
+        "name(jp)": "ダークレイド",
         "id": "30271001",
         "✓": "✓"
     },
@@ -7284,6 +7616,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
         "introducingEvent": "Twin Stars of Mysidia",
+        "name(jp)": "ブラッディクロス",
         "id": "30271011",
         "✓": "✓"
     },
@@ -7307,6 +7640,7 @@
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Dark",
         "introducingEvent": "Gaia's Angel of Death",
+        "name(jp)": "ダークゾーン",
         "id": "30271021",
         "✓": "✓"
     },
@@ -7330,6 +7664,7 @@
         "orb2Required": "Greater Non-Elemental",
         "orb3Required": "Greater Dark",
         "introducingEvent": "Gaia's Angel of Death",
+        "name(jp)": "メメント・モリ",
         "id": "30271031",
         "✓": "✓"
     },
@@ -7353,6 +7688,7 @@
         "orb2Required": "Greater Earth",
         "orb3Required": "Greater Dark",
         "introducingEvent": "In the Footsteps of Greatness",
+        "name(jp)": "死中活",
         "id": "30271041",
         "✓": "✓"
     },
@@ -7376,6 +7712,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
         "introducingEvent": "In the Footsteps of Greatness",
+        "name(jp)": "告死の大鎌",
         "id": "30271051",
         "✓": "✓"
     },
@@ -7399,6 +7736,7 @@
         "orb2Required": "Major Ice",
         "orb3Required": "Major Dark",
         "introducingEvent": "Flash of Defiance",
+        "name(jp)": "イービルカウント",
         "id": "30271061",
         "✓": "✓"
     },
@@ -7422,6 +7760,7 @@
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Dark",
         "introducingEvent": "Destroyer of Light and Dark",
+        "name(jp)": "ドレッドヒール",
         "id": "30271071",
         "✓": "✓"
     },
@@ -7445,6 +7784,7 @@
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Dark",
         "introducingEvent": "Awakening Cloud",
+        "name(jp)": "残魂の連打",
         "id": "30271081",
         "✓": "✓"
     },
@@ -7468,6 +7808,7 @@
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Dark",
         "introducingEvent": "Awakening Cloud",
+        "name(jp)": "ネクロフィアー",
         "id": "30271091",
         "✓": "✓"
     },
@@ -7491,6 +7832,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
         "introducingEvent": "The Shadow Stirs",
+        "name(jp)": "ドレッドウェポン",
         "id": "30271101",
         "✓": "✓"
     },
@@ -7514,6 +7856,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
         "introducingEvent": "Inherited Flaming Will",
+        "name(jp)": "クリムゾンクロス",
         "id": "30271111",
         "✓": "✓"
     },
@@ -7537,6 +7880,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Dark",
         "introducingEvent": "Fal'Cie Puppets",
+        "name(jp)": "暗黒の烙印",
         "id": "30271121",
         "✓": "✓"
     },
@@ -7560,6 +7904,7 @@
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Holy",
         "introducingEvent": "This Is Our Story",
+        "name(jp)": "サファイアシュート",
         "id": "30281001",
         "✓": "✓"
     },
@@ -7583,6 +7928,7 @@
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Ice",
         "introducingEvent": "This Is Our Story",
+        "name(jp)": "アクアバースト",
         "id": "30281011",
         "✓": "✓"
     },
@@ -7606,6 +7952,7 @@
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Holy",
         "introducingEvent": "Dreaming's End",
+        "name(jp)": "ブルードライブ",
         "id": "30281021",
         "✓": "✓"
     },
@@ -7629,6 +7976,7 @@
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Dark",
         "introducingEvent": "Pawn Among Kings",
+        "name(jp)": "アイシクルショット",
         "id": "30281051",
         "✓": "✓"
     },
@@ -7652,6 +8000,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Lightning",
         "introducingEvent": "Type-0: Into the Fray",
+        "name(jp)": "ルビースパイク",
         "id": "30281061",
         "✓": "✓"
     },
@@ -7675,6 +8024,7 @@
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Lightning",
         "introducingEvent": "Type-0: Into the Fray",
+        "name(jp)": "フレイムバースト",
         "id": "30281071",
         "✓": "✓"
     },
@@ -7698,6 +8048,7 @@
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Dark",
         "introducingEvent": "Women of the World",
+        "name(jp)": "ヘルサンダー",
         "id": "30301001",
         "✓": "✓"
     },
@@ -7721,6 +8072,7 @@
         "orb2Required": "Major Ice",
         "orb3Required": "Major Dark",
         "introducingEvent": "Women of the World",
+        "name(jp)": "レシオブリザド",
         "id": "30301011",
         "✓": "✓"
     },
@@ -7744,6 +8096,7 @@
         "orb2Required": "Greater Lightning",
         "orb3Required": "Greater Dark",
         "introducingEvent": "Women of the World",
+        "name(jp)": "ファストサンダー",
         "id": "30301021",
         "✓": "✓"
     },
@@ -7767,6 +8120,7 @@
         "orb2Required": "Greater Ice",
         "orb3Required": "Greater Dark",
         "introducingEvent": "Women of the World",
+        "name(jp)": "ファストブリザド",
         "id": "30301031",
         "✓": "✓"
     },
@@ -7790,6 +8144,7 @@
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
         "introducingEvent": "Vermillion Youths",
+        "name(jp)": "グランドチャージ",
         "id": "30311001",
         "✓": "✓"
     },
@@ -7813,6 +8168,7 @@
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Earth",
         "introducingEvent": "Vermillion Youths",
+        "name(jp)": "ヘヴィチャージ",
         "id": "30311011",
         "✓": "✓"
     },
@@ -7836,6 +8192,7 @@
         "orb2Required": "Major Fire",
         "orb3Required": "Major Earth",
         "introducingEvent": "Vermillion Youths",
+        "name(jp)": "ギガントスイング",
         "id": "30311021",
         "✓": "✓"
     },
@@ -7859,6 +8216,7 @@
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Earth",
         "introducingEvent": "Vermillion Youths",
+        "name(jp)": "ブラストバーン",
         "id": "30311031",
         "✓": "✓"
     }

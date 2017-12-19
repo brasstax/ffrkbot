@@ -1435,7 +1435,7 @@
         "character": "Ingus",
         "name": "Might of Earth",
         "effect": "Increases Earth damage dealt by 10%",
-        "unlockCriteria": "Use Ingus' Memory Crystal",
+        "unlockCriteria": "Use Ingus's Memory Crystal",
         "name(jp)": "土のクリスタルの力",
         "✓": "✓"
     },
@@ -1453,7 +1453,7 @@
         "character": "Ingus",
         "name": "Spirit of Sasune",
         "effect": "DEF +20% when equipping a shield",
-        "unlockCriteria": "Use Ingus' Memory Crystal II, chance to obtain with Ingus in party",
+        "unlockCriteria": "Use Ingus's Memory Crystal II, chance to obtain with Ingus in party",
         "name(jp)": "サスーン騎士の心意気",
         "✓": "✓"
     },
@@ -2251,7 +2251,7 @@
         "character": "Faris",
         "name": "Pirate's Vanguard",
         "effect": "50% chance to restore 1 use for all Support abilities at the beginning of the battle",
-        "unlockCriteria": "Use Faris' Memory Crystal",
+        "unlockCriteria": "Use Faris's Memory Crystal",
         "name(jp)": "女頭領の統率",
         "✓": "✓"
     },
@@ -2260,7 +2260,7 @@
         "character": "Faris",
         "name": "Fury of the Seas",
         "effect": "PHY attacks deal 20% more damage when equipping a bow",
-        "unlockCriteria": "Use Faris' Memory Crystal II, chance to obtain with Faris in party",
+        "unlockCriteria": "Use Faris's Memory Crystal II, chance to obtain with Faris in party",
         "name(jp)": "海上の戦女神",
         "✓": "✓"
     },
@@ -2467,7 +2467,7 @@
         "character": "Celes",
         "name": "Hand of the Victor",
         "effect": "30% chance to turn Attack into Blizzard Strike",
-        "unlockCriteria": "Use Celes' Memory Crystal",
+        "unlockCriteria": "Use Celes's Memory Crystal",
         "name(jp)": "常勝",
         "✓": "✓"
     },
@@ -2476,7 +2476,7 @@
         "character": "Celes",
         "name": "Unbreakable Spellblade",
         "effect": "Spellblade abilities deal 30% more damage",
-        "unlockCriteria": "Use Celes' Memory Crystal II, chance to obtain with Celes in party",
+        "unlockCriteria": "Use Celes's Memory Crystal II, chance to obtain with Celes in party",
         "name(jp)": "常勝将軍の魔剣",
         "✓": "✓"
     },
@@ -3250,7 +3250,7 @@
         "character": "Rufus",
         "name": "Savage Shots",
         "effect": "Sharpshooter abilities deal 15% more damage",
-        "unlockCriteria": "Use Rufus' Memory Crystal",
+        "unlockCriteria": "Use Rufus's Memory Crystal",
         "name(jp)": "非情なる狙撃",
         "✓": "✓"
     },
@@ -3259,7 +3259,7 @@
         "character": "Rufus",
         "name": "Master of Fear",
         "effect": "Sharpshooter abilities deal 30% more damage",
-        "unlockCriteria": "Use Rufus' Memory Crystal II, chance to obtain with Rufus in party",
+        "unlockCriteria": "Use Rufus's Memory Crystal II, chance to obtain with Rufus in party",
         "name(jp)": "恐怖の統率者",
         "✓": "✓"
     },
@@ -3421,7 +3421,7 @@
         "character": "Quistis",
         "name": "Keen Eye",
         "effect": "Increases damage dealt by 10% when exploiting elemental weaknesses",
-        "unlockCriteria": "Use Quistis' Memory Crystal",
+        "unlockCriteria": "Use Quistis's Memory Crystal",
         "name(jp)": "観察眼",
         "✓": "✓"
     },
@@ -3430,7 +3430,7 @@
         "character": "Quistis",
         "name": "Instructor's Discipline",
         "effect": "PHY attacks deal 20% more damage when equipping a whip",
-        "unlockCriteria": "Use Quistis' Memory Crystal II, chance to obtain with Quistis in party",
+        "unlockCriteria": "Use Quistis's Memory Crystal II, chance to obtain with Quistis in party",
         "name(jp)": "教官のムチ",
         "✓": "✓"
     },
@@ -4069,7 +4069,7 @@
         "character": "Tidus",
         "name": "Winning Spirit",
         "effect": "Grants Haste when HP fall below 20%",
-        "unlockCriteria": "Use Tidus' Memory Crystal",
+        "unlockCriteria": "Use Tidus's Memory Crystal",
         "name(jp)": "エースの意地",
         "✓": "✓"
     },
@@ -4087,7 +4087,7 @@
         "character": "Tidus",
         "name": "Ace Striker",
         "effect": "Acting grants 50% more Soul Break points",
-        "unlockCriteria": "Use Tidus' Memory Crystal II, chance to obtain with Tidus in party",
+        "unlockCriteria": "Use Tidus's Memory Crystal II, chance to obtain with Tidus in party",
         "name(jp)": "エースストライカー",
         "✓": "✓"
     },
@@ -5059,7 +5059,7 @@
         "character": "Cid Raines",
         "name": "Cavalry Commander",
         "effect": "BLK attacks deal 10% more damage when equipping a light armor",
-        "unlockCriteria": "Use Cid Raines' Memory Crystal",
+        "unlockCriteria": "Use Cid Raines's Memory Crystal",
         "name(jp)": "騎兵隊の司令官",
         "✓": "✓"
     },
@@ -5068,7 +5068,7 @@
         "character": "Cid Raines",
         "name": "Might of the L'Cie",
         "effect": "ATK and MAG +10% when equipping a fist weapon",
-        "unlockCriteria": "Use Cid Raines' Memory Crystal II, chance to obtain with Cid Raines in party",
+        "unlockCriteria": "Use Cid Raines's Memory Crystal II, chance to obtain with Cid Raines in party",
         "name(jp)": "ルシの力",
         "✓": "✓"
     },
@@ -5410,7 +5410,7 @@
         "character": "Noctis",
         "name": "Sleeping Prince",
         "effect": "Causes Sleep at the beginning of the battle, ATK and DEF +10%",
-        "unlockCriteria": "Use Noctis' Memory Crystal",
+        "unlockCriteria": "Use Noctis's Memory Crystal",
         "name(jp)": "眠れる王子",
         "✓": "✓"
     },
@@ -5419,7 +5419,7 @@
         "character": "Noctis",
         "name": "Lucian Heir",
         "effect": "Defend turns into an ability that restores HP to the user for 10% of the user's HP",
-        "unlockCriteria": "Use Noctis' Memory Crystal II, chance to obtain with Noctis in party",
+        "unlockCriteria": "Use Noctis's Memory Crystal II, chance to obtain with Noctis in party",
         "name(jp)": "ルシス王国の後継者",
         "✓": "✓"
     },
@@ -5437,7 +5437,7 @@
         "character": "Gladiolus",
         "name": "Staunch Ally",
         "effect": "DEF +5% for each 10% missing HP",
-        "unlockCriteria": "Use Gladiolus' Memory Crystal",
+        "unlockCriteria": "Use Gladiolus's Memory Crystal",
         "name(jp)": "頼りになる兄貴分",
         "✓": "✓"
     },
@@ -5446,7 +5446,7 @@
         "character": "Gladiolus",
         "name": "Stalwart Watch",
         "effect": "Grants Protect at the beginning of the battle",
-        "unlockCriteria": "Use Gladiolus' Memory Crystal II, chance to obtain with Gladiolus in party",
+        "unlockCriteria": "Use Gladiolus's Memory Crystal II, chance to obtain with Gladiolus in party",
         "name(jp)": "強固なる防人",
         "✓": "✓"
     },
@@ -5464,7 +5464,7 @@
         "character": "Ignis",
         "name": "Tireless Learning",
         "effect": "PHY attacks deal 10% more damage when equipping a dagger",
-        "unlockCriteria": "Use Ignis' Memory Crystal",
+        "unlockCriteria": "Use Ignis's Memory Crystal",
         "name(jp)": "たゆまぬ研鑽",
         "✓": "✓"
     },
@@ -5473,7 +5473,7 @@
         "character": "Ignis",
         "name": "Royal Tutor",
         "effect": "15% chance to counter PHY attacks with an ability (single, 1,00 physical) that heals the user for 30% of the damage dealt",
-        "unlockCriteria": "Use Ignis' Memory Crystal II, chance to obtain with Ignis in party",
+        "unlockCriteria": "Use Ignis's Memory Crystal II, chance to obtain with Ignis in party",
         "name(jp)": "王族の側仕え",
         "✓": "✓"
     },
@@ -5518,7 +5518,7 @@
         "character": "Iris",
         "name": "Puppy Love",
         "effect": "WHT abilities restore 10% more HP",
-        "unlockCriteria": "Use Iris' Memory Crystal",
+        "unlockCriteria": "Use Iris's Memory Crystal",
         "name(jp)": "王子を慕う幼馴染",
         "✓": "✓"
     },
@@ -5527,7 +5527,7 @@
         "character": "Iris",
         "name": "The Two of Us",
         "effect": "Attack turns into a single heal (26)",
-        "unlockCriteria": "Use Iris' Memory Crystal II, chance to obtain with Iris in party",
+        "unlockCriteria": "Use Iris's Memory Crystal II, chance to obtain with Iris in party",
         "name(jp)": "ふたりでおさんぽ",
         "✓": "✓"
     },
@@ -5599,7 +5599,7 @@
         "character": "Agrias",
         "name": "Holy Knight's Sigil",
         "effect": "30% chance to turn Attack into an ability (single, 1,00 physical) that deals Holy damage",
-        "unlockCriteria": "Use Agrias' Memory Crystal",
+        "unlockCriteria": "Use Agrias's Memory Crystal",
         "name(jp)": "ホーリーナイトの証",
         "✓": "✓"
     },
@@ -5608,7 +5608,7 @@
         "character": "Agrias",
         "name": "Holy Knight's Pride",
         "effect": "Knight abilities deal 30% more damage",
-        "unlockCriteria": "Use Agrias' Memory Crystal II, chance to obtain with Agrias in party",
+        "unlockCriteria": "Use Agrias's Memory Crystal II, chance to obtain with Agrias in party",
         "name(jp)": "ホーリーナイトの誇り",
         "✓": "✓"
     },

@@ -33,6 +33,20 @@
     },
     {
         "character": "Status",
+        "source": "EX: Prophetic Warrior",
+        "name": "Bright Finisher",
+        "type": "PHY",
+        "target": "Single enemy",
+        "time": 2.5,
+        "effects": "Deals damage for 35,00% of the damage dealt with Holy attacks, breaks damage cap",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Knight",
+        "✓": "✓"
+    },
+    {
+        "character": "Status",
         "source": "Chaos Follow-Up",
         "name": "Chaos Follow-Up",
         "type": "PHY",
@@ -827,8 +841,8 @@
     },
     {
         "character": "Status",
-        "source": "Auto Destructive Barrage",
-        "name": "Destructive Barrage",
+        "source": "Auto Chain of Destruction",
+        "name": "Chain of Destruction",
         "type": "SUM",
         "target": "Single enemy",
         "formula": "Magical",

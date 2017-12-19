@@ -3005,8 +3005,8 @@
     },
     {
         "id": "50049",
-        "commonName": "Auto Destructive Barrage",
-        "effects": "Casts Destructive Barrage every 3,50 seconds",
+        "commonName": "Auto Chain of Destruction",
+        "effects": "Casts Chain of Destruction every 3,50 seconds",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Auto\" status",
@@ -3015,7 +3015,7 @@
     },
     {
         "id": "50050",
-        "commonName": "EX: Time Reader",
+        "commonName": "EX: Farseer",
         "effects": "MAG +30%, grants High Quick Cast 1 after using a Ice attack",
         "defaultDuration": 15,
         "mndModifier": "-",
@@ -3711,7 +3711,7 @@
     },
     {
         "id": "50123",
-        "commonName": "EX_MODE_ADVENTURER",
+        "commonName": "EX: Adventurer",
         "effects": "ATK +30%, casts Valiant Flame after using a Fire attack",
         "defaultDuration": 15,
         "mndModifier": "-",
@@ -3721,7 +3721,7 @@
     },
     {
         "id": "50124",
-        "commonName": "DUAL_CAST_FOR_SPELL_BLADE",
+        "commonName": "Spellblade Double",
         "effects": "Dualcasts Spellblade abilities consuming an extra ability use",
         "defaultDuration": 15,
         "mndModifier": "-",
@@ -3731,7 +3731,7 @@
     },
     {
         "id": "50125",
-        "commonName": "EX_MODE_MACHINERY",
+        "commonName": "EX: Machinist",
         "effects": "ATK +30%, Machinist cast speed x2,00, casts Poison/Fire/Lightning Debilitator after dealing Poison/Fire/Lightning damage with a Machinist ability",
         "defaultDuration": 15,
         "mndModifier": "-",
@@ -3741,7 +3741,7 @@
     },
     {
         "id": "50126",
-        "commonName": "ABILITY_BOOST_FOR_MACHINIST_MAX_130",
+        "commonName": "Machinist Rank Boost",
         "effects": "Machinist abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
@@ -3751,12 +3751,32 @@
     },
     {
         "id": "50127",
-        "commonName": "CHASE_MODE_FOR_SHOCK_INPERIAL",
+        "commonName": "Sword Arts Follow-Up",
         "effects": "Casts Sword Arts after using a Knight ability",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHASE_MODE_FOR_SHOCK_INPERIAL",
+        "notes": "-"
+    },
+    {
+        "id": "50128",
+        "commonName": "EX: Prophetic Warrior",
+        "effects": "Knight abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, casts Bright Finisher when removed",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "EX_MODE_PROPHETIC_WARRIOR",
+        "notes": "-"
+    },
+    {
+        "id": "50129",
+        "commonName": "Attach Holy Stacking",
+        "effects": "Allow to stack Attach Holy, up to Attach Holy 3",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_HOLY_BOOSTABLE",
         "notes": "-"
     },
     {
