@@ -62,7 +62,8 @@
         "effect": "Grants Attach Holy at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Flame Shield (I)",
-        "name(jp)": "正義を信じぬく心"
+        "name(jp)": "正義を信じぬく心",
+        "✓": "✓"
     },
     {
         "realm": "I",
