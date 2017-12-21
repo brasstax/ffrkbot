@@ -18265,7 +18265,7 @@
         "multiplier": 17,
         "element": "Lightning, NE",
         "time": 2.5,
-        "effects": "Ten single attacks (1,70 each), MAG and RES +30% to the user for 25 seconds, grants Attach Lightning and Thunderstorm Follow-Up to the user",
+        "effects": "Ten single attacks (1,70 each), MAG and RES +30% to the user for 25 seconds, grants Attach Lightning and Lightning Sigil Follow-Up to the user",
         "counter": "N",
         "autoTarget": "Lowest HP% enemy",
         "points": 500,

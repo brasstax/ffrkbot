@@ -790,8 +790,8 @@
     },
     {
         "character": "Status",
-        "source": "Thunderstorm Follow-Up",
-        "name": "Thunderstorm",
+        "source": "Lightning Sigil Follow-Up",
+        "name": "Lightning Sigil",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",

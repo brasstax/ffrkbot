@@ -2945,8 +2945,8 @@
     },
     {
         "id": "50043",
-        "commonName": "Thunderstorm Follow-Up",
-        "effects": "Casts Thunderstorm after dealing damage with a Black Magic ability",
+        "commonName": "Lightning Sigil Follow-Up",
+        "effects": "Casts Lightning Sigil after dealing damage with a Black Magic ability",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
