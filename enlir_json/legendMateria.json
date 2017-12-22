@@ -3246,7 +3246,7 @@
     {
         "realm": "XII",
         "character": "Basch",
-        "name": "Sincere General",
+        "name": "Captain's Honor",
         "effect": "Knight abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "誠実なる将軍",
@@ -3255,7 +3255,7 @@
     {
         "realm": "XII",
         "character": "Basch",
-        "name": "Vow of Protection",
+        "name": "Sworn to Protect",
         "effect": "40% chance to cover PHY attacks that target allies, reducing damage taken by 50%",
         "relic": "-",
         "name(jp)": "守護への固き誓い",
@@ -3302,7 +3302,7 @@
     {
         "realm": "XII",
         "character": "Penelo",
-        "name": "Outspoken Girlfriend",
+        "name": "Fearless Friend",
         "effect": "WHT abilities restore ?% more HP",
         "relic": "-",
         "name(jp)": "けなげなガールフレンド"
@@ -3310,7 +3310,7 @@
     {
         "realm": "XII",
         "character": "Penelo",
-        "name": "Aspiring Dancer",
+        "name": "Dreams of the Dance",
         "effect": "?% chance to cast a group heal (?) after using a Dancer ability",
         "relic": "-",
         "name(jp)": "踊り子を夢見る少女"
