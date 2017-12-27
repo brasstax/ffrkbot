@@ -236,17 +236,19 @@
         "realm": "I",
         "character": "Thief (I)",
         "name": "Dagger Juggler",
-        "effect": "PHY attacks deal ?% more damage when equipping a dagger",
+        "effect": "PHY attacks deal 10% more damage when equipping a dagger",
         "relic": "-",
-        "name(jp)": "巧みな短剣さばき"
+        "name(jp)": "巧みな短剣さばき",
+        "✓": "✓"
     },
     {
         "realm": "I",
         "character": "Thief (I)",
         "name": "Thief's Zeal",
-        "effect": "?% chance to dualcast Thief abilities",
+        "effect": "35% chance to dualcast Thief abilities",
         "relic": "-",
-        "name(jp)": "盗賊の矜持"
+        "name(jp)": "盗賊の矜持",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -372,17 +374,19 @@
         "realm": "II",
         "character": "Minwu",
         "name": "Regal Retainer",
-        "effect": "WHT abilities restore ?% more HP",
+        "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
-        "name(jp)": "美しき参謀"
+        "name(jp)": "美しき参謀",
+        "✓": "✓"
     },
     {
         "realm": "II",
         "character": "Minwu",
         "name": "Ultimate Decree",
-        "effect": "?% chance to remove Poison, Silence, Blind and Confuse to the user after being afflicted with Poison, Silence, Blind or Confuse",
+        "effect": "75% chance to remove Poison, Silence, Blind and Confuse to the user after being afflicted with Poison, Silence, Blind or Confuse",
         "relic": "-",
-        "name(jp)": "究極魔法に捧げし天命"
+        "name(jp)": "究極魔法に捧げし天命",
+        "✓": "✓"
     },
     {
         "realm": "II",
@@ -462,17 +466,19 @@
         "realm": "II",
         "character": "Josef",
         "name": "Salamand's Might",
-        "effect": "Monk abilities deal ?% more damage",
+        "effect": "Monk abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "サラマンドの力自慢"
+        "name(jp)": "サラマンドの力自慢",
+        "✓": "✓"
     },
     {
         "realm": "II",
         "character": "Josef",
         "name": "Heroic Decease",
-        "effect": "Causes Light Doom: 15, restores HP to all allies for ?% max HP and grants Last Stand to all allies when HP fall below ?%",
+        "effect": "Causes Light Doom: 15, restores HP to all allies for 55% max HP and grants Last Stand to all allies when HP fall below 20%",
         "relic": "-",
-        "name(jp)": "漢の散り様"
+        "name(jp)": "漢の散り様",
+        "✓": "✓"
     },
     {
         "realm": "II",
@@ -946,25 +952,31 @@
     },
     {
         "realm": "IV",
+        "character": "Palom",
         "relic": "-"
     },
     {
         "realm": "IV",
-        "relic": "-"
-    },
-    {
-        "realm": "IV"
-    },
-    {
-        "realm": "IV",
+        "character": "Palom",
         "relic": "-"
     },
     {
         "realm": "IV",
+        "character": "Palom"
+    },
+    {
+        "realm": "IV",
+        "character": "Porom",
         "relic": "-"
     },
     {
-        "realm": "IV"
+        "realm": "IV",
+        "character": "Porom",
+        "relic": "-"
+    },
+    {
+        "realm": "IV",
+        "character": "Porom"
     },
     {
         "realm": "IV",
@@ -1022,14 +1034,17 @@
     },
     {
         "realm": "IV",
+        "character": "Fusoya",
         "relic": "-"
     },
     {
         "realm": "IV",
+        "character": "Fusoya",
         "relic": "-"
     },
     {
-        "realm": "IV"
+        "realm": "IV",
+        "character": "Fusoya"
     },
     {
         "realm": "IV",
@@ -1117,14 +1132,17 @@
     },
     {
         "realm": "IV",
+        "character": "Barbariccia",
         "relic": "-"
     },
     {
         "realm": "IV",
+        "character": "Barbariccia",
         "relic": "-"
     },
     {
-        "realm": "IV"
+        "realm": "IV",
+        "character": "Barbariccia"
     },
     {
         "realm": "V",
@@ -2218,17 +2236,19 @@
         "realm": "VIII",
         "character": "Irvine",
         "name": "Gentle Sniper",
-        "effect": "PHY attacks deal ?% more damage when equipping a gun",
+        "effect": "PHY attacks deal 10% more damage when equipping a gun",
         "relic": "-",
-        "name(jp)": "優しき狙撃手"
+        "name(jp)": "優しき狙撃手",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
         "character": "Irvine",
         "name": "Quick Hand",
-        "effect": "?% chance to grant Quick Cast 3 to the user after using a Sharpshooter ability",
+        "effect": "30% chance to grant Quick Cast 3 to the user after using a Sharpshooter ability",
         "relic": "-",
-        "name(jp)": "凄腕の速射術"
+        "name(jp)": "凄腕の速射術",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -2764,17 +2784,19 @@
         "realm": "X",
         "character": "Kimahri",
         "name": "Eye on Victory",
-        "effect": "Increases Water damage dealt by ?%",
+        "effect": "Increases Water damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "勝つと決めた"
+        "name(jp)": "勝つと決めた",
+        "✓": "✓"
     },
     {
         "realm": "X",
         "character": "Kimahri",
         "name": "Hornless Pride",
-        "effect": "?% chance to counter enemy BLK attacks with an ability (group) that causes Imperil Water 10% for 15 seconds",
+        "effect": "45% chance to counter BLK attacks with an ability (group) that causes Imperil Water 10% for 15 seconds",
         "relic": "-",
-        "name(jp)": "ツノ折れの誇り"
+        "name(jp)": "ツノ折れの誇り",
+        "✓": "✓"
     },
     {
         "realm": "X",
@@ -3303,17 +3325,19 @@
         "realm": "XII",
         "character": "Penelo",
         "name": "Fearless Friend",
-        "effect": "WHT abilities restore ?% more HP",
+        "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
-        "name(jp)": "けなげなガールフレンド"
+        "name(jp)": "けなげなガールフレンド",
+        "✓": "✓"
     },
     {
         "realm": "XII",
         "character": "Penelo",
         "name": "Dreams of the Dance",
-        "effect": "?% chance to cast a group heal (?) after using a Dancer ability",
+        "effect": "35% chance to cast a group heal (25) after using a Dancer ability",
         "relic": "-",
-        "name(jp)": "踊り子を夢見る少女"
+        "name(jp)": "踊り子を夢見る少女",
+        "✓": "✓"
     },
     {
         "realm": "XII",

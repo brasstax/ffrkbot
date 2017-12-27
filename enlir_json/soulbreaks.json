@@ -16472,7 +16472,7 @@
         "multiplier": 7.1,
         "element": "Dark, NE",
         "time": 2.5,
-        "effects": "Ten single attacks (0,71 each), ATK and DEF +30% to the user for 25 seconds, grants Critical Chance 75%, Quick Cast 1 and Dark Quick Cycle to the user",
+        "effects": "Ten single ranged attacks (0,71 each), grants ATK and DEF +30% for 25 seconds, Critical Chance 75%, Quick Cast 1 and Dark Quick Cycle to the user",
         "counter": "N",
         "autoTarget": "Lowest HP% enemy",
         "points": 500,

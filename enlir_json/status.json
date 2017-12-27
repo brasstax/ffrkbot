@@ -3840,6 +3840,42 @@
         "notes": "-"
     },
     {
+        "id": "50147",
+        "commonName": "Warlord's Hymn 1",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "Warlord's Hymn 2, Warlord's Hymn 3, Warlord's Hymn 4",
+        "codedName": "BUSHIN_SONG_MODE_1",
+        "notes": "-"
+    },
+    {
+        "id": "50148",
+        "commonName": "Warlord's Hymn 2",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "Warlord's Hymn 1, Warlord's Hymn 3, Warlord's Hymn 4",
+        "codedName": "BUSHIN_SONG_MODE_2",
+        "notes": "-"
+    },
+    {
+        "id": "50149",
+        "commonName": "Warlord's Hymn 3",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "Warlord's Hymn 1, Warlord's Hymn 2, Warlord's Hymn 4",
+        "codedName": "BUSHIN_SONG_MODE_3",
+        "notes": "-"
+    },
+    {
+        "id": "50150",
+        "commonName": "Warlord's Hymn 4",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "Warlord's Hymn 1, Warlord's Hymn 2, Warlord's Hymn 3",
+        "codedName": "BUSHIN_SONG_MODE_4",
+        "notes": "-"
+    },
+    {
         "id": "601",
         "commonName": "MAG +X%",
         "effects": "MAG +X%",
