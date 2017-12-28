@@ -181,6 +181,22 @@
     },
     {
         "character": "Status",
+        "source": "EX: No Questions!",
+        "name": "Strongest Sword!",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "-",
+        "element": "Fire, NE",
+        "time": "?",
+        "effects": "Randomly deals one (?%), four (?%), six (?%) or ten (?%) single attacks (? each), 100% hit rate",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
+    },
+    {
+        "character": "Status",
         "source": "EX: Spellblade Barrage",
         "name": "Wind Barrage",
         "type": "PHY",
@@ -501,6 +517,22 @@
         "sb": 0,
         "school": "Knight",
         "✓": "✓"
+    },
+    {
+        "character": "Status",
+        "source": "EX: True Self",
+        "name": "Air Hazard",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Wind, NE",
+        "time": "?",
+        "effects": "Randomly deals four (?%) or eight (?%) single attacks (0,40 each), 100% hit rate",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
     },
     {
         "character": "Status",

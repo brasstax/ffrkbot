@@ -37,6 +37,18 @@
     },
     {
         "realm": "Core",
+        "character": "Elarra"
+    },
+    {
+        "realm": "Core",
+        "character": "Elarra"
+    },
+    {
+        "realm": "Core",
+        "character": "Elarra"
+    },
+    {
+        "realm": "Core",
         "character": "Warrior",
         "name": "Blade's Edge",
         "effect": "PHY attacks deal 10% more damage when equipping a sword",

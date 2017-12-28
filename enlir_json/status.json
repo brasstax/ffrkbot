@@ -4822,6 +4822,16 @@
         "notes": "-"
     },
     {
+        "id": "845",
+        "commonName": "Minor Imperil Poison",
+        "effects": "Poison Resistance -10%, cumulable",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_POISON_DISADVANTAGE_1",
+        "notes": "-"
+    },
+    {
         "id": "8001",
         "commonName": "Minor Buff Fire",
         "effects": "Increases Fire damage dealt by 10%, cumulable",

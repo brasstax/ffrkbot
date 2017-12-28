@@ -28,6 +28,25 @@
         "✓": "✓"
     },
     {
+        "realm": "Core",
+        "character": "Elarra",
+        "relic": "-"
+    },
+    {
+        "realm": "Core",
+        "character": "Elarra",
+        "relic": "-"
+    },
+    {
+        "realm": "Core",
+        "character": "Elarra",
+        "name": "Artistic Interest",
+        "effect": "?% chance to cast a group heal (?) after using a Bard ability",
+        "master": "MND +10",
+        "relic": "Elarra's Cap (Core)",
+        "name(jp)": "芸術への興味"
+    },
+    {
         "realm": "I",
         "character": "Warrior of Light",
         "name": "Chosen of the Light",
@@ -1202,6 +1221,25 @@
     },
     {
         "realm": "V",
+        "character": "Gilgamesh",
+        "relic": "-"
+    },
+    {
+        "realm": "V",
+        "character": "Gilgamesh",
+        "relic": "-"
+    },
+    {
+        "realm": "V",
+        "character": "Gilgamesh",
+        "name": "Heroic Passion",
+        "effect": "?% chance to dualcast Samurai abilities",
+        "master": "ATK +10",
+        "relic": "Gold Armor (V)",
+        "name(jp)": "厚情なる豪傑"
+    },
+    {
+        "realm": "V",
         "character": "Bartz",
         "name": "Tempered Spellblade",
         "effect": "Spellblade abilities deal 15% more damage",
@@ -1315,7 +1353,7 @@
     {
         "realm": "V",
         "character": "Krile",
-        "name": "Boundless Love",
+        "name": "Boundless Affection",
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "かぎりない愛情",
@@ -1324,7 +1362,7 @@
     {
         "realm": "V",
         "character": "Krile",
-        "name": "Grandfather's Vessel",
+        "name": "Grandfather's Footsteps",
         "effect": "30% chance to grant Quick Cast 3 to the user after using a Fire attack",
         "relic": "-",
         "name(jp)": "宿りし祖父の魂",
@@ -1425,7 +1463,7 @@
     {
         "realm": "VI",
         "character": "Locke",
-        "name": "Enthusiasm for Adventure",
+        "name": "Ardent Adventurer",
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "冒険への熱中",
@@ -1434,7 +1472,7 @@
     {
         "realm": "VI",
         "character": "Locke",
-        "name": "Phoenix's Blessing",
+        "name": "Phoenix's Charge",
         "effect": "Restores HP for 100% of the user's maximum HP and grants Phoenix Mode when HP fall below 20%",
         "relic": "-",
         "name(jp)": "フェニックスの加護",
@@ -1810,6 +1848,15 @@
     },
     {
         "realm": "VII",
+        "character": "Cloud",
+        "name": "Overcoming Truth",
+        "effect": "?% chance to dualcast abilities that deal Wind damage",
+        "master": "ATK +10",
+        "relic": "Organics+ (VII)",
+        "name(jp)": "真実を超克する者"
+    },
+    {
+        "realm": "VII",
         "character": "Tifa",
         "name": "Heroic Devotion",
         "effect": "Increases Earth damage dealt by 10%",
@@ -1961,7 +2008,7 @@
     {
         "realm": "VII",
         "character": "Zack",
-        "name": "SOLDER's Honor",
+        "name": "SOLDIER's Honor",
         "effect": "Celerity abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "ソルジャーの威信",
@@ -1970,7 +2017,7 @@
     {
         "realm": "VII",
         "character": "Zack",
-        "name": "SOLDIER's Alacrity",
+        "name": "SOLDIER's Swiftness",
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "ソルジャーの速攻",
@@ -2290,6 +2337,15 @@
     },
     {
         "realm": "VIII",
+        "character": "Seifer",
+        "name": "Despotic Committee",
+        "effect": "Grants Attach Dark at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Blitz Armor (VIII)",
+        "name(jp)": "横暴な風紀委員長"
+    },
+    {
+        "realm": "VIII",
         "character": "Laguna",
         "name": "Aspiring Journalist",
         "effect": "Machinist abilities deal 15% more damage",
@@ -2463,6 +2519,15 @@
         "relic": "Lamia's Tiara (IX)",
         "name(jp)": "気高き決意",
         "✓": "✓"
+    },
+    {
+        "realm": "IX",
+        "character": "Garnet",
+        "name": "Theater Lover",
+        "effect": "?% chance to cast a group heal (?) after using a Bard ability",
+        "master": "MAG +10",
+        "relic": "Princess's Bracers (IX)",
+        "name(jp)": "演劇を愛する姫"
     },
     {
         "realm": "IX",
@@ -2951,7 +3016,7 @@
     {
         "realm": "X",
         "character": "Seymour",
-        "name": "Hidden Ambition",
+        "name": "Treacherous Ambition",
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "野心を秘めし召喚士",
@@ -2960,7 +3025,7 @@
     {
         "realm": "X",
         "character": "Seymour",
-        "name": "Dead Who Deprives the Light",
+        "name": "Stealer of Light",
         "effect": "40% chance of restoring HP to the user for 40% of the damage dealt with single-target Dark attacks",
         "relic": "-",
         "name(jp)": "光を奪いし死人",
