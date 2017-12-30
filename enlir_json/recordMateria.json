@@ -37,15 +37,29 @@
     },
     {
         "realm": "Core",
-        "character": "Elarra"
+        "character": "Elarra",
+        "name": "Awakening Girl",
+        "effect": "WHT abilities restore ?% more HP",
+        "unlockCriteria": "Use Elarra's Memory Crystal",
+        "name(jp)": "目覚めし少女"
     },
     {
         "realm": "Core",
-        "character": "Elarra"
+        "character": "Elarra",
+        "name": "Protection of the Records",
+        "effect": "WHT abilities restore 20% more HP",
+        "unlockCriteria": "Use Elarra's Memory Crystal II, chance to obtain with Elarra in party",
+        "name(jp)": "記憶の加護",
+        "✓": "✓"
     },
     {
         "realm": "Core",
-        "character": "Elarra"
+        "character": "Elarra",
+        "name": "White Mage Apprentice",
+        "effect": "40% chance to double Experience gained at the end of the battle",
+        "unlockCriteria": "Bring Elarra to level 99",
+        "name(jp)": "学びし白魔法の知識",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -2102,16 +2116,19 @@
     {
         "realm": "IV",
         "character": "Barbariccia",
+        "effect": "MAG +?%, DEF -?%",
         "unlockCriteria": "Use Barbariccia's Memory Crystal"
     },
     {
         "realm": "IV",
         "character": "Barbariccia",
+        "effect": "Increases Wind damage dealt by ?%",
         "unlockCriteria": "Use Barbariccia's Memory Crystal II, chance to obtain with Barbariccia in party"
     },
     {
         "realm": "IV",
         "character": "Barbariccia",
+        "effect": "Attack turns into an ability (group, ? magical) that deals Wind damage",
         "unlockCriteria": "Bring Barbariccia to level 99"
     },
     {

@@ -30,21 +30,28 @@
     {
         "realm": "Core",
         "character": "Elarra",
-        "relic": "-"
+        "name": "Keen Learner",
+        "effect": "WHT abilities restore ?% more HP",
+        "relic": "-",
+        "name(jp)": "心を学ぶ少女"
     },
     {
         "realm": "Core",
         "character": "Elarra",
-        "relic": "-"
+        "name": "Gifted Historian",
+        "effect": "?% chance to dualcast White Magic abilities",
+        "relic": "-",
+        "name(jp)": "歴史に育まれる才華"
     },
     {
         "realm": "Core",
         "character": "Elarra",
         "name": "Artistic Interest",
-        "effect": "?% chance to cast a group heal (?) after using a Bard ability",
+        "effect": "25% chance to cast a group heal (25) after using a Bard ability",
         "master": "MND +10",
         "relic": "Elarra's Cap (Core)",
-        "name(jp)": "芸術への興味"
+        "name(jp)": "芸術への興味",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -833,6 +840,15 @@
     },
     {
         "realm": "IV",
+        "character": "Cecil (Dark Knight)",
+        "name": "Power of Deep Darkness",
+        "effect": "Grants Attach Dark at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Arondight (IV)",
+        "name(jp)": "深き闇の力"
+    },
+    {
+        "realm": "IV",
         "character": "Cecil (Paladin)",
         "name": "Harmonious Soul",
         "effect": "Reduces damage taken by Holy attacks by 10%",
@@ -858,6 +874,15 @@
         "relic": "Cecil's Guise (IV)",
         "name(jp)": "逆境を越えし聖騎士",
         "✓": "✓"
+    },
+    {
+        "realm": "IV",
+        "character": "Cecil (Paladin)",
+        "name": "Conquered Light",
+        "effect": "Grants Attach Holy at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Caesar's Plate (IV)",
+        "name(jp)": "試練の果てに掴んだ光"
     },
     {
         "realm": "IV",
@@ -972,30 +997,44 @@
     {
         "realm": "IV",
         "character": "Palom",
+        "effect": "BLK or WHT attacks deal ?% more damage",
         "relic": "-"
     },
     {
         "realm": "IV",
         "character": "Palom",
+        "effect": "?% chance to dualcast Black Magic abilities",
         "relic": "-"
     },
     {
         "realm": "IV",
-        "character": "Palom"
+        "character": "Palom",
+        "name": "Mischievous Boy",
+        "effect": "Grants Attach Lightning at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Hypnocrown (IV)",
+        "name(jp)": "いたずら好きの少年"
     },
     {
         "realm": "IV",
         "character": "Porom",
+        "effect": "WHT abilities restore ?% more HP",
         "relic": "-"
     },
     {
         "realm": "IV",
         "character": "Porom",
+        "effect": "?% chance to dualcast White Magic abilities",
         "relic": "-"
     },
     {
         "realm": "IV",
-        "character": "Porom"
+        "character": "Porom",
+        "name": "Caring Girl",
+        "effect": "?% chance to grant Quick Cast 1 to the target after using a single-target White Magic ability that restores HP on an ally",
+        "master": "MND +10",
+        "relic": "Tabby Suit (IV)",
+        "name(jp)": "世話焼きな少女"
     },
     {
         "realm": "IV",
@@ -1054,16 +1093,14 @@
     {
         "realm": "IV",
         "character": "Fusoya",
+        "effect": "BLK or WHT attacks deal ?% more damage",
         "relic": "-"
     },
     {
         "realm": "IV",
         "character": "Fusoya",
+        "effect": "?% chance to dualcast Black Magic or White Magic abilities",
         "relic": "-"
-    },
-    {
-        "realm": "IV",
-        "character": "Fusoya"
     },
     {
         "realm": "IV",
@@ -1152,16 +1189,23 @@
     {
         "realm": "IV",
         "character": "Barbariccia",
+        "effect": "Increases Wind damage dealt by ?%",
         "relic": "-"
     },
     {
         "realm": "IV",
         "character": "Barbariccia",
+        "effect": "?% chance to dualcast abilities that deal Wind damage",
         "relic": "-"
     },
     {
         "realm": "IV",
-        "character": "Barbariccia"
+        "character": "Barbariccia",
+        "name": "Mistress of the Winds",
+        "effect": "Grants Attach Wind at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Barbariccia's Guise (IV)",
+        "name(jp)": "風を操る妖女"
     },
     {
         "realm": "V",
@@ -1222,12 +1266,20 @@
     {
         "realm": "V",
         "character": "Gilgamesh",
-        "relic": "-"
+        "name": "The Dark Mage's Right Arm",
+        "effect": "PHY attacks deal 10% more damage",
+        "relic": "-",
+        "name(jp)": "暗黒魔道士の右腕",
+        "✓": "✓"
     },
     {
         "realm": "V",
         "character": "Gilgamesh",
-        "relic": "-"
+        "name": "Emphatic Sacrifice",
+        "effect": "Grants Protect, Shell, Haste and Gilgamesh Trance when HP fall below 20%",
+        "relic": "-",
+        "name(jp)": "命がけの義理人情",
+        "✓": "✓"
     },
     {
         "realm": "V",

@@ -41,32 +41,36 @@
         "character": "Elarra",
         "source": "Magica Float",
         "name": "Float Pulchra",
-        "type": "?",
+        "type": "NAT",
         "target": "Self",
-        "time": "?",
-        "effects": "MND +?% for ? seconds, grants Quick Cast 3",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?",
-        "name(jp)": "フロース・プルクラ"
+        "time": 1.65,
+        "effects": "MND +20% for 25 seconds, grants Quick Cast 3",
+        "counter": "Y",
+        "autoTarget": "Self",
+        "sb": 50,
+        "school": "White Magic",
+        "name(jp)": "フロース・プルクラ",
+        "id": "30512521",
+        "✓": "✓"
     },
     {
         "character": "Elarra",
         "source": "Magica Float",
         "name": "Float Odor",
-        "type": "?",
+        "type": "WHT",
         "target": "All allies",
         "formula": "Magical",
-        "multiplier": "?",
+        "multiplier": 2,
         "element": "Holy",
-        "time": "?",
-        "effects": "Restores HP (?), damages undeads",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?",
-        "name(jp)": "フロース・オドル"
+        "time": 1.65,
+        "effects": "Restores HP (25), damages undeads",
+        "counter": "Y",
+        "autoTarget": "All allies",
+        "sb": 50,
+        "school": "White Magic",
+        "name(jp)": "フロース・オドル",
+        "id": "30512522",
+        "✓": "✓"
     },
     {
         "character": "Warrior of Light",
@@ -1466,6 +1470,42 @@
         "✓": "✓"
     },
     {
+        "character": "Cecil (Dark Knight)",
+        "source": "Abyss Gate",
+        "name": "Shadow Slash",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Dark, NE",
+        "time": "?",
+        "effects": "Four single attack (? each)",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?",
+        "name(jp)": "シャドウスラッシュ",
+        "id": "30512541"
+    },
+    {
+        "character": "Cecil (Dark Knight)",
+        "source": "Abyss Gate",
+        "name": "Evil Drive",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Dark, NE",
+        "time": "?",
+        "effects": "Three single attacks (? each), grants Darkness +15% Boost 3 to the user",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?",
+        "name(jp)": "イビルドライブ",
+        "id": "30512542"
+    },
+    {
         "character": "Cecil (Paladin)",
         "source": "Paladin Force",
         "name": "Blessed Weapon",
@@ -1922,6 +1962,42 @@
         "✓": "✓"
     },
     {
+        "character": "Fusoya",
+        "source": "Lunarian Prayer",
+        "name": "Moonlight Protection",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": "?",
+        "element": "Holy, NE",
+        "time": "?",
+        "effects": "Two single attacks (? each)",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?",
+        "name(jp)": "月光の加護",
+        "id": "30512551"
+    },
+    {
+        "character": "Fusoya",
+        "source": "Lunarian Prayer",
+        "name": "Moonlight Mark",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": "?",
+        "element": "Holy, NE",
+        "time": "?",
+        "effects": "3/4/5/6 single attacks (?/?/?/? each) scaling with Moonlight Protection uses",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?",
+        "name(jp)": "月光の刻印",
+        "id": "30512552"
+    },
+    {
         "character": "Golbez",
         "source": "Twin Moon",
         "name": "Shadow Dragon",
@@ -2182,6 +2258,42 @@
         "✓": "✓"
     },
     {
+        "character": "Barbariccia",
+        "source": "Maelstrom (IV)",
+        "name": "Fast Wind",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": "?",
+        "element": "Wind, NE",
+        "time": "?",
+        "effects": "Four single attacks (? each), grants Quick Cast 2 to the user",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?",
+        "name(jp)": "ファストウィンド",
+        "id": "30512561"
+    },
+    {
+        "character": "Barbariccia",
+        "source": "Maelstrom (IV)",
+        "name": "Aero Drive",
+        "type": "?",
+        "target": "All enemies",
+        "formula": "Magical",
+        "multiplier": "?",
+        "element": "Wind, NE",
+        "time": "?",
+        "effects": "Two group attacks (? each), grants Magic Bargain to the user for ? seconds",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?",
+        "name(jp)": "エアロドライブ",
+        "id": "30512562"
+    },
+    {
         "character": "Lenna",
         "source": "Phoenix of Tycoon",
         "name": "Royal Judgment",
@@ -2418,7 +2530,8 @@
         "autoTarget": "?",
         "sb": "?",
         "school": "?",
-        "name(jp)": "親友（とも）の魂"
+        "name(jp)": "親友（とも）の魂",
+        "id": "30512531"
     },
     {
         "character": "Gilgamesh",
@@ -2432,7 +2545,8 @@
         "autoTarget": "?",
         "sb": "?",
         "school": "?",
-        "name(jp)": "親友（とも）の魂"
+        "name(jp)": "親友（とも）の魂",
+        "id": "30512531"
     },
     {
         "character": "Gilgamesh",
@@ -2449,7 +2563,8 @@
         "autoTarget": "?",
         "sb": "?",
         "school": "?",
-        "name(jp)": "十文字斬り"
+        "name(jp)": "十文字斬り",
+        "id": "30512532"
     },
     {
         "character": "Gilgamesh",
@@ -2466,7 +2581,8 @@
         "autoTarget": "?",
         "sb": "?",
         "school": "?",
-        "name(jp)": "十文字斬り"
+        "name(jp)": "十文字斬り",
+        "id": "30512532"
     },
     {
         "character": "Bartz",

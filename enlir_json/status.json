@@ -5,7 +5,7 @@
         "effects": "Damages for 1/64 max HP every 5,00 seconds, persists after battle",
         "defaultDuration": "-",
         "mndModifier": "-",
-        "exclusiveStatus": "Low Regen, Medium Regen, High Regen, Sap, Phantom Regen",
+        "exclusiveStatus": "Low Regen, Medium Regen, High Regen, Sap, Phantom Regen, Regenga",
         "codedName": "POISON",
         "notes": "-"
     },
@@ -165,7 +165,7 @@
         "effects": "Heals for 3% max HP every 3,00 seconds",
         "defaultDuration": 30,
         "mndModifier": 0.03,
-        "exclusiveStatus": "Medium Regen, High Regen, Poison, Sap, Zombie",
+        "exclusiveStatus": "Medium Regen, High Regen, Poison, Sap, Zombie, Regenga",
         "codedName": "REGEN",
         "notes": "-"
     },
@@ -241,7 +241,7 @@
         "effects": "Damages for 1/64 max HP every 2,00 seconds",
         "defaultDuration": 40,
         "mndModifier": "-",
-        "exclusiveStatus": "Low Regen, Medium Regen, High Regen, Poison, Phantom Regen",
+        "exclusiveStatus": "Low Regen, Medium Regen, High Regen, Poison, Phantom Regen, Regenga",
         "codedName": "SAP",
         "notes": "-"
     },
@@ -261,7 +261,7 @@
         "effects": "Arrests ATB charge rate, can't act, resets ATB when set, counts towards Game Over",
         "defaultDuration": 30,
         "mndModifier": "-",
-        "exclusiveStatus": "All except KO, Low Regen, Medium Regen, High Regen, HP Stock",
+        "exclusiveStatus": "All except KO, Low Regen, Medium Regen, High Regen, Regenga, HP Stock",
         "codedName": "PRISON_CAGE",
         "notes": "Used for Prison Cage (IX)"
     },
@@ -390,7 +390,7 @@
         "effects": "Heals for 5% max HP every 2,50 seconds",
         "defaultDuration": 35,
         "mndModifier": 0.03,
-        "exclusiveStatus": "Low Regen, Medium Regen, Poison, Sap, Zombie",
+        "exclusiveStatus": "Low Regen, Medium Regen, Poison, Sap, Zombie, Regenga",
         "codedName": "REGEN_STRONG",
         "notes": "-"
     },
@@ -430,7 +430,7 @@
         "effects": "Heals for 4% max HP every 2,50 seconds",
         "defaultDuration": 30,
         "mndModifier": 0.03,
-        "exclusiveStatus": "Low Regen, High Regen, Poison, Sap, Zombie",
+        "exclusiveStatus": "Low Regen, High Regen, Poison, Sap, Zombie, Regenga",
         "codedName": "REGEN_MIDDLE",
         "notes": "-"
     },
@@ -735,6 +735,16 @@
         "notes": "-"
     },
     {
+        "id": "266007",
+        "commonName": "As One Mode",
+        "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Summoning Strike\" status",
+        "codedName": "IDENTITY",
+        "notes": "-"
+    },
+    {
         "id": "267",
         "commonName": "Critical Damage +X%",
         "effects": "Critical hits deal X% more damage (additive with the base critical coefficient)",
@@ -797,7 +807,7 @@
     {
         "id": "27101",
         "commonName": "Pre-Dispel",
-        "effects": "Prevents Haste, Protect, Shell, Reflect, Low Regen, Medium Regen, High Regen and Triple once",
+        "effects": "Prevents Haste, Protect, Shell, Reflect, Low Regen, Medium Regen, High Regen, Regenga  and Triple once",
         "defaultDuration": 25,
         "mndModifier": "-",
         "exclusiveStatus": "Astra",
@@ -820,7 +830,7 @@
         "effects": "Heals for 5% max HP every 2,50 seconds",
         "defaultDuration": "-",
         "mndModifier": "-",
-        "exclusiveStatus": "Low Regen, Medium Regen, High Regen, Poison, Sap, Zombie",
+        "exclusiveStatus": "Low Regen, Medium Regen, High Regen, Poison, Sap, Zombie, Regenga",
         "codedName": "REGEN_FULL_TIME",
         "notes": "???"
     },
@@ -1612,6 +1622,46 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_CAST_TIME_300_15000_MSEC_ALL",
+        "notes": "-"
+    },
+    {
+        "id": "2058",
+        "commonName": "Physical High Quick Cast 3",
+        "effects": "Cast speed x3,00 for PHY or NAT attacks that deal physical damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_PHYSICAL_DAMAGE_ABILITIES",
+        "notes": "-"
+    },
+    {
+        "id": "2059",
+        "commonName": "Striker Mode 1",
+        "effects": "Cast speed x2,00",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "Striker Mode 2, Striker Mode 3",
+        "codedName": "CHANGE_CAST_TIME_200_15000_MSEC_ALL_FOR_STRIKER_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "2060",
+        "commonName": "Striker Mode 2",
+        "effects": "Cast speed x4,00",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "Striker Mode 1, Striker Mode 3",
+        "codedName": "CHANGE_CAST_TIME_400_15000_MSEC_ALL_FOR_STRIKER_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "2061",
+        "commonName": "Striker Mode 3",
+        "effects": "Cast speed x6,00",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "Striker Mode 1, Striker Mode 2",
+        "codedName": "CHANGE_CAST_TIME_600_15000_MSEC_ALL_FOR_STRIKER_MODE",
         "notes": "-"
     },
     {
@@ -3840,6 +3890,106 @@
         "notes": "-"
     },
     {
+        "id": "50136",
+        "commonName": "Moonlight Protection Counter",
+        "effects": "Keeps track of the number of uses of Moonlight Protection, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_MOON_KEEPER",
+        "notes": "-"
+    },
+    {
+        "id": "50137",
+        "commonName": "Darkness Rank Boost",
+        "effects": "Darkness abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_DARKNESS_MAX_MIDDLE",
+        "notes": "-"
+    },
+    {
+        "id": "50138",
+        "commonName": "EX: Lunarian",
+        "effects": "ATK and DEF +30%, restores 1500 HP to all allies in the front row after using a Knight ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_OF_MOON_CITIZEN",
+        "notes": "-"
+    },
+    {
+        "id": "50139",
+        "commonName": "Evil Gale Follow-Up",
+        "effects": "Casts Evil Wind after using a Wind attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_TORCH",
+        "notes": "-"
+    },
+    {
+        "id": "50140",
+        "commonName": "EX: Red Wings",
+        "effects": "ATK +30%, cast speed x3,00 for Darkness abilities, dualcasts Darkness abilities, removed if the user doesn't have any Stoneskin",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_OF_RED_WING",
+        "notes": "-"
+    },
+    {
+        "id": "50141",
+        "commonName": "Regenga",
+        "effects": "Heals for 2000 HP every 2,00 seconds",
+        "defaultDuration": 4,
+        "mndModifier": 0.01,
+        "exclusiveStatus": "Low Regen, Medium Regen, High Regen, Poison, Sap, Zombie",
+        "codedName": "FIXED_REGEN_2000",
+        "notes": "-"
+    },
+    {
+        "id": "50142",
+        "commonName": "Monk Double",
+        "effects": "Dualcasts Monk abilities consuming an extra ability use",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_MONK_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "50143",
+        "commonName": "EX: True Self",
+        "effects": "ATK +30%, casts Air Hazard after using a Wind attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_REAL",
+        "notes": "-"
+    },
+    {
+        "id": "50144",
+        "commonName": "EX: No Questions!",
+        "effects": "ATK +30%, casts Strongest Sword! after using a Samurai ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_NO_QUESTION",
+        "notes": "-"
+    },
+    {
+        "id": "50145",
+        "commonName": "Combat Rank Boost",
+        "effects": "Combat abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_PHYSICAL_ATTACK_MAX_MIDDLE",
+        "notes": "-"
+    },
+    {
         "id": "50147",
         "commonName": "Warlord's Hymn 1",
         "defaultDuration": "10",
@@ -3873,6 +4023,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "Warlord's Hymn 1, Warlord's Hymn 2, Warlord's Hymn 3",
         "codedName": "BUSHIN_SONG_MODE_4",
+        "notes": "-"
+    },
+    {
+        "id": "50154",
+        "commonName": "Gilgamesh Trance",
+        "effects": "ATK, DEF and RES +30%, cast speed x3,00",
+        "defaultDuration": 25,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "GILGAMESH_TRANCE_MODE",
         "notes": "-"
     },
     {
@@ -4509,6 +4669,15 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CUSTOM_PARAM_MULTI_DEF_100_MDEF_100_MND_50",
+        "notes": "-"
+    },
+    {
+        "id": "6022",
+        "effects": "MAG +30%, RES +50%",
+        "defaultDuration": 25,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_MATK_30_MDEF_50",
         "notes": "-"
     },
     {
@@ -5206,6 +5375,6 @@
         "effects": "* Abilities described as \"remove negative effects\", like Esuna, remove the status 200 (Poison), 201 (Silence), 202 (Paralyze), 203 (Confuse), 210 (Blind), 211 (Sleep), 212 (Petrify), 215 (Berserk), 221 (Mini), 222 (Toad) and 524 (Doom of Atomos)."
     },
     {
-        "effects": "* Abilities described as \"remove positive effects\", like Dispel,  remove the status 204 (Haste), 207 (Protect), 208 (Shell), 209 (Reflect), 216 (Low Regen), 247 (Medium Regen), 243 (High Regen), 50045 (Phantom Regen) and 240 (Triple)."
+        "effects": "* Abilities described as \"remove positive effects\", like Dispel,  remove the status 204 (Haste), 207 (Protect), 208 (Shell), 209 (Reflect), 216 (Low Regen), 247 (Medium Regen), 243 (High Regen), 50045 (Phantom Regen), 50141 (Regenga) and 240 (Triple)."
     }
 ]
