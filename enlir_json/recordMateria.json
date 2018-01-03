@@ -39,9 +39,10 @@
         "realm": "Core",
         "character": "Elarra",
         "name": "Awakening Girl",
-        "effect": "WHT abilities restore ?% more HP",
+        "effect": "WHT abilities restore 10% more HP",
         "unlockCriteria": "Use Elarra's Memory Crystal",
-        "name(jp)": "目覚めし少女"
+        "name(jp)": "目覚めし少女",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -2116,20 +2117,28 @@
     {
         "realm": "IV",
         "character": "Barbariccia",
-        "effect": "MAG +?%, DEF -?%",
-        "unlockCriteria": "Use Barbariccia's Memory Crystal"
+        "name": "Woman of the Four",
+        "effect": "MAG +10%, DEF -10%",
+        "unlockCriteria": "Use Barbariccia's Memory Crystal",
+        "name(jp)": "四天王の紅一点",
+        "✓": "✓"
     },
     {
         "realm": "IV",
         "character": "Barbariccia",
-        "effect": "Increases Wind damage dealt by ?%",
-        "unlockCriteria": "Use Barbariccia's Memory Crystal II, chance to obtain with Barbariccia in party"
+        "name": "Aerial Fighter",
+        "effect": "Increases Wind damage dealt by 20%",
+        "unlockCriteria": "Use Barbariccia's Memory Crystal II, chance to obtain with Barbariccia in party",
+        "name(jp)": "空中戦に長ける戦士",
+        "✓": "✓"
     },
     {
         "realm": "IV",
         "character": "Barbariccia",
+        "name": "Crowned by the Wind",
         "effect": "Attack turns into an ability (group, ? magical) that deals Wind damage",
-        "unlockCriteria": "Bring Barbariccia to level 99"
+        "unlockCriteria": "Bring Barbariccia to level 99",
+        "name(jp)": "風を名に冠する者"
     },
     {
         "realm": "V",
