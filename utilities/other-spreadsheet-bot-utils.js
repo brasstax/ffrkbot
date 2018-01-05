@@ -47,7 +47,6 @@ exports.other = function lookupOtherSpreadsheet(msg, args) {
     data: enlirOther,
     allowRegexp: true,
   });
-  console.log(result);
   if (result.value === null) {
     msg.channel.send(`Search for ${query} not found.`);
   } else {
