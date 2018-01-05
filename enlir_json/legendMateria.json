@@ -428,10 +428,11 @@
         "realm": "II",
         "character": "Minwu",
         "name": "Gaze of Destiny",
-        "effect": "?% chance to dualcast White Magic abilities",
+        "effect": "25% chance to dualcast White Magic abilities",
         "master": "MND +10",
         "relic": "Sage's Staff (II)",
-        "name(jp)": "天命を見抜く瞳"
+        "name(jp)": "天命を見抜く瞳",
+        "✓": "✓"
     },
     {
         "realm": "II",
@@ -4902,7 +4903,8 @@
         "name": "Silent Gunslinger",
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
-        "name(jp)": "不言実行の銃士"
+        "name(jp)": "不言実行の銃士",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
