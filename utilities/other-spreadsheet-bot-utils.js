@@ -2,6 +2,7 @@ const util = require('util');
 const {RichEmbed} = require('discord.js');
 const jsonQuery = require('json-query');
 const escapeStringRegexp = require('escape-string-regexp');
+const titleCase = require('titlecase');
 
 const fs = require('fs');
 const path = require('path');
@@ -33,12 +34,20 @@ exports.other = function lookupOtherSpreadsheet(msg, args) {
     query = botUtils.checkAlias(query);
     query = escapeStringRegexp(query);
   };
-  queryString = util.format('[name~/%s/i]', query);
+  // bypasses issues with ampersands in queries (seriously)
+  if (query.includes('&')) {
+    query = titleCase.toLaxTitleCase(query);
+    console.log(query);
+    queryString = ['[name~?]', query];
+  } else {
+    queryString = util.format('[name~/%s/i]', query);
+  }
   console.log(`queryString: ${queryString}`);
   let result = jsonQuery(queryString, {
     data: enlirOther,
     allowRegexp: true,
   });
+  console.log(result);
   if (result.value === null) {
     msg.channel.send(`Search for ${query} not found.`);
   } else {
