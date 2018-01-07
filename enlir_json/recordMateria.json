@@ -6133,7 +6133,8 @@
         "name": "Quiet Tactician",
         "effect": "Restores 1 use for all Machinist abilities at the beginning of the battle",
         "unlockCriteria": "Use King's Memory Crystal II, chance to obtain with King in party",
-        "name(jp)": "冷静な戦術"
+        "name(jp)": "冷静な戦術",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
@@ -6157,9 +6158,10 @@
         "realm": "Type-0",
         "character": "Cinque",
         "name": "Innate Superstrength",
-        "effect": "Increases Earth damage dealt by ?%",
+        "effect": "Increases Earth damage dealt by 20%",
         "unlockCriteria": "Use Cinque's Memory Crystal II, chance to obtain with Cinque in party",
-        "name(jp)": "剛力な天然少女"
+        "name(jp)": "剛力な天然少女",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",

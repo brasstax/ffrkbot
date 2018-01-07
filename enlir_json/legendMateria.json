@@ -31,17 +31,19 @@
         "realm": "Core",
         "character": "Elarra",
         "name": "Keen Learner",
-        "effect": "WHT abilities restore ?% more HP",
+        "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
-        "name(jp)": "心を学ぶ少女"
+        "name(jp)": "心を学ぶ少女",
+        "✓": "✓"
     },
     {
         "realm": "Core",
         "character": "Elarra",
         "name": "Gifted Historian",
-        "effect": "?% chance to dualcast White Magic abilities",
+        "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
-        "name(jp)": "歴史に育まれる才華"
+        "name(jp)": "歴史に育まれる才華",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -1314,10 +1316,11 @@
         "realm": "V",
         "character": "Gilgamesh",
         "name": "Heroic Passion",
-        "effect": "?% chance to dualcast Samurai abilities",
+        "effect": "25% chance to dualcast Samurai abilities",
         "master": "ATK +10",
         "relic": "Gold Armor (V)",
-        "name(jp)": "厚情なる豪傑"
+        "name(jp)": "厚情なる豪傑",
+        "✓": "✓"
     },
     {
         "realm": "V",
@@ -1638,9 +1641,10 @@
         "realm": "VI",
         "character": "Edgar",
         "name": "Young Ruler",
-        "effect": "?% chance to dualcast Machinist abilities",
+        "effect": "35% chance to dualcast Machinist abilities",
         "relic": "-",
-        "name(jp)": "国を統べる若き王"
+        "name(jp)": "国を統べる若き王",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -1767,7 +1771,7 @@
     {
         "realm": "VI",
         "character": "Strago",
-        "name": "Hunter of Secrets",
+        "name": "Curious Naturalist",
         "effect": "Increases Water damage dealt by 10%",
         "relic": "-",
         "name(jp)": "モンスターの謎を追う者",
@@ -1776,7 +1780,7 @@
     {
         "realm": "VI",
         "character": "Strago",
-        "name": "Bonds of Hope",
+        "name": "Waker of Hope",
         "effect": "25% chance to cast an ability (group) that restores HP for 30% of the target's maximum HP after taking damage from an enemy",
         "relic": "-",
         "name(jp)": "希望を呼び覚ます絆",
@@ -1931,10 +1935,11 @@
         "realm": "VII",
         "character": "Cloud",
         "name": "Overcoming Truth",
-        "effect": "?% chance to dualcast abilities that deal Wind damage",
+        "effect": "25% chance to dualcast abilities that deal Wind damage",
         "master": "ATK +10",
         "relic": "Organics+ (VII)",
-        "name(jp)": "真実を超克する者"
+        "name(jp)": "真実を超克する者",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -2606,10 +2611,11 @@
         "realm": "IX",
         "character": "Garnet",
         "name": "Theater Lover",
-        "effect": "?% chance to cast a group heal (?) after using a Bard ability",
+        "effect": "25% chance to cast a group heal (25) after using a Bard ability",
         "master": "MAG +10",
         "relic": "Princess's Bracers (IX)",
-        "name(jp)": "演劇を愛する姫"
+        "name(jp)": "演劇を愛する姫",
+        "✓": "✓"
     },
     {
         "realm": "IX",
@@ -3871,10 +3877,11 @@
         "realm": "XIII",
         "character": "Noel",
         "name": "Hunter's Quality",
-        "effect": "?% chance to dualcast abilities that deal Ice damage",
+        "effect": "25% chance to dualcast abilities that deal Ice damage",
         "master": "ATK +10",
         "relic": "Noel's Guise (XIII)",
-        "name(jp)": "高きハンターの資質"
+        "name(jp)": "高きハンターの資質",
+        "✓": "✓"
     },
     {
         "realm": "XIII",
@@ -4064,17 +4071,19 @@
         "realm": "XIV",
         "character": "Cid (XIV)",
         "name": "Knowledge of Allagan",
-        "effect": "Machinist abilities deal ?% more damage",
+        "effect": "Machinist abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "古代アラグ文明の知識"
+        "name(jp)": "古代アラグ文明の知識",
+        "✓": "✓"
     },
     {
         "realm": "XIV",
         "character": "Cid (XIV)",
         "name": "Skybound Machinist",
-        "effect": "?% chance to dualcast Machinist abilities",
+        "effect": "35% chance to dualcast Machinist abilities",
         "relic": "-",
-        "name(jp)": "天を駆ける技師"
+        "name(jp)": "天を駆ける技師",
+        "✓": "✓"
     },
     {
         "realm": "XIV",

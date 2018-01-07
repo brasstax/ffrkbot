@@ -3129,7 +3129,7 @@
     {
         "character": "Locke",
         "source": "On the Hunt",
-        "name": "Heat Brave",
+        "name": "Brave the Heat",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -3148,7 +3148,7 @@
     {
         "character": "Locke",
         "source": "On the Hunt",
-        "name": "Heat Edge",
+        "name": "Searing Edge",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -6627,7 +6627,7 @@
     {
         "character": "Seymour",
         "source": "Guado Grudge",
-        "name": "Desire for Ruin",
+        "name": "Thirst for Destruction",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
@@ -6646,7 +6646,7 @@
     {
         "character": "Seymour",
         "source": "Guado Grudge",
-        "name": "Grudge of the Dead",
+        "name": "Grave Vengeance",
         "type": "BLK",
         "target": "Self",
         "time": 1.65,
