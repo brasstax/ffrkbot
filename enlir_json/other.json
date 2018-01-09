@@ -2108,6 +2108,22 @@
         "✓": "✓"
     },
     {
+        "character": "Barbariccia",
+        "source": "Crowned by the Wind",
+        "name": "Crowned by the Wind",
+        "type": "BLK",
+        "target": "All enemies",
+        "formula": "Magical",
+        "multiplier": 2.08,
+        "element": "Wind",
+        "time": 1.5,
+        "counter": "Y",
+        "autoTarget": "All enemies",
+        "sb": 50,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
         "character": "Galuf",
         "source": "Martial Master",
         "name": "Attack",
