@@ -1025,6 +1025,16 @@
         "notes": "-"
     },
     {
+        "id": "28501",
+        "commonName": "Dark Radiant Shield: 75%",
+        "effects": "Returns 75% of the damage taken to the attacker as Dark damage",
+        "defaultDuration": 30,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_DARK_75",
+        "notes": "-"
+    },
+    {
         "id": "282",
         "commonName": "Spellblade +15% Boost 2",
         "effects": "Spellblade abilities deal 15% more damage, lasts for 2 turns",
@@ -4042,6 +4052,16 @@
         "notes": "-"
     },
     {
+        "id": "50151",
+        "commonName": "EX: Lion",
+        "effects": "ATK +30%, casts Renzokuken Icefang after using a Spellblade ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_LION",
+        "notes": "-"
+    },
+    {
         "id": "50154",
         "commonName": "Gilgamesh Trance",
         "effects": "ATK, DEF and RES +30%, cast speed x3,00",
@@ -4049,6 +4069,26 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "GILGAMESH_TRANCE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50158",
+        "commonName": "Wind of the End Counter",
+        "effects": "Keeps track of the uses of Wind of the End, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_JUNCTION_FOR_WIND_OF_THE_END",
+        "notes": "-"
+    },
+    {
+        "id": "50165",
+        "commonName": "Renzokuken Icefang Counter",
+        "effects": "Keeps track of the uses of Renzokuken Icefang, removed if the user hasn't EX: Lion, reset upon refreshing EX: Lion",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_FOR_EX_MODE_LION",
         "notes": "-"
     },
     {
@@ -4694,7 +4734,7 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CUSTOM_PARAM_MULTI_MATK_30_MDEF_50",
-        "notes": "-"
+        "notes": "???"
     },
     {
         "id": "701",

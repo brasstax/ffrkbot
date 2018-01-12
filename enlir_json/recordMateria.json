@@ -2138,7 +2138,8 @@
         "name": "Crowned by the Wind",
         "effect": "Attack turns into an ability (group, 2,08 magical) that deals Wind damage",
         "unlockCriteria": "Bring Barbariccia to level 99",
-        "name(jp)": "風を名に冠する者"
+        "name(jp)": "風を名に冠する者",
+        "✓": "✓"
     },
     {
         "realm": "V",
@@ -3768,6 +3769,24 @@
         "unlockCriteria": "Bring Ward to level 99",
         "name(jp)": "無声の絆",
         "✓": "✓"
+    },
+    {
+        "realm": "VIII",
+        "character": "Ultimecia",
+        "effect": "MAG +?%, RES -?%",
+        "unlockCriteria": "Use Ultimecia's Memory Crystal"
+    },
+    {
+        "realm": "VIII",
+        "character": "Ultimecia",
+        "effect": "Increases Wind damage dealt by ?%",
+        "unlockCriteria": "Use Ultimecia's Memory Crystal II, chance to obtain with Ultimecia in party"
+    },
+    {
+        "realm": "VIII",
+        "character": "Ultimecia",
+        "effect": "BLK attacks deal ?% more damage when equipping a rod",
+        "unlockCriteria": "Bring Ultimecia to level 99"
     },
     {
         "realm": "IX",

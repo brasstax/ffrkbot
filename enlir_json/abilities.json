@@ -5004,7 +5004,7 @@
         "sb(jp)": "?",
         "uses": 2,
         "max": 10,
-        "introducingEvent": "(Torment)",
+        "introducingEvent": "Impure Tyrant",
         "name(jp)": "二刀魔法剣・爆砕"
     },
     {
@@ -5024,7 +5024,7 @@
         "sb(jp)": "?",
         "uses": 2,
         "max": 10,
-        "introducingEvent": "(Torment)",
+        "introducingEvent": "Impure Tyrant",
         "name(jp)": "二刀魔法剣・雷雨"
     },
     {
@@ -5044,7 +5044,7 @@
         "sb(jp)": "?",
         "uses": 2,
         "max": 10,
-        "introducingEvent": "(Torment)",
+        "introducingEvent": "Impure Tyrant",
         "name(jp)": "至高魔法剣・灼焔"
     },
     {
@@ -6296,7 +6296,7 @@
     },
     {
         "school": "Knight",
-        "name": "Earth Bringer",
+        "name": "Earthbringer",
         "rarity": 5,
         "type": "PHY",
         "target": "Single enemy",

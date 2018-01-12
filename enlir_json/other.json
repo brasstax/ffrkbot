@@ -589,6 +589,22 @@
     },
     {
         "character": "Status",
+        "source": "EX: Lion",
+        "name": "Renzokuken Icefang",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Ice, NE",
+        "time": "?",
+        "effects": "4/5/6/7/8 single attacks (?/?/?/?/? each) scaling with uses, +?/?/?/?/?% critical chance",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
+    },
+    {
+        "character": "Status",
         "source": "EX: Chosen Sorceress",
         "name": "Sub-Zero Calamity",
         "type": "BLK",

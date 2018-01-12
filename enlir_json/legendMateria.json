@@ -725,7 +725,7 @@
     {
         "realm": "III",
         "character": "Onion Knight",
-        "name": "Mastery of Weapons",
+        "name": "Master of Weapons",
         "effect": "35% chance to dualcast Celerity abilities",
         "relic": "-",
         "name(jp)": "武器術の頂",
@@ -734,7 +734,7 @@
     {
         "realm": "III",
         "character": "Onion Knight",
-        "name": "Mastery of Magicks",
+        "name": "Master of Magics",
         "effect": "35% chance to dualcast Black Magic abilities",
         "relic": "-",
         "name(jp)": "魔法術の頂",
@@ -980,17 +980,19 @@
         "realm": "IV",
         "character": "Edward",
         "name": "Princely Performance",
-        "effect": "Support abilities deal ?% more damage",
+        "effect": "Support abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "王子の演奏"
+        "name(jp)": "王子の演奏",
+        "✓": "✓"
     },
     {
         "realm": "IV",
         "character": "Edward",
         "name": "Call of Courage",
-        "effect": "?% chance to remove Poison, Silence, Blind and Confuse to the user after being afflicted with Poison, Silence, Blind or Confuse",
+        "effect": "75% chance to remove Poison, Silence, Blind and Confuse to the user after being afflicted with Poison, Silence, Blind or Confuse",
         "relic": "-",
-        "name(jp)": "呼び覚まされた勇気"
+        "name(jp)": "呼び覚まされた勇気",
+        "✓": "✓"
     },
     {
         "realm": "IV",
@@ -1216,9 +1218,10 @@
         "realm": "IV",
         "character": "Barbariccia",
         "name": "Arrogant Attitude",
-        "effect": "Increases Wind damage dealt by ?%",
+        "effect": "Increases Wind damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "高慢なる態度"
+        "name(jp)": "高慢なる態度",
+        "✓": "✓"
     },
     {
         "realm": "IV",
@@ -2205,17 +2208,19 @@
         "realm": "VII",
         "character": "Rufus",
         "name": "Shinra's Scion",
-        "effect": "PHY attacks deal ?% more damage when equipping a gun",
+        "effect": "PHY attacks deal 10% more damage when equipping a gun",
         "relic": "-",
-        "name(jp)": "神羅の御曹司"
+        "name(jp)": "神羅の御曹司",
+        "✓": "✓"
     },
     {
         "realm": "VII",
         "character": "Rufus",
         "name": "Scheming Son",
-        "effect": "?% chance to cause Minor Imperil Dark to the target after using a Dark attack on an enemy",
+        "effect": "30% chance to cause Minor Imperil Dark to the target after using a Dark attack on an enemy",
         "relic": "-",
-        "name(jp)": "若き策略家"
+        "name(jp)": "若き策略家",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -2433,6 +2438,15 @@
     },
     {
         "realm": "VIII",
+        "character": "Seifer",
+        "name": "Selfish Dreamer",
+        "effect": "?% chance to dualcast abilities that deal Dark damage",
+        "master": "ATK +10",
+        "relic": "Bangle of Ambition (VIII)",
+        "name(jp)": "利己的な夢追い人"
+    },
+    {
+        "realm": "VIII",
         "character": "Laguna",
         "name": "Aspiring Journalist",
         "effect": "Machinist abilities deal 15% more damage",
@@ -2540,6 +2554,27 @@
         "relic": "Fujin's Bracers (VIII)",
         "name(jp)": "猛る烈風",
         "✓": "✓"
+    },
+    {
+        "realm": "VIII",
+        "character": "Ultimecia",
+        "effect": "BLK attacks deal ?% more damage",
+        "relic": "-"
+    },
+    {
+        "realm": "VIII",
+        "character": "Ultimecia",
+        "effect": "?% chance to dualcast abilities that deal Wind damage",
+        "relic": "-"
+    },
+    {
+        "realm": "VIII",
+        "character": "Ultimecia",
+        "name": "Arrogant Ambition",
+        "effect": "Grants Attach Wind at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Harmonia Armlet (VIII)",
+        "name(jp)": "傲慢な野望"
     },
     {
         "realm": "IX",
@@ -2883,17 +2918,19 @@
         "realm": "X",
         "character": "Wakka",
         "name": "Everyone's Brother",
-        "effect": "Increases Water damage dealt by ?%",
+        "effect": "Increases Water damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "みんなの兄貴"
+        "name(jp)": "みんなの兄貴",
+        "✓": "✓"
     },
     {
         "realm": "X",
         "character": "Wakka",
         "name": "Blitz Spirit",
-        "effect": "?% chance to cause Minor Imperil Water to the target after using a Sharpshooter ability on an enemy",
+        "effect": "30% chance to cause Minor Imperil Water to the target after using a Sharpshooter ability on an enemy",
         "relic": "-",
-        "name(jp)": "ブリッツに込めた想い"
+        "name(jp)": "ブリッツに込めた想い",
+        "✓": "✓"
     },
     {
         "realm": "X",
@@ -4441,17 +4478,19 @@
         "realm": "FFT",
         "character": "Ovelia",
         "name": "Gentle Princess",
-        "effect": "WHT abilities restore ?% more HP",
+        "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
-        "name(jp)": "優しきプリンセス"
+        "name(jp)": "優しきプリンセス",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
         "character": "Ovelia",
         "name": "Prayer for Ivalice",
-        "effect": "Reduces damage taken by Fire, Ice, Lightning, Earth, Wind, Water, Holy, Dark and Poison attacks by ?%",
+        "effect": "Reduces damage taken by Fire, Ice, Lightning, Earth, Wind, Water, Holy, Dark and Poison attacks by 15%",
         "relic": "-",
-        "name(jp)": "イヴァリースに捧ぐ祈り"
+        "name(jp)": "イヴァリースに捧ぐ祈り",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
