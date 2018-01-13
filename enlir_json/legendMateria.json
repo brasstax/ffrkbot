@@ -1118,17 +1118,19 @@
         "realm": "IV",
         "character": "Fusoya",
         "name": "Lunar Wisdom",
-        "effect": "BLK or WHT attacks deal ?% more damage",
+        "effect": "BLK or WHT attacks deal 10% more damage",
         "relic": "-",
-        "name(jp)": "月の叡智"
+        "name(jp)": "月の叡智",
+        "✓": "✓"
     },
     {
         "realm": "IV",
         "character": "Fusoya",
         "name": "Keeper of two Planets",
-        "effect": "?% chance to dualcast Black Magic or White Magic abilities",
+        "effect": "35% chance to dualcast Black Magic or White Magic abilities",
         "relic": "-",
-        "name(jp)": "二つの星を見守る番人"
+        "name(jp)": "二つの星を見守る番人",
+        "✓": "✓"
     },
     {
         "realm": "IV",
@@ -2440,10 +2442,11 @@
         "realm": "VIII",
         "character": "Seifer",
         "name": "Selfish Dreamer",
-        "effect": "?% chance to dualcast abilities that deal Dark damage",
+        "effect": "25% chance to dualcast Darkness abilities",
         "master": "ATK +10",
         "relic": "Bangle of Ambition (VIII)",
-        "name(jp)": "利己的な夢追い人"
+        "name(jp)": "利己的な夢追い人",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -2558,14 +2561,18 @@
     {
         "realm": "VIII",
         "character": "Ultimecia",
+        "name": "Solemn Attitude",
         "effect": "BLK attacks deal ?% more damage",
-        "relic": "-"
+        "relic": "-",
+        "name(jp)": "尊大な態度"
     },
     {
         "realm": "VIII",
         "character": "Ultimecia",
+        "name": "Sorceress of Time",
         "effect": "?% chance to dualcast abilities that deal Wind damage",
-        "relic": "-"
+        "relic": "-",
+        "name(jp)": "妖艶な時の魔女"
     },
     {
         "realm": "VIII",
@@ -3078,7 +3085,7 @@
         "name": "God of Blitz",
         "effect": "Grants Attach Dark at the beginning of the battle",
         "master": "ATK +10",
-        "relic": "Jecht's Sparring Suite (X)",
+        "relic": "Jecht's Sparring Suit (X)",
         "name(jp)": "ブリッツの王者",
         "✓": "✓"
     },
