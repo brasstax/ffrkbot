@@ -1229,9 +1229,10 @@
         "realm": "IV",
         "character": "Barbariccia",
         "name": "Lady of the Tower",
-        "effect": "?% chance to dualcast abilities that deal Wind damage",
+        "effect": "35% chance to dualcast abilities that deal Wind damage",
         "relic": "-",
-        "name(jp)": "妖艶なる塔の支配者"
+        "name(jp)": "妖艶なる塔の支配者",
+        "✓": "✓"
     },
     {
         "realm": "IV",
@@ -2350,17 +2351,19 @@
         "realm": "VIII",
         "character": "Selphie",
         "name": "Quenchless Smile",
-        "effect": "WHT abilities restore ?% more HP",
+        "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
-        "name(jp)": "絶やさぬ笑顔"
+        "name(jp)": "絶やさぬ笑顔",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
         "character": "Selphie",
         "name": "Love for Home",
-        "effect": "?% chance to dualcast White Magic abilities",
+        "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
-        "name(jp)": "秘めたる郷土愛"
+        "name(jp)": "秘めたる郷土愛",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -2562,17 +2565,19 @@
         "realm": "VIII",
         "character": "Ultimecia",
         "name": "Solemn Attitude",
-        "effect": "BLK attacks deal ?% more damage",
+        "effect": "BLK attacks deal 10% more damage",
         "relic": "-",
-        "name(jp)": "尊大な態度"
+        "name(jp)": "尊大な態度",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
         "character": "Ultimecia",
         "name": "Sorceress of Time",
-        "effect": "?% chance to dualcast abilities that deal Wind damage",
+        "effect": "35% chance to dualcast abilities that deal Wind damage",
         "relic": "-",
-        "name(jp)": "妖艶な時の魔女"
+        "name(jp)": "妖艶な時の魔女",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -2581,7 +2586,8 @@
         "effect": "Grants Attach Wind at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Harmonia Armlet (VIII)",
-        "name(jp)": "傲慢な野望"
+        "name(jp)": "傲慢な野望",
+        "✓": "✓"
     },
     {
         "realm": "IX",
@@ -4427,6 +4433,16 @@
     },
     {
         "realm": "FFT",
+        "character": "Ramza",
+        "name": "Idealist Knight",
+        "effect": "25% chance to dualcast abilities that deal Holy damage",
+        "master": "ATK +10",
+        "relic": "Platinum Armor (FFT)",
+        "name(jp)": "高き志の騎士",
+        "✓": "✓"
+    },
+    {
+        "realm": "FFT",
         "character": "Agrias",
         "name": "Knight's Devotion",
         "effect": "Increases Holy damage dealt by 10%",
@@ -4725,6 +4741,16 @@
         "master": "MAG +10",
         "relic": "Silken Robe (A) (FFT)",
         "name(jp)": "補うための魔法の知識",
+        "✓": "✓"
+    },
+    {
+        "realm": "FFT",
+        "character": "Montblanc",
+        "name": "Kind Moogle",
+        "effect": "25% chance to cast an ability (group) with ATK, MAG, MND -30% after using a Dancer ability",
+        "master": "MAG +10",
+        "relic": "Circlet (A) (FFT)",
+        "name(jp)": "親切なモーグリ",
         "✓": "✓"
     },
     {

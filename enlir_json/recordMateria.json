@@ -3774,25 +3774,28 @@
         "realm": "VIII",
         "character": "Ultimecia",
         "name": "Sorceress from the Future",
-        "effect": "MAG +?%, RES -?%",
+        "effect": "MAG +10%, RES -10%",
         "unlockCriteria": "Use Ultimecia's Memory Crystal",
-        "name(jp)": "未来の魔女"
+        "name(jp)": "未来の魔女",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
         "character": "Ultimecia",
         "name": "Sorceress's Plot",
-        "effect": "Increases Wind damage dealt by ?%",
+        "effect": "Increases Wind damage dealt by 20%",
         "unlockCriteria": "Use Ultimecia's Memory Crystal II, chance to obtain with Ultimecia in party",
-        "name(jp)": "魔女の深謀"
+        "name(jp)": "魔女の深謀",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
         "character": "Ultimecia",
         "name": "Heart of Anger",
-        "effect": "BLK attacks deal ?% more damage when equipping a rod",
+        "effect": "BLK attacks deal 30% more damage when equipping a rod",
         "unlockCriteria": "Bring Ultimecia to level 99",
-        "name(jp)": "怒りに満ちた心"
+        "name(jp)": "怒りに満ちた心",
+        "✓": "✓"
     },
     {
         "realm": "IX",

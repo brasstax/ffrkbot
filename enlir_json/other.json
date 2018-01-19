@@ -1005,6 +1005,36 @@
     },
     {
         "character": "Status",
+        "source": "Thruthseeker Mercenary",
+        "name": "Shining Sword",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.56,
+        "element": "Holy, NE",
+        "time": 0.01,
+        "effects": "Four single attacks (0,39 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Support",
+        "✓": "✓"
+    },
+    {
+        "character": "Status",
+        "source": "Holy Smite Follow-Up",
+        "name": "Holy Smite",
+        "type": "?",
+        "target": "Single enemy",
+        "time": "?",
+        "effects": "Causes Imperil Holy ?% for ? seconds",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
+    },
+    {
+        "character": "Status",
         "source": "Everlasting Darkness Follow-Up",
         "name": "Everlasting Darkness",
         "type": "PHY",
@@ -3170,6 +3200,20 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "character": "Montblanc",
+        "source": "Kind Moogle",
+        "name": "Kind Moogle",
+        "type": "NAT",
+        "target": "All enemies",
+        "time": 0.01,
+        "effects": "ATK, MAG and MND -30% for 15 seconds",
+        "counter": "N",
+        "autoTarget": "All enemies",
+        "sb": 0,
+        "school": "Special",
         "✓": "✓"
     },
     {

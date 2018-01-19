@@ -4072,6 +4072,26 @@
         "notes": "-"
     },
     {
+        "id": "50156",
+        "commonName": "Thruthseeker Mercenary",
+        "effects": "Grants High Quick Cast 1 to the user and casts Shining Sword after using a Holy attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_EXPLORING_MERCENARIES",
+        "notes": "-"
+    },
+    {
+        "id": "50157",
+        "commonName": "Holy Smite Follow-Up",
+        "effects": "Casts Holy Smite after using two Knight abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_SLASH_OF_SAINT_FAITHFULNESS",
+        "notes": "-"
+    },
+    {
         "id": "50158",
         "commonName": "Wind of the End Counter",
         "effects": "Keeps track of the uses of Wind of the End, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
