@@ -4073,7 +4073,7 @@
     },
     {
         "id": "50156",
-        "commonName": "Thruthseeker Mercenary",
+        "commonName": "Truthseeking Mercenary",
         "effects": "Grants High Quick Cast 1 to the user and casts Shining Sword after using a Holy attack",
         "defaultDuration": 15,
         "mndModifier": "-",
