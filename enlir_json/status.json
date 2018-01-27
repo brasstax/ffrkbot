@@ -1035,6 +1035,16 @@
         "notes": "-"
     },
     {
+        "id": "28601",
+        "commonName": "Fire Radiant Shield: 75%",
+        "effects": "Returns 75% of the damage taken to the attacker as Fire damage",
+        "defaultDuration": 30,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_FIRE_75",
+        "notes": "-"
+    },
+    {
         "id": "282",
         "commonName": "Spellblade +15% Boost 2",
         "effects": "Spellblade abilities deal 15% more damage, lasts for 2 turns",
@@ -3123,7 +3133,7 @@
     },
     {
         "id": "50054",
-        "commonName": "EX: Vermillion Bird",
+        "commonName": "EX: Dominion",
         "effects": "MND +50%, DEF and RES -15%, grants High Quick Cast 1 to the user after exploiting elemental weakness",
         "defaultDuration": 15,
         "mndModifier": "-",
@@ -3133,7 +3143,7 @@
     },
     {
         "id": "50055",
-        "commonName": "Awakening",
+        "commonName": "Assault Mode",
         "effects": "Cast speed x2,00, casts Rush Blade after using a Spellblade ability, removed upon taking damage",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -4099,6 +4109,36 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "USED_ABILITY_COUNTER_JUNCTION_FOR_WIND_OF_THE_END",
+        "notes": "-"
+    },
+    {
+        "id": "50161",
+        "commonName": "Thievery Finisher",
+        "effects": "Casts Thievery when removed",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "PROOF_OF_THIEF",
+        "notes": "-"
+    },
+    {
+        "id": "50162",
+        "commonName": "Amarant Trance",
+        "effects": "ATK and RES +30%, 50% chance to restore 1500 HP to all allies after using a Monk ability",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AMARANT_TRANCE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50163",
+        "commonName": "Thief Rank Boost",
+        "effects": "Thief abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_THIEF_MAX_MIDDLE",
         "notes": "-"
     },
     {

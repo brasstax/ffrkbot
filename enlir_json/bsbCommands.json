@@ -150,7 +150,7 @@
     },
     {
         "character": "Garland",
-        "source": "Dark Class Change",
+        "source": "Twin Swords",
         "name": "Chain Cast",
         "type": "PHY",
         "target": "Single enemy",
@@ -169,7 +169,7 @@
     },
     {
         "character": "Garland",
-        "source": "Dark Class Change",
+        "source": "Twin Swords",
         "name": "Twist Drill",
         "type": "PHY",
         "target": "Single enemy",
@@ -486,7 +486,7 @@
     },
     {
         "character": "Thief (I)",
-        "source": "Invisible Break",
+        "source": "Invisibreak",
         "name": "Storm Trick",
         "type": "PHY",
         "target": "Single enemy",
@@ -505,7 +505,7 @@
     },
     {
         "character": "Thief (I)",
-        "source": "Invisible Break",
+        "source": "Invisibreak",
         "name": "Storm Break",
         "type": "PHY",
         "target": "Single enemy",
@@ -601,7 +601,7 @@
     {
         "character": "Guy",
         "source": "Gigantbreak",
-        "name": "Wolf's Fierceness",
+        "name": "Stony Fang",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -620,7 +620,7 @@
     {
         "character": "Guy",
         "source": "Gigantbreak",
-        "name": "Gigant's Arm",
+        "name": "Colossal Strength",
         "type": "PHY",
         "target": "All enemies",
         "formula": "Physical",
@@ -4814,7 +4814,7 @@
     },
     {
         "character": "Zell",
-        "source": "Hot-Blooded Meteor Barrage",
+        "source": "Fiery Meteor Barret",
         "name": "Flame Rush",
         "type": "PHY",
         "target": "Single enemy",
@@ -4833,7 +4833,7 @@
     },
     {
         "character": "Zell",
-        "source": "Hot-Blooded Meteor Barrage",
+        "source": "Fiery Meteor Barret",
         "name": "Spirit Beat",
         "type": "PHY",
         "target": "Single enemy",
@@ -4890,7 +4890,7 @@
     },
     {
         "character": "Selphie",
-        "source": "True Vision",
+        "source": "Reality or Truth",
         "name": "Crescent Heal",
         "type": "WHT",
         "target": "Single ally",
@@ -4909,7 +4909,7 @@
     },
     {
         "character": "Selphie",
-        "source": "True Vision",
+        "source": "Reality or Truth",
         "name": "Tiny Cure",
         "type": "WHT",
         "target": "All allies",
@@ -5982,6 +5982,44 @@
         "school": "Black Magic",
         "name(jp)": "バーストエナジー",
         "id": "30510762",
+        "✓": "✓"
+    },
+    {
+        "character": "Kuja",
+        "source": "Wicked Melody",
+        "name": "Soul Thrust",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 8,
+        "element": "Dark, NE",
+        "time": 0.83,
+        "effects": "Four single attacks (2,00 each), causes Doom Timer -3 to the user",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Darkness",
+        "name(jp)": "ソウルスラスター",
+        "id": "30512651",
+        "✓": "✓"
+    },
+    {
+        "character": "Kuja",
+        "source": "Wicked Melody",
+        "name": "Dark Ensemble",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 14.3,
+        "element": "Dark, NE",
+        "time": 1.65,
+        "effects": "2/3/4/5 single attacks (2,86 each) if the user's Doom timer is below 40/25/15",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Darkness",
+        "name(jp)": "ダークアンサンブル",
+        "id": "30512652",
         "✓": "✓"
     },
     {
@@ -8435,7 +8473,7 @@
     },
     {
         "character": "Ysayle",
-        "source": "Diamond Dust",
+        "source": "Shiva: Diamond Dust",
         "name": "Avalanche",
         "type": "BLK",
         "target": "Single enemy",
@@ -8454,7 +8492,7 @@
     },
     {
         "character": "Ysayle",
-        "source": "Diamond Dust",
+        "source": "Shiva: Diamond Dust",
         "name": "Absolute Zero",
         "type": "BLK",
         "target": "All enemies",
@@ -8473,7 +8511,7 @@
     },
     {
         "character": "Haurchefant",
-        "source": "Circle of Scorn",
+        "source": "Time of Need",
         "name": "Shield Swipe",
         "type": "PHY",
         "target": "Single enemy",
@@ -8492,7 +8530,7 @@
     },
     {
         "character": "Haurchefant",
-        "source": "Circle of Scorn",
+        "source": "Time of Need",
         "name": "Spirits Within",
         "type": "PHY",
         "target": "Single enemy",
@@ -8511,7 +8549,7 @@
     },
     {
         "character": "Estinien",
-        "source": "Azure Dragoon",
+        "source": "The Azure Dragoon",
         "name": "Blood of the Dragon",
         "type": "NAT",
         "target": "Self",
@@ -8527,7 +8565,7 @@
     },
     {
         "character": "Estinien",
-        "source": "Azure Dragoon",
+        "source": "The Azure Dragoon",
         "name": "Blood of the Dragon (S)",
         "type": "PHY",
         "target": "Single enemy",
@@ -8546,7 +8584,7 @@
     },
     {
         "character": "Estinien",
-        "source": "Azure Dragoon",
+        "source": "The Azure Dragoon",
         "name": "Fang and Claw",
         "type": "PHY",
         "target": "Single enemy",
@@ -8565,7 +8603,7 @@
     },
     {
         "character": "Estinien",
-        "source": "Azure Dragoon",
+        "source": "The Azure Dragoon",
         "name": "Fang and Claw (S)",
         "type": "PHY",
         "target": "Single enemy",
@@ -9363,7 +9401,7 @@
     },
     {
         "character": "Alma",
-        "source": "Orbonne's Holy Knowledge",
+        "source": "Wisdom of Orbonne",
         "name": "Angelic Glimpse",
         "type": "WHT",
         "target": "Single ally",
@@ -9382,7 +9420,7 @@
     },
     {
         "character": "Alma",
-        "source": "Orbonne's Holy Knowledge",
+        "source": "Wisdom of Orbonne",
         "name": "Priestess's Call",
         "type": "WHT",
         "target": "All allies",
@@ -9516,7 +9554,7 @@
     {
         "character": "Rem",
         "source": "Siphon Delta",
-        "name": "Drain Conversion",
+        "name": "Manalchemy Drain",
         "type": "WHT",
         "target": "Single enemy",
         "formula": "Magical",
@@ -9535,7 +9573,7 @@
     {
         "character": "Rem",
         "source": "Siphon Delta",
-        "name": "Barrier Conversion",
+        "name": "Manalchemy Barrier",
         "type": "NAT",
         "target": "Self",
         "time": 1.65,

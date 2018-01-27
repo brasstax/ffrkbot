@@ -425,7 +425,7 @@
     {
         "realm": "Core",
         "character": "Dragoon",
-        "name": "Heavenly Jump",
+        "name": "From On High",
         "effect": "50% chance to turn Attack into an ability (single, 3,80 physical) with two single ranged attacks (1,90 each), air time (3,50 sec.)",
         "unlockCriteria": "Bring Dragoon to level 99",
         "name(jp)": "天高き飛翔",
@@ -497,7 +497,7 @@
     {
         "realm": "Core",
         "character": "Spellblade",
-        "name": "Earth Spellblade Mastery",
+        "name": "Earthen Blade",
         "effect": "Attack turns into an ability (group, 1,20 physical) with two group attacks (0,60 each) that deals Earth damage",
         "unlockCriteria": "Bring Spellblade to level 99",
         "name(jp)": "地の魔法剣の神技",
@@ -6068,7 +6068,7 @@
     {
         "realm": "Type-0",
         "character": "Rem",
-        "name": "Dagger Mistress",
+        "name": "Lady of the Daggers",
         "effect": "MND +10% when equipping a dagger",
         "unlockCriteria": "Use Rem's Memory Crystal",
         "name(jp)": "ダガーを操る少女",
@@ -6077,7 +6077,7 @@
     {
         "realm": "Type-0",
         "character": "Rem",
-        "name": "Tender Support",
+        "name": "Tender Care",
         "effect": "WHT attacks deal 20% more damage",
         "unlockCriteria": "Use Rem's Memory Crystal II, chance to obtain with Rem in party",
         "name(jp)": "親身な対応",
@@ -6095,7 +6095,7 @@
     {
         "realm": "Type-0",
         "character": "Machina",
-        "name": "Breezy Student",
+        "name": "Star Pupil",
         "effect": "Spellblade abilities deal 15% more damage",
         "unlockCriteria": "Use Machina's Memory Crystal",
         "name(jp)": "さわやかな優等生",
@@ -6104,7 +6104,7 @@
     {
         "realm": "Type-0",
         "character": "Machina",
-        "name": "Pure Spirit",
+        "name": "Naive Heart",
         "effect": "Attack turns into an ability (group, 1,00 physical) with 4,50 cast time",
         "unlockCriteria": "Use Machina's Memory Crystal II, chance to obtain with Machina in party",
         "name(jp)": "純粋すぎる心",
@@ -6122,7 +6122,7 @@
     {
         "realm": "Type-0",
         "character": "Queen",
-        "name": "Clean Integrity",
+        "name": "Implacable Justice",
         "effect": "ATK +10% when equipping a sword",
         "unlockCriteria": "Use Queen's Memory Crystal",
         "name(jp)": "清廉潔白な賢女",
@@ -6131,7 +6131,7 @@
     {
         "realm": "Type-0",
         "character": "Queen",
-        "name": "Swift Rush",
+        "name": "Swift Charge",
         "effect": "Attack turns into an ability (single, 1,00 physical) with 0,01 cast time",
         "unlockCriteria": "Use Queen's Memory Crystal II, chance to obtain with Queen in party",
         "name(jp)": "すばやい突進",

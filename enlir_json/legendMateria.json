@@ -142,10 +142,10 @@
     {
         "realm": "I",
         "character": "Sarah",
-        "name": "Song for Those Who Fight",
+        "name": "Warrior's Ballad",
         "effect": "25% chance to cast a group heal (25) after using a Bard ability",
         "master": "MND +10",
-        "relic": "Princess's Tiara (I)",
+        "relic": "Princess Veil (I)",
         "name(jp)": "戦う者たちを想う歌",
         "✓": "✓"
     },
@@ -170,7 +170,7 @@
     {
         "realm": "I",
         "character": "Echo",
-        "name": "Whimsical Gift",
+        "name": "Fickle Fortune",
         "effect": "25% chance to cast an ability (group) that restores HP for 30% of the target's maximum HP after using a Dancer ability",
         "master": "MAG +10",
         "relic": "Captain Costume (I)",
@@ -198,10 +198,10 @@
     {
         "realm": "I",
         "character": "Master",
-        "name": "Moment of Mastery",
+        "name": "Glimmer of Insight",
         "effect": "25% chance to grant ATK +35% for Next Damaging Action after using a Monk ability",
         "master": "ATK +10",
-        "relic": "Kenpo Gi (I)",
+        "relic": "Kenpogi (I)",
         "name(jp)": "熟練の瞬技",
         "✓": "✓"
     },
@@ -225,7 +225,7 @@
     {
         "realm": "I",
         "character": "Matoya",
-        "name": "Witch's Touch",
+        "name": "Mystic Master",
         "effect": "Witch abilities deal 25% more damage when equipping a staff",
         "master": "MAG +10",
         "relic": "Matoya's Hat (I)",
@@ -281,10 +281,10 @@
     {
         "realm": "I",
         "character": "Thief (I)",
-        "name": "Lucky Thief",
+        "name": "Thief's Fortune",
         "effect": "50% chance to increase Gil gained at the end of battle by 30% when equipping a dagger",
         "master": "ATK +10",
-        "relic": "Thief's Hat (I)",
+        "relic": "Thief's Bandana (I)",
         "name(jp)": "幸運な盗賊",
         "✓": "✓"
     },
@@ -348,17 +348,19 @@
         "realm": "II",
         "character": "Guy",
         "name": "Naive Benevolence",
-        "effect": "Increases Earth damage dealt by ?%",
+        "effect": "Increases Earth damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "素朴な好漢"
+        "name(jp)": "素朴な好漢",
+        "✓": "✓"
     },
     {
         "realm": "II",
         "character": "Guy",
         "name": "Gentle Giant",
-        "effect": "?% chance to cause Minor Imperil Earth to the target after using a Earth attack on an enemy",
+        "effect": "30% chance to cause Minor Imperil Earth to the target after using a Earth attack on an enemy",
         "relic": "-",
-        "name(jp)": "心優しき怪力青年"
+        "name(jp)": "心優しき怪力青年",
+        "✓": "✓"
     },
     {
         "realm": "II",
@@ -2368,7 +2370,7 @@
     {
         "realm": "VIII",
         "character": "Selphie",
-        "name": "Festival Obsession",
+        "name": "SeeD Spirit",
         "effect": "20% chance to grant Last Stand to the target after using a single-target White Magic ability that restores HP on an ally",
         "master": "MND +10",
         "relic": "Selphie's Guise (VIII)",
@@ -2396,10 +2398,10 @@
     {
         "realm": "VIII",
         "character": "Irvine",
-        "name": "Awareness of the Past",
+        "name": "Key to the Past",
         "effect": "20% chance to cause Minor Imperil Fire to the target after using a Sharpshooter ability on an enemy",
         "master": "ATK +10",
-        "relic": "Irvine's Longcoat (VIII)",
+        "relic": "Irvine's Guise (VIII)",
         "name(jp)": "過去を知る者",
         "✓": "✓"
     },
@@ -2695,6 +2697,16 @@
     },
     {
         "realm": "IX",
+        "character": "Vivi",
+        "name": "Part of the Sky",
+        "effect": "Grants Attach Fire at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Mage's Hat (IX)",
+        "name(jp)": "空にあずける大切なもの",
+        "✓": "✓"
+    },
+    {
+        "realm": "IX",
         "character": "Steiner",
         "name": "For the Crown",
         "effect": "PHY attacks deal 10% more damage when equipping a sword",
@@ -2803,6 +2815,32 @@
         "master": "MND +10",
         "relic": "Eiko's Guise (IX)",
         "name(jp)": "故郷に馳せる想い",
+        "✓": "✓"
+    },
+    {
+        "realm": "IX",
+        "character": "Amarant",
+        "name": "Silent Presence",
+        "effect": "Increases Fire damage dealt by ?%",
+        "relic": "-",
+        "name(jp)": "寡黙なコワモテ"
+    },
+    {
+        "realm": "IX",
+        "character": "Amarant",
+        "name": "Matured Wanderer",
+        "effect": "Restores HP for 100% of the user's maximum HP and grants Amarant Trance when HP fall below ?%",
+        "relic": "-",
+        "name(jp)": "絆の重みを知った拳闘家 "
+    },
+    {
+        "realm": "IX",
+        "character": "Amarant",
+        "name": "Bodyguard's Arms",
+        "effect": "35% chance to grant Quick Cast 1 to the user after using a Monk ability",
+        "master": "ATK +10",
+        "relic": "Amarant's Guise (IX)",
+        "name(jp)": "裏稼業の凄腕",
         "✓": "✓"
     },
     {
@@ -4082,7 +4120,7 @@
     {
         "realm": "XIV",
         "character": "Alphinaud",
-        "name": "Journey of Learning",
+        "name": "Journey of Discovery",
         "effect": "Grants Attach Wind at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Caller's Himation (XIV)",
@@ -4138,7 +4176,7 @@
     {
         "realm": "XIV",
         "character": "Cid (XIV)",
-        "name": "Technology for Freedom",
+        "name": "Toiling for Freedom",
         "effect": "Machinist abilities deal 25% more damage when equipping a gun",
         "master": "ATK +10",
         "relic": "Machinist's Shirt (XIV)",
@@ -4166,7 +4204,7 @@
     {
         "realm": "XIV",
         "character": "Ysayle",
-        "name": "Beyond Feelings",
+        "name": "The Greater Good",
         "effect": "20% chance to cause Minor Imperil Ice to the target after using a Ice attack on an enemy",
         "master": "MAG +10",
         "relic": "Halonic Exorcist's Rod (XIV)",
@@ -4192,7 +4230,7 @@
     {
         "realm": "XIV",
         "character": "Haurchefant",
-        "name": "Shield's Oath",
+        "name": "Vows Unbroken",
         "effect": "25% chance to reduce damage taken by 30% when equipping a shield",
         "master": "ATK +10",
         "relic": "Fortemps Haubergeon (XIV)",
@@ -4220,7 +4258,7 @@
     {
         "realm": "XIV",
         "character": "Estinien",
-        "name": "Piercing Will",
+        "name": "Piercing Purpose",
         "effect": "Grants Attach Wind at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Drachen Gauntlets (XIV)",
@@ -4259,17 +4297,19 @@
         "realm": "XV",
         "character": "Gladiolus",
         "name": "Leader of the Van",
-        "effect": "PHY attacks deal ?% more damage when equipping a sword",
+        "effect": "PHY attacks deal 10% more damage when equipping a sword",
         "relic": "-",
-        "name(jp)": "先陣を切る武勇"
+        "name(jp)": "先陣を切る武勇",
+        "✓": "✓"
     },
     {
         "realm": "XV",
         "character": "Gladiolus",
         "name": "To Duty Born",
-        "effect": "ATK +?% for each hit taken by damaging attacks, up to +?%",
+        "effect": "ATK +3% for each hit taken by damaging attacks, up to +50%",
         "relic": "-",
-        "name(jp)": "守護者たる器"
+        "name(jp)": "守護者たる器",
+        "✓": "✓"
     },
     {
         "realm": "XV",
@@ -4544,7 +4584,7 @@
     {
         "realm": "FFT",
         "character": "Mustadio",
-        "name": "Machinist's Rapid Fire",
+        "name": "Machinist Marksman",
         "effect": "35% chance to grant Quick Cast 1 to the user after using a Machinist ability",
         "master": "ATK +10",
         "relic": "Empyreal Armband (FFT)",
@@ -4572,7 +4612,7 @@
     {
         "realm": "FFT",
         "character": "Orlandeau",
-        "name": "Supreme Swordplay",
+        "name": "Supreme Swordsman",
         "effect": "25% chance to dualcast Knight or Darkness abilities",
         "master": "ATK +10",
         "relic": "Flame Shield (FFT)",
@@ -4682,7 +4722,7 @@
     {
         "realm": "FFT",
         "character": "Meliadoul",
-        "name": "Unyielding Blade Essence",
+        "name": "Unyielding Essence",
         "effect": "Knight abilities deal 25% more damage when equipping a sword",
         "master": "ATK +10",
         "relic": "Venus Blade (FFT)",
@@ -4774,7 +4814,7 @@
     {
         "realm": "FFT",
         "character": "Alma",
-        "name": "Fraternal Devotion",
+        "name": "Brother's Keeper",
         "effect": "27% chance to grant Magical Blink 1 to the target after using a single-target White Magic ability that restores HP on an ally",
         "master": "MND +10",
         "relic": "Wizard's Rod (FFT)",
@@ -4878,7 +4918,7 @@
     {
         "realm": "Type-0",
         "character": "Rem",
-        "name": "Spellmaster Exchange Student",
+        "name": "Mage par Excellence",
         "effect": "Increases Holy damage dealt by 10%",
         "relic": "-",
         "name(jp)": "魔力に秀でた転入生",
@@ -4887,7 +4927,7 @@
     {
         "realm": "Type-0",
         "character": "Rem",
-        "name": "Throne of Love",
+        "name": "Keeper of Love",
         "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
         "name(jp)": "愛の座を司る者",
@@ -4896,7 +4936,7 @@
     {
         "realm": "Type-0",
         "character": "Rem",
-        "name": "Maiden's Love",
+        "name": "Gentle Spirit",
         "effect": "MND +1% for each hit dealt with White Magic abilities, up to +25%",
         "master": "MND +10",
         "relic": "Gold Hairpin (Type-0)",
@@ -4916,7 +4956,7 @@
     {
         "realm": "Type-0",
         "character": "Machina",
-        "name": "Swordsman Exchange Student",
+        "name": "Still Blade",
         "effect": "Spellblade abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "剣技冴え渡る転入生",
@@ -4925,7 +4965,7 @@
     {
         "realm": "Type-0",
         "character": "Machina",
-        "name": "Throne of Fear",
+        "name": "Keeper of Fear",
         "effect": "35% chance to grant Stoneskin: 30% to the user after using a Spellblade ability",
         "relic": "-",
         "name(jp)": "恐れの座を司る者",
@@ -4934,7 +4974,7 @@
     {
         "realm": "Type-0",
         "character": "Machina",
-        "name": "Craving for Power",
+        "name": "Power Hungry",
         "effect": "Grants Attach Earth at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Platinum Bangle (Type-0)",
@@ -4944,7 +4984,7 @@
     {
         "realm": "Type-0",
         "character": "Queen",
-        "name": "Rational Prodigy",
+        "name": "Ruled by Reason",
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "理路整然な才媛",
@@ -4953,7 +4993,7 @@
     {
         "realm": "Type-0",
         "character": "Queen",
-        "name": "Secret Berserk",
+        "name": "Savage Heart",
         "effect": "Restores HP for 100% of the user's maximum HP and grants Queen Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "秘められた羅刹の心",
@@ -4962,10 +5002,10 @@
     {
         "realm": "Type-0",
         "character": "Queen",
-        "name": "Steely Tactics",
+        "name": "Calculated Craft",
         "effect": "25% chance to dualcast abilities that deal Lightning damage",
         "master": "ATK +10",
-        "relic": "Queen's Natsubi Uniform (Type-0)",
+        "relic": "Queen's Guise (Type-0)",
         "name(jp)": "冷静沈着な戦術",
         "✓": "✓"
     },

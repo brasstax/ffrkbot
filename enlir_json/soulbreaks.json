@@ -1448,7 +1448,7 @@
     {
         "realm": "I",
         "character": "Garland",
-        "name": "Root of Hatred",
+        "name": "Source of Hatred",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -1469,7 +1469,7 @@
     {
         "realm": "I",
         "character": "Garland",
-        "name": "Dark Class Change",
+        "name": "Twin Swords",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -1579,7 +1579,7 @@
     {
         "realm": "I",
         "character": "Sarah",
-        "name": "Warrior's Song",
+        "name": "Ballad of Light",
         "type": "NAT",
         "target": "All allies",
         "time": 2.5,
@@ -1589,7 +1589,7 @@
         "points": 500,
         "tier": "USB",
         "master": "MND +10",
-        "relic": "Sage's Staff (I)",
+        "relic": "Sage Staff (I)",
         "name(jp)": "戦士に捧ぐ歌",
         "id": "22300006",
         "✓": "✓"
@@ -1692,7 +1692,7 @@
         "points": 500,
         "tier": "BSB",
         "master": "ATK +10",
-        "relic": "Monk Gear (I)",
+        "relic": "Monk's Leathers (I)",
         "name(jp)": "四神円舞",
         "id": "22280005",
         "✓": "✓"
@@ -1876,7 +1876,7 @@
     {
         "realm": "I",
         "character": "Master",
-        "name": "Unarmed Champion",
+        "name": "Empty Fist",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -1953,7 +1953,7 @@
     {
         "realm": "I",
         "character": "Matoya",
-        "name": "Crystal Spell",
+        "name": "Crystal Power",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
@@ -2073,7 +2073,7 @@
     {
         "realm": "I",
         "character": "Thief (I)",
-        "name": "Invisible Break",
+        "name": "Invisibreak",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -12796,7 +12796,7 @@
     {
         "realm": "VIII",
         "character": "Rinoa",
-        "name": "Angel Wing Cold Vortex",
+        "name": "Angel Wing Frost Vortex",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
@@ -13076,7 +13076,7 @@
     {
         "realm": "VIII",
         "character": "Zell",
-        "name": "Hot-Blooded Meteor Barrage",
+        "name": "Fiery Meteor Barret",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -13208,7 +13208,7 @@
     {
         "realm": "VIII",
         "character": "Selphie",
-        "name": "True Vision",
+        "name": "Reality or Truth",
         "type": "WHT",
         "target": "All allies",
         "time": 2.5,
@@ -13218,7 +13218,7 @@
         "points": 500,
         "tier": "BSB",
         "master": "MND +10",
-        "relic": "Selphie's Nunchaku (VIII)",
+        "relic": "Nunchaku S (VIII)",
         "name(jp)": "現か真か",
         "id": "20510007",
         "✓": "✓"
@@ -13349,7 +13349,7 @@
     {
         "realm": "VIII",
         "character": "Irvine",
-        "name": "Break Shooting",
+        "name": "Break Shot",
         "type": "PHY",
         "target": "Random enemies",
         "formula": "Physical",
@@ -13383,7 +13383,7 @@
         "points": 500,
         "tier": "BSB",
         "master": "ATK +10",
-        "relic": "Randall Longbarrel (VIII)",
+        "relic": "Long Barrel R (VIII)",
         "name(jp)": "ハイパーキャニスター",
         "id": "20410008",
         "✓": "✓"
@@ -14075,7 +14075,7 @@
     {
         "realm": "VIII",
         "character": "Fujin",
-        "name": "Arashi",
+        "name": "Storm",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
@@ -14088,7 +14088,7 @@
         "points": 500,
         "tier": "USB",
         "master": "MAG +10",
-        "relic": "Fujin's Crystal Cross (VIII)",
+        "relic": "Cross Chakram (VIII)",
         "name(jp)": "嵐",
         "id": "22600006",
         "✓": "✓"
@@ -14469,6 +14469,27 @@
         "relic": "Masamune (IX)",
         "name(jp)": "グランドリーサル",
         "id": "20860010",
+        "✓": "✓"
+    },
+    {
+        "realm": "IX",
+        "character": "Zidane",
+        "name": "Soul Blade Gale",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 7.1,
+        "element": "Wind, NE",
+        "time": 2.5,
+        "effects": "Ten single attacks (0,71 each), grants Attach Wind, Thief Rank Boost and Thievery Finisher to the user",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "points": 500,
+        "tier": "USB",
+        "master": "ATK +10",
+        "relic": "The Tower (IX)",
+        "name(jp)": "刀魂放気・烈風",
+        "id": "20860011",
         "✓": "✓"
     },
     {
@@ -15431,6 +15452,26 @@
     },
     {
         "realm": "IX",
+        "character": "Amarant",
+        "name": "Will of the Fist",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Fire, NE",
+        "time": "?",
+        "effects": "Ten single attacks (? each), grants Attach Fire to the user, grants Fire Radiant Shield: 75% to all allies",
+        "counter": "?",
+        "autoTarget": "?",
+        "points": 500,
+        "tier": "USB",
+        "master": "ATK +10",
+        "relic": "Tiger Fangs (IX)",
+        "name(jp)": "拳の確信",
+        "id": "20870006"
+    },
+    {
+        "realm": "IX",
         "character": "Beatrix",
         "name": "Blessed Cure",
         "type": "WHT",
@@ -15754,6 +15795,27 @@
         "relic": "Achromatic Bolero (IX)",
         "name(jp)": "ソウルディバイダー",
         "id": "22240007",
+        "✓": "✓"
+    },
+    {
+        "realm": "IX",
+        "character": "Kuja",
+        "name": "Wicked Melody",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 15.04,
+        "element": "Dark, NE",
+        "time": 2.5,
+        "effects": "Eight single attacks (1,88 each), grants Haste, Attach Dark, Light Doom: 45 and Burst Mode to the user",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "points": 500,
+        "tier": "BSB",
+        "master": "MAG +10",
+        "relic": "Heretic Rod (IX)",
+        "name(jp)": "背徳の旋律",
+        "id": "22240008",
         "✓": "✓"
     },
     {
@@ -21859,7 +21921,7 @@
     {
         "realm": "XIV",
         "character": "Ysayle",
-        "name": "Diamond Dust",
+        "name": "Shiva: Diamond Dust",
         "type": "BLK",
         "target": "All enemies",
         "formula": "Magical",
@@ -21872,7 +21934,7 @@
         "points": 500,
         "tier": "BSB",
         "master": "MAG +10",
-        "relic": "Hailstorm Coat of Casting (XIV)",
+        "relic": "Hailstorm Coat (XIV)",
         "name(jp)": "ダイアモンドダスト",
         "id": "23130002",
         "✓": "✓"
@@ -21893,7 +21955,7 @@
         "points": 500,
         "tier": "SSB",
         "master": "MAG +10",
-        "relic": "Cashmere Robe of Casting (XIV)",
+        "relic": "Cashmere Robe (XIV)",
         "name(jp)": "グレイシャーバッシュ",
         "id": "23130003",
         "✓": "✓"
@@ -21918,7 +21980,7 @@
     {
         "realm": "XIV",
         "character": "Haurchefant",
-        "name": "For My Friend",
+        "name": "Live to Serve",
         "type": "NAT",
         "target": "Self",
         "time": 2.5,
@@ -21936,7 +21998,7 @@
     {
         "realm": "XIV",
         "character": "Haurchefant",
-        "name": "Circle of Scorn",
+        "name": "Time of Need",
         "type": "PHY",
         "target": "Random enemies",
         "formula": "Physical",
@@ -21998,7 +22060,7 @@
     {
         "realm": "XIV",
         "character": "Estinien",
-        "name": "Azure Dragoon Dive",
+        "name": "Skydragon Dive",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -22019,7 +22081,7 @@
     {
         "realm": "XIV",
         "character": "Estinien",
-        "name": "Azure Dragoon",
+        "name": "The Azure Dragoon",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -23330,7 +23392,7 @@
         "points": 500,
         "tier": "USB",
         "master": "ATK +10",
-        "relic": "Glacial Gun (FFT)",
+        "relic": "Blaze Gun (FFT)",
         "name(jp)": "発掘兵器・魔シンガン",
         "id": "22400006",
         "✓": "✓"
@@ -23433,7 +23495,7 @@
         "points": 500,
         "tier": "USB",
         "master": "ATK +10",
-        "relic": "True Excalibur (FFT)",
+        "relic": "Excalibur Trueblade (FFT)",
         "name(jp)": "剣聖",
         "id": "22550005",
         "✓": "✓"
@@ -23743,7 +23805,7 @@
     {
         "realm": "FFT",
         "character": "Meliadoul",
-        "name": "Templar Assault",
+        "name": "Templar's Fury",
         "type": "PHY",
         "target": "Random enemies",
         "formula": "Physical",
@@ -23941,7 +24003,7 @@
     {
         "realm": "FFT",
         "character": "Alma",
-        "name": "Divine Aegis",
+        "name": "Sacred Barrier",
         "type": "WHT",
         "target": "All allies",
         "time": 2.5,
@@ -23959,7 +24021,7 @@
     {
         "realm": "FFT",
         "character": "Alma",
-        "name": "Orbonne's Holy Knowledge",
+        "name": "Wisdom of Orbonne",
         "type": "WHT",
         "target": "All allies",
         "time": 2.5,
@@ -24247,7 +24309,7 @@
     {
         "realm": "Type-0",
         "character": "Rem",
-        "name": "Osmose (Type-0)",
+        "name": "Siphon (Type-0)",
         "type": "NAT",
         "target": "Self",
         "time": 2.5,
@@ -24264,14 +24326,14 @@
     {
         "realm": "Type-0",
         "character": "Rem",
-        "name": "Venom Conversion",
+        "name": "Manalchemy",
         "type": "WHT",
         "target": "Single enemy",
         "formula": "Magical",
         "multiplier": 18,
         "element": "Holy, Dark",
         "time": 2.5,
-        "effects": "Ten single attacks (1,80 each), grants Attach Holy, EX: Vermillion Bird and High Quick Cast 1 to the user",
+        "effects": "Ten single attacks (1,80 each), grants Attach Holy, EX: Dominion and High Quick Cast 1 to the user",
         "counter": "N",
         "autoTarget": "Lowest HP% enemy",
         "points": 500,
@@ -24298,7 +24360,7 @@
         "points": 500,
         "tier": "BSB",
         "master": "MND +10",
-        "relic": "Rem's Konoe Uniform (Type-0)",
+        "relic": "Rem's Guise (Type-0)",
         "name(jp)": "アスピルフィールド",
         "id": "23080002",
         "✓": "✓"
@@ -24306,7 +24368,7 @@
     {
         "realm": "Type-0",
         "character": "Rem",
-        "name": "Don't Die!",
+        "name": "Undying Wish",
         "type": "NAT",
         "target": "All allies",
         "time": 2.5,
@@ -24324,7 +24386,7 @@
     {
         "realm": "Type-0",
         "character": "Rem",
-        "name": "Flame Conversion",
+        "name": "Manalchemy Flame",
         "type": "WHT",
         "target": "Single enemy",
         "formula": "Magical",
@@ -24372,7 +24434,7 @@
         "multiplier": 7.1,
         "element": "Earth, Dark",
         "time": 2.5,
-        "effects": "Ten single attacks (0,71 each), grants Attach Earth, Awakening and Dual Blink 2 to the user",
+        "effects": "Ten single attacks (0,71 each), grants Attach Earth, Assault Mode and Dual Blink 2 to the user",
         "counter": "N",
         "autoTarget": "Lowest HP% enemy",
         "points": 500,
@@ -24407,7 +24469,7 @@
     {
         "realm": "Type-0",
         "character": "Machina",
-        "name": "Source of Fear",
+        "name": "Slayer of Fear",
         "type": "NAT",
         "target": "All allies",
         "time": 2.5,
@@ -24417,7 +24479,7 @@
         "points": 500,
         "tier": "SSB",
         "master": "ATK +10",
-        "relic": "Machina's Konoe Uniform (Type-0)",
+        "relic": "Machina's Guise (Type-0)",
         "name(jp)": "恐れを司る者",
         "id": "23090003",
         "✓": "✓"
@@ -24466,7 +24528,7 @@
     {
         "realm": "Type-0",
         "character": "Queen",
-        "name": "Divine Judgment",
+        "name": "Divine Judgment Blade",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
