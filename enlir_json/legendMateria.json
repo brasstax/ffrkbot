@@ -2159,17 +2159,19 @@
         "realm": "VII",
         "character": "Cid (VII)",
         "name": "Captain's Habit",
-        "effect": "Increases Wind damage dealt by ?%",
+        "effect": "Increases Wind damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "愛煙家の艇長"
+        "name(jp)": "愛煙家の艇長",
+        "✓": "✓"
     },
     {
         "realm": "VII",
         "character": "Cid (VII)",
         "name": "Air Supremacy",
-        "effect": "ATK +?% for each hit dealt with PHY attacks that deal Wind damage, up to +?%",
+        "effect": "ATK +2% for each hit dealt with PHY attacks that deal Wind damage, up to +50%",
         "relic": "-",
-        "name(jp)": "空のリーダー"
+        "name(jp)": "空のリーダー",
+        "✓": "✓"
     },
     {
         "realm": "VII",
