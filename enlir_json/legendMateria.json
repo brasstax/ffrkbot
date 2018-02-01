@@ -1304,6 +1304,15 @@
     },
     {
         "realm": "V",
+        "character": "Galuf",
+        "name": "Veteran's Instinct",
+        "effect": "Grants Quick Cast 3 at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Tiger Mask (V)",
+        "name(jp)": "歴戦の勇士の勘"
+    },
+    {
+        "realm": "V",
         "character": "Gilgamesh",
         "name": "The Dark Mage's Right Arm",
         "effect": "PHY attacks deal 10% more damage",
@@ -1314,7 +1323,7 @@
     {
         "realm": "V",
         "character": "Gilgamesh",
-        "name": "Emphatic Sacrifice",
+        "name": "Empathic Sacrifice",
         "effect": "Grants Protect, Shell, Haste and Gilgamesh Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "命がけの義理人情",
@@ -1469,6 +1478,15 @@
         "relic": "Krile's Dress (V)",
         "name(jp)": "熱意あふれる少女",
         "✓": "✓"
+    },
+    {
+        "realm": "V",
+        "character": "Krile",
+        "name": "Inherited Resolve",
+        "effect": "?% chance to dualcast abilities that deal Fire damage",
+        "master": "MAG +10",
+        "relic": "Cat-Ear Hood (V)",
+        "name(jp)": "祖父譲りの行動力"
     },
     {
         "realm": "V",

@@ -1685,6 +1685,16 @@
         "notes": "-"
     },
     {
+        "id": "2062",
+        "commonName": "Spellblade High Quick Cast",
+        "effects": "Cast speed x3,00 for Spellblade abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_SPELLBLADE",
+        "notes": "-"
+    },
+    {
         "id": "501",
         "commonName": "MAG Boost",
         "effects": "MAG +25%",
@@ -4139,6 +4149,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Rank Boost\" status",
         "codedName": "ABILITY_BOOST_FOR_THIEF_MAX_MIDDLE",
+        "notes": "-"
+    },
+    {
+        "id": "50164",
+        "commonName": "EX: Power of the Crystals",
+        "effects": "Spellblade damage +30/35/40/45/50/55/60/65/70% after 0/1/2/3/4/5/6/7/8 Wind, Water, Fire or Earth attacks, casts Last Spellblade when removed",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_POWER_OF_QUARTZ",
         "notes": "-"
     },
     {

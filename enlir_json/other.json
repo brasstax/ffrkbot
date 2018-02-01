@@ -283,6 +283,19 @@
     },
     {
         "character": "Status",
+        "source": "EX: Power of the Crystals",
+        "name": "Last Spellblade",
+        "type": "?",
+        "target": "Single enemy",
+        "time": "?",
+        "effects": "Damages for 35,00% of the damage dealt with Spellblade abilities during the status, breaks damage cap",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
+    },
+    {
+        "character": "Status",
         "source": "Sandstorm Follow-Up",
         "name": "Sandstorm",
         "type": "PHY",

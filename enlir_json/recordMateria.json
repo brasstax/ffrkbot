@@ -6086,7 +6086,7 @@
     {
         "realm": "Type-0",
         "character": "Rem",
-        "name": "Ungraspable Thoughts",
+        "name": "Earnest Intentions",
         "effect": "WHT attacks deal 30% more damage",
         "unlockCriteria": "Bring Rem to level 99",
         "name(jp)": "一途な想い",
@@ -6113,7 +6113,7 @@
     {
         "realm": "Type-0",
         "character": "Machina",
-        "name": "Spiral Blades",
+        "name": "Whirling Blades",
         "effect": "Spellblade abilities deal 40% more damage",
         "unlockCriteria": "Bring Machina to level 99",
         "name(jp)": "振るいし螺旋の刃",
@@ -6140,7 +6140,7 @@
     {
         "realm": "Type-0",
         "character": "Queen",
-        "name": "Rational Power",
+        "name": "Tempered Power",
         "effect": "42% chance to turn Attack into Double Cut",
         "unlockCriteria": "Bring Queen to level 99",
         "name(jp)": "賢き力を司る者",
