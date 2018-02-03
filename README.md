@@ -10,6 +10,7 @@ Uses a JSON copy of [Enlir's FFRK database](https://docs.google.com/spreadsheets
 with your own Discord bot token.
 * Replace the owner with your own Discord ID.
 * `node ffrkbot.js` to run the bot.
+* To run the bot in the background, run `runbot.sh` so that the bot respawns if it crashes abnormally.
 
 # License
 MIT.
