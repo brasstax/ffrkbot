@@ -3964,7 +3964,7 @@
     {
         "id": "50139",
         "commonName": "Evil Gale Follow-Up",
-        "effects": "Casts Evil Wind after using a Wind attack",
+        "effects": "Casts Evil Gale after using a Wind attack",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",

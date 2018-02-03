@@ -1483,10 +1483,11 @@
         "realm": "V",
         "character": "Krile",
         "name": "Inherited Resolve",
-        "effect": "?% chance to dualcast abilities that deal Fire damage",
+        "effect": "25% chance to dualcast abilities that deal Fire damage",
         "master": "MAG +10",
         "relic": "Cat-Ear Hood (V)",
-        "name(jp)": "祖父譲りの行動力"
+        "name(jp)": "祖父譲りの行動力",
+        "✓": "✓"
     },
     {
         "realm": "V",

@@ -285,14 +285,15 @@
         "character": "Status",
         "source": "EX: Power of the Crystals",
         "name": "Last Spellblade",
-        "type": "?",
+        "type": "PHY",
         "target": "Single enemy",
-        "time": "?",
+        "time": 2.5,
         "effects": "Damages for 35,00% of the damage dealt with Spellblade abilities during the status, breaks damage cap",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?"
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Spellblade",
+        "✓": "✓"
     },
     {
         "character": "Status",
