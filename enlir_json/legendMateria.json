@@ -1309,7 +1309,8 @@
         "effect": "Grants Quick Cast 3 at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Tiger Mask (V)",
-        "name(jp)": "歴戦の勇士の勘"
+        "name(jp)": "歴戦の勇士の勘",
+        "✓": "✓"
     },
     {
         "realm": "V",
