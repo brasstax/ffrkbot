@@ -3106,7 +3106,8 @@
         "effect": "Grants Quick Cast 3 at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Berserker's Knuckles (X)",
-        "name(jp)": "ニギヤカ担当"
+        "name(jp)": "ニギヤカ担当",
+        "✓": "✓"
     },
     {
         "realm": "X",
