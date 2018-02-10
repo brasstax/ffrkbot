@@ -461,7 +461,7 @@
     {
         "realm": "Core",
         "character": "Dark Knight",
-        "name": "Embrace of Darkness",
+        "name": "Dark Delight",
         "effect": "60% chance to turn Attack into an ability (single, 1,67 physical) that heals the user for 32% of the damage dealt",
         "unlockCriteria": "Bring Dark Knight to level 99",
         "name(jp)": "闇の絶技",
@@ -533,7 +533,7 @@
     {
         "realm": "Core",
         "character": "Viking",
-        "name": "Sealord's Bravery",
+        "name": "Fury of the Sea",
         "effect": "ATK +15% when equipping a hammer",
         "unlockCriteria": "Bring Viking to level 99",
         "name(jp)": "雄々しき海の勇",
@@ -4430,7 +4430,7 @@
     {
         "realm": "X",
         "character": "Seymour",
-        "name": "Master of Yevon",
+        "name": "Maester of Yevon",
         "effect": "MAG +10% when equipping a rod",
         "unlockCriteria": "Use Seymour's Memory Crystal",
         "name(jp)": "エボンの老師",
@@ -4601,7 +4601,7 @@
     {
         "realm": "XI",
         "character": "Aphmau",
-        "name": "Unarmed Puppetmaster",
+        "name": "Unarmed Puppeteer",
         "effect": "Attack turns into an ability (single, 2,00 magical, WHT type)",
         "unlockCriteria": "Use Aphmau's Memory Crystal II, chance to obtain with Aphmau in party",
         "name(jp)": "無手の傀儡師",
@@ -5393,7 +5393,7 @@
     {
         "realm": "XIV",
         "character": "Ysayle",
-        "name": "Icy Girl",
+        "name": "Lady of Ice",
         "effect": "MAG +10%, ATK -10%",
         "unlockCriteria": "Use Ysayle's Memory Crystal",
         "name(jp)": "凍えし少女",
@@ -5402,7 +5402,7 @@
     {
         "realm": "XIV",
         "character": "Ysayle",
-        "name": "Heretic Priestess",
+        "name": "Speaker of Heresies",
         "effect": "Increases Ice damage dealt by 20%",
         "unlockCriteria": "Use Ysayle's Memory Crystal II, chance to obtain with Ysayle in party",
         "name(jp)": "異端者を総べる巫女",
@@ -5420,7 +5420,7 @@
     {
         "realm": "XIV",
         "character": "Haurchefant",
-        "name": "Knightly Teachings",
+        "name": "Knight's Discipline",
         "effect": "Knight abilities deal 15% more damage",
         "unlockCriteria": "Use Haurchefant's Memory Crystal",
         "name(jp)": "騎士の教え",
@@ -5429,7 +5429,7 @@
     {
         "realm": "XIV",
         "character": "Haurchefant",
-        "name": "Knight of the Fortemps",
+        "name": "Fortemps Champion",
         "effect": "DEF +20% when equipping a shield",
         "unlockCriteria": "Use Haurchefant's Memory Crystal II, chance to obtain with Haurchefant in party",
         "name(jp)": "フォルタン家のイイ騎士",
@@ -5447,7 +5447,7 @@
     {
         "realm": "XIV",
         "character": "Estinien",
-        "name": "Dragonhunter",
+        "name": "Wyrmhunter",
         "effect": "PHY attacks deal 10% more damage when equipping a spear",
         "unlockCriteria": "Use Estinien's Memory Crystal",
         "name(jp)": "竜を狩る者",
@@ -5456,7 +5456,7 @@
     {
         "realm": "XIV",
         "character": "Estinien",
-        "name": "Name of the Dragon",
+        "name": "Slayer of Dragons",
         "effect": "Jump attacks deal 25% more damage",
         "unlockCriteria": "Use Estinien's Memory Crystal II, chance to obtain with Estinien in party",
         "name(jp)": "屠龍の名",

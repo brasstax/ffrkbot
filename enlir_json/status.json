@@ -4172,6 +4172,66 @@
         "notes": "-"
     },
     {
+        "id": "50166",
+        "commonName": "Feral Charge Follow-Up",
+        "effects": "Casts Feral Charge after using a Fire attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_JECHT_SLASH",
+        "notes": "-"
+    },
+    {
+        "id": "50167",
+        "commonName": "Lingering Fire Finisher",
+        "effects": "Casts Lingering Fire when removed",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "FOR_MY_FRIEND_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50168",
+        "commonName": "Comrade's Oath 0",
+        "effects": "Grants Comrade's Oath 1 after using a Samurai ability, removed if the user hasn't Lingering Fire Finisher",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Comrade's Oath\" status",
+        "codedName": "FOR_MY_FRIEND_MODE_BUFF_AND_CHASE_0",
+        "notes": "-"
+    },
+    {
+        "id": "50169",
+        "commonName": "Comrade's Oath 1",
+        "effects": "Critical chance =30%, cast speed x2,00, grants Comrade's Oath 2 after using a Samurai ability, removed if the user hasn't Lingering Fire Finisher",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Comrade's Oath\" status",
+        "codedName": "FOR_MY_FRIEND_MODE_BUFF_AND_CHASE_1",
+        "notes": "-"
+    },
+    {
+        "id": "50170",
+        "commonName": "Comrade's Oath 2",
+        "effects": "Critical chance =50%, cast speed x2,50, grants Comrade's Oath 3 after using a Samurai ability, removed if the user hasn't Lingering Fire Finisher",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Comrade's Oath\" status",
+        "codedName": "FOR_MY_FRIEND_MODE_BUFF_AND_CHASE_2",
+        "notes": "-"
+    },
+    {
+        "id": "50171",
+        "commonName": "Comrade's Oath 3",
+        "effects": "Critical chance =75%, cast speed x3,00, grants Comrade's Oath 3 after using a Samurai ability, removed if the user hasn't Lingering Fire Finisher",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Comrade's Oath\" status",
+        "codedName": "FOR_MY_FRIEND_MODE_BUFF_AND_CHASE_3",
+        "notes": "-"
+    },
+    {
         "id": "601",
         "commonName": "MAG +X%",
         "effects": "MAG +X%",
@@ -4815,6 +4875,16 @@
         "exclusiveStatus": "-",
         "codedName": "CUSTOM_PARAM_MULTI_MATK_30_MDEF_50",
         "notes": "???"
+    },
+    {
+        "id": "6024",
+        "commonName": "Iai Strike",
+        "effects": "MND +30%, DEF and RES -30%",
+        "defaultDuration": 25,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_DEF_M30_MDEF_M30_MND_30",
+        "notes": "-"
     },
     {
         "id": "701",

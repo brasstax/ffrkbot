@@ -3101,6 +3101,15 @@
     },
     {
         "realm": "X",
+        "character": "Rikku",
+        "name": "Mood Maker",
+        "effect": "Grants Quick Cast 3 at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Berserker's Knuckles (X)",
+        "name(jp)": "ニギヤカ担当"
+    },
+    {
+        "realm": "X",
         "character": "Auron",
         "name": "Hand of Revelation",
         "effect": "PHY attacks deal 10% more damage",
@@ -3129,6 +3138,15 @@
     },
     {
         "realm": "X",
+        "character": "Auron",
+        "name": "Promise to Comrades",
+        "effect": "Grants Attach Fire at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Peaceful Slumber (X)",
+        "name(jp)": "友との約束"
+    },
+    {
+        "realm": "X",
         "character": "Jecht",
         "name": "Unruly Father",
         "effect": "Increases Dark damage dealt by 10%",
@@ -3154,6 +3172,24 @@
         "relic": "Jecht's Sparring Suit (X)",
         "name(jp)": "ブリッツの王者",
         "✓": "✓"
+    },
+    {
+        "realm": "X",
+        "character": "Jecht",
+        "name": "Champion's Presence",
+        "effect": "Grants Attach Fire at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Maverick (X)",
+        "name(jp)": "王者の貫禄"
+    },
+    {
+        "realm": "X",
+        "character": "Jecht",
+        "name": "Dad's Fist",
+        "effect": "?% chance to dualcast Monk abilities",
+        "master": "ATK +10",
+        "relic": "Jecht's Armguard (X)",
+        "name(jp)": "親父の拳"
     },
     {
         "realm": "X",
@@ -4133,7 +4169,7 @@
     {
         "realm": "XIV",
         "character": "Alphinaud",
-        "name": "Idealist of Salvation",
+        "name": "Salvation's Stratagem",
         "effect": "35% chance to dualcast Summoning abilities",
         "relic": "-",
         "name(jp)": "救世の策士",
@@ -4180,7 +4216,7 @@
     {
         "realm": "XIV",
         "character": "Cid (XIV)",
-        "name": "Knowledge of Allagan",
+        "name": "Wisdom of Allag",
         "effect": "Machinist abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "古代アラグ文明の知識",
@@ -4189,7 +4225,7 @@
     {
         "realm": "XIV",
         "character": "Cid (XIV)",
-        "name": "Skybound Machinist",
+        "name": "Skyfaring Engineer",
         "effect": "35% chance to dualcast Machinist abilities",
         "relic": "-",
         "name(jp)": "天を駆ける技師",
@@ -4208,7 +4244,7 @@
     {
         "realm": "XIV",
         "character": "Ysayle",
-        "name": "Saint's Spirit",
+        "name": "Divine Burden",
         "effect": "Increases Ice damage dealt by 10%",
         "relic": "-",
         "name(jp)": "聖女に重ねた心",
@@ -4217,7 +4253,7 @@
     {
         "realm": "XIV",
         "character": "Ysayle",
-        "name": "Aspect of the Goddess",
+        "name": "Shiva's Vessel",
         "effect": "30% chance to grant Quick Cast 3 to the user after using a Ice attack",
         "relic": "-",
         "name(jp)": "神降ろしの巫女",
@@ -4236,7 +4272,7 @@
     {
         "realm": "XIV",
         "character": "Haurchefant",
-        "name": "Silver-Haired Swordsman",
+        "name": "Silver Swordsman",
         "effect": "Knight abilities deal ?% more damage",
         "relic": "-",
         "name(jp)": "銀髪の剣士"
@@ -4244,7 +4280,7 @@
     {
         "realm": "XIV",
         "character": "Haurchefant",
-        "name": "Proud Hero",
+        "name": "Fortemps Fortitude",
         "effect": "Restores HP for 100% of the user's maximum HP and grants Last Stand and HP Stock (2000) when HP fall below ?%",
         "relic": "-",
         "name(jp)": "誇り高き英雄"
@@ -4262,7 +4298,7 @@
     {
         "realm": "XIV",
         "character": "Estinien",
-        "name": "Vengeful Resolve",
+        "name": "Set on Vengeance",
         "effect": "Dragoon abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "復讐の決意",
@@ -4271,7 +4307,7 @@
     {
         "realm": "XIV",
         "character": "Estinien",
-        "name": "Dragoon of the Azure Skies",
+        "name": "Azure Dragoon",
         "effect": "30% chance to grant Quick Cast 3 to the user after using a Dragoon ability",
         "relic": "-",
         "name(jp)": "蒼天の竜騎士",
@@ -4729,17 +4765,19 @@
         "realm": "FFT",
         "character": "Meliadoul",
         "name": "Divine Knight Blademaster",
-        "effect": "Knight abilities deal ?% more damage",
+        "effect": "Knight abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "ディバインナイトの剣技"
+        "name(jp)": "ディバインナイトの剣技",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
         "character": "Meliadoul",
         "name": "Divine Knight's Finesse",
-        "effect": "?% chance to cause Minor Imperil Earth to the target after using a Knight ability on an enemy",
+        "effect": "30% chance to cause Minor Imperil Earth to the target after using a Knight ability on an enemy",
         "relic": "-",
-        "name(jp)": "ディバインナイトの絶技"
+        "name(jp)": "ディバインナイトの絶技",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
