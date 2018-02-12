@@ -3181,7 +3181,8 @@
         "effect": "Grants Attach Fire at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Maverick (X)",
-        "name(jp)": "王者の貫禄"
+        "name(jp)": "王者の貫禄",
+        "✓": "✓"
     },
     {
         "realm": "X",
