@@ -5411,7 +5411,7 @@
     {
         "realm": "XIV",
         "character": "Ysayle",
-        "name": "Dragonsong's Truth",
+        "name": "Dragonsong Seer",
         "effect": "Attack turns into an ability (single, 0,70 magical) that deals Ice damage",
         "unlockCriteria": "Bring Ysayle to level 99",
         "name(jp)": "真の竜詩を知る者",
@@ -5438,7 +5438,7 @@
     {
         "realm": "XIV",
         "character": "Haurchefant",
-        "name": "Shield of Friends",
+        "name": "Shield of the People",
         "effect": "DEF and RES +20% when equipping a shield",
         "unlockCriteria": "Bring Haurchefant to level 99",
         "name(jp)": "民と友を護る盾",
@@ -5465,7 +5465,7 @@
     {
         "realm": "XIV",
         "character": "Estinien",
-        "name": "Wyrm Eye's Might",
+        "name": "Might of the Eye",
         "effect": "Dragoon abilities deal 35% more damage",
         "unlockCriteria": "Bring Estinien to level 99",
         "name(jp)": "竜の眼の力",

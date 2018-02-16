@@ -7376,6 +7376,42 @@
         "✓": "✓"
     },
     {
+        "character": "Fran",
+        "source": "Astral Tempest",
+        "name": "Icebolt Attack Drop",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Ice, Lightning",
+        "time": "?",
+        "effects": "Two single ranged attacks (? each), ATK -?% for ? seconds",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?",
+        "name(jp)": "氷雷攻落",
+        "id": "30512681"
+    },
+    {
+        "character": "Fran",
+        "source": "Astral Tempest",
+        "name": "Icebolt Magic Decay",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Ice, Lightning",
+        "time": "?",
+        "effects": "Two single ranged attacks (? each), MAG -?% for ? seconds",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?",
+        "name(jp)": "氷雷魔崩",
+        "id": "30512682"
+    },
+    {
         "character": "Basch",
         "source": "Shining Ray",
         "name": "Blade of Doom",
@@ -9889,7 +9925,7 @@
     },
     {
         "character": "Reynn",
-        "source": "Channel Element Ice",
+        "source": "Channel Element: Ice",
         "name": "Glacial Arrow",
         "type": "BLK",
         "target": "Single enemy",
@@ -9908,7 +9944,7 @@
     },
     {
         "character": "Reynn",
-        "source": "Channel Element Ice",
+        "source": "Channel Element: Ice",
         "name": "Big Freeze",
         "type": "BLK",
         "target": "Single enemy",
@@ -9927,7 +9963,7 @@
     },
     {
         "character": "Lann",
-        "source": "Channel Element Fire",
+        "source": "Channel Element: Fire",
         "name": "Melting Blow",
         "type": "PHY",
         "target": "Single enemy",
@@ -9946,7 +9982,7 @@
     },
     {
         "character": "Lann",
-        "source": "Channel Element Fire",
+        "source": "Channel Element: Fire",
         "name": "Solar Flame",
         "type": "PHY",
         "target": "All enemies",

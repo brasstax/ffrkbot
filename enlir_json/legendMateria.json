@@ -1877,7 +1877,8 @@
         "effect": "35% chance to grant Quick Cast 1 to the user after using a Mimic attack",
         "master": "ATK +5, MAG +5",
         "relic": "Thornlet (VI)",
-        "name(jp)": "世界を救うものまね"
+        "name(jp)": "世界を救うものまね",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -3569,6 +3570,15 @@
     },
     {
         "realm": "XII",
+        "character": "Fran",
+        "name": "Mysterious Viera",
+        "effect": "Grants Quick Cast 3 at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Fran's Hair Gear (XII)",
+        "name(jp)": "謎多きヴィエラ"
+    },
+    {
+        "realm": "XII",
         "character": "Basch",
         "name": "Captain's Honor",
         "effect": "Knight abilities deal 15% more damage",
@@ -3739,17 +3749,19 @@
         "realm": "XII",
         "character": "Reks",
         "name": "Fraternal Bond",
-        "effect": "Spellblade abilities deal ?% more damage",
+        "effect": "Spellblade abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "弟想いの兄"
+        "name(jp)": "弟想いの兄",
+        "✓": "✓"
     },
     {
         "realm": "XII",
         "character": "Reks",
         "name": "Brave Patriot",
-        "effect": "?% chance to dualcast Spellblade abilities",
+        "effect": "35% chance to dualcast Spellblade abilities",
         "relic": "-",
-        "name(jp)": "勇敢なる愛国者"
+        "name(jp)": "勇敢なる愛国者",
+        "✓": "✓"
     },
     {
         "realm": "XII",
@@ -4275,17 +4287,19 @@
         "realm": "XIV",
         "character": "Haurchefant",
         "name": "Silver Swordsman",
-        "effect": "Knight abilities deal ?% more damage",
+        "effect": "Knight abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "銀髪の剣士"
+        "name(jp)": "銀髪の剣士",
+        "✓": "✓"
     },
     {
         "realm": "XIV",
         "character": "Haurchefant",
         "name": "Fortemps Fortitude",
-        "effect": "Restores HP for 100% of the user's maximum HP and grants Last Stand and HP Stock (2000) when HP fall below ?%",
+        "effect": "Restores HP for 100% of the user's maximum HP and grants Last Stand and HP Stock (2000) when HP fall below 20%",
         "relic": "-",
-        "name(jp)": "誇り高き英雄"
+        "name(jp)": "誇り高き英雄",
+        "✓": "✓"
     },
     {
         "realm": "XIV",
@@ -4628,7 +4642,7 @@
     {
         "realm": "FFT",
         "character": "Mustadio",
-        "name": "Machina Expertise",
+        "name": "Mechanical Expertise",
         "effect": "Machinist abilities deal ?% more damage",
         "relic": "-",
         "name(jp)": "機械への造詣"
@@ -4636,7 +4650,7 @@
     {
         "realm": "FFT",
         "character": "Mustadio",
-        "name": "Discoveries of Lost Civilizations",
+        "name": "Excavator of Relics",
         "effect": "?% chance to dualcast Machinist abilities",
         "relic": "-",
         "name(jp)": "失われた文明の発掘者"
@@ -4654,7 +4668,7 @@
     {
         "realm": "FFT",
         "character": "Orlandeau",
-        "name": "Unbeaten Knight",
+        "name": "Invincible Knight",
         "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "無敗の騎士",
@@ -4663,7 +4677,7 @@
     {
         "realm": "FFT",
         "character": "Orlandeau",
-        "name": "Sword Saint Above Knights",
+        "name": "Holy Steel's Summit",
         "effect": "Grants Infinite Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "騎士の頂点に立つ剣聖",
@@ -4766,7 +4780,7 @@
     {
         "realm": "FFT",
         "character": "Meliadoul",
-        "name": "Divine Knight Blademaster",
+        "name": "Divine Blade",
         "effect": "Knight abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "ディバインナイトの剣技",
@@ -4775,7 +4789,7 @@
     {
         "realm": "FFT",
         "character": "Meliadoul",
-        "name": "Divine Knight's Finesse",
+        "name": "Divine Secrets",
         "effect": "30% chance to cause Minor Imperil Earth to the target after using a Knight ability on an enemy",
         "relic": "-",
         "name(jp)": "ディバインナイトの絶技",
@@ -4858,7 +4872,7 @@
     {
         "realm": "FFT",
         "character": "Alma",
-        "name": "Cheerful Sister",
+        "name": "Sanguine Sister",
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "明朗活発な妹",
@@ -4867,7 +4881,7 @@
     {
         "realm": "FFT",
         "character": "Alma",
-        "name": "Saint Reincarnate",
+        "name": "Saint Reborn",
         "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
         "name(jp)": "聖者の生まれ変わり",
