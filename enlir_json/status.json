@@ -4122,6 +4122,14 @@
         "notes": "-"
     },
     {
+        "id": "50160",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHOETSU",
+        "notes": "???"
+    },
+    {
         "id": "50161",
         "commonName": "Thievery Finisher",
         "effects": "Casts Thievery when removed",
@@ -4229,6 +4237,26 @@
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Comrade's Oath\" status",
         "codedName": "FOR_MY_FRIEND_MODE_BUFF_AND_CHASE_3",
+        "notes": "-"
+    },
+    {
+        "id": "50172",
+        "commonName": "EX: Wings of Freedom",
+        "effects": "ATK +30%, casts Spiral Rush after using a Thief ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_WINGS_OF_FREEDOM",
+        "notes": "-"
+    },
+    {
+        "id": "50173",
+        "commonName": "Spiral Rush Counter",
+        "effects": "Keeps track of the uses of Spiral Rush, removed if the user hasn't EX: Wings of Freedom, reset upon refreshing EX: Wings of Freedom",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_FOR_EX_MODE_WINGS_OF_FREEDOM",
         "notes": "-"
     },
     {
