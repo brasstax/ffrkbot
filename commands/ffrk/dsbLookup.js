@@ -10,27 +10,19 @@ module.exports = class ReplyCommand extends Command {
    **/
   constructor(client) {
     super(client, {
-      name: 'bsb',
+      name: 'dsb',
       group: 'ffrk',
-      memberName: 'bsb',
-      description: '(NOT IMPLEMENTED YET) Looks up a burst soulbreak ' +
-        'for a given character.',
-      examples: ['bsb Squall', 'bsb Zell 1', 'bsb \'onion knight\' 2'],
+      memberName: 'dsb',
+      description: 'Looks up the default soulbreak for a given character.',
+      examples: ['dsb Squall', 'dsb Zell 1', 'dsb \'onion knight\' 2'],
       args: [
         {
           key: 'characterName',
           prompt: 'Enter the name of the character you wish to look up.',
           type: 'string',
         },
-        {
-          key: 'bsbNumber',
-          prompt: 'Enter the BSB number of the character' +
-            ' you wish to look up. (Optional.)',
-          type: 'integer',
-          default: '',
-        },
       ],
-      aliases: ['burst'],
+      aliases: ['default'],
     });
   }
 
@@ -40,10 +32,10 @@ module.exports = class ReplyCommand extends Command {
    * @return {Method} msg.say: string
    **/
   run(msg, args) {
-    const {characterName, bsbNumber} = args;
-    return botUtils.soulbreak(msg, characterName, 'bsb', bsbNumber)
+    const {characterName} = args;
+    return botUtils.soulbreak(msg, characterName, 'Default')
       .catch( (err) => {
-        console.log(`Error calling bsbLookup: ${err}`);
+        console.log(`Error calling dsbLookup: ${err}`);
       });
   };
 };

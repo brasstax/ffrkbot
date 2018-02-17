@@ -187,12 +187,14 @@ function lookupSoulbreak(msg, character, sbType, filterIndex=null) {
         });
       } else {
         if (filterIndex) {
-          filterIndex = Math.abs(filterIndex) - 1;
-          if (filterIndex < 0) {
-            filterIndex = 0;
+          // Make a filterIndexActual because arrays start from 0.
+          let filterIndexActual;
+          filterIndexActual = Math.abs(filterIndex) - 1;
+          if (filterIndexActual < 0) {
+            filterIndexActual = 0;
           }
-          console.log(filterIndex);
-          let value = values[filterIndex];
+          console.log(filterIndexActual);
+          let value = values[filterIndexActual];
           if (value === undefined) {
             let err = `${sbType}${filterIndex} not found for ${character}.`;
             err += ` Giving you all of ${character}'s ${sbType} instead.`;

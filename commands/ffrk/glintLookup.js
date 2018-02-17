@@ -10,12 +10,11 @@ module.exports = class ReplyCommand extends Command {
    **/
   constructor(client) {
     super(client, {
-      name: 'bsb',
+      name: 'glint',
       group: 'ffrk',
-      memberName: 'bsb',
-      description: '(NOT IMPLEMENTED YET) Looks up a burst soulbreak ' +
-        'for a given character.',
-      examples: ['bsb Squall', 'bsb Zell 1', 'bsb \'onion knight\' 2'],
+      memberName: 'glint',
+      description: 'Looks up glint soulbreaks for a given character.',
+      examples: ['glint Squall', 'glint Zell 1', 'glint \'onion knight\' 2'],
       args: [
         {
           key: 'characterName',
@@ -23,14 +22,14 @@ module.exports = class ReplyCommand extends Command {
           type: 'string',
         },
         {
-          key: 'bsbNumber',
-          prompt: 'Enter the BSB number of the character' +
+          key: 'glintNumber',
+          prompt: 'Enter the glint number of the character' +
             ' you wish to look up. (Optional.)',
           type: 'integer',
           default: '',
         },
       ],
-      aliases: ['burst'],
+      aliases: ['fsb', 'flash'],
     });
   }
 
@@ -40,10 +39,10 @@ module.exports = class ReplyCommand extends Command {
    * @return {Method} msg.say: string
    **/
   run(msg, args) {
-    const {characterName, bsbNumber} = args;
-    return botUtils.soulbreak(msg, characterName, 'bsb', bsbNumber)
+    const {characterName, glintNumber} = args;
+    return botUtils.soulbreak(msg, characterName, 'glint', glintNumber)
       .catch( (err) => {
-        console.log(`Error calling bsbLookup: ${err}`);
+        console.log(`Error calling glintLookup: ${err}`);
       });
   };
 };

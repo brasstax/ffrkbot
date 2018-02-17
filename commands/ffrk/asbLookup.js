@@ -10,12 +10,11 @@ module.exports = class ReplyCommand extends Command {
    **/
   constructor(client) {
     super(client, {
-      name: 'bsb',
+      name: 'asb',
       group: 'ffrk',
-      memberName: 'bsb',
-      description: '(NOT IMPLEMENTED YET) Looks up a burst soulbreak ' +
-        'for a given character.',
-      examples: ['bsb Squall', 'bsb Zell 1', 'bsb \'onion knight\' 2'],
+      memberName: 'asb',
+      description: 'Looks up arcane overstrikes for a given character.',
+      examples: ['asb Squall', 'asb Zell 1', 'asb \'onion knight\' 2'],
       args: [
         {
           key: 'characterName',
@@ -23,14 +22,14 @@ module.exports = class ReplyCommand extends Command {
           type: 'string',
         },
         {
-          key: 'bsbNumber',
-          prompt: 'Enter the BSB number of the character' +
+          key: 'asbNumber',
+          prompt: 'Enter the asb number of the character' +
             ' you wish to look up. (Optional.)',
           type: 'integer',
           default: '',
         },
       ],
-      aliases: ['burst'],
+      aliases: ['aosb', 'uosb', 'ao', 'arcane'],
     });
   }
 
@@ -40,10 +39,10 @@ module.exports = class ReplyCommand extends Command {
    * @return {Method} msg.say: string
    **/
   run(msg, args) {
-    const {characterName, bsbNumber} = args;
-    return botUtils.soulbreak(msg, characterName, 'bsb', bsbNumber)
+    const {characterName, asbNumber} = args;
+    return botUtils.soulbreak(msg, characterName, 'asb', asbNumber)
       .catch( (err) => {
-        console.log(`Error calling bsbLookup: ${err}`);
+        console.log(`Error calling asbLookup: ${err}`);
       });
   };
 };
