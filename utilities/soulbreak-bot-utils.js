@@ -22,13 +22,21 @@ const enlirBsbCommands = JSON.parse(enlirBsbCommandsFile);
  * Searches and returns the soul breaks for a given character.
  * @param {string} character: the name of the character to search.
  * @param {string} sbType: The type of soul break to look up
- *  (one of: all, default, sb, bsb, usb, osb). Defaults to 'all'.)
+ *  (one of: all, default, sb, bsb, usb, osb, csb, uosb,
+  * asb, glint). Defaults to 'all'.
  * @return {object} Promise: a Promise with a result if resolved.
  **/
 function searchSoulbreak(character, sbType='all') {
   console.log(`Character to lookup: ${character}`);
   console.log(`Soul break to return: ${sbType}`);
   character = escapeStringRegexp(character);
+  // Backwards-compatibility with pre-localized fsb/uosb.
+  if (sbType === 'fsb') {
+    sbType = 'glint';
+  }
+  if (sbType === 'uosb') {
+    sbType = 'asb';
+  }
   let characterQueryString = util.format('[*character~/^%s$/i]', character);
   console.log(`characterQueryString: ${characterQueryString}`);
   return new Promise( (resolve, reject) => {
@@ -77,7 +85,7 @@ function searchSoulbreak(character, sbType='all') {
  **/
 function checkSoulbreakFilter(sbType) {
   let possibleSbTypes = ['all', 'default', 'sb', 'ssb',
-    'bsb', 'usb', 'osb', 'csb', 'fsb', 'uosb'];
+    'bsb', 'usb', 'osb', 'csb', 'fsb', 'uosb', 'asb', 'glint'];
   if (possibleSbTypes.indexOf(sbType.toLowerCase()) === -1) {
     return false;
   } else {
@@ -90,7 +98,8 @@ function checkSoulbreakFilter(sbType) {
  *  @param {Object} msg: A message object from the Discord.js bot.
  *  @param {String} character: the name of the character to search.
  *  @param {String} sbType: the type of soul break to search.
- *    (one of: all, default, sb, bsb, usb, osb). Defaults to 'all'.)
+ *    (one of: all, default, sb, bsb, usb, osb, asb, glint, CSB,
+  * fsb. Defaults to 'all'.)
  *  @return {object} Promise
  **/
 function lookupSoulbreak(msg, character, sbType) {
@@ -111,7 +120,7 @@ function lookupSoulbreak(msg, character, sbType) {
     if (checkSoulbreakFilter(sbType) === false) {
       msg.channel.send(
         'Soulbreak type not one of: ' +
-          'All, Default, SB, SSB, BSB, USB, OSB, CSB, FSB, UOSB.')
+          'All, Default, SB, SSB, BSB, USB, OSB, CSB, FSB, UOSB, Glint, ASB.')
         .then( (res) => {
           resolve(res);
         }).catch( (err) => {
