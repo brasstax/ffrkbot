@@ -99,13 +99,17 @@ function checkSoulbreakFilter(sbType) {
  *  @param {String} character: the name of the character to search.
  *  @param {String} sbType: the type of soul break to search.
  *    (one of: all, default, sb, bsb, usb, osb, asb, glint, CSB,
-  * fsb. Defaults to 'all'.)
+ * fsb. Defaults to 'all'.)
+ * @param {number} filterIndex: The index of the soulbreak to search for.
+ * Savvy players can use this to refer to soulbreaks by number in approximate
+ * release order, ie bsb1, asb1, glint2. Defaults to null so everything is
+ * returned.
  *  @return {object} Promise
  **/
-function lookupSoulbreak(msg, character, sbType) {
+function lookupSoulbreak(msg, character, sbType, filterIndex=null) {
   console.log(util.format(',sb caller: %s#%s',
     msg.author.username, msg.author.discriminator));
-  console.log(`Lookup called: ${character} ${sbType}`);
+  console.log(`Lookup called: ${character} ${sbType} ${filterIndex}`);
   return new Promise( (resolve, reject) => {
     if (character.length < 2) {
       msg.channel.send(
@@ -182,6 +186,26 @@ function lookupSoulbreak(msg, character, sbType) {
             });
         });
       } else {
+        if (filterIndex) {
+          filterIndex = Math.abs(filterIndex) - 1;
+          if (filterIndex < 0) {
+            filterIndex = 0;
+          }
+          console.log(filterIndex);
+          let value = values[filterIndex];
+          if (value === undefined) {
+            let err = `${sbType}${filterIndex} not found for ${character}.`;
+            err += ` Giving you all of ${character}'s ${sbType} instead.`;
+            msg.channel.send(err)
+              .then( () => {
+              }).catch( (err) => {
+                console.log(`Error sending error about unfound filterIndex.`);
+            });
+          } else {
+            values = [];
+            values.push(value);
+          }
+        }
         values.forEach( (value) => {
           sendRichEmbedSoulbreak(value, msg, dm, sbType).then( (result) => {
             result.forEach( (embed) => {
