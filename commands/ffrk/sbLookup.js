@@ -29,6 +29,13 @@ module.exports = class ReplyCommand extends Command {
           type: 'string',
           default: 'all',
         },
+        {
+          key: 'sbNumber',
+          prompt: 'Enter the SB number of the character' +
+            ' you wish to look up. (Optional.)',
+          type: 'integer',
+          default: '',
+        },
       ],
       aliases: ['soulbreak'],
     });
@@ -40,8 +47,8 @@ module.exports = class ReplyCommand extends Command {
    * @return {Method} msg.say: string
    **/
   run(msg, args) {
-    const {characterName, sbType} = args;
-    return botUtils.soulbreak(msg, characterName, sbType)
+    const {characterName, sbType, sbNumber} = args;
+    return botUtils.soulbreak(msg, characterName, sbType, sbNumber)
       .catch( (err) => {
         console.log(`Error calling botUtils.soulbreak: ${err}`);
       });
