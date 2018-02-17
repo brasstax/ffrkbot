@@ -18,12 +18,12 @@ module.exports = class ReplyCommand extends Command {
       examples: ['sb Squall', 'sb Cloud usb', 'sb "Cid Raines" bsb'],
       args: [
         {
-          key: 'character_name',
+          key: 'characterName',
           prompt: 'Enter the name of the character you wish to look up.',
           type: 'string',
         },
         {
-          key: 'sb_type',
+          key: 'sbType',
           prompt: '(Optional) Enter the type of soul break you want to see' +
             '(all, SB, SSB, BSB, USB, OSB, or CSB. Defaults to "all".)',
           type: 'string',
@@ -40,8 +40,8 @@ module.exports = class ReplyCommand extends Command {
    * @return {Method} msg.say: string
    **/
   run(msg, args) {
-    const {character_name, sb_type} = args;
-    return botUtils.soulbreak(msg, character_name, sb_type)
+    const {characterName, sbType} = args;
+    return botUtils.soulbreak(msg, characterName, sbType)
       .catch( (err) => {
         console.log(`Error calling botUtils.soulbreak: ${err}`);
       });

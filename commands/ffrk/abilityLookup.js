@@ -14,7 +14,7 @@ module.exports = class ReplyCommand extends Command {
       examples: ['ability Firaja', 'ability gaia\'s cross'],
       args: [
         {
-          key: 'ability_name',
+          key: 'abilityName',
           prompt: 'Enter the name of the ability you wish to look up.',
           type: 'string',
         },
@@ -29,10 +29,10 @@ module.exports = class ReplyCommand extends Command {
    * @return {object} Promise
    **/
   run(msg, args) {
-    const {ability_name} = args;
-    return botUtils.ability(msg, ability_name)
+    const {abilityName} = args;
+    return botUtils.ability(msg, abilityName)
       .catch( (err) => {
-        console.log(`Error in running ability command: ${e}`);
+        console.log(`Error in running ability command: ${err}`);
       });
   };
 };
