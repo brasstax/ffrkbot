@@ -9592,7 +9592,7 @@
     {
         "character": "Alma",
         "source": "Wisdom of Orbonne",
-        "name": "Angelic Glimpse",
+        "name": "Angelic Glimmer",
         "type": "WHT",
         "target": "Single ally",
         "formula": "Magical",
@@ -9611,7 +9611,7 @@
     {
         "character": "Alma",
         "source": "Wisdom of Orbonne",
-        "name": "Priestess's Call",
+        "name": "Cleric's Bearing",
         "type": "WHT",
         "target": "All allies",
         "formula": "Magical",
