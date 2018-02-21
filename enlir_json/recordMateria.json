@@ -6202,6 +6202,36 @@
     },
     {
         "realm": "Beyond",
+        "character": "Sora",
+        "unlockCriteria": "Use Sora's Memory Crystal"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Sora",
+        "unlockCriteria": "Use Sora's Memory Crystal II, chance to obtain with Sora in party"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Sora",
+        "unlockCriteria": "Bring Sora to level 99"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Riku",
+        "unlockCriteria": "Use Riku's Memory Crystal"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Riku",
+        "unlockCriteria": "Use Riku's Memory Crystal II, chance to obtain with Riku in party"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Riku",
+        "unlockCriteria": "Bring Riku to level 99"
+    },
+    {
+        "realm": "Beyond",
         "character": "Reynn",
         "name": "Ward of Heaven",
         "effect": "Grants Magical Blink 1 at the beginning of the battle",

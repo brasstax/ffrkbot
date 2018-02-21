@@ -8795,7 +8795,7 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
-        "introducingEvent": "Vermillion Youths",
+        "introducingEvent": "Key to Another World",
         "name(jp)": "グランドチャージ",
         "id": "30311001",
         "✓": "✓"
@@ -8820,7 +8820,7 @@
         "orb1Required": "Greater Power",
         "orb2Required": "Greater Fire",
         "orb3Required": "Greater Earth",
-        "introducingEvent": "Vermillion Youths",
+        "introducingEvent": "Key to Another World",
         "name(jp)": "ヘヴィチャージ",
         "id": "30311011",
         "✓": "✓"
@@ -8845,7 +8845,7 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Fire",
         "orb3Required": "Major Earth",
-        "introducingEvent": "Vermillion Youths",
+        "introducingEvent": "Key to Another World",
         "name(jp)": "ギガントスイング",
         "id": "30311021",
         "✓": "✓"
@@ -8870,7 +8870,7 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Earth",
-        "introducingEvent": "Vermillion Youths",
+        "introducingEvent": "Key to Another World",
         "name(jp)": "ブラストバーン",
         "id": "30311031",
         "✓": "✓"

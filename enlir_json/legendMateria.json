@@ -1972,6 +1972,15 @@
     },
     {
         "realm": "VII",
+        "character": "Cloud",
+        "name": "Lightseeking Swordsman",
+        "effect": "?% chance to grant Quick Cast 1 to the user after using a Dark attack",
+        "master": "ATK +10",
+        "relic": "Cloud's Guise (KH)",
+        "name(jp)": "光探す剣士"
+    },
+    {
+        "realm": "VII",
         "character": "Tifa",
         "name": "Heroic Devotion",
         "effect": "Increases Earth damage dealt by 10%",
@@ -5140,6 +5149,58 @@
         "relic": "Dominion Helmet (Type-0)",
         "name(jp)": "栗色の三つ編み",
         "✓": "✓"
+    },
+    {
+        "realm": "KH",
+        "character": "Sora",
+        "name": "Fire Arts",
+        "effect": "Grants Haste and Attach Fire at the beginning of the battle",
+        "relic": "-",
+        "name(jp)": "ファイア免許皆伝"
+    },
+    {
+        "realm": "KH",
+        "character": "Sora",
+        "name": "Blizzard Arts",
+        "effect": "Grants Haste and Attach Ice at the beginning of the battle",
+        "relic": "-",
+        "name(jp)": "ブリザド免許皆伝"
+    },
+    {
+        "realm": "KH",
+        "character": "Sora",
+        "name": "Thunder Arts",
+        "effect": "Grants Haste and Attach Lightning at the beginning of the battle",
+        "relic": "-",
+        "name(jp)": "サンダー免許皆伝"
+    },
+    {
+        "realm": "KH",
+        "character": "Sora",
+        "name": "Connected Hearts",
+        "effect": "?% chance to dualcast Spellblade abilities",
+        "master": "ATK +10",
+        "relic": "Sora's Guise (KH) (Beyond)",
+        "name(jp)": "繋がる心"
+    },
+    {
+        "realm": "KH",
+        "character": "Riku",
+        "relic": "-"
+    },
+    {
+        "realm": "KH",
+        "character": "Riku",
+        "relic": "-"
+    },
+    {
+        "realm": "KH",
+        "character": "Riku",
+        "name": "Seeker of Darkness",
+        "effect": "Grants Attach Dark at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Riku's Guise (KH) (Beyond)",
+        "name(jp)": "闇の探求者"
     },
     {
         "realm": "Beyond",

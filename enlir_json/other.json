@@ -1182,6 +1182,38 @@
         "✓": "✓"
     },
     {
+        "character": "Status",
+        "source": "EX: Connected Hearts",
+        "name": "Judgment",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Fire, Lightning, Ice",
+        "time": "?",
+        "effects": "Four single ranged attacks (? each), 100% hit rate",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
+    },
+    {
+        "character": "Status",
+        "source": "Darkhand Scourge Follow-Up",
+        "name": "Darkhand Scourge",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Dark, NE",
+        "time": "?",
+        "effects": "Five single attacks (? each), 100% hit rate",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
+    },
+    {
         "character": "Berserker",
         "source": "Berserker's Rage (100%)",
         "name": "Attack",
