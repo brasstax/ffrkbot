@@ -4082,6 +4082,26 @@
         "notes": "-"
     },
     {
+        "id": "50152",
+        "commonName": "EX: Connected Hearts",
+        "effects": "ATK +30%, casts Judgment after using a Fire, Ice or Lightning Spellblade ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_STRIKE_RAID",
+        "notes": "-"
+    },
+    {
+        "id": "50153",
+        "commonName": "Darkhand Scourge Follow-Up",
+        "effects": "Casts Darkhand Scourge after dealing damage with a Dark attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_DARK_FIRAGA",
+        "notes": "-"
+    },
+    {
         "id": "50154",
         "commonName": "Gilgamesh Trance",
         "effects": "ATK, DEF and RES +30%, cast speed x3,00",
@@ -4119,6 +4139,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "USED_ABILITY_COUNTER_JUNCTION_FOR_WIND_OF_THE_END",
+        "notes": "-"
+    },
+    {
+        "id": "50159",
+        "commonName": "Arcanum Counter",
+        "effects": "Keeps track of the uses of Arcanum, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_FOR_LAST_ARCANUM",
         "notes": "-"
     },
     {
@@ -4903,6 +4933,16 @@
         "exclusiveStatus": "-",
         "codedName": "CUSTOM_PARAM_MULTI_MATK_30_MDEF_50",
         "notes": "???"
+    },
+    {
+        "id": "6023",
+        "commonName": "Aura of Darkness",
+        "effects": "ATK +30%, MND -30%",
+        "defaultDuration": 25,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_ATK_30_MND_M30",
+        "notes": "-"
     },
     {
         "id": "6024",

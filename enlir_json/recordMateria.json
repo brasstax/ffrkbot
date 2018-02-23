@@ -6203,31 +6203,37 @@
     {
         "realm": "Beyond",
         "character": "Sora",
+        "effect": "Spellblade abilities deal ?% more damage",
         "unlockCriteria": "Use Sora's Memory Crystal"
     },
     {
         "realm": "Beyond",
         "character": "Sora",
+        "effect": "Spellblade abilities deal ?% more damage",
         "unlockCriteria": "Use Sora's Memory Crystal II, chance to obtain with Sora in party"
     },
     {
         "realm": "Beyond",
         "character": "Sora",
+        "effect": "Spellblade abilities deal ?% more damage",
         "unlockCriteria": "Bring Sora to level 99"
     },
     {
         "realm": "Beyond",
         "character": "Riku",
+        "effect": "Increases Dark damage dealt by ?%",
         "unlockCriteria": "Use Riku's Memory Crystal"
     },
     {
         "realm": "Beyond",
         "character": "Riku",
+        "effect": "Increases Dark damage dealt by ?%",
         "unlockCriteria": "Use Riku's Memory Crystal II, chance to obtain with Riku in party"
     },
     {
         "realm": "Beyond",
         "character": "Riku",
+        "effect": "Increases Dark damage dealt by ?%",
         "unlockCriteria": "Bring Riku to level 99"
     },
     {

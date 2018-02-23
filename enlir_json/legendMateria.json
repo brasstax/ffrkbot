@@ -1973,10 +1973,10 @@
     {
         "realm": "VII",
         "character": "Cloud",
-        "name": "Lightseeking Swordsman",
+        "name": "Light Seeker",
         "effect": "?% chance to grant Quick Cast 1 to the user after using a Dark attack",
         "master": "ATK +10",
-        "relic": "Cloud's Guise (KH)",
+        "relic": "Cloud (KH)",
         "name(jp)": "光探す剣士"
     },
     {
@@ -5153,6 +5153,12 @@
     {
         "realm": "KH",
         "character": "Sora",
+        "effect": "Spellblade abilities deal ?% more damage",
+        "relic": "-"
+    },
+    {
+        "realm": "KH",
+        "character": "Sora",
         "name": "Fire Arts",
         "effect": "Grants Haste and Attach Fire at the beginning of the battle",
         "relic": "-",
@@ -5180,17 +5186,19 @@
         "name": "Connected Hearts",
         "effect": "?% chance to dualcast Spellblade abilities",
         "master": "ATK +10",
-        "relic": "Sora's Guise (KH) (Beyond)",
+        "relic": "Sora (KH)",
         "name(jp)": "繋がる心"
     },
     {
         "realm": "KH",
         "character": "Riku",
+        "effect": "Increases Dark damage dealt by ?%",
         "relic": "-"
     },
     {
         "realm": "KH",
         "character": "Riku",
+        "effect": "?% chance to dualcast abilities that deal Dark damage",
         "relic": "-"
     },
     {
@@ -5199,7 +5207,7 @@
         "name": "Seeker of Darkness",
         "effect": "Grants Attach Dark at the beginning of the battle",
         "master": "ATK +10",
-        "relic": "Riku's Guise (KH) (Beyond)",
+        "relic": "Riku (KH)",
         "name(jp)": "闇の探求者"
     },
     {

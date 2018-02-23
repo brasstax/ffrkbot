@@ -5509,7 +5509,7 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Lightning",
         "orb3Required": "Major Wind",
-        "introducingEvent": "The Wandering Flower",
+        "introducingEvent": "Resolution Blooms",
         "name(jp)": "サイクロンボルト",
         "id": "30181131",
         "✓": "✓"
@@ -7317,7 +7317,7 @@
         "orb1Required": "Major Earth",
         "orb2Required": "Major Wind",
         "orb3Required": "Major Dark",
-        "introducingEvent": "Fading Bonds",
+        "introducingEvent": "Enduring Bonds",
         "name(jp)": "すなかげろう",
         "id": "30231161",
         "✓": "✓"
@@ -7342,7 +7342,7 @@
         "orb1Required": "Major Ice",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Dark",
-        "introducingEvent": "Fading Bonds",
+        "introducingEvent": "Enduring Bonds",
         "name(jp)": "さばくじん",
         "id": "30231171",
         "✓": "✓"
