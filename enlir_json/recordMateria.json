@@ -5978,7 +5978,7 @@
     {
         "realm": "FFT",
         "character": "Alma",
-        "name": "Saint's Vessel",
+        "name": "Sacred Heart",
         "effect": "DEF and MND +10% when equipping a staff",
         "unlockCriteria": "Bring Alma to level 99",
         "name(jp)": "聖魂を宿す少女",
@@ -6201,40 +6201,58 @@
         "✓": "✓"
     },
     {
-        "realm": "Beyond",
+        "realm": "KH",
         "character": "Sora",
-        "effect": "Spellblade abilities deal ?% more damage",
-        "unlockCriteria": "Use Sora's Memory Crystal"
+        "name": "Link Between Hearts",
+        "effect": "Spellblade abilities deal 15% more damage",
+        "unlockCriteria": "Use Sora's Memory Crystal",
+        "name(jp)": "心を繋ぐ少年",
+        "✓": "✓"
     },
     {
-        "realm": "Beyond",
+        "realm": "KH",
         "character": "Sora",
-        "effect": "Spellblade abilities deal ?% more damage",
-        "unlockCriteria": "Use Sora's Memory Crystal II, chance to obtain with Sora in party"
+        "name": "Bond Between Worlds",
+        "effect": "Spellblade abilities deal 30% more damage",
+        "unlockCriteria": "Use Sora's Memory Crystal II, chance to obtain with Sora in party",
+        "name(jp)": "世界をめぐる絆",
+        "✓": "✓"
     },
     {
-        "realm": "Beyond",
+        "realm": "KH",
         "character": "Sora",
-        "effect": "Spellblade abilities deal ?% more damage",
-        "unlockCriteria": "Bring Sora to level 99"
+        "name": "Faith in the Light",
+        "effect": "Spellblade abilities deal 40% more damage",
+        "unlockCriteria": "Bring Sora to level 99",
+        "name(jp)": "光を信じる心",
+        "✓": "✓"
     },
     {
-        "realm": "Beyond",
+        "realm": "KH",
         "character": "Riku",
-        "effect": "Increases Dark damage dealt by ?%",
-        "unlockCriteria": "Use Riku's Memory Crystal"
+        "name": "Dreams of Power",
+        "effect": "Increases Dark damage dealt by 10%",
+        "unlockCriteria": "Use Riku's Memory Crystal",
+        "name(jp)": "力を望む少年",
+        "✓": "✓"
     },
     {
-        "realm": "Beyond",
+        "realm": "KH",
         "character": "Riku",
-        "effect": "Increases Dark damage dealt by ?%",
-        "unlockCriteria": "Use Riku's Memory Crystal II, chance to obtain with Riku in party"
+        "name": "Means to an End",
+        "effect": "Increases Dark damage dealt by 20%",
+        "unlockCriteria": "Use Riku's Memory Crystal II, chance to obtain with Riku in party",
+        "name(jp)": "手段を選ばぬ意思",
+        "✓": "✓"
     },
     {
-        "realm": "Beyond",
+        "realm": "KH",
         "character": "Riku",
-        "effect": "Increases Dark damage dealt by ?%",
-        "unlockCriteria": "Bring Riku to level 99"
+        "name": "Heart of Darkness",
+        "effect": "Increases Dark damage dealt by 30%",
+        "unlockCriteria": "Bring Riku to level 99",
+        "name(jp)": "闇を覆いし心",
+        "✓": "✓"
     },
     {
         "realm": "Beyond",

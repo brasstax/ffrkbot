@@ -1270,7 +1270,7 @@
         "name": "Impartial Kindness",
         "effect": "25% chance to cast a group heal (25) after using a White Magic ability",
         "master": "MND +10",
-        "relic": "Crown of Laurels (V)",
+        "relic": "Laurel Crown (V)",
         "name(jp)": "わけへだてなき優しさ",
         "✓": "✓"
     },
@@ -1417,7 +1417,7 @@
     {
         "realm": "V",
         "character": "Dorgann",
-        "name": "Traveler of Worlds",
+        "name": "Wandering Adventurer",
         "effect": "Grants Attach Earth at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Bastard Sword (V)",
@@ -1509,10 +1509,10 @@
     {
         "realm": "V",
         "character": "Xezat",
-        "name": "Fleet's Leader",
+        "name": "Head of the Fleet",
         "effect": "25% chance to dualcast Spellblade abilities",
         "master": "ATK +10",
-        "relic": "Xezat's Bracers (V)",
+        "relic": "Xezat's Gauntlets (V)",
         "name(jp)": "船団を率いし器",
         "✓": "✓"
     },
@@ -1537,10 +1537,10 @@
     {
         "realm": "V",
         "character": "Kelger",
-        "name": "Agile Werewolf",
+        "name": "Nimble Werewolf",
         "effect": "25% chance to grant Physical Blink 1 to the user after using a Ninja ability",
         "master": "ATK +10",
-        "relic": "Kelger's Mantle (V)",
+        "relic": "Kelger's Cloak (V)",
         "name(jp)": "敏速なるウェアウルフ",
         "✓": "✓"
     },
@@ -1974,10 +1974,11 @@
         "realm": "VII",
         "character": "Cloud",
         "name": "Light Seeker",
-        "effect": "?% chance to grant Quick Cast 1 to the user after using a Dark attack",
+        "effect": "35% chance to grant Quick Cast 1 to the user after using a Dark attack",
         "master": "ATK +10",
         "relic": "Cloud (KH)",
-        "name(jp)": "光探す剣士"
+        "name(jp)": "光探す剣士",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -2786,10 +2787,10 @@
     {
         "realm": "IX",
         "character": "Freya",
-        "name": "Devoted Knight",
+        "name": "Devoted Dragoon",
         "effect": "25% chance to cast an ability (single, 1,08 physical) with two Wind/NE attacks and smart ether 1 after using a Dragoon ability",
         "master": "ATK +10",
-        "relic": "Freya's Hat (IX)",
+        "relic": "Freya's Cap (IX)",
         "name(jp)": "精進を怠らぬ騎士",
         "✓": "✓"
     },
@@ -2814,7 +2815,7 @@
     {
         "realm": "IX",
         "character": "Quina",
-        "name": "Preparation of the Qu",
+        "name": "Qu Vigilance",
         "effect": "Grants Last Stand and High Regen at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Silver Fork (IX)",
@@ -3514,10 +3515,10 @@
     {
         "realm": "XII",
         "character": "Vaan",
-        "name": "Aspirant Sky Pirate",
+        "name": "Skyward Dreams",
         "effect": "25% chance of smart ether 1 to the user after using a Thief ability",
         "master": "ATK +10",
-        "relic": "Vaan's Bracers (XII)",
+        "relic": "Vaan's Gauntlets (XII)",
         "name(jp)": "空賊への憧れ",
         "✓": "✓"
     },
@@ -3719,7 +3720,7 @@
     {
         "realm": "XII",
         "character": "Larsa",
-        "name": "Mending Belief",
+        "name": "Arc of Justice",
         "effect": "25% chance to grant Astra to the target after using a single-target White Magic ability that restores HP on an ally",
         "master": "MND +10",
         "relic": "Swordbreaker (XII)",
@@ -3775,7 +3776,7 @@
     {
         "realm": "XII",
         "character": "Reks",
-        "name": "Young Brave Soldier",
+        "name": "Youngest Knight",
         "effect": "25% chance to cast an ability (single) that restores HP for 40% of the target's maximum HP after using a Spellblade ability",
         "master": "ATK +10",
         "relic": "Bone Mail (XII)",
@@ -4715,7 +4716,7 @@
         "realm": "FFT",
         "character": "Gaffgarion",
         "name": "Tested Knight",
-        "effect": "25% chance of smart ether 1 to the user after using a Dark attack",
+        "effect": "35% chance of smart ether 1 to the user after using a Dark attack",
         "relic": "-",
         "name(jp)": "歴戦のダークナイト",
         "✓": "✓"
@@ -5153,8 +5154,11 @@
     {
         "realm": "KH",
         "character": "Sora",
-        "effect": "Spellblade abilities deal ?% more damage",
-        "relic": "-"
+        "name": "Chosen of the Keyblade",
+        "effect": "Spellblade abilities deal 15% more damage",
+        "relic": "-",
+        "name(jp)": "キーブレードに選ばれし者",
+        "✓": "✓"
     },
     {
         "realm": "KH",
@@ -5162,7 +5166,8 @@
         "name": "Fire Arts",
         "effect": "Grants Haste and Attach Fire at the beginning of the battle",
         "relic": "-",
-        "name(jp)": "ファイア免許皆伝"
+        "name(jp)": "ファイア免許皆伝",
+        "✓": "✓"
     },
     {
         "realm": "KH",
@@ -5170,7 +5175,8 @@
         "name": "Blizzard Arts",
         "effect": "Grants Haste and Attach Ice at the beginning of the battle",
         "relic": "-",
-        "name(jp)": "ブリザド免許皆伝"
+        "name(jp)": "ブリザド免許皆伝",
+        "✓": "✓"
     },
     {
         "realm": "KH",
@@ -5178,28 +5184,36 @@
         "name": "Thunder Arts",
         "effect": "Grants Haste and Attach Lightning at the beginning of the battle",
         "relic": "-",
-        "name(jp)": "サンダー免許皆伝"
+        "name(jp)": "サンダー免許皆伝",
+        "✓": "✓"
     },
     {
         "realm": "KH",
         "character": "Sora",
         "name": "Connected Hearts",
-        "effect": "?% chance to dualcast Spellblade abilities",
+        "effect": "25% chance to dualcast Spellblade abilities",
         "master": "ATK +10",
         "relic": "Sora (KH)",
-        "name(jp)": "繋がる心"
+        "name(jp)": "繋がる心",
+        "✓": "✓"
     },
     {
         "realm": "KH",
         "character": "Riku",
-        "effect": "Increases Dark damage dealt by ?%",
-        "relic": "-"
+        "name": "True Chosen One",
+        "effect": "Increases Dark damage dealt by 10%",
+        "relic": "-",
+        "name(jp)": "真に選ばれし者",
+        "✓": "✓"
     },
     {
         "realm": "KH",
         "character": "Riku",
-        "effect": "?% chance to dualcast abilities that deal Dark damage",
-        "relic": "-"
+        "name": "Friends and Memories",
+        "effect": "35% chance to dualcast abilities that deal Dark damage",
+        "relic": "-",
+        "name(jp)": "友への思い",
+        "✓": "✓"
     },
     {
         "realm": "KH",
@@ -5208,7 +5222,8 @@
         "effect": "Grants Attach Dark at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Riku (KH)",
-        "name(jp)": "闇の探求者"
+        "name(jp)": "闇の探求者",
+        "✓": "✓"
     },
     {
         "realm": "Beyond",
