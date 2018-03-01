@@ -1982,6 +1982,31 @@
     },
     {
         "realm": "VII",
+        "character": "Barret",
+        "name": "Fiery Might",
+        "effect": "PHY attacks deal ?% more damage",
+        "relic": "-",
+        "name(jp)": "屈強なる熱血漢"
+    },
+    {
+        "realm": "VII",
+        "character": "Barret",
+        "name": "Comrade's Legacy",
+        "effect": "?% chance to cast an ability (random, ? physical) with seven Fire/NE ranged attacks (? each) after using a Machinist ability",
+        "relic": "-",
+        "name(jp)": "未来を繋ぐ相棒"
+    },
+    {
+        "realm": "VII",
+        "character": "Barret",
+        "name": "Oath's Right Arm",
+        "effect": "PHY attacks deal ?% more damage when equipping a gun-arm",
+        "master": "ATK +10",
+        "relic": "Drill Arm (VII)",
+        "name(jp)": "誓いの右腕"
+    },
+    {
+        "realm": "VII",
         "character": "Tifa",
         "name": "Heroic Devotion",
         "effect": "Increases Earth damage dealt by 10%",
@@ -2101,6 +2126,31 @@
         "relic": "Yuffie's Guise (VII)",
         "name(jp)": "アタシのもの！",
         "✓": "✓"
+    },
+    {
+        "realm": "VII",
+        "character": "Cait Sith",
+        "name": "Cheerful Fortune-Teller",
+        "effect": "Reduces damage taken by BLK attacks by ?%",
+        "relic": "-",
+        "name(jp)": "陽気な占い人形"
+    },
+    {
+        "realm": "VII",
+        "character": "Cait Sith",
+        "name": "Courage Boost!",
+        "effect": "?% chance to cast an ability (group) that restores HP for ?% of the target's maximum HP after using a Dancer ability",
+        "relic": "-",
+        "name(jp)": "勇気百倍！"
+    },
+    {
+        "realm": "VII",
+        "character": "Cait Sith",
+        "name": "Care for the Planet",
+        "effect": "Grants Quick Cast 3 at the beginning of the battle",
+        "master": "MND +10",
+        "relic": "Cait Sith's Crown (VII)",
+        "name(jp)": "移ろう救星への想い"
     },
     {
         "realm": "VII",

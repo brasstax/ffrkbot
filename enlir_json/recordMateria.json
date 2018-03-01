@@ -156,7 +156,7 @@
         "realm": "Core",
         "character": "Red Mage",
         "name": "Magic Flame I",
-        "effect": "30% chance to turn Attack into an ability (single, 0,70 magical) that deals Fire damage",
+        "effect": "30% chance to turn Attack into an ability (BLK: single, 0,70 magical Fire attack)",
         "unlockCriteria": "Use Red Mage's Memory Crystal",
         "name(jp)": "魔法攻撃・炎Ⅰ",
         "✓": "✓"
@@ -174,7 +174,7 @@
         "realm": "Core",
         "character": "Red Mage",
         "name": "Mage-of-all-Trades",
-        "effect": "Attack randomly turns into an ability (single, 2,60 magical) that deals Fire, Ice or Lightning damage or a single heal (39)",
+        "effect": "Attack turns into an ability, randomly (BLK: single, 2,60 magical Fire, Ice or Lightning attack) or (WHT: single, h39 heal)",
         "unlockCriteria": "Bring Red Mage to level 99",
         "name(jp)": "万能の魔道士",
         "✓": "✓"
@@ -201,7 +201,7 @@
         "realm": "Core",
         "character": "Black Mage",
         "name": "Omnicast Fire",
-        "effect": "Attack turns into an ability (group, 1,50 magical) that deals Fire damage",
+        "effect": "Attack turns into an ability (BLK: group, 1,50 magical Fire attack)",
         "unlockCriteria": "Use Black Mage's Memory Crystal II, chance to obtain with Black Mage in party",
         "name(jp)": "全体化・炎",
         "✓": "✓"
@@ -210,7 +210,7 @@
         "realm": "Core",
         "character": "Black Mage",
         "name": "Omnicast Direflame",
-        "effect": "Attack turns into an ability (group, 2,08 magical) that deals Fire damage",
+        "effect": "Attack turns into an ability (BLK, group, 2,08 magical Fire attack)",
         "unlockCriteria": "Bring Black Mage to level 99",
         "name(jp)": "全体化・猛炎",
         "✓": "✓"
@@ -237,7 +237,7 @@
         "realm": "Core",
         "character": "Magus",
         "name": "Forbidden Knowledge",
-        "effect": "Attack turns into an ability (single, 1,50 magical) that deals Fire, Lightning and Ice damage",
+        "effect": "Attack turns into an ability (BLK: single, 1,50 magical Fire, Lightning and Ice attack)",
         "unlockCriteria": "Use Magus's Memory Crystal II, chance to obtain with Magus in party",
         "name(jp)": "禁忌の魔術",
         "✓": "✓"
@@ -246,7 +246,7 @@
         "realm": "Core",
         "character": "Magus",
         "name": "Forbidden Arcana",
-        "effect": "Attack turns into an ability (group, 2,00 magical) that deals Fire, Lightning and Ice damage",
+        "effect": "Attack turns into an ability (BLK: group, 2,00 magical Fire, Lightning and Ice attack)",
         "unlockCriteria": "Bring Magus to level 99",
         "name(jp)": "禁忌の大魔術",
         "✓": "✓"
@@ -273,7 +273,7 @@
         "realm": "Core",
         "character": "White Mage",
         "name": "Prayer of Mending",
-        "effect": "Attack turns into a single heal (26)",
+        "effect": "Attack turns into an ability (WHT: single, h26 heal)",
         "unlockCriteria": "Use White Mage's Memory Crystal II, chance to obtain with White Mage in party",
         "name(jp)": "白魔道士の祈り",
         "✓": "✓"
@@ -282,7 +282,7 @@
         "realm": "Core",
         "character": "White Mage",
         "name": "White Mage Wonder",
-        "effect": "Attack turns into a single heal (39)",
+        "effect": "Attack turns into an ability (WHT: single, h39 heal)",
         "unlockCriteria": "Bring White Mage to level 99",
         "name(jp)": "白魔道士の奇跡",
         "✓": "✓"

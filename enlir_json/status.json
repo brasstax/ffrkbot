@@ -745,6 +745,16 @@
         "notes": "-"
     },
     {
+        "id": "266008",
+        "commonName": "White One-Winged Angel",
+        "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Summoning Strike\" status",
+        "codedName": "WHITE_ONE_WING",
+        "notes": "-"
+    },
+    {
         "id": "267",
         "commonName": "Critical Damage +X%",
         "effects": "Critical hits deal X% more damage (additive with the base critical coefficient)",
@@ -1145,9 +1155,19 @@
         "notes": "-"
     },
     {
+        "id": "282010",
+        "commonName": "Dark +30% Boost 1",
+        "effects": "Darkness abilities deal 30% more damage, lasts for 1 turn",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_DARK_130_1",
+        "notes": "-"
+    },
+    {
         "id": "282101",
-        "commonName": "Darkness +30% Boost",
-        "effects": "Darkness abilities deal 30% more damage",
+        "commonName": "Dark +30% Boost",
+        "effects": "Dark attacks deal 30% more damage, lasts for 1 turn",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4287,6 +4307,26 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "USED_ABILITY_COUNTER_FOR_EX_MODE_WINGS_OF_FREEDOM",
+        "notes": "-"
+    },
+    {
+        "id": "50174",
+        "commonName": "EX: Legendary SOLDIER",
+        "effects": "Grants Dark +30% Boost 1 after using two Dark attacks, allows PHY Dark attacks to break the damage cap",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_LEGENDARY_SOLDIER",
+        "notes": "-"
+    },
+    {
+        "id": "50175",
+        "commonName": "Dark Drain",
+        "effects": "Restores HP for 10% of the damage dealt with Dark attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ABSORB_HP_FOR_JENOVA",
         "notes": "-"
     },
     {
