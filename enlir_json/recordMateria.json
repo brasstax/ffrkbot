@@ -156,7 +156,7 @@
         "realm": "Core",
         "character": "Red Mage",
         "name": "Magic Flame I",
-        "effect": "30% chance to turn Attack into an ability (BLK: single, 0,70 magical Fire attack)",
+        "effect": "30% chance to turn Attack into an ability (BLK: single, 0,70 magical Fire)",
         "unlockCriteria": "Use Red Mage's Memory Crystal",
         "name(jp)": "魔法攻撃・炎Ⅰ",
         "✓": "✓"
@@ -174,7 +174,7 @@
         "realm": "Core",
         "character": "Red Mage",
         "name": "Mage-of-all-Trades",
-        "effect": "Attack turns into an ability, randomly (BLK: single, 2,60 magical Fire, Ice or Lightning attack) or (WHT: single, h39 heal)",
+        "effect": "Attack turns into an ability, randomly (BLK: single, 2,60 magical Fire, Ice or Lightning) or (WHT: single, restores HP (39))",
         "unlockCriteria": "Bring Red Mage to level 99",
         "name(jp)": "万能の魔道士",
         "✓": "✓"
@@ -201,7 +201,7 @@
         "realm": "Core",
         "character": "Black Mage",
         "name": "Omnicast Fire",
-        "effect": "Attack turns into an ability (BLK: group, 1,50 magical Fire attack)",
+        "effect": "Attack turns into an ability (BLK: group, 1,50 magical Fire)",
         "unlockCriteria": "Use Black Mage's Memory Crystal II, chance to obtain with Black Mage in party",
         "name(jp)": "全体化・炎",
         "✓": "✓"
@@ -210,7 +210,7 @@
         "realm": "Core",
         "character": "Black Mage",
         "name": "Omnicast Direflame",
-        "effect": "Attack turns into an ability (BLK, group, 2,08 magical Fire attack)",
+        "effect": "Attack turns into an ability (BLK, group, 2,08 magical Fire)",
         "unlockCriteria": "Bring Black Mage to level 99",
         "name(jp)": "全体化・猛炎",
         "✓": "✓"
@@ -237,7 +237,7 @@
         "realm": "Core",
         "character": "Magus",
         "name": "Forbidden Knowledge",
-        "effect": "Attack turns into an ability (BLK: single, 1,50 magical Fire, Lightning and Ice attack)",
+        "effect": "Attack turns into an ability (BLK: single, 1,50 magical Fire, Lightning and Ice)",
         "unlockCriteria": "Use Magus's Memory Crystal II, chance to obtain with Magus in party",
         "name(jp)": "禁忌の魔術",
         "✓": "✓"
@@ -246,7 +246,7 @@
         "realm": "Core",
         "character": "Magus",
         "name": "Forbidden Arcana",
-        "effect": "Attack turns into an ability (BLK: group, 2,00 magical Fire, Lightning and Ice attack)",
+        "effect": "Attack turns into an ability (BLK: group, 2,00 magical Fire, Lightning and Ice)",
         "unlockCriteria": "Bring Magus to level 99",
         "name(jp)": "禁忌の大魔術",
         "✓": "✓"
@@ -273,7 +273,7 @@
         "realm": "Core",
         "character": "White Mage",
         "name": "Prayer of Mending",
-        "effect": "Attack turns into an ability (WHT: single, h26 heal)",
+        "effect": "Attack turns into an ability (WHT: single, restores HP (26))",
         "unlockCriteria": "Use White Mage's Memory Crystal II, chance to obtain with White Mage in party",
         "name(jp)": "白魔道士の祈り",
         "✓": "✓"
@@ -282,7 +282,7 @@
         "realm": "Core",
         "character": "White Mage",
         "name": "White Mage Wonder",
-        "effect": "Attack turns into an ability (WHT: single, h39 heal)",
+        "effect": "Attack turns into an ability (WHT: single, restores HP (39))",
         "unlockCriteria": "Bring White Mage to level 99",
         "name(jp)": "白魔道士の奇跡",
         "✓": "✓"
@@ -309,7 +309,7 @@
         "realm": "Core",
         "character": "Devout",
         "name": "Cleansing Spirit",
-        "effect": "If an ally has negative effects, 50% chance to turn Attack into an ability that removes negative effects",
+        "effect": "If an ally has negative effects, 50% chance to turn Attack into an ability (NAT: single, removes negative effects)",
         "unlockCriteria": "Use Devout's Memory Crystal II, chance to obtain with Devout in party",
         "name(jp)": "浄化の精神",
         "✓": "✓"
@@ -318,7 +318,7 @@
         "realm": "Core",
         "character": "Devout",
         "name": "Cleansing Bless",
-        "effect": "If an ally has negative effects, 70% chance to turn Attack into an ability that removes negative effects",
+        "effect": "If an ally has negative effects, 70% chance to turn Attack into an ability (NAT: single, removes negative effects)",
         "unlockCriteria": "Bring Devout to level 99",
         "name(jp)": "浄化の祝福",
         "✓": "✓"
@@ -354,7 +354,7 @@
         "realm": "Core",
         "character": "Summoner",
         "name": "Summoner's Oath",
-        "effect": "40% chance to turn Attack into an ability with 2,50 cast time that randomly casts Goblin, Chocobo, Drake or Bomb",
+        "effect": "40% chance to turn Attack into an ability (SUM: randomly casts Goblin, Chocobo, Drake or Bomb) with 2,50 cast time",
         "unlockCriteria": "Bring Summoner to level 99",
         "name(jp)": "召喚獣との盟約",
         "✓": "✓"
@@ -390,7 +390,7 @@
         "realm": "Core",
         "character": "Samurai",
         "name": "Mystical Enlightenment",
-        "effect": "50% chance to turn Attack into an ability (group, 1,80 physical) with two group attacks (0,90 each) and 100% hit rate",
+        "effect": "50% chance to turn Attack into an ability (PHY: group, 2x 0,90 physical, 100% hit rate)",
         "unlockCriteria": "Bring Samurai to level 99",
         "name(jp)": "奥義の開眼",
         "✓": "✓"
@@ -426,7 +426,7 @@
         "realm": "Core",
         "character": "Dragoon",
         "name": "From On High",
-        "effect": "50% chance to turn Attack into an ability (single, 3,80 physical) with two single ranged attacks (1,90 each), air time (3,50 sec.)",
+        "effect": "50% chance to turn Attack into an ability (PHY: single, 2x 1,90 ranged physical, air time (3,50 sec.))",
         "unlockCriteria": "Bring Dragoon to level 99",
         "name(jp)": "天高き飛翔",
         "✓": "✓"
@@ -444,7 +444,7 @@
         "realm": "Core",
         "character": "Dark Knight",
         "name": "Dark Blade",
-        "effect": "25% chance to turn Attack into an ability (single, 0,90 physical) that heals the user for 32% of the damage dealt",
+        "effect": "25% chance to turn Attack into an ability (PHY: single, 0,90 physical, heals the user for 32% of the damage dealt)",
         "unlockCriteria": "Chance to obtain with Dark Knight in party",
         "name(jp)": "闇の剣技",
         "✓": "✓"
@@ -453,7 +453,7 @@
         "realm": "Core",
         "character": "Dark Knight",
         "name": "Secrets of Darkness",
-        "effect": "50% chance to turn Attack into an ability (single, 1,00 physical) that heals the user for 32% of the damage dealt",
+        "effect": "50% chance to turn Attack into an ability (PHY: single, 1,00 physical, heals the user for 32% of the damage dealt)",
         "unlockCriteria": "Use Dark Knight's Memory Crystal II, chance to obtain with Dark Knight in party",
         "name(jp)": "闇の秘技",
         "✓": "✓"
@@ -462,7 +462,7 @@
         "realm": "Core",
         "character": "Dark Knight",
         "name": "Dark Delight",
-        "effect": "60% chance to turn Attack into an ability (single, 1,67 physical) that heals the user for 32% of the damage dealt",
+        "effect": "60% chance to turn Attack into an ability (PHY: single, 1,67 physical, heals the user for 32% of the damage dealt)",
         "unlockCriteria": "Bring Dark Knight to level 99",
         "name(jp)": "闇の絶技",
         "✓": "✓"
@@ -498,7 +498,7 @@
         "realm": "Core",
         "character": "Spellblade",
         "name": "Earthen Blade",
-        "effect": "Attack turns into an ability (group, 1,20 physical) with two group attacks (0,60 each) that deals Earth damage",
+        "effect": "Attack turns into an ability (PHY: group, 2x 0,60 physical Earth)",
         "unlockCriteria": "Bring Spellblade to level 99",
         "name(jp)": "地の魔法剣の神技",
         "✓": "✓"
@@ -642,7 +642,7 @@
         "realm": "Core",
         "character": "Thief (Core)",
         "name": "Thief's Trump Card",
-        "effect": "50% chance to turn Attack into an ability (single, 1,94 physical) with two single Poison attacks (0,97 each, 1,17 with a dagger)",
+        "effect": "50% chance to turn Attack into an ability (PHY: single, 2x 0,97 physical Poison, 1,17 multiplier when equipping a dagger)",
         "unlockCriteria": "Bring Thief (Core) to level 99",
         "name(jp)": "シーフの奥の手",
         "✓": "✓"
@@ -660,7 +660,7 @@
         "realm": "Core",
         "character": "Bard",
         "name": "Zealot",
-        "effect": "Attack turns into an ability (group, 0,60 physical)",
+        "effect": "Attack turns into an ability (PHY: group, 0,60 physical)",
         "unlockCriteria": "Chance to obtain with Bard in party",
         "name(jp)": "伝道師",
         "✓": "✓"
@@ -678,7 +678,7 @@
         "realm": "Core",
         "character": "Bard",
         "name": "Chant of Repose",
-        "effect": "Attack turns into an ability (single, 2,00 magical) that causes Sleep (20%)",
+        "effect": "Attack turns into an ability (NAT: single, 2,00 magical, causes Sleep (20%))",
         "unlockCriteria": "Bring Bard to level 99",
         "name(jp)": "安息の呪歌",
         "✓": "✓"
@@ -714,7 +714,7 @@
         "realm": "Core",
         "character": "Ninja",
         "name": "Master Ninja",
-        "effect": "Attack turns into an ability (group, 18,00 magical), that deals Fire damage and ignores RES",
+        "effect": "Attack turns into an ability (NIN: group, 18,00 magical Fire, ignores RES) with 0,825 cast time",
         "unlockCriteria": "Bring Ninja to level 99",
         "name(jp)": "忍びの極意",
         "✓": "✓"
@@ -732,7 +732,7 @@
         "realm": "Core",
         "character": "Gladiator",
         "name": "Super Critical",
-        "effect": "16% chance to turn attack into an ability (single, 2,80 physical)",
+        "effect": "16% chance to turn attack into an ability (PHY: single, 2,80 physical)",
         "unlockCriteria": "Chance to obtain with Gladiator in party",
         "name(jp)": "スーパークリティカル",
         "✓": "✓"
@@ -750,7 +750,7 @@
         "realm": "Core",
         "character": "Gladiator",
         "name": "Gladiator's Guile",
-        "effect": "Attack turns into an ability (single, 1,00 physical) with ATK -30% for 15 seconds",
+        "effect": "Attack turns into an ability (PHY: single, 1,00 physical, ATK -30% for 15 seconds)",
         "unlockCriteria": "Bring Gladiator to level 99",
         "name(jp)": "剣闘士の秘剣",
         "✓": "✓"
@@ -768,7 +768,7 @@
         "realm": "I",
         "character": "Warrior of Light",
         "name": "Light's Wrath",
-        "effect": "Attack turns into an ability (single, 1,00 physical) that deals Holy damage",
+        "effect": "Attack turns into an ability (PHY: single, 1,00 physical Holy)",
         "unlockCriteria": "Chance to obtain with Warrior of Light in party",
         "name(jp)": "光の力",
         "✓": "✓"
@@ -795,7 +795,7 @@
         "realm": "I",
         "character": "Garland",
         "name": "Heretic",
-        "effect": "30% chance to turn Attack into an ability (single, 1,00 physical) that deals Dark damage",
+        "effect": "30% chance to turn Attack into an ability (PHY: single, 1,00 physical Dark)",
         "unlockCriteria": "Use Garland's Memory Crystal",
         "name(jp)": "異端者",
         "✓": "✓"
@@ -831,7 +831,7 @@
         "realm": "I",
         "character": "Sarah",
         "name": "Royal Benediction",
-        "effect": "Attack turns into a single heal (26)",
+        "effect": "Attack turns into an ability (WHT: restores HP (26))",
         "unlockCriteria": "Use Sarah's Memory Crystal II, chance to obtain with Sara in party",
         "name(jp)": "王家の祝福",
         "✓": "✓"
@@ -858,7 +858,7 @@
         "realm": "I",
         "character": "Wol",
         "name": "Critical Affinity",
-        "effect": "16% chance to turn attack into an ability (single, 2,80 physical)",
+        "effect": "16% chance to turn attack into an ability (PHY: single, 2,80 physical)",
         "unlockCriteria": "Use Wol's Memory Crystal II, chance to obtain with Wol in party",
         "name(jp)": "クリティカルブースト",
         "✓": "✓"
@@ -903,7 +903,7 @@
         "realm": "I",
         "character": "Master",
         "name": "Burnished Fist",
-        "effect": "8% chance to turn attack into an ability (single, 2,80 physical)",
+        "effect": "8% chance to turn attack into an ability (PHY: single, 2,80 physical)",
         "unlockCriteria": "Use Master's Memory Crystal",
         "name(jp)": "磨かれし拳",
         "✓": "✓"
@@ -1056,7 +1056,7 @@
         "realm": "II",
         "character": "Maria",
         "name": "Inflame",
-        "effect": "Attack turns into an ability (single, 2,20 magical) that deals Fire damage",
+        "effect": "Attack turns into an ability (BLK: single, 2,20 magical Fire)",
         "unlockCriteria": "Use Maria's Memory Crystal II, chance to obtain with Maria in party",
         "name(jp)": "誘爆",
         "✓": "✓"
@@ -1110,7 +1110,7 @@
         "realm": "II",
         "character": "Leon",
         "name": "Power of Darkness",
-        "effect": "Attack turns into an ability (single, 1,00 physical) that deals Dark damage",
+        "effect": "Attack turns into an ability (PHY: single, 1,00 physical Dark)",
         "unlockCriteria": "Chance to obtain with Leon in party",
         "name(jp)": "闇の力",
         "✓": "✓"
@@ -1272,7 +1272,7 @@
         "realm": "II",
         "character": "Josef",
         "name": "Double Hit",
-        "effect": "Attack turns into an ability (single, 1,30 physical) with two single attacks (0,65 each)",
+        "effect": "Attack turns into an ability (PHY: single, 2x 0,65 physical)",
         "unlockCriteria": "Chance to obtain in FFII dungeon with Josef in party",
         "name(jp)": "連続HIT",
         "✓": "✓"
@@ -1299,7 +1299,7 @@
         "realm": "II",
         "character": "Emperor",
         "name": "Emperor's Stratagem",
-        "effect": "8% chance to counter PHY attacks with an ability (single, 0,70 magical) that deals Wind damage",
+        "effect": "8% chance to counter PHY attacks with an ability (BLK: single, 0,70 magical Wind)",
         "unlockCriteria": "Use Emperor's Memory Crystal",
         "name(jp)": "皇帝の謀略",
         "✓": "✓"
@@ -1308,7 +1308,7 @@
         "realm": "II",
         "character": "Emperor",
         "name": "Winds of Darkness",
-        "effect": "Attack turns into an ability (group, 1,50 magical) that deals Wind damage",
+        "effect": "Attack turns into an ability (BLK: group, 1,50 magical Wind)",
         "unlockCriteria": "Use Emperor's Memory Crystal II, chance to obtain with Emperor in party",
         "name(jp)": "暗黒の風",
         "✓": "✓"
@@ -1515,7 +1515,7 @@
         "realm": "III",
         "character": "Desch",
         "name": "Shocking Demeanor",
-        "effect": "Attack turns into an ability (single, 2,60 magical) that deals Lightning damage",
+        "effect": "Attack turns into an ability (BLK: single, 2,60 magical Lightning)",
         "unlockCriteria": "Bring Desch to level 99",
         "name(jp)": "鮮烈なる生き様",
         "✓": "✓"
@@ -1551,7 +1551,7 @@
         "realm": "III",
         "character": "Cloud of Darkness",
         "name": "Ripples of Magic",
-        "effect": "30% chance to turn Attack into an ability (single, 0,70 magical)",
+        "effect": "30% chance to turn Attack into an ability (BLK: single, 0,70 magical)",
         "unlockCriteria": "Use Cloud of Darkness's Memory Crystal",
         "name(jp)": "妖魔の波動",
         "✓": "✓"
@@ -1560,7 +1560,7 @@
         "realm": "III",
         "character": "Cloud of Darkness",
         "name": "Portent of Doom",
-        "effect": "Attack turns into an ability (group, 1,50 magical) that deals Dark damage",
+        "effect": "Attack turns into an ability (BLK: group, 1,50 magical Dark)",
         "unlockCriteria": "Use Cloud of Darkness's Memory Crystal II, chance to obtain with Cloud of Darkness in party",
         "name(jp)": "終末の兆し",
         "✓": "✓"
@@ -1569,7 +1569,7 @@
         "realm": "III",
         "character": "Cloud of Darkness",
         "name": "Avatar of the Void",
-        "effect": "Attack turns into an ability (single, 2,60 magical)",
+        "effect": "Attack turns into an ability (BLK: single, 2,60 magical)",
         "unlockCriteria": "Bring Cloud of Darkness to level 99",
         "name(jp)": "無の化身",
         "✓": "✓"
@@ -1605,7 +1605,7 @@
         "realm": "IV",
         "character": "Cecil (Dark Knight)",
         "name": "Gore-stained Blade I",
-        "effect": "Attack turns into an ability (single, 1,20 physical) that damages the user for 5% of the user's maximum HP",
+        "effect": "Attack turns into an ability (PHY: single, 1,20 physical, damages the user for 5% of the user's maximum HP)",
         "unlockCriteria": "Use Cecil (Dark Knight)'s Memory Crystal",
         "name(jp)": "血塗られた剣技Ⅰ",
         "✓": "✓"
@@ -1614,7 +1614,7 @@
         "realm": "IV",
         "character": "Cecil (Dark Knight)",
         "name": "Gore-stained Blade II",
-        "effect": "Attack turns into an ability (single, 1,30 physical) that damages the user for 5% of the user's maximum HP",
+        "effect": "Attack turns into an ability (PHY: single, 1,30 physical, damages the user for 5% of the user's maximum HP)",
         "unlockCriteria": "Chance to obtain in FFIV dungeon with Cecil (Dark Knight) in party",
         "name(jp)": "血塗られた剣技Ⅱ",
         "✓": "✓"
@@ -1650,7 +1650,7 @@
         "realm": "IV",
         "character": "Cecil (Paladin)",
         "name": "Holy Blade",
-        "effect": "Attack turns into an ability (single, 0,90 physical) that heals the user for 8% of the damage dealt",
+        "effect": "Attack turns into an ability (PHY: single, 0,90 physical, heals the user for 8% of the damage dealt)",
         "unlockCriteria": "Chance to obtain in FFIV dungeon with Cecil (Paladin) in party",
         "name(jp)": "聖騎士の剣技",
         "✓": "✓"
@@ -1659,7 +1659,7 @@
         "realm": "IV",
         "character": "Cecil (Paladin)",
         "name": "Paladin's Devotion",
-        "effect": "30% chance to counter PHY attacks with an ability that restores HP (30) to the user",
+        "effect": "30% chance to counter PHY attacks with an ability (NAT: self, restores HP (30))",
         "unlockCriteria": "Use Cecil (Paladin)'s Memory Crystal II, chance to obtain with Cecil (Paladin) in party",
         "name(jp)": "聖騎士の決意",
         "✓": "✓"
@@ -1821,7 +1821,7 @@
         "realm": "IV",
         "character": "Yang",
         "name": "Tough Love",
-        "effect": "Attack turns into an ability (group, 0,40 physical)",
+        "effect": "Attack turns into an ability (PHY: group, 0,40 physical)",
         "unlockCriteria": "Use Yang's Memory Crystal II, chance to obtain with Yang in party",
         "name(jp)": "愛のけり",
         "✓": "✓"
@@ -1830,7 +1830,7 @@
         "realm": "IV",
         "character": "Yang",
         "name": "Feat of Fabul",
-        "effect": "Attack turns into an ability (group, 0,80 physical)",
+        "effect": "Attack turns into an ability (PHY: group, 0,80 physical)",
         "unlockCriteria": "Bring Yang to level 99",
         "name(jp)": "ファブール最強のけり",
         "✓": "✓"
@@ -1893,7 +1893,7 @@
         "realm": "IV",
         "character": "Tellah",
         "name": "Sage's Sigil",
-        "effect": "30% chance to turn Attack into an ability (single, 0,70 magical) that deals Ice damage",
+        "effect": "30% chance to turn Attack into an ability (BLK: single, 0,70 magical Ice)",
         "unlockCriteria": "Use Tellah's Memory Crystal",
         "name(jp)": "賢者の印",
         "✓": "✓"
@@ -2028,7 +2028,7 @@
         "realm": "IV",
         "character": "Cid (IV)",
         "name": "Grizzled Veteran",
-        "effect": "20% chance to turn Attack into an ability (single, 1,00 physical) that causes Silence (100%)",
+        "effect": "20% chance to turn Attack into an ability (PHY: single, 1,00 physical, causes Silence (100%))",
         "unlockCriteria": "Bring Cid (IV) to level 99",
         "name(jp)": "たくましい元気オヤジ",
         "✓": "✓"
@@ -2037,7 +2037,7 @@
         "realm": "IV",
         "character": "Ceodore",
         "name": "Hero's Progeny",
-        "effect": "If an ally has negative effects, 40% chance to turn Attack into an ability that removes negative effects",
+        "effect": "If an ally has negative effects, 40% chance to turn Attack into an ability (NAT: single, removes negative effects)",
         "unlockCriteria": "Use Ceodore's Memory Crystal",
         "name(jp)": "英雄の息子",
         "✓": "✓"
@@ -2073,7 +2073,7 @@
         "realm": "IV",
         "character": "Rubicante",
         "name": "Master of Fire",
-        "effect": "Attack turns into an ability (group, 1,50 magical) that deals Fire damage",
+        "effect": "Attack turns into an ability (BLK: group, 1,50 magical Fire)",
         "unlockCriteria": "Use Rubicante's Memory Crystal II, chance to obtain with Rubicante in party",
         "name(jp)": "炎術の手練",
         "✓": "✓"
@@ -2136,7 +2136,7 @@
         "realm": "IV",
         "character": "Barbariccia",
         "name": "Crowned by the Wind",
-        "effect": "Attack turns into an ability (group, 2,08 magical) that deals Wind damage",
+        "effect": "Attack turns into an ability (BLK: group, 2,08 magical Wind)",
         "unlockCriteria": "Bring Barbariccia to level 99",
         "name(jp)": "風を名に冠する者",
         "✓": "✓"
@@ -2181,7 +2181,7 @@
         "realm": "V",
         "character": "Galuf",
         "name": "Martial Master",
-        "effect": "12% chance to counter PHY attacks with an ability (single, 1,30 physical) with two single attacks (0,65 each)",
+        "effect": "12% chance to counter PHY attacks with an ability (PHY: single, 2x 0,65 physical)",
         "unlockCriteria": "Chance to obtain with Galuf in party",
         "name(jp)": "熟達の拳技",
         "✓": "✓"
@@ -2343,7 +2343,7 @@
         "realm": "V",
         "character": "Exdeath",
         "name": "Evil Thoughts",
-        "effect": "10% chance to turn Attack into an ability (single, 1,00 physical) that causes Instant KO (100%)",
+        "effect": "10% chance to turn Attack into an ability (PHY: single, 1,00 physical, causes Instant KO (100%))",
         "unlockCriteria": "Use Exdeath's Memory Crystal",
         "name(jp)": "邪悪な意思",
         "✓": "✓"
@@ -2442,7 +2442,7 @@
         "realm": "V",
         "character": "Kelger",
         "name": "Feral Fangs",
-        "effect": "Attack turns into an ability (single, 2,10 physical) with 0,01 cast time that grants 0 SB points (instead of 50)",
+        "effect": "Attack turns into an ability (PHY: single, 2,10 physical) with 0,01 cast time that grants 0 SB points",
         "unlockCriteria": "Bring Kelger to level 99",
         "name(jp)": "どう猛なる狼の牙",
         "✓": "✓"
@@ -2622,7 +2622,7 @@
         "realm": "VI",
         "character": "Shadow",
         "name": "Cold Steel",
-        "effect": "Attack turns into an ability (single, 1,20 physical) that grants 35 Soul Break points (instead of 50)",
+        "effect": "Attack turns into an ability (PHY: single, 1,20 physical) that grants 35 Soul Break points",
         "unlockCriteria": "Use Shadow's Memory Crystal",
         "name(jp)": "非情なる刃",
         "✓": "✓"
@@ -2703,7 +2703,7 @@
         "realm": "VI",
         "character": "Gau",
         "name": "Veldt Mischief",
-        "effect": "60% chance to turn Attack into an ability (single, 2,20 physical)",
+        "effect": "60% chance to turn Attack into an ability (NAT: single, 2,20 physical)",
         "unlockCriteria": "Bring Gau to level 99",
         "name(jp)": "獣ヶ原のあばれん坊",
         "✓": "✓"
@@ -2748,7 +2748,7 @@
         "realm": "VI",
         "character": "Strago",
         "name": "Blue Mage Defiance",
-        "effect": "15% chance to counter BLK and WHT attacks with an ability (single, 1,50 magical) that causes Confuse (6%)",
+        "effect": "15% chance to counter BLK or WHT attacks with an ability (NAT: random, 1,50 magical, causes Confuse (6%))",
         "unlockCriteria": "Chance to obtain in FFVI dungeon with Strago in party",
         "name(jp)": "青魔導士の意地",
         "✓": "✓"
@@ -2766,7 +2766,7 @@
         "realm": "VI",
         "character": "Strago",
         "name": "Reborn Zeal",
-        "effect": "Attack turns into an ability (group, 2,08 magical)",
+        "effect": "Attack turns into an ability (BLK: group, 2,08 magical)",
         "unlockCriteria": "Bring Strago to level 99",
         "name(jp)": "蘇る魔導士の情熱",
         "✓": "✓"
@@ -2802,7 +2802,7 @@
         "realm": "VI",
         "character": "Gogo (VI)",
         "name": "Defensive Instinct",
-        "effect": "10% chance to counter PHY attacks with an ability that grants Protect to the user",
+        "effect": "10% chance to counter PHY attacks with an ability (NAT: self, grants Protect)",
         "unlockCriteria": "Use Gogo (VI)'s Memory Crystal",
         "name(jp)": "オウム返し",
         "✓": "✓"
@@ -2847,7 +2847,7 @@
         "realm": "VI",
         "character": "Umaro",
         "name": "Icy Jewel",
-        "effect": "16% chance to turn Attack into an ability (group, 3,46 physical) with two group attacks (1,73 each) that deals Ice damage",
+        "effect": "16% chance to turn Attack into an ability (PHY: group, 2x 1,73 ranged physical Ice)",
         "unlockCriteria": "Bring Umaro to level 99",
         "name(jp)": "凍てつく宝玉の力",
         "✓": "✓"
@@ -2892,7 +2892,7 @@
         "realm": "VI",
         "character": "Leo",
         "name": "One Against Many",
-        "effect": "Attack turns into an ability (group, 1,00 physical) with 4,50 cast time",
+        "effect": "Attack turns into an ability (PHY: group, 1,00 physical) with 4,50 cast time",
         "unlockCriteria": "Use Leo's Memory Crystal II, chance to obtain with Leo in party",
         "name(jp)": "一騎当千",
         "✓": "✓"
@@ -3072,7 +3072,7 @@
         "realm": "VII",
         "character": "Yuffie",
         "name": "Lickety-Split",
-        "effect": "Attack turns into an ability (single, 1,00 physical) with 0,01 cast time",
+        "effect": "Attack turns into an ability (PHY: single, 1,00 physical) with 0,01 cast time",
         "unlockCriteria": "Use Yuffie's Memory Crystal II, chance to obtain with Yuffie in party",
         "name(jp)": "シュシュシュ",
         "✓": "✓"
@@ -3090,7 +3090,7 @@
         "realm": "VII",
         "character": "Cait Sith",
         "name": "Lucky Slots",
-        "effect": "30% chance to turn Attack into an ability (single, 0,80 magical)",
+        "effect": "30% chance to turn Attack into an ability (NAT: single, 0,80 magical)",
         "unlockCriteria": "Use Cait Sith's Memory Crystal",
         "name(jp)": "ラッキースロット",
         "✓": "✓"
@@ -3234,7 +3234,7 @@
         "realm": "VII",
         "character": "Reno",
         "name": "Crimson Lockdown",
-        "effect": "16% chance to turn Attack into an ability (1,00 physical) that causes Stop (70%)",
+        "effect": "16% chance to turn Attack into an ability (PHY: 1,00 physical, causes Stop (70%))",
         "unlockCriteria": "Use Reno's Memory Crystal",
         "name(jp)": "赤髪の一閃",
         "✓": "✓"
@@ -3261,7 +3261,7 @@
         "realm": "VII",
         "character": "Angeal",
         "name": "Heroic Stride",
-        "effect": "10% chance to counter PHY attacks with an ability that grants Protect to the user",
+        "effect": "10% chance to counter PHY attacks with an ability (NAT: self, grants Protect)",
         "unlockCriteria": "Use Angeal's Memory Crystal",
         "name(jp)": "英雄の資質",
         "✓": "✓"
@@ -3396,7 +3396,7 @@
         "realm": "VIII",
         "character": "Squall",
         "name": "Composure",
-        "effect": "Attack turns into an ability (single, 1,20 physical) that grants 35 Soul Break points (instead of 50)",
+        "effect": "Attack turns into an ability (PHY: single, 1,20 physical) that grants 35 Soul Break points",
         "unlockCriteria": "Use Squall's Memory Crystal",
         "name(jp)": "冷静沈着",
         "✓": "✓"
@@ -3405,7 +3405,7 @@
         "realm": "VIII",
         "character": "Squall",
         "name": "Gunblade",
-        "effect": "16% chance to turn Attack into an ability (single, 2,50 physical)",
+        "effect": "16% chance to turn Attack into an ability (PHY: single, 2,50 physical)",
         "unlockCriteria": "Chance to obtain in FFVIII dungeon with Squall in party",
         "name(jp)": "ガンブレード",
         "✓": "✓"
@@ -3432,7 +3432,7 @@
         "realm": "VIII",
         "character": "Rinoa",
         "name": "Angelo Recover",
-        "effect": "30% chance to turn Attack into an ability (single, 0,90 physical) that heals the user for 8% of the damage dealt",
+        "effect": "30% chance to turn Attack into an ability (PHY: single, 0,90 physical, heals the user for 8% of the damage dealt)",
         "unlockCriteria": "Use Rinoa's Memory Crystal",
         "name(jp)": "アンジェロリカバー",
         "✓": "✓"
@@ -3531,7 +3531,7 @@
         "realm": "VIII",
         "character": "Selphie",
         "name": "Flower of Trabia",
-        "effect": "Attack turns into an ability (single, 1,80 magical, WHT type) that deals Holy damage",
+        "effect": "Attack turns into an ability (WHT: single, 1,80 magical Holy)",
         "unlockCriteria": "Use Selphie's Memory Crystal II, chance to obtain with Selphie in party",
         "name(jp)": "トラビアの元気娘",
         "✓": "✓"
@@ -3585,7 +3585,7 @@
         "realm": "VIII",
         "character": "Seifer",
         "name": "Dirty Trick",
-        "effect": "10% chance to turn Attack into an ability (single, 1,50 magical and 1,00 physical)",
+        "effect": "10% chance to turn Attack into an ability (NAT: single, 1,50 magical Fire followed by 1,00 physical)",
         "unlockCriteria": "Use Seifer's Memory Crystal",
         "name(jp)": "禁じ手",
         "✓": "✓"
@@ -3639,7 +3639,7 @@
         "realm": "VIII",
         "character": "Edea",
         "name": "Icy Manipulator",
-        "effect": "30% chance to turn Attack into an ability (single, 0,70 magical) that deals Ice damage",
+        "effect": "30% chance to turn Attack into an ability (BLK: single, 0,70 magical Ice)",
         "unlockCriteria": "Use Edea's Memory Crystal",
         "name(jp)": "冷酷な支配者",
         "✓": "✓"
@@ -3666,7 +3666,7 @@
         "realm": "VIII",
         "character": "Raijin",
         "name": "Faithful Friend",
-        "effect": "30% chance to turn Attack into an ability (single) that restores HP for 40% of the target's maximum HP",
+        "effect": "30% chance to turn Attack into an ability (NAT: single, restores HP for 40% of the target's maximum HP)",
         "unlockCriteria": "Use Raijin's Memory Crystal",
         "name(jp)": "気のいい大男",
         "✓": "✓"
@@ -3693,7 +3693,7 @@
         "realm": "VIII",
         "character": "Fujin",
         "name": "Terse Beauty",
-        "effect": "If an ally has negative effects, 40% chance to turn Attack into an ability that removes negative effects",
+        "effect": "If an ally has negative effects, 40% chance to turn Attack into an ability (NAT: single, removes negative effects)",
         "unlockCriteria": "Use Fujin's Memory Crystal",
         "name(jp)": "寡黙な美女",
         "✓": "✓"
@@ -3729,7 +3729,7 @@
         "realm": "VIII",
         "character": "Kiros",
         "name": "Loyal Friend",
-        "effect": "40% chance to turn Attack into an ability (single, 2,00 physical) with two single attacks (1,00 each)",
+        "effect": "40% chance to turn Attack into an ability (PHY: single, 2x 1,00 physical)",
         "unlockCriteria": "Use Kiros's Memory Crystal II, chance to obtain with Kiros in party",
         "name(jp)": "友という名の娯楽",
         "✓": "✓"
@@ -3837,7 +3837,7 @@
         "realm": "IX",
         "character": "Garnet",
         "name": "Healer",
-        "effect": "Attack turns into a single heal (13)",
+        "effect": "Attack turns into an ability (WHT: single, restores HP (13))",
         "unlockCriteria": "Chance to obtain in FFIX dungeon with Garnet in party",
         "name(jp)": "いやしの",
         "✓": "✓"
@@ -3882,7 +3882,7 @@
         "realm": "IX",
         "character": "Vivi",
         "name": "Black Mage's Awakening",
-        "effect": "Attack turns into an ability (single, 2,00 magical)",
+        "effect": "Attack turns into an ability (BLK: single, 2,00 magical)",
         "unlockCriteria": "Use Vivi's Memory Crystal II, chance to obtain with Vivi in party",
         "name(jp)": "黒魔道士の覚醒",
         "✓": "✓"
@@ -3909,7 +3909,7 @@
         "realm": "IX",
         "character": "Steiner",
         "name": "Knight's Pride",
-        "effect": "25% chance to counter PHY attacks with an ability that grants Protect to the user",
+        "effect": "25% chance to counter PHY attacks with an ability (NAT: self, grants Protect)",
         "unlockCriteria": "Chance to obtain with Steiner in party",
         "name(jp)": "騎士の誇り",
         "✓": "✓"
@@ -4143,7 +4143,7 @@
         "realm": "X",
         "character": "Tidus",
         "name": "High Scorer",
-        "effect": "Attack turns into an ability (single, 1,00 physical) that grants 65 Soul Break points (instead of 50)",
+        "effect": "Attack turns into an ability (PHY: single, 1,00 physical) that grants 65 Soul Break points",
         "unlockCriteria": "Chance to obtain in FFX dungeon with Tidus in party",
         "name(jp)": "ポイントゲッター",
         "✓": "✓"
@@ -4440,7 +4440,7 @@
         "realm": "X",
         "character": "Seymour",
         "name": "Twisted Summoner",
-        "effect": "17% chance to randomly turn Attack into Goblin, Chocobo, Drake, Bomb, Shiva, Ramuh, Ifrit or Bahamut",
+        "effect": "17% chance to turn Attack into an ability (SUM: randomly casts Goblin, Chocobo, Drake, Bomb, Shiva, Ramuh, Ifrit or Bahamut)",
         "unlockCriteria": "Use Seymour's Memory Crystal II, chance to obtain with Seymour in party",
         "name(jp)": "暗黒の召喚術",
         "✓": "✓"
@@ -4557,7 +4557,7 @@
         "realm": "XI",
         "character": "Prishe",
         "name": "Unexpected Assault",
-        "effect": "Attack turns into an ability (single, 1,98 physical) with three single attacks (0,66 each)",
+        "effect": "Attack turns into an ability (PHY: single, 3x 0,66 physical)",
         "unlockCriteria": "Bring Prishe to level 99",
         "name(jp)": "破天荒",
         "✓": "✓"
@@ -4566,7 +4566,7 @@
         "realm": "XI",
         "character": "Lion",
         "name": "Fleeting Strike",
-        "effect": "Attack turns into an ability (single, 1,30 physical) with two single attacks (0,65 each)",
+        "effect": "Attack turns into an ability (PHY: single, 2x 0,65 physical)",
         "unlockCriteria": "Use Lion's Memory Crystal",
         "name(jp)": "俊敏なる体術",
         "✓": "✓"
@@ -4602,7 +4602,7 @@
         "realm": "XI",
         "character": "Aphmau",
         "name": "Unarmed Puppeteer",
-        "effect": "Attack turns into an ability (single, 2,00 magical, WHT type)",
+        "effect": "Attack turns into an ability (WHT: single, 2,00 magical)",
         "unlockCriteria": "Use Aphmau's Memory Crystal II, chance to obtain with Aphmau in party",
         "name(jp)": "無手の傀儡師",
         "✓": "✓"
@@ -4719,7 +4719,7 @@
         "realm": "XII",
         "character": "Fran",
         "name": "Art of the Barrage",
-        "effect": "16% chance to turn Attack into an ability (single, 4,00 physical) with four random attacks (1,00 each)",
+        "effect": "16% chance to turn Attack into an ability (PHY: random, 4x 1,00 physical)",
         "unlockCriteria": "Use Fran's Memory Crystal II, chance to obtain with Fran in party",
         "name(jp)": "連射の極意",
         "✓": "✓"
@@ -4935,7 +4935,7 @@
         "realm": "XIII",
         "character": "Lightning",
         "name": "Thunderstroke",
-        "effect": "Attack turns into an ability (single, 1,00 physical) with 0,01 cast time",
+        "effect": "Attack turns into an ability (PHY: single, 1,00 physical) with 0,01 cast time",
         "unlockCriteria": "Use Lightning's Memory Crystal II, chance to obtain with Lightning in party",
         "name(jp)": "疾雷",
         "✓": "✓"
@@ -4989,7 +4989,7 @@
         "realm": "XIII",
         "character": "Vanille",
         "name": "Innocence",
-        "effect": "10% chance to counter PHY attacks with an ability that restores HP (30) to the user",
+        "effect": "10% chance to counter PHY attacks with an ability (NAT: self, restores HP (30))",
         "unlockCriteria": "Use Vanille's Memory Crystal",
         "name(jp)": "天真爛漫",
         "✓": "✓"
@@ -4998,7 +4998,7 @@
         "realm": "XIII",
         "character": "Vanille",
         "name": "Pulse Kindness",
-        "effect": "Attack turns into a single heal (26)",
+        "effect": "Attack turns into an ability (WHT: single, restores HP (26))",
         "unlockCriteria": "Use Vanille's Memory Crystal II, chance to obtain with Vanille in party",
         "name(jp)": "下界の少女の労り",
         "✓": "✓"
@@ -5007,7 +5007,7 @@
         "realm": "XIII",
         "character": "Vanille",
         "name": "Words of Truth",
-        "effect": "Attack turns into an ability (single, 2,50 magical, WHT type)",
+        "effect": "Attack turns into an ability (WHT: single, 2,50 magical)",
         "unlockCriteria": "Bring Vanille to level 99",
         "name(jp)": "語り部の紡ぐ真実",
         "✓": "✓"
@@ -5025,7 +5025,7 @@
         "realm": "XIII",
         "character": "Sazh",
         "name": "Double Barrels",
-        "effect": "Attack turns into an ability (single, 1,30 physical) with two single attacks (0,65 each)",
+        "effect": "Attack turns into an ability (PHY: single, 2x 0,65 physical)",
         "unlockCriteria": "Use Sazh's Memory Crystal II, chance to obtain with Sazh in party",
         "name(jp)": "二丁拳銃",
         "✓": "✓"
@@ -5160,7 +5160,7 @@
         "realm": "XIII",
         "character": "Noel",
         "name": "Shadow Hunter",
-        "effect": "Attack turns into an ability (single, 1,00 physical) with a ranged attack",
+        "effect": "Attack turns into an ability (PHY: single, 1,00 ranged physical)",
         "unlockCriteria": "Use Noel's Memory Crystal II, chance to obtain with Noel in party",
         "name(jp)": "ラストハンター",
         "✓": "✓"
@@ -5196,7 +5196,7 @@
         "realm": "XIII",
         "character": "Nabaat",
         "name": "PSICOM Marvel",
-        "effect": "Attack turns into an ability (group, 3,00 magical) with 4,50 cast time",
+        "effect": "Attack turns into an ability (BLK: group, 3,00 magical) with 4,50 cast time",
         "unlockCriteria": "Bring Nabaat to level 99",
         "name(jp)": "PSICOMの才媛",
         "✓": "✓"
@@ -5268,7 +5268,7 @@
         "realm": "XIV",
         "character": "Yda",
         "name": "Capricious Pugilist",
-        "effect": "Attack turns into an ability (group, 0,60 physical)",
+        "effect": "Attack turns into an ability (PHY: group, 0,60 physical)",
         "unlockCriteria": "Use Yda's Memory Crystal II, chance to obtain with Yda in party",
         "name(jp)": "気まぐれな格闘士",
         "✓": "✓"
@@ -5277,7 +5277,7 @@
         "realm": "XIV",
         "character": "Yda",
         "name": "Divine Fists",
-        "effect": "Attack turns into an ability (group, 0,80 physical)",
+        "effect": "Attack turns into an ability (PHY: group, 0,80 physical)",
         "unlockCriteria": "Bring Yda to level 99",
         "name(jp)": "拳聖の域",
         "✓": "✓"
@@ -5412,7 +5412,7 @@
         "realm": "XIV",
         "character": "Ysayle",
         "name": "Dragonsong Seer",
-        "effect": "Attack turns into an ability (single, 0,70 magical) that deals Ice damage",
+        "effect": "Attack turns into an ability (BLK: single, 0,70 magical Ice)",
         "unlockCriteria": "Bring Ysayle to level 99",
         "name(jp)": "真の竜詩を知る者",
         "✓": "✓"
@@ -5484,7 +5484,7 @@
         "realm": "XV",
         "character": "Noctis",
         "name": "Lucian Heir",
-        "effect": "Defend turns into an ability that restores HP to the user for 10% of the user's HP",
+        "effect": "Defend turns into an ability (NAT: self, restores HP for 10% of the target's maximum HP)",
         "unlockCriteria": "Use Noctis's Memory Crystal II, chance to obtain with Noctis in party",
         "name(jp)": "ルシス王国の後継者",
         "✓": "✓"
@@ -5493,7 +5493,7 @@
         "realm": "XV",
         "character": "Noctis",
         "name": "Promised Power",
-        "effect": "Attack turns into an ability (single, 2,10 physical) with 0,01 cast time that grants 0 SB points (instead of 50)",
+        "effect": "Attack turns into an ability (PHY: single, 2,10 physical) with 0,01 cast time that grants 0 SB points",
         "unlockCriteria": "Bring Noctis to level 99",
         "name(jp)": "聖石に導かれし力",
         "✓": "✓"
@@ -5537,8 +5537,8 @@
     {
         "realm": "XV",
         "character": "Ignis",
-        "name": "Royal Tutor",
-        "effect": "15% chance to counter PHY attacks with an ability (single, 1,00 physical) that heals the user for 30% of the damage dealt",
+        "name": "Royal Advisor",
+        "effect": "15% chance to counter PHY attacks with an ability (PHY: single, 1,00 physical, heals the user for 30% of the damage dealt)",
         "unlockCriteria": "Use Ignis's Memory Crystal II, chance to obtain with Ignis in party",
         "name(jp)": "王族の側仕え",
         "✓": "✓"
@@ -5592,7 +5592,7 @@
         "realm": "XV",
         "character": "Iris",
         "name": "The Two of Us",
-        "effect": "Attack turns into a single heal (26)",
+        "effect": "Attack turns into an ability (WHT: single, restores HP (26))",
         "unlockCriteria": "Use Iris's Memory Crystal II, chance to obtain with Iris in party",
         "name(jp)": "ふたりでおさんぽ",
         "✓": "✓"
@@ -5601,7 +5601,7 @@
         "realm": "XV",
         "character": "Iris",
         "name": "Stern Stuff",
-        "effect": "35% chance to counter attacks that cause Slow with an ability that grants Haste to the user",
+        "effect": "35% chance to counter attacks that cause Slow with an ability (NAT: self, grants Haste)",
         "unlockCriteria": "Bring Iris to level 99",
         "name(jp)": "芯の強き少女",
         "✓": "✓"
@@ -5637,7 +5637,7 @@
         "realm": "FFT",
         "character": "Ramza",
         "name": "Salve",
-        "effect": "If an ally has negative effects, 40% chance to turn Attack into an ability that removes negative effects",
+        "effect": "If an ally has negative effects, 40% chance to turn Attack into an ability (NAT: single, removes negative effects)",
         "unlockCriteria": "Use Ramza's Memory Crystal",
         "name(jp)": "手当て",
         "✓": "✓"
@@ -5655,7 +5655,7 @@
         "realm": "FFT",
         "character": "Ramza",
         "name": "Standard Bearer",
-        "effect": "Attack turns into an ability (single, 1,60 physical) that deals Lightning damage",
+        "effect": "Attack turns into an ability (PHY: single, 1,60 physical Lightning)",
         "unlockCriteria": "Bring Ramza to level 99",
         "name(jp)": "天騎士の意思を継ぐ者",
         "✓": "✓"
@@ -5664,7 +5664,7 @@
         "realm": "FFT",
         "character": "Agrias",
         "name": "Holy Knight's Sigil",
-        "effect": "30% chance to turn Attack into an ability (single, 1,00 physical) that deals Holy damage",
+        "effect": "30% chance to turn Attack into an ability (PHY: single, 1,00 physical Holy)",
         "unlockCriteria": "Use Agrias's Memory Crystal",
         "name(jp)": "ホーリーナイトの証",
         "✓": "✓"
@@ -5727,7 +5727,7 @@
         "realm": "FFT",
         "character": "Ovelia",
         "name": "Lady of Ivalice",
-        "effect": "Attack turns into an ability (single, 2,00 magical, WHT type)",
+        "effect": "Attack turns into an ability (WHT: single, 2,00 magical)",
         "unlockCriteria": "Use Ovelia's Memory Crystal II, chance to obtain with Ovelia in party",
         "name(jp)": "イヴァリースの王女",
         "✓": "✓"
@@ -5754,7 +5754,7 @@
         "realm": "FFT",
         "character": "Mustadio",
         "name": "Expert Marksman",
-        "effect": "40% chance to turn Attack into an ability (single, 1,00 physical) that causes Stop (70%)",
+        "effect": "40% chance to turn Attack into an ability (PHY: single, 1,00 physical,  causes Stop (70%))",
         "unlockCriteria": "Use Mustadio's Memory Crystal II, chance to obtain with Mustadio in party",
         "name(jp)": "熟練の銃使い",
         "✓": "✓"
@@ -5763,7 +5763,7 @@
         "realm": "FFT",
         "character": "Mustadio",
         "name": "Rare Gift",
-        "effect": "20% chance to turn Attack into an ability (single, 1,00 physical) that causes Petrify (100%)",
+        "effect": "20% chance to turn Attack into an ability (PHY: single, 1,00 physical,  causes Petrify (100%))",
         "unlockCriteria": "Bring Mustadio to level 99",
         "name(jp)": "稀有な特殊技能者",
         "✓": "✓"
@@ -5781,7 +5781,7 @@
         "realm": "FFT",
         "character": "Orlandeau",
         "name": "God Among Men",
-        "effect": "Attack turns into an ability (group, convergent 0,90 physical)",
+        "effect": "Attack turns into an ability (PHY: group, convergent 0,90 physical)",
         "unlockCriteria": "Use Orlandeau's Memory Crystal II, chance to obtain with Orlandeau in party",
         "name(jp)": "一世之雄",
         "✓": "✓"
@@ -5808,7 +5808,7 @@
         "realm": "FFT",
         "character": "Gaffgarion",
         "name": "Fell Blademaster",
-        "effect": "15% chance to counter PHY attacks with an ability (single, 1,00 physical) that heals the user for 30% of the damage dealt",
+        "effect": "15% chance to counter PHY attacks with an ability (PHY: single, 1,00 physical, heals the user for 30% of the damage dealt)",
         "unlockCriteria": "Use Gaffgarion's Memory Crystal II, chance to obtain with Gaffgarion in party",
         "name(jp)": "暗黒剣の使い手",
         "✓": "✓"
@@ -5817,7 +5817,7 @@
         "realm": "FFT",
         "character": "Gaffgarion",
         "name": "Masterful Mercenary",
-        "effect": "48% chance to counter PHY attacks with an ability (single, 2,30 physical) that heals the user for 40% of the damage dealt",
+        "effect": "48% chance to counter PHY attacks with an ability (PHY: single, 2,30 physical, heals the user for 40% of the damage dealt)",
         "unlockCriteria": "Bring Gaffgarion to level 99",
         "name(jp)": "老獪なる傭兵",
         "✓": "✓"
@@ -5853,7 +5853,7 @@
         "realm": "FFT",
         "character": "Marach",
         "name": "Dark Mantra",
-        "effect": "30% chance to turn Attack into an ability (single, 0,70 magical) that deals Lightning damage",
+        "effect": "30% chance to turn Attack into an ability (BLK: single, 0,70 magical Lightning)",
         "unlockCriteria": "Use Marach's Memory Crystal",
         "name(jp)": "裏真言の冥利",
         "✓": "✓"
@@ -5862,7 +5862,7 @@
         "realm": "FFT",
         "character": "Marach",
         "name": "Avenging Brother",
-        "effect": "Attack turns into an ability (group, 1,50 magical) that deals Lightning damage",
+        "effect": "Attack turns into an ability (BLK: group, 1,50 magical Lightning)",
         "unlockCriteria": "Use Marach's Memory Crystal II, chance to obtain with Marach in party",
         "name(jp)": "恩義に報いる兄",
         "✓": "✓"
@@ -5871,7 +5871,7 @@
         "realm": "FFT",
         "character": "Marach",
         "name": "Netherseer Adept",
-        "effect": "Attack turns into an ability (single, 2,60 magical) that deals Lightning damage",
+        "effect": "Attack turns into an ability (BLK: single, 2,60 magical Lightning)",
         "unlockCriteria": "Bring Marach to level 99",
         "name(jp)": "一子相伝の天冥術",
         "✓": "✓"
@@ -6105,7 +6105,7 @@
         "realm": "Type-0",
         "character": "Machina",
         "name": "Naive Heart",
-        "effect": "Attack turns into an ability (group, 1,00 physical) with 4,50 cast time",
+        "effect": "Attack turns into an ability (PHY: group, 1,00 physical) with 4,50 cast time",
         "unlockCriteria": "Use Machina's Memory Crystal II, chance to obtain with Machina in party",
         "name(jp)": "純粋すぎる心",
         "✓": "✓"
@@ -6132,7 +6132,7 @@
         "realm": "Type-0",
         "character": "Queen",
         "name": "Swift Charge",
-        "effect": "Attack turns into an ability (single, 1,00 physical) with 0,01 cast time",
+        "effect": "Attack turns into an ability (PHY: single, 1,00 physical) with 0,01 cast time",
         "unlockCriteria": "Use Queen's Memory Crystal II, chance to obtain with Queen in party",
         "name(jp)": "すばやい突進",
         "✓": "✓"
@@ -6177,7 +6177,7 @@
         "realm": "Type-0",
         "character": "Cinque",
         "name": "Lunatic Behavior",
-        "effect": "8% chance to turn attack into an ability (single, 2,80 physical)",
+        "effect": "8% chance to turn attack into an ability (PHY: single, 2,80 physical)",
         "unlockCriteria": "Use Cinque's Memory Crystal",
         "name(jp)": "突拍子もない言動",
         "✓": "✓"

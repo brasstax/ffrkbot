@@ -3243,8 +3243,8 @@
     },
     {
         "id": "50062",
-        "commonName": "Ice Brand Follow-Up",
-        "effects": "Casts Ice Brand after dealing damage with a Ice attack",
+        "commonName": "Icebrand Follow-Up",
+        "effects": "Casts Icebrand after dealing damage with a Ice attack",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3253,8 +3253,8 @@
     },
     {
         "id": "50063",
-        "commonName": "Wild Fire Finisher",
-        "effects": "Casts Wild Fire when removed",
+        "commonName": "Wildfire Finisher",
+        "effects": "Casts Wildfire when removed",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3354,7 +3354,7 @@
     {
         "id": "50073",
         "commonName": "EX: Chosen Sorceress",
-        "effects": "MAG +30%, casts Sub-Zero Calamity after dealing damage with a Black Magic ability",
+        "effects": "MAG +30%, casts Angel Wing Ice Mist after dealing damage with a Black Magic ability",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3363,8 +3363,8 @@
     },
     {
         "id": "50074",
-        "commonName": "Tsui Follow-Up",
-        "effects": "Casts Tsui after using two Wind attacks",
+        "commonName": "Slice Follow-Up",
+        "effects": "Casts Slice after using two Wind attacks",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
