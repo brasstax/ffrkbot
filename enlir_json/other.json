@@ -1680,8 +1680,8 @@
     },
     {
         "character": "Samurai",
-        "source": "Mystical Enlightenment",
-        "name": "Mystical Enlightenment",
+        "source": "Inner Awakening",
+        "name": "Inner Awakening",
         "type": "PHY",
         "target": "All enemies",
         "formula": "Physical",
@@ -1782,8 +1782,8 @@
     },
     {
         "character": "Thief",
-        "source": "Thief's Trump Card",
-        "name": "Thief's Trump Card",
+        "source": "Thief's Slight",
+        "name": "Thief's Slight",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",

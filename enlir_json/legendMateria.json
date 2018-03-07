@@ -2000,10 +2000,11 @@
         "realm": "VII",
         "character": "Barret",
         "name": "Oath's Right Arm",
-        "effect": "PHY attacks deal ?% more damage when equipping a gun-arm",
+        "effect": "PHY attacks deal 20% more damage when equipping a gun-arm",
         "master": "ATK +10",
         "relic": "Drill Arm (VII)",
-        "name(jp)": "誓いの右腕"
+        "name(jp)": "誓いの右腕",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -2152,7 +2153,8 @@
         "effect": "Grants Quick Cast 3 at the beginning of the battle",
         "master": "MND +10",
         "relic": "Cait Sith's Crown (VII)",
-        "name(jp)": "移ろう救星への想い"
+        "name(jp)": "移ろう救星への想い",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -5203,6 +5205,34 @@
         "relic": "Dominion Helmet (Type-0)",
         "name(jp)": "栗色の三つ編み",
         "✓": "✓"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Seven",
+        "relic": "-"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Seven",
+        "relic": "-"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Seven"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Sice",
+        "relic": "-"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Sice",
+        "relic": "-"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Sice"
     },
     {
         "realm": "KH",

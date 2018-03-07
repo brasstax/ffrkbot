@@ -237,7 +237,7 @@
         "realm": "Core",
         "character": "Magus",
         "name": "Forbidden Knowledge",
-        "effect": "Attack turns into an ability (BLK: single, 1,50 magical Fire, Lightning and Ice)",
+        "effect": "Attack turns into an ability (BLK: single, 1,50 magical Fire/Lightning/Ice)",
         "unlockCriteria": "Use Magus's Memory Crystal II, chance to obtain with Magus in party",
         "name(jp)": "禁忌の魔術",
         "✓": "✓"
@@ -246,7 +246,7 @@
         "realm": "Core",
         "character": "Magus",
         "name": "Forbidden Arcana",
-        "effect": "Attack turns into an ability (BLK: group, 2,00 magical Fire, Lightning and Ice)",
+        "effect": "Attack turns into an ability (BLK: group, 2,00 magical Fire/Lightning/Ice)",
         "unlockCriteria": "Bring Magus to level 99",
         "name(jp)": "禁忌の大魔術",
         "✓": "✓"
@@ -389,7 +389,7 @@
     {
         "realm": "Core",
         "character": "Samurai",
-        "name": "Mystical Enlightenment",
+        "name": "Inner Awakening",
         "effect": "50% chance to turn Attack into an ability (PHY: group, 2x 0,90 physical, 100% hit rate)",
         "unlockCriteria": "Bring Samurai to level 99",
         "name(jp)": "奥義の開眼",
@@ -641,7 +641,7 @@
     {
         "realm": "Core",
         "character": "Thief (Core)",
-        "name": "Thief's Trump Card",
+        "name": "Thief's Slight",
         "effect": "50% chance to turn Attack into an ability (PHY: single, 2x 0,97 physical Poison, 1,17 multiplier when equipping a dagger)",
         "unlockCriteria": "Bring Thief (Core) to level 99",
         "name(jp)": "シーフの奥の手",
@@ -6068,7 +6068,7 @@
     {
         "realm": "Type-0",
         "character": "Rem",
-        "name": "Lady of the Daggers",
+        "name": "Lady of Daggers",
         "effect": "MND +10% when equipping a dagger",
         "unlockCriteria": "Use Rem's Memory Crystal",
         "name(jp)": "ダガーを操る少女",
@@ -6199,6 +6199,36 @@
         "unlockCriteria": "Bring Cinque to level 99",
         "name(jp)": "純真なる力を司る者",
         "✓": "✓"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Seven",
+        "unlockCriteria": "Use Seven's Memory Crystal"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Seven",
+        "unlockCriteria": "Use Seven's Memory Crystal II, chance to obtain with Seven in party"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Seven",
+        "unlockCriteria": "Bring Seven to level 99"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Sice",
+        "unlockCriteria": "Use Sice's Memory Crystal"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Sice",
+        "unlockCriteria": "Use Sice's Memory Crystal II, chance to obtain with Sice in party"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Sice",
+        "unlockCriteria": "Bring Sice to level 99"
     },
     {
         "realm": "KH",

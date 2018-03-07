@@ -5133,7 +5133,7 @@
     {
         "character": "Selphie",
         "source": "Reality or Truth",
-        "name": "Tiny Cure",
+        "name": "Tiny Heal",
         "type": "WHT",
         "target": "All allies",
         "formula": "Magical",
@@ -5361,7 +5361,7 @@
     {
         "character": "Laguna",
         "source": "Freezing Beam",
-        "name": "Faeries Prayer",
+        "name": "Faeries' Gift",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
