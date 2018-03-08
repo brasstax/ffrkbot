@@ -6203,31 +6203,37 @@
     {
         "realm": "Type-0",
         "character": "Seven",
+        "effect": "Grants Magical Blink 1 at the beginning of the battle",
         "unlockCriteria": "Use Seven's Memory Crystal"
     },
     {
         "realm": "Type-0",
         "character": "Seven",
+        "effect": "MAG +?% when equipping a whip",
         "unlockCriteria": "Use Seven's Memory Crystal II, chance to obtain with Seven in party"
     },
     {
         "realm": "Type-0",
         "character": "Seven",
+        "effect": "BLK attacks deal ?% more damage when equipping a whip",
         "unlockCriteria": "Bring Seven to level 99"
     },
     {
         "realm": "Type-0",
         "character": "Sice",
+        "effect": "Darkness abilities deal ?% more damage",
         "unlockCriteria": "Use Sice's Memory Crystal"
     },
     {
         "realm": "Type-0",
         "character": "Sice",
+        "effect": "?% chance to dualcast Darkness abilities",
         "unlockCriteria": "Use Sice's Memory Crystal II, chance to obtain with Sice in party"
     },
     {
         "realm": "Type-0",
         "character": "Sice",
+        "effect": "ATK +?%, DEF -?%",
         "unlockCriteria": "Bring Sice to level 99"
     },
     {

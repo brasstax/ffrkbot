@@ -1183,6 +1183,19 @@
     },
     {
         "character": "Status",
+        "source": "Malice Mode",
+        "name": "Scythe of Slaughter",
+        "type": "?",
+        "target": "Single enemy",
+        "time": "?",
+        "effects": "Damages for ?% of the damage dealt with Darkness abilities during the status, breaks damage cap",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
+    },
+    {
+        "character": "Status",
         "source": "EX: Connected Hearts",
         "name": "Judgment",
         "type": "PHY",

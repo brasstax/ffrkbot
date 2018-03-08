@@ -2180,7 +2180,7 @@
         "name": "Seeing in Red",
         "effect": "25% chance to dualcast abilities that deal Fire damage",
         "master": "ATK +5, MAG +5",
-        "relic": "Vincent's Bandana (DC) (VII)",
+        "relic": "Vincent's Bandana (DoC) (VII)",
         "name(jp)": "赤き決意",
         "✓": "✓"
     },
@@ -5209,30 +5209,44 @@
     {
         "realm": "Type-0",
         "character": "Seven",
+        "effect": "Increases Ice damage dealt by ?%",
         "relic": "-"
     },
     {
         "realm": "Type-0",
         "character": "Seven",
+        "effect": "?% chance to grant Quick Cast 3 to the user after using a Ice attack",
         "relic": "-"
     },
     {
         "realm": "Type-0",
-        "character": "Seven"
+        "character": "Seven",
+        "name": "Admirable Student",
+        "effect": "?% chance to cause Minor Imperil Ice to the target after using a Ice attack on an enemy",
+        "master": "MAG +10",
+        "relic": "Gauntlets (Type-0)",
+        "name(jp)": "0組女生徒の憧れ"
     },
     {
         "realm": "Type-0",
         "character": "Sice",
+        "effect": "Increases Dark damage dealt by ?%",
         "relic": "-"
     },
     {
         "realm": "Type-0",
         "character": "Sice",
+        "effect": "?% chance to dualcast Darkness abilities",
         "relic": "-"
     },
     {
         "realm": "Type-0",
-        "character": "Sice"
+        "character": "Sice",
+        "name": "Law of the Jungle",
+        "effect": "Grants Attach Dark at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Silver Bracelet (Type-0)",
+        "name(jp)": "弱肉強食の思想"
     },
     {
         "realm": "KH",
