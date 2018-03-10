@@ -2823,7 +2823,7 @@
     {
         "realm": "IX",
         "character": "Freya",
-        "name": "Stunning Dragon Knight",
+        "name": "Dragoon's Grace",
         "effect": "Increases Wind damage dealt by 10%",
         "relic": "-",
         "name(jp)": "美しき女竜騎士",
@@ -2832,7 +2832,7 @@
     {
         "realm": "IX",
         "character": "Freya",
-        "name": "Love Unforgotten",
+        "name": "Undying Love",
         "effect": "Restores HP for 100% of the user's maximum HP and grants Freya Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "忘れえぬ愛を抱く者",
@@ -2851,7 +2851,7 @@
     {
         "realm": "IX",
         "character": "Quina",
-        "name": "Way of the Qu",
+        "name": "Qu Prowess",
         "effect": "PHY attacks deal 10% more damage when equipping a spear",
         "relic": "-",
         "name(jp)": "ク族のたしなみ",
@@ -2860,7 +2860,7 @@
     {
         "realm": "IX",
         "character": "Quina",
-        "name": "Feast of the Qu",
+        "name": "Qu Banquet",
         "effect": "Restores HP for 100% of the user's maximum HP, grants 500 SB points and grants Quina Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "ク族の晩餐",
@@ -5209,35 +5209,44 @@
     {
         "realm": "Type-0",
         "character": "Seven",
+        "name": "Discerning Student",
         "effect": "Increases Ice damage dealt by ?%",
-        "relic": "-"
+        "relic": "-",
+        "name(jp)": "洞察に優れた候補生"
     },
     {
         "realm": "Type-0",
         "character": "Seven",
+        "name": "Composed Appearance",
         "effect": "?% chance to grant Quick Cast 3 to the user after using a Ice attack",
-        "relic": "-"
+        "relic": "-",
+        "name(jp)": "凛々しき佇まい"
     },
     {
         "realm": "Type-0",
         "character": "Seven",
         "name": "Admirable Student",
-        "effect": "?% chance to cause Minor Imperil Ice to the target after using a Ice attack on an enemy",
+        "effect": "20% chance to cause Minor Imperil Ice to the target after using a Ice attack on an enemy",
         "master": "MAG +10",
         "relic": "Gauntlets (Type-0)",
-        "name(jp)": "0組女生徒の憧れ"
+        "name(jp)": "0組女生徒の憧れ",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Sice",
+        "name": "Unshakable Judgment",
         "effect": "Increases Dark damage dealt by ?%",
-        "relic": "-"
+        "relic": "-",
+        "name(jp)": "揺るがぬ判断力"
     },
     {
         "realm": "Type-0",
         "character": "Sice",
+        "name": "Silver Scythe",
         "effect": "?% chance to dualcast Darkness abilities",
-        "relic": "-"
+        "relic": "-",
+        "name(jp)": "銀髪の大鎌使い"
     },
     {
         "realm": "Type-0",

@@ -740,7 +740,7 @@
     {
         "character": "Status",
         "source": "Freya Trance",
-        "name": "Love Unforgotten",
+        "name": "Undying Love",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -1183,16 +1183,17 @@
     },
     {
         "character": "Status",
-        "source": "Malice Mode",
+        "source": "Scythe of Slaughter Finisher",
         "name": "Scythe of Slaughter",
-        "type": "?",
+        "type": "PHY",
         "target": "Single enemy",
-        "time": "?",
-        "effects": "Damages for ?% of the damage dealt with Darkness abilities during the status, breaks damage cap",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?"
+        "time": 2.5,
+        "effects": "Damages for 35% of the damage dealt with Dark attacks during the status, breaks damage cap",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Darkness",
+        "✓": "✓"
     },
     {
         "character": "Status",

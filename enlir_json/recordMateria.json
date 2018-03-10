@@ -6203,38 +6203,54 @@
     {
         "realm": "Type-0",
         "character": "Seven",
+        "name": "Grasping Truth",
         "effect": "Grants Magical Blink 1 at the beginning of the battle",
-        "unlockCriteria": "Use Seven's Memory Crystal"
+        "unlockCriteria": "Use Seven's Memory Crystal",
+        "name(jp)": "真を見すえる瞳"
     },
     {
         "realm": "Type-0",
         "character": "Seven",
-        "effect": "MAG +?% when equipping a whip",
-        "unlockCriteria": "Use Seven's Memory Crystal II, chance to obtain with Seven in party"
+        "name": "Stunning Whipblade",
+        "effect": "MAG +10% when equipping a whip",
+        "unlockCriteria": "Use Seven's Memory Crystal II, chance to obtain with Seven in party",
+        "name(jp)": "鞭剣使いの麗人",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Seven",
-        "effect": "BLK attacks deal ?% more damage when equipping a whip",
-        "unlockCriteria": "Bring Seven to level 99"
+        "name": "Understanding Power",
+        "effect": "BLK attacks deal 30% more damage when equipping a whip",
+        "unlockCriteria": "Bring Seven to level 99",
+        "name(jp)": "認識する力を司る者",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Sice",
-        "effect": "Darkness abilities deal ?% more damage",
-        "unlockCriteria": "Use Sice's Memory Crystal"
+        "name": "Gleaming Loner",
+        "effect": "Darkness abilities deal 15% more damage",
+        "unlockCriteria": "Use Sice's Memory Crystal",
+        "name(jp)": "鋭光の一匹狼",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Sice",
-        "effect": "?% chance to dualcast Darkness abilities",
-        "unlockCriteria": "Use Sice's Memory Crystal II, chance to obtain with Sice in party"
+        "name": "Scythe's Malice",
+        "effect": "13% chance to dualcast Darkness abilities",
+        "unlockCriteria": "Use Sice's Memory Crystal II, chance to obtain with Sice in party",
+        "name(jp)": "大鎌に宿る怨念",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Sice",
+        "name": "Resolute Power",
         "effect": "ATK +?%, DEF -?%",
-        "unlockCriteria": "Bring Sice to level 99"
+        "unlockCriteria": "Bring Sice to level 99",
+        "name(jp)": "執着する力を司る者"
     },
     {
         "realm": "KH",

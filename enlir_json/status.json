@@ -1715,6 +1715,16 @@
         "notes": "-"
     },
     {
+        "id": "2063",
+        "commonName": "Darkness Quick Cast 3",
+        "effects": "Cast speed x2,00 for Darkness abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_DARKNESS",
+        "notes": "-"
+    },
+    {
         "id": "501",
         "commonName": "MAG Boost",
         "effects": "MAG +25%",
@@ -4327,6 +4337,56 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "ABSORB_HP_FOR_JENOVA",
+        "notes": "-"
+    },
+    {
+        "id": "50176",
+        "commonName": "Scythe of Slaughter Finisher",
+        "effects": "Casts Scythe of Slaughter when removed",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "GRUDGE",
+        "notes": "-"
+    },
+    {
+        "id": "50177",
+        "commonName": "Malice Mode 0",
+        "effects": "Grants Malice Mode 1 after using a Darkness ability, removed if the user hasn't Lingering Fire Finisher",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Malice Mode\" status",
+        "codedName": "GRUDGE_BUFF_AND_CHASE_0",
+        "notes": "-"
+    },
+    {
+        "id": "50178",
+        "commonName": "Malice Mode 1",
+        "effects": "Critical chance =30%, cast speed x2,00, grants Malice Mode 2 after using a Darkness ability, removed if the user hasn't Scythe of Slaughter Finisher",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Malice Mode\" status",
+        "codedName": "GRUDGE_BUFF_AND_CHASE_1",
+        "notes": "-"
+    },
+    {
+        "id": "50179",
+        "commonName": "Malice Mode 2",
+        "effects": "Critical chance =50%, cast speed x2,50, grants Malice Mode 3 after using a Darkness ability, removed if the user hasn't Scythe of Slaughter Finisher",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Malice Mode\" status",
+        "codedName": "GRUDGE_BUFF_AND_CHASE_2",
+        "notes": "-"
+    },
+    {
+        "id": "50180",
+        "commonName": "Malice Mode 3",
+        "effects": "Critical chance =75%, cast speed x3,00, grants Malice Mode 3 after using a Darkness ability, removed if the user hasn't Scythe of Slaughter Finisher",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Malice Mode\" status",
+        "codedName": "GRUDGE_BUFF_AND_CHASE_3",
         "notes": "-"
     },
     {
