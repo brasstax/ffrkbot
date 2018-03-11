@@ -5236,17 +5236,19 @@
         "realm": "Type-0",
         "character": "Sice",
         "name": "Unshakable Judgment",
-        "effect": "Increases Dark damage dealt by ?%",
+        "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "揺るがぬ判断力"
+        "name(jp)": "揺るがぬ判断力",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Sice",
         "name": "Silver Scythe",
-        "effect": "?% chance to dualcast Darkness abilities",
+        "effect": "35% chance to dualcast Darkness abilities",
         "relic": "-",
-        "name(jp)": "銀髪の大鎌使い"
+        "name(jp)": "銀髪の大鎌使い",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
