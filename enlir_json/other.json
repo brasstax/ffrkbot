@@ -535,6 +535,22 @@
     },
     {
         "character": "Status",
+        "source": "EX: Artificial Magus",
+        "name": "Magitek Release",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": "?",
+        "element": "Dark, Poison",
+        "time": "?",
+        "effects": "4/5/6/7/8 single attacks (?/?/?/?/? each) scaling with uses",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
+    },
+    {
+        "character": "Status",
         "source": "Sword Arts Follow-Up",
         "name": "Sword Arts",
         "type": "PHY",

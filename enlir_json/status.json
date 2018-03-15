@@ -4390,6 +4390,26 @@
         "notes": "-"
     },
     {
+        "id": "50181",
+        "commonName": "Earth Ironfist Counter",
+        "effects": "Keeps track of the uses of Earth Ironfist",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_GOUKEN_EARTH",
+        "notes": "-"
+    },
+    {
+        "id": "50182",
+        "commonName": "Fire Ironfist Counter",
+        "effects": "Keeps track of the uses of Fire Ironfist",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_GOUKEN_FIRE",
+        "notes": "-"
+    },
+    {
         "id": "601",
         "commonName": "MAG +X%",
         "effects": "MAG +X%",

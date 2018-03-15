@@ -1658,6 +1658,15 @@
     },
     {
         "realm": "VI",
+        "character": "Mog",
+        "name": "Moogle Survival",
+        "effect": "?% chance to cast an ability (?: group, ATK/MAG/MND -?%) after using a Dancer ability",
+        "master": "MND +10",
+        "relic": "White Cape (VI)",
+        "name(jp)": "モーグリ族の生き残り"
+    },
+    {
+        "realm": "VI",
         "character": "Edgar",
         "name": "Ladies Courtesy",
         "effect": "Machinist abilities deal 15% more damage",
@@ -1823,6 +1832,15 @@
         "relic": "Rod of Faith (VI)",
         "name(jp)": "烈火に挑む魔導の力",
         "✓": "✓"
+    },
+    {
+        "realm": "VI",
+        "character": "Strago",
+        "name": "Concealed Power",
+        "effect": "Grants Attach Water at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Wonder Wand (VI)",
+        "name(jp)": "秘め続けた魔導の力"
     },
     {
         "realm": "VI",
