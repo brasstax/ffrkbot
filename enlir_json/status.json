@@ -3473,8 +3473,8 @@
     },
     {
         "id": "50085",
-        "commonName": "Sandstorm Follow-Up",
-        "effects": "Casts Sandstorm after using a Knight ability",
+        "commonName": "Sandwind Blade Follow-Up",
+        "effects": "Casts Sandwind Blade after using a Knight ability",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3513,8 +3513,8 @@
     },
     {
         "id": "50089",
-        "commonName": "Lupine Follow-Up",
-        "effects": "Casts Lupine Follow-Up after using a Earth attack",
+        "commonName": "Lupine Chase Follow-Up",
+        "effects": "Casts Lupine Chase after using a Earth attack",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4124,7 +4124,7 @@
     {
         "id": "50153",
         "commonName": "Darkhand Scourge Follow-Up",
-        "effects": "Casts Darkhand Scourge after dealing damage with a Dark attack",
+        "effects": "Casts Darkhand Scourge after using a Dark attack",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4407,6 +4407,26 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "USED_ABILITY_COUNTER_GOUKEN_FIRE",
+        "notes": "-"
+    },
+    {
+        "id": "50183",
+        "commonName": "EX: Artificial Magus",
+        "effects": "MAG +30%, casts Magitek Release after using a Dark attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_ARTIFICIAL_MAGICIAN",
+        "notes": "-"
+    },
+    {
+        "id": "50184",
+        "commonName": "Magitek Release Counter",
+        "effects": "Keeps track of the uses of Magitek Release, removed if the user hasn't EX: Artificial Magus, reset upon refreshing EX: Artificial Magus",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_FOR_EX_MODE_ARTIFICIAL_MAGICIAN",
         "notes": "-"
     },
     {

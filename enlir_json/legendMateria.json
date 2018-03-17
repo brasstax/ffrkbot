@@ -1399,7 +1399,7 @@
     {
         "realm": "V",
         "character": "Dorgann",
-        "name": "Courageous Decision",
+        "name": "Courage of Conviction",
         "effect": "Knight abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "勇気ある決断",
@@ -1408,7 +1408,7 @@
     {
         "realm": "V",
         "character": "Dorgann",
-        "name": "Crystal Watcher",
+        "name": "Crystal Champion",
         "effect": "35% chance to dualcast Knight abilities",
         "relic": "-",
         "name(jp)": "クリスタルを見守りし者",
@@ -1493,7 +1493,7 @@
     {
         "realm": "V",
         "character": "Xezat",
-        "name": "Aged Swordsman",
+        "name": "Veteran Swordsman",
         "effect": "Spellblade abilities deal ?% more damage",
         "relic": "-",
         "name(jp)": "老練なる剣士"
@@ -1501,7 +1501,7 @@
     {
         "realm": "V",
         "character": "Xezat",
-        "name": "Warforged King",
+        "name": "Warrior King",
         "effect": "?% chance of smart ether 1 to the user after using a Ice attack",
         "relic": "-",
         "name(jp)": "兵法に長けた老王"
@@ -1519,7 +1519,7 @@
     {
         "realm": "V",
         "character": "Kelger",
-        "name": "Warrior Who Despises Evil",
+        "name": "Detester of Evil",
         "effect": "Increases Earth damage dealt by 10%",
         "relic": "-",
         "name(jp)": "悪を憎む戦士",
@@ -1528,7 +1528,7 @@
     {
         "realm": "V",
         "character": "Kelger",
-        "name": "Chief of the Werewolves",
+        "name": "Leader of the Pack",
         "effect": "30% chance to grant Quick Cast 3 to the user after using a Ninja ability",
         "relic": "-",
         "name(jp)": "ウェアウルフの長",
@@ -2002,17 +2002,19 @@
         "realm": "VII",
         "character": "Barret",
         "name": "Fiery Might",
-        "effect": "PHY attacks deal ?% more damage",
+        "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
-        "name(jp)": "屈強なる熱血漢"
+        "name(jp)": "屈強なる熱血漢",
+        "✓": "✓"
     },
     {
         "realm": "VII",
         "character": "Barret",
         "name": "Comrade's Legacy",
-        "effect": "?% chance to cast an ability (?: random, 7x ? ranged physical Fire/NE) after using a Machinist ability",
+        "effect": "35% chance to cast an ability (PHY: random, 7x 0,31 ranged physical Fire/NE) after using a Machinist ability",
         "relic": "-",
-        "name(jp)": "未来を繋ぐ相棒"
+        "name(jp)": "未来を繋ぐ相棒",
+        "✓": "✓"
     },
     {
         "realm": "VII",
