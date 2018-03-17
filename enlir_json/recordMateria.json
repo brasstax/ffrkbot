@@ -2396,7 +2396,7 @@
     {
         "realm": "V",
         "character": "Xezat",
-        "name": "Friendly King",
+        "name": "Humble Monarch",
         "effect": "50% chance to restore 1 use for all Spellblade abilities at the beginning of the battle",
         "unlockCriteria": "Use Xezat's Memory Crystal",
         "name(jp)": "気さくな王",
@@ -2405,7 +2405,7 @@
     {
         "realm": "V",
         "character": "Xezat",
-        "name": "Swordsman's Pride",
+        "name": "Proud Swordsman",
         "effect": "Spellblade abilities deal 30% more damage",
         "unlockCriteria": "Use Xezat's Memory Crystal II, chance to obtain with Xezat in party",
         "name(jp)": "剣士の自負",
@@ -2423,7 +2423,7 @@
     {
         "realm": "V",
         "character": "Kelger",
-        "name": "Brave Werewolf",
+        "name": "Alpha Wolf",
         "effect": "50% chance to restore 1 use for all Celerity abilities at the beginning of the battle",
         "unlockCriteria": "Use Kelger's Memory Crystal",
         "name(jp)": "勇猛なるウェアウルフ",
@@ -2432,7 +2432,7 @@
     {
         "realm": "V",
         "character": "Kelger",
-        "name": "Speedy Wolf",
+        "name": "Lupine Swiftness",
         "effect": "50% chance to begin the round with full ATB gauge",
         "unlockCriteria": "Use Kelger's Memory Crystal II, chance to obtain with Kelger in party",
         "name(jp)": "迅速な狼戦士",

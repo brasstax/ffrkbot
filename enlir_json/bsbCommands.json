@@ -2416,7 +2416,7 @@
     {
         "character": "Galuf",
         "source": "Renewed Vigor",
-        "name": "Crushing Fist",
+        "name": "Shattering Fist",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -2435,7 +2435,7 @@
     {
         "character": "Galuf",
         "source": "Renewed Vigor",
-        "name": "Rising Spirit",
+        "name": "Restless Spirit",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -3015,7 +3015,7 @@
     {
         "character": "Xezat",
         "source": "Spellstorm Frostclash",
-        "name": "Blade of Echoing Ice",
+        "name": "Roaring Frostblade",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -3034,7 +3034,7 @@
     {
         "character": "Xezat",
         "source": "Spellstorm Frostclash",
-        "name": "Freezing Lightning",
+        "name": "Chilling Stormfront",
         "type": "PHY",
         "target": "All enemies",
         "formula": "Physical",
@@ -3072,7 +3072,7 @@
     {
         "character": "Kelger",
         "source": "Sonic Swiftness",
-        "name": "Lupine Footwork",
+        "name": "Lupine Evasion",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
