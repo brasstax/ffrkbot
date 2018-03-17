@@ -13,7 +13,7 @@ module.exports = class ReplyCommand extends Command {
       name: 'bsb',
       group: 'ffrk',
       memberName: 'bsb',
-      description: '(NOT IMPLEMENTED YET) Looks up a burst soulbreak ' +
+      description: 'Looks up a burst soulbreak ' +
         'for a given character.',
       examples: ['bsb Squall', 'bsb Zell 1', 'bsb \'onion knight\' 2'],
       args: [
