@@ -2620,17 +2620,19 @@
         "realm": "VIII",
         "character": "Raijin",
         "name": "Bold Bolt",
-        "effect": "Increases Lightning damage dealt by ?%",
+        "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "豪胆なる雷"
+        "name(jp)": "豪胆なる雷",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
         "character": "Raijin",
         "name": "Test of Bravery",
-        "effect": "ATK +?% for each hit dealt with Monk abilities, up to +?%",
+        "effect": "ATK +2% for each hit dealt with Monk abilities, up to +50%",
         "relic": "-",
-        "name(jp)": "豪傑の闘技"
+        "name(jp)": "豪傑の闘技",
+        "✓": "✓"
     },
     {
         "realm": "VIII",

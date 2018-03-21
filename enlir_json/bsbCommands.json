@@ -2749,7 +2749,7 @@
     {
         "character": "Bartz",
         "source": "Call of the Flame",
-        "name": "Flaming Spellblade",
+        "name": "Spellblade Blaze",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -2768,7 +2768,7 @@
     {
         "character": "Bartz",
         "source": "Call of the Flame",
-        "name": "Crimson Slash",
+        "name": "Crimson Instinct",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",

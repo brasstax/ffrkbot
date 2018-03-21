@@ -3523,8 +3523,8 @@
     },
     {
         "id": "50090",
-        "commonName": "Flame Dance Follow-Up",
-        "effects": "Casts Flame Dance after dealing damage with a Fire attack",
+        "commonName": "Dance of the Flame Follow-Up",
+        "effects": "Casts Dance of the Flame after dealing damage with a Fire attack",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",

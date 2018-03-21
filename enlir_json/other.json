@@ -314,8 +314,8 @@
     },
     {
         "character": "Status",
-        "source": "Flame Dance Follow-Up",
-        "name": "Flame Dance",
+        "source": "Dance of the Flame Follow-Up",
+        "name": "Dance of the Flame",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
@@ -2444,7 +2444,7 @@
     },
     {
         "character": "Kelger",
-        "source": "Feral Fangs",
+        "source": "Ferocious Fang",
         "name": "Attack",
         "type": "PHY",
         "target": "Single",

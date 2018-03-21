@@ -2414,7 +2414,7 @@
     {
         "realm": "V",
         "character": "Xezat",
-        "name": "Icy Swordsman",
+        "name": "Xezat of Ice",
         "effect": "24% chance to turn Attack into Frost Strike",
         "unlockCriteria": "Bring Xezat to level 99",
         "name(jp)": "氷の異名を持つ剣士",
@@ -2441,7 +2441,7 @@
     {
         "realm": "V",
         "character": "Kelger",
-        "name": "Feral Fangs",
+        "name": "Ferocious Fang",
         "effect": "Attack turns into an ability (PHY: single, 2,10 physical) with 0,01 cast time that grants 0 SB points",
         "unlockCriteria": "Bring Kelger to level 99",
         "name(jp)": "どう猛なる狼の牙",
@@ -6248,9 +6248,10 @@
         "realm": "Type-0",
         "character": "Sice",
         "name": "Resolute Power",
-        "effect": "ATK +?%, DEF -?%",
+        "effect": "ATK +15%, DEF -15%",
         "unlockCriteria": "Bring Sice to level 99",
-        "name(jp)": "執着する力を司る者"
+        "name(jp)": "執着する力を司る者",
+        "✓": "✓"
     },
     {
         "realm": "KH",

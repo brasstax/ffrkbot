@@ -7897,7 +7897,7 @@
         "multiplier": 17,
         "element": "Fire, NE",
         "time": 2.5,
-        "effects": "Ten single attacks (1,70 each), MAG and RES +30% to the user for 25 seconds, grants Attach Fire and Flame Dance Follow-Up to the user",
+        "effects": "Ten single attacks (1,70 each), MAG and RES +30% to the user for 25 seconds, grants Attach Fire and Dance of the Flame Follow-Up to the user",
         "counter": "N",
         "autoTarget": "Lowest HP% enemy",
         "points": 500,
