@@ -3695,7 +3695,7 @@
     },
     {
         "school": "Celerity",
-        "name": "Leaping Blast",
+        "name": "Ripping Blast",
         "rarity": 5,
         "type": "PHY",
         "target": "Single enemy",
@@ -9050,5 +9050,25 @@
         "name(jp)": "ダークインパクト",
         "id": "30311051",
         "✓": "✓"
+    },
+    {
+        "school": "Heavy",
+        "name": "Stone Press",
+        "rarity": 5,
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Earth",
+        "time": "?",
+        "effects": "Breaks damage cap, ?/?/? multiplier if the user has Heavy Charge 0/1/2, causes Heavy Charge =0 to the user",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "sb(jp)": "?",
+        "uses": 2,
+        "max": 10,
+        "introducingEvent": "Brave Festival",
+        "name(jp)": "ストーンプレス"
     }
 ]

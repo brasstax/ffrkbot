@@ -123,6 +123,12 @@
     },
     {
         "realm": "I",
+        "character": "Garland",
+        "effect": "?% chance to dualcast Darkness abilities",
+        "master": "ATK +10"
+    },
+    {
+        "realm": "I",
         "character": "Sarah",
         "name": "Kind-Hearted Princess",
         "effect": "WHT abilities restore 15% more HP",
@@ -318,6 +324,12 @@
     },
     {
         "realm": "II",
+        "character": "Firion",
+        "effect": "?% chance to dualcast Samurai abilities",
+        "master": "ATK +10"
+    },
+    {
+        "realm": "II",
         "character": "Maria",
         "name": "Unshakeable",
         "effect": "Increases Earth damage dealt by 10%",
@@ -491,7 +503,8 @@
         "effect": "Grants Attach Wind at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Ricard's Bracer (II)",
-        "name(jp)": "嵐を駆け抜けし竜"
+        "name(jp)": "嵐を駆け抜けし竜",
+        "✓": "✓"
     },
     {
         "realm": "II",
@@ -518,7 +531,8 @@
         "effect": "Grants Attach Ice at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Aegis Shield (II)",
-        "name(jp)": "仁義あふれる諜報員"
+        "name(jp)": "仁義あふれる諜報員",
+        "✓": "✓"
     },
     {
         "realm": "II",
@@ -689,7 +703,7 @@
     {
         "realm": "III",
         "character": "Ingus",
-        "name": "Steely Soldier",
+        "name": "Resolute Warrior",
         "effect": "Grants Attach Earth at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Genji Armor (III)",
@@ -949,6 +963,15 @@
         "relic": "Rydia's Guise (IV)",
         "name(jp)": "類まれな召喚の才",
         "✓": "✓"
+    },
+    {
+        "realm": "IV",
+        "character": "Rydia",
+        "name": "Immaculate Spirit",
+        "effect": "Grants Attach Water at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Diamond Ring (IV)",
+        "name(jp)": "汚れなき心"
     },
     {
         "realm": "IV",
@@ -1902,17 +1925,19 @@
         "realm": "VI",
         "character": "Kefka",
         "name": "Mad Magician",
-        "effect": "Increases Dark damage dealt by ?%",
+        "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "嗤う魔導士"
+        "name(jp)": "嗤う魔導士",
+        "✓": "✓"
     },
     {
         "realm": "VI",
         "character": "Kefka",
         "name": "Enjoyment for Destruction",
-        "effect": "?% chance to grant Quick Cast 3 to the user after using a Dark attack",
+        "effect": "30% chance to grant Quick Cast 3 to the user after using a Dark attack",
         "relic": "-",
-        "name(jp)": "破壊を謳う享楽の道化"
+        "name(jp)": "破壊を謳う享楽の道化",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -2119,6 +2144,15 @@
         "relic": "Hairpin (VII)",
         "name(jp)": "勇者の息子",
         "✓": "✓"
+    },
+    {
+        "realm": "VII",
+        "character": "Red XIII",
+        "name": "Long-Lived Race",
+        "effect": "?% chance to dualcast Black Magic abilities",
+        "master": "MAG +10",
+        "relic": "Seraph Comb (VII)",
+        "name(jp)": "長命な種族"
     },
     {
         "realm": "VII",
@@ -2430,6 +2464,15 @@
     },
     {
         "realm": "VIII",
+        "character": "Rinoa",
+        "name": "Sorceress in Love",
+        "effect": "Grants Attach Earth at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Derringer (VIII)",
+        "name(jp)": "恋に落ちた魔女"
+    },
+    {
+        "realm": "VIII",
         "character": "Zell",
         "name": "Combat King Aficionado",
         "effect": "PHY attacks deal 10% more damage when equipping a fist weapon",
@@ -2731,7 +2774,7 @@
     {
         "realm": "IX",
         "character": "Zidane",
-        "name": "Thief's Manners",
+        "name": "Thief's Ploy",
         "effect": "25% chance to dualcast abilities that deal Wind damage",
         "master": "ATK +10",
         "relic": "Ninja Gear (IX)",
@@ -3391,6 +3434,15 @@
         "relic": "Wizard's Coat (XI)",
         "name(jp)": "絶対なる唯我独尊",
         "✓": "✓"
+    },
+    {
+        "realm": "XI",
+        "character": "Shantotto",
+        "name": "Insolent Lady",
+        "effect": "Grants Attach Lightning at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Tactician Magician's Wand",
+        "name(jp)": "傍若無人なご婦人"
     },
     {
         "realm": "XI",
@@ -4485,7 +4537,7 @@
     {
         "realm": "XV",
         "character": "Gladiolus",
-        "name": "Hold on the Prince",
+        "name": "Prince's Pillar",
         "effect": "25% chance to dualcast Knight abilities",
         "master": "ATK +10",
         "relic": "Gladiolus's Fatigues (XV)",
