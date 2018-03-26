@@ -1166,8 +1166,8 @@
     },
     {
         "id": "282101",
-        "commonName": "Dark +30% Boost",
-        "effects": "Dark attacks deal 30% more damage, lasts for 1 turn",
+        "commonName": "Darkness +30% Boost",
+        "effects": "Darkness abilities deal 30% more damage",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -1212,6 +1212,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DAMAGE_BOOST_KNIGHT_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282106",
+        "commonName": "Black Magic +30% Boost",
+        "effects": "Black Magic abilities deal 30% more damage",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_BLACK_MAGIC_130_15000_MSEC",
         "notes": "-"
     },
     {
@@ -2018,7 +2028,7 @@
         "effects": "Replaces the Attack and Defend commands, ATK, DEF, MAG, RES, MND, ACC and EVA +20%, SPD +10%",
         "defaultDuration": "-",
         "mndModifier": "-",
-        "exclusiveStatus": "-",
+        "exclusiveStatus": "Brave Mode",
         "codedName": "TRANCE",
         "notes": "-"
     },
@@ -4430,6 +4440,56 @@
         "notes": "-"
     },
     {
+        "id": "50185",
+        "commonName": "Pirate's Steel Follow-Up",
+        "effects": "Casts Pirate's Steel after using two Thief abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_PIRATES_STORM",
+        "notes": "-"
+    },
+    {
+        "id": "50186",
+        "commonName": "EX: Wisdom of Light",
+        "effects": "MAG +30%, cast speed x2,00 for magical damage, casts Wind/Water/Fire/Earth Onion Magic after using a Wind/Water/Fire/Earth Black Magic ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_BLACK_MAGIC_BARRAGE",
+        "notes": "-"
+    },
+    {
+        "id": "50187",
+        "commonName": "Samurai Rank Boost",
+        "effects": "Samurai abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_SAMURAI_MAX_MIDDLE",
+        "notes": "-"
+    },
+    {
+        "id": "50189",
+        "commonName": "Brave Mode",
+        "effects": "Replaces the Attack command",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "Burst Mode",
+        "codedName": "BRAVE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50190",
+        "commonName": "Tidal Flood Follow-Up",
+        "effects": "Casts Tidal Flood after using a Water ability, smart ether 2 when removed",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_SUMMON_PHANTOM_BEAST_AND_ENCOUNTER_OF_FATE",
+        "notes": "-"
+    },
+    {
         "id": "601",
         "commonName": "MAG +X%",
         "effects": "MAG +X%",
@@ -5008,7 +5068,7 @@
     },
     {
         "id": "6016",
-        "commonName": "Cross Slash",
+        "commonName": "Auto Critical",
         "effects": "Critical chance =100%",
         "defaultDuration": 25,
         "mndModifier": "-",
@@ -5092,6 +5152,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CUSTOM_PARAM_MULTI_DEF_M30_MDEF_M30_MND_30",
+        "notes": "-"
+    },
+    {
+        "id": "6025",
+        "commonName": "Auto Critical 2",
+        "effects": "Critical chance =100%, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_100_2",
         "notes": "-"
     },
     {
@@ -5572,6 +5642,86 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_ELEMENT_ATK_DARK_M20",
+        "notes": "-"
+    },
+    {
+        "id": "8017",
+        "commonName": "Medium Buff Fire",
+        "effects": "Increases Fire damage dealt by 20%, cumulable",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_FIRE_20",
+        "notes": "-"
+    },
+    {
+        "id": "8018",
+        "commonName": "Medium Buff Ice",
+        "effects": "Increases Ice damage dealt by 20%, cumulable",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_ICE_20",
+        "notes": "-"
+    },
+    {
+        "id": "8019",
+        "commonName": "Medium Buff Lightning",
+        "effects": "Increases Lightning damage dealt by 20%, cumulable",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_LIGHTNING_20",
+        "notes": "-"
+    },
+    {
+        "id": "8020",
+        "commonName": "Medium Buff Earth",
+        "effects": "Increases Earth damage dealt by 20%, cumulable",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_EARTH_20",
+        "notes": "-"
+    },
+    {
+        "id": "8021",
+        "commonName": "Medium Buff Wind",
+        "effects": "Increases Wind damage dealt by 20%, cumulable",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_WIND_20",
+        "notes": "-"
+    },
+    {
+        "id": "8022",
+        "commonName": "Medium Buff Water",
+        "effects": "Increases Water damage dealt by 20%, cumulable",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_WATER_20",
+        "notes": "-"
+    },
+    {
+        "id": "8023",
+        "commonName": "Medium Buff Holy",
+        "effects": "Increases Holy damage dealt by 20%, cumulable",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_HOLY_20",
+        "notes": "-"
+    },
+    {
+        "id": "8024",
+        "commonName": "Medium Buff Dark",
+        "effects": "Increases Dark damage dealt by 20%, cumulable",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_DARK_20",
         "notes": "-"
     },
     {

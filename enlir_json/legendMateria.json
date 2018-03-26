@@ -124,8 +124,11 @@
     {
         "realm": "I",
         "character": "Garland",
+        "name": "Hatred Beyond Time",
         "effect": "?% chance to dualcast Darkness abilities",
-        "master": "ATK +10"
+        "master": "ATK +10",
+        "relic": "Garland's Mantle (I)",
+        "name(jp)": "時を越えた憎悪"
     },
     {
         "realm": "I",
@@ -325,8 +328,11 @@
     {
         "realm": "II",
         "character": "Firion",
+        "name": "Blade for the Future",
         "effect": "?% chance to dualcast Samurai abilities",
-        "master": "ATK +10"
+        "master": "ATK +10",
+        "relic": "Winged Helm (II)",
+        "name(jp)": "未来を切り開く刃"
     },
     {
         "realm": "II",
@@ -675,7 +681,7 @@
     {
         "realm": "III",
         "character": "Ingus",
-        "name": "Warrior of Earth",
+        "name": "Gaia's Champion",
         "effect": "Knight abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "大地の戦士",
@@ -684,7 +690,7 @@
     {
         "realm": "III",
         "character": "Ingus",
-        "name": "Bold Guard",
+        "name": "Grim Protector",
         "effect": "ATK +3% for each hit taken by damaging attacks, up to +50%",
         "relic": "-",
         "name(jp)": "果敢なる守り手",
@@ -971,7 +977,8 @@
         "effect": "Grants Attach Water at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Diamond Ring (IV)",
-        "name(jp)": "汚れなき心"
+        "name(jp)": "汚れなき心",
+        "✓": "✓"
     },
     {
         "realm": "IV",
@@ -1953,17 +1960,19 @@
         "realm": "VI",
         "character": "Leo",
         "name": "Gestahl's Moral",
-        "effect": "Knight abilities deal ?% more damage",
+        "effect": "Knight abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "ガストラ帝国の良心"
+        "name(jp)": "ガストラ帝国の良心",
+        "✓": "✓"
     },
     {
         "realm": "VI",
         "character": "Leo",
         "name": "Martyr General",
-        "effect": "?% chance to dualcast Knight abilities",
+        "effect": "35% chance to dualcast Knight abilities",
         "relic": "-",
-        "name(jp)": "信念に殉ずる将軍"
+        "name(jp)": "信念に殉ずる将軍",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -3441,8 +3450,9 @@
         "name": "Insolent Lady",
         "effect": "Grants Attach Lightning at the beginning of the battle",
         "master": "MAG +10",
-        "relic": "Tactician Magician's Wand",
-        "name(jp)": "傍若無人なご婦人"
+        "relic": "Tactician Magician's Wand (XI)",
+        "name(jp)": "傍若無人なご婦人",
+        "✓": "✓"
     },
     {
         "realm": "XI",
@@ -4232,7 +4242,7 @@
         "name": "Master of Mending",
         "effect": "30% chance to remove negative effects to the target after using a single-target White Magic ability that restores HP on an ally",
         "master": "MND +10",
-        "relic": "Healer's Robes (XIV)",
+        "relic": "Ironworks Healing Robe (XIV)",
         "name(jp)": "幻術の熟手",
         "✓": "✓"
     },

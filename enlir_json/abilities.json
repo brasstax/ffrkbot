@@ -9068,7 +9068,8 @@
         "sb(jp)": "?",
         "uses": 2,
         "max": 10,
-        "introducingEvent": "Brave Festival",
-        "name(jp)": "ストーンプレス"
+        "introducingEvent": "Fierce Festival",
+        "name(jp)": "ストーンプレス",
+        "id": "30311061"
     }
 ]

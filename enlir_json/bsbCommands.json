@@ -9058,7 +9058,7 @@
         "type": "NAT",
         "target": "Single ally",
         "time": 1.65,
-        "effects": "Grants Cross Slash, causes Ingredients -1 to the user",
+        "effects": "Grants Auto Critical, causes Ingredients -1 to the user",
         "counter": "Y",
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
