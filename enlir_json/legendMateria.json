@@ -1524,17 +1524,19 @@
         "realm": "V",
         "character": "Xezat",
         "name": "Veteran Swordsman",
-        "effect": "Spellblade abilities deal ?% more damage",
+        "effect": "Spellblade abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "老練なる剣士"
+        "name(jp)": "老練なる剣士",
+        "✓": "✓"
     },
     {
         "realm": "V",
         "character": "Xezat",
         "name": "Warrior King",
-        "effect": "?% chance of smart ether 1 to the user after using a Ice attack",
+        "effect": "35% chance of smart ether 1 to the user after using a Ice attack",
         "relic": "-",
-        "name(jp)": "兵法に長けた老王"
+        "name(jp)": "兵法に長けた老王",
+        "✓": "✓"
     },
     {
         "realm": "V",
@@ -2478,7 +2480,8 @@
         "effect": "Grants Attach Earth at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Derringer (VIII)",
-        "name(jp)": "恋に落ちた魔女"
+        "name(jp)": "恋に落ちた魔女",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
