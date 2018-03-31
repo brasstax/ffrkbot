@@ -2485,6 +2485,49 @@
     },
     {
         "realm": "VIII",
+        "character": "Rinoa",
+        "name": "Princess of the Resistance",
+        "effect": "Grants Attach Ice at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Windcutter (VIII)",
+        "name(jp)": "レジスタンスの姫君"
+    },
+    {
+        "realm": "VIII",
+        "character": "Rinoa",
+        "name": "Iridescent Wings",
+        "effect": "?% chance to dualcast Black Magic abilities",
+        "master": "MAG +10",
+        "relic": "Magic Armlet (VIII)",
+        "name(jp)": "異形の翼を持つ少女"
+    },
+    {
+        "realm": "VIII",
+        "character": "Quistis",
+        "name": "Instructor's Training",
+        "effect": "Reduces damage taken by BLK attacks by ?%",
+        "relic": "-",
+        "name(jp)": " 教官の素養 "
+    },
+    {
+        "realm": "VIII",
+        "character": "Quistis",
+        "name": "Prodigious Elite",
+        "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
+        "relic": "-",
+        "name(jp)": " 才色兼備なエリート "
+    },
+    {
+        "realm": "VIII",
+        "character": "Quistis",
+        "name": "Talented SeeD",
+        "effect": "?% chance to dualcast Black Magic abilities",
+        "master": "MAG +10",
+        "relic": "Quistis's Uniform (VIII)",
+        "name(jp)": "SeeDきっての才媛"
+    },
+    {
+        "realm": "VIII",
         "character": "Zell",
         "name": "Combat King Aficionado",
         "effect": "PHY attacks deal 10% more damage when equipping a fist weapon",
@@ -2698,6 +2741,15 @@
         "relic": "Bolt Armlet (VIII)",
         "name(jp)": "轟く豪雷",
         "✓": "✓"
+    },
+    {
+        "realm": "VIII",
+        "character": "Raijin",
+        "name": "Bad Influence",
+        "effect": "Grants Attach Lightning at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Six-fluted Pole (VIII)",
+        "name(jp)": "問題児への友情"
     },
     {
         "realm": "VIII",
@@ -3286,7 +3338,8 @@
         "effect": "Grants Attach Fire at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Peaceful Slumber (X)",
-        "name(jp)": "友との約束"
+        "name(jp)": "友との約束",
+        "✓": "✓"
     },
     {
         "realm": "X",

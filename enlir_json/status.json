@@ -1735,6 +1735,16 @@
         "notes": "-"
     },
     {
+        "id": "2064",
+        "commonName": "Black Magic High Quick Cast",
+        "effects": "Cast speed x3,00 for Black Magic abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_BLACK_MAGIC",
+        "notes": "-"
+    },
+    {
         "id": "501",
         "commonName": "MAG Boost",
         "effects": "MAG +25%",
@@ -3088,7 +3098,7 @@
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "LIGHT_FIRE_AND_IMPACT",
+        "codedName": "ABILITY_BOOST_FOR_KNIGHT_MAX_MIDDLE",
         "notes": "-"
     },
     {
@@ -3452,16 +3462,6 @@
         "notes": "-"
     },
     {
-        "id": "50081",
-        "commonName": "Yuffie's Ninja Rank Boost",
-        "effects": "Ninja abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
-        "defaultDuration": 15,
-        "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ART_OF_NINJA_OVERLAID_BODY",
-        "notes": "-"
-    },
-    {
         "id": "50082",
         "commonName": "Wind Quick Cycle",
         "effects": "Grants Quick Cast 1 after using a Wind attack",
@@ -3508,7 +3508,7 @@
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_SPELL_BLADE_MAX_130",
+        "codedName": "ABILITY_BOOST_FOR_SPELL_BLADE_MAX_MIDDLE",
         "notes": "-"
     },
     {
@@ -3518,7 +3518,7 @@
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_NINJA_MAX_130",
+        "codedName": "ABILITY_BOOST_FOR_NINJA_MAX_MIDDLE",
         "notes": "-"
     },
     {
@@ -3778,7 +3778,7 @@
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_HEAVY_MAX_130",
+        "codedName": "ABILITY_BOOST_FOR_HEAVY_MAX_MIDDLE",
         "notes": "-"
     },
     {
@@ -3838,7 +3838,7 @@
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_SUMMONING_MAX_130",
+        "codedName": "ABILITY_BOOST_FOR_SUMMONING_MAX_MIDDLE",
         "notes": "-"
     },
     {
@@ -3878,7 +3878,7 @@
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_MACHINIST_MAX_130",
+        "codedName": "ABILITY_BOOST_FOR_MACHINIST_MAX_MIDDLE",
         "notes": "-"
     },
     {
@@ -4193,11 +4193,13 @@
     },
     {
         "id": "50160",
+        "commonName": "Boundless",
+        "effects": "Increases damage dealt by 900%, reduces damage taken by 50%, wait speed x2,00, cast speed x2,00",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHOETSU",
-        "notes": "???"
+        "notes": "Used for Yiazmat"
     },
     {
         "id": "50161",
@@ -4467,6 +4469,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Rank Boost\" status",
         "codedName": "ABILITY_BOOST_FOR_SAMURAI_MAX_MIDDLE",
+        "notes": "-"
+    },
+    {
+        "id": "50188",
+        "commonName": "Black Magic Rank Boost",
+        "effects": "Black Magic abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_BLACK_MAGIC_MAX_MIDDLE",
         "notes": "-"
     },
     {
