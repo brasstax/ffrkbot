@@ -227,9 +227,10 @@
         "realm": "I",
         "character": "Matoya",
         "name": "Lady of the Magic Cave",
-        "effect": "?% chance to dualcast Witch abilities",
+        "effect": "35% chance to dualcast Witch abilities",
         "relic": "-",
-        "name(jp)": "魔窟の主"
+        "name(jp)": "魔窟の主",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -2490,7 +2491,8 @@
         "effect": "Grants Attach Ice at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Windcutter (VIII)",
-        "name(jp)": "レジスタンスの姫君"
+        "name(jp)": "レジスタンスの姫君",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -2521,10 +2523,11 @@
         "realm": "VIII",
         "character": "Quistis",
         "name": "Talented SeeD",
-        "effect": "?% chance to dualcast Black Magic abilities",
+        "effect": "25% chance to dualcast Black Magic abilities",
         "master": "MAG +10",
         "relic": "Quistis's Uniform (VIII)",
-        "name(jp)": "SeeDきっての才媛"
+        "name(jp)": "SeeDきっての才媛",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -3037,17 +3040,19 @@
         "realm": "IX",
         "character": "Amarant",
         "name": "Silent Presence",
-        "effect": "Increases Fire damage dealt by ?%",
+        "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "寡黙なコワモテ"
+        "name(jp)": "寡黙なコワモテ",
+        "✓": "✓"
     },
     {
         "realm": "IX",
         "character": "Amarant",
         "name": "Matured Wanderer",
-        "effect": "Restores HP for 100% of the user's maximum HP and grants Amarant Trance when HP fall below ?%",
+        "effect": "Restores HP for 100% of the user's maximum HP and grants Amarant Trance when HP fall below 20%",
         "relic": "-",
-        "name(jp)": "絆の重みを知った拳闘家 "
+        "name(jp)": "絆の重みを知った拳闘家 ",
+        "✓": "✓"
     },
     {
         "realm": "IX",
@@ -4848,17 +4853,19 @@
         "realm": "FFT",
         "character": "Mustadio",
         "name": "Mechanical Expertise",
-        "effect": "Machinist abilities deal ?% more damage",
+        "effect": "Machinist abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "機械への造詣"
+        "name(jp)": "機械への造詣",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
         "character": "Mustadio",
         "name": "Excavator of Relics",
-        "effect": "?% chance to dualcast Machinist abilities",
+        "effect": "35% chance to dualcast Machinist abilities",
         "relic": "-",
-        "name(jp)": "失われた文明の発掘者"
+        "name(jp)": "失われた文明の発掘者",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
@@ -5505,17 +5512,19 @@
         "realm": "Beyond",
         "character": "Aemo",
         "name": "Song of Beginning",
-        "effect": "WHT abilities restore ?% more HP",
+        "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
-        "name(jp)": "初めて知る歌"
+        "name(jp)": "初めて知る歌",
+        "✓": "✓"
     },
     {
         "realm": "Beyond",
         "character": "Aemo",
         "name": "Care for the Future",
-        "effect": "?% chance to grant Physical Blink 1 to the target after using a single-target White Magic ability that restores HP on an ally",
+        "effect": "35% chance to grant Physical Blink 1 to the target after using a single-target White Magic ability that restores HP on an ally",
         "relic": "-",
-        "name(jp)": "想う未来"
+        "name(jp)": "想う未来",
+        "✓": "✓"
     },
     {
         "realm": "Beyond",
