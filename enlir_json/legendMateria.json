@@ -5523,17 +5523,19 @@
         "realm": "Beyond",
         "character": "Lann",
         "name": "Childish One",
-        "effect": "Increases Fire damage dealt by ?%",
+        "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "お調子者"
+        "name(jp)": "お調子者",
+        "✓": "✓"
     },
     {
         "realm": "Beyond",
         "character": "Lann",
         "name": "Resolute Spirit",
-        "effect": "?% chance to dualcast abilities that deal Fire damage",
+        "effect": "35% chance to dualcast abilities that deal Fire damage",
         "relic": "-",
-        "name(jp)": "立ち向かう心"
+        "name(jp)": "立ち向かう心",
+        "✓": "✓"
     },
     {
         "realm": "Beyond",
