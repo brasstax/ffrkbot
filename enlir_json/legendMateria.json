@@ -125,10 +125,11 @@
         "realm": "I",
         "character": "Garland",
         "name": "Hatred Beyond Time",
-        "effect": "?% chance to dualcast Darkness abilities",
+        "effect": "25% chance to dualcast Darkness abilities",
         "master": "ATK +10",
         "relic": "Garland's Mantle (I)",
-        "name(jp)": "時を越えた憎悪"
+        "name(jp)": "時を越えた憎悪",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -330,10 +331,11 @@
         "realm": "II",
         "character": "Firion",
         "name": "Blade for the Future",
-        "effect": "?% chance to dualcast Samurai abilities",
+        "effect": "25% chance to dualcast Samurai abilities",
         "master": "ATK +10",
         "relic": "Winged Helm (II)",
-        "name(jp)": "未来を切り開く刃"
+        "name(jp)": "未来を切り開く刃",
+        "✓": "✓"
     },
     {
         "realm": "II",
@@ -1097,17 +1099,19 @@
         "realm": "IV",
         "character": "Tellah",
         "name": "Keen Insight",
-        "effect": "BLK attacks deal ?% more damage",
+        "effect": "BLK attacks deal 10% more damage",
         "relic": "-",
-        "name(jp)": "魔道への深き見識"
+        "name(jp)": "魔道への深き見識",
+        "✓": "✓"
     },
     {
         "realm": "IV",
         "character": "Tellah",
         "name": "Renowned Sage",
-        "effect": "MAG +?% for each hit dealt with damaging BLK attacks, up to +?%",
+        "effect": "MAG +1% for each hit dealt with damaging BLK attacks, up to +30%",
         "relic": "-",
-        "name(jp)": "鬼才と呼ばれし賢者"
+        "name(jp)": "鬼才と呼ばれし賢者",
+        "✓": "✓"
     },
     {
         "realm": "IV",
@@ -2161,10 +2165,11 @@
         "realm": "VII",
         "character": "Red XIII",
         "name": "Long-Lived Race",
-        "effect": "?% chance to dualcast Black Magic abilities",
+        "effect": "25% chance to dualcast Black Magic abilities",
         "master": "MAG +10",
         "relic": "Seraph Comb (VII)",
-        "name(jp)": "長命な種族"
+        "name(jp)": "長命な種族",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -2498,18 +2503,20 @@
         "realm": "VIII",
         "character": "Rinoa",
         "name": "Iridescent Wings",
-        "effect": "?% chance to dualcast Black Magic abilities",
+        "effect": "25% chance to dualcast Black Magic abilities",
         "master": "MAG +10",
         "relic": "Magic Armlet (VIII)",
-        "name(jp)": "異形の翼を持つ少女"
+        "name(jp)": "異形の翼を持つ少女",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
         "character": "Quistis",
         "name": "Instructor's Training",
-        "effect": "Reduces damage taken by BLK attacks by ?%",
+        "effect": "Reduces damage taken by BLK attacks by 10%",
         "relic": "-",
-        "name(jp)": " 教官の素養 "
+        "name(jp)": " 教官の素養 ",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -2517,7 +2524,8 @@
         "name": "Prodigious Elite",
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
-        "name(jp)": " 才色兼備なエリート "
+        "name(jp)": " 才色兼備なエリート ",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -2752,7 +2760,8 @@
         "effect": "Grants Attach Lightning at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Six-fluted Pole (VIII)",
-        "name(jp)": "問題児への友情"
+        "name(jp)": "問題児への友情",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -3388,10 +3397,11 @@
         "realm": "X",
         "character": "Jecht",
         "name": "Dad's Fist",
-        "effect": "?% chance to dualcast Monk abilities",
+        "effect": "25% chance to dualcast Monk abilities",
         "master": "ATK +10",
         "relic": "Jecht's Armguard (X)",
-        "name(jp)": "親父の拳"
+        "name(jp)": "親父の拳",
+        "✓": "✓"
     },
     {
         "realm": "X",
@@ -3902,7 +3912,7 @@
     {
         "realm": "XII",
         "character": "Larsa",
-        "name": "Consul's Talent",
+        "name": "Velvet Glove",
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "執政者の才",
@@ -3911,7 +3921,7 @@
     {
         "realm": "XII",
         "character": "Larsa",
-        "name": "Future Emperor",
+        "name": "Emperor-In-Waiting",
         "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
         "name(jp)": "次代の皇帝",
@@ -3958,7 +3968,7 @@
     {
         "realm": "XII",
         "character": "Reks",
-        "name": "Fraternal Bond",
+        "name": "For Family",
         "effect": "Spellblade abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "弟想いの兄",
@@ -3967,7 +3977,7 @@
     {
         "realm": "XII",
         "character": "Reks",
-        "name": "Brave Patriot",
+        "name": "For King and Country",
         "effect": "35% chance to dualcast Spellblade abilities",
         "relic": "-",
         "name(jp)": "勇敢なる愛国者",
@@ -4137,17 +4147,19 @@
         "realm": "XIII",
         "character": "Fang",
         "name": "Fearless Warrior",
-        "effect": "Increases Wind damage dealt by ?%",
+        "effect": "Increases Wind damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "精悍なる戦士"
+        "name(jp)": "精悍なる戦士",
+        "✓": "✓"
     },
     {
         "realm": "XIII",
         "character": "Fang",
         "name": "Soaring Dragon's Roar",
-        "effect": "?% chance to cast an ability (?: single, ?x ? physical Wind/NE) after using a Dragoon ability",
+        "effect": "35% chance to cast an ability (PHY: single, 4x 0,54 ranged physical Wind/NE) after using a Dragoon ability",
         "relic": "-",
-        "name(jp)": "大空翔けし竜の咆哮"
+        "name(jp)": "大空翔けし竜の咆哮",
+        "✓": "✓"
     },
     {
         "realm": "XIII",
@@ -5049,9 +5061,10 @@
         "realm": "FFT",
         "character": "Montblanc",
         "name": "Black Mage Flair",
-        "effect": "BLK attacks deal ?% more damage",
+        "effect": "BLK attacks deal 10% more damage",
         "relic": "-",
-        "name(jp)": "黒魔道士の資質"
+        "name(jp)": "黒魔道士の資質",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
@@ -5059,7 +5072,8 @@
         "name": "Time Mage Flair",
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
-        "name(jp)": "時魔道士の資質"
+        "name(jp)": "時魔道士の資質",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
@@ -5482,6 +5496,56 @@
     },
     {
         "realm": "Beyond",
+        "character": "Reynn",
+        "name": "Keen Observer",
+        "effect": "Increases Ice damage dealt by ?%",
+        "relic": "-",
+        "name(jp)": "鋭い観察力"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Reynn",
+        "name": "Longing to Mother",
+        "effect": "?% chance to grant Quick Cast 3 to the user after using a Ice attack",
+        "relic": "-",
+        "name(jp)": "母への憧れ"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Reynn",
+        "name": "Ice Symphony",
+        "effect": "?% chance to dualcast abilities that deal Ice damage",
+        "master": "MAG +10",
+        "relic": "Blue Alpha Arm (Beyond)",
+        "name(jp)": "氷のシンフォニー"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Lann",
+        "name": "Childish One",
+        "effect": "Increases Fire damage dealt by ?%",
+        "relic": "-",
+        "name(jp)": "お調子者"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Lann",
+        "name": "Resolute Spirit",
+        "effect": "?% chance to dualcast abilities that deal Fire damage",
+        "relic": "-",
+        "name(jp)": "立ち向かう心"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Lann",
+        "name": "Fire Harmony",
+        "effect": "Grants Attach Fire at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Searcher Mirage (Beyond)",
+        "name(jp)": "炎のハーモニー"
+    },
+    {
+        "realm": "Beyond",
         "character": "Morrow",
         "name": "Deaming Boy",
         "effect": "Support abilities deal 15% more damage",
@@ -5562,6 +5626,60 @@
         "master": "ATK +10",
         "relic": "Energy Sash (Beyond)",
         "name(jp)": "世界を翔る冒険家",
+        "✓": "✓"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Tama",
+        "name": "Reliable Creature",
+        "effect": "WHT abilities restore ?% more HP",
+        "relic": "-",
+        "name(jp)": "頼れる存在"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Tama",
+        "name": "Power to Bring Back Time",
+        "effect": "?% chance to dualcast White Magic abilities",
+        "relic": "-",
+        "name(jp)": "時を戻す力"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Tama",
+        "name": "Lifesaver",
+        "effect": "20% chance to grant Last Stand to the target after using a single-target White Magic ability that restores HP on an ally",
+        "master": "MND +10",
+        "relic": "Tama's Apron (Beyond)",
+        "name(jp)": "命の残し方",
+        "✓": "✓"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Enna",
+        "name": "Mysterious Woman",
+        "effect": "BLK attacks deal 10% more damage",
+        "relic": "-",
+        "name(jp)": "謎多き女性",
+        "✓": "✓"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Enna",
+        "name": "Creator of Worlds",
+        "effect": "30% chance to grant Quick Cast 3 to the user after using a Black Magic ability",
+        "relic": "-",
+        "name(jp)": "世界の創造神",
+        "✓": "✓"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Enna",
+        "name": "Mysterious Being",
+        "effect": "25% chance to dualcast Black Magic abilities",
+        "master": "MAG +10",
+        "relic": "Roxanne Gloves (Beyond)",
+        "name(jp)": "神秘の存在",
         "✓": "✓"
     }
 ]

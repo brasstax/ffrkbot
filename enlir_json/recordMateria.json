@@ -6442,5 +6442,59 @@
         "unlockCriteria": "Bring Wrieg to level 99",
         "name(jp)": "芽吹く信頼",
         "✓": "✓"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Tama",
+        "name": "Guide of the Journey",
+        "effect": "MND +10% when equipping a rod",
+        "unlockCriteria": "Use Tama's Memory Crystal",
+        "name(jp)": "旅の案内役",
+        "✓": "✓"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Tama",
+        "name": "Good Luck",
+        "effect": "Restores 1 use for all Black Magic and White Magic abilities at the beginning of the battle",
+        "unlockCriteria": "Use Tama's Memory Crystal II, chance to obtain with Tama in party",
+        "name(jp)": "ノリ上手",
+        "✓": "✓"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Tama",
+        "name": "Guide's Ward",
+        "effect": "MAG and MND +13% when equipping a light armor",
+        "unlockCriteria": "Bring Tama to level 99",
+        "name(jp)": "導きの守り手",
+        "✓": "✓"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Enna",
+        "name": "Self-Proclaimed God",
+        "effect": "Increases Earth damage dealt by 10%",
+        "unlockCriteria": "Use Enna's Memory Crystal",
+        "name(jp)": "自称神様",
+        "✓": "✓"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Enna",
+        "name": "Watcher of the Journey",
+        "effect": "MAG +13% when equipping a thrown weapon",
+        "unlockCriteria": "Use Enna's Memory Crystal II, chance to obtain with Enna in party",
+        "name(jp)": "旅の傍観者",
+        "✓": "✓"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Enna",
+        "name": "Smile of God",
+        "effect": "Attack turns into an ability (BLK: single, 2,60 magical Earth)",
+        "unlockCriteria": "Bring Enna to level 99",
+        "name(jp)": "神の微笑み",
+        "✓": "✓"
     }
 ]

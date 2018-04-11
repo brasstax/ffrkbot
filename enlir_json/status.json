@@ -1055,6 +1055,16 @@
         "notes": "-"
     },
     {
+        "id": "28701",
+        "commonName": "Holy Radiant Shield: 75%",
+        "effects": "Returns 75% of the damage taken to the attacker as Holy damage",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_HOLY_75",
+        "notes": "-"
+    },
+    {
         "id": "282",
         "commonName": "Spellblade +15% Boost 2",
         "effects": "Spellblade abilities deal 15% more damage, lasts for 2 turns",
@@ -1086,8 +1096,8 @@
     },
     {
         "id": "282003",
-        "commonName": "Shooter +15% Boost 3",
-        "effects": "Shooter abilities deal 15% more damage, lasts for 3 turns",
+        "commonName": "Sharpshooter +15% Boost 3",
+        "effects": "Sharpshooter abilities deal 15% more damage, lasts for 3 turns",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -1162,6 +1172,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DAMAGE_BOOST_DARK_130_1",
+        "notes": "-"
+    },
+    {
+        "id": "282011",
+        "commonName": "Black Magic +15% Boost 3",
+        "effects": "Black Magic abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_BLACK_MAGIC_115_3",
         "notes": "-"
     },
     {
@@ -1742,6 +1762,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_BLACK_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "2065",
+        "commonName": "Black Magic Quick Cast",
+        "effects": "Cast speed x2,00 for Black Magic abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_BLACK_MAGIC",
         "notes": "-"
     },
     {
@@ -4502,6 +4532,36 @@
         "notes": "-"
     },
     {
+        "id": "50192",
+        "commonName": "Sweet Coffee Follow-Up",
+        "effects": "Casts Sweet Coffee after using a Earth attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_SWEET_COFFEE",
+        "notes": "-"
+    },
+    {
+        "id": "50194",
+        "commonName": "Deep Freeze Follow-Up",
+        "effects": "Casts Deep Freeze after using two Ice attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_DEEP_FREEZE",
+        "notes": "-"
+    },
+    {
+        "id": "50195",
+        "commonName": "Stack Mode",
+        "effects": "Critical chance =50%, casts Heat Burst after using a Fire attack, removed if the user doesn't have any Stoneskin",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "NOSENOSE_MODE",
+        "notes": "-"
+    },
+    {
         "id": "601",
         "commonName": "MAG +X%",
         "effects": "MAG +X%",
@@ -4929,6 +4989,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CUSTOM_MATK_DEF_MDEF",
+        "notes": "-"
+    },
+    {
+        "id": "644",
+        "commonName": "Hymn MND +X%",
+        "effects": "MND +X%",
+        "defaultDuration": "10",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_MND_FOR_SACRED_SONG",
         "notes": "-"
     },
     {
@@ -5932,6 +6002,33 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DO_NOTHING_FOR_DISPEL",
+        "notes": "???"
+    },
+    {
+        "id": "904",
+        "commonName": "Ignore Realm Chain",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DO_NOTHING_FOR_SERIES_COMBO",
+        "notes": "???"
+    },
+    {
+        "id": "905",
+        "commonName": "Ignore AI",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DO_NOTHING_FOR_AI",
+        "notes": "???"
+    },
+    {
+        "id": "906",
+        "commonName": "Ignore AI 2",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DO_NOTHING_FOR_AI_2",
         "notes": "???"
     },
     {
