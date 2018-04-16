@@ -942,7 +942,7 @@
     },
     {
         "character": "Emperor",
-        "source": "Gates of Hell",
+        "source": "Hell's Maw",
         "name": "Heartless Sorrow",
         "type": "BLK",
         "target": "Single enemy",
@@ -961,7 +961,7 @@
     },
     {
         "character": "Emperor",
-        "source": "Gates of Hell",
+        "source": "Hell's Maw",
         "name": "Black Crest",
         "type": "BLK",
         "target": "Single enemy",
@@ -2072,6 +2072,44 @@
         "school": "Black Magic",
         "name(jp)": "グレアハンド",
         "id": "30510892",
+        "✓": "✓"
+    },
+    {
+        "character": "Golbez",
+        "source": "Abyssal Quasar",
+        "name": "Rising Wave",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 10.48,
+        "element": "Dark, NE",
+        "time": 1.65,
+        "effects": "Four single attacks (2,62 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Black Magic",
+        "name(jp)": "ライズウェイブ",
+        "id": "30512761",
+        "✓": "✓"
+    },
+    {
+        "character": "Golbez",
+        "source": "Abyssal Quasar",
+        "name": "Attack System",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 7.95,
+        "element": "Dark, NE",
+        "time": 1.65,
+        "effects": "Three single attacks (2,65 each), grants Quick Cast 2 to the user",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Black Magic",
+        "name(jp)": "迎撃システム",
+        "id": "30512762",
         "✓": "✓"
     },
     {
@@ -3394,7 +3432,7 @@
     },
     {
         "character": "Edgar",
-        "source": "Tri-Effect Drill",
+        "source": "Trifecta Drill",
         "name": "Debilitate Fire",
         "type": "PHY",
         "target": "Single enemy",
@@ -3413,7 +3451,7 @@
     },
     {
         "character": "Edgar",
-        "source": "Tri-Effect Drill",
+        "source": "Trifecta Drill",
         "name": "Debilitate Lightning",
         "type": "PHY",
         "target": "Single enemy",
@@ -6626,7 +6664,7 @@
     },
     {
         "character": "Rikku",
-        "source": "Band Bomb",
+        "source": "Team Bomb",
         "name": "Flash Flood",
         "type": "PHY",
         "target": "Single enemy",
@@ -6645,7 +6683,7 @@
     },
     {
         "character": "Rikku",
-        "source": "Band Bomb",
+        "source": "Team Bomb",
         "name": "Waterfall",
         "type": "PHY",
         "target": "Single enemy",
@@ -8435,7 +8473,7 @@
     },
     {
         "character": "Noel",
-        "source": "Hunter's Frostfang",
+        "source": "Hunter's Rimefang",
         "name": "Icicle Bite",
         "type": "PHY",
         "target": "Single enemy",
@@ -8454,7 +8492,7 @@
     },
     {
         "character": "Noel",
-        "source": "Hunter's Frostfang",
+        "source": "Hunter's Rimefang",
         "name": "Frost Form",
         "type": "PHY",
         "target": "Single enemy",
@@ -10342,7 +10380,7 @@
     },
     {
         "character": "Aemo",
-        "source": "Reprogramming",
+        "source": "Reprogram",
         "name": "Song of Healing",
         "type": "WHT",
         "target": "Single ally",
@@ -10361,7 +10399,7 @@
     },
     {
         "character": "Aemo",
-        "source": "Reprogramming",
+        "source": "Reprogram",
         "name": "Song of Life",
         "type": "WHT",
         "target": "All allies",
@@ -10380,7 +10418,7 @@
     },
     {
         "character": "Wrieg",
-        "source": "Buster Force",
+        "source": "Force Blaster",
         "name": "Geo Crash",
         "type": "PHY",
         "target": "Single enemy",
@@ -10399,7 +10437,7 @@
     },
     {
         "character": "Wrieg",
-        "source": "Buster Force",
+        "source": "Force Blaster",
         "name": "Earth Stomp",
         "type": "PHY",
         "target": "All enemies",

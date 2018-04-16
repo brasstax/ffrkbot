@@ -3483,8 +3483,8 @@
     },
     {
         "id": "50080",
-        "commonName": "Waterblade Follow-Up",
-        "effects": "Casts Waterblade Barrage after using a Water attack",
+        "commonName": "Torrent Blade Follow-Up",
+        "effects": "Casts Torrent Blade after using a Water attack",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3613,7 +3613,7 @@
     },
     {
         "id": "50096",
-        "commonName": "EX: Final Summoner",
+        "commonName": "EX: Last Summoner",
         "effects": "MAG +30%, casts Sonic Ray after dealing damage with a Summoning ability, smart ether 2 when removed",
         "defaultDuration": 15,
         "mndModifier": "-",
@@ -3633,8 +3633,8 @@
     },
     {
         "id": "50098",
-        "commonName": "Overwhelming Follow-Up",
-        "effects": "Casts Overwhelming Follow-Up after dealing damage with a Dark attack",
+        "commonName": "Savage Follow-Up",
+        "effects": "Casts Savage Follow-Up after dealing damage with a Dark attack",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4394,7 +4394,7 @@
     {
         "id": "50177",
         "commonName": "Malice Mode 0",
-        "effects": "Grants Malice Mode 1 after using a Darkness ability, removed if the user hasn't Lingering Fire Finisher",
+        "effects": "Grants Malice Mode 1 after using a Darkness ability, removed if the user hasn't Scythe of Slaughter Finisher",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Malice Mode\" status",
@@ -4559,6 +4559,56 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "NOSENOSE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50199",
+        "commonName": "Decisive Kick Finisher",
+        "effects": "Casts Decisive Kick when removed",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "LOVE_FRYING_PAN_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50200",
+        "commonName": "Frying Pan 0",
+        "effects": "Grants Frying Pan 1 after using a Monk ability, removed if the user hasn't Decisive Kick Finisher",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Frying Pan\" status",
+        "codedName": "LOVE_FRYING_PAN_MODE_BUFF_AND_CHASE_0",
+        "notes": "-"
+    },
+    {
+        "id": "50201",
+        "commonName": "Frying Pan 1",
+        "effects": "Critical chance =30%, cast speed x2,00, grants Frying Pan 2 after using a Monk ability, removed if the user hasn't Decisive Kick Finisher",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Frying Pan\" status",
+        "codedName": "LOVE_FRYING_PAN_MODE_BUFF_AND_CHASE_1",
+        "notes": "-"
+    },
+    {
+        "id": "50202",
+        "commonName": "Frying Pan 2",
+        "effects": "Critical chance =50%, cast speed x2,50, grants Frying Pan 3 after using a Monk ability, removed if the user hasn't Decisive Kick Finisher",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Frying Pan\" status",
+        "codedName": "LOVE_FRYING_PAN_MODE_BUFF_AND_CHASE_2",
+        "notes": "-"
+    },
+    {
+        "id": "50203",
+        "commonName": "Frying Pan 3",
+        "effects": "Critical chance =75%, cast speed x3,00, grants Frying Pan 3 after using a Monk ability, removed if the user hasn't Decisive Kick Finisher",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Frying Pan\" status",
+        "codedName": "LOVE_FRYING_PAN_MODE_BUFF_AND_CHASE_3",
         "notes": "-"
     },
     {
