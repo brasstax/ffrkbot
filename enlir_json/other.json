@@ -47,8 +47,8 @@
     },
     {
         "character": "Status",
-        "source": "Chaos Follow-Up",
-        "name": "Chaos Follow-Up",
+        "source": "Grip of Chaos Follow-Up",
+        "name": "Grip of Chaos",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -1929,7 +1929,7 @@
     },
     {
         "character": "Devout",
-        "source": "Cleansing Bless",
+        "source": "Cleansing Grace",
         "name": "Salve",
         "type": "NAT",
         "target": "Ally with status",

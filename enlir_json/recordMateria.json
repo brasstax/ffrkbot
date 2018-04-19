@@ -317,7 +317,7 @@
     {
         "realm": "Core",
         "character": "Devout",
-        "name": "Cleansing Bless",
+        "name": "Cleansing Grace",
         "effect": "If an ally has negative effects, 70% chance to turn Attack into an ability (NAT: single, removes negative effects)",
         "unlockCriteria": "Bring Devout to level 99",
         "name(jp)": "浄化の祝福",
@@ -569,7 +569,7 @@
     {
         "realm": "Core",
         "character": "Berserker",
-        "name": "Berserker's Violence",
+        "name": "Berserker's Fury",
         "effect": "PHY attacks deal 30% more damage when equipping an axe",
         "unlockCriteria": "Bring Berserker to level 99",
         "name(jp)": "狂戦士の暴乱",

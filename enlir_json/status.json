@@ -3353,8 +3353,8 @@
     },
     {
         "id": "50067",
-        "commonName": "Chaos Follow-Up",
-        "effects": "Casts Chaos Follow-Up after using a Darkness ability",
+        "commonName": "Grip of Chaos Follow-Up",
+        "effects": "Casts Grip of Chaos after using a Darkness ability",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4988,7 +4988,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "CUSTOM_ATK_DEF_MDEF",
+        "codedName": "CUSTOM_ATK_MATK_MND",
         "notes": "-"
     },
     {
