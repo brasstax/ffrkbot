@@ -965,7 +965,7 @@
     {
         "realm": "I",
         "character": "Meia",
-        "name": "Charming Spell",
+        "name": "Bewitching Sorcery",
         "effect": "BLK and SUM attacks deal 10% more damage when equipping a rod",
         "unlockCriteria": "Use Meia's Memory Crystal II, chance to obtain with Meia in party",
         "name(jp)": "妖艶な魔術",
@@ -974,7 +974,7 @@
     {
         "realm": "I",
         "character": "Meia",
-        "name": "Avenger of Palamecia",
+        "name": "Palamecian Avenger",
         "effect": "30% chance to turn Attack into Leviathan",
         "unlockCriteria": "Bring Meia to level 99",
         "name(jp)": "パラミティアの復讐者",

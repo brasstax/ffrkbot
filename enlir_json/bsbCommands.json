@@ -227,7 +227,7 @@
     {
         "character": "Wol",
         "source": "Shijin Spiral",
-        "name": "Trick Attack",
+        "name": "Sneaky Attack",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -246,7 +246,7 @@
     {
         "character": "Wol",
         "source": "Shijin Spiral",
-        "name": "Break Killer",
+        "name": "Break Slayer",
         "type": "PHY",
         "target": "All enemies",
         "formula": "Physical",
@@ -449,7 +449,7 @@
     {
         "character": "Meia",
         "source": "Famfrit",
-        "name": "Pallida Sharing",
+        "name": "Pallida Schelling",
         "type": "SUM",
         "target": "Single enemy",
         "formula": "Magical",
@@ -468,7 +468,7 @@
     {
         "character": "Meia",
         "source": "Famfrit",
-        "name": "Pallida Sharing (S)",
+        "name": "Pallida Schelling (S)",
         "type": "SUM",
         "target": "Single enemy",
         "formula": "Magical",

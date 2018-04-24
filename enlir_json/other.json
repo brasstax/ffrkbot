@@ -64,8 +64,8 @@
     },
     {
         "character": "Status",
-        "source": "Rush Follow-Up",
-        "name": "Rush",
+        "source": "Flurry Follow-Up",
+        "name": "Follow-Up Flurry",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -81,8 +81,8 @@
     },
     {
         "character": "Status",
-        "source": "B Select Follow-Up",
-        "name": "TCELES B HSUP",
+        "source": "Tceles Nottub B Follow-Up",
+        "name": "Tceles Nottub B",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",

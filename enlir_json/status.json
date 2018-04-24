@@ -3363,8 +3363,8 @@
     },
     {
         "id": "50068",
-        "commonName": "Rush Follow-Up",
-        "effects": "Casts Rush after dealing a critical hit",
+        "commonName": "Flurry Follow-Up",
+        "effects": "Casts Follow-Up Flurry after dealing a critical hit",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3373,8 +3373,8 @@
     },
     {
         "id": "50069",
-        "commonName": "B Select Follow-Up",
-        "effects": "Casts TCELES B HSUP after exploiting elemental weakness",
+        "commonName": "Tceles Nottub B Follow-Up",
+        "effects": "Casts Tceles Nottub B after exploiting elemental weakness",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
