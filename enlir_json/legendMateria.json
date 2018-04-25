@@ -134,7 +134,7 @@
     {
         "realm": "I",
         "character": "Sarah",
-        "name": "Kind-Hearted Princess",
+        "name": "Gracious Princess",
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "心優しい姫",
@@ -162,7 +162,7 @@
     {
         "realm": "I",
         "character": "Echo",
-        "name": "Blank's Guide",
+        "name": "Blank Guide",
         "effect": "Reduces damage taken by BLK attacks by 10%",
         "relic": "-",
         "name(jp)": "ブランクを導く者",
@@ -171,7 +171,7 @@
     {
         "realm": "I",
         "character": "Echo",
-        "name": "Mischievous Nature",
+        "name": "Master of Mischief",
         "effect": "Increases the duration of stat debuffs by 40%",
         "relic": "-",
         "name(jp)": "いたずら好きの本領",
@@ -190,7 +190,7 @@
     {
         "realm": "I",
         "character": "Master",
-        "name": "Sharpened Iron Fist",
+        "name": "Fists of Steel",
         "effect": "Monk abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "研ぎ澄ます鉄拳",
@@ -199,7 +199,7 @@
     {
         "realm": "I",
         "character": "Master",
-        "name": "Master's Skill",
+        "name": "Fist of the Master",
         "effect": "35% chance to dualcast Monk abilities",
         "relic": "-",
         "name(jp)": "達人の妙技",
@@ -227,7 +227,7 @@
     {
         "realm": "I",
         "character": "Matoya",
-        "name": "Lady of the Magic Cave",
+        "name": "Cave Keeper",
         "effect": "35% chance to dualcast Witch abilities",
         "relic": "-",
         "name(jp)": "魔窟の主",
@@ -274,7 +274,7 @@
     {
         "realm": "I",
         "character": "Thief (I)",
-        "name": "Dagger Juggler",
+        "name": "Deft Dagger",
         "effect": "PHY attacks deal 10% more damage when equipping a dagger",
         "relic": "-",
         "name(jp)": "巧みな短剣さばき",
@@ -283,7 +283,7 @@
     {
         "realm": "I",
         "character": "Thief (I)",
-        "name": "Thief's Zeal",
+        "name": "Thief's Prestige",
         "effect": "35% chance to dualcast Thief abilities",
         "relic": "-",
         "name(jp)": "盗賊の矜持",
