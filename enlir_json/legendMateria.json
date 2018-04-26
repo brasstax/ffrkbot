@@ -1239,17 +1239,19 @@
         "realm": "IV",
         "character": "Cid (IV)",
         "name": "Pure Craftsmanship",
-        "effect": "Increases Lightning damage dealt by ?%",
+        "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "生粋の職人気質"
+        "name(jp)": "生粋の職人気質",
+        "✓": "✓"
     },
     {
         "realm": "IV",
         "character": "Cid (IV)",
         "name": "Airship Lover",
-        "effect": "?% chance to cause Minor Imperil Lightning to the target after using a Lightning attack on an enemy",
+        "effect": "30% chance to cause Minor Imperil Lightning to the target after using a Lightning attack on an enemy",
         "relic": "-",
-        "name(jp)": "飛空艇を愛する名技師"
+        "name(jp)": "飛空艇を愛する名技師",
+        "✓": "✓"
     },
     {
         "realm": "IV",
@@ -5483,7 +5485,8 @@
         "effect": "Grants Attach Dark at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Silver Bracelet (Type-0)",
-        "name(jp)": "弱肉強食の思想"
+        "name(jp)": "弱肉強食の思想",
+        "✓": "✓"
     },
     {
         "realm": "KH",
@@ -5579,10 +5582,11 @@
         "realm": "Beyond",
         "character": "Reynn",
         "name": "Ice Symphony",
-        "effect": "?% chance to dualcast abilities that deal Ice damage",
+        "effect": "25% chance to dualcast abilities that deal Ice damage",
         "master": "MAG +10",
         "relic": "Blue Alpha Arm (Beyond)",
-        "name(jp)": "氷のシンフォニー"
+        "name(jp)": "氷のシンフォニー",
+        "✓": "✓"
     },
     {
         "realm": "Beyond",

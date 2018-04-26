@@ -983,7 +983,7 @@
     {
         "realm": "I",
         "character": "Thief (I)",
-        "name": "Speedy Thief",
+        "name": "Smooth Operator",
         "effect": "Thief abilities deal 15% more damage",
         "unlockCriteria": "Use Thief (I)'s Memory Crystal",
         "name(jp)": "抜け目ない盗賊",
@@ -992,7 +992,7 @@
     {
         "realm": "I",
         "character": "Thief (I)",
-        "name": "Master of Celerity",
+        "name": "Deft Moves",
         "effect": "ATK +10%, grants Haste at the beginning of the battle",
         "unlockCriteria": "Use Thief (I)'s Memory Crystal II, chance to obtain with Thief (I) in party",
         "name(jp)": "早技の名手",

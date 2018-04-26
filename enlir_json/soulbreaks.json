@@ -1546,18 +1546,19 @@
         "realm": "I",
         "character": "Garland",
         "name": "Glimpse of Chaos",
-        "type": "?",
+        "type": "NAT",
         "target": "Self",
         "time": 0.01,
         "effects": "Grants Medium Buff Dark and High Quick Cast 2",
-        "counter": "?",
-        "autoTarget": "?",
+        "counter": "N",
+        "autoTarget": "Self",
         "points": 250,
         "tier": "Glint",
         "master": "ATK +10",
         "relic": "Garland's Helm (I)",
         "name(jp)": "混沌の片鱗",
-        "id": "22310011"
+        "id": "22310011",
+        "✓": "✓"
     },
     {
         "realm": "I",
