@@ -317,7 +317,7 @@
     {
         "realm": "Core",
         "character": "Devout",
-        "name": "Cleansing Bless",
+        "name": "Cleansing Grace",
         "effect": "If an ally has negative effects, 70% chance to turn Attack into an ability (NAT: single, removes negative effects)",
         "unlockCriteria": "Bring Devout to level 99",
         "name(jp)": "浄化の祝福",
@@ -569,7 +569,7 @@
     {
         "realm": "Core",
         "character": "Berserker",
-        "name": "Berserker's Violence",
+        "name": "Berserker's Fury",
         "effect": "PHY attacks deal 30% more damage when equipping an axe",
         "unlockCriteria": "Bring Berserker to level 99",
         "name(jp)": "狂戦士の暴乱",
@@ -669,7 +669,7 @@
         "realm": "Core",
         "character": "Bard",
         "name": "War Ballad",
-        "effect": "Grants Low Regen at the beginning of the battle, ATK +10%",
+        "effect": "ATK +10%, grants Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Bard's Memory Crystal II, chance to obtain with Bard in party",
         "name(jp)": "戦歌",
         "✓": "✓"
@@ -885,7 +885,7 @@
         "realm": "I",
         "character": "Echo",
         "name": "Tiny Sprite",
-        "effect": "Causes Blind at the beginning of the battle, MAG +10%",
+        "effect": "MAG +10%, causes Blind at the beginning of the battle",
         "unlockCriteria": "Use Echo's Memory Crystal II, chance to obtain with Echo in party",
         "name(jp)": "小さな妖精",
         "✓": "✓"
@@ -894,7 +894,7 @@
         "realm": "I",
         "character": "Echo",
         "name": "Mischievous Sprite",
-        "effect": "Causes Blind at the beginning of the battle, MAG +15%",
+        "effect": "MAG +15%, causes Blind at the beginning of the battle",
         "unlockCriteria": "Bring Echo to level 99",
         "name(jp)": "あまのじゃくな妖精",
         "✓": "✓"
@@ -965,7 +965,7 @@
     {
         "realm": "I",
         "character": "Meia",
-        "name": "Charming Spell",
+        "name": "Bewitching Sorcery",
         "effect": "BLK and SUM attacks deal 10% more damage when equipping a rod",
         "unlockCriteria": "Use Meia's Memory Crystal II, chance to obtain with Meia in party",
         "name(jp)": "妖艶な魔術",
@@ -974,7 +974,7 @@
     {
         "realm": "I",
         "character": "Meia",
-        "name": "Avenger of Palamecia",
+        "name": "Palamecian Avenger",
         "effect": "30% chance to turn Attack into Leviathan",
         "unlockCriteria": "Bring Meia to level 99",
         "name(jp)": "パラミティアの復讐者",
@@ -983,7 +983,7 @@
     {
         "realm": "I",
         "character": "Thief (I)",
-        "name": "Speedy Thief",
+        "name": "Smooth Operator",
         "effect": "Thief abilities deal 15% more damage",
         "unlockCriteria": "Use Thief (I)'s Memory Crystal",
         "name(jp)": "抜け目ない盗賊",
@@ -992,8 +992,8 @@
     {
         "realm": "I",
         "character": "Thief (I)",
-        "name": "Master of Celerity",
-        "effect": "Grants Haste at the beginning of the battle, ATK +10%",
+        "name": "Deft Moves",
+        "effect": "ATK +10%, grants Haste at the beginning of the battle",
         "unlockCriteria": "Use Thief (I)'s Memory Crystal II, chance to obtain with Thief (I) in party",
         "name(jp)": "早技の名手",
         "✓": "✓"
@@ -1020,7 +1020,7 @@
         "realm": "II",
         "character": "Firion",
         "name": "Rebel's Might",
-        "effect": "Grants Low Regen at the beginning of the battle, ATK and DEF +10%",
+        "effect": "ATK and DEF +10%, grants Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Firion's Memory Crystal II, chance to obtain with Firion in party",
         "name(jp)": "反乱軍のエース",
         "✓": "✓"
@@ -1227,7 +1227,7 @@
         "realm": "II",
         "character": "Ricard",
         "name": "Dragoon's Determination",
-        "effect": "Causes Sap at the beginning of the battle, ATK +20%",
+        "effect": "ATK +20%, causes Sap at the beginning of the battle",
         "unlockCriteria": "Use Ricard's Memory Crystal",
         "name(jp)": "竜騎士の決意",
         "✓": "✓"
@@ -1263,7 +1263,7 @@
         "realm": "II",
         "character": "Josef",
         "name": "Self-Sacrifice",
-        "effect": "Causes Sap at the beginning of the battle, ATK and DEF +10%",
+        "effect": "ATK and DEF +10%, causes Sap at the beginning of the battle",
         "unlockCriteria": "Use Josef's Memory Crystal",
         "name(jp)": "自己犠牲",
         "✓": "✓"
@@ -1344,7 +1344,7 @@
         "realm": "II",
         "character": "Scott",
         "name": "Undying Flame",
-        "effect": "Grants Reraise: 40% at the beginning of the battle, DEF +20%",
+        "effect": "DEF +20%, grants Reraise: 40% at the beginning of the battle",
         "unlockCriteria": "Bring Scott to level 99",
         "name(jp)": "消えぬ闘炎",
         "✓": "✓"
@@ -1506,7 +1506,7 @@
         "realm": "III",
         "character": "Desch",
         "name": "Duty Bound",
-        "effect": "Causes Sap at the beginning of the battle, ATK and MAG +10%",
+        "effect": "ATK and MAG +10%, causes Sap at the beginning of the battle",
         "unlockCriteria": "Use Desch's Memory Crystal II, chance to obtain with Desch in party",
         "name(jp)": "使命の果て",
         "✓": "✓"
@@ -1686,7 +1686,7 @@
         "realm": "IV",
         "character": "Kain",
         "name": "Brainwash",
-        "effect": "Causes Confuse at the beginning of the battle, ATK and DEF +10%",
+        "effect": "ATK and DEF +10%, causes Confuse at the beginning of the battle",
         "unlockCriteria": "Use a Jump attack to disrupt Barbariccia's tornado in Tower of Zot - Spire (Elite)",
         "name(jp)": "洗脳",
         "✓": "✓"
@@ -1794,7 +1794,7 @@
         "realm": "IV",
         "character": "Edward",
         "name": "Frail Prince",
-        "effect": "Causes Sap at the beginning of the battle, DEF and RES +10%",
+        "effect": "DEF and RES +10%, causes Sap at the beginning of the battle",
         "unlockCriteria": "Use Edward's Memory Crystal II, chance to obtain with Edward in party",
         "name(jp)": "衰弱の王子",
         "✓": "✓"
@@ -2414,7 +2414,7 @@
     {
         "realm": "V",
         "character": "Xezat",
-        "name": "Icy Swordsman",
+        "name": "Xezat of Ice",
         "effect": "24% chance to turn Attack into Frost Strike",
         "unlockCriteria": "Bring Xezat to level 99",
         "name(jp)": "氷の異名を持つ剣士",
@@ -2441,7 +2441,7 @@
     {
         "realm": "V",
         "character": "Kelger",
-        "name": "Feral Fangs",
+        "name": "Ferocious Fang",
         "effect": "Attack turns into an ability (PHY: single, 2,10 physical) with 0,01 cast time that grants 0 SB points",
         "unlockCriteria": "Bring Kelger to level 99",
         "name(jp)": "どう猛なる狼の牙",
@@ -2694,7 +2694,7 @@
         "realm": "VI",
         "character": "Gau",
         "name": "Feral Might",
-        "effect": "Grants Haste at the beginning of the battle, ATK +10%",
+        "effect": "ATK +10%, grants Haste at the beginning of the battle",
         "unlockCriteria": "Use Gau's Memory Crystal II, chance to obtain with Gau in party",
         "name(jp)": "獣の力",
         "✓": "✓"
@@ -3567,7 +3567,7 @@
         "realm": "VIII",
         "character": "Irvine",
         "name": "Fragile Psyche",
-        "effect": "Causes Confuse at the beginning of the battle, ATK and DEF +10%",
+        "effect": "ATK and DEF +10%, causes Confuse at the beginning of the battle",
         "unlockCriteria": "Use Irvine's Memory Crystal II, chance to obtain with Irvine in party",
         "name(jp)": "繊細な心",
         "✓": "✓"
@@ -3621,7 +3621,7 @@
         "realm": "VIII",
         "character": "Laguna",
         "name": "Charismatic Aura",
-        "effect": "Grants Low Regen at the beginning of the battle, ATK and DEF +10%",
+        "effect": "ATK and DEF +10%, grants Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Laguna's Memory Crystal II, chance to obtain with Laguna in party",
         "name(jp)": "天性のカリスマ",
         "✓": "✓"
@@ -4125,7 +4125,7 @@
         "realm": "IX",
         "character": "Marcus",
         "name": "Noble Thief",
-        "effect": "Grants Haste at the beginning of the battle, ATK and DEF +10%",
+        "effect": "ATK and DEF +10%, grants Haste at the beginning of the battle",
         "unlockCriteria": "Bring Marcus to level 99",
         "name(jp)": "礼儀正しき盗賊",
         "✓": "✓"
@@ -5367,7 +5367,7 @@
         "realm": "XIV",
         "character": "Cid (XIV)",
         "name": "Hidden Truths",
-        "effect": "Causes Confuse at the beginning of the battle, ATK and DEF +10%",
+        "effect": "ATK and DEF +10%, causes Confuse at the beginning of the battle",
         "unlockCriteria": "Use Cid (XIV)'s Memory Crystal",
         "name(jp)": "雪に埋もれた真実",
         "✓": "✓"
@@ -5475,7 +5475,7 @@
         "realm": "XV",
         "character": "Noctis",
         "name": "Sleeping Prince",
-        "effect": "Causes Sleep at the beginning of the battle, ATK and DEF +10%",
+        "effect": "ATK and DEF +10%, causes Sleep at the beginning of the battle",
         "unlockCriteria": "Use Noctis's Memory Crystal",
         "name(jp)": "眠れる王子",
         "✓": "✓"
@@ -5754,7 +5754,7 @@
         "realm": "FFT",
         "character": "Mustadio",
         "name": "Expert Marksman",
-        "effect": "40% chance to turn Attack into an ability (PHY: single, 1,00 physical,  causes Stop (70%))",
+        "effect": "40% chance to turn Attack into an ability (PHY: single, 1,00 physical, causes Stop (70%))",
         "unlockCriteria": "Use Mustadio's Memory Crystal II, chance to obtain with Mustadio in party",
         "name(jp)": "熟練の銃使い",
         "✓": "✓"
@@ -5763,7 +5763,7 @@
         "realm": "FFT",
         "character": "Mustadio",
         "name": "Rare Gift",
-        "effect": "20% chance to turn Attack into an ability (PHY: single, 1,00 physical,  causes Petrify (100%))",
+        "effect": "20% chance to turn Attack into an ability (PHY: single, 1,00 physical, causes Petrify (100%))",
         "unlockCriteria": "Bring Mustadio to level 99",
         "name(jp)": "稀有な特殊技能者",
         "✓": "✓"
@@ -6206,7 +6206,8 @@
         "name": "Grasping Truth",
         "effect": "Grants Magical Blink 1 at the beginning of the battle",
         "unlockCriteria": "Use Seven's Memory Crystal",
-        "name(jp)": "真を見すえる瞳"
+        "name(jp)": "真を見すえる瞳",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
@@ -6248,9 +6249,10 @@
         "realm": "Type-0",
         "character": "Sice",
         "name": "Resolute Power",
-        "effect": "ATK +?%, DEF -?%",
+        "effect": "ATK +15%, DEF -15%",
         "unlockCriteria": "Bring Sice to level 99",
-        "name(jp)": "執着する力を司る者"
+        "name(jp)": "執着する力を司る者",
+        "✓": "✓"
     },
     {
         "realm": "KH",
@@ -6439,6 +6441,60 @@
         "effect": "ATK and DEF +13% when equipping a spear",
         "unlockCriteria": "Bring Wrieg to level 99",
         "name(jp)": "芽吹く信頼",
+        "✓": "✓"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Tama",
+        "name": "Guide of the Journey",
+        "effect": "MND +10% when equipping a rod",
+        "unlockCriteria": "Use Tama's Memory Crystal",
+        "name(jp)": "旅の案内役",
+        "✓": "✓"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Tama",
+        "name": "Good Luck",
+        "effect": "Restores 1 use for all Black Magic and White Magic abilities at the beginning of the battle",
+        "unlockCriteria": "Use Tama's Memory Crystal II, chance to obtain with Tama in party",
+        "name(jp)": "ノリ上手",
+        "✓": "✓"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Tama",
+        "name": "Guide's Ward",
+        "effect": "MAG and MND +13% when equipping a light armor",
+        "unlockCriteria": "Bring Tama to level 99",
+        "name(jp)": "導きの守り手",
+        "✓": "✓"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Enna",
+        "name": "Self-Proclaimed God",
+        "effect": "Increases Earth damage dealt by 10%",
+        "unlockCriteria": "Use Enna's Memory Crystal",
+        "name(jp)": "自称神様",
+        "✓": "✓"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Enna",
+        "name": "Watcher of the Journey",
+        "effect": "MAG +13% when equipping a thrown weapon",
+        "unlockCriteria": "Use Enna's Memory Crystal II, chance to obtain with Enna in party",
+        "name(jp)": "旅の傍観者",
+        "✓": "✓"
+    },
+    {
+        "realm": "Beyond",
+        "character": "Enna",
+        "name": "Smile of God",
+        "effect": "Attack turns into an ability (BLK: single, 2,60 magical Earth)",
+        "unlockCriteria": "Bring Enna to level 99",
+        "name(jp)": "神の微笑み",
         "✓": "✓"
     }
 ]
