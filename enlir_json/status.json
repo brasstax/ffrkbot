@@ -645,6 +645,16 @@
         "notes": "-"
     },
     {
+        "id": "26500",
+        "commonName": "Fire Stoneskin: Magicite 30%",
+        "effects": "Reduces Fire damage taken to 0, up to an amount equal to 30% of the Magicite's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_FIRE_DAMAGE_BARRIER_BEAST_30",
+        "notes": "-"
+    },
+    {
         "id": "26502",
         "commonName": "Lightning Stoneskin: Magicite 30%",
         "effects": "Reduces Lightning damage taken to 0, up to an amount equal to 30% of the Magicite's maximum HP",
@@ -1242,6 +1252,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DAMAGE_BOOST_BLACK_MAGIC_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282108",
+        "commonName": "Celerity or Spellblade +30% Boost",
+        "effects": "Celerity or Spellblade abilities deal 30% more damage",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SPELLBLADE_OR_CELERITY_130_15000_MSEC",
         "notes": "-"
     },
     {
@@ -1995,7 +2015,7 @@
     {
         "id": "524",
         "commonName": "Doom of Atomos",
-        "effects": "Affects Atomos' behaviour after a 30 seconds timer",
+        "effects": "Affects Atomos's behaviour after a 30 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3643,8 +3663,8 @@
     },
     {
         "id": "50099",
-        "commonName": "Seraphim Wing Follow-Up",
-        "effects": "Casts Seraphim Wing after using a Holy or Dark attack",
+        "commonName": "Seraph-Wing Buffet Follow-Up",
+        "effects": "Casts Seraph-Wing Buffet after using a Holy or Dark attack",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4532,6 +4552,15 @@
         "notes": "-"
     },
     {
+        "id": "50191",
+        "commonName": "Boundless Barrier",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHOETSU_BARRIER",
+        "notes": "???"
+    },
+    {
         "id": "50192",
         "commonName": "Sweet Coffee Follow-Up",
         "effects": "Casts Sweet Coffee after using a Earth attack",
@@ -4610,6 +4639,36 @@
         "exclusiveStatus": "All other \"Frying Pan\" status",
         "codedName": "LOVE_FRYING_PAN_MODE_BUFF_AND_CHASE_3",
         "notes": "-"
+    },
+    {
+        "id": "50206",
+        "commonName": "EX: Farseer's Guardian",
+        "effects": "ATK +30%, casts Javelin Frost after using a Ice attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_GUARDIAN_OF_THE_READING_TIME",
+        "notes": "-"
+    },
+    {
+        "id": "50207",
+        "commonName": "Earth Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Earth attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_IF_EARTH_ELEMENT",
+        "notes": "-"
+    },
+    {
+        "id": "50211",
+        "commonName": "Ultimate Doom of Atomos",
+        "effects": "Affects Atomos's behaviour after a 30 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "KYO_SUCTION",
+        "notes": "Used for Atomos (V)"
     },
     {
         "id": "601",
@@ -5049,6 +5108,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CUSTOM_MND_FOR_SACRED_SONG",
+        "notes": "-"
+    },
+    {
+        "id": "645",
+        "commonName": "Covering Fire +X%",
+        "effects": "ATK, DEF, MAG and RES +X%",
+        "defaultDuration": 25,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_MATK_DEF_MDEF_FOR_COVERING_FIRE",
         "notes": "-"
     },
     {
@@ -6079,6 +6148,15 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DO_NOTHING_FOR_AI_2",
+        "notes": "???"
+    },
+    {
+        "id": "907",
+        "commonName": "Untargettable",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DISABLE_TARGET",
         "notes": "???"
     },
     {

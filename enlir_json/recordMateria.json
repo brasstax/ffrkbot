@@ -1001,7 +1001,7 @@
     {
         "realm": "I",
         "character": "Thief (I)",
-        "name": "Dagger's Essence",
+        "name": "Dagger Master",
         "effect": "ATK and RES +13% when equipping a dagger",
         "unlockCriteria": "Bring Thief (I) to level 99",
         "name(jp)": "短剣の極意",
@@ -3386,7 +3386,7 @@
     {
         "realm": "VII",
         "character": "Elena",
-        "name": "Elite Fighter",
+        "name": "First Fist",
         "effect": "ATK +15% when equipping a fist weapon",
         "unlockCriteria": "Bring Elena to level 99",
         "name(jp)": "格闘クラスのエリート",
@@ -3512,7 +3512,7 @@
     {
         "realm": "VIII",
         "character": "Zell",
-        "name": "No Chicken-Wuss",
+        "name": "No Chicken Wuss",
         "effect": "PHY attacks deal 30% more damage when equipping a fist weapon",
         "unlockCriteria": "Bring Zell to level 99",
         "name(jp)": "脱チキン野郎",

@@ -368,7 +368,7 @@
     {
         "realm": "II",
         "character": "Guy",
-        "name": "Naive Benevolence",
+        "name": "True of Heart",
         "effect": "Increases Earth damage dealt by 10%",
         "relic": "-",
         "name(jp)": "素朴な好漢",
@@ -377,7 +377,7 @@
     {
         "realm": "II",
         "character": "Guy",
-        "name": "Gentle Giant",
+        "name": "Measured Might",
         "effect": "30% chance to cause Minor Imperil Earth to the target after using a Earth attack on an enemy",
         "relic": "-",
         "name(jp)": "心優しき怪力青年",
@@ -490,7 +490,7 @@
     {
         "realm": "II",
         "character": "Ricard",
-        "name": "Courageous Dragoon",
+        "name": "Daring Dragoon",
         "effect": "Dragoon abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "勇猛なる竜騎士",
@@ -499,7 +499,7 @@
     {
         "realm": "II",
         "character": "Ricard",
-        "name": "Promised Peace",
+        "name": "Promise of Peace",
         "effect": "ATK +2% for each hit dealt with Dragoon abilities, up to +50%",
         "relic": "-",
         "name(jp)": "愛する者たちに誓う平和",
@@ -518,7 +518,7 @@
     {
         "realm": "II",
         "character": "Josef",
-        "name": "Salamand's Might",
+        "name": "Salamand's Boast",
         "effect": "Monk abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "サラマンドの力自慢",
@@ -527,7 +527,7 @@
     {
         "realm": "II",
         "character": "Josef",
-        "name": "Heroic Decease",
+        "name": "Fitting End",
         "effect": "Causes Light Doom: 15, restores HP to all allies for 55% max HP and grants Last Stand to all allies when HP fall below 20%",
         "relic": "-",
         "name(jp)": "漢の散り様",
@@ -574,18 +574,20 @@
     {
         "realm": "II",
         "character": "Scott",
-        "name": "Virtuous Prince",
-        "effect": "Spellblade abilities deal ?% more damage",
+        "name": "Gallant Prince",
+        "effect": "Spellblade abilities deal 15% more damage",
         "relic": "-",
-        "name(jp)": "潔き王子"
+        "name(jp)": "潔き王子",
+        "✓": "✓"
     },
     {
         "realm": "II",
         "character": "Scott",
-        "name": "Entrusted Ideals",
-        "effect": "?% chance to dualcast Spellblade abilities",
+        "name": "Shining Example",
+        "effect": "35% chance to dualcast Spellblade abilities",
         "relic": "-",
-        "name(jp)": "後進に託す理想"
+        "name(jp)": "後進に託す理想",
+        "✓": "✓"
     },
     {
         "realm": "II",
@@ -1415,6 +1417,16 @@
     },
     {
         "realm": "V",
+        "character": "Galuf",
+        "name": "Royal Charge",
+        "effect": "Grants Attach Earth at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Lambent Hat (V)",
+        "name(jp)": "王の資性",
+        "✓": "✓"
+    },
+    {
+        "realm": "V",
         "character": "Gilgamesh",
         "name": "The Dark Mage's Right Arm",
         "effect": "PHY attacks deal 10% more damage",
@@ -1468,6 +1480,15 @@
         "relic": "Maximillian (V)",
         "name(jp)": "クリスタルのかけらの加護",
         "✓": "✓"
+    },
+    {
+        "realm": "V",
+        "character": "Bartz",
+        "name": "Inherited Skills",
+        "effect": "Spellblade abilities deal ?% more damage when equipping a sword",
+        "master": "ATK +10",
+        "relic": "Golden Shield+ (V)",
+        "name(jp)": "受け継がれし戦士の技"
     },
     {
         "realm": "V",
@@ -4090,6 +4111,15 @@
     },
     {
         "realm": "XIII",
+        "character": "Lightning",
+        "name": "Stoic Warrior",
+        "effect": "Grants Attach Lightning at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Corps Field Beret (XIII)",
+        "name(jp)": "ストイックな女剣士"
+    },
+    {
+        "realm": "XIII",
         "character": "Snow",
         "name": "Fiery Friend",
         "effect": "Reduces damage taken by Ice attacks by 10%",
@@ -4115,6 +4145,15 @@
         "relic": "Snow's Longcoat (XIII)",
         "name(jp)": "不退転の決意",
         "✓": "✓"
+    },
+    {
+        "realm": "XIII",
+        "character": "Snow",
+        "name": "Life of Freedom",
+        "effect": "Grants Haste and Instant Cast 1 at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Indomitus (XIII)",
+        "name(jp)": "自由な生き様"
     },
     {
         "realm": "XIII",
@@ -4213,7 +4252,7 @@
     {
         "realm": "XIII",
         "character": "Fang",
-        "name": "Fearless Warrior",
+        "name": "Dauntless Warrior",
         "effect": "Increases Wind damage dealt by 10%",
         "relic": "-",
         "name(jp)": "精悍なる戦士",
@@ -4222,7 +4261,7 @@
     {
         "realm": "XIII",
         "character": "Fang",
-        "name": "Soaring Dragon's Roar",
+        "name": "Roar On High",
         "effect": "35% chance to cast an ability (PHY: single, 4x 0,54 ranged physical Wind/NE) after using a Dragoon ability",
         "relic": "-",
         "name(jp)": "大空翔けし竜の咆哮",
@@ -4335,7 +4374,7 @@
     {
         "realm": "XIII",
         "character": "Nabaat",
-        "name": "Cold Nature",
+        "name": "Chilling Instincts",
         "effect": "Increases Dark damage dealt by ?%",
         "relic": "-",
         "name(jp)": "冷徹な本性"
@@ -4343,7 +4382,7 @@
     {
         "realm": "XIII",
         "character": "Nabaat",
-        "name": "Concealed Ambition",
+        "name": "Belied Ambition",
         "effect": "?% chance to cause Minor Imperil Dark to the target after using a Dark attack on an enemy",
         "relic": "-",
         "name(jp)": "美貌の裏に潜む野心"
@@ -5438,17 +5477,19 @@
         "realm": "Type-0",
         "character": "Seven",
         "name": "Discerning Student",
-        "effect": "Increases Ice damage dealt by ?%",
+        "effect": "Increases Ice damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "洞察に優れた候補生"
+        "name(jp)": "洞察に優れた候補生",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Seven",
         "name": "Composed Appearance",
-        "effect": "?% chance to grant Quick Cast 3 to the user after using a Ice attack",
+        "effect": "30% chance to grant Quick Cast 3 to the user after using a Ice attack",
         "relic": "-",
-        "name(jp)": "凛々しき佇まい"
+        "name(jp)": "凛々しき佇まい",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
@@ -5566,17 +5607,19 @@
         "realm": "Beyond",
         "character": "Reynn",
         "name": "Keen Observer",
-        "effect": "Increases Ice damage dealt by ?%",
+        "effect": "Increases Ice damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "鋭い観察力"
+        "name(jp)": "鋭い観察力",
+        "✓": "✓"
     },
     {
         "realm": "Beyond",
         "character": "Reynn",
         "name": "Longing to Mother",
-        "effect": "?% chance to grant Quick Cast 3 to the user after using a Ice attack",
+        "effect": "30% chance to grant Quick Cast 3 to the user after using a Ice attack",
         "relic": "-",
-        "name(jp)": "母への憧れ"
+        "name(jp)": "母への憧れ",
+        "✓": "✓"
     },
     {
         "realm": "Beyond",
