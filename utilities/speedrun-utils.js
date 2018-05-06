@@ -95,35 +95,62 @@ exports.speedrun = function lookupSpeedrun(
             // category
             let contestants = [];
             let padLength = 0;
+            console.log(data.values);
             for (let i = 0; i < rows; i++) {
               // categoryRange.row + 2 will give us the starting row of
               // contestants.
               let row = categoryRange.row + 2 + i;
+              // Stop processing if we've hit the end of the list.
+              console.log(data.values[row]);
+              if (data.values[row] === undefined) {
+                break;
+              }
               let contestant = [];
               // entryStartPos gives us the starting cell
               // with the contestant name.
               const entryStartPos = categoryRange.columnNum - 1;
               for (let j = 0;
                    j < categoryNames.length; j++) {
-                     if (data.values[row][entryStartPos + j].length
-                         > padLength) {
+                     // If the entry is somehow undefined or null, put in a ''.
+                     let cell = data.values[row][entryStartPos + j];
+                     if (cell === undefined || cell == null) {
+                       cell = '';
+                     }
+                     if (j === 0 && cell.length === 0) {
+                       // If the name column is empty, then break.
+                       break;
+                     }
+                     if (cell.length > padLength) {
                        // Pad the contestant name table with the longest
                        // contestant name (and add an extra 1 for spacing.)
-                       padLength = data.values[row][entryStartPos + j]
-                       .length + 1;
+                       padLength = cell.length + 1;
                      }
-                     contestant.push(
-                       data.values[row][entryStartPos + j]);
+                     contestant.push(cell);
                    }
-              contestants.push(contestant);
+              if (contestant.length > 0) {
+                contestants.push(contestant);
+              }
             }
+            // Update rows to the length of contestants in case the user does a
+            // 'top 60' or something for a list that doesn't have that many
+            // entries.
             const rankTable =
-              outputRankTable(categorySheet, rows, secondaryCategory,
+              outputRankTable(categorySheet, secondaryCategory,
                 categoryNames, contestants, padLength);
-            msg.channel.send(rankTable)
+            if (rows > contestants.length) {
+              msg.channel.send(
+                `There aren't ${rows} contestants for "${categorySheet}".` +
+                ` Giving you the top ${contestants.length} instead.\n` +
+              rankTable)
               .then( (res) => {
                 resolve(res);
-            });
+              });
+            } else {
+              msg.channel.send(rankTable)
+                .then( (res) => {
+                  resolve(res);
+              });
+            }
           }
         });
       });
@@ -193,17 +220,16 @@ function columnToName(columnNumber) {
 /**
   * Formats a ranking table for output.
   * @param {String} category
-  * @param {Integer} rows
   * @param {String} secondaryCategory
   * @param {Array} categoryNames
   * @param {Array} contestants
   * @param {Integer} namePadLength
   * @return {String} table
   */
-function outputRankTable(category, rows, secondaryCategory,
+function outputRankTable(category, secondaryCategory,
   categoryNames, contestants, namePadLength) {
   let table = '';
-  table += outputTitle(category, rows, secondaryCategory);
+  table += outputTitle(category, contestants.length, secondaryCategory);
   table += outputCategoryHeader(categoryNames, namePadLength);
   table += outputContestants(contestants, namePadLength);
   table = util.format('```%s```', table);
