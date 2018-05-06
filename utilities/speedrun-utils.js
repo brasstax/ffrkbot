@@ -100,16 +100,21 @@ exports.speedrun = function lookupSpeedrun(
               // contestants.
               let row = categoryRange.row + 2 + i;
               let contestant = [];
-              for (let j = 1;
-                   j <= categoryNames.length; j++) {
-                     // j is initially 1 because we don't care about getting
-                     // the rank.
-                     if (data.values[row][j].length > padLength) {
+              // entryStartPos gives us the starting cell
+              // with the contestant name.
+              const entryStartPos = categoryRange.columnNum - 1;
+              for (let j = 0;
+                   j < categoryNames.length; j++) {
+                     console.log(data.values[row][entryStartPos + j]);
+                     if (data.values[row][entryStartPos + j].length
+                         > padLength) {
                        // Pad the contestant name table with the longest
                        // contestant name (and add an extra 1 for spacing.)
-                       padLength = data.values[row][j].length + 1;
+                       padLength = data.values[row][entryStartPos + j]
+                       .length + 1;
                      }
-                     contestant.push(data.values[row][j]);
+                     contestant.push(
+                       data.values[row][entryStartPos + j]);
                    }
               contestants.push(contestant);
             }
@@ -254,10 +259,14 @@ function outputCategoryHeader(categoryNames, namePadLength) {
 function outputContestants(contestants, namePadLength) {
   let formattedContestants = '';
   for (let i = 0; i < contestants.length; i++) {
+    console.log(contestants[i]);
+    // Rank output
     formattedContestants += pad(4, i + 1);
     formattedContestants += ' | ';
+    // Name output
     formattedContestants += pad(contestants[i][0], namePadLength);
     formattedContestants += ' | ';
+    // Any other attribute output
     for (let j = 1; j < contestants[i].length; j++) {
       formattedContestants += pad(contestants[i][j], 9);
       formattedContestants += ' | ';
