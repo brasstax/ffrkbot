@@ -358,7 +358,7 @@
     {
         "realm": "II",
         "character": "Maria",
-        "name": "Dephts of Sorrow",
+        "name": "Depths of Sorrow",
         "effect": "Grants Attach Earth at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Maria's Armguards (II)",
@@ -1485,10 +1485,11 @@
         "realm": "V",
         "character": "Bartz",
         "name": "Inherited Skills",
-        "effect": "Spellblade abilities deal ?% more damage when equipping a sword",
+        "effect": "Spellblade abilities deal 25% more damage when equipping a sword",
         "master": "ATK +10",
         "relic": "Golden Shield+ (V)",
-        "name(jp)": "受け継がれし戦士の技"
+        "name(jp)": "受け継がれし戦士の技",
+        "✓": "✓"
     },
     {
         "realm": "V",
@@ -4375,17 +4376,19 @@
         "realm": "XIII",
         "character": "Nabaat",
         "name": "Chilling Instincts",
-        "effect": "Increases Dark damage dealt by ?%",
+        "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "冷徹な本性"
+        "name(jp)": "冷徹な本性",
+        "✓": "✓"
     },
     {
         "realm": "XIII",
         "character": "Nabaat",
         "name": "Belied Ambition",
-        "effect": "?% chance to cause Minor Imperil Dark to the target after using a Dark attack on an enemy",
+        "effect": "30% chance to cause Minor Imperil Dark to the target after using a Dark attack on an enemy",
         "relic": "-",
-        "name(jp)": "美貌の裏に潜む野心"
+        "name(jp)": "美貌の裏に潜む野心",
+        "✓": "✓"
     },
     {
         "realm": "XIII",
@@ -5438,7 +5441,7 @@
     {
         "realm": "Type-0",
         "character": "King",
-        "name": "Dephts Within",
+        "name": "Depths Within",
         "effect": "Grants Attach Lightning at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Platinum Gloves (Type-0)",
