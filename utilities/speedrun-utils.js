@@ -95,13 +95,11 @@ exports.speedrun = function lookupSpeedrun(
             // category
             let contestants = [];
             let padLength = 0;
-            console.log(data.values);
             for (let i = 0; i < rows; i++) {
               // categoryRange.row + 2 will give us the starting row of
               // contestants.
               let row = categoryRange.row + 2 + i;
               // Stop processing if we've hit the end of the list.
-              console.log(data.values[row]);
               if (data.values[row] === undefined) {
                 break;
               }
