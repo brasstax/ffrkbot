@@ -18,7 +18,7 @@ module.exports = class ReplyCommand extends Command {
       ' (https://docs.google.com/spreadsheets/d/11gTjAkpm4D3uoxnYCN7ZfbiVnKyi7tmm9Vp9HvTkGpw).' +
       ' (You can specify a number for X, or omit it for the entire chart' +
       ' of a given category.)',
-      examples: ['top 10', 'top 10 no-csb', 'top cod 5', 'top Malaris 3'],
+      examples: ['top 10', 'top 10 no-csb', 'top 5 cod', 'top 3 Maliris'],
       args: [
         {
           key: 'rows',
