@@ -5,6 +5,7 @@ const OAuth2Client = google.auth.OAuth2;
 fs.readFileAsync = util.promisify(fs.readFile);
 const titlecase = require('titlecase');
 const escapeStringRegexp = require('escape-string-regexp');
+const pad = require('pad');
 
 const SPREADSHEET_ID = '11gTjAkpm4D3uoxnYCN7ZfbiVnKyi7tmm9Vp9HvTkGpw';
 const TOKEN_PATH = 'secrets/credentials.json';
@@ -93,18 +94,28 @@ exports.speedrun = function lookupSpeedrun(
             // The contestants will always be in the row right below the
             // category
             let contestants = [];
+            let padLength = 0;
             for (let i = 0; i < rows; i++) {
+              // categoryRange.row + 2 will give us the starting row of
+              // contestants.
               let row = categoryRange.row + 2 + i;
               let contestant = [];
               for (let j = 1;
                    j <= categoryNames.length; j++) {
                      // j is initially 1 because we don't care about getting
                      // the rank.
+                     if (data.values[row][j].length > padLength) {
+                       // Pad the contestant name table with the longest
+                       // contestant name (and add an extra 1 for spacing.)
+                       padLength = data.values[row][j].length + 1;
+                     }
                      contestant.push(data.values[row][j]);
                    }
               contestants.push(contestant);
             }
-            msg.channel.send(contestants)
+            const rankTable =
+              outputRankTable(categoryNames, contestants, padLength);
+            msg.channel.send(rankTable)
               .then( (res) => {
                 resolve(res);
             });
@@ -172,4 +183,40 @@ function columnToName(columnNumber) {
     columnNumber = Math.floor((columnNumber - modulo)/26);
   }
   return columnName;
+}
+
+/**
+  * Formats a ranking table for output.
+  * @param {Array} categoryNames
+  * @param {Array} contestants
+  * @param {Integer} namePadLength
+  * @return {String} table
+  */
+function outputRankTable(categoryNames, contestants, namePadLength) {
+  let table = '';
+  table += outputCategoryHeader(categoryNames, namePadLength);
+  table = util.format('```%s```', table);
+  return table;
+}
+/**
+  * Outputs category headers for table.
+  * @param {Array} categoryNames
+  * @param {Integer} namePadLength
+  * @return {String} categoryHeader
+  */
+function outputCategoryHeader(categoryNames, namePadLength) {
+  let categoryHeader = '';
+  categoryHeader += 'Rank | ';
+  categoryHeader += pad(categoryNames[0], namePadLength);
+  categoryHeader += ' | ';
+  for (let i = 1; i < categoryNames.length; i++) {
+    categoryHeader += pad(categoryNames[i], 5);
+    categoryHeader += ' | ';
+  }
+  const repeatLength = categoryHeader.length - 1;
+  categoryHeader += '\n';
+  // create a series of dashes to indicate header
+  categoryHeader += '-'.repeat(repeatLength);
+  categoryHeader += '\n';
+  return categoryHeader;
 }
