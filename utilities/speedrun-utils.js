@@ -41,11 +41,12 @@ exports.speedrun = function lookupSpeedrun(
         category = category.toLowerCase();
         const categorySheet = getSheet(category);
         secondaryCategory = titlecase.toLaxTitleCase(secondaryCategory);
-        sheets.spreadsheets.values.get({
+        const request = {
           spreadsheetId: SPREADSHEET_ID,
           range: categorySheet,
           auth: oAuth2Client,
-        }, (err, {data}) => {
+        };
+        sheets.spreadsheets.values.get(request, (err, {data}) => {
           if (err) {
             if (err.code === 400) {
               console.log(err.message);
@@ -64,9 +65,44 @@ exports.speedrun = function lookupSpeedrun(
               });
             }
           } else {
-            const range = find(secondaryCategory, data.values);
-            console.log(range);
-            msg.channel.send(category)
+            // Find where the secondaryCategory is on the sheet in question
+            console.log(data);
+            const categoryRange = find(secondaryCategory, data.values);
+            let categoryNames = [];
+            // Get the row where the categories lie.
+            const categoryRow = data.values[categoryRange.row + 1];
+            // Start from the place where secondaryCategory was found,
+            // Add 2 to categoryRow because the category rows are always going
+            // to be 2 below the secondary category,
+            // push secondaryCategory into cagetoryNames,
+            // increment the place where secondaryCategory was found by one,
+            // and keep going until we either hit a '' or undefined.
+            for
+            (let i = categoryRange.columnNum - 1; i < categoryRow.length; i++) {
+              console.log(i);
+              if (categoryRow[i] === undefined ||
+                  categoryRow[i] === '' ||
+                  categoryRow[i] === null) {
+                break;
+              }
+              console.log(categoryRow[i]);
+              categoryNames.push(categoryRow[i]);
+            }
+            // Now that we know the category names, we need to get the values of
+            // the top {rows} contestants.
+            // The contestants will always be in the row right below the
+            // category
+            let contestants = [];
+            for (let i = categoryRange.row + 2; i <= rows; i++) {
+              let contestant = [];
+              for (let j = categoryRange.columnNum - 1;
+                   j < categoryRow.length; j++) {
+                     // the first criteria is always their name.
+                     contestant.push(data.values[i][j]);
+                   }
+              contestants.push(contestant);
+            }
+            msg.channel.send(contestants)
               .then( (res) => {
                 resolve(res);
             });
@@ -113,7 +149,7 @@ function find(value, data) {
     for (let j = 0; j < data[i].length; j++) {
       if (data[i][j] == value) {
         const columnName = columnToName(j + 1);
-        return {row: i + 1, column: columnName};
+        return {row: i + 1, column: columnName, columnNum: j + 1};
       }
     }
   }
