@@ -93,12 +93,14 @@ exports.speedrun = function lookupSpeedrun(
             // The contestants will always be in the row right below the
             // category
             let contestants = [];
-            for (let i = categoryRange.row + 2; i <= rows; i++) {
+            for (let i = 0; i < rows; i++) {
+              let row = categoryRange.row + 2 + i;
               let contestant = [];
-              for (let j = 0;
+              for (let j = 1;
                    j <= categoryNames.length; j++) {
-                     // the first criteria is always their name.
-                     contestant.push(data.values[i][j]);
+                     // j is initially 1 because we don't care about getting
+                     // the rank.
+                     contestant.push(data.values[row][j]);
                    }
               contestants.push(contestant);
             }
