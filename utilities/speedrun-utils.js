@@ -114,7 +114,8 @@ exports.speedrun = function lookupSpeedrun(
               contestants.push(contestant);
             }
             const rankTable =
-              outputRankTable(categoryNames, contestants, padLength);
+              outputRankTable(categorySheet, rows, secondaryCategory,
+                categoryNames, contestants, padLength);
             msg.channel.send(rankTable)
               .then( (res) => {
                 resolve(res);
@@ -187,16 +188,40 @@ function columnToName(columnNumber) {
 
 /**
   * Formats a ranking table for output.
+  * @param {String} category
+  * @param {Integer} rows
+  * @param {String} secondaryCategory
   * @param {Array} categoryNames
   * @param {Array} contestants
   * @param {Integer} namePadLength
   * @return {String} table
   */
-function outputRankTable(categoryNames, contestants, namePadLength) {
+function outputRankTable(category, rows, secondaryCategory,
+  categoryNames, contestants, namePadLength) {
   let table = '';
+  table += outputTitle(category, rows, secondaryCategory);
   table += outputCategoryHeader(categoryNames, namePadLength);
+  table += outputContestants(contestants, namePadLength);
   table = util.format('```%s```', table);
   return table;
+}
+/**
+  * Outputs the title of the table.
+  * @param {String} category
+  * @param {Integer} rows
+  * @param {String} secondaryCategory
+  * @return {String} title
+  */
+function outputTitle(category, rows, secondaryCategory) {
+  console.log(category, rows, secondaryCategory);
+  let title = '';
+  if (category === 'GL 4* Overall rankings' ||
+      category === 'GL 4* No CSB rankings') {
+        title = `Top ${rows} ${category}\n`;
+  } else {
+    title = `Top ${rows} ${category} (${secondaryCategory})\n`;
+  }
+  return title;
 }
 /**
   * Outputs category headers for table.
@@ -210,7 +235,7 @@ function outputCategoryHeader(categoryNames, namePadLength) {
   categoryHeader += pad(categoryNames[0], namePadLength);
   categoryHeader += ' | ';
   for (let i = 1; i < categoryNames.length; i++) {
-    categoryHeader += pad(categoryNames[i], 5);
+    categoryHeader += pad(categoryNames[i], 9);
     categoryHeader += ' | ';
   }
   const repeatLength = categoryHeader.length - 1;
@@ -219,4 +244,25 @@ function outputCategoryHeader(categoryNames, namePadLength) {
   categoryHeader += '-'.repeat(repeatLength);
   categoryHeader += '\n';
   return categoryHeader;
+}
+/**
+  * Outputs contestants.
+  * @param {Array} contestants
+  * @param {Integer} namePadLength
+  * @return {String} formattedContestants
+  */
+function outputContestants(contestants, namePadLength) {
+  let formattedContestants = '';
+  for (let i = 0; i < contestants.length; i++) {
+    formattedContestants += pad(4, i + 1);
+    formattedContestants += ' | ';
+    formattedContestants += pad(contestants[i][0], namePadLength);
+    formattedContestants += ' | ';
+    for (let j = 1; j < contestants[i].length; j++) {
+      formattedContestants += pad(contestants[i][j], 9);
+      formattedContestants += ' | ';
+    }
+    formattedContestants += '\n';
+  }
+  return formattedContestants;
 }
