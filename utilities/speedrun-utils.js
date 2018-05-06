@@ -34,6 +34,9 @@ async function authorize() {
 
 exports.speedrun = function lookupSpeedrun(
   msg, rows, category, secondaryCategory) {
+  console.log(util.format('.top caller: %s#%s for top %s %s (%s)',
+    msg.author.username, msg.author.discriminator,
+    rows, category, secondaryCategory));
   return new Promise((resolve, reject) => {
     const sheets = google.sheets({version: 'v4'});
     authorize()
@@ -67,7 +70,6 @@ exports.speedrun = function lookupSpeedrun(
             }
           } else {
             // Find where the secondaryCategory is on the sheet in question
-            console.log(data);
             const categoryRange = find(secondaryCategory, data.values);
             let categoryNames = [];
             // Get the row where the categories lie.
@@ -80,13 +82,11 @@ exports.speedrun = function lookupSpeedrun(
             // and keep going until we either hit a '' or undefined.
             for
             (let i = categoryRange.columnNum - 1; i < categoryRow.length; i++) {
-              console.log(i);
               if (categoryRow[i] === undefined ||
                   categoryRow[i] === '' ||
                   categoryRow[i] === null) {
                 break;
               }
-              console.log(categoryRow[i]);
               categoryNames.push(categoryRow[i]);
             }
             // Now that we know the category names, we need to get the values of
@@ -105,7 +105,6 @@ exports.speedrun = function lookupSpeedrun(
               const entryStartPos = categoryRange.columnNum - 1;
               for (let j = 0;
                    j < categoryNames.length; j++) {
-                     console.log(data.values[row][entryStartPos + j]);
                      if (data.values[row][entryStartPos + j].length
                          > padLength) {
                        // Pad the contestant name table with the longest
@@ -218,7 +217,6 @@ function outputRankTable(category, rows, secondaryCategory,
   * @return {String} title
   */
 function outputTitle(category, rows, secondaryCategory) {
-  console.log(category, rows, secondaryCategory);
   let title = '';
   if (category === 'GL 4* Overall rankings' ||
       category === 'GL 4* No CSB rankings') {
@@ -259,7 +257,6 @@ function outputCategoryHeader(categoryNames, namePadLength) {
 function outputContestants(contestants, namePadLength) {
   let formattedContestants = '';
   for (let i = 0; i < contestants.length; i++) {
-    console.log(contestants[i]);
     // Rank output
     formattedContestants += pad(4, i + 1);
     formattedContestants += ' | ';
