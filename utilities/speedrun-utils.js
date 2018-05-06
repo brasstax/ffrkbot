@@ -95,8 +95,8 @@ exports.speedrun = function lookupSpeedrun(
             let contestants = [];
             for (let i = categoryRange.row + 2; i <= rows; i++) {
               let contestant = [];
-              for (let j = categoryRange.columnNum - 1;
-                   j < categoryRow.length; j++) {
+              for (let j = 0;
+                   j <= categoryNames.length; j++) {
                      // the first criteria is always their name.
                      contestant.push(data.values[i][j]);
                    }
