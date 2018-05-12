@@ -4591,6 +4591,36 @@
         "notes": "-"
     },
     {
+        "id": "50196",
+        "commonName": "Non-Elemental +50% Boost",
+        "effects": "Increases Non-Elemental damage dealt by 50%",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "NORMAL_ELEMENT_DAGAME_BOOST_50_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "50197",
+        "commonName": "EX: Future King",
+        "effects": "ATK +30%, cast speed x2,00, casts Shift Strike after using a Combat or Celerity ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_THE_KING_OF_FUTURE",
+        "notes": "-"
+    },
+    {
+        "id": "50198",
+        "commonName": "Shield of the King Finisher",
+        "effects": "Casts Shield of the King when removed",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EXIT_CHASE_MODE_FOR_SHIELD_OF_THE_KING",
+        "notes": "-"
+    },
+    {
         "id": "50199",
         "commonName": "Decisive Kick Finisher",
         "effects": "Casts Decisive Kick when removed",
@@ -5418,7 +5448,7 @@
     {
         "id": "801",
         "commonName": "Attach Lightning",
-        "effects": "Replaces Attack command, increases Lightning damage dealt by 50/70/100% (abilities) or 80/90/100% (Soul Breaks), Lightning resistance +20%",
+        "effects": "Replaces Attack command, increases Lightning damage dealt by 50/80/120% (abilities) or 80/100/120% (Soul Breaks), Lightning resistance +20%",
         "defaultDuration": 25,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -5428,7 +5458,7 @@
     {
         "id": "804",
         "commonName": "Attach Fire",
-        "effects": "Replaces Attack command, increases Fire damage dealt by 50/70/100%  (abilities) or 80/90/100% (Soul Breaks), Fire resistance +20%",
+        "effects": "Replaces Attack command, increases Fire damage dealt by 50/80/120%  (abilities) or 80/100/120% (Soul Breaks), Fire resistance +20%",
         "defaultDuration": 25,
         "mndModifier": "-",
         "exclusiveStatus": "Frozen",
@@ -5438,7 +5468,7 @@
     {
         "id": "807",
         "commonName": "Attach Wind",
-        "effects": "Replaces Attack command, increases Wind damage dealt by 50/70/100% (abilities) or 80/90/100% (Soul Breaks), Wind resistance +20%",
+        "effects": "Replaces Attack command, increases Wind damage dealt by 50/80/120% (abilities) or 80/100/120% (Soul Breaks), Wind resistance +20%",
         "defaultDuration": 25,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -5448,7 +5478,7 @@
     {
         "id": "810",
         "commonName": "Attach Earth",
-        "effects": "Replaces Attack command, increases Earth damage dealt by 50/70/100% (abilities) or 80/90/100% (Soul Breaks), Earth resistance +20%",
+        "effects": "Replaces Attack command, increases Earth damage dealt by 50/80/120% (abilities) or 80/100/120% (Soul Breaks), Earth resistance +20%",
         "defaultDuration": 25,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -5458,7 +5488,7 @@
     {
         "id": "813",
         "commonName": "Attach Dark",
-        "effects": "Replaces Attack command, increases Dark damage dealt by 50/70/100% (abilities) or 80/90/100% (Soul Breaks), Dark resistance +20%",
+        "effects": "Replaces Attack command, increases Dark damage dealt by 50/80/120% (abilities) or 80/100/120% (Soul Breaks), Dark resistance +20%",
         "defaultDuration": 25,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -5468,7 +5498,7 @@
     {
         "id": "816",
         "commonName": "Attach Holy",
-        "effects": "Replaces Attack command, increases Holy damage dealt by 50/70/100% (abilities) or 80/90/100% (Soul Breaks), Holy resistance +20%",
+        "effects": "Replaces Attack command, increases Holy damage dealt by 50/80/120% (abilities) or 80/100/120% (Soul Breaks), Holy resistance +20%",
         "defaultDuration": 25,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -5478,7 +5508,7 @@
     {
         "id": "819",
         "commonName": "Attach Water",
-        "effects": "Replaces Attack command, increases Water damage dealt by 50/70/100% (abilities) or 80/90/100% (Soul Breaks), Water resistance +20%",
+        "effects": "Replaces Attack command, increases Water damage dealt by 50/80/120% (abilities) or 80/100/120% (Soul Breaks), Water resistance +20%",
         "defaultDuration": 25,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -5488,7 +5518,7 @@
     {
         "id": "822",
         "commonName": "Attach Ice",
-        "effects": "Replaces Attack command, increases Ice damage dealt by 50/70/100% (abilities) or 80/90/100% (Soul Breaks), Ice resistance +20%",
+        "effects": "Replaces Attack command, increases Ice damage dealt by 50/80/120% (abilities) or 80/100/120% (Soul Breaks), Ice resistance +20%",
         "defaultDuration": 25,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -5498,7 +5528,7 @@
     {
         "id": "825",
         "commonName": "Attach Poison",
-        "effects": "Replaces Attack command, increases Poison damage dealt by 50/70/100% (abilities) or 80/90/100% (Soul Breaks), Poison resistance +20%",
+        "effects": "Replaces Attack command, increases Poison damage dealt by 50/80/120% (abilities) or 80/100/120% (Soul Breaks), Poison resistance +20%",
         "defaultDuration": 25,
         "mndModifier": "-",
         "exclusiveStatus": "-",

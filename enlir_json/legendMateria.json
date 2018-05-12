@@ -4738,6 +4738,15 @@
     },
     {
         "realm": "XV",
+        "character": "Gladiolus",
+        "name": "Acknowledged Warrior",
+        "effect": "Grants Attach Earth at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Gladiolus's Guise (XV)",
+        "name(jp)": "英霊が認めし戦士"
+    },
+    {
+        "realm": "XV",
         "character": "Ignis",
         "name": "Wise Youth",
         "effect": "Increases Fire damage dealt by 10%",
@@ -5423,7 +5432,7 @@
     {
         "realm": "Type-0",
         "character": "King",
-        "name": "Vermillion Guns",
+        "name": "Crimson Firearms",
         "effect": "PHY attacks deal 10% more damage when equipping a gun",
         "relic": "-",
         "name(jp)": "朱雀の二丁拳銃",
@@ -5432,7 +5441,7 @@
     {
         "realm": "Type-0",
         "character": "King",
-        "name": "Silent Gunslinger",
+        "name": "Solemn Marksman",
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "不言実行の銃士",
@@ -5451,7 +5460,7 @@
     {
         "realm": "Type-0",
         "character": "Cinque",
-        "name": "Student of the Mace",
+        "name": "Mistress of the Mace",
         "effect": "PHY attacks deal 10% more damage when equipping a hammer",
         "relic": "-",
         "name(jp)": "メイスを操る候補生",
@@ -5460,7 +5469,7 @@
     {
         "realm": "Type-0",
         "character": "Cinque",
-        "name": "Strong Maiden",
+        "name": "Burgeoning Strength",
         "effect": "50% chance to grant Heavy Charge +1 to the user after using a Heavy ability",
         "relic": "-",
         "name(jp)": "怪力無双の乙女",
