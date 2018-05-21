@@ -765,6 +765,16 @@
         "notes": "-"
     },
     {
+        "id": "266009",
+        "commonName": "Weakness +30% Boost",
+        "effects": "Increases damage dealt by 30% when exploiting elemental weaknesses",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_WEAKNESS_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
         "id": "267",
         "commonName": "Critical Damage +X%",
         "effects": "Critical hits deal X% more damage (additive with the base critical coefficient)",
@@ -1262,6 +1272,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DAMAGE_BOOST_SPELLBLADE_OR_CELERITY_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282109",
+        "commonName": "Magical Quick Cast",
+        "effects": "Cast speed x2,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_MSEC_CUSTOM_MAGIC_DAMAGE_ABILITIES",
         "notes": "-"
     },
     {
@@ -1792,6 +1812,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_BLACK_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "2066",
+        "commonName": "Magical Quick Cast",
+        "effects": "Cast speed x2,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_MSEC_CUSTOM_MAGIC_DAMAGE_ABILITIES",
         "notes": "-"
     },
     {
@@ -4691,6 +4721,24 @@
         "notes": "-"
     },
     {
+        "id": "50208",
+        "commonName": "Thorn of Heartache Follow-Up",
+        "effects": "Casts Thorn of Heartache after using a Earth attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_THORNS_OF_REPENTANCE",
+        "notes": "-"
+    },
+    {
+        "id": "50210",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "BURNING_BODY",
+        "notes": "???"
+    },
+    {
         "id": "50211",
         "commonName": "Ultimate Doom of Atomos",
         "effects": "Affects Atomos's behaviour after a 30 seconds timer",
@@ -5953,6 +6001,86 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_ELEMENT_ATK_DARK_20",
+        "notes": "-"
+    },
+    {
+        "id": "8025",
+        "commonName": "Minor Debuff Fire",
+        "effects": "Reduces Fire damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_FIRE_M10",
+        "notes": "-"
+    },
+    {
+        "id": "8026",
+        "commonName": "Minor Debuff Ice",
+        "effects": "Reduces Ice damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_ICE_M10",
+        "notes": "-"
+    },
+    {
+        "id": "8027",
+        "commonName": "Minor Debuff Lightning",
+        "effects": "Reduces Lightning damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_LIGHTNING_M10",
+        "notes": "-"
+    },
+    {
+        "id": "8028",
+        "commonName": "Minor Debuff Earth",
+        "effects": "Reduces Earth damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_EARTH_M10",
+        "notes": "-"
+    },
+    {
+        "id": "8029",
+        "commonName": "Minor Debuff Wind",
+        "effects": "Reduces Wind damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_WIND_M10",
+        "notes": "-"
+    },
+    {
+        "id": "8030",
+        "commonName": "Minor Debuff Water",
+        "effects": "Reduces Water damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_WATER_M10",
+        "notes": "-"
+    },
+    {
+        "id": "8031",
+        "commonName": "Minor Debuff Holy",
+        "effects": "Reduces Holy damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_HOLY_M10",
+        "notes": "-"
+    },
+    {
+        "id": "8032",
+        "commonName": "Minor Debuff Dark",
+        "effects": "Reduces Dark damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_DARK_M10",
         "notes": "-"
     },
     {

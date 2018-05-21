@@ -1324,6 +1324,32 @@
     },
     {
         "realm": "II",
+        "character": "Hilda",
+        "name": "Trustworthy Princess",
+        "effect": "MND +10% when equipping an instrument",
+        "unlockCriteria": "Use Hilda's Memory Crystal",
+        "name(jp)": "信頼厚き王女",
+        "✓": "✓"
+    },
+    {
+        "realm": "II",
+        "character": "Hilda",
+        "name": "Clever Resolve",
+        "effect": "13% chance to dualcast Bard abilities",
+        "unlockCriteria": "Use Hilda's Memory Crystal II, chance to obtain with Hilda in party",
+        "name(jp)": "聡明さと強い意志",
+        "✓": "✓"
+    },
+    {
+        "realm": "II",
+        "character": "Hilda",
+        "name": "Gifted Leader",
+        "effect": "Attack turns into Requiem",
+        "unlockCriteria": "Bring Hilda to level 99",
+        "name(jp)": "才色兼備のリーダー"
+    },
+    {
+        "realm": "II",
         "character": "Scott",
         "name": "Valiant Prince",
         "effect": "Spellblade abilities deal 15% more damage",
@@ -6167,7 +6193,7 @@
     {
         "realm": "Type-0",
         "character": "King",
-        "name": "Decisive Power",
+        "name": "Decisive Spark",
         "effect": "16% chance to turn Attack into Spark Offering",
         "unlockCriteria": "Bring King to level 99",
         "name(jp)": "決断する力を司る者",
@@ -6194,7 +6220,7 @@
     {
         "realm": "Type-0",
         "character": "Cinque",
-        "name": "Innocent Power",
+        "name": "Strength of Innocence",
         "effect": "Heavy abilities deal 40% more damage",
         "unlockCriteria": "Bring Cinque to level 99",
         "name(jp)": "純真なる力を司る者",
@@ -6365,7 +6391,7 @@
     {
         "realm": "Beyond",
         "character": "Morrow",
-        "name": "Nostalgic Landscape",
+        "name": "Unspoiled Vista",
         "effect": "PHY attacks deal 10% more damage when equipping a sword",
         "unlockCriteria": "Use Morrow's Memory Crystal",
         "name(jp)": "原風景",
@@ -6374,7 +6400,7 @@
     {
         "realm": "Beyond",
         "character": "Morrow",
-        "name": "A Day of Travel",
+        "name": "A Day on the Road",
         "effect": "Restores 1 use for all Support abilities at the beginning of the battle",
         "unlockCriteria": "Use Morrow's Memory Crystal II, chance to obtain with Morrow in party",
         "name(jp)": "旅の一日",
@@ -6401,7 +6427,7 @@
     {
         "realm": "Beyond",
         "character": "Aemo",
-        "name": "Minute Heroine",
+        "name": "Small Hero",
         "effect": "WHT abilities restore 20% more HP",
         "unlockCriteria": "Use Aemo's Memory Crystal II, chance to obtain with Aemo in party",
         "name(jp)": "小さなヒーロー",
@@ -6410,7 +6436,7 @@
     {
         "realm": "Beyond",
         "character": "Aemo",
-        "name": "Constant Protection",
+        "name": "Precious Days",
         "effect": "MND +25% when equipping a rod",
         "unlockCriteria": "Bring Aemo to level 99",
         "name(jp)": "守りたかった日常",
@@ -6428,7 +6454,7 @@
     {
         "realm": "Beyond",
         "character": "Wrieg",
-        "name": "Promise of Fellowship",
+        "name": "Ironclad Oath",
         "effect": "Dragoon abilities deal 30% more damage",
         "unlockCriteria": "Use Wrieg's Memory Crystal II, chance to obtain with Wrieg in party",
         "name(jp)": "交わす約束",
@@ -6437,7 +6463,7 @@
     {
         "realm": "Beyond",
         "character": "Wrieg",
-        "name": "Blooming Trust",
+        "name": "Budding Trust",
         "effect": "ATK and DEF +13% when equipping a spear",
         "unlockCriteria": "Bring Wrieg to level 99",
         "name(jp)": "芽吹く信頼",

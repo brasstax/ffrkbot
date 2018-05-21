@@ -573,6 +573,41 @@
     },
     {
         "realm": "II",
+        "character": "Emperor",
+        "name": "Tyrant's Scheme",
+        "effect": "Grants Attach Earth at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Silver Despot (II)",
+        "name(jp)": "独裁者の謀略"
+    },
+    {
+        "realm": "II",
+        "character": "Hilda",
+        "name": "Head of the Rebels",
+        "effect": "WHT abilities restore ?% more HP",
+        "relic": "-",
+        "name(jp)": "反乱軍の指揮者"
+    },
+    {
+        "realm": "II",
+        "character": "Hilda",
+        "name": "Princess's Inspiration",
+        "effect": "?% chance to cast an ability (WHT: group, restores HP (?)) after using a Bard ability",
+        "relic": "-",
+        "name(jp)": "王女の激励"
+    },
+    {
+        "realm": "II",
+        "character": "Hilda",
+        "name": "Highborn Lady",
+        "effect": "25% chance to dualcast White Magic abilities",
+        "master": "MND +10",
+        "relic": "Hilda's Mantle (II)",
+        "name(jp)": "高潔な血筋の淑女",
+        "✓": "✓"
+    },
+    {
+        "realm": "II",
         "character": "Scott",
         "name": "Gallant Prince",
         "effect": "Spellblade abilities deal 15% more damage",
@@ -5673,7 +5708,7 @@
     {
         "realm": "Beyond",
         "character": "Morrow",
-        "name": "Deaming Boy",
+        "name": "Young Dreamer",
         "effect": "Support abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "夢見の少年",
@@ -5682,7 +5717,7 @@
     {
         "realm": "Beyond",
         "character": "Morrow",
-        "name": "Hope for Tomorrow",
+        "name": "Hope For Tomorrow",
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "への希望",
@@ -5701,7 +5736,7 @@
     {
         "realm": "Beyond",
         "character": "Aemo",
-        "name": "Song of Beginning",
+        "name": "New Song",
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "初めて知る歌",
@@ -5710,7 +5745,7 @@
     {
         "realm": "Beyond",
         "character": "Aemo",
-        "name": "Care for the Future",
+        "name": "Future Facing",
         "effect": "35% chance to grant Physical Blink 1 to the target after using a single-target White Magic ability that restores HP on an ally",
         "relic": "-",
         "name(jp)": "想う未来",
@@ -5729,7 +5764,7 @@
     {
         "realm": "Beyond",
         "character": "Wrieg",
-        "name": "Will to Succed",
+        "name": "Willbearer",
         "effect": "Increases Earth damage dealt by 10%",
         "relic": "-",
         "name(jp)": "継ぐ意志",
@@ -5738,7 +5773,7 @@
     {
         "realm": "Beyond",
         "character": "Wrieg",
-        "name": "Resolve to Push Forward",
+        "name": "Heavy Burden",
         "effect": "ATK +3% for each hit taken by damaging attacks, up to +50%",
         "relic": "-",
         "name(jp)": "背負う覚悟",
