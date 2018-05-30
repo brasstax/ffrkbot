@@ -1346,7 +1346,8 @@
         "name": "Gifted Leader",
         "effect": "Attack turns into Requiem",
         "unlockCriteria": "Bring Hilda to level 99",
-        "name(jp)": "才色兼備のリーダー"
+        "name(jp)": "才色兼備のリーダー",
+        "✓": "✓"
     },
     {
         "realm": "II",

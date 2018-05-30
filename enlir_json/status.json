@@ -605,6 +605,16 @@
         "notes": "-"
     },
     {
+        "id": "26116",
+        "commonName": "Holy Stoneskin: 50%",
+        "effects": "Reduces Holy damage taken to 0, up to an amount equal to 50% of the character's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_HOLY_DAMAGE_BARRIER_50",
+        "notes": "-"
+    },
+    {
         "id": "262",
         "commonName": "Greased Lightning 1",
         "effects": "ATK + 15%, cast speed x1,33, removed upon taking damage",
@@ -1276,12 +1286,22 @@
     },
     {
         "id": "282109",
-        "commonName": "Magical Quick Cast",
-        "effects": "Cast speed x2,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage",
+        "commonName": "Weakness +30% Boost",
+        "effects": "Increases damage dealt by 30% when exploiting elemental weaknesses",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "CHANGE_CAST_TIME_200_15000_MSEC_CUSTOM_MAGIC_DAMAGE_ABILITIES",
+        "codedName": "DAMAGE_BOOST_WEAKNESS_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282110",
+        "commonName": "Holy +50% Boost",
+        "effects": "Increases Holy damage dealt by 50%",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_HOLY_150_15000_MSEC",
         "notes": "-"
     },
     {
@@ -3944,7 +3964,7 @@
     {
         "id": "50125",
         "commonName": "EX: Machinist",
-        "effects": "ATK +30%, Machinist cast speed x2,00, casts Poison/Fire/Lightning Debilitator after dealing Poison/Fire/Lightning damage with a Machinist ability",
+        "effects": "ATK +30%, Machinist cast speed x2,00, casts Poison/Fire/Lightning Enfeeble after dealing Poison/Fire/Lightning damage with a Machinist ability",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",

@@ -246,7 +246,7 @@
     {
         "realm": "I",
         "character": "Meia",
-        "name": "Beautiful Heretic",
+        "name": "Bewitching Heretic",
         "effect": "Increases Water damage dealt by 10%",
         "relic": "-",
         "name(jp)": "美貌の異端者",
@@ -255,7 +255,7 @@
     {
         "realm": "I",
         "character": "Meia",
-        "name": "Mutable Witch",
+        "name": "Chimeric Witch",
         "effect": "30% chance to grant Quick Cast 3 to the user after using a Water attack",
         "relic": "-",
         "name(jp)": "変幻自在な魔女",
@@ -584,17 +584,19 @@
         "realm": "II",
         "character": "Hilda",
         "name": "Head of the Rebels",
-        "effect": "WHT abilities restore ?% more HP",
+        "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
-        "name(jp)": "反乱軍の指揮者"
+        "name(jp)": "反乱軍の指揮者",
+        "✓": "✓"
     },
     {
         "realm": "II",
         "character": "Hilda",
         "name": "Princess's Inspiration",
-        "effect": "?% chance to cast an ability (WHT: group, restores HP (?)) after using a Bard ability",
+        "effect": "35% chance to cast an ability (WHT: group, restores HP (25)) after using a Bard ability",
         "relic": "-",
-        "name(jp)": "王女の激励"
+        "name(jp)": "王女の激励",
+        "✓": "✓"
     },
     {
         "realm": "II",
@@ -1829,7 +1831,7 @@
     {
         "realm": "VI",
         "character": "Edgar",
-        "name": "Ladies Courtesy",
+        "name": "To the Manner Born",
         "effect": "Machinist abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "レディへの礼儀",
@@ -1838,7 +1840,7 @@
     {
         "realm": "VI",
         "character": "Edgar",
-        "name": "Young Ruler",
+        "name": "Long Live the King",
         "effect": "35% chance to dualcast Machinist abilities",
         "relic": "-",
         "name(jp)": "国を統べる若き王",
@@ -2001,7 +2003,8 @@
         "effect": "Grants Attach Water at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Wonder Wand (VI)",
-        "name(jp)": "秘め続けた魔導の力"
+        "name(jp)": "秘め続けた魔導の力",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -2062,7 +2065,7 @@
     {
         "realm": "VI",
         "character": "Kefka",
-        "name": "Mad Magician",
+        "name": "Maniacal Mage",
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "嗤う魔導士",
@@ -2071,7 +2074,7 @@
     {
         "realm": "VI",
         "character": "Kefka",
-        "name": "Enjoyment for Destruction",
+        "name": "Jester of Doom",
         "effect": "30% chance to grant Quick Cast 3 to the user after using a Dark attack",
         "relic": "-",
         "name(jp)": "破壊を謳う享楽の道化",
@@ -2090,7 +2093,7 @@
     {
         "realm": "VI",
         "character": "Leo",
-        "name": "Gestahl's Moral",
+        "name": "Imperial Conscience",
         "effect": "Knight abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "ガストラ帝国の良心",
@@ -2099,7 +2102,7 @@
     {
         "realm": "VI",
         "character": "Leo",
-        "name": "Martyr General",
+        "name": "Noble General",
         "effect": "35% chance to dualcast Knight abilities",
         "relic": "-",
         "name(jp)": "信念に殉ずる将軍",
@@ -4152,7 +4155,8 @@
         "effect": "Grants Attach Lightning at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Corps Field Beret (XIII)",
-        "name(jp)": "ストイックな女剣士"
+        "name(jp)": "ストイックな女剣士",
+        "✓": "✓"
     },
     {
         "realm": "XIII",
@@ -4189,7 +4193,8 @@
         "effect": "Grants Haste and Instant Cast 1 at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Indomitus (XIII)",
-        "name(jp)": "自由な生き様"
+        "name(jp)": "自由な生き様",
+        "✓": "✓"
     },
     {
         "realm": "XIII",
@@ -4778,7 +4783,8 @@
         "effect": "Grants Attach Earth at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Gladiolus's Guise (XV)",
-        "name(jp)": "英霊が認めし戦士"
+        "name(jp)": "英霊が認めし戦士",
+        "✓": "✓"
     },
     {
         "realm": "XV",
@@ -5793,17 +5799,19 @@
         "realm": "Beyond",
         "character": "Tama",
         "name": "Reliable Creature",
-        "effect": "WHT abilities restore ?% more HP",
+        "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
-        "name(jp)": "頼れる存在"
+        "name(jp)": "頼れる存在",
+        "✓": "✓"
     },
     {
         "realm": "Beyond",
         "character": "Tama",
         "name": "Power to Bring Back Time",
-        "effect": "?% chance to dualcast White Magic abilities",
+        "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
-        "name(jp)": "時を戻す力"
+        "name(jp)": "時を戻す力",
+        "✓": "✓"
     },
     {
         "realm": "Beyond",

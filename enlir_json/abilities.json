@@ -1315,7 +1315,7 @@
         "orb1Required": "Major Black",
         "orb2Required": "Major Non-Elemental",
         "orb3Required": "Major Wind",
-        "introducingEvent": "Redeemed Paladin",
+        "introducingEvent": "Triumph over Darkness",
         "name(jp)": "トルネド",
         "id": "30111331",
         "✓": "✓"
@@ -1857,7 +1857,7 @@
         "orb1Required": "Major White",
         "orb2Required": "Major Wind",
         "orb3Required": "Major Holy",
-        "introducingEvent": "New Year Party 2018",
+        "introducingEvent": "Summer Sun Festival",
         "name(jp)": "ヘイスガ",
         "id": "30121102",
         "✓": "✓"
@@ -5275,7 +5275,7 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major Black",
         "orb3Required": "Major Wind",
-        "introducingEvent": "New Year Party 2018",
+        "introducingEvent": "Summer Sun Festival",
         "name(jp)": "連続魔法剣・狂風",
         "id": "30141171",
         "✓": "✓"
@@ -7918,7 +7918,7 @@
         "orb1Required": "Major Power",
         "orb2Required": "Major White",
         "orb3Required": "Major Earth",
-        "introducingEvent": "New Year Party 2018",
+        "introducingEvent": "Summer Sun Festival",
         "name(jp)": "武神の凱歌",
         "id": "30241111",
         "✓": "✓"

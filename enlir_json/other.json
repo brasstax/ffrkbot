@@ -1,6 +1,6 @@
 [
     {
-        "character": "-",
+        "sourceType": "-",
         "source": "-",
         "name": "Attack",
         "type": "PHY",
@@ -16,7 +16,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
+        "sourceType": "Counter Status",
         "source": "High Retaliate",
         "name": "Attack",
         "type": "PHY",
@@ -32,289 +32,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
-        "source": "EX: Prophetic Warrior",
-        "name": "Bright Finisher",
-        "type": "PHY",
-        "target": "Single enemy",
-        "time": 2.5,
-        "effects": "Damages for 35% of the damage dealt with Holy attacks during the status, breaks damage cap",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Knight",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Grip of Chaos Follow-Up",
-        "name": "Grip of Chaos",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.82,
-        "element": "Dark, NE",
-        "time": 0.01,
-        "effects": "Two single attacks (0,91 each), heals the user for 20% of the damage dealt",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Darkness",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Flurry Follow-Up",
-        "name": "Follow-Up Flurry",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 2.16,
-        "element": "-",
-        "time": 0.01,
-        "effects": "Four single attacks (0,54 each), 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Monk",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Tceles Nottub B Follow-Up",
-        "name": "Tceles Nottub B",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 8.32,
-        "element": "Fire, Ice, Lightning",
-        "time": 0.01,
-        "effects": "Four single attacks (2,08 each)",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Witch",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Trinity Arts Brave Mode",
-        "name": "Trinity Arts",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.9,
-        "element": "Holy, Ice, Fire",
-        "time": 1.65,
-        "effects": "1,90/3,15/6,30/9,85 multiplier scaling with Brave, breaks damage cap at Brave 1 or more",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 75,
-        "school": "Samurai",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Thorn of Heartache Follow-Up",
-        "name": "Thorn of Heartache",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 7.8,
-        "element": "Earth, Dark, NE",
-        "time": 0.01,
-        "effects": "Four single attacks (1,95 each)",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Dia Splash Follow-Up",
-        "name": "Dia Splash",
-        "type": "WHT",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 9.78,
-        "element": "Holy, Water, NE",
-        "time": 0.01,
-        "effects": "2/3/4/5/6 single attacks (1,63 each) at rank 1/2/3/4/5 of the triggering ability",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "White Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Titan Strike Follow-Up",
-        "name": "Titan Strike",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 2.04,
-        "element": "Earth, NE",
-        "time": 0.01,
-        "effects": "4/5/6 single attacks (0,34 each) at 798/2736 DEF, 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Knight",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Wisdom of Light",
-        "name": "Wind Onion Magic",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 7.95,
-        "element": "Wind",
-        "time": 0.01,
-        "effects": "Five single attacks (1,59 each)",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Wisdom of Light",
-        "name": "Water Onion Magic",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 7.95,
-        "element": "Water",
-        "time": 0.01,
-        "effects": "Five single attacks (1,59 each)",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Wisdom of Light",
-        "name": "Fire Onion Magic",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 7.95,
-        "element": "Fire",
-        "time": 0.01,
-        "effects": "Five single attacks (1,59 each)",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Wisdom of Light",
-        "name": "Earth Onion Magic",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 7.95,
-        "element": "Earth",
-        "time": 0.01,
-        "effects": "Five single attacks (1,59 each)",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Lightning Follow-Up",
-        "name": "Lightning",
-        "type": "BLK",
-        "target": "All enemies",
-        "formula": "Magical",
-        "multiplier": 4.4,
-        "element": "Dark, Lightning",
-        "time": 0.01,
-        "counter": "Y",
-        "autoTarget": "All enemies",
-        "sb": 0,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Rising High Brave Mode",
-        "name": "Rising High",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.92,
-        "element": "Lightning",
-        "time": 1.65,
-        "effects": "1,92/3,25/6,50/10,15 multiplier scaling with Brave, breaks damage cap at Brave 1 or more, ranged jump attack",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 75,
-        "school": "Dragoon",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Tidal Flood Follow-Up",
-        "name": "Tidal Flood",
-        "type": "SUM",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 7.85,
-        "element": "Water, NE",
-        "time": 0.01,
-        "effects": "Five single attacks (1,57 each), minimum damage 1100",
-        "counter": "N",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Summoning",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Chaotic Moon",
-        "name": "Lurking Shadow",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 4.32,
-        "element": "Water, Lightning, NE",
-        "time": 1.65,
-        "effects": "1/1/2 single attacks (2,16 each) if the user has Physical Blink 0/1/2, 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Ninja",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Decisive Kick Finisher",
-        "name": "Decisive Kick",
-        "type": "PHY",
-        "target": "Single enemy",
-        "time": 2.5,
-        "effects": "Damages for 35% of the damage dealt with Earth attacks during the status, breaks damage cap",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Monk",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
+        "sourceType": "Counter Status",
         "source": "Fire Cloak",
         "name": "Fiery Retribution",
         "type": "BLK",
@@ -330,930 +48,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
-        "source": "Evil Gale Follow-Up",
-        "name": "Evil Gale",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 7.95,
-        "element": "Wind, NE",
-        "time": 0.01,
-        "effects": "Five single attacks (1,59 each)",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: No Questions!",
-        "name": "Strongest Sword!",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": "-",
-        "element": "Fire, NE",
-        "time": 0.01,
-        "effects": "Randomly deals one (25%), four (25%), six (25%) or ten (25%) single attacks (0,37 each), 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Samurai",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Spellblade Barrage",
-        "name": "Wind Barrage",
-        "type": "PHY",
-        "target": "Random enemies",
-        "formula": "Physical",
-        "multiplier": "-",
-        "element": "Wind",
-        "time": 2.5,
-        "effects": "Randomly deals two (50%) or eight (50%) random attacks (0,40 each), 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Random enemies",
-        "sb": 0,
-        "school": "Spellblade",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Spellblade Barrage",
-        "name": "Water Barrage",
-        "type": "PHY",
-        "target": "Random enemies",
-        "formula": "Physical",
-        "multiplier": "-",
-        "element": "Water",
-        "time": 2.5,
-        "effects": "Randomly deals two (50%) or eight (50%) random attacks (0,40 each), 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Random enemies",
-        "sb": 0,
-        "school": "Spellblade",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Spellblade Barrage",
-        "name": "Fire Barrage",
-        "type": "PHY",
-        "target": "Random enemies",
-        "formula": "Physical",
-        "multiplier": "-",
-        "element": "Fire",
-        "time": 2.5,
-        "effects": "Randomly deals two (50%) or eight (50%) random attacks (0,40 each), 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Random enemies",
-        "sb": 0,
-        "school": "Spellblade",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Spellblade Barrage",
-        "name": "Earth Barrage",
-        "type": "PHY",
-        "target": "Random enemies",
-        "formula": "Physical",
-        "multiplier": "-",
-        "element": "Earth",
-        "time": 2.5,
-        "effects": "Randomly deals two (50%) or eight (50%) random attacks (0,40 each), 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Random enemies",
-        "sb": 0,
-        "school": "Spellblade",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Power of the Crystals",
-        "name": "Last Spellblade",
-        "type": "PHY",
-        "target": "Single enemy",
-        "time": 2.5,
-        "effects": "Damages for 35% of the damage dealt with Spellblade abilities during the status, breaks damage cap",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Spellblade",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Pirate's Steel Follow-Up",
-        "name": "Pirate's Steel",
-        "type": "NAT",
-        "target": "Single enemy",
-        "time": 0.01,
-        "effects": "Causes Minor Imperil Wind",
-        "counter": "N",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Thief",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Sandwind Blade Follow-Up",
-        "name": "Sandwind Blade",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 2.04,
-        "element": "Earth, Wind, NE",
-        "time": 0.01,
-        "effects": "2/3/4/5/6 single attacks (0,34 each) at rank 1/2/3/4/5 of the triggering ability, 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Knight",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Delta Blaster Brave Mode",
-        "name": "Delta Blaster",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 7.92,
-        "element": "Fire",
-        "time": 1.65,
-        "effects": "7,92/12,00/20,80/35,00 multiplier scaling with Brave, breaks damage cap at Brave 1 or more",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 75,
-        "school": "Darkness",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Dance of the Flame Follow-Up",
-        "name": "Dance of the Flame",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 8.52,
-        "element": "Fire, NE",
-        "time": 0.01,
-        "effects": "2/3/4/5/6 single attacks 1,42? each) at rank 1/2/3/4/5 of the triggering ability",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Focused Fire Brave Mode",
-        "name": "Focused Fire",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 7.92,
-        "element": "Fire",
-        "time": 1.65,
-        "effects": "7,92/12,00/20,80/35,00 multiplier scaling with Brave, breaks damage cap at Brave 1 or more",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 75,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Lupine Chase Follow-Up",
-        "name": "Lupine Chase",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 2.56,
-        "element": "Earth, Wind, NE",
-        "time": 0.01,
-        "effects": "4/6/8 single ranged attacks (0,32 each) if the user has Physical Blink 0/1/2, 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Ninja",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Riot Fire Brave Mode",
-        "name": "Riot Fire",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 7.92,
-        "element": "Fire",
-        "time": 0.01,
-        "effects": "7,92/12,00/20,80/35,00 multiplier scaling with Brave, breaks damage cap at Brave 1 or more",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 75,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Flame Hunt Follow-Up",
-        "name": "Flame Hunt",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.2,
-        "element": "Fire, NE",
-        "time": 0.01,
-        "effects": "35% chance to cause Imperil Fire 10% for 15 seconds",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Thief",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Adventurer",
-        "name": "Valiant Flame",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.4,
-        "element": "Fire, NE",
-        "time": 0.01,
-        "effects": "4/5/6/7/8 single ranged attacks (0,35 each) if the user's HP are below 100/80/60/40/20%, 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Thief",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Machinist",
-        "name": "Poison Debilitator",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.17,
-        "element": "Poison, NE",
-        "time": 0.01,
-        "effects": "Three single attacks (0,39 each), 35% chance to cause Imperil Poison 10% for 15 seconds, 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Machinist",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Machinist",
-        "name": "Fire Debilitator",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.17,
-        "element": "Fire, NE",
-        "time": 0.01,
-        "effects": "Three single attacks (0,39 each), 35% chance to cause Imperil Fire 10% for 15 seconds, 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Machinist",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Machinist",
-        "name": "Lightning Debilitator",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.17,
-        "element": "Lightning, NE",
-        "time": 0.01,
-        "effects": "Three single attacks (0,39 each), 35% chance to cause Imperil Lightning 10% for 15 seconds, 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Machinist",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Phoenix Attack Follow-Up",
-        "name": "Phoenix Attack",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 2.1,
-        "element": "Fire, NE",
-        "time": 0.01,
-        "effects": "3/4/5/6 single attacks (0,35 each) at 492/780/1014 ATK",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Monk",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Abandoned Past",
-        "name": "Vanishing Blade",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 4.32,
-        "element": "Dark, NE",
-        "time": 0.01,
-        "effects": "1/1/2 single attacks (2,16 each) if the user has Physical Blink 0/1/2, 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Ninja",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Gambling Break",
-        "name": "Deadly Spade",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 0.5,
-        "element": "-",
-        "time": 0.01,
-        "effects": "Two single ranged attacks (0,25 each), ATK -40% for 15 seconds",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Support",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Gambling Break",
-        "name": "Deadly Club",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 0.5,
-        "element": "-",
-        "time": 0.01,
-        "effects": "Two single ranged attacks (0,25 each), DEF -50% for 15 seconds",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Support",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Gambling Break",
-        "name": "Deadly Diamond",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 0.5,
-        "element": "-",
-        "time": 0.01,
-        "effects": "Two single ranged attacks (0,25 each), MAG -40% for 15 seconds",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Support",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Gambling Break",
-        "name": "Deadly Heart",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 0.5,
-        "element": "-",
-        "time": 0.01,
-        "effects": "Two single ranged attacks (0,25 each), RES -50% for 15 seconds",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Support",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Artificial Magus",
-        "name": "Magitek Release",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 4.96,
-        "element": "Dark, Poison",
-        "time": 0.01,
-        "effects": "4/5/6/7/8 single attacks (1,24/1,28/1,32/1,36/1,40 each) scaling with uses",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Sword Arts Follow-Up",
-        "name": "Sword Arts",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.96,
-        "element": "Earth, Holy, NE",
-        "time": 0.01,
-        "effects": "Four single attacks (0,49 each), 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Knight",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: True Self",
-        "name": "Air Hazard",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": "-",
-        "element": "Wind, NE",
-        "time": 0.01,
-        "effects": "Breaks damage cap, randomly deals four (50%) or eight (50%) single attacks (0,40 each), 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Combat",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Torrent Blade Follow-Up",
-        "name": "Torrent Blade",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 2.56,
-        "element": "Water, NE",
-        "time": 0.01,
-        "effects": "4/6/8 single ranged attacks (0,32 each) if the user has Physical Blink 0/1/2, 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Ninja",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: SeeD",
-        "name": "Shattering Finish",
-        "type": "PHY",
-        "target": "All enemies",
-        "formula": "Physical",
-        "multiplier": 2.6,
-        "element": "Ice, NE",
-        "time": 0.01,
-        "effects": "Four group attacks (0,65 each), 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "All enemies",
-        "sb": 0,
-        "school": "Combat",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Lion",
-        "name": "Renzokuken Icefang",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.12,
-        "element": "Ice, NE",
-        "time": 0.01,
-        "effects": "4/5/6/7/8 single attacks (0,28/0,30/0,32/0,34/0,36 each) scaling with uses, 20/25/30/35/40% additional critical chance",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Spellblade",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Chosen Sorceress",
-        "name": "Angel Wing Ice Mist",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 8.52,
-        "element": "Ice, NE",
-        "time": 0.01,
-        "effects": "2/3/4/5/6 single attacks (1,42 each) at rank 1/2/3/4/5 of the triggering ability",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Stone Cannon Brave Mode",
-        "name": "Truespell Stone Cannon",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 7.92,
-        "element": "Earth",
-        "time": 1.65,
-        "effects": "7,92/12,00/20,80/35,00 multiplier scaling with Brave, breaks damage cap at Brave 1 or more",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 75,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Frost Ruin Brave Mode",
-        "name": "Truespell Frost Ruin",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 7.92,
-        "element": "Ice",
-        "time": 1.65,
-        "effects": "7,92/12,00/20,80/35,00 multiplier scaling with Brave, breaks damage cap at Brave 1 or more",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 75,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Fiery Fist Follow-Up",
-        "name": "Fiery Fist",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 2.08,
-        "element": "Fire, NE",
-        "time": 0.01,
-        "effects": "Four single attacks (0,52 each), 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Monk",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Clean Shot Follow-Up",
-        "name": "Clean Shot",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 2.4,
-        "element": "Fire, NE",
-        "time": 0.01,
-        "effects": "Causes Crash -70% for 8 seconds, ranged attack",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Sharpshooter",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Slice Follow-Up",
-        "name": "Slice",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": "-",
-        "element": "Wind, NE",
-        "time": 0.01,
-        "effects": "Randomly deals five (40%) or ten (60%) single attacks (1,56 each)",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Master Thief",
-        "name": "Steel Storm",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.2,
-        "element": "Wind, NE",
-        "time": 0.01,
-        "effects": "35% chance to cause Imperil Wind 10% for 15 seconds",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Thief",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Thievery Finisher",
-        "name": "Thievery",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 7.68,
-        "element": "Wind, NE",
-        "time": 0.01,
-        "effects": "8/12/16 single attacks (0,96 each) if the user used 5/8 Thief abilities during the status",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Thief",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Auto Storm's Retribution",
-        "name": "Storm's Retribution",
-        "type": "SUM",
-        "target": "All enemies",
-        "formula": "Magical",
-        "multiplier": 5.7,
-        "element": "Lightning, NE",
-        "time": 0.01,
-        "effects": "Two group attacks (2,85 each), minimum damage 1100",
-        "counter": "N",
-        "autoTarget": "All enemies",
-        "sb": 0,
-        "school": "Summoning",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Freya Trance",
-        "name": "Undying Love",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.11,
-        "element": "Wind, NE",
-        "time": 0.01,
-        "effects": "Three single ranged attacks (0,37 each), 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Dragoon",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Stock Raid Follow-Up",
-        "name": "Stock Raid",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 2.04,
-        "element": "Holy, NE",
-        "time": 0.01,
-        "effects": "2/3/4/5/6 single attacks (0,34 each) at rank 1/2/3/4/5 of the triggering ability, 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Knight",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Angel of Death",
-        "name": "Ultima (IX)",
-        "type": "BLK",
-        "target": "All enemies",
-        "time": 2.5,
-        "effects": "Eight group attacks for 4,375% of the damage dealt with BLK attacks during the status",
-        "counter": "Y",
-        "autoTarget": "All enemies",
-        "sb": 0,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Ace",
-        "name": "Run & Shoot",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.92,
-        "element": "Water, NE",
-        "time": 1.65,
-        "effects": "Six single ranged attacks (0,32 each), 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Sharpshooter",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Last Summoner",
-        "name": "Sonic Ray",
-        "type": "SUM",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 7.7,
-        "element": "Holy, Wind, NE",
-        "time": 0.01,
-        "effects": "Five single attacks (1,54 each), minimum damage 1100",
-        "counter": "N",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Summoning",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Aqua Toxin Follow-Up",
-        "name": "Aqua Toxin",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.2,
-        "element": "Water, NE",
-        "time": 0.01,
-        "effects": "Two single attacks (0,60 each), 35% chance to cause Imperil Water 10% for 15 seconds",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Machinist",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Lingering Fire Finisher",
-        "name": "Lingering Fire",
-        "type": "PHY",
-        "target": "Single enemy",
-        "time": 2.5,
-        "effects": "Damages for 35% of the damage dealt with Fire attacks during the status, breaks damage cap",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Samurai",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Feral Charge Follow-Up",
-        "name": "Feral Charge",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.92,
-        "element": "Fire, NE",
-        "time": 0.01,
-        "effects": "Six single attacks (0,32 each), 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Monk",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Auto Firebolt Barrage",
-        "name": "Firebolt Barrage",
-        "type": "SUM",
-        "target": "All enemies",
-        "formula": "Magical",
-        "multiplier": 6.8,
-        "element": "Fire, Lightning",
-        "time": 0.01,
-        "effects": "Four group attacks (1,70 each), minimum damage 1100",
-        "counter": "N",
-        "autoTarget": "All enemies",
-        "sb": 0,
-        "school": "Summoning",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Savage Follow-Up",
-        "name": "Savage Follow-Up",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 8.52,
-        "element": "Dark, NE",
-        "time": 0.01,
-        "effects": "2/3/4/5/6 single attacks (1,42 each) at rank 1/2/3/4/5 of the triggering ability",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Abyssal Bite Follow-Up",
-        "name": "Abyssal Bite",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 2.24,
-        "element": "Dark, NE",
-        "time": 0.01,
-        "effects": "Seven single attacks (0,32 each), damages the user for 15% max HP",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Darkness",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "EX: Wings of Freedom",
-        "name": "Spiral Rush",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.17,
-        "element": "Wind, NE",
-        "time": 0.01,
-        "effects": "3/4/5/6/7 single attacks (0,39 each) scaling with uses",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Thief",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Lightning Sigil Follow-Up",
-        "name": "Lightning Sigil",
-        "type": "BLK",
-        "target": "Single enemy",
-        "formula": "Magical",
-        "multiplier": 8.52,
-        "element": "Lightning, NE",
-        "time": 0.01,
-        "effects": "2/3/4/5/6 single attacks (1,42 each) at rank 1/2/3/4/5 of the triggering ability",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Black Magic",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Sephira Follow-Up",
-        "name": "Sephira",
-        "type": "NAT",
-        "target": "Single enemy",
-        "formula": "Hybrid",
-        "multiplier": "-",
-        "element": "Dark, NE",
-        "time": 0.01,
-        "effects": "Five single hybrid ranged attacks (0,40 or 1,67 each), 100% hit rate",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Darkness",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Lightning Bolt Brave Mode",
-        "name": "Lightning Bolt",
-        "type": "PHY",
-        "target": "Single enemy",
-        "formula": "Physical",
-        "multiplier": 1.81,
-        "element": "Lightning",
-        "time": 1.2,
-        "effects": "1,81/3,06/6,11/9,55 multiplier scaling with Brave, breaks damage cap at Brave 1 or more",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Celerity",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
+        "sourceType": "Counter Status",
         "source": "Revenge Counter",
         "name": "Revenge Counter",
         "type": "PHY",
@@ -1270,24 +65,955 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
-        "source": "Auto Chain of Destruction",
-        "name": "Chain of Destruction",
-        "type": "SUM",
+        "sourceType": "Follow-Up Status",
+        "source": "Grip of Chaos Follow-Up",
+        "name": "Grip of Chaos",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.82,
+        "element": "Dark, NE",
+        "time": 0.01,
+        "effects": "Two single attacks (0,91 each), heals the user for 20% of the damage dealt",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Darkness",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Flurry Follow-Up",
+        "name": "Follow-Up Flurry",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.16,
+        "element": "-",
+        "time": 0.01,
+        "effects": "Four single attacks (0,54 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Monk",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Tceles Nottub B Follow-Up",
+        "name": "Tceles Nottub B",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 8.32,
+        "element": "Fire, Ice, Lightning",
+        "time": 0.01,
+        "effects": "Four single attacks (2,08 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Witch",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Thorn of Heartache Follow-Up",
+        "name": "Thorn of Heartache",
+        "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
         "multiplier": 7.8,
-        "element": "Holy, NE",
+        "element": "Earth, Dark, NE",
         "time": 0.01,
-        "effects": "Five single attacks (1,56 each), minimum damage 1100",
+        "effects": "Four single attacks (1,95 each)",
         "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Dia Splash Follow-Up",
+        "name": "Dia Splash",
+        "type": "WHT",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 9.78,
+        "element": "Holy, Water, NE",
+        "time": 0.01,
+        "effects": "2/3/4/5/6 single attacks (1,63 each) at rank 1/2/3/4/5 of the triggering ability",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "White Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Titan Strike Follow-Up",
+        "name": "Titan Strike",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.04,
+        "element": "Earth, NE",
+        "time": 0.01,
+        "effects": "4/5/6 single attacks (0,34 each) at 798/2736 DEF, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Knight",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Wisdom of Light",
+        "name": "Wind Onion Magic",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 7.95,
+        "element": "Wind",
+        "time": 0.01,
+        "effects": "Five single attacks (1,59 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Wisdom of Light",
+        "name": "Water Onion Magic",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 7.95,
+        "element": "Water",
+        "time": 0.01,
+        "effects": "Five single attacks (1,59 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Wisdom of Light",
+        "name": "Fire Onion Magic",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 7.95,
+        "element": "Fire",
+        "time": 0.01,
+        "effects": "Five single attacks (1,59 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Wisdom of Light",
+        "name": "Earth Onion Magic",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 7.95,
+        "element": "Earth",
+        "time": 0.01,
+        "effects": "Five single attacks (1,59 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Lightning Follow-Up",
+        "name": "Lightning",
+        "type": "BLK",
+        "target": "All enemies",
+        "formula": "Magical",
+        "multiplier": 4.4,
+        "element": "Dark, Lightning",
+        "time": 0.01,
+        "counter": "Y",
+        "autoTarget": "All enemies",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Tidal Flood Follow-Up",
+        "name": "Tidal Flood",
+        "type": "SUM",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 7.85,
+        "element": "Water, NE",
+        "time": 0.01,
+        "effects": "Five single attacks (1,57 each), minimum damage 1100",
+        "counter": "N",
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Summoning",
         "✓": "✓"
     },
     {
-        "character": "Status",
+        "sourceType": "Follow-Up Status",
+        "source": "Chaotic Moon",
+        "name": "Lurking Shadow",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 4.32,
+        "element": "Water, Lightning, NE",
+        "time": 1.65,
+        "effects": "1/1/2 single attacks (2,16 each) if the user has Physical Blink 0/1/2, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Ninja",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Evil Gale Follow-Up",
+        "name": "Evil Gale",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 7.95,
+        "element": "Wind, NE",
+        "time": 0.01,
+        "effects": "Five single attacks (1,59 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: No Questions!",
+        "name": "Strongest Sword!",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "-",
+        "element": "Fire, NE",
+        "time": 0.01,
+        "effects": "Randomly deals one (25%), four (25%), six (25%) or ten (25%) single attacks (0,37 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Samurai",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Spellblade Barrage",
+        "name": "Wind Barrage",
+        "type": "PHY",
+        "target": "Random enemies",
+        "formula": "Physical",
+        "multiplier": "-",
+        "element": "Wind",
+        "time": 2.5,
+        "effects": "Randomly deals two (50%) or eight (50%) random attacks (0,40 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Random enemies",
+        "sb": 0,
+        "school": "Spellblade",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Spellblade Barrage",
+        "name": "Water Barrage",
+        "type": "PHY",
+        "target": "Random enemies",
+        "formula": "Physical",
+        "multiplier": "-",
+        "element": "Water",
+        "time": 2.5,
+        "effects": "Randomly deals two (50%) or eight (50%) random attacks (0,40 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Random enemies",
+        "sb": 0,
+        "school": "Spellblade",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Spellblade Barrage",
+        "name": "Fire Barrage",
+        "type": "PHY",
+        "target": "Random enemies",
+        "formula": "Physical",
+        "multiplier": "-",
+        "element": "Fire",
+        "time": 2.5,
+        "effects": "Randomly deals two (50%) or eight (50%) random attacks (0,40 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Random enemies",
+        "sb": 0,
+        "school": "Spellblade",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Spellblade Barrage",
+        "name": "Earth Barrage",
+        "type": "PHY",
+        "target": "Random enemies",
+        "formula": "Physical",
+        "multiplier": "-",
+        "element": "Earth",
+        "time": 2.5,
+        "effects": "Randomly deals two (50%) or eight (50%) random attacks (0,40 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Random enemies",
+        "sb": 0,
+        "school": "Spellblade",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Pirate's Steel Follow-Up",
+        "name": "Pirate's Steel",
+        "type": "NAT",
+        "target": "Single enemy",
+        "time": 0.01,
+        "effects": "Causes Minor Imperil Wind",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Thief",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Sandwind Blade Follow-Up",
+        "name": "Sandwind Blade",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.04,
+        "element": "Earth, Wind, NE",
+        "time": 0.01,
+        "effects": "2/3/4/5/6 single attacks (0,34 each) at rank 1/2/3/4/5 of the triggering ability, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Knight",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Dance of the Flame Follow-Up",
+        "name": "Dance of the Flame",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 8.52,
+        "element": "Fire, NE",
+        "time": 0.01,
+        "effects": "2/3/4/5/6 single attacks 1,42? each) at rank 1/2/3/4/5 of the triggering ability",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Lupine Chase Follow-Up",
+        "name": "Lupine Chase",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.56,
+        "element": "Earth, Wind, NE",
+        "time": 0.01,
+        "effects": "4/6/8 single ranged attacks (0,32 each) if the user has Physical Blink 0/1/2, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Ninja",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Flame Hunt Follow-Up",
+        "name": "Flame Hunt",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.2,
+        "element": "Fire, NE",
+        "time": 0.01,
+        "effects": "35% chance to cause Imperil Fire 10% for 15 seconds",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Thief",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Adventurer",
+        "name": "Valiant Flame",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.4,
+        "element": "Fire, NE",
+        "time": 0.01,
+        "effects": "4/5/6/7/8 single ranged attacks (0,35 each) if the user's HP are below 100/80/60/40/20%, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Thief",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Machinist",
+        "name": "Poison Enfeeble",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.17,
+        "element": "Poison, NE",
+        "time": 0.01,
+        "effects": "Three single attacks (0,39 each), 35% chance to cause Imperil Poison 10% for 15 seconds, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Machinist",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Machinist",
+        "name": "Fire Enfeeble",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.17,
+        "element": "Fire, NE",
+        "time": 0.01,
+        "effects": "Three single attacks (0,39 each), 35% chance to cause Imperil Fire 10% for 15 seconds, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Machinist",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Machinist",
+        "name": "Lightning Enfeeble",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.17,
+        "element": "Lightning, NE",
+        "time": 0.01,
+        "effects": "Three single attacks (0,39 each), 35% chance to cause Imperil Lightning 10% for 15 seconds, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Machinist",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Phoenix Attack Follow-Up",
+        "name": "Phoenix Attack",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.1,
+        "element": "Fire, NE",
+        "time": 0.01,
+        "effects": "3/4/5/6 single attacks (0,35 each) at 492/780/1014 ATK",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Monk",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Abandoned Past",
+        "name": "Vanishing Blade",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 4.32,
+        "element": "Dark, NE",
+        "time": 0.01,
+        "effects": "1/1/2 single attacks (2,16 each) if the user has Physical Blink 0/1/2, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Ninja",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Gambling Break",
+        "name": "Deadly Spade",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 0.5,
+        "element": "-",
+        "time": 0.01,
+        "effects": "Two single ranged attacks (0,25 each), ATK -40% for 15 seconds",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Support",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Gambling Break",
+        "name": "Deadly Club",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 0.5,
+        "element": "-",
+        "time": 0.01,
+        "effects": "Two single ranged attacks (0,25 each), DEF -50% for 15 seconds",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Support",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Gambling Break",
+        "name": "Deadly Diamond",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 0.5,
+        "element": "-",
+        "time": 0.01,
+        "effects": "Two single ranged attacks (0,25 each), MAG -40% for 15 seconds",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Support",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Gambling Break",
+        "name": "Deadly Heart",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 0.5,
+        "element": "-",
+        "time": 0.01,
+        "effects": "Two single ranged attacks (0,25 each), RES -50% for 15 seconds",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Support",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Artificial Magus",
+        "name": "Magitek Release",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 4.96,
+        "element": "Dark, Poison",
+        "time": 0.01,
+        "effects": "4/5/6/7/8 single attacks (1,24/1,28/1,32/1,36/1,40 each) scaling with uses",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Sword Arts Follow-Up",
+        "name": "Sword Arts",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.96,
+        "element": "Earth, Holy, NE",
+        "time": 0.01,
+        "effects": "Four single attacks (0,49 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Knight",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: True Self",
+        "name": "Air Hazard",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "-",
+        "element": "Wind, NE",
+        "time": 0.01,
+        "effects": "Breaks damage cap, randomly deals four (50%) or eight (50%) single attacks (0,40 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Combat",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Torrent Blade Follow-Up",
+        "name": "Torrent Blade",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.56,
+        "element": "Water, NE",
+        "time": 0.01,
+        "effects": "4/6/8 single ranged attacks (0,32 each) if the user has Physical Blink 0/1/2, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Ninja",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: SeeD",
+        "name": "Shattering Finish",
+        "type": "PHY",
+        "target": "All enemies",
+        "formula": "Physical",
+        "multiplier": 2.6,
+        "element": "Ice, NE",
+        "time": 0.01,
+        "effects": "Four group attacks (0,65 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "All enemies",
+        "sb": 0,
+        "school": "Combat",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Lion",
+        "name": "Renzokuken Icefang",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.12,
+        "element": "Ice, NE",
+        "time": 0.01,
+        "effects": "4/5/6/7/8 single attacks (0,28/0,30/0,32/0,34/0,36 each) scaling with uses, 20/25/30/35/40% additional critical chance",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Spellblade",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Chosen Sorceress",
+        "name": "Angel Wing Ice Mist",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 8.52,
+        "element": "Ice, NE",
+        "time": 0.01,
+        "effects": "2/3/4/5/6 single attacks (1,42 each) at rank 1/2/3/4/5 of the triggering ability",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Fiery Fist Follow-Up",
+        "name": "Fiery Fist",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.08,
+        "element": "Fire, NE",
+        "time": 0.01,
+        "effects": "Four single attacks (0,52 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Monk",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Clean Shot Follow-Up",
+        "name": "Clean Shot",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.4,
+        "element": "Fire, NE",
+        "time": 0.01,
+        "effects": "Causes Crash -70% for 8 seconds, ranged attack",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Sharpshooter",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Slice Follow-Up",
+        "name": "Slice",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": "-",
+        "element": "Wind, NE",
+        "time": 0.01,
+        "effects": "Randomly deals five (40%) or ten (60%) single attacks (1,56 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Master Thief",
+        "name": "Steel Storm",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.2,
+        "element": "Wind, NE",
+        "time": 0.01,
+        "effects": "35% chance to cause Imperil Wind 10% for 15 seconds",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Thief",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Freya Trance",
+        "name": "Undying Love",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.11,
+        "element": "Wind, NE",
+        "time": 0.01,
+        "effects": "Three single ranged attacks (0,37 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Dragoon",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Stock Raid Follow-Up",
+        "name": "Stock Raid",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.04,
+        "element": "Holy, NE",
+        "time": 0.01,
+        "effects": "2/3/4/5/6 single attacks (0,34 each) at rank 1/2/3/4/5 of the triggering ability, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Knight",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Ace",
+        "name": "Run & Shoot",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.92,
+        "element": "Water, NE",
+        "time": 1.65,
+        "effects": "Six single ranged attacks (0,32 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Sharpshooter",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Last Summoner",
+        "name": "Sonic Ray",
+        "type": "SUM",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 7.7,
+        "element": "Holy, Wind, NE",
+        "time": 0.01,
+        "effects": "Five single attacks (1,54 each), minimum damage 1100",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Summoning",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Aqua Toxin Follow-Up",
+        "name": "Aqua Toxin",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.2,
+        "element": "Water, NE",
+        "time": 0.01,
+        "effects": "Two single attacks (0,60 each), 35% chance to cause Imperil Water 10% for 15 seconds",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Machinist",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Feral Charge Follow-Up",
+        "name": "Feral Charge",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.92,
+        "element": "Fire, NE",
+        "time": 0.01,
+        "effects": "Six single attacks (0,32 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Monk",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Savage Follow-Up",
+        "name": "Savage Follow-Up",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 8.52,
+        "element": "Dark, NE",
+        "time": 0.01,
+        "effects": "2/3/4/5/6 single attacks (1,42 each) at rank 1/2/3/4/5 of the triggering ability",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Abyssal Bite Follow-Up",
+        "name": "Abyssal Bite",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.24,
+        "element": "Dark, NE",
+        "time": 0.01,
+        "effects": "Seven single attacks (0,32 each), damages the user for 15% max HP",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Darkness",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Wings of Freedom",
+        "name": "Spiral Rush",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.17,
+        "element": "Wind, NE",
+        "time": 0.01,
+        "effects": "3/4/5/6/7 single attacks (0,39 each) scaling with uses",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Thief",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Lightning Sigil Follow-Up",
+        "name": "Lightning Sigil",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 8.52,
+        "element": "Lightning, NE",
+        "time": 0.01,
+        "effects": "2/3/4/5/6 single attacks (1,42 each) at rank 1/2/3/4/5 of the triggering ability",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Sephira Follow-Up",
+        "name": "Sephira",
+        "type": "NAT",
+        "target": "Single enemy",
+        "formula": "Hybrid",
+        "multiplier": "-",
+        "element": "Dark, NE",
+        "time": 0.01,
+        "effects": "Five single hybrid ranged attacks (0,40 or 1,67 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Darkness",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
         "source": "Seraph-Wing Buffet Follow-Up",
         "name": "Seraph-Wing Buffet",
         "type": "BLK",
@@ -1304,7 +1030,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
+        "sourceType": "Follow-Up Status",
         "source": "EX: Farseer's Guardian",
         "name": "Javelin Frost",
         "type": "PHY",
@@ -1321,35 +1047,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
-        "source": "EX: Dreadwyrm Trance",
-        "name": "Deathflare",
-        "type": "SUM",
-        "target": "All enemies",
-        "time": 2.5,
-        "effects": "Five group attacks for 7% of the damage dealt with SUM attacks during the status, smart ether 2 to the user",
-        "counter": "N",
-        "autoTarget": "All enemies",
-        "sb": 0,
-        "school": "Summoning",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
-        "source": "Wildfire Finisher",
-        "name": "Wildfire",
-        "type": "PHY",
-        "target": "Single enemy",
-        "time": 2.5,
-        "effects": "Seven single ranged attacks for 4,29% of the damage dealt with Machinist abilities during the status",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Machinist",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
+        "sourceType": "Follow-Up Status",
         "source": "Icebrand Follow-Up",
         "name": "Icebrand",
         "type": "BLK",
@@ -1366,7 +1064,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
+        "sourceType": "Follow-Up Status",
         "source": "EX: Future King",
         "name": "Shift Strike",
         "type": "PHY",
@@ -1383,21 +1081,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
-        "source": "Shield of the King Finisher",
-        "name": "Shield of the King",
-        "type": "PHY",
-        "target": "Single enemy",
-        "time": 2.5,
-        "effects": "Damages for 35% of the damage dealt with Earth attacks during the status, breaks damage cap",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Heavy",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
+        "sourceType": "Follow-Up Status",
         "source": "Dragon Boost Follow-Up",
         "name": "Dragon Boost",
         "type": "PHY",
@@ -1414,7 +1098,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
+        "sourceType": "Follow-Up Status",
         "source": "Truthseeking Mercenary",
         "name": "Shining Sword",
         "type": "PHY",
@@ -1431,7 +1115,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
+        "sourceType": "Follow-Up Status",
         "source": "Holy Smite Follow-Up",
         "name": "Holy Smite",
         "type": "NAT",
@@ -1445,7 +1129,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
+        "sourceType": "Follow-Up Status",
         "source": "Everlasting Darkness Follow-Up",
         "name": "Everlasting Darkness",
         "type": "PHY",
@@ -1462,7 +1146,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
+        "sourceType": "Follow-Up Status",
         "source": "Ace Follow-Up",
         "name": "Ace Follow-Up",
         "type": "BLK",
@@ -1479,7 +1163,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
+        "sourceType": "Follow-Up Status",
         "source": "Wild Lance Follow-Up",
         "name": "Wild Lance",
         "type": "PHY",
@@ -1496,7 +1180,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
+        "sourceType": "Follow-Up Status",
         "source": "Assault Mode",
         "name": "Rush Blade",
         "type": "PHY",
@@ -1513,21 +1197,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
-        "source": "Scythe of Slaughter Finisher",
-        "name": "Scythe of Slaughter",
-        "type": "PHY",
-        "target": "Single enemy",
-        "time": 2.5,
-        "effects": "Damages for 35% of the damage dealt with Dark attacks during the status, breaks damage cap",
-        "counter": "Y",
-        "autoTarget": "Lowest HP% enemy",
-        "sb": 0,
-        "school": "Darkness",
-        "✓": "✓"
-    },
-    {
-        "character": "Status",
+        "sourceType": "Follow-Up Status",
         "source": "EX: Connected Hearts",
         "name": "Judgment",
         "type": "PHY",
@@ -1544,7 +1214,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
+        "sourceType": "Follow-Up Status",
         "source": "Darkhand Scourge Follow-Up",
         "name": "Darkhand Scourge",
         "type": "PHY",
@@ -1561,7 +1231,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
+        "sourceType": "Follow-Up Status",
         "source": "Deep Freeze Follow-Up",
         "name": "Deep Freeze",
         "type": "NAT",
@@ -1575,7 +1245,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
+        "sourceType": "Follow-Up Status",
         "source": "Stack Mode",
         "name": "Heat Burst",
         "type": "PHY",
@@ -1592,7 +1262,7 @@
         "✓": "✓"
     },
     {
-        "character": "Status",
+        "sourceType": "Follow-Up Status",
         "source": "Sweet Coffee Follow-Up",
         "name": "Sweet Coffee",
         "type": "BLK",
@@ -1609,7 +1279,201 @@
         "✓": "✓"
     },
     {
-        "character": "Berserker",
+        "sourceType": "Finisher Status",
+        "source": "EX: Prophetic Warrior",
+        "name": "Bright Finisher",
+        "type": "PHY",
+        "target": "Single enemy",
+        "time": 2.5,
+        "effects": "Damages for 35% of the damage dealt with Holy attacks during the status, breaks damage cap",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Knight",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Finisher Status",
+        "source": "Decisive Kick Finisher",
+        "name": "Decisive Kick",
+        "type": "PHY",
+        "target": "Single enemy",
+        "time": 2.5,
+        "effects": "Damages for 35% of the damage dealt with Earth attacks during the status, breaks damage cap",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Monk",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Finisher Status",
+        "source": "EX: Power of the Crystals",
+        "name": "Last Spellblade",
+        "type": "PHY",
+        "target": "Single enemy",
+        "time": 2.5,
+        "effects": "Damages for 35% of the damage dealt with Spellblade abilities during the status, breaks damage cap",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Spellblade",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Finisher Status",
+        "source": "Thievery Finisher",
+        "name": "Thievery",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 7.68,
+        "element": "Wind, NE",
+        "time": 0.01,
+        "effects": "8/12/16 single attacks (0,96 each) if the user used 5/8 Thief abilities during the status",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Thief",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Finisher Status",
+        "source": "EX: Angel of Death",
+        "name": "Ultima (IX)",
+        "type": "BLK",
+        "target": "All enemies",
+        "time": 2.5,
+        "effects": "Eight group attacks for 4,375% of the damage dealt with BLK attacks during the status",
+        "counter": "Y",
+        "autoTarget": "All enemies",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Finisher Status",
+        "source": "Lingering Fire Finisher",
+        "name": "Lingering Fire",
+        "type": "PHY",
+        "target": "Single enemy",
+        "time": 2.5,
+        "effects": "Damages for 35% of the damage dealt with Fire attacks during the status, breaks damage cap",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Samurai",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Finisher Status",
+        "source": "EX: Dreadwyrm Trance",
+        "name": "Deathflare",
+        "type": "SUM",
+        "target": "All enemies",
+        "time": 2.5,
+        "effects": "Five group attacks for 7% of the damage dealt with SUM attacks during the status, smart ether 2 to the user",
+        "counter": "N",
+        "autoTarget": "All enemies",
+        "sb": 0,
+        "school": "Summoning",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Finisher Status",
+        "source": "Wildfire Finisher",
+        "name": "Wildfire",
+        "type": "PHY",
+        "target": "Single enemy",
+        "time": 2.5,
+        "effects": "Seven single ranged attacks for 4,29% of the damage dealt with Machinist abilities during the status",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Machinist",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Finisher Status",
+        "source": "Shield of the King Finisher",
+        "name": "Shield of the King",
+        "type": "PHY",
+        "target": "Single enemy",
+        "time": 2.5,
+        "effects": "Damages for 35% of the damage dealt with Earth attacks during the status, breaks damage cap",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Heavy",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Finisher Status",
+        "source": "Scythe of Slaughter Finisher",
+        "name": "Scythe of Slaughter",
+        "type": "PHY",
+        "target": "Single enemy",
+        "time": 2.5,
+        "effects": "Damages for 35% of the damage dealt with Dark attacks during the status, breaks damage cap",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Darkness",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Periodic Status",
+        "source": "Auto Storm's Retribution",
+        "name": "Storm's Retribution",
+        "type": "SUM",
+        "target": "All enemies",
+        "formula": "Magical",
+        "multiplier": 5.7,
+        "element": "Lightning, NE",
+        "time": 0.01,
+        "effects": "Two group attacks (2,85 each), minimum damage 1100",
+        "counter": "N",
+        "autoTarget": "All enemies",
+        "sb": 0,
+        "school": "Summoning",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Periodic Status",
+        "source": "Auto Firebolt Barrage",
+        "name": "Firebolt Barrage",
+        "type": "SUM",
+        "target": "All enemies",
+        "formula": "Magical",
+        "multiplier": 6.8,
+        "element": "Fire, Lightning",
+        "time": 0.01,
+        "effects": "Four group attacks (1,70 each), minimum damage 1100",
+        "counter": "N",
+        "autoTarget": "All enemies",
+        "sb": 0,
+        "school": "Summoning",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Periodic Status",
+        "source": "Auto Chain of Destruction",
+        "name": "Chain of Destruction",
+        "type": "SUM",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 7.8,
+        "element": "Holy, NE",
+        "time": 0.01,
+        "effects": "Five single attacks (1,56 each), minimum damage 1100",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Summoning",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Rage Status",
         "source": "Berserker's Rage (100%)",
         "name": "Attack",
         "type": "PHY",
@@ -1625,7 +1489,7 @@
         "✓": "✓"
     },
     {
-        "character": "Gau",
+        "sourceType": "Rage Status",
         "source": "Rage I (100%)",
         "name": "Cat Scratch",
         "type": "NAT",
@@ -1641,7 +1505,7 @@
         "✓": "✓"
     },
     {
-        "character": "Gau",
+        "sourceType": "Rage Status",
         "source": "Gigavolt Rage (100%)",
         "name": "Megavolt Rage",
         "type": "PHY",
@@ -1658,7 +1522,7 @@
         "✓": "✓"
     },
     {
-        "character": "Gau",
+        "sourceType": "Rage Status",
         "source": "Meteor Rage (100%)",
         "name": "Mini Meteor Rage",
         "type": "PHY",
@@ -1675,7 +1539,7 @@
         "✓": "✓"
     },
     {
-        "character": "Gau",
+        "sourceType": "Rage Status",
         "source": "Feral Flame (30%)",
         "name": "Feral Flame",
         "type": "PHY",
@@ -1692,7 +1556,7 @@
         "✓": "✓"
     },
     {
-        "character": "Gau",
+        "sourceType": "Rage Status",
         "source": "Feral Flame (30%)",
         "name": "Feral Flame",
         "type": "PHY",
@@ -1709,7 +1573,7 @@
         "✓": "✓"
     },
     {
-        "character": "Gau",
+        "sourceType": "Rage Status",
         "source": "Feral Flame (40%)",
         "name": "Feral Flame",
         "type": "PHY",
@@ -1725,7 +1589,7 @@
         "✓": "✓"
     },
     {
-        "character": "Gau",
+        "sourceType": "Rage Status",
         "source": "Recover Rage (30%)",
         "name": "Recover Rage",
         "type": "NAT",
@@ -1739,7 +1603,7 @@
         "✓": "✓"
     },
     {
-        "character": "Gau",
+        "sourceType": "Rage Status",
         "source": "Recover Rage (30%)",
         "name": "Recover Rage",
         "type": "NAT",
@@ -1753,7 +1617,7 @@
         "✓": "✓"
     },
     {
-        "character": "Gau",
+        "sourceType": "Rage Status",
         "source": "Recover Rage (40%)",
         "name": "Recover Rage",
         "type": "NAT",
@@ -1767,7 +1631,7 @@
         "✓": "✓"
     },
     {
-        "character": "Umaro",
+        "sourceType": "Rage Status",
         "source": "Green Cherry (30%)",
         "name": "Attack",
         "type": "PHY",
@@ -1784,7 +1648,7 @@
         "✓": "✓"
     },
     {
-        "character": "Umaro",
+        "sourceType": "Rage Status",
         "source": "Green Cherry (20%)",
         "name": "Ice Storm",
         "type": "PHY",
@@ -1801,7 +1665,7 @@
         "✓": "✓"
     },
     {
-        "character": "Umaro",
+        "sourceType": "Rage Status",
         "source": "Green Cherry (30%)",
         "name": "Slam",
         "type": "PHY",
@@ -1818,7 +1682,7 @@
         "✓": "✓"
     },
     {
-        "character": "Umaro",
+        "sourceType": "Rage Status",
         "source": "Green Cherry (20%)",
         "name": "Take Aim",
         "type": "PHY",
@@ -1835,7 +1699,7 @@
         "✓": "✓"
     },
     {
-        "character": "Elarra",
+        "sourceType": "Materia",
         "source": "Artistic Interest",
         "name": "Artistic Interest",
         "type": "WHT",
@@ -1852,7 +1716,7 @@
         "✓": "✓"
     },
     {
-        "character": "Red Mage",
+        "sourceType": "Materia",
         "source": "Magic Flame I",
         "name": "Attack",
         "type": "BLK",
@@ -1868,7 +1732,7 @@
         "✓": "✓"
     },
     {
-        "character": "Red Mage",
+        "sourceType": "Materia",
         "source": "Mage-of-all-Trades",
         "name": "Mage-of-all-Trades",
         "type": "BLK",
@@ -1884,7 +1748,7 @@
         "✓": "✓"
     },
     {
-        "character": "Red Mage",
+        "sourceType": "Materia",
         "source": "Mage-of-all-Trades",
         "name": "Mage-of-all-Trades",
         "type": "BLK",
@@ -1900,7 +1764,7 @@
         "✓": "✓"
     },
     {
-        "character": "Red Mage",
+        "sourceType": "Materia",
         "source": "Mage-of-all-Trades",
         "name": "Mage-of-all-Trades",
         "type": "BLK",
@@ -1916,7 +1780,7 @@
         "✓": "✓"
     },
     {
-        "character": "Red Mage",
+        "sourceType": "Materia",
         "source": "Mage-of-all-Trades",
         "name": "Mage-of-all-Trades",
         "type": "WHT",
@@ -1932,7 +1796,7 @@
         "✓": "✓"
     },
     {
-        "character": "Black Mage",
+        "sourceType": "Materia",
         "source": "Omnicast Fire",
         "name": "Attack",
         "type": "BLK",
@@ -1948,7 +1812,7 @@
         "✓": "✓"
     },
     {
-        "character": "Black Mage",
+        "sourceType": "Materia",
         "source": "Omnicast Direflame",
         "name": "Attack",
         "type": "BLK",
@@ -1964,7 +1828,7 @@
         "✓": "✓"
     },
     {
-        "character": "Magus",
+        "sourceType": "Materia",
         "source": "Forbidden Knowledge",
         "name": "Attack",
         "type": "BLK",
@@ -1980,7 +1844,7 @@
         "✓": "✓"
     },
     {
-        "character": "Magus",
+        "sourceType": "Materia",
         "source": "Forbidden Sorcery",
         "name": "Attack",
         "type": "BLK",
@@ -1996,7 +1860,7 @@
         "✓": "✓"
     },
     {
-        "character": "White Mage",
+        "sourceType": "Materia",
         "source": "Prayer of Mending",
         "name": "Attack",
         "type": "WHT",
@@ -2013,7 +1877,7 @@
         "✓": "✓"
     },
     {
-        "character": "White Mage",
+        "sourceType": "Materia",
         "source": "White Mage Wonder",
         "name": "Attack",
         "type": "WHT",
@@ -2030,7 +1894,7 @@
         "✓": "✓"
     },
     {
-        "character": "Devout",
+        "sourceType": "Materia",
         "source": "Cleansing Spirit",
         "name": "Salve",
         "type": "NAT",
@@ -2044,7 +1908,7 @@
         "✓": "✓"
     },
     {
-        "character": "Devout",
+        "sourceType": "Materia",
         "source": "Cleansing Grace",
         "name": "Salve",
         "type": "NAT",
@@ -2058,7 +1922,7 @@
         "✓": "✓"
     },
     {
-        "character": "Summoner",
+        "sourceType": "Materia",
         "source": "Summoner's Oath",
         "name": "Attack",
         "type": "SUM",
@@ -2072,7 +1936,7 @@
         "✓": "✓"
     },
     {
-        "character": "Samurai",
+        "sourceType": "Materia",
         "source": "Inner Awakening",
         "name": "Inner Awakening",
         "type": "PHY",
@@ -2089,7 +1953,7 @@
         "✓": "✓"
     },
     {
-        "character": "Dragoon",
+        "sourceType": "Materia",
         "source": "From On High",
         "name": "From On High",
         "type": "PHY",
@@ -2106,7 +1970,7 @@
         "✓": "✓"
     },
     {
-        "character": "Dark Knight",
+        "sourceType": "Materia",
         "source": "Dark Blade",
         "name": "Attack",
         "type": "PHY",
@@ -2123,7 +1987,7 @@
         "✓": "✓"
     },
     {
-        "character": "Dark Knight",
+        "sourceType": "Materia",
         "source": "Secrets of Darkness",
         "name": "Attack",
         "type": "PHY",
@@ -2140,7 +2004,7 @@
         "✓": "✓"
     },
     {
-        "character": "Dark Knight",
+        "sourceType": "Materia",
         "source": "Dark Delight",
         "name": "Dark Delight",
         "type": "PHY",
@@ -2157,7 +2021,7 @@
         "✓": "✓"
     },
     {
-        "character": "Spellblade",
+        "sourceType": "Materia",
         "source": "Earthen Blade",
         "name": "Earthen Blade",
         "type": "PHY",
@@ -2174,7 +2038,7 @@
         "✓": "✓"
     },
     {
-        "character": "Thief",
+        "sourceType": "Materia",
         "source": "Thief's Slight",
         "name": "Thief's Slight",
         "type": "PHY",
@@ -2191,7 +2055,7 @@
         "✓": "✓"
     },
     {
-        "character": "Bard",
+        "sourceType": "Materia",
         "source": "Zealot",
         "name": "Attack",
         "type": "PHY",
@@ -2207,7 +2071,7 @@
         "✓": "✓"
     },
     {
-        "character": "Bard",
+        "sourceType": "Materia",
         "source": "Chant of Repose",
         "name": "Chant of Repose",
         "type": "NAT",
@@ -2224,7 +2088,7 @@
         "✓": "✓"
     },
     {
-        "character": "Ninja",
+        "sourceType": "Materia",
         "source": "Master Ninja",
         "name": "Attack",
         "type": "NIN",
@@ -2241,7 +2105,7 @@
         "✓": "✓"
     },
     {
-        "character": "Gladiator",
+        "sourceType": "Materia",
         "source": "Super Critical",
         "name": "Attack",
         "type": "PHY",
@@ -2257,7 +2121,7 @@
         "✓": "✓"
     },
     {
-        "character": "Gladiator",
+        "sourceType": "Materia",
         "source": "Gladiator's Guile",
         "name": "Attack",
         "type": "PHY",
@@ -2274,7 +2138,7 @@
         "✓": "✓"
     },
     {
-        "character": "Warrior of Light",
+        "sourceType": "Materia",
         "source": "Light's Wrath",
         "name": "Attack",
         "type": "PHY",
@@ -2290,7 +2154,7 @@
         "✓": "✓"
     },
     {
-        "character": "Garland",
+        "sourceType": "Materia",
         "source": "Heretic",
         "name": "Attack",
         "type": "PHY",
@@ -2306,7 +2170,7 @@
         "✓": "✓"
     },
     {
-        "character": "Sarah",
+        "sourceType": "Materia",
         "source": "Royal Benediction",
         "name": "Attack",
         "type": "WHT",
@@ -2323,7 +2187,7 @@
         "✓": "✓"
     },
     {
-        "character": "Sarah",
+        "sourceType": "Materia",
         "source": "Warrior's Ballad",
         "name": "Warrior's Ballad",
         "type": "WHT",
@@ -2340,7 +2204,7 @@
         "✓": "✓"
     },
     {
-        "character": "Wol",
+        "sourceType": "Materia",
         "source": "Critical Affinity",
         "name": "Attack",
         "type": "PHY",
@@ -2356,7 +2220,7 @@
         "✓": "✓"
     },
     {
-        "character": "Echo",
+        "sourceType": "Materia",
         "source": "Fickle Fortune",
         "name": "Fickle Fortune",
         "type": "NAT",
@@ -2370,7 +2234,7 @@
         "✓": "✓"
     },
     {
-        "character": "Master",
+        "sourceType": "Materia",
         "source": "Burnished Fist",
         "name": "Attack",
         "type": "PHY",
@@ -2386,7 +2250,7 @@
         "✓": "✓"
     },
     {
-        "character": "Maria",
+        "sourceType": "Materia",
         "source": "Inflame",
         "name": "Attack",
         "type": "BLK",
@@ -2402,7 +2266,7 @@
         "✓": "✓"
     },
     {
-        "character": "Leon",
+        "sourceType": "Materia",
         "source": "Power of Darkness",
         "name": "Attack",
         "type": "PHY",
@@ -2418,7 +2282,7 @@
         "✓": "✓"
     },
     {
-        "character": "Josef",
+        "sourceType": "Materia",
         "source": "Double Hit",
         "name": "Attack",
         "type": "PHY",
@@ -2435,7 +2299,7 @@
         "✓": "✓"
     },
     {
-        "character": "Emperor",
+        "sourceType": "Materia",
         "source": "Emperor's Stratagem",
         "name": "Emperor's Stratagem",
         "type": "BLK",
@@ -2451,7 +2315,7 @@
         "✓": "✓"
     },
     {
-        "character": "Emperor",
+        "sourceType": "Materia",
         "source": "Winds of Darkness",
         "name": "Winds of Darkness",
         "type": "BLK",
@@ -2467,7 +2331,7 @@
         "✓": "✓"
     },
     {
-        "character": "Emperor",
+        "sourceType": "Materia",
         "source": "Hellforged Might",
         "name": "Hellforged Might",
         "type": "NAT",
@@ -2481,23 +2345,24 @@
         "✓": "✓"
     },
     {
-        "character": "Hilda",
+        "sourceType": "Materia",
         "source": "Princess's Inspiration",
         "name": "Princess's Inspiration",
-        "type": "?",
+        "type": "WHT",
         "target": "All allies",
         "formula": "Magical",
-        "multiplier": "?",
+        "multiplier": 2,
         "element": "Holy",
-        "time": "?",
-        "effects": "Restores HP (?), damages undeads",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?"
+        "time": 0.01,
+        "effects": "Restores HP (25), damages undeads",
+        "counter": "Y",
+        "autoTarget": "All allies",
+        "sb": 0,
+        "school": "Special",
+        "✓": "✓"
     },
     {
-        "character": "Desch",
+        "sourceType": "Materia",
         "source": "Shocking Demeanor",
         "name": "Attack",
         "type": "BLK",
@@ -2513,7 +2378,7 @@
         "✓": "✓"
     },
     {
-        "character": "Cloud of Darkness",
+        "sourceType": "Materia",
         "source": "Ripples of Magic",
         "name": "Ripples of Magic",
         "type": "BLK",
@@ -2529,7 +2394,7 @@
         "✓": "✓"
     },
     {
-        "character": "Cloud of Darkness",
+        "sourceType": "Materia",
         "source": "Portent of Doom",
         "name": "Portent of Doom",
         "type": "BLK",
@@ -2545,7 +2410,7 @@
         "✓": "✓"
     },
     {
-        "character": "Cloud of Darkness",
+        "sourceType": "Materia",
         "source": "Avatar of the Void",
         "name": "Avatar of the Void",
         "type": "BLK",
@@ -2561,7 +2426,7 @@
         "✓": "✓"
     },
     {
-        "character": "Cloud of Darkness",
+        "sourceType": "Materia",
         "source": "Effusing Darkness",
         "name": "Effusing Darkness",
         "type": "BLK",
@@ -2577,7 +2442,7 @@
         "✓": "✓"
     },
     {
-        "character": "Cecil (Dark Knight)",
+        "sourceType": "Materia",
         "source": "Gore-stained Blade I",
         "name": "Attack",
         "type": "PHY",
@@ -2594,7 +2459,7 @@
         "✓": "✓"
     },
     {
-        "character": "Cecil (Dark Knight)",
+        "sourceType": "Materia",
         "source": "Gore-stained Blade II",
         "name": "Attack",
         "type": "PHY",
@@ -2611,7 +2476,7 @@
         "✓": "✓"
     },
     {
-        "character": "Cecil (Paladin)",
+        "sourceType": "Materia",
         "source": "Holy Blade",
         "name": "Attack",
         "type": "PHY",
@@ -2628,7 +2493,7 @@
         "✓": "✓"
     },
     {
-        "character": "Cecil (Paladin)",
+        "sourceType": "Materia",
         "source": "Paladin's Devotion",
         "name": "Mend",
         "type": "NAT",
@@ -2645,7 +2510,7 @@
         "✓": "✓"
     },
     {
-        "character": "Yang",
+        "sourceType": "Materia",
         "source": "Tough Love",
         "name": "Attack",
         "type": "PHY",
@@ -2661,7 +2526,7 @@
         "✓": "✓"
     },
     {
-        "character": "Yang",
+        "sourceType": "Materia",
         "source": "Feat of Fabul",
         "name": "Attack",
         "type": "PHY",
@@ -2677,7 +2542,7 @@
         "✓": "✓"
     },
     {
-        "character": "Tellah",
+        "sourceType": "Materia",
         "source": "Sage's Sigil",
         "name": "Attack",
         "type": "BLK",
@@ -2693,7 +2558,7 @@
         "✓": "✓"
     },
     {
-        "character": "Cid (IV)",
+        "sourceType": "Materia",
         "source": "Grizzled Veteran",
         "name": "Attack",
         "type": "PHY",
@@ -2710,7 +2575,7 @@
         "✓": "✓"
     },
     {
-        "character": "Ceodore",
+        "sourceType": "Materia",
         "source": "Hero's Progeny",
         "name": "Salve",
         "type": "NAT",
@@ -2724,7 +2589,7 @@
         "✓": "✓"
     },
     {
-        "character": "Ceodore",
+        "sourceType": "Materia",
         "source": "Fledging Red Wings",
         "name": "Fledging Red Wings",
         "type": "NAT",
@@ -2738,7 +2603,7 @@
         "✓": "✓"
     },
     {
-        "character": "Rubicante",
+        "sourceType": "Materia",
         "source": "Master of Fire",
         "name": "Attack",
         "type": "BLK",
@@ -2754,7 +2619,7 @@
         "✓": "✓"
     },
     {
-        "character": "Barbariccia",
+        "sourceType": "Materia",
         "source": "Crowned by the Wind",
         "name": "Crowned by the Wind",
         "type": "BLK",
@@ -2770,7 +2635,7 @@
         "✓": "✓"
     },
     {
-        "character": "Lenna",
+        "sourceType": "Materia",
         "source": "Impartial Kindness",
         "name": "Impartial Kindness",
         "type": "WHT",
@@ -2787,7 +2652,7 @@
         "✓": "✓"
     },
     {
-        "character": "Galuf",
+        "sourceType": "Materia",
         "source": "Martial Master",
         "name": "Attack",
         "type": "PHY",
@@ -2804,7 +2669,7 @@
         "✓": "✓"
     },
     {
-        "character": "Exdeath",
+        "sourceType": "Materia",
         "source": "Evil Thoughts",
         "name": "Attack",
         "type": "PHY",
@@ -2821,7 +2686,7 @@
         "✓": "✓"
     },
     {
-        "character": "Kelger",
+        "sourceType": "Materia",
         "source": "Ferocious Fang",
         "name": "Attack",
         "type": "PHY",
@@ -2837,7 +2702,7 @@
         "✓": "✓"
     },
     {
-        "character": "Mog",
+        "sourceType": "Materia",
         "source": "Dance Lover",
         "name": "Dance Lover",
         "type": "WHT",
@@ -2854,7 +2719,7 @@
         "✓": "✓"
     },
     {
-        "character": "Mog",
+        "sourceType": "Materia",
         "source": "Moogle Survival",
         "name": "Moogle Survival",
         "type": "NAT",
@@ -2868,7 +2733,7 @@
         "✓": "✓"
     },
     {
-        "character": "Shadow",
+        "sourceType": "Materia",
         "source": "Cold Steel",
         "name": "Attack",
         "type": "PHY",
@@ -2884,7 +2749,7 @@
         "✓": "✓"
     },
     {
-        "character": "Gau",
+        "sourceType": "Materia",
         "source": "Veldt Mischief",
         "name": "Cat Scratch",
         "type": "NAT",
@@ -2900,7 +2765,7 @@
         "✓": "✓"
     },
     {
-        "character": "Setzer",
+        "sourceType": "Materia",
         "source": "Fate-Defying Bet",
         "name": "Fate-Defying Bet",
         "type": "PHY",
@@ -2917,7 +2782,7 @@
         "✓": "✓"
     },
     {
-        "character": "Strago",
+        "sourceType": "Materia",
         "source": "Blue Mage Defiance",
         "name": "Stone",
         "type": "NAT",
@@ -2934,7 +2799,7 @@
         "✓": "✓"
     },
     {
-        "character": "Strago",
+        "sourceType": "Materia",
         "source": "Reborn Zeal",
         "name": "Renewed Passion",
         "type": "BLK",
@@ -2950,7 +2815,7 @@
         "✓": "✓"
     },
     {
-        "character": "Strago",
+        "sourceType": "Materia",
         "source": "Waker of Hope",
         "name": "Waker of Hope",
         "type": "NAT",
@@ -2964,7 +2829,7 @@
         "✓": "✓"
     },
     {
-        "character": "Gogo (VI)",
+        "sourceType": "Materia",
         "source": "Defensive Instinct",
         "name": "Guard",
         "type": "NAT",
@@ -2978,7 +2843,7 @@
         "✓": "✓"
     },
     {
-        "character": "Umaro",
+        "sourceType": "Materia",
         "source": "Icy Jewel",
         "name": "Ice Storm",
         "type": "PHY",
@@ -2995,7 +2860,7 @@
         "✓": "✓"
     },
     {
-        "character": "Leo",
+        "sourceType": "Materia",
         "source": "One Against Many",
         "name": "Attack",
         "type": "PHY",
@@ -3011,7 +2876,7 @@
         "✓": "✓"
     },
     {
-        "character": "Barret",
+        "sourceType": "Materia",
         "source": "Comrade's Legacy",
         "name": "Gatling Gun",
         "type": "PHY",
@@ -3028,7 +2893,7 @@
         "✓": "✓"
     },
     {
-        "character": "Aerith",
+        "sourceType": "Materia",
         "source": "Motherly Protector",
         "name": "Motherly Protector",
         "type": "WHT",
@@ -3045,7 +2910,7 @@
         "✓": "✓"
     },
     {
-        "character": "Yuffie",
+        "sourceType": "Materia",
         "source": "Lickety-Split",
         "name": "Attack",
         "type": "PHY",
@@ -3061,7 +2926,7 @@
         "✓": "✓"
     },
     {
-        "character": "Cait Sith",
+        "sourceType": "Materia",
         "source": "Lucky Slots",
         "name": "Attack",
         "type": "NAT",
@@ -3077,7 +2942,7 @@
         "✓": "✓"
     },
     {
-        "character": "Cait Sith",
+        "sourceType": "Materia",
         "source": "Courage Boost!",
         "name": "Courage Boost!",
         "type": "WHT",
@@ -3094,7 +2959,7 @@
         "✓": "✓"
     },
     {
-        "character": "Zack",
+        "sourceType": "Materia",
         "source": "SOLDIER Follow-Up",
         "name": "SOLDIER Follow-Up",
         "type": "PHY",
@@ -3110,7 +2975,7 @@
         "✓": "✓"
     },
     {
-        "character": "Reno",
+        "sourceType": "Materia",
         "source": "Crimson Lockdown",
         "name": "Attack",
         "type": "PHY",
@@ -3127,7 +2992,7 @@
         "✓": "✓"
     },
     {
-        "character": "Angeal",
+        "sourceType": "Materia",
         "source": "Heroic Stride",
         "name": "Guard",
         "type": "NAT",
@@ -3141,7 +3006,7 @@
         "✓": "✓"
     },
     {
-        "character": "Squall",
+        "sourceType": "Materia",
         "source": "Composure",
         "name": "Attack",
         "type": "PHY",
@@ -3157,7 +3022,7 @@
         "✓": "✓"
     },
     {
-        "character": "Squall",
+        "sourceType": "Materia",
         "source": "Gunblade",
         "name": "Attack",
         "type": "PHY",
@@ -3173,7 +3038,7 @@
         "✓": "✓"
     },
     {
-        "character": "Rinoa",
+        "sourceType": "Materia",
         "source": "Angelo Recover",
         "name": "Attack",
         "type": "PHY",
@@ -3190,7 +3055,7 @@
         "✓": "✓"
     },
     {
-        "character": "Selphie",
+        "sourceType": "Materia",
         "source": "Flower of Trabia",
         "name": "Attack",
         "type": "WHT",
@@ -3206,7 +3071,7 @@
         "✓": "✓"
     },
     {
-        "character": "Seifer",
+        "sourceType": "Materia",
         "source": "Dirty Trick",
         "name": "Dirty Trick",
         "type": "NAT",
@@ -3220,7 +3085,7 @@
         "✓": "✓"
     },
     {
-        "character": "Edea",
+        "sourceType": "Materia",
         "source": "Icy Manipulator",
         "name": "Attack",
         "type": "BLK",
@@ -3236,7 +3101,7 @@
         "✓": "✓"
     },
     {
-        "character": "Raijin",
+        "sourceType": "Materia",
         "source": "Faithful Friend",
         "name": "Attack",
         "type": "NAT",
@@ -3250,7 +3115,7 @@
         "✓": "✓"
     },
     {
-        "character": "Fujin",
+        "sourceType": "Materia",
         "source": "Terse Beauty",
         "name": "Salve",
         "type": "NAT",
@@ -3264,7 +3129,7 @@
         "✓": "✓"
     },
     {
-        "character": "Kiros",
+        "sourceType": "Materia",
         "source": "Loyal Friend",
         "name": "Loyal Friend",
         "type": "PHY",
@@ -3281,7 +3146,7 @@
         "✓": "✓"
     },
     {
-        "character": "Garnet",
+        "sourceType": "Materia",
         "source": "Healer",
         "name": "Attack",
         "type": "WHT",
@@ -3298,7 +3163,7 @@
         "✓": "✓"
     },
     {
-        "character": "Garnet",
+        "sourceType": "Materia",
         "source": "Theater Lover",
         "name": "Theater Lover",
         "type": "WHT",
@@ -3315,7 +3180,7 @@
         "✓": "✓"
     },
     {
-        "character": "Vivi",
+        "sourceType": "Materia",
         "source": "Black Mage's Awakening",
         "name": "Attack",
         "type": "BLK",
@@ -3331,7 +3196,7 @@
         "✓": "✓"
     },
     {
-        "character": "Steiner",
+        "sourceType": "Materia",
         "source": "Knight's Pride",
         "name": "Guard",
         "type": "NAT",
@@ -3345,7 +3210,7 @@
         "✓": "✓"
     },
     {
-        "character": "Freya",
+        "sourceType": "Materia",
         "source": "Devoted Dragoon",
         "name": "Devoted Dragoon",
         "type": "PHY",
@@ -3362,7 +3227,7 @@
         "✓": "✓"
     },
     {
-        "character": "Tidus",
+        "sourceType": "Materia",
         "source": "High Scorer",
         "name": "Attack",
         "type": "PHY",
@@ -3378,7 +3243,7 @@
         "✓": "✓"
     },
     {
-        "character": "Kimahri",
+        "sourceType": "Materia",
         "source": "Hornless Pride",
         "name": "Hornless Pride",
         "type": "NAT",
@@ -3392,7 +3257,7 @@
         "✓": "✓"
     },
     {
-        "character": "Seymour",
+        "sourceType": "Materia",
         "source": "Twisted Summoner",
         "name": "Twisted Summoner",
         "type": "SUM",
@@ -3406,7 +3271,7 @@
         "✓": "✓"
     },
     {
-        "character": "Prishe",
+        "sourceType": "Materia",
         "source": "Unexpected Assault",
         "name": "Attack",
         "type": "PHY",
@@ -3423,7 +3288,7 @@
         "✓": "✓"
     },
     {
-        "character": "Lion",
+        "sourceType": "Materia",
         "source": "Fleeting Strike",
         "name": "Attack",
         "type": "PHY",
@@ -3440,7 +3305,7 @@
         "✓": "✓"
     },
     {
-        "character": "Aphmau",
+        "sourceType": "Materia",
         "source": "Unarmed Puppeteer",
         "name": "Attack",
         "type": "WHT",
@@ -3456,7 +3321,7 @@
         "✓": "✓"
     },
     {
-        "character": "Fran",
+        "sourceType": "Materia",
         "source": "Art of the Barrage",
         "name": "Barrage",
         "type": "PHY",
@@ -3473,7 +3338,7 @@
         "✓": "✓"
     },
     {
-        "character": "Penelo",
+        "sourceType": "Materia",
         "source": "Dreams of the Dance",
         "name": "Dreams of the Dance",
         "type": "WHT",
@@ -3490,7 +3355,7 @@
         "✓": "✓"
     },
     {
-        "character": "Reks",
+        "sourceType": "Materia",
         "source": "Youngest Knight",
         "name": "Youngest Knight",
         "type": "NAT",
@@ -3504,7 +3369,7 @@
         "✓": "✓"
     },
     {
-        "character": "Lightning",
+        "sourceType": "Materia",
         "source": "Thunderstroke",
         "name": "Attack",
         "type": "PHY",
@@ -3520,7 +3385,7 @@
         "✓": "✓"
     },
     {
-        "character": "Vanille",
+        "sourceType": "Materia",
         "source": "Innocence",
         "name": "Mend",
         "type": "NAT",
@@ -3537,7 +3402,7 @@
         "✓": "✓"
     },
     {
-        "character": "Vanille",
+        "sourceType": "Materia",
         "source": "Pulse Kindness",
         "name": "Attack",
         "type": "WHT",
@@ -3554,7 +3419,7 @@
         "✓": "✓"
     },
     {
-        "character": "Vanille",
+        "sourceType": "Materia",
         "source": "Words of Truth",
         "name": "Attack",
         "type": "WHT",
@@ -3570,7 +3435,7 @@
         "✓": "✓"
     },
     {
-        "character": "Vanille",
+        "sourceType": "Materia",
         "source": "Gentle Atonement",
         "name": "Gentle Atonement",
         "type": "WHT",
@@ -3587,7 +3452,7 @@
         "✓": "✓"
     },
     {
-        "character": "Sazh",
+        "sourceType": "Materia",
         "source": "Double Barrels",
         "name": "Attack",
         "type": "PHY",
@@ -3604,7 +3469,7 @@
         "✓": "✓"
     },
     {
-        "character": "Fang",
+        "sourceType": "Materia",
         "source": "Roar On High",
         "name": "Roar On High",
         "type": "PHY",
@@ -3621,7 +3486,7 @@
         "✓": "✓"
     },
     {
-        "character": "Noel",
+        "sourceType": "Materia",
         "source": "Shadow Hunter",
         "name": "Attack",
         "type": "PHY",
@@ -3638,7 +3503,7 @@
         "✓": "✓"
     },
     {
-        "character": "Nabaat",
+        "sourceType": "Materia",
         "source": "PSICOM Prodigy",
         "name": "PSICOM Prodigy",
         "type": "BLK",
@@ -3654,7 +3519,7 @@
         "✓": "✓"
     },
     {
-        "character": "Yda",
+        "sourceType": "Materia",
         "source": "Capricious Pugilist",
         "name": "Attack",
         "type": "PHY",
@@ -3670,7 +3535,7 @@
         "✓": "✓"
     },
     {
-        "character": "Yda",
+        "sourceType": "Materia",
         "source": "Divine Fists",
         "name": "Attack",
         "type": "PHY",
@@ -3686,7 +3551,7 @@
         "✓": "✓"
     },
     {
-        "character": "Ysayle",
+        "sourceType": "Materia",
         "source": "Dragonsong Seer",
         "name": "Attack",
         "type": "BLK",
@@ -3702,7 +3567,7 @@
         "✓": "✓"
     },
     {
-        "character": "Noctis",
+        "sourceType": "Materia",
         "source": "Lucian Heir",
         "name": "Lucian Heir",
         "type": "NAT",
@@ -3716,7 +3581,7 @@
         "✓": "✓"
     },
     {
-        "character": "Noctis",
+        "sourceType": "Materia",
         "source": "Promised Power",
         "name": "Attack",
         "type": "PHY",
@@ -3732,7 +3597,7 @@
         "✓": "✓"
     },
     {
-        "character": "Ignis",
+        "sourceType": "Materia",
         "source": "Royal Advisor",
         "name": "Royal Advisor",
         "type": "PHY",
@@ -3749,7 +3614,7 @@
         "✓": "✓"
     },
     {
-        "character": "Iris",
+        "sourceType": "Materia",
         "source": "The Two of Us",
         "name": "Attack",
         "type": "WHT",
@@ -3766,7 +3631,7 @@
         "✓": "✓"
     },
     {
-        "character": "Iris",
+        "sourceType": "Materia",
         "source": "Stern Stuff",
         "name": "Haste",
         "type": "NAT",
@@ -3780,7 +3645,7 @@
         "✓": "✓"
     },
     {
-        "character": "Ramza",
+        "sourceType": "Materia",
         "source": "Salve",
         "name": "Salve",
         "type": "NAT",
@@ -3794,7 +3659,7 @@
         "✓": "✓"
     },
     {
-        "character": "Ramza",
+        "sourceType": "Materia",
         "source": "Standard Bearer",
         "name": "Strike of the Order",
         "type": "PHY",
@@ -3810,7 +3675,7 @@
         "✓": "✓"
     },
     {
-        "character": "Agrias",
+        "sourceType": "Materia",
         "source": "Holy Knight's Sigil",
         "name": "Attack",
         "type": "PHY",
@@ -3826,7 +3691,7 @@
         "✓": "✓"
     },
     {
-        "character": "Ovelia",
+        "sourceType": "Materia",
         "source": "Lady of Ivalice",
         "name": "Attack",
         "type": "WHT",
@@ -3842,7 +3707,7 @@
         "✓": "✓"
     },
     {
-        "character": "Mustadio",
+        "sourceType": "Materia",
         "source": "Expert Marksman",
         "name": "Attack",
         "type": "PHY",
@@ -3859,7 +3724,7 @@
         "✓": "✓"
     },
     {
-        "character": "Mustadio",
+        "sourceType": "Materia",
         "source": "Rare Gift",
         "name": "Attack",
         "type": "PHY",
@@ -3876,7 +3741,7 @@
         "✓": "✓"
     },
     {
-        "character": "Orlandeau",
+        "sourceType": "Materia",
         "source": "God Among Men",
         "name": "God Among Men",
         "type": "PHY",
@@ -3893,7 +3758,7 @@
         "✓": "✓"
     },
     {
-        "character": "Gaffgarion",
+        "sourceType": "Materia",
         "source": "Fell Blademaster",
         "name": "Fell Blademaster",
         "type": "PHY",
@@ -3910,7 +3775,7 @@
         "✓": "✓"
     },
     {
-        "character": "Gaffgarion",
+        "sourceType": "Materia",
         "source": "Masterful Mercenary",
         "name": "Masterful Mercenary",
         "type": "PHY",
@@ -3927,7 +3792,7 @@
         "✓": "✓"
     },
     {
-        "character": "Marach",
+        "sourceType": "Materia",
         "source": "Dark Mantra",
         "name": "Attack",
         "type": "BLK",
@@ -3943,7 +3808,7 @@
         "✓": "✓"
     },
     {
-        "character": "Marach",
+        "sourceType": "Materia",
         "source": "Avenging Brother",
         "name": "Attack",
         "type": "BLK",
@@ -3959,7 +3824,7 @@
         "✓": "✓"
     },
     {
-        "character": "Marach",
+        "sourceType": "Materia",
         "source": "Netherseer Adept",
         "name": "Attack",
         "type": "BLK",
@@ -3975,7 +3840,7 @@
         "✓": "✓"
     },
     {
-        "character": "Montblanc",
+        "sourceType": "Materia",
         "source": "Kind Moogle",
         "name": "Kind Moogle",
         "type": "NAT",
@@ -3989,7 +3854,7 @@
         "✓": "✓"
     },
     {
-        "character": "Rem",
+        "sourceType": "Materia",
         "source": "Saint's Fire",
         "name": "Saint's Fire",
         "type": "WHT",
@@ -4005,7 +3870,7 @@
         "✓": "✓"
     },
     {
-        "character": "Machina",
+        "sourceType": "Materia",
         "source": "Naive Heart",
         "name": "Attack",
         "type": "PHY",
@@ -4021,7 +3886,7 @@
         "✓": "✓"
     },
     {
-        "character": "Queen",
+        "sourceType": "Materia",
         "source": "Swift Charge",
         "name": "Attack",
         "type": "PHY",
@@ -4037,7 +3902,7 @@
         "✓": "✓"
     },
     {
-        "character": "Cinque",
+        "sourceType": "Materia",
         "source": "Offbeat Warrior",
         "name": "Attack",
         "type": "PHY",
@@ -4053,7 +3918,7 @@
         "✓": "✓"
     },
     {
-        "character": "Enna",
+        "sourceType": "Materia",
         "source": "Smile of God",
         "name": "Attack",
         "type": "BLK",
