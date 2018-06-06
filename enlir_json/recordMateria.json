@@ -3,7 +3,7 @@
         "realm": "Core",
         "character": "Tyro",
         "name": "Attunement I",
-        "effect": "Increases damage dealt by 10% when exploiting elemental weaknesses",
+        "effect": "Increases damage dealt by 10% when exploiting elemental weakness",
         "unlockCriteria": "Use Tyro's Memory Crystal",
         "name(jp)": "みやぶるⅠ",
         "✓": "✓"
@@ -12,7 +12,7 @@
         "realm": "Core",
         "character": "Tyro",
         "name": "Attunement II",
-        "effect": "Increases damage dealt by 20% when exploiting elemental weaknesses",
+        "effect": "Increases damage dealt by 20% when exploiting elemental weakness",
         "unlockCriteria": "Chance to obtain with Tyro in party",
         "name(jp)": "みやぶるⅡ",
         "✓": "✓"
@@ -30,7 +30,7 @@
         "realm": "Core",
         "character": "Tyro",
         "name": "Scholar's Boon",
-        "effect": "Increases damage dealt by 30% when exploiting elemental weaknesses",
+        "effect": "Increases damage dealt by 30% when exploiting elemental weakness",
         "unlockCriteria": "Bring Tyro to level 99",
         "name(jp)": "学者の慧眼",
         "✓": "✓"
@@ -38,7 +38,7 @@
     {
         "realm": "Core",
         "character": "Elarra ",
-        "name": "Awakening Girl",
+        "name": "Girl Awakened",
         "effect": "WHT abilities restore 10% more HP",
         "unlockCriteria": "Use Elarra's Memory Crystal",
         "name(jp)": "目覚めし少女",
@@ -47,7 +47,7 @@
     {
         "realm": "Core",
         "character": "Elarra",
-        "name": "Protection of the Records",
+        "name": "Providence of Memory",
         "effect": "WHT abilities restore 20% more HP",
         "unlockCriteria": "Use Elarra's Memory Crystal II, chance to obtain with Elarra in party",
         "name(jp)": "記憶の加護",
@@ -56,7 +56,7 @@
     {
         "realm": "Core",
         "character": "Elarra",
-        "name": "White Mage Apprentice",
+        "name": "Divine Fundamentals",
         "effect": "40% chance to double Experience gained at the end of the battle",
         "unlockCriteria": "Bring Elarra to level 99",
         "name(jp)": "学びし白魔法の知識",
@@ -110,7 +110,7 @@
     {
         "realm": "Core",
         "character": "Knight",
-        "name": "Sturdy Knight",
+        "name": "Steadfast Knight",
         "effect": "DEF +25% when equipping a helm",
         "unlockCriteria": "Bring Knight to level 99",
         "name(jp)": "牢固なる騎士",
@@ -1398,7 +1398,7 @@
         "realm": "III",
         "character": "Luneth",
         "name": "Prey on the Weak",
-        "effect": "Increases damage dealt by 20% when exploiting elemental weaknesses",
+        "effect": "Increases damage dealt by 20% when exploiting elemental weakness",
         "unlockCriteria": "Use Luneth's Memory Crystal II, chance to obtain with Luneth in party",
         "name(jp)": "ウィークウォッチ",
         "✓": "✓"
@@ -3486,7 +3486,7 @@
         "realm": "VIII",
         "character": "Quistis",
         "name": "Keen Eye",
-        "effect": "Increases damage dealt by 10% when exploiting elemental weaknesses",
+        "effect": "Increases damage dealt by 10% when exploiting elemental weakness",
         "unlockCriteria": "Use Quistis's Memory Crystal",
         "name(jp)": "観察眼",
         "✓": "✓"
@@ -4935,7 +4935,7 @@
         "realm": "XII",
         "character": "Reks",
         "name": "Cool Head",
-        "effect": "Increases damage dealt by 20% when exploiting elemental weaknesses",
+        "effect": "Increases damage dealt by 20% when exploiting elemental weakness",
         "unlockCriteria": "Use Reks's Memory Crystal II, chance to obtain with Reks in party",
         "name(jp)": "冷静な判断力",
         "✓": "✓"
@@ -5205,7 +5205,7 @@
         "realm": "XIII",
         "character": "Nabaat",
         "name": "L'Cie's Despair",
-        "effect": "Increases damage dealt by 10% when exploiting elemental weaknesses",
+        "effect": "Increases damage dealt by 10% when exploiting elemental weakness",
         "unlockCriteria": "Use Nabaat's Memory Crystal",
         "name(jp)": "ルシを弄ぶ女軍人",
         "✓": "✓"
@@ -5555,7 +5555,7 @@
     {
         "realm": "XV",
         "character": "Ignis",
-        "name": "Tireless Learning",
+        "name": "Diligent Study",
         "effect": "PHY attacks deal 10% more damage when equipping a dagger",
         "unlockCriteria": "Use Ignis's Memory Crystal",
         "name(jp)": "たゆまぬ研鑽",
@@ -5564,7 +5564,7 @@
     {
         "realm": "XV",
         "character": "Ignis",
-        "name": "Royal Advisor",
+        "name": "Aide to Royalty",
         "effect": "15% chance to counter PHY attacks with an ability (PHY: single, 1,00 physical, heals the user for 30% of the damage dealt)",
         "unlockCriteria": "Use Ignis's Memory Crystal II, chance to obtain with Ignis in party",
         "name(jp)": "王族の側仕え",
@@ -5573,7 +5573,7 @@
     {
         "realm": "XV",
         "character": "Ignis",
-        "name": "Reliable Strategist",
+        "name": "Promising Tactician",
         "effect": "PHY attacks deal 30% more damage when equipping a dagger",
         "unlockCriteria": "Bring Ignis to level 99",
         "name(jp)": " 有望なる軍師 ",

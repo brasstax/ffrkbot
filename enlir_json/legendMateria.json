@@ -48,10 +48,10 @@
     {
         "realm": "Core",
         "character": "Elarra",
-        "name": "Artistic Interest",
+        "name": "Aspiring Artisan",
         "effect": "25% chance to cast an ability (WHT: group, restores HP (25)) after using a Bard ability",
         "master": "MND +10",
-        "relic": "Elarra's Cap (Core)",
+        "relic": "Elarra's Hat (Core)",
         "name(jp)": "芸術への興味",
         "✓": "✓"
     },
@@ -86,7 +86,7 @@
     {
         "realm": "I",
         "character": "Warrior of Light",
-        "name": "Righteous Spirit",
+        "name": "Absolute Justice",
         "effect": "Grants Attach Holy at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Flame Shield (I)",
@@ -789,7 +789,7 @@
     {
         "realm": "III",
         "character": "Onion Knight",
-        "name": "Master of Weapons",
+        "name": "Swordsman Sublime",
         "effect": "35% chance to dualcast Celerity abilities",
         "relic": "-",
         "name(jp)": "武器術の頂",
@@ -798,7 +798,7 @@
     {
         "realm": "III",
         "character": "Onion Knight",
-        "name": "Master of Magics",
+        "name": "Sorceror Sublime",
         "effect": "35% chance to dualcast Black Magic abilities",
         "relic": "-",
         "name(jp)": "魔法術の頂",
@@ -911,7 +911,7 @@
     {
         "realm": "IV",
         "character": "Cecil (Dark Knight)",
-        "name": "Power of Deep Darkness",
+        "name": "Dark Power",
         "effect": "Grants Attach Dark at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Arondight (IV)",
@@ -949,7 +949,7 @@
     {
         "realm": "IV",
         "character": "Cecil (Paladin)",
-        "name": "Conquered Light",
+        "name": "Ardor's Light",
         "effect": "Grants Attach Holy at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Caesar's Plate (IV)",
@@ -1137,10 +1137,10 @@
     {
         "realm": "IV",
         "character": "Palom",
-        "name": "Mischievous Boy",
+        "name": "Mischief Lover",
         "effect": "Grants Attach Lightning at the beginning of the battle",
         "master": "MAG +10",
-        "relic": "Hypnocrown (IV)",
+        "relic": "Hypno Crown (IV)",
         "name(jp)": "いたずら好きの少年",
         "✓": "✓"
     },
@@ -1165,7 +1165,7 @@
     {
         "realm": "IV",
         "character": "Porom",
-        "name": "Caring Girl",
+        "name": "Busybody",
         "effect": "35% chance to grant Quick Cast 1 to the target after using a single-target White Magic ability that restores HP on an ally",
         "master": "MND +10",
         "relic": "Tabby Suit (IV)",
@@ -1379,7 +1379,7 @@
     {
         "realm": "IV",
         "character": "Barbariccia",
-        "name": "Mistress of the Winds",
+        "name": "Ruler of the Wind",
         "effect": "Grants Attach Wind at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Barbariccia's Guise (IV)",
@@ -1483,10 +1483,10 @@
     {
         "realm": "V",
         "character": "Gilgamesh",
-        "name": "Heroic Passion",
+        "name": "Hero's Kindness",
         "effect": "25% chance to dualcast Samurai abilities",
         "master": "ATK +10",
-        "relic": "Gold Armor (V)",
+        "relic": "Golden Armor (V)",
         "name(jp)": "厚情なる豪傑",
         "✓": "✓"
     },
@@ -2149,7 +2149,7 @@
     {
         "realm": "VII",
         "character": "Cloud",
-        "name": "Overcoming Truth",
+        "name": "Truth Surmounted",
         "effect": "25% chance to dualcast abilities that deal Wind damage",
         "master": "ATK +10",
         "relic": "Organics+ (VII)",
@@ -2779,7 +2779,7 @@
     {
         "realm": "VIII",
         "character": "Seifer",
-        "name": "Despotic Committee",
+        "name": "Moral Tyrant",
         "effect": "Grants Attach Dark at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Blitz Armor (VIII)",
@@ -2789,10 +2789,10 @@
     {
         "realm": "VIII",
         "character": "Seifer",
-        "name": "Selfish Dreamer",
+        "name": "Egoistical Dreamer",
         "effect": "25% chance to dualcast Darkness abilities",
         "master": "ATK +10",
-        "relic": "Bangle of Ambition (VIII)",
+        "relic": "Ambition Bracer (VIII)",
         "name(jp)": "利己的な夢追い人",
         "✓": "✓"
     },
@@ -2942,7 +2942,7 @@
         "name": "Arrogant Ambition",
         "effect": "Grants Attach Wind at the beginning of the battle",
         "master": "MAG +10",
-        "relic": "Harmonia Armlet (VIII)",
+        "relic": "Harmonia's Guard (VIII)",
         "name(jp)": "傲慢な野望",
         "✓": "✓"
     },
@@ -3015,10 +3015,10 @@
     {
         "realm": "IX",
         "character": "Garnet",
-        "name": "Theater Lover",
+        "name": "Lover of the Arts",
         "effect": "25% chance to cast an ability (WHT: group, restores HP (25)) after using a Bard ability",
         "master": "MAG +10",
-        "relic": "Princess's Bracers (IX)",
+        "relic": "Princess Gloves (IX)",
         "name(jp)": "演劇を愛する姫",
         "✓": "✓"
     },
@@ -4789,7 +4789,7 @@
     {
         "realm": "XV",
         "character": "Ignis",
-        "name": "Wise Youth",
+        "name": "Young Philosopher",
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "若き賢者",
@@ -4798,7 +4798,7 @@
     {
         "realm": "XV",
         "character": "Ignis",
-        "name": "Flame for the King",
+        "name": "Lighting the Way",
         "effect": "35% chance to dualcast abilities that deal Fire damage",
         "relic": "-",
         "name(jp)": "王を照らす炎",
@@ -4807,7 +4807,7 @@
     {
         "realm": "XV",
         "character": "Ignis",
-        "name": "Serious Chef",
+        "name": "Earnest Chef",
         "effect": "Grants Quick Cast 3 at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Ignis's Fatigues (XV)",
@@ -4929,7 +4929,7 @@
     {
         "realm": "FFT",
         "character": "Ramza",
-        "name": "Idealist Knight",
+        "name": "Ambitious Knight",
         "effect": "25% chance to dualcast abilities that deal Holy damage",
         "master": "ATK +10",
         "relic": "Platinum Armor (FFT)",
@@ -5247,7 +5247,7 @@
     {
         "realm": "FFT",
         "character": "Montblanc",
-        "name": "Kind Moogle",
+        "name": "Kindhearted Moogle",
         "effect": "25% chance to cast an ability (NAT: group, ATK/MAG/MND -30%) after using a Dancer ability",
         "master": "MAG +10",
         "relic": "Circlet (A) (FFT)",

@@ -2613,8 +2613,8 @@
     },
     {
         "id": "582",
-        "commonName": "Kiss of the Wasp Counter",
-        "effects": "Keeps track of the number of uses of Kiss of the Wasp",
+        "commonName": "Hornet's Sting Counter",
+        "effects": "Keeps track of the number of uses of Hornet's Sting",
         "defaultDuration": 25,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4253,7 +4253,7 @@
     },
     {
         "id": "50156",
-        "commonName": "Truthseeking Mercenary",
+        "commonName": "Seeker of Truth",
         "effects": "Grants High Quick Cast 1 to the user and casts Shining Sword after using a Holy attack",
         "defaultDuration": 15,
         "mndModifier": "-",
