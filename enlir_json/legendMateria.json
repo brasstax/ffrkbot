@@ -4488,6 +4488,16 @@
     },
     {
         "realm": "XIV",
+        "character": "Thancred",
+        "name": "Lighthearted Nature",
+        "effect": "25% chance to dualcast Ninja abilities",
+        "master": "ATK +10",
+        "relic": "Hofuds (XIV)",
+        "name(jp)": "天性の身軽さ",
+        "✓": "✓"
+    },
+    {
+        "realm": "XIV",
         "character": "Yda",
         "name": "Unquenchable Spark",
         "effect": "Increases Fire damage dealt by 10%",
@@ -4596,6 +4606,16 @@
         "master": "ATK +10",
         "relic": "Magitek Shield (XIV)",
         "name(jp)": "盟主の資質",
+        "✓": "✓"
+    },
+    {
+        "realm": "XIV",
+        "character": "Minfilia",
+        "name": "Linkshell Expert",
+        "effect": "Grants Quick Cast 3 at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Ironworks Magitek Sword (XIV)",
+        "name(jp)": "リンクシェル達人",
         "✓": "✓"
     },
     {

@@ -1095,6 +1095,16 @@
         "notes": "-"
     },
     {
+        "id": "28801",
+        "commonName": "Wind Radiant Shield: 75%",
+        "effects": "Returns 75% of the damage taken to the attacker as Wind damage",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_WIND_75",
+        "notes": "-"
+    },
+    {
         "id": "282",
         "commonName": "Spellblade +15% Boost 2",
         "effects": "Spellblade abilities deal 15% more damage, lasts for 2 turns",
@@ -1197,7 +1207,7 @@
     {
         "id": "282010",
         "commonName": "Dark +30% Boost 1",
-        "effects": "Darkness abilities deal 30% more damage, lasts for 1 turn",
+        "effects": "Dark attacks deal 30% more damage, lasts for 1 turn",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -1272,6 +1282,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DAMAGE_BOOST_BLACK_MAGIC_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282107",
+        "commonName": "Ninja +30% Boost",
+        "effects": "Ninja abilities deal 30% more damage",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_NINJA_130_15000_MSEC",
         "notes": "-"
     },
     {
@@ -1682,6 +1702,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_THIEF",
+        "notes": "-"
+    },
+    {
+        "id": "2026",
+        "commonName": "Magical Instant Cast 3",
+        "effects": "Cast speed x9999999 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_CUSTOM_MAGIC_DAMAGE_ABILITIES",
         "notes": "-"
     },
     {
@@ -4718,6 +4748,26 @@
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Frying Pan\" status",
         "codedName": "LOVE_FRYING_PAN_MODE_BUFF_AND_CHASE_3",
+        "notes": "-"
+    },
+    {
+        "id": "50204",
+        "commonName": "Sharpcast Firaga Follow-Up",
+        "effects": "Casts Sharpcast Firaga after using a Fire attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_UNIQUE_BUDDY",
+        "notes": "-"
+    },
+    {
+        "id": "50205",
+        "commonName": "Sharpcast Firaga Counter",
+        "effects": "Keeps track of the uses of Sharpcast Firaga, removed if the user hasn't Sharpcast Firaga Follow-Up, reset upon refreshing Sharpcast Firaga Follow-Up",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_SHARPCAST",
         "notes": "-"
     },
     {
