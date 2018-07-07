@@ -575,6 +575,26 @@
         "notes": "-"
     },
     {
+        "id": "25904",
+        "commonName": "HP Stock (1000)",
+        "effects": "Automatically restores HP, up to 1000 HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "HP_STOCK_1000",
+        "notes": "-"
+    },
+    {
+        "id": "25905",
+        "commonName": "HP Stock (4000)",
+        "effects": "Automatically restores HP, up to 4000 HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "HP_STOCK_4000",
+        "notes": "-"
+    },
+    {
         "id": "260",
         "commonName": "Radiant Shield: 100%",
         "effects": "Returns all the damage taken to the attacker",
@@ -602,6 +622,86 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "ELEMENT_FIRE_DAMAGE_BARRIER_100",
+        "notes": "-"
+    },
+    {
+        "id": "26101",
+        "commonName": "Ice Stoneskin: 100%",
+        "effects": "Reduces Ice damage taken to 0, up to an amount equal to 100% of the character's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_ICE_DAMAGE_BARRIER_100",
+        "notes": "-"
+    },
+    {
+        "id": "26102",
+        "commonName": "Lightning Stoneskin: 100%",
+        "effects": "Reduces Lightning damage taken to 0, up to an amount equal to 100% of the character's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_LIGHTNING_DAMAGE_BARRIER_100",
+        "notes": "-"
+    },
+    {
+        "id": "26103",
+        "commonName": "Earth Stoneskin: 100%",
+        "effects": "Reduces Earth damage taken to 0, up to an amount equal to 100% of the character's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_EARTH_DAMAGE_BARRIER_100",
+        "notes": "-"
+    },
+    {
+        "id": "26104",
+        "commonName": "Wind Stoneskin: 100%",
+        "effects": "Reduces Wind damage taken to 0, up to an amount equal to 100% of the character's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_WIND_DAMAGE_BARRIER_100",
+        "notes": "-"
+    },
+    {
+        "id": "26105",
+        "commonName": "Water Stoneskin: 100%",
+        "effects": "Reduces Water damage taken to 0, up to an amount equal to 100% of the character's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_WATER_DAMAGE_BARRIER_100",
+        "notes": "-"
+    },
+    {
+        "id": "26106",
+        "commonName": "Holy Stoneskin: 100%",
+        "effects": "Reduces Holy damage taken to 0, up to an amount equal to 100% of the character's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_HOLY_DAMAGE_BARRIER_100",
+        "notes": "-"
+    },
+    {
+        "id": "26107",
+        "commonName": "Dark Stoneskin: 100%",
+        "effects": "Reduces Dark damage taken to 0, up to an amount equal to 100% of the character's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_DARK_DAMAGE_BARRIER_100",
+        "notes": "-"
+    },
+    {
+        "id": "26108",
+        "commonName": "Poison Stoneskin: 100%",
+        "effects": "Reduces Poison damage taken to 0, up to an amount equal to 100% of the character's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_POISON_DAMAGE_BARRIER_100",
         "notes": "-"
     },
     {
@@ -665,6 +765,16 @@
         "notes": "-"
     },
     {
+        "id": "26501",
+        "commonName": "Ice Stoneskin: Magicite 30%",
+        "effects": "Reduces Ice damage taken to 0, up to an amount equal to 30% of the Magicite's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_ICE_DAMAGE_BARRIER_BEAST_30",
+        "notes": "-"
+    },
+    {
         "id": "26502",
         "commonName": "Lightning Stoneskin: Magicite 30%",
         "effects": "Reduces Lightning damage taken to 0, up to an amount equal to 30% of the Magicite's maximum HP",
@@ -672,6 +782,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "ELEMENT_LIGHTNING_DAMAGE_BARRIER_BEAST_30",
+        "notes": "-"
+    },
+    {
+        "id": "26503",
+        "commonName": "Earth Stoneskin: Magicite 30%",
+        "effects": "Reduces Earth damage taken to 0, up to an amount equal to 30% of the Magicite's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_EARTH_DAMAGE_BARRIER_BEAST_30",
         "notes": "-"
     },
     {
@@ -685,6 +805,16 @@
         "notes": "-"
     },
     {
+        "id": "26505",
+        "commonName": "Water Stoneskin: Magicite 30%",
+        "effects": "Reduces Water damage taken to 0, up to an amount equal to 30% of the Magicite's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_WATER_DAMAGE_BARRIER_BEAST_30",
+        "notes": "-"
+    },
+    {
         "id": "26506",
         "commonName": "Holy Stoneskin: Magicite 30%",
         "effects": "Reduces Holy damage taken to 0, up to an amount equal to 30% of the Magicite's maximum HP",
@@ -692,6 +822,26 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "ELEMENT_HOLY_DAMAGE_BARRIER_BEAST_30",
+        "notes": "-"
+    },
+    {
+        "id": "26507",
+        "commonName": "Dark Stoneskin: Magicite 30%",
+        "effects": "Reduces Dark damage taken to 0, up to an amount equal to 30% of the Magicite's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_DARK_DAMAGE_BARRIER_BEAST_30",
+        "notes": "-"
+    },
+    {
+        "id": "26508",
+        "commonName": "Poison Stoneskin: Magicite 30%",
+        "effects": "Reduces Poison damage taken to 0, up to an amount equal to 30% of the Magicite's maximum HP",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_POISON_DAMAGE_BARRIER_BEAST_30",
         "notes": "-"
     },
     {
@@ -756,7 +906,7 @@
     },
     {
         "id": "266007",
-        "commonName": "As One Mode",
+        "commonName": "Countrymen",
         "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -1095,6 +1245,26 @@
         "notes": "-"
     },
     {
+        "id": "28801",
+        "commonName": "Wind Radiant Shield: 75%",
+        "effects": "Returns 75% of the damage taken to the attacker as Wind damage",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_WIND_75",
+        "notes": "-"
+    },
+    {
+        "id": "28901",
+        "commonName": "Poison Radiant Shield: 75%",
+        "effects": "Returns 75% of the damage taken to the attacker as Poison damage",
+        "defaultDuration": "30",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RADIANT_SHIELD_POISON_75",
+        "notes": "-"
+    },
+    {
         "id": "282",
         "commonName": "Spellblade +15% Boost 2",
         "effects": "Spellblade abilities deal 15% more damage, lasts for 2 turns",
@@ -1197,7 +1367,7 @@
     {
         "id": "282010",
         "commonName": "Dark +30% Boost 1",
-        "effects": "Darkness abilities deal 30% more damage, lasts for 1 turn",
+        "effects": "Dark attacks deal 30% more damage, lasts for 1 turn",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -1236,7 +1406,7 @@
     },
     {
         "id": "282103",
-        "commonName": "Knight +15% Boost",
+        "commonName": "Knight Extended +15% Boost",
         "effects": "Knight abilities deal 15% more damage",
         "defaultDuration": 25,
         "mndModifier": "-",
@@ -1275,6 +1445,16 @@
         "notes": "-"
     },
     {
+        "id": "282107",
+        "commonName": "Ninja +30% Boost",
+        "effects": "Ninja abilities deal 30% more damage",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_NINJA_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
         "id": "282108",
         "commonName": "Celerity or Spellblade +30% Boost",
         "effects": "Celerity or Spellblade abilities deal 30% more damage",
@@ -1302,6 +1482,466 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DAMAGE_BOOST_HOLY_150_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282111",
+        "commonName": "Black Magic +15% Boost",
+        "effects": "Black Magic abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_BLACK_MAGIC_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282112",
+        "commonName": "Celerity or Spellblade +15% Boost",
+        "effects": "Celerity or Spellblade abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SPELLBLADE_OR_CELERITY_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282113",
+        "commonName": "White Magic +15% Boost",
+        "effects": "White Magic abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_WHITE_MAGIC_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282114",
+        "commonName": "White Magic +30% Boost",
+        "effects": "White Magic abilities deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_WHITE_MAGIC_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282115",
+        "commonName": "Combat +15% Boost",
+        "effects": "Combat abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_COMBAT_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282116",
+        "commonName": "Combat +30% Boost",
+        "effects": "Combat abilities deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_COMBAT_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282117",
+        "commonName": "Support +15% Boost",
+        "effects": "Support abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SUPPORT_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282118",
+        "commonName": "Support +30% Boost",
+        "effects": "Support abilities deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SUPPORT_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282119",
+        "commonName": "Dragoon +15% Boost",
+        "effects": "Dragoon abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_DRAGOON_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282120",
+        "commonName": "Dragoon +30% Boost",
+        "effects": "Dragoon abilities deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_DRAGOON_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282121",
+        "commonName": "Monk +15% Boost",
+        "effects": "Monk abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_MONK_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282122",
+        "commonName": "Monk +30% Boost",
+        "effects": "Monk abilities deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_MONK_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282123",
+        "commonName": "Thief +15% Boost",
+        "effects": "Thief abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_THIEF_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282124",
+        "commonName": "Thief +30% Boost",
+        "effects": "Thief abilities deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_THIEF_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282125",
+        "commonName": "Samurai +15% Boost",
+        "effects": "Samurai abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SAMURAI_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282126",
+        "commonName": "Samurai +30% Boost",
+        "effects": "Samurai abilities deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SAMURAI_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282127",
+        "commonName": "Ninja +15% Boost",
+        "effects": "Ninja abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_NINJA_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282128",
+        "commonName": "Darkness +15% Boost",
+        "effects": "Darkness abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_DARKNESS_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282129",
+        "commonName": "Bard +15% Boost",
+        "effects": "Bard abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_BARD_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282130",
+        "commonName": "Bard +30% Boost",
+        "effects": "Bard abilities deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_BARD_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282131",
+        "commonName": "Dancer +15% Boost",
+        "effects": "Dancer abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_DANCER_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282132",
+        "commonName": "Dancer +30% Boost",
+        "effects": "Dancer abilities deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_DANCER_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282133",
+        "commonName": "Machinist +15% Boost",
+        "effects": "Machinist abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_MACHINIST_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282134",
+        "commonName": "Machinist +30% Boost",
+        "effects": "Machinist abilities deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_MACHINIST_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282135",
+        "commonName": "Sharpshooter +15% Boost",
+        "effects": "Sharpshooter abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SHOOTER_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282136",
+        "commonName": "Sharpshooter +30% Boost",
+        "effects": "Sharpshooter abilities deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SHOOTER_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282137",
+        "commonName": "Witch +15% Boost",
+        "effects": "Witch abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_WITCH_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282138",
+        "commonName": "Witch +30% Boost",
+        "effects": "Witch abilities deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_WITCH_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282139",
+        "commonName": "Heavy +15% Boost",
+        "effects": "Heavy abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_HEAVY_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282140",
+        "commonName": "Heavy +30% Boost",
+        "effects": "Heavy abilities deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_HEAVY_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282141",
+        "commonName": "Spellblade +15% Boost",
+        "effects": "Spellblade abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SPELLBLADE_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282142",
+        "commonName": "Summon +15% Boost",
+        "effects": "Summoning abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SUMMON_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282143",
+        "commonName": "Summoning +15% Boost 3",
+        "effects": "Summoning abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SUMMONING_115_3",
+        "notes": "-"
+    },
+    {
+        "id": "282144",
+        "commonName": "Combat +15% Boost 3",
+        "effects": "Combat abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_COMBAT_115_3",
+        "notes": "-"
+    },
+    {
+        "id": "282145",
+        "commonName": "Support +15% Boost 3",
+        "effects": "Support abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SUPPORT_115_3",
+        "notes": "-"
+    },
+    {
+        "id": "282146",
+        "commonName": "Celerity +15% Boost 3",
+        "effects": "Celerity abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_CELERITY_115_3",
+        "notes": "-"
+    },
+    {
+        "id": "282147",
+        "commonName": "Dragoon +15% Boost 3",
+        "effects": "Dragoon abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_DRAGOON_115_3",
+        "notes": "-"
+    },
+    {
+        "id": "282148",
+        "commonName": "Thief +15% Boost 3",
+        "effects": "Thief abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_THIEF_115_3",
+        "notes": "-"
+    },
+    {
+        "id": "282149",
+        "commonName": "Samurai +15% Boost 3",
+        "effects": "Samurai abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SAMURAI_115_3",
+        "notes": "-"
+    },
+    {
+        "id": "282150",
+        "commonName": "Ninja +15% Boost 3",
+        "effects": "Ninja abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_NINJA_115_3",
+        "notes": "-"
+    },
+    {
+        "id": "282151",
+        "commonName": "Bard +15% Boost 3",
+        "effects": "Bard abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_BARD_115_3",
+        "notes": "-"
+    },
+    {
+        "id": "282152",
+        "commonName": "Dancer +15% Boost 3",
+        "effects": "Dancer abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_DANCER_115_3",
+        "notes": "-"
+    },
+    {
+        "id": "282153",
+        "commonName": "Machinist +15% Boost 3",
+        "effects": "Machinist abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_MACHINIST_115_3",
+        "notes": "-"
+    },
+    {
+        "id": "282154",
+        "commonName": "Witch +15% Boost 3",
+        "effects": "Witch abilities deal 15% more damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_WITCH_115_3",
+        "notes": "-"
+    },
+    {
+        "id": "282155",
+        "commonName": "Black Magic or Machinist +30% Boost",
+        "effects": "Black Magic or Machinist abilities deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_MACHINIST_OR_BLACK_MAGIC_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282156",
+        "commonName": "Knight +15% Boost",
+        "effects": "Knight abilities deal 15% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_KNIGHT_115_15000_MSEC",
         "notes": "-"
     },
     {
@@ -1417,7 +2057,7 @@
     {
         "id": "294",
         "commonName": "EX: Spellblade Barrage",
-        "effects": "ATK +30%, cast speed x2,00, casts Wind/Water/Fire/Earth Barrage after dealing Wind/Water/Fire/Earth damage with a Spellblade ability",
+        "effects": "ATK +30%, cast speed x2,00, casts Wind/Water/Fire/Earth Barrage after dealing damage with a Wind/Water/Fire/Earth Spellblade ability",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -1497,7 +2137,7 @@
     {
         "id": "2005",
         "commonName": "Physical Instant Cast 1",
-        "effects": "Cast speed x9999999 for PHY or NAT attacks that deal physical damage, lasts for 1 turn",
+        "effects": "Cast speed x9999999 for PHY attacks, lasts for 1 turn",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -1667,7 +2307,7 @@
     {
         "id": "2024",
         "commonName": "Physical High Quick Cast 1",
-        "effects": "Cast speed x3,00 for PHY or NAT attacks that deal physical damage, lasts for 1 turn",
+        "effects": "Cast speed x3,00 for PHY attacks, lasts for 1 turn",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -1685,8 +2325,18 @@
         "notes": "-"
     },
     {
+        "id": "2026",
+        "commonName": "Magical Instant Cast 3",
+        "effects": "Cast speed x9999999 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_CUSTOM_MAGIC_DAMAGE_ABILITIES",
+        "notes": "-"
+    },
+    {
         "id": "2051",
-        "commonName": "Quick Cast",
+        "commonName": "Extended Quick Cast",
         "effects": "Cast speed x2,00",
         "defaultDuration": 25,
         "mndModifier": "-",
@@ -1696,7 +2346,7 @@
     },
     {
         "id": "2052",
-        "commonName": "Spellblade Quick Cast",
+        "commonName": "Spellblade Quick Cast: Alternative",
         "effects": "Cast speed x2,00 for Spellblade abilities",
         "defaultDuration": 15,
         "mndModifier": "-",
@@ -1716,7 +2366,7 @@
     },
     {
         "id": "2054",
-        "commonName": "Short Quick Cast",
+        "commonName": "Quick Cast",
         "effects": "Cast speed x2,00",
         "defaultDuration": 15,
         "mndModifier": "-",
@@ -1746,7 +2396,7 @@
     },
     {
         "id": "2057",
-        "commonName": "Short High Quick Cast",
+        "commonName": "High Quick Cast",
         "effects": "Cast speed x3,00",
         "defaultDuration": 15,
         "mndModifier": "-",
@@ -1757,7 +2407,7 @@
     {
         "id": "2058",
         "commonName": "Physical High Quick Cast 3",
-        "effects": "Cast speed x3,00 for PHY or NAT attacks that deal physical damage, lasts for 3 turns",
+        "effects": "Cast speed x3,00 for PHY attacks, lasts for 3 turns",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -1842,6 +2492,1526 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_CAST_TIME_200_15000_MSEC_CUSTOM_MAGIC_DAMAGE_ABILITIES",
+        "notes": "-"
+    },
+    {
+        "id": "2067",
+        "commonName": "White Magic High Quick Cast",
+        "effects": "Cast speed x3,00 for White Magic abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_WHITE_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "2068",
+        "commonName": "Summoning Quick Cast",
+        "effects": "Cast speed x2,00 for Summoning abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_SUMMONING",
+        "notes": "-"
+    },
+    {
+        "id": "2069",
+        "commonName": "Summoning High Quick Cast",
+        "effects": "Cast speed x3,00 for Summoning abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_SUMMONING",
+        "notes": "-"
+    },
+    {
+        "id": "2070",
+        "commonName": "Spellblade Quick Cast",
+        "effects": "Cast speed x2,00 for Spellblade abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_SPELLBLADE",
+        "notes": "-"
+    },
+    {
+        "id": "2071",
+        "commonName": "Combat Quick Cast",
+        "effects": "Cast speed x2,00 for Combat abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_COMBAT",
+        "notes": "-"
+    },
+    {
+        "id": "2072",
+        "commonName": "Combat High Quick Cast",
+        "effects": "Cast speed x3,00 for Combat abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_COMBAT",
+        "notes": "-"
+    },
+    {
+        "id": "2073",
+        "commonName": "Support Quick Cast",
+        "effects": "Cast speed x2,00 for Support abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_SUPPORT",
+        "notes": "-"
+    },
+    {
+        "id": "2074",
+        "commonName": "Support High Quick Cast",
+        "effects": "Cast speed x3,00 for Support abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_SUPPORT",
+        "notes": "-"
+    },
+    {
+        "id": "2075",
+        "commonName": "Celerity Quick Cast",
+        "effects": "Cast speed x2,00 for Celerity abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_CELERITY",
+        "notes": "-"
+    },
+    {
+        "id": "2076",
+        "commonName": "Celerity High Quick Cast",
+        "effects": "Cast speed x3,00 for Celerity abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_CELERITY",
+        "notes": "-"
+    },
+    {
+        "id": "2077",
+        "commonName": "Dragoon Quick Cast",
+        "effects": "Cast speed x2,00 for Dragoon abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_DRAGOON",
+        "notes": "-"
+    },
+    {
+        "id": "2078",
+        "commonName": "Dragoon High Quick Cast",
+        "effects": "Cast speed x3,00 for Dragoon abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_DRAGOON",
+        "notes": "-"
+    },
+    {
+        "id": "2079",
+        "commonName": "Monk Quick Cast",
+        "effects": "Cast speed x2,00 for Monk abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_MONK",
+        "notes": "-"
+    },
+    {
+        "id": "2080",
+        "commonName": "Monk High Quick Cast",
+        "effects": "Cast speed x3,00 for Monk abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_MONK",
+        "notes": "-"
+    },
+    {
+        "id": "2081",
+        "commonName": "Thief Quick Cast",
+        "effects": "Cast speed x2,00 for Thief abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_THIEF",
+        "notes": "-"
+    },
+    {
+        "id": "2082",
+        "commonName": "Thief High Quick Cast",
+        "effects": "Cast speed x3,00 for Thief abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_THIEF",
+        "notes": "-"
+    },
+    {
+        "id": "2083",
+        "commonName": "Knight Quick Cast",
+        "effects": "Cast speed x2,00 for Knight abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_KNIGHT",
+        "notes": "-"
+    },
+    {
+        "id": "2084",
+        "commonName": "Knight High Quick Cast",
+        "effects": "Cast speed x3,00 for Knight abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_KNIGHT",
+        "notes": "-"
+    },
+    {
+        "id": "2085",
+        "commonName": "Samurai Quick Cast",
+        "effects": "Cast speed x2,00 for Samurai abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_SAMURAI",
+        "notes": "-"
+    },
+    {
+        "id": "2086",
+        "commonName": "Samurai High Quick Cast",
+        "effects": "Cast speed x3,00 for Samurai abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_SAMURAI",
+        "notes": "-"
+    },
+    {
+        "id": "2087",
+        "commonName": "Ninja Quick Cast",
+        "effects": "Cast speed x2,00 for Ninja abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_NINJA",
+        "notes": "-"
+    },
+    {
+        "id": "2088",
+        "commonName": "Ninja High Quick Cast",
+        "effects": "Cast speed x3,00 for Ninja abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_NINJA",
+        "notes": "-"
+    },
+    {
+        "id": "2089",
+        "commonName": "Bard Quick Cast",
+        "effects": "Cast speed x2,00 for Bard abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_BARD",
+        "notes": "-"
+    },
+    {
+        "id": "2090",
+        "commonName": "Bard High Quick Cast",
+        "effects": "Cast speed x3,00 for Bard abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_BARD",
+        "notes": "-"
+    },
+    {
+        "id": "2091",
+        "commonName": "Dancer Quick Cast",
+        "effects": "Cast speed x2,00 for Dancer abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_DANCER",
+        "notes": "-"
+    },
+    {
+        "id": "2092",
+        "commonName": "Dancer High Quick Cast",
+        "effects": "Cast speed x3,00 for Dancer abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_DANCER",
+        "notes": "-"
+    },
+    {
+        "id": "2093",
+        "commonName": "Machinist Quick Cast",
+        "effects": "Cast speed x2,00 for Machinist abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_MACHINIST",
+        "notes": "-"
+    },
+    {
+        "id": "2094",
+        "commonName": "Machinist High Quick Cast",
+        "effects": "Cast speed x3,00 for Machinist abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_MACHINIST",
+        "notes": "-"
+    },
+    {
+        "id": "2095",
+        "commonName": "Darkness Quick Cast",
+        "effects": "Cast speed x2,00 for Darkness abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_DARKNESS",
+        "notes": "-"
+    },
+    {
+        "id": "2096",
+        "commonName": "Darkness High Quick Cast",
+        "effects": "Cast speed x3,00 for Darkness abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_DARKNESS",
+        "notes": "-"
+    },
+    {
+        "id": "2097",
+        "commonName": "Sharpshooter High Quick Cast",
+        "effects": "Cast speed x3,00 for Sharpshooter abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_MSEC_ABILITY_CATEGORY_ID_SHOOTER",
+        "notes": "-"
+    },
+    {
+        "id": "2098",
+        "commonName": "Witch Quick Cast",
+        "effects": "Cast speed x2,00 for Witch abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_WITCH",
+        "notes": "-"
+    },
+    {
+        "id": "2099",
+        "commonName": "Witch High Quick Cast",
+        "effects": "Cast speed x3,00 for Witch abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_WITCH",
+        "notes": "-"
+    },
+    {
+        "id": "2100",
+        "commonName": "Heavy Quick Cast",
+        "effects": "Cast speed x2,00 for Heavy abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_HEAVY",
+        "notes": "-"
+    },
+    {
+        "id": "2101",
+        "commonName": "Heavy High Quick Cast",
+        "effects": "Cast speed x3,00 for Heavy abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_ABILITY_CATEGORY_ID_HEAVY",
+        "notes": "-"
+    },
+    {
+        "id": "2102",
+        "commonName": "Black Magic Quick Cast 2",
+        "effects": "Cast speed x2,00 for Black Magic abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_BLACK_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "2103",
+        "commonName": "Black Magic Quick Cast 3",
+        "effects": "Cast speed x2,00 for Black Magic abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_BLACK_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "2104",
+        "commonName": "White Magic Quick Cast 2",
+        "effects": "Cast speed x2,00 for White Magic abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_WHITE_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "2105",
+        "commonName": "White Magic Quick Cast 3",
+        "effects": "Cast speed x2,00 for White Magic abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_WHITE_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "2106",
+        "commonName": "Summoning Quick Cast 2",
+        "effects": "Cast speed x2,00 for Summoning abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_SUMMONING",
+        "notes": "-"
+    },
+    {
+        "id": "2107",
+        "commonName": "Summoning Quick Cast 3",
+        "effects": "Cast speed x2,00 for Summoning abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_SUMMONING",
+        "notes": "-"
+    },
+    {
+        "id": "2108",
+        "commonName": "Spellblade Quick Cast 2",
+        "effects": "Cast speed x2,00 for Spellblade abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_SPELLBLADE",
+        "notes": "-"
+    },
+    {
+        "id": "2109",
+        "commonName": "Spellblade Quick Cast 3",
+        "effects": "Cast speed x2,00 for Spallblade abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_SPELLBLADE",
+        "notes": "-"
+    },
+    {
+        "id": "2110",
+        "commonName": "Combat Quick Cast 2",
+        "effects": "Cast speed x2,00 for Combat abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_COMBAT",
+        "notes": "-"
+    },
+    {
+        "id": "2111",
+        "commonName": "Combat Quick Cast 3",
+        "effects": "Cast speed x2,00 for Combat abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_COMBAT",
+        "notes": "-"
+    },
+    {
+        "id": "2112",
+        "commonName": "Support Quick Cast 2",
+        "effects": "Cast speed x2,00 for Support abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_SUPPORT",
+        "notes": "-"
+    },
+    {
+        "id": "2113",
+        "commonName": "Support Quick Cast 3",
+        "effects": "Cast speed x2,00 for Support abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_SUPPORT",
+        "notes": "-"
+    },
+    {
+        "id": "2114",
+        "commonName": "Celerity Quick Cast 2",
+        "effects": "Cast speed x2,00 for Celerity abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_CELERITY",
+        "notes": "-"
+    },
+    {
+        "id": "2115",
+        "commonName": "Celerity Quick Cast 3",
+        "effects": "Cast speed x2,00 for Celerity abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_CELERITY",
+        "notes": "-"
+    },
+    {
+        "id": "2116",
+        "commonName": "Dragoon Quick Cast 2",
+        "effects": "Cast speed x2,00 for Dragoon abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_DRAGOON",
+        "notes": "-"
+    },
+    {
+        "id": "2117",
+        "commonName": "Dragoon Quick Cast 3",
+        "effects": "Cast speed x2,00 for Dragoon abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_DRAGOON",
+        "notes": "-"
+    },
+    {
+        "id": "2118",
+        "commonName": "Monk Quick Cast 2",
+        "effects": "Cast speed x2,00 for Monk abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_MONK",
+        "notes": "-"
+    },
+    {
+        "id": "2119",
+        "commonName": "Monk Quick Cast 3",
+        "effects": "Cast speed x2,00 for Monk abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_MONK",
+        "notes": "-"
+    },
+    {
+        "id": "2120",
+        "commonName": "Thief Quick Cast 3",
+        "effects": "Cast speed x2,00 for Thief abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_THIEF",
+        "notes": "-"
+    },
+    {
+        "id": "2121",
+        "commonName": "Knight Quick Cast 3",
+        "effects": "Cast speed x2,00 for Knight abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_KNIGHT",
+        "notes": "-"
+    },
+    {
+        "id": "2122",
+        "commonName": "Samurai Quick Cast 2",
+        "effects": "Cast speed x2,00 for Samurai abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_SAMURAI",
+        "notes": "-"
+    },
+    {
+        "id": "2123",
+        "commonName": "Samurai Quick Cast 3",
+        "effects": "Cast speed x2,00 for Samurai abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_SAMURAI",
+        "notes": "-"
+    },
+    {
+        "id": "2124",
+        "commonName": "Ninja Quick Cast 2",
+        "effects": "Cast speed x2,00 for Ninja abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_NINJA",
+        "notes": "-"
+    },
+    {
+        "id": "2125",
+        "commonName": "Ninja Quick Cast 3",
+        "effects": "Cast speed x2,00 for Ninja abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_NINJA",
+        "notes": "-"
+    },
+    {
+        "id": "2126",
+        "commonName": "Bard Quick Cast 2",
+        "effects": "Cast speed x2,00 for Bard abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_BARD",
+        "notes": "-"
+    },
+    {
+        "id": "2127",
+        "commonName": "Bard Quick Cast 3",
+        "effects": "Cast speed x2,00 for Bard abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_BARD",
+        "notes": "-"
+    },
+    {
+        "id": "2128",
+        "commonName": "Dancer Quick Cast 2",
+        "effects": "Cast speed x2,00 for Dancer abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_DANCER",
+        "notes": "-"
+    },
+    {
+        "id": "2129",
+        "commonName": "Dancer Quick Cast 3",
+        "effects": "Cast speed x2,00 for Dancer abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_DANCER",
+        "notes": "-"
+    },
+    {
+        "id": "2130",
+        "commonName": "Machinist Quick Cast 3",
+        "effects": "Cast speed x2,00 for Machinist abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_MACHINIST",
+        "notes": "-"
+    },
+    {
+        "id": "2131",
+        "commonName": "Darkness Quick Cast 2",
+        "effects": "Cast speed x2,00 for Darkness abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_DARKNESS",
+        "notes": "-"
+    },
+    {
+        "id": "2132",
+        "commonName": "Sharpshooter Quick Cast 2",
+        "effects": "Cast speed x2,00 for Sharpshooter abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_SHOOTER",
+        "notes": "-"
+    },
+    {
+        "id": "2133",
+        "commonName": "Sharpshooter Quick Cast 3",
+        "effects": "Cast speed x2,00 for Sharpshooter abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_SHOOTER",
+        "notes": "-"
+    },
+    {
+        "id": "2134",
+        "commonName": "Witch Quick Cast 2",
+        "effects": "Cast speed x2,00 for Witch abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_WITCH",
+        "notes": "-"
+    },
+    {
+        "id": "2135",
+        "commonName": "Witch Quick Cast 3",
+        "effects": "Cast speed x2,00 for Witch abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_WITCH",
+        "notes": "-"
+    },
+    {
+        "id": "2136",
+        "commonName": "Heavy Quick Cast 2",
+        "effects": "Cast speed x2,00 for Heavy abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_2_ABILITY_CATEGORY_ID_HEAVY",
+        "notes": "-"
+    },
+    {
+        "id": "2137",
+        "commonName": "Heavy Quick Cast 3",
+        "effects": "Cast speed x2,00 for Heavy abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_3_ABILITY_CATEGORY_ID_HEAVY",
+        "notes": "-"
+    },
+    {
+        "id": "2138",
+        "commonName": "Black Magic High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Black Magic abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_BLACK_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "2139",
+        "commonName": "Black Magic High Quick Cast 3",
+        "effects": "Cast speed x3,00 for Black Magic abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_BLACK_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "2140",
+        "commonName": "White Magic High Quick Cast 2",
+        "effects": "Cast speed x3,00 for White Magic abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_WHITE_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "2141",
+        "commonName": "White Magic High Quick Cast 3",
+        "effects": "Cast speed x2,00 for White Magic abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_WHITE_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "2142",
+        "commonName": "Summoning High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Summoning abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_SUMMONING",
+        "notes": "-"
+    },
+    {
+        "id": "2143",
+        "commonName": "Summoning High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Summoning abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_SUMMONING",
+        "notes": "-"
+    },
+    {
+        "id": "2144",
+        "commonName": "Spellblade High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Spellblade abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_SPELLBLADE",
+        "notes": "-"
+    },
+    {
+        "id": "2145",
+        "commonName": "Spellblade High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Spellblade abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_SPELLBLADE",
+        "notes": "-"
+    },
+    {
+        "id": "2146",
+        "commonName": "Combat High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Combat abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_COMBAT",
+        "notes": "-"
+    },
+    {
+        "id": "2147",
+        "commonName": "Combat High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Combat abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_COMBAT",
+        "notes": "-"
+    },
+    {
+        "id": "2148",
+        "commonName": "Support High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Support abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_SUPPORT",
+        "notes": "-"
+    },
+    {
+        "id": "2149",
+        "commonName": "Support High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Support abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_SUPPORT",
+        "notes": "-"
+    },
+    {
+        "id": "2150",
+        "commonName": "Celerity High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Celerity abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_CELERITY",
+        "notes": "-"
+    },
+    {
+        "id": "2151",
+        "commonName": "Celerity High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Celerity abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_CELERITY",
+        "notes": "-"
+    },
+    {
+        "id": "2152",
+        "commonName": "Dragoon High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Dragoon abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_DRAGOON",
+        "notes": "-"
+    },
+    {
+        "id": "2153",
+        "commonName": "Dragoon High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Dragoon abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_DRAGOON",
+        "notes": "-"
+    },
+    {
+        "id": "2154",
+        "commonName": "Monk High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Monk abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_MONK",
+        "notes": "-"
+    },
+    {
+        "id": "2155",
+        "commonName": "Monk High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Monk abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_MONK",
+        "notes": "-"
+    },
+    {
+        "id": "2156",
+        "commonName": "Thief High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Thief abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_THIEF",
+        "notes": "-"
+    },
+    {
+        "id": "2157",
+        "commonName": "Thief High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Thief abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_THIEF",
+        "notes": "-"
+    },
+    {
+        "id": "2158",
+        "commonName": "Knight High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Knight abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_KNIGHT",
+        "notes": "-"
+    },
+    {
+        "id": "2159",
+        "commonName": "Knight High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Knight abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_KNIGHT",
+        "notes": "-"
+    },
+    {
+        "id": "2160",
+        "commonName": "Samurai High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Samurai abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_SAMURAI",
+        "notes": "-"
+    },
+    {
+        "id": "2161",
+        "commonName": "Samurai High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Samurai abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_SAMURAI",
+        "notes": "-"
+    },
+    {
+        "id": "2162",
+        "commonName": "Ninja High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Ninja abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_NINJA",
+        "notes": "-"
+    },
+    {
+        "id": "2163",
+        "commonName": "Ninja High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Ninja abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_NINJA",
+        "notes": "-"
+    },
+    {
+        "id": "2164",
+        "commonName": "Bard High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Bard abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_BARD",
+        "notes": "-"
+    },
+    {
+        "id": "2165",
+        "commonName": "Bard High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Bard abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_BARD",
+        "notes": "-"
+    },
+    {
+        "id": "2166",
+        "commonName": "Dancer High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Dancer abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_DANCER",
+        "notes": "-"
+    },
+    {
+        "id": "2167",
+        "commonName": "Dancer High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Dancer abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_DANCER",
+        "notes": "-"
+    },
+    {
+        "id": "2168",
+        "commonName": "Machinist High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Machinist abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_MACHINIST",
+        "notes": "-"
+    },
+    {
+        "id": "2169",
+        "commonName": "Machinist High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Machinist abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_MACHINIST",
+        "notes": "-"
+    },
+    {
+        "id": "2170",
+        "commonName": "Darkness High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Darkness abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_DARKNESS",
+        "notes": "-"
+    },
+    {
+        "id": "2171",
+        "commonName": "Darkness High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Darkness abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_DARKNESS",
+        "notes": "-"
+    },
+    {
+        "id": "2172",
+        "commonName": "Sharpshooter High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Sharpshooter abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_SHOOTER",
+        "notes": "-"
+    },
+    {
+        "id": "2173",
+        "commonName": "Sharpshooter High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Sharpshooter abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_SHOOTER",
+        "notes": "-"
+    },
+    {
+        "id": "2174",
+        "commonName": "Witch High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Witch abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_WITCH",
+        "notes": "-"
+    },
+    {
+        "id": "2175",
+        "commonName": "Witch High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Witch abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_WITCH",
+        "notes": "-"
+    },
+    {
+        "id": "2176",
+        "commonName": "Heavy High Quick Cast 2",
+        "effects": "Cast speed x3,00 for Heavy abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_ABILITY_CATEGORY_ID_HEAVY",
+        "notes": "-"
+    },
+    {
+        "id": "2177",
+        "commonName": "Heavy High Quick Cast 3",
+        "effects": "Cast speed x2,00 for Heavy abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_ABILITY_CATEGORY_ID_HEAVY",
+        "notes": "-"
+    },
+    {
+        "id": "2178",
+        "commonName": "Black Magic Instant Cast 2",
+        "effects": "Cast speed x9999999 for Black Magic abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_BLACK_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "2179",
+        "commonName": "Black Magic Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Black Magic abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_BLACK_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "2180",
+        "commonName": "White Magic Instant Cast 2",
+        "effects": "Cast speed x9999999 for White Magic abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_WHITE_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "2181",
+        "commonName": "White Magic Instant Cast 3",
+        "effects": "Cast speed xx9999999 for White Magic abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_WHITE_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "2182",
+        "commonName": "Summoning Instant Cast 2",
+        "effects": "Cast speed x9999999 for Summoning abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_SUMMONING",
+        "notes": "-"
+    },
+    {
+        "id": "2183",
+        "commonName": "Summoning Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Summoning abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_SUMMONING",
+        "notes": "-"
+    },
+    {
+        "id": "2184",
+        "commonName": "Spellblade Instant Cast 2",
+        "effects": "Cast speed x9999999 for Spellblade abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_SPELLBLADE",
+        "notes": "-"
+    },
+    {
+        "id": "2185",
+        "commonName": "Spellblade Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Spellblade abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_SPELLBLADE",
+        "notes": "-"
+    },
+    {
+        "id": "2186",
+        "commonName": "Combat Instant Cast 2",
+        "effects": "Cast speed x9999999 for Combat abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_COMBAT",
+        "notes": "-"
+    },
+    {
+        "id": "2187",
+        "commonName": "Combat Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Combat abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_COMBAT",
+        "notes": "-"
+    },
+    {
+        "id": "2188",
+        "commonName": "Support Instant Cast 2",
+        "effects": "Cast speed x9999999 for Support abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_SUPPORT",
+        "notes": "-"
+    },
+    {
+        "id": "2189",
+        "commonName": "Support Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Support abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_SUPPORT",
+        "notes": "-"
+    },
+    {
+        "id": "2190",
+        "commonName": "Celerity Instant Cast 2",
+        "effects": "Cast speed x9999999 for Celerity abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_CELERITY",
+        "notes": "-"
+    },
+    {
+        "id": "2191",
+        "commonName": "Celerity Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Celerity abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_CELERITY",
+        "notes": "-"
+    },
+    {
+        "id": "2192",
+        "commonName": "Dragoon Instant Cast 2",
+        "effects": "Cast speed x9999999 for Dragoon abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_DRAGOON",
+        "notes": "-"
+    },
+    {
+        "id": "2193",
+        "commonName": "Dragoon Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Dragoon abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_DRAGOON",
+        "notes": "-"
+    },
+    {
+        "id": "2194",
+        "commonName": "Monk Instant Cast 2",
+        "effects": "Cast speed x9999999 for Monk abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_MONK",
+        "notes": "-"
+    },
+    {
+        "id": "2195",
+        "commonName": "White Magic Quick Cast",
+        "effects": "Cast speed x2,00 for White Magic abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_200_15000_ABILITY_CATEGORY_ID_WHITE_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "2196",
+        "commonName": "Thief Instant Cast 2",
+        "effects": "Cast speed x9999999 for Thief abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_THIEF",
+        "notes": "-"
+    },
+    {
+        "id": "2197",
+        "commonName": "Thief Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Thief abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_THIEF",
+        "notes": "-"
+    },
+    {
+        "id": "2198",
+        "commonName": "Knight Instant Cast 2",
+        "effects": "Cast speed x9999999 for Knight abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_KNIGHT",
+        "notes": "-"
+    },
+    {
+        "id": "2199",
+        "commonName": "Knight Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Knight abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_KNIGHT",
+        "notes": "-"
+    },
+    {
+        "id": "2200",
+        "commonName": "Samurai Instant Cast 2",
+        "effects": "Cast speed x9999999 for Samurai abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_SAMURAI",
+        "notes": "-"
+    },
+    {
+        "id": "2201",
+        "commonName": "Samurai Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Samurai abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_SAMURAI",
+        "notes": "-"
+    },
+    {
+        "id": "2202",
+        "commonName": "Ninja Instant Cast 2",
+        "effects": "Cast speed x9999999 for Ninja abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_NINJA",
+        "notes": "-"
+    },
+    {
+        "id": "2203",
+        "commonName": "Ninja Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Ninja abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_NINJA",
+        "notes": "-"
+    },
+    {
+        "id": "2204",
+        "commonName": "Bard Instant Cast 2",
+        "effects": "Cast speed x9999999 for Bard abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_BARD",
+        "notes": "-"
+    },
+    {
+        "id": "2205",
+        "commonName": "Bard Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Bard abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_BARD",
+        "notes": "-"
+    },
+    {
+        "id": "2206",
+        "commonName": "Dancer Instant Cast 2",
+        "effects": "Cast speed x9999999 for Dancer abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_DANCER",
+        "notes": "-"
+    },
+    {
+        "id": "2207",
+        "commonName": "Dancer Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Dancer abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_DANCER",
+        "notes": "-"
+    },
+    {
+        "id": "2209",
+        "commonName": "Machinist Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Machinist abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_MACHINIST",
+        "notes": "-"
+    },
+    {
+        "id": "2210",
+        "commonName": "Darkness Instant Cast 2",
+        "effects": "Cast speed x9999999 for Darkness abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_DARKNESS",
+        "notes": "-"
+    },
+    {
+        "id": "2211",
+        "commonName": "Darkness Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Darkness abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_DARKNESS",
+        "notes": "-"
+    },
+    {
+        "id": "2212",
+        "commonName": "Sharpshooter Instant Cast 2",
+        "effects": "Cast speed x9999999 for Sharpshooter abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_SHOOTER",
+        "notes": "-"
+    },
+    {
+        "id": "2213",
+        "commonName": "Sharpshooter Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Sharpshooter abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_SHOOTER",
+        "notes": "-"
+    },
+    {
+        "id": "2214",
+        "commonName": "Witch Instant Cast 2",
+        "effects": "Cast speed x9999999 for Witch abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_WITCH",
+        "notes": "-"
+    },
+    {
+        "id": "2215",
+        "commonName": "Witch Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Witch abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_WITCH",
+        "notes": "-"
+    },
+    {
+        "id": "2216",
+        "commonName": "Heavy Instant Cast 2",
+        "effects": "Cast speed x9999999 for Heavy abilities, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_ABILITY_CATEGORY_ID_HEAVY",
+        "notes": "-"
+    },
+    {
+        "id": "2217",
+        "commonName": "Heavy Instant Cast 3",
+        "effects": "Cast speed xx9999999 for Heavy abilities, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_3_ABILITY_CATEGORY_ID_HEAVY",
+        "notes": "-"
+    },
+    {
+        "id": "2218",
+        "commonName": "Magical High Quick Cast 3",
+        "effects": "Cast speed x3,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 3 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_3_CUSTOM_MAGIC_DAMAGE_ABILITIES",
+        "notes": "-"
+    },
+    {
+        "id": "2219",
+        "commonName": "Magical High Quick Cast",
+        "effects": "Cast speed x3,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_15000_CUSTOM_MAGIC_DAMAGE_ABILITIES",
         "notes": "-"
     },
     {
@@ -2613,8 +4783,8 @@
     },
     {
         "id": "582",
-        "commonName": "Kiss of the Wasp Counter",
-        "effects": "Keeps track of the number of uses of Kiss of the Wasp",
+        "commonName": "Hornet's Sting Counter",
+        "effects": "Keeps track of the number of uses of Hornet's Sting",
         "defaultDuration": 25,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -2953,12 +5123,12 @@
     },
     {
         "id": "50020",
-        "commonName": "Machinist Quick Cycle I",
+        "commonName": "Machinist Quick Cycle: Lightning",
         "effects": "Grants Quick Cast 1 after using a Machinist ability",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "Machinist Quick Cycle II",
-        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_IF_MACHINIST_CATEGORY_AB_LIGHTNING",
+        "exclusiveStatus": "All other \"Machinist Quick Cycle\" status",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_MACHINIST_AB_LIGHTNING",
         "notes": "-"
     },
     {
@@ -3233,12 +5403,12 @@
     },
     {
         "id": "50048",
-        "commonName": "Machinist Quick Cycle II",
+        "commonName": "Machinist Quick Cycle: Fire",
         "effects": "Grants Quick Cast 1 after using a Machinist ability",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "Machinist Quick Cycle I",
-        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_IF_MACHINIST_CATEGORY_AB_FIRE",
+        "exclusiveStatus": "All other \"Machinist Quick Cycle\" status",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_MACHINIST_AB_FIRE",
         "notes": "-"
     },
     {
@@ -3283,8 +5453,8 @@
     },
     {
         "id": "50053",
-        "commonName": "Phoenix Attack Follow-Up",
-        "effects": "Casts Phoenix Attack after using a Fire attack",
+        "commonName": "Firebird Strike Follow-Up",
+        "effects": "Casts Firebird Strike after using a Fire attack",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3353,12 +5523,12 @@
     },
     {
         "id": "50060",
-        "commonName": "Dragoon Quick Cycle",
+        "commonName": "Dragoon Quick Cycle: Wind",
         "effects": "Grants Quick Cast 1 after using a Dragoon ability",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "-",
-        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_DRAGOON",
+        "exclusiveStatus": "Dragoon Quick Cycle",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_DRAGOON_AB_WIND",
         "notes": "-"
     },
     {
@@ -3404,11 +5574,11 @@
     {
         "id": "50065",
         "commonName": "Darkness Quick Cycle",
-        "effects": "Grants Quick Cast 1 after dealing damage with a Darkness ability",
+        "effects": "Grants Quick Cast 1 after using a Darkness ability",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_IF_DARKNESS_CATEGORY",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_DARKNESS",
         "notes": "-"
     },
     {
@@ -3418,7 +5588,7 @@
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_IF_WITCH_CATEGORY",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_WITCH",
         "notes": "-"
     },
     {
@@ -3644,7 +5814,7 @@
     {
         "id": "50091",
         "commonName": "Freya Trance",
-        "effects": "ATK and RES +30%, casts Love Unforgotten after using a Dragoon jump attack",
+        "effects": "ATK and RES +30%, casts Undying Love after using a Dragoon jump attack",
         "defaultDuration": 25,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3713,22 +5883,22 @@
     },
     {
         "id": "50099",
-        "commonName": "Seraph-Wing Buffet Follow-Up",
-        "effects": "Casts Seraph-Wing Buffet after using a Holy or Dark attack",
+        "commonName": "Monk Quick Cycle: Non-Elemental",
+        "effects": "Grants Quick Cast 1 after using a Monk ability",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "-",
-        "codedName": "CHASE_MODE_FOR_FAKE_MIRACLE",
+        "exclusiveStatus": "Monk Quick Cycle",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_MONK_AB_NO_ELEMENT",
         "notes": "-"
     },
     {
         "id": "50100",
-        "commonName": "Icicle Bite Counter",
-        "effects": "Keeps track of the number of uses of Icicle Bite, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
-        "defaultDuration": "-",
+        "commonName": "Abyssal Bite Follow-Up",
+        "effects": "Casts Abyssal Bite after using a Darkness ability",
+        "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "USED_ABILITY_COUNTER_FROZEN_BITE",
+        "codedName": "CHASE_MODE_FOR_FLUSH_OF_DARKNESS",
         "notes": "-"
     },
     {
@@ -3773,22 +5943,22 @@
     },
     {
         "id": "50105",
-        "commonName": "Monk Quick Cycle",
-        "effects": "Grants Quick Cast 1 after using a Monk ability",
-        "defaultDuration": 15,
+        "commonName": "Icicle Bite Counter",
+        "effects": "Keeps track of the number of uses of Icicle Bite, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
+        "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_IF_MONK_CATEGORY",
+        "codedName": "USED_ABILITY_COUNTER_FROZEN_BITE",
         "notes": "-"
     },
     {
         "id": "50106",
-        "commonName": "Abyssal Bite Follow-Up",
-        "effects": "Casts Abyssal Bite after using a Darkness ability",
+        "commonName": "Seraph-Wing Buffet Follow-Up",
+        "effects": "Casts Seraph-Wing Buffet after using a Holy or Dark attack",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "CHASE_MODE_FOR_FLUSH_OF_DARKNESS",
+        "codedName": "CHASE_MODE_FOR_FAKE_MIRACLE",
         "notes": "-"
     },
     {
@@ -3964,7 +6134,7 @@
     {
         "id": "50125",
         "commonName": "EX: Machinist",
-        "effects": "ATK +30%, Machinist cast speed x2,00, casts Poison/Fire/Lightning Enfeeble after dealing Poison/Fire/Lightning damage with a Machinist ability",
+        "effects": "ATK +30%, Machinist cast speed x2,00, casts Poison/Fire/Lightning Enfeeble after dealing damage with a Poison/Fire/Lightning Machinist ability",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -3993,8 +6163,8 @@
     },
     {
         "id": "50128",
-        "commonName": "EX: Prophetic Warrior",
-        "effects": "Knight abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, casts Bright Finisher when removed",
+        "commonName": "EX: Prophesied Warrior",
+        "effects": "Knight abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, casts Bright Finale when removed",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Rank Boost\" status",
@@ -4005,7 +6175,7 @@
         "id": "50129",
         "commonName": "Attach Holy Stacking",
         "effects": "Allow to stack Attach Holy, up to Attach Holy 3",
-        "defaultDuration": 15,
+        "defaultDuration": 25,
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "ATTACH_ELEMENT_HOLY_BOOSTABLE",
@@ -4073,8 +6243,8 @@
     },
     {
         "id": "50136",
-        "commonName": "Moonlight Protection Counter",
-        "effects": "Keeps track of the number of uses of Moonlight Protection, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
+        "commonName": "Moonlight's Blessing Counter",
+        "effects": "Keeps track of the number of uses of Moonlight's Blessing, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4103,8 +6273,8 @@
     },
     {
         "id": "50139",
-        "commonName": "Evil Gale Follow-Up",
-        "effects": "Casts Evil Gale after using a Wind attack",
+        "commonName": "Fair Wind Follow-Up",
+        "effects": "Casts Fair Wind after using a Wind attack",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4143,7 +6313,7 @@
     },
     {
         "id": "50143",
-        "commonName": "EX: True Self",
+        "commonName": "EX: True Form",
         "effects": "ATK +30%, casts Air Hazard after using a Wind attack",
         "defaultDuration": 15,
         "mndModifier": "-",
@@ -4153,8 +6323,8 @@
     },
     {
         "id": "50144",
-        "commonName": "EX: No Questions!",
-        "effects": "ATK +30%, casts Strongest Sword! after using a Samurai ability",
+        "commonName": "EX: No Discussion",
+        "effects": "ATK +30%, casts Strongest Swordplay after using a Samurai ability",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4214,7 +6384,7 @@
     {
         "id": "50151",
         "commonName": "EX: Lion",
-        "effects": "ATK +30%, casts Renzokuken Icefang after using a Spellblade ability",
+        "effects": "ATK +30%, casts Renzokuken Ice Fang after using a Spellblade ability",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4253,8 +6423,8 @@
     },
     {
         "id": "50156",
-        "commonName": "Truthseeking Mercenary",
-        "effects": "Grants High Quick Cast 1 to the user and casts Shining Sword after using a Holy attack",
+        "commonName": "Seeker of Truth",
+        "effects": "Grants High Quick Cast 1 to the user and casts Blade of Light after using a Holy attack",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4273,8 +6443,8 @@
     },
     {
         "id": "50158",
-        "commonName": "Wind of the End Counter",
-        "effects": "Keeps track of the uses of Wind of the End, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
+        "commonName": "Winds of Ruin Counter",
+        "effects": "Keeps track of the uses of Winds of Ruin, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4343,8 +6513,8 @@
     },
     {
         "id": "50165",
-        "commonName": "Renzokuken Icefang Counter",
-        "effects": "Keeps track of the uses of Renzokuken Icefang, removed if the user hasn't EX: Lion, reset upon refreshing EX: Lion",
+        "commonName": "Renzokuken Ice Fang Counter",
+        "effects": "Keeps track of the uses of Renzokuken Ice Fang, removed if the user hasn't EX: Lion, reset upon refreshing EX: Lion",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4608,7 +6778,7 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHOETSU_BARRIER",
-        "notes": "???"
+        "notes": "Used for Bahamut Fury"
     },
     {
         "id": "50192",
@@ -4721,6 +6891,26 @@
         "notes": "-"
     },
     {
+        "id": "50204",
+        "commonName": "Sharpcast Firaga Follow-Up",
+        "effects": "Casts Sharpcast Firaga after using a Fire attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_UNIQUE_BUDDY",
+        "notes": "-"
+    },
+    {
+        "id": "50205",
+        "commonName": "Sharpcast Firaga Counter",
+        "effects": "Keeps track of the uses of Sharpcast Firaga, removed if the user hasn't Sharpcast Firaga Follow-Up, reset upon refreshing Sharpcast Firaga Follow-Up",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_SHARPCAST",
+        "notes": "-"
+    },
+    {
         "id": "50206",
         "commonName": "EX: Farseer's Guardian",
         "effects": "ATK +30%, casts Javelin Frost after using a Ice attack",
@@ -4751,12 +6941,24 @@
         "notes": "-"
     },
     {
+        "id": "50209",
+        "commonName": "Combat or Celerity Double",
+        "effects": "Dualcasts Combat or Celerity abilities consuming an extra ability use",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_COMBAT_OR_CELERITY",
+        "notes": "-"
+    },
+    {
         "id": "50210",
+        "commonName": "Searing Wind",
+        "effects": "Affects Ifrit's behaviour",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "BURNING_BODY",
-        "notes": "???"
+        "notes": "Used for Ifrit (XIV)"
     },
     {
         "id": "50211",
@@ -4767,6 +6969,706 @@
         "exclusiveStatus": "-",
         "codedName": "KYO_SUCTION",
         "notes": "Used for Atomos (V)"
+    },
+    {
+        "id": "50212",
+        "commonName": "Swift Steel Follow-Up",
+        "effects": "Casts Swift Steel after using a Thief ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_FANTOM_HAZARD",
+        "notes": "-"
+    },
+    {
+        "id": "50213",
+        "commonName": "Snowball Follow-Up",
+        "effects": "Casts Snowball after using a Ice attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_SNOWBALL_FIGHT",
+        "notes": "-"
+    },
+    {
+        "id": "50214",
+        "commonName": "Dragoon Double",
+        "effects": "Dualcasts Dragoon abilities consuming an extra ability use",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_DRAGOON_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "50215",
+        "commonName": "Thief Double",
+        "effects": "Dualcasts Thief abilities consuming an extra ability use",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_THIEF_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "50216",
+        "commonName": "Knight Double",
+        "effects": "Dualcasts Knight abilities consuming an extra ability use",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_KNIGHT_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "50217",
+        "commonName": "Samurai Double",
+        "effects": "Dualcasts Samurai abilities consuming an extra ability use",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_SAMURAI_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "50218",
+        "commonName": "Ninja Double",
+        "effects": "Dualcasts Ninja abilities consuming an extra ability use",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_NINJA_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "50219",
+        "commonName": "Bard Double",
+        "effects": "Dualcasts Bard abilities consuming an extra ability use",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_BARD_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "50220",
+        "commonName": "Dancer Double",
+        "effects": "Dualcasts Dancer abilities consuming an extra ability use",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_DANCER_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "50221",
+        "commonName": "Darkness Double",
+        "effects": "Dualcasts Darkness abilities consuming an extra ability use",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_DARKNESS_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "50222",
+        "commonName": "Sharpshooter Double",
+        "effects": "Dualcasts Sharpshooter abilities consuming an extra ability use",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_SHOOTER_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "50223",
+        "commonName": "Heavy Double",
+        "effects": "Dualcasts Heavy abilities consuming an extra ability use",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_HEAVY_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "50224",
+        "commonName": "Attach Earth Stacking",
+        "effects": "Allow to stack Attach Earth, up to Attach Earth 3",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_EARTH_BOOSTABLE",
+        "notes": "-"
+    },
+    {
+        "id": "50227",
+        "commonName": "Attach Poison Stacking",
+        "effects": "Allow to stack Attach Poison, up to Attach Poison 3",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ATTACH_ELEMENT_POISON_BOOSTABLE",
+        "notes": "-"
+    },
+    {
+        "id": "50229",
+        "commonName": "Support Rank Boost",
+        "effects": "Support abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_SUPPORT_MAX_MIDDLE",
+        "notes": "-"
+    },
+    {
+        "id": "50230",
+        "commonName": "Celerity Rank Boost",
+        "effects": "Celerity abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_CELERITY_MAX_MIDDLE",
+        "notes": "-"
+    },
+    {
+        "id": "50231",
+        "commonName": "Dragoon Rank Boost",
+        "effects": "Dragoon abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_DRAGOON_MAX_MIDDLE",
+        "notes": "-"
+    },
+    {
+        "id": "50237",
+        "commonName": "Bard Rank Boost",
+        "effects": "Bard abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_BARD_MAX_MIDDLE",
+        "notes": "-"
+    },
+    {
+        "id": "50238",
+        "commonName": "Dancer Rank Boost",
+        "effects": "Dancer abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_DANCER_MAX_MIDDLE",
+        "notes": "-"
+    },
+    {
+        "id": "50241",
+        "commonName": "Sharpshooter Rank Boost",
+        "effects": "Sharpshooter abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_SHOOTER_MAX_MIDDLE",
+        "notes": "-"
+    },
+    {
+        "id": "50242",
+        "commonName": "Witch Rank Boost",
+        "effects": "Witch abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "codedName": "ABILITY_BOOST_FOR_WITCH_MAX_MIDDLE",
+        "notes": "-"
+    },
+    {
+        "id": "50247",
+        "commonName": "Water High Quick Cycle",
+        "effects": "Grants High Quick Cast 1 after using a Water attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_SA_ON_ACTION_EXIT_IF_ABILITY_POSSIBLE_ELEMENT_WATER",
+        "notes": "-"
+    },
+    {
+        "id": "50248",
+        "commonName": "Holy High Quick Cycle",
+        "effects": "Grants High Quick Cast 1 after using a Holy attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_SA_ON_ACTION_EXIT_IF_ABILITY_POSSIBLE_ELEMENT_HOLY",
+        "notes": "-"
+    },
+    {
+        "id": "50249",
+        "commonName": "Dark High Quick Cycle",
+        "effects": "Grants High Quick Cast 1 after using a Dark attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_SA_ON_ACTION_EXIT_IF_ABILITY_POSSIBLE_ELEMENT_DARK",
+        "notes": "-"
+    },
+    {
+        "id": "50250",
+        "commonName": "Poison High Quick Cycle",
+        "effects": "Grants High Quick Cast 1 after using a Poison attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_SA_ON_ACTION_EXIT_IF_ABILITY_POSSIBLE_ELEMENT_POISON",
+        "notes": "-"
+    },
+    {
+        "id": "50251",
+        "commonName": "Black Magic Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Black Magic ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_BLACK_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "50252",
+        "commonName": "White Magic Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a White Magic ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_WHITE_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "50253",
+        "commonName": "Summoning Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Summoning ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_SUMMONING",
+        "notes": "-"
+    },
+    {
+        "id": "50254",
+        "commonName": "Spellblade Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Spellblade ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_SPELLBLADE",
+        "notes": "-"
+    },
+    {
+        "id": "50255",
+        "commonName": "Combat Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Combat ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_COMBAT",
+        "notes": "-"
+    },
+    {
+        "id": "50256",
+        "commonName": "Support Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Support ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_SUPPORT",
+        "notes": "-"
+    },
+    {
+        "id": "50257",
+        "commonName": "Celerity Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Celerity ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_CELERITY",
+        "notes": "-"
+    },
+    {
+        "id": "50258",
+        "commonName": "Dragoon Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Dragoon ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "Dragoon Quick Cycle: Wind",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_DRAGOON",
+        "notes": "-"
+    },
+    {
+        "id": "50259",
+        "commonName": "Monk Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Monk ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "Monk Quick Cycle: Non-Elemental",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_MONK",
+        "notes": "-"
+    },
+    {
+        "id": "50260",
+        "commonName": "Thief Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Thief ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_THIEF",
+        "notes": "-"
+    },
+    {
+        "id": "50261",
+        "commonName": "Knight Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Knight ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_KNIGHT",
+        "notes": "-"
+    },
+    {
+        "id": "50262",
+        "commonName": "Samurai Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Samurai ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_SAMURAI",
+        "notes": "-"
+    },
+    {
+        "id": "50263",
+        "commonName": "Ninja Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Ninja ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_NINJA",
+        "notes": "-"
+    },
+    {
+        "id": "50264",
+        "commonName": "Bard Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Bard ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_BARD",
+        "notes": "-"
+    },
+    {
+        "id": "50265",
+        "commonName": "Dancer Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Dancer ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_DANCER",
+        "notes": "-"
+    },
+    {
+        "id": "50266",
+        "commonName": "Machinist Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Machinist ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Machinist Quick Cycle\" status",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_MACHINIST",
+        "notes": "-"
+    },
+    {
+        "id": "50267",
+        "commonName": "Sharpshooter Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Sharpshooter ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_SHOOTER",
+        "notes": "-"
+    },
+    {
+        "id": "50268",
+        "commonName": "Heavy Quick Cycle",
+        "effects": "Grants Quick Cast 1 after using a Heavy ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_CHANGE_CAST_TIME_200_1_ALL_ON_ACTION_EXIT_IF_ABILITY_CATEGORY_HEAVY",
+        "notes": "-"
+    },
+    {
+        "id": "50270",
+        "commonName": "Summoning Double",
+        "effects": "Dualcasts Summoning abilities consuming an extra ability use",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_SUMMONING_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "50271",
+        "commonName": "Combat Double",
+        "effects": "Dualcasts Combat abilities consuming an extra ability use",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_COMBAT_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "50272",
+        "commonName": "Support Double",
+        "effects": "Dualcasts Support abilities consuming an extra ability use",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_SUPPORT_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "50273",
+        "commonName": "Celerity Double",
+        "effects": "Dualcasts Celerity abilities consuming an extra ability use",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_CELERITY_ABILITY",
+        "notes": "-"
+    },
+    {
+        "id": "50274",
+        "commonName": "Judge's Apocrypha",
+        "effects": "Grants Critical Chance 60/70/80/90/100% to all allies for 15 seconds after using 1/2/3/4/5+ Support abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "PROHIBITED_BOOK_ADJUDICATORS_CHASE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50275",
+        "commonName": "Judge's Critical Chance 60%",
+        "effects": "Critical chance =60%",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Judge's Critical Chance\" status",
+        "codedName": "PROHIBITED_BOOK_ADJUDICATORS_CHASE_MODE_1",
+        "notes": "-"
+    },
+    {
+        "id": "50276",
+        "commonName": "Judge's Critical Chance 70%",
+        "effects": "Critical chance =70%",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Judge's Critical Chance\" status",
+        "codedName": "PROHIBITED_BOOK_ADJUDICATORS_CHASE_MODE_2",
+        "notes": "-"
+    },
+    {
+        "id": "50277",
+        "commonName": "Judge's Critical Chance 80%",
+        "effects": "Critical chance =80%",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Judge's Critical Chance\" status",
+        "codedName": "PROHIBITED_BOOK_ADJUDICATORS_CHASE_MODE_3",
+        "notes": "-"
+    },
+    {
+        "id": "50278",
+        "commonName": "Judge's Critical Chance 90%",
+        "effects": "Critical chance =90%",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Judge's Critical Chance\" status",
+        "codedName": "PROHIBITED_BOOK_ADJUDICATORS_CHASE_MODE_4",
+        "notes": "-"
+    },
+    {
+        "id": "50279",
+        "commonName": "Judge's Critical Chance 100%",
+        "effects": "Critical chance =100%",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Judge's Critical Chance\" status",
+        "codedName": "PROHIBITED_BOOK_ADJUDICATORS_CHASE_MODE_5",
+        "notes": "-"
+    },
+    {
+        "id": "50280",
+        "commonName": "Fury Follow-Up",
+        "effects": "Casts Fury Follow-Up after using a Ice or Water attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_T_ICE_AND_WATER",
+        "notes": "-"
+    },
+    {
+        "id": "50281",
+        "commonName": "Draw & Triple J Counter",
+        "effects": "Keeps track of the uses of Draw & Triple J, removed if the user hasn't Burst Mode, reset upon refreshing Burst Mode",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_JUNCTION_FOR_REVOLVER_DRIVE",
+        "notes": "-"
+    },
+    {
+        "id": "50282",
+        "commonName": "EX: Lionheart!",
+        "effects": "Casts Renzokuken Fire Fang after using a Spellblade ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_LION_HEART",
+        "notes": "-"
+    },
+    {
+        "id": "50283",
+        "commonName": "Lionheart 1",
+        "effects": "Critical chance =30%, cast speed x2,00, grants Lionheart 2 after using a Spellblade ability, removed if the user hasn't EX: Lionheart!",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Lionheart\" status",
+        "codedName": "LION_HEART_GRADE_1",
+        "notes": "-"
+    },
+    {
+        "id": "50284",
+        "commonName": "Lionheart 2",
+        "effects": "Critical chance =50%, cast speed x2,50, grants Lionheart 3 after using a Spellblade ability, removed if the user hasn't EX: Lionheart!",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Lionheart\" status",
+        "codedName": "LION_HEART_GRADE_2",
+        "notes": "-"
+    },
+    {
+        "id": "50285",
+        "commonName": "Lionheart 3",
+        "effects": "Critical chance =75%, cast speed x3,00, grants Lionheart 3 after using a Spellblade ability, removed if the user hasn't EX: Lionheart!",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Lionheart\" status",
+        "codedName": "LION_HEART_GRADE_3",
+        "notes": "-"
+    },
+    {
+        "id": "50286",
+        "commonName": "Wind Drain",
+        "effects": "Restores HP for 10% of the damage dealt with Wind attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ABSORB_HP_FOR_RAGING_STORM",
+        "notes": "-"
+    },
+    {
+        "id": "50287",
+        "commonName": "Gale Spear Follow-Up",
+        "effects": "Casts Gale Spear after using a Wind attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_SLASH_BLADE",
+        "notes": "-"
+    },
+    {
+        "id": "50288",
+        "commonName": "Blast Mode 1",
+        "effects": "Casts Dancing Flower after using a Fire attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "Blast Mode 2, Blast Mode 3",
+        "codedName": "RAMPAGE_MODE_AND_CHASE_0",
+        "notes": "-"
+    },
+    {
+        "id": "50289",
+        "commonName": "Blast Mode 2",
+        "effects": "Casts Dancing Flower after using a Fire attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "Blast Mode 1, Blast Mode 3",
+        "codedName": "RAMPAGE_MODE_AND_CHASE_1",
+        "notes": "-"
+    },
+    {
+        "id": "50290",
+        "commonName": "Blast Mode 3",
+        "effects": "Casts Dancing Flower after using a Fire attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "Blast Mode 1, Blast Mode 2",
+        "codedName": "RAMPAGE_MODE_AND_CHASE_2",
+        "notes": "-"
+    },
+    {
+        "id": "50295",
+        "commonName": "Doom: 5",
+        "effects": "HP = 0 after a 5 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DOOM_5",
+        "notes": "-"
+    },
+    {
+        "id": "50296",
+        "commonName": "Doom: 10",
+        "effects": "HP = 0 after a 10 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DOOM_10",
+        "notes": "-"
+    },
+    {
+        "id": "50297",
+        "commonName": "Doom: 15",
+        "effects": "HP = 0 after a 15 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DOOM_15",
+        "notes": "-"
+    },
+    {
+        "id": "50298",
+        "commonName": "Doom: 20",
+        "effects": "HP = 0 after a 20 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DOOM_20",
+        "notes": "-"
+    },
+    {
+        "id": "50299",
+        "commonName": "Doom: 25",
+        "effects": "HP = 0 after a 25 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DOOM_25",
+        "notes": "-"
+    },
+    {
+        "id": "50312",
+        "commonName": "Lionheart 0",
+        "effects": "Grants Lionheart 1 after using a Spellblade ability, removed if the user hasn't EX: Lionheart!",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Lionheart\" status",
+        "codedName": "LION_HEART_GRADE_0",
+        "notes": "-"
     },
     {
         "id": "601",
@@ -5270,7 +8172,7 @@
     },
     {
         "id": "6006",
-        "commonName": "Dance of Carnage",
+        "commonName": "50% Critical",
         "effects": "Critical chance =50%",
         "defaultDuration": 25,
         "mndModifier": "-",
@@ -5367,7 +8269,7 @@
     },
     {
         "id": "6016",
-        "commonName": "Auto Critical",
+        "commonName": "100% Critical",
         "effects": "Critical chance =100%",
         "defaultDuration": 25,
         "mndModifier": "-",
@@ -5455,12 +8357,42 @@
     },
     {
         "id": "6025",
-        "commonName": "Auto Critical 2",
+        "commonName": "100% Critical 2",
         "effects": "Critical chance =100%, lasts for 2 turns",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_100_2",
+        "notes": "-"
+    },
+    {
+        "id": "6026",
+        "commonName": "Warrior Mode 1",
+        "effects": "Critical chance =50%",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "Warrior Mode 2, Warrior Mode 3",
+        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_50_15000_FOR_STUDY_ARTS",
+        "notes": "-"
+    },
+    {
+        "id": "6027",
+        "commonName": "Warrior Mode 2",
+        "effects": "Critical chance =75%",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "Warrior Mode 1, Warrior Mode 3",
+        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_75_15000_FOR_STUDY_ARTS",
+        "notes": "-"
+    },
+    {
+        "id": "6028",
+        "commonName": "Warrior Mode 3",
+        "effects": "Critical chance =100%",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "Warrior Mode 1, Warrior Mode 2",
+        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_100_15000_FOR_STUDY_ARTS",
         "notes": "-"
     },
     {
@@ -6104,6 +9036,46 @@
         "notes": "-"
     },
     {
+        "id": "8033",
+        "commonName": "Minor Buff Poison",
+        "effects": "Increases Poison damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_POISON_10",
+        "notes": "-"
+    },
+    {
+        "id": "8034",
+        "commonName": "Medium Buff Poison",
+        "effects": "Increases Poison damage dealt by 20%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_POISON_20",
+        "notes": "-"
+    },
+    {
+        "id": "8035",
+        "commonName": "Minor Debuff Poison",
+        "effects": "Reduces Poison damage dealt by 10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_POISON_M10",
+        "notes": "-"
+    },
+    {
+        "id": "8036",
+        "commonName": "Medium Debuff Poison",
+        "effects": "Reduces Poison damage dealt by 20%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_POISON_M20",
+        "notes": "-"
+    },
+    {
         "id": "8051",
         "commonName": "Absolute Medium Buff Fire",
         "effects": "Increases Fire damage dealt by 20%, cumulable",
@@ -6134,6 +9106,26 @@
         "notes": "-"
     },
     {
+        "id": "8411021",
+        "commonName": "Lightning Blink 1",
+        "effects": "Reduces the damage of the next attack that deals Lightning damage to 0",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_LIGHTNING_DAMAGE_EVASION_1",
+        "notes": "-"
+    },
+    {
+        "id": "8411031",
+        "commonName": "Earth Blink 1",
+        "effects": "Reduces the damage of the next attack that deals Earth damage to 0",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_EARTH_DAMAGE_EVASION_1",
+        "notes": "-"
+    },
+    {
         "id": "8411041",
         "commonName": "Wind Blink 1",
         "effects": "Reduces the damage of the next attack that deals Wind damage to 0",
@@ -6161,6 +9153,26 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "ELEMENT_HOLY_DAMAGE_EVASION_1",
+        "notes": "-"
+    },
+    {
+        "id": "8411071",
+        "commonName": "Dark Blink 1",
+        "effects": "Reduces the damage of the next attack that deals Dark damage to 0",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_DARK_DAMAGE_EVASION_1",
+        "notes": "-"
+    },
+    {
+        "id": "8411081",
+        "commonName": "Poison Blink 1",
+        "effects": "Reduces the damage of the next attack that deals Poison damage to 0",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ELEMENT_POISON_DAMAGE_EVASION_1",
         "notes": "-"
     },
     {
@@ -6204,6 +9216,16 @@
         "notes": "-"
     },
     {
+        "id": "8421041",
+        "commonName": "Medium Resist Wind",
+        "effects": "Wind Resistance +20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_WIND_ADVANTAGE_2",
+        "notes": "-"
+    },
+    {
         "id": "8421051",
         "commonName": "Medium Resist Water",
         "effects": "Water Resistance +20%, cumulable",
@@ -6234,6 +9256,16 @@
         "notes": "-"
     },
     {
+        "id": "8421081",
+        "commonName": "Medium Resist Poison",
+        "effects": "Poison Resistance +20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_POISON_ADVANTAGE_2",
+        "notes": "-"
+    },
+    {
         "id": "8431001",
         "commonName": "Minor Resist Fire",
         "effects": "Fire Resistance +10%, cumulable",
@@ -6254,6 +9286,46 @@
         "notes": "-"
     },
     {
+        "id": "8431021",
+        "commonName": "Minor Resist Lightning",
+        "effects": "Lightning Resistance +10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_LIGHTNING_ADVANTAGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "8431031",
+        "commonName": "Minor Resist Earth",
+        "effects": "Earth Resistance +10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_EARTH_ADVANTAGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "8431041",
+        "commonName": "Minor Resist Wind",
+        "effects": "Wind Resistance +10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_WIND_ADVANTAGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "8431051",
+        "commonName": "Minor Resist Water",
+        "effects": "Water Resistance +10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_WATER_ADVANTAGE_1",
+        "notes": "-"
+    },
+    {
         "id": "8431061",
         "commonName": "Minor Resist Holy",
         "effects": "Holy Resistance +10%, cumulable",
@@ -6271,6 +9343,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_DARK_ADVANTAGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "8431081",
+        "commonName": "Minor Resist Poison",
+        "effects": "Poison Resistance +10%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_POISON_ADVANTAGE_1",
         "notes": "-"
     },
     {
