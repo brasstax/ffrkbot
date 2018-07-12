@@ -1,7 +1,7 @@
 const {Command} = require('discord.js-commando');
 const path = require('path');
 botPath = path.join(
-  __dirname, '..', '..', 'utilities', 'soulbreak-bot-utils.js');
+  __dirname, '..', '..', 'utilities', 'brave-bot-utils.js');
 const botUtils = require(botPath);
 
 module.exports = class ReplyCommand extends Command {
@@ -27,7 +27,7 @@ module.exports = class ReplyCommand extends Command {
           prompt: 'Enter the brave level of the character' +
             ' you wish to look up. (Optional.)',
           type: 'integer',
-          default: '',
+          default: -1,
         },
       ],
       aliases: [],
