@@ -141,6 +141,18 @@ exports.returnImageLink = function returnImageLink(ability, abilityType) {
   console.log(`fullUri for ${ability.name}: ${fullUri}`);
   return fullUri;
 };
+
+/** returnBraveImage:
+ * Returns the URL link for a brave level.
+ * @param {Integer} level: a JSON dict of an ability, soulbreak, etc.
+ * @return {string} uri: URI of the image, or a default Discord avatar image
+ * if the image is not found.
+ **/
+exports.returnBraveImage = function returnBraveImage(level) {
+  let baseUri = 'https://dff.sp.mbga.jp/dff/static/lang/image/brave/level';
+  let fullUri = `${baseUri}/level_${level}.png`;
+  return fullUri;
+};
 /** checkAlias:
  * Checks to see if an alias belongs to a character.
  * @param {String} alias: The alias to check.

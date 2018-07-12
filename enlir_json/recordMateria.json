@@ -210,7 +210,7 @@
         "realm": "Core",
         "character": "Black Mage",
         "name": "Omnicast Direflame",
-        "effect": "Attack turns into an ability (BLK, group, 2,08 magical Fire)",
+        "effect": "Attack turns into an ability (BLK: group, 2,08 magical Fire)",
         "unlockCriteria": "Bring Black Mage to level 99",
         "name(jp)": "全体化・猛炎",
         "✓": "✓"
@@ -2144,7 +2144,7 @@
     {
         "realm": "IV",
         "character": "Barbariccia",
-        "name": "Woman of the Four",
+        "name": "Standout Archfiend",
         "effect": "MAG +10%, DEF -10%",
         "unlockCriteria": "Use Barbariccia's Memory Crystal",
         "name(jp)": "四天王の紅一点",
@@ -2153,7 +2153,7 @@
     {
         "realm": "IV",
         "character": "Barbariccia",
-        "name": "Aerial Fighter",
+        "name": "Midair Combatant",
         "effect": "Increases Wind damage dealt by 20%",
         "unlockCriteria": "Use Barbariccia's Memory Crystal II, chance to obtain with Barbariccia in party",
         "name(jp)": "空中戦に長ける戦士",
@@ -2162,7 +2162,7 @@
     {
         "realm": "IV",
         "character": "Barbariccia",
-        "name": "Crowned by the Wind",
+        "name": "One With the Wind",
         "effect": "Attack turns into an ability (BLK: group, 2,08 magical Wind)",
         "unlockCriteria": "Bring Barbariccia to level 99",
         "name(jp)": "風を名に冠する者",
@@ -3800,7 +3800,7 @@
     {
         "realm": "VIII",
         "character": "Ultimecia",
-        "name": "Sorceress from the Future",
+        "name": "Future Witch",
         "effect": "MAG +10%, RES -10%",
         "unlockCriteria": "Use Ultimecia's Memory Crystal",
         "name(jp)": "未来の魔女",
@@ -3809,7 +3809,7 @@
     {
         "realm": "VIII",
         "character": "Ultimecia",
-        "name": "Sorceress's Plot",
+        "name": "Witch's Plot",
         "effect": "Increases Wind damage dealt by 20%",
         "unlockCriteria": "Use Ultimecia's Memory Crystal II, chance to obtain with Ultimecia in party",
         "name(jp)": "魔女の深謀",
@@ -3818,7 +3818,7 @@
     {
         "realm": "VIII",
         "character": "Ultimecia",
-        "name": "Heart of Anger",
+        "name": "Heart of Fury",
         "effect": "BLK attacks deal 30% more damage when equipping a rod",
         "unlockCriteria": "Bring Ultimecia to level 99",
         "name(jp)": "怒りに満ちた心",
@@ -4648,7 +4648,7 @@
         "character": "Zeid",
         "name": "Dark Knight of Bastok",
         "effect": "Darkness abilities deal 15% more damage",
-        "unlockCriteria": "Use Zied's Memory Crystal",
+        "unlockCriteria": "Use Zeid's Memory Crystal",
         "name(jp)": "バストゥークの暗黒騎士",
         "✓": "✓"
     },
@@ -4657,7 +4657,7 @@
         "character": "Zeid",
         "name": "Karmic Blade",
         "effect": "13% chance to dualcast Darkness abilities",
-        "unlockCriteria": "Use Zied's Memory Crystal II, chance to obtain with Zied in party",
+        "unlockCriteria": "Use Zeid's Memory Crystal II, chance to obtain with Zeid in party",
         "name(jp)": "業を背負う者の剣",
         "✓": "✓"
     },
@@ -4666,9 +4666,24 @@
         "character": "Zeid",
         "name": "Darkest Iron",
         "effect": "Darkness abilities deal 40% more damage",
-        "unlockCriteria": "Bring Zied to level 99",
+        "unlockCriteria": "Bring Zeid to level 99",
         "name(jp)": "銃士隊最強の暗黒剣",
         "✓": "✓"
+    },
+    {
+        "realm": "XI",
+        "character": "Lilisette",
+        "unlockCriteria": "Use Lilisette's Memory Crystal"
+    },
+    {
+        "realm": "XI",
+        "character": "Lilisette",
+        "unlockCriteria": "Use Lilisette's Memory Crystal II, chance to obtain with Lilisette in party"
+    },
+    {
+        "realm": "XI",
+        "character": "Lilisette",
+        "unlockCriteria": "Bring Lilisette to level 99"
     },
     {
         "realm": "XII",
@@ -6012,6 +6027,21 @@
         "✓": "✓"
     },
     {
+        "realm": "FFT",
+        "character": "Orran",
+        "unlockCriteria": "Use Orran's Memory Crystal"
+    },
+    {
+        "realm": "FFT",
+        "character": "Orran",
+        "unlockCriteria": "Use Orran's Memory Crystal II, chance to obtain with Orran in party"
+    },
+    {
+        "realm": "FFT",
+        "character": "Orran",
+        "unlockCriteria": "Bring Orran to level 99"
+    },
+    {
         "realm": "Type-0",
         "character": "Ace",
         "name": "Cards Wheeler",
@@ -6280,6 +6310,21 @@
         "unlockCriteria": "Bring Sice to level 99",
         "name(jp)": "執着する力を司る者",
         "✓": "✓"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Jack",
+        "unlockCriteria": "Use Jack's Memory Crystal"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Jack",
+        "unlockCriteria": "Use Jack's Memory Crystal II, chance to obtain with Jack in party"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Jack",
+        "unlockCriteria": "Bring Jack to level 99"
     },
     {
         "realm": "KH",
