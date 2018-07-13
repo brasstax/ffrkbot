@@ -5151,7 +5151,7 @@
     },
     {
         "school": "Spellblade",
-        "name": "Explosion Strike",
+        "name": "Blast Strike",
         "rarity": 6,
         "type": "PHY",
         "target": "Single enemy",
@@ -5176,7 +5176,7 @@
     },
     {
         "school": "Spellblade",
-        "name": "Rainstorm Strike",
+        "name": "Tempest Strike",
         "rarity": 6,
         "type": "PHY",
         "target": "Single enemy",
@@ -5201,7 +5201,7 @@
     },
     {
         "school": "Spellblade",
-        "name": "Scorching Godstrike",
+        "name": "Inferno Assault",
         "rarity": 6,
         "type": "PHY",
         "target": "Single enemy",
@@ -5226,7 +5226,7 @@
     },
     {
         "school": "Spellblade",
-        "name": "Sundering Godstrike",
+        "name": "Sundering Assault",
         "rarity": 6,
         "type": "PHY",
         "target": "Single enemy",

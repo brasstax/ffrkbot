@@ -1385,6 +1385,16 @@
         "notes": "-"
     },
     {
+        "id": "282012",
+        "commonName": "Samurai +15% Boost 2",
+        "effects": "Samurai abilities deal 15% more damage, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_SAMURAI_115_2",
+        "notes": "-"
+    },
+    {
         "id": "282101",
         "commonName": "Darkness +30% Boost",
         "effects": "Darkness abilities deal 30% more damage",
@@ -6424,7 +6434,7 @@
     {
         "id": "50156",
         "commonName": "Seeker of Truth",
-        "effects": "Grants High Quick Cast 1 to the user and casts Blade of Light after using a Holy attack",
+        "effects": "Grants High Quick Cast 1 to the user and casts Knight's Lightblade after using a Holy attack",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6433,8 +6443,8 @@
     },
     {
         "id": "50157",
-        "commonName": "Holy Smite Follow-Up",
-        "effects": "Casts Holy Smite after using two Knight abilities",
+        "commonName": "Divine Purge Follow-Up",
+        "effects": "Casts Divine Purge after using two Knight abilities",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -7611,6 +7621,26 @@
         "notes": "-"
     },
     {
+        "id": "50291",
+        "commonName": "EX: Crimson Flash",
+        "effects": "ATK +30%, cast speed x3,00 for Samurai abilities, dualcasts Samurai abilities, removed if the user doesn't have any Stoneskin",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_RED_ONE_FLASH",
+        "notes": "-"
+    },
+    {
+        "id": "50292",
+        "commonName": "Draw Cards",
+        "effects": "Casts Force (Type-0) / Charge (Type-0) / Burst (Type-0) after using 1/2/3 Black Magic abilities, removed after using 3 Black Magic abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_UP_CARD",
+        "notes": "-"
+    },
+    {
         "id": "50295",
         "commonName": "Doom: 5",
         "effects": "HP = 0 after a 5 seconds timer",
@@ -8393,6 +8423,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "Warrior Mode 1, Warrior Mode 2",
         "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_100_15000_FOR_STUDY_ARTS",
+        "notes": "-"
+    },
+    {
+        "id": "6029",
+        "commonName": "75% Critical",
+        "effects": "Critical chance =75%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_75_25000",
         "notes": "-"
     },
     {

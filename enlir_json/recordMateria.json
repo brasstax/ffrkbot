@@ -6314,16 +6314,19 @@
     {
         "realm": "Type-0",
         "character": "Jack",
+        "effect": "Restores 1 use for all Samurai abilities at the beginning of the battle",
         "unlockCriteria": "Use Jack's Memory Crystal"
     },
     {
         "realm": "Type-0",
         "character": "Jack",
+        "effect": "?% chance to dualcast Samurai abilities",
         "unlockCriteria": "Use Jack's Memory Crystal II, chance to obtain with Jack in party"
     },
     {
         "realm": "Type-0",
         "character": "Jack",
+        "effect": "Samurai abilities deal ?% more damage",
         "unlockCriteria": "Bring Jack to level 99"
     },
     {
