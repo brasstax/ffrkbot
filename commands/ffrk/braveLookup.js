@@ -25,9 +25,11 @@ module.exports = class ReplyCommand extends Command {
         {
           key: 'braveLevel',
           prompt: 'Enter the brave level of the character' +
-            ' you wish to look up. (Optional.)',
+            ' you wish to look up. Use -1 to show all ' +
+            ' (please do that a designated bot channel and not general.' +
+            ' (Optional, defaults to 3.)',
           type: 'integer',
-          default: -1,
+          default: 3,
         },
       ],
       aliases: [],
