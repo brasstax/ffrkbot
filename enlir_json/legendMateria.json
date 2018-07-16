@@ -5856,16 +5856,27 @@
     {
         "realm": "Type-0",
         "character": "Jack",
-        "relic": "-"
+        "name": "A Reason to Smile",
+        "effect": "PHY attacks deal ?% more damage",
+        "relic": "-",
+        "name(jp)": "笑顔の理由"
     },
     {
         "realm": "Type-0",
         "character": "Jack",
-        "relic": "-"
+        "name": "Essence of Control",
+        "effect": "Grants Retaliate and 75% Critical when HP fall below ?%",
+        "relic": "-",
+        "name(jp)": "克己的な本質"
     },
     {
         "realm": "Type-0",
-        "character": "Jack"
+        "character": "Jack",
+        "name": "Wielder of One Blade",
+        "effect": "Grants Attach Fire at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Diamond Gloves (Type-0)",
+        "name(jp)": "二の太刀いらずの剣士"
     },
     {
         "realm": "KH",

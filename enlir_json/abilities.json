@@ -8382,7 +8382,8 @@
         "orb4Required": "Ability Record",
         "introducingEvent": "Crusher of Hopes",
         "name(jp)": "フレイムオファ",
-        "id": "30261141"
+        "id": "30261141",
+        "✓": "✓"
     },
     {
         "school": "Darkness",

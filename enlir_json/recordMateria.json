@@ -6314,20 +6314,29 @@
     {
         "realm": "Type-0",
         "character": "Jack",
-        "effect": "Restores 1 use for all Samurai abilities at the beginning of the battle",
-        "unlockCriteria": "Use Jack's Memory Crystal"
+        "name": "Positive Thinking",
+        "effect": "50% chance to restore 1 use for all Samurai abilities at the beginning of the battle",
+        "unlockCriteria": "Use Jack's Memory Crystal",
+        "name(jp)": "ポジティブ思考",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Jack",
-        "effect": "?% chance to dualcast Samurai abilities",
-        "unlockCriteria": "Use Jack's Memory Crystal II, chance to obtain with Jack in party"
+        "name": "Bright Future",
+        "effect": "13% chance to dualcast Samurai abilities",
+        "unlockCriteria": "Use Jack's Memory Crystal II, chance to obtain with Jack in party",
+        "name(jp)": "前向きな未来",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Jack",
-        "effect": "Samurai abilities deal ?% more damage",
-        "unlockCriteria": "Bring Jack to level 99"
+        "name": "Unknown Power",
+        "effect": "Samurai abilities deal 40% more damage",
+        "unlockCriteria": "Bring Jack to level 99",
+        "name(jp)": "無知なる力を司る者",
+        "✓": "✓"
     },
     {
         "realm": "KH",
