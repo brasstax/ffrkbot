@@ -14,6 +14,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -31,6 +32,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -48,6 +50,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -65,6 +68,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Monk",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -82,6 +86,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Darkness",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -99,6 +104,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Monk",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -116,6 +122,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Witch",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -167,6 +174,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -201,6 +209,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Knight",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -286,6 +295,7 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -320,6 +330,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Ninja",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -337,6 +348,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -354,6 +366,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Samurai",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -371,6 +384,7 @@
         "autoTarget": "Random enemies",
         "sb": 0,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -388,6 +402,7 @@
         "autoTarget": "Random enemies",
         "sb": 0,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -405,6 +420,7 @@
         "autoTarget": "Random enemies",
         "sb": 0,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -422,6 +438,7 @@
         "autoTarget": "Random enemies",
         "sb": 0,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -453,6 +470,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Knight",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -470,6 +488,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -487,6 +506,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Ninja",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -504,6 +524,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Thief",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -521,6 +542,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Thief",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -538,6 +560,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Machinist",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -555,6 +578,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Machinist",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -572,6 +596,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Machinist",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -589,6 +614,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Monk",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -606,6 +632,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Ninja",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -623,6 +650,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -640,6 +668,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -657,6 +686,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -674,6 +704,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -725,6 +756,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Knight",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -742,6 +774,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -759,6 +792,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Ninja",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -776,6 +810,7 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -793,6 +828,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -827,6 +863,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -844,6 +881,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Monk",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -861,6 +899,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Sharpshooter",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -878,6 +917,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -895,6 +935,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Thief",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -912,6 +953,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Dragoon",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -929,6 +971,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Knight",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -963,6 +1006,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Sharpshooter",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -980,6 +1024,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Summoning",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1014,6 +1059,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Machinist",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1048,6 +1094,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1099,6 +1146,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1116,6 +1164,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Darkness",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1133,6 +1182,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1184,6 +1234,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1218,6 +1269,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Dragoon",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1235,6 +1287,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1249,6 +1302,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Knight",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1266,6 +1320,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Darkness",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1283,6 +1338,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1351,6 +1407,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Dragoon",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1368,6 +1425,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1385,6 +1443,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1402,6 +1461,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Darkness",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1464,6 +1524,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Knight",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1523,6 +1584,7 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1551,6 +1613,7 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Summoning",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1565,6 +1628,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Machinist",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1610,6 +1674,7 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Summoning",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1627,6 +1692,7 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Summoning",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1644,6 +1710,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Summoning",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1661,6 +1728,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1678,6 +1746,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1695,6 +1764,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1712,6 +1782,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1729,6 +1800,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1746,6 +1818,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1763,6 +1836,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1777,6 +1851,7 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1791,6 +1866,7 @@
         "autoTarget": "Random ally",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1805,6 +1881,7 @@
         "autoTarget": "Random ally",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1822,6 +1899,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1839,6 +1917,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1856,6 +1935,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1873,6 +1953,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1890,6 +1971,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1907,6 +1989,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1924,6 +2007,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1941,6 +2025,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1958,6 +2043,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1975,6 +2061,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1992,6 +2079,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2009,6 +2097,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2026,6 +2115,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2043,6 +2133,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2060,6 +2151,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2074,6 +2166,7 @@
         "autoTarget": "Random ally with status",
         "sb": 65,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2088,6 +2181,7 @@
         "autoTarget": "Random ally with status",
         "sb": 65,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2102,6 +2196,7 @@
         "autoTarget": "-",
         "sb": 50,
         "school": "Summoning",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2119,6 +2214,7 @@
         "autoTarget": "All enemies",
         "sb": 65,
         "school": "Samurai",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2136,6 +2232,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 65,
         "school": "Dragoon",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2153,6 +2250,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2170,6 +2268,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2187,6 +2286,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2204,6 +2304,7 @@
         "autoTarget": "All enemies",
         "sb": 65,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2221,6 +2322,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 65,
         "school": "Thief",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2238,6 +2340,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2255,6 +2358,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Bard",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2272,6 +2376,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Ninja",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2289,6 +2394,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2306,6 +2412,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2323,6 +2430,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2340,6 +2448,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2357,6 +2466,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2374,6 +2484,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2391,6 +2502,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2408,6 +2520,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2425,6 +2538,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2442,6 +2556,7 @@
         "autoTarget": "Lowest HP% enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2459,6 +2574,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2476,6 +2592,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2493,6 +2610,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2510,6 +2628,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2527,6 +2646,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2544,6 +2664,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2561,6 +2682,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2578,6 +2700,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2595,6 +2718,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2612,6 +2736,7 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2629,6 +2754,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Monk",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2646,6 +2772,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2663,6 +2790,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2680,6 +2808,7 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2694,6 +2823,7 @@
         "autoTarget": "Random ally with status",
         "sb": 65,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2711,6 +2841,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2728,6 +2859,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2745,6 +2877,7 @@
         "autoTarget": "Lowest HP% enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2762,6 +2895,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2779,6 +2913,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2796,6 +2931,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 35,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2813,6 +2949,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2830,6 +2967,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2847,6 +2985,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2861,6 +3000,7 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "Knight",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2878,6 +3018,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2895,6 +3036,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2912,6 +3054,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2929,6 +3072,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Bard",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2946,6 +3090,7 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2960,6 +3105,7 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "Knight",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2977,6 +3123,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 35,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2994,6 +3141,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3011,6 +3159,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3028,6 +3177,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3042,6 +3192,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3059,6 +3210,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3073,6 +3225,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3087,6 +3240,7 @@
         "autoTarget": "Random ally with status",
         "sb": 65,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3104,6 +3258,7 @@
         "autoTarget": "Lowest HP% enemies",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3121,6 +3276,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3138,6 +3294,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3152,6 +3309,7 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "Knight",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3169,6 +3327,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 65,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3183,6 +3342,7 @@
         "autoTarget": "-",
         "sb": 50,
         "school": "Summoning",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3200,6 +3360,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3217,6 +3378,7 @@
         "autoTarget": "Lowest HP% enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3234,6 +3396,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3251,6 +3414,7 @@
         "autoTarget": "Random enemies",
         "sb": 80,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3268,6 +3432,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3285,6 +3450,7 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3302,6 +3468,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3319,6 +3486,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3336,6 +3504,7 @@
         "autoTarget": "Lowest HP% enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3353,6 +3522,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3370,6 +3540,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3387,6 +3558,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3404,6 +3576,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3421,6 +3594,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3435,6 +3609,7 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3452,6 +3627,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3469,6 +3645,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3486,6 +3663,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3500,6 +3678,7 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3514,6 +3693,7 @@
         "autoTarget": "Random ally with status",
         "sb": 65,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3531,6 +3711,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3548,6 +3729,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3565,6 +3747,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3582,6 +3765,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3599,6 +3783,7 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3616,6 +3801,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3633,6 +3819,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3650,6 +3837,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3667,6 +3855,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3684,6 +3873,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3701,6 +3891,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3718,6 +3909,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3735,6 +3927,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3752,6 +3945,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3786,6 +3980,7 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3803,6 +3998,7 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3817,6 +4013,7 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3831,6 +4028,7 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3865,6 +4063,7 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3879,6 +4078,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3896,6 +4096,7 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3913,6 +4114,7 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3944,6 +4146,7 @@
         "autoTarget": "Random enemy without status",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3958,6 +4161,7 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3992,6 +4196,7 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4026,6 +4231,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Celerity",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4043,6 +4249,7 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4060,6 +4267,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Dragoon",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4091,6 +4299,7 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4105,6 +4314,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4122,6 +4332,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4139,6 +4350,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Dragoon",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4153,6 +4365,7 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4170,6 +4383,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     }
 ]

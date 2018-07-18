@@ -6,6 +6,7 @@
         "effect": "Increases damage dealt by 10% when exploiting elemental weakness",
         "unlockCriteria": "Use Tyro's Memory Crystal",
         "name(jp)": "みやぶるⅠ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -15,6 +16,7 @@
         "effect": "Increases damage dealt by 20% when exploiting elemental weakness",
         "unlockCriteria": "Chance to obtain with Tyro in party",
         "name(jp)": "みやぶるⅡ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -24,6 +26,7 @@
         "effect": "Grants 500 Soul Break points at the beginning of the Dungeon",
         "unlockCriteria": "Use Tyro's Memory Crystal II, chance to obtain with Tyro in party",
         "name(jp)": "Dr.モグの教え",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -33,6 +36,7 @@
         "effect": "Increases damage dealt by 30% when exploiting elemental weakness",
         "unlockCriteria": "Bring Tyro to level 99",
         "name(jp)": "学者の慧眼",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -42,6 +46,7 @@
         "effect": "WHT abilities restore 10% more HP",
         "unlockCriteria": "Use Elarra's Memory Crystal",
         "name(jp)": "目覚めし少女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -51,6 +56,7 @@
         "effect": "WHT abilities restore 20% more HP",
         "unlockCriteria": "Use Elarra's Memory Crystal II, chance to obtain with Elarra in party",
         "name(jp)": "記憶の加護",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -60,6 +66,7 @@
         "effect": "40% chance to double Experience gained at the end of the battle",
         "unlockCriteria": "Bring Elarra to level 99",
         "name(jp)": "学びし白魔法の知識",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -69,6 +76,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a sword",
         "unlockCriteria": "Use Warrior's Memory Crystal",
         "name(jp)": "戦士の剣撃",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -78,6 +86,7 @@
         "effect": "Restores 1 use for all Combat abilities at the beginning of the battle",
         "unlockCriteria": "Use Warrior's Memory Crystal II, chance to obtain with Warrior in party",
         "name(jp)": "戦士の気迫",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -87,6 +96,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping a sword",
         "unlockCriteria": "Bring Warrior to level 99",
         "name(jp)": "戦士の威信",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -96,6 +106,7 @@
         "effect": "DEF +10% when equipping a helm",
         "unlockCriteria": "Use Knight's Memory Crystal",
         "name(jp)": "鋼の騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -105,6 +116,7 @@
         "effect": "Grants Protect and Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Knight's Memory Crystal II, chance to obtain with Knight in party",
         "name(jp)": "護りの要",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -114,6 +126,7 @@
         "effect": "DEF +25% when equipping a helm",
         "unlockCriteria": "Bring Knight to level 99",
         "name(jp)": "牢固なる騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -123,6 +136,7 @@
         "effect": "Monk abilities deal 15% more damage",
         "unlockCriteria": "Use Monk's Memory Crystal",
         "name(jp)": "モンクの拳",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -132,6 +146,7 @@
         "effect": "8% chance to dualcast Monk abilities",
         "unlockCriteria": "Chance to obtain with Monk in party",
         "name(jp)": "武術開眼",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -141,6 +156,7 @@
         "effect": "10% chance to counter PHY attacks with Chakra",
         "unlockCriteria": "Use Monk's Memory Crystal II, chance to obtain with Monk in party",
         "name(jp)": "磨き抜かれし感覚",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -150,6 +166,7 @@
         "effect": "30% chance to counter PHY attacks with Chakra",
         "unlockCriteria": "Bring Monk to level 99",
         "name(jp)": "研ぎ澄まされし感覚",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -159,6 +176,7 @@
         "effect": "30% chance to turn Attack into an ability (BLK: single, 0,70 magical Fire)",
         "unlockCriteria": "Use Red Mage's Memory Crystal",
         "name(jp)": "魔法攻撃・炎Ⅰ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -168,6 +186,7 @@
         "effect": "13% chance to dualcast Black Magic abilities",
         "unlockCriteria": "Use Red Mage's Memory Crystal II, chance to obtain with Red Mage in party",
         "name(jp)": "赤魔道士の奥義",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -177,6 +196,7 @@
         "effect": "Attack turns into an ability, randomly (BLK: single, 2,60 magical Fire, Ice or Lightning) or (WHT: single, restores HP (39))",
         "unlockCriteria": "Bring Red Mage to level 99",
         "name(jp)": "万能の魔道士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -186,6 +206,7 @@
         "effect": "50% chance to restore 1 use for all Black Magic abilities at the beginning of the battle",
         "unlockCriteria": "Use Black Mage's Memory Crystal",
         "name(jp)": "魔力の泉Ⅰ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -195,6 +216,7 @@
         "effect": "Restores 1 use for all Black Magic abilities at the beginning of the battle",
         "unlockCriteria": "Defeat Hein in FFIII - Hein's Castle (Elite) without Black Mage being KO'd",
         "name(jp)": "魔力の泉Ⅱ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -204,6 +226,7 @@
         "effect": "Attack turns into an ability (BLK: group, 1,50 magical Fire)",
         "unlockCriteria": "Use Black Mage's Memory Crystal II, chance to obtain with Black Mage in party",
         "name(jp)": "全体化・炎",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -213,6 +236,7 @@
         "effect": "Attack turns into an ability (BLK: group, 2,08 magical Fire)",
         "unlockCriteria": "Bring Black Mage to level 99",
         "name(jp)": "全体化・猛炎",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -222,6 +246,7 @@
         "effect": "8% chance to dualcast Black Magic abilities",
         "unlockCriteria": "Use Magus's Memory Crystal",
         "name(jp)": "魔人の禁術Ⅰ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -231,6 +256,7 @@
         "effect": "15% chance to dualcast Black Magic abilities",
         "unlockCriteria": "Chance to obtain with Magus in party",
         "name(jp)": "魔人の禁術Ⅱ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -240,6 +266,7 @@
         "effect": "Attack turns into an ability (BLK: single, 1,50 magical Fire/Lightning/Ice)",
         "unlockCriteria": "Use Magus's Memory Crystal II, chance to obtain with Magus in party",
         "name(jp)": "禁忌の魔術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -249,6 +276,7 @@
         "effect": "Attack turns into an ability (BLK: group, 2,00 magical Fire/Lightning/Ice)",
         "unlockCriteria": "Bring Magus to level 99",
         "name(jp)": "禁忌の大魔術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -258,6 +286,7 @@
         "effect": "50% chance to restore 1 use for all White Magic abilities at the beginning of the battle",
         "unlockCriteria": "Use White Mage's Memory Crystal",
         "name(jp)": "精神統一Ⅰ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -267,6 +296,7 @@
         "effect": "Restores 1 use for all White Magic abilities at the beginning of the battle",
         "unlockCriteria": "Defeat Beatrix in FFIX - Burmecia (Elite) without White Mage being KO'd",
         "name(jp)": "精神統一Ⅱ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -276,6 +306,7 @@
         "effect": "Attack turns into an ability (WHT: single, restores HP (26))",
         "unlockCriteria": "Use White Mage's Memory Crystal II, chance to obtain with White Mage in party",
         "name(jp)": "白魔道士の祈り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -285,6 +316,7 @@
         "effect": "Attack turns into an ability (WHT: single, restores HP (39))",
         "unlockCriteria": "Bring White Mage to level 99",
         "name(jp)": "白魔道士の奇跡",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -294,6 +326,7 @@
         "effect": "8% chance to dualcast White Magic abilities",
         "unlockCriteria": "Use Devout's Memory Crystal",
         "name(jp)": "癒しの願いⅠ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -303,6 +336,7 @@
         "effect": "15% chance to dualcast White Magic abilities",
         "unlockCriteria": "Chance to obtain with Devout in party",
         "name(jp)": "癒しの願いⅡ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -312,6 +346,7 @@
         "effect": "If an ally has negative effects, 50% chance to turn Attack into an ability (NAT: single, removes negative effects)",
         "unlockCriteria": "Use Devout's Memory Crystal II, chance to obtain with Devout in party",
         "name(jp)": "浄化の精神",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -321,6 +356,7 @@
         "effect": "If an ally has negative effects, 70% chance to turn Attack into an ability (NAT: single, removes negative effects)",
         "unlockCriteria": "Bring Devout to level 99",
         "name(jp)": "浄化の祝福",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -330,6 +366,7 @@
         "effect": "50% chance to restore 1 use for all Summoning abilities at the beginning of the battle",
         "unlockCriteria": "Use Summoner's Memory Crystal",
         "name(jp)": "召喚の泉Ⅰ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -339,6 +376,7 @@
         "effect": "Restores 1 use for all Summoning abilities at the beginning of the battle",
         "unlockCriteria": "Chance to obtain with Summoner in party",
         "name(jp)": "召喚の泉Ⅱ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -348,6 +386,7 @@
         "effect": "SUM attacks deal 20% more damage",
         "unlockCriteria": "Use Summoner's Memory Crystal II, chance to obtain with Summoner in party",
         "name(jp)": "召喚士の真価",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -357,6 +396,7 @@
         "effect": "40% chance to turn Attack into an ability (SUM: randomly casts Goblin, Chocobo, Drake or Bomb) with 2,50 cast time",
         "unlockCriteria": "Bring Summoner to level 99",
         "name(jp)": "召喚獣との盟約",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -366,6 +406,7 @@
         "effect": "50% chance to restore 1 use for all Samurai abilities at the beginning of the battle",
         "unlockCriteria": "Use Samurai's Memory Crystal",
         "name(jp)": "武士道Ⅰ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -375,6 +416,7 @@
         "effect": "Restores 1 use for all Samurai abilities at the beginning of the battle",
         "unlockCriteria": "Chance to obtain with Samurai in party",
         "name(jp)": "武士道Ⅱ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -384,6 +426,7 @@
         "effect": "25% chance to counter PHY attacks with Blade Bash",
         "unlockCriteria": "Use Samurai's Memory Crystal II, chance to obtain with Samurai in party",
         "name(jp)": "東方の剣術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -393,6 +436,7 @@
         "effect": "50% chance to turn Attack into an ability (PHY: group, 2x 0,90 physical, 100% hit rate)",
         "unlockCriteria": "Bring Samurai to level 99",
         "name(jp)": "奥義の開眼",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -402,6 +446,7 @@
         "effect": "50% chance to restore 1 use for all Dragoon abilities at the beginning of the battle",
         "unlockCriteria": "Use Dragoon's Memory Crystal",
         "name(jp)": "飛竜の魂Ⅰ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -411,6 +456,7 @@
         "effect": "Restores 1 use for all Dragoon abilities at the beginning of the battle",
         "unlockCriteria": "Chance to obtain with Dragoon in party",
         "name(jp)": "飛竜の魂Ⅱ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -420,6 +466,7 @@
         "effect": "Jump attacks deal 25% more damage",
         "unlockCriteria": "Use Dragoon's Memory Crystal II, chance to obtain with Dragoon in party",
         "name(jp)": "竜騎士の強撃",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -429,6 +476,7 @@
         "effect": "50% chance to turn Attack into an ability (PHY: single, 2x 1,90 ranged physical, air time (3,50 sec.))",
         "unlockCriteria": "Bring Dragoon to level 99",
         "name(jp)": "天高き飛翔",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -438,6 +486,7 @@
         "effect": "DEF +10% when equipping a helm",
         "unlockCriteria": "Use Dark Knight's Memory Crystal",
         "name(jp)": "兜防御力UP",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -447,6 +496,7 @@
         "effect": "25% chance to turn Attack into an ability (PHY: single, 0,90 physical, heals the user for 32% of the damage dealt)",
         "unlockCriteria": "Chance to obtain with Dark Knight in party",
         "name(jp)": "闇の剣技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -456,6 +506,7 @@
         "effect": "50% chance to turn Attack into an ability (PHY: single, 1,00 physical, heals the user for 32% of the damage dealt)",
         "unlockCriteria": "Use Dark Knight's Memory Crystal II, chance to obtain with Dark Knight in party",
         "name(jp)": "闇の秘技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -465,6 +516,7 @@
         "effect": "60% chance to turn Attack into an ability (PHY: single, 1,67 physical, heals the user for 32% of the damage dealt)",
         "unlockCriteria": "Bring Dark Knight to level 99",
         "name(jp)": "闇の絶技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -474,6 +526,7 @@
         "effect": "50% chance to restore 1 use for all Spellblade abilities at the beginning of the battle",
         "unlockCriteria": "Use Spellblade's Memory Crystal",
         "name(jp)": "魔法剣の熟達Ⅰ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -483,6 +536,7 @@
         "effect": "Restores 1 use for all Spellblade abilities at the beginning of the battle",
         "unlockCriteria": "Chance to obtain with Spellblade in party",
         "name(jp)": "魔法剣の熟達Ⅱ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -492,6 +546,7 @@
         "effect": "60% chance to randomly turn Attack into Fire Strike, Blizzard Strike or Thunder Strike",
         "unlockCriteria": "Use Spellblade's Memory Crystal II, chance to obtain with Spellblade in party",
         "name(jp)": "魔法剣の極致",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -501,6 +556,7 @@
         "effect": "Attack turns into an ability (PHY: group, 2x 0,60 physical Earth)",
         "unlockCriteria": "Bring Spellblade to level 99",
         "name(jp)": "地の魔法剣の神技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -510,6 +566,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a hammer",
         "unlockCriteria": "Use Viking's Memory Crystal",
         "name(jp)": "ハンマーの使い手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -519,6 +576,7 @@
         "effect": "Attack turns into Charge",
         "unlockCriteria": "Chance to obtain with Viking in party",
         "name(jp)": "渾身の一撃",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -528,6 +586,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a helm",
         "unlockCriteria": "Use Viking's Memory Crystal II, chance to obtain with Viking in party",
         "name(jp)": "荒海の猛者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -537,6 +596,7 @@
         "effect": "ATK +15% when equipping a hammer",
         "unlockCriteria": "Bring Viking to level 99",
         "name(jp)": "雄々しき海の勇",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -546,6 +606,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping an axe",
         "unlockCriteria": "Use Berserker's Memory Crystal",
         "name(jp)": "狂戦士の戦斧",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -555,6 +616,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping an axe",
         "unlockCriteria": "Chance to obtain with Berserker in party",
         "name(jp)": "狂戦士の覚醒",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -564,6 +626,7 @@
         "effect": "ATK +10%, causes Berserk at the beginning of the battle",
         "unlockCriteria": "Use Berserker's Memory Crystal II, chance to obtain with Berserker in party",
         "name(jp)": "狂戦士の猛攻",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -573,6 +636,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping an axe",
         "unlockCriteria": "Bring Berserker to level 99",
         "name(jp)": "狂戦士の暴乱",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -582,6 +646,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a bow",
         "unlockCriteria": "Use Ranger's Memory Crystal",
         "name(jp)": "弓の使い手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -591,6 +656,7 @@
         "effect": "16% chance to turn Attack into Barrage",
         "unlockCriteria": "Chance to obtain with Ranger in party",
         "name(jp)": "みだれうちチャンス",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -600,6 +666,7 @@
         "effect": "Grants Haste at the beginning of the battle, Attack turns into Aim",
         "unlockCriteria": "Use Ranger's Memory Crystal II, chance to obtain with Ranger in party",
         "name(jp)": "鷹の目",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -609,6 +676,7 @@
         "effect": "33% chance to turn Attack into Barrage",
         "unlockCriteria": "Bring Ranger to level 99",
         "name(jp)": "卓越せし射手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -618,6 +686,7 @@
         "effect": "50% chance to restore 1 use for all Thief abilities at the beginning of the battle",
         "unlockCriteria": "Use Thief (Core)'s Memory Crystal",
         "name(jp)": "シーフのプライドⅠ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -627,6 +696,7 @@
         "effect": "Restores 1 use for all Thief abilities at the beginning of the battle",
         "unlockCriteria": "Chance to obtain with Thief (Core) in party",
         "name(jp)": "シーフのプライドⅡ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -636,6 +706,7 @@
         "effect": "35% chance to turn Attack into Steal HP",
         "unlockCriteria": "Use Thief's Memory Crystal II, chance to obtain with Thief (Core) in party",
         "name(jp)": "シーフの流儀",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -645,6 +716,7 @@
         "effect": "50% chance to turn Attack into an ability (PHY: single, 2x 0,97 physical Poison, 1,17 multiplier when equipping a dagger)",
         "unlockCriteria": "Bring Thief (Core) to level 99",
         "name(jp)": "シーフの奥の手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -654,6 +726,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping an instrument",
         "unlockCriteria": "Use Bard's Memory Crystal",
         "name(jp)": "楽器の使い手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -663,6 +736,7 @@
         "effect": "Attack turns into an ability (PHY: group, 0,60 physical)",
         "unlockCriteria": "Chance to obtain with Bard in party",
         "name(jp)": "伝道師",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -672,6 +746,7 @@
         "effect": "ATK +10%, grants Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Bard's Memory Crystal II, chance to obtain with Bard in party",
         "name(jp)": "戦歌",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -681,6 +756,7 @@
         "effect": "Attack turns into an ability (NAT: single, 2,00 magical, causes Sleep (20%))",
         "unlockCriteria": "Bring Bard to level 99",
         "name(jp)": "安息の呪歌",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -690,6 +766,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a thrown weapon",
         "unlockCriteria": "Use Ninja's Memory Crystal",
         "name(jp)": "投てきの達人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -699,6 +776,7 @@
         "effect": "Grants Physical Blink 1 when HP fall below 10%",
         "unlockCriteria": "Chance to obtain with Ninja in party",
         "name(jp)": "隠れ身",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -708,6 +786,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a thrown weapon",
         "unlockCriteria": "Use Ninja's Memory Crystal II, chance to obtain with Ninja in party",
         "name(jp)": "忍びの投てき術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -717,6 +796,7 @@
         "effect": "Attack turns into an ability (NIN: group, 18,00 magical Fire, ignores RES) with 0,825 cast time",
         "unlockCriteria": "Bring Ninja to level 99",
         "name(jp)": "忍びの極意",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -726,6 +806,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping an axe",
         "unlockCriteria": "Use Gladiator's Memory Crystal",
         "name(jp)": "斧の使い手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -735,6 +816,7 @@
         "effect": "16% chance to turn attack into an ability (PHY: single, 2,80 physical)",
         "unlockCriteria": "Chance to obtain with Gladiator in party",
         "name(jp)": "スーパークリティカル",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -744,6 +826,7 @@
         "effect": "DEF +20% when equipping a light armor",
         "unlockCriteria": "Use Gladiator's Memory Crystal II, chance to obtain with Gladiator in party",
         "name(jp)": "不落の剣闘士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -753,6 +836,7 @@
         "effect": "Attack turns into an ability (PHY: single, 1,00 physical, ATK -30% for 15 seconds)",
         "unlockCriteria": "Bring Gladiator to level 99",
         "name(jp)": "剣闘士の秘剣",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -762,6 +846,7 @@
         "effect": "Grants Shell when HP fall below 20%",
         "unlockCriteria": "Use Warrior of Light's Memory Crystal",
         "name(jp)": "クリスタルの加護",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -771,6 +856,7 @@
         "effect": "Attack turns into an ability (PHY: single, 1,00 physical Holy)",
         "unlockCriteria": "Chance to obtain with Warrior of Light in party",
         "name(jp)": "光の力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -780,6 +866,7 @@
         "effect": "Increases Holy damage dealt by 20%",
         "unlockCriteria": "Use Warrior of Light's Memory Crystal II, chance to obtain with Warrior of Light in party",
         "name(jp)": "聖なる力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -789,6 +876,7 @@
         "effect": "ATK and DEF +13% when equipping a sword",
         "unlockCriteria": "Bring Warrior of Light to level 99",
         "name(jp)": "予言の戦士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -798,6 +886,7 @@
         "effect": "30% chance to turn Attack into an ability (PHY: single, 1,00 physical Dark)",
         "unlockCriteria": "Use Garland's Memory Crystal",
         "name(jp)": "異端者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -807,6 +896,7 @@
         "effect": "DEF +20% when equipping a heavy armor",
         "unlockCriteria": "Use Garland's Memory Crystal II, chance to obtain with Garland in party",
         "name(jp)": "重厚な戦士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -816,6 +906,7 @@
         "effect": "Increases Dark damage dealt by 30%",
         "unlockCriteria": "Bring Garland to level 99",
         "name(jp)": "真の混沌",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -825,6 +916,7 @@
         "effect": "MND +20%, MAG -20%",
         "unlockCriteria": "Use Sarah's Memory Crystal",
         "name(jp)": "コーネリアの華",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -834,6 +926,7 @@
         "effect": "Attack turns into an ability (WHT: restores HP (26))",
         "unlockCriteria": "Use Sarah's Memory Crystal II, chance to obtain with Sara in party",
         "name(jp)": "王家の祝福",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -843,6 +936,7 @@
         "effect": "MND +25% when equipping a staff",
         "unlockCriteria": "Bring Sarah to level 99",
         "name(jp)": "はじまりの姫",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -852,6 +946,7 @@
         "effect": "DEF +10% when equipping a light armor",
         "unlockCriteria": "Use Wol's Memory Crystal",
         "name(jp)": "異邦人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -861,6 +956,7 @@
         "effect": "16% chance to turn attack into an ability (PHY: single, 2,80 physical)",
         "unlockCriteria": "Use Wol's Memory Crystal II, chance to obtain with Wol in party",
         "name(jp)": "クリティカルブースト",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -870,6 +966,7 @@
         "effect": "ATK and DEF +13% when equipping a light armor",
         "unlockCriteria": "Bring Wol to level 99",
         "name(jp)": "パラミティアの冒険者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -879,6 +976,7 @@
         "effect": "Increases Lightning damage dealt by 10%",
         "unlockCriteria": "Use Echo's Memory Crystal",
         "name(jp)": "おてんば",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -888,6 +986,7 @@
         "effect": "MAG +10%, causes Blind at the beginning of the battle",
         "unlockCriteria": "Use Echo's Memory Crystal II, chance to obtain with Echo in party",
         "name(jp)": "小さな妖精",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -897,6 +996,7 @@
         "effect": "MAG +15%, causes Blind at the beginning of the battle",
         "unlockCriteria": "Bring Echo to level 99",
         "name(jp)": "あまのじゃくな妖精",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -906,6 +1006,7 @@
         "effect": "8% chance to turn attack into an ability (PHY: single, 2,80 physical)",
         "unlockCriteria": "Use Master's Memory Crystal",
         "name(jp)": "磨かれし拳",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -915,6 +1016,7 @@
         "effect": "25% chance to dualcast Monk abilities if HP are lower than 50%",
         "unlockCriteria": "Use Master's Memory Crystal II, chance to obtain with Master in party",
         "name(jp)": "武の極意",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -924,6 +1026,7 @@
         "effect": "Attack turns into Chi Blast",
         "unlockCriteria": "Bring Master to level 99",
         "name(jp)": "厳しき修練の道",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -933,6 +1036,7 @@
         "effect": "50% chance to restore 1 use for all Black Magic abilities at the beginning of the battle",
         "unlockCriteria": "Use Matoya's Memory Crystal",
         "name(jp)": "魔女のくすり",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -942,6 +1046,7 @@
         "effect": "15% chance to dualcast Black Magic abilities",
         "unlockCriteria": "Use Matoya's Memory Crystal II, chance to obtain with Matoya in party",
         "name(jp)": "全知の魔女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -951,6 +1056,7 @@
         "effect": "BLK attacks deal 30% more damage when equipping a staff",
         "unlockCriteria": "Bring Matoya to level 99",
         "name(jp)": "伝説の魔女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -960,6 +1066,7 @@
         "effect": "SUM attacks deal 10% more damage",
         "unlockCriteria": "Use Meia's Memory Crystal",
         "name(jp)": "碧の魔女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -969,6 +1076,7 @@
         "effect": "BLK and SUM attacks deal 10% more damage when equipping a rod",
         "unlockCriteria": "Use Meia's Memory Crystal II, chance to obtain with Meia in party",
         "name(jp)": "妖艶な魔術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -978,6 +1086,7 @@
         "effect": "30% chance to turn Attack into Leviathan",
         "unlockCriteria": "Bring Meia to level 99",
         "name(jp)": "パラミティアの復讐者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -987,6 +1096,7 @@
         "effect": "Thief abilities deal 15% more damage",
         "unlockCriteria": "Use Thief (I)'s Memory Crystal",
         "name(jp)": "抜け目ない盗賊",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -996,6 +1106,7 @@
         "effect": "ATK +10%, grants Haste at the beginning of the battle",
         "unlockCriteria": "Use Thief (I)'s Memory Crystal II, chance to obtain with Thief (I) in party",
         "name(jp)": "早技の名手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1005,6 +1116,7 @@
         "effect": "ATK and RES +13% when equipping a dagger",
         "unlockCriteria": "Bring Thief (I) to level 99",
         "name(jp)": "短剣の極意",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1014,6 +1126,7 @@
         "effect": "ATK +5% for each 10% missing HP",
         "unlockCriteria": "Use Firion's Memory Crystal",
         "name(jp)": "立ち向かう勇気",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1023,6 +1136,7 @@
         "effect": "ATK and DEF +10%, grants Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Firion's Memory Crystal II, chance to obtain with Firion in party",
         "name(jp)": "反乱軍のエース",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1032,6 +1146,7 @@
         "effect": "ATK +13%",
         "unlockCriteria": "Bring Firion to level 99",
         "name(jp)": "武具を修めし者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1041,6 +1156,7 @@
         "effect": "BLK attacks deal 10% more damage when equipping a bow",
         "unlockCriteria": "Use Maria's Memory Crystal",
         "name(jp)": "弓の魔術師",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1050,6 +1166,7 @@
         "effect": "PHY and BLK attacks deal 10% more damage when equipping a bow",
         "unlockCriteria": "Chance to obtain with Maria in party",
         "name(jp)": "反乱軍の射手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1059,6 +1176,7 @@
         "effect": "Attack turns into an ability (BLK: single, 2,20 magical Fire)",
         "unlockCriteria": "Use Maria's Memory Crystal II, chance to obtain with Maria in party",
         "name(jp)": "誘爆",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1068,6 +1186,7 @@
         "effect": "MAG +15% when equipping a bow",
         "unlockCriteria": "Bring Maria to level 99",
         "name(jp)": "帝国に弓ひきし者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1077,6 +1196,7 @@
         "effect": "ATK +10%, DEF -10%",
         "unlockCriteria": "Chance to obtain with Guy in party",
         "name(jp)": "野獣の子",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1086,6 +1206,7 @@
         "effect": "ATK and DEF +10% when equipping an axe",
         "unlockCriteria": "Use Guy's Memory Crystal II, chance to obtain with Guy in party",
         "name(jp)": "狼牙剛体",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1095,6 +1216,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping an axe",
         "unlockCriteria": "Bring Guy to level 99",
         "name(jp)": "鍛え抜かれし巨漢",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1104,6 +1226,7 @@
         "effect": "DEF +5% for each 10% missing HP",
         "unlockCriteria": "Use Leon's Memory Crystal",
         "name(jp)": "力への妄信",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1113,6 +1236,7 @@
         "effect": "Attack turns into an ability (PHY: single, 1,00 physical Dark)",
         "unlockCriteria": "Chance to obtain with Leon in party",
         "name(jp)": "闇の力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1122,6 +1246,7 @@
         "effect": "ATK +10%, DEF -10%",
         "unlockCriteria": "Use Leon's Memory Crystal II, chance to obtain with Leon in party",
         "name(jp)": "孤独な戦士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1131,6 +1256,7 @@
         "effect": "ATK and DEF +13% when equipping a heavy armor",
         "unlockCriteria": "Bring Leon to level 99",
         "name(jp)": "暗黒に染まる騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1140,6 +1266,7 @@
         "effect": "MND +10% when equipping a staff",
         "unlockCriteria": "Use Minwu's Memory Crystal",
         "name(jp)": "白の導き手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1149,6 +1276,7 @@
         "effect": "WHT abilities restore 20% more HP",
         "unlockCriteria": "Use Minwu's Memory Crystal II, chance to obtain with Minwu in party",
         "name(jp)": "白魔道の大家",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1158,6 +1286,7 @@
         "effect": "WHT abilities restore 30% more HP",
         "unlockCriteria": "Bring Minwu to level 99",
         "name(jp)": "天命に殉ずる覚悟",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1167,6 +1296,7 @@
         "effect": "RES +5% for each 10% missing HP",
         "unlockCriteria": "Use Gordon's Memory Crystal",
         "name(jp)": "湧き上がる士気",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1176,6 +1306,7 @@
         "effect": "Grants Protect at the beginning of the battle",
         "unlockCriteria": "Chance to obtain with Gordon in party",
         "name(jp)": "カシュオーンの誇り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1185,6 +1316,7 @@
         "effect": "RES +20% when equipping a shield",
         "unlockCriteria": "Use Gordon's Memory Crystal II, chance to obtain with Gordon in party",
         "name(jp)": "王族の自覚",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1194,6 +1326,7 @@
         "effect": "ATK and DEF +13% when equipping a spear",
         "unlockCriteria": "Bring Gordon to level 99",
         "name(jp)": "芽生えし威厳",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1203,6 +1336,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a dagger",
         "unlockCriteria": "Use Leila's Memory Crystal",
         "name(jp)": "女海賊の心得",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1212,6 +1346,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a dagger",
         "unlockCriteria": "Use Leila's Memory Crystal II, chance to obtain with Leila in party",
         "name(jp)": "だまし討ち",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1221,6 +1356,7 @@
         "effect": "24% chance to turn Attack into Thief's Revenge",
         "unlockCriteria": "Bring Leila to level 99",
         "name(jp)": "やり手の女頭領",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1230,6 +1366,7 @@
         "effect": "ATK +20%, causes Sap at the beginning of the battle",
         "unlockCriteria": "Use Ricard's Memory Crystal",
         "name(jp)": "竜騎士の決意",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1239,6 +1376,7 @@
         "effect": "37% chance to turn Attack into Jump",
         "unlockCriteria": "Chance to obtain with Ricard in party",
         "name(jp)": "竜騎士団の誇り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1248,6 +1386,7 @@
         "effect": "Dragoon abilities deal 30% more damage",
         "unlockCriteria": "Use Ricard's Memory Crystal II, chance to obtain with Ricard in party",
         "name(jp)": "最後の竜騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1257,6 +1396,7 @@
         "effect": "24% chance to turn Attack into Sky Grinder",
         "unlockCriteria": "Bring Ricard to level 99",
         "name(jp)": "ディスト竜騎士の矜持",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1266,6 +1406,7 @@
         "effect": "ATK and DEF +10%, causes Sap at the beginning of the battle",
         "unlockCriteria": "Use Josef's Memory Crystal",
         "name(jp)": "自己犠牲",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1275,6 +1416,7 @@
         "effect": "Attack turns into an ability (PHY: single, 2x 0,65 physical)",
         "unlockCriteria": "Chance to obtain in FFII dungeon with Josef in party",
         "name(jp)": "連続HIT",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1284,6 +1426,7 @@
         "effect": "Increases Ice damage dealt by 20%",
         "unlockCriteria": "Use Josef's Memory Crystal II, chance to obtain with Josef in party",
         "name(jp)": "雪原の盾",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1293,6 +1436,7 @@
         "effect": "ATK +15%, DEF -15%",
         "unlockCriteria": "Bring Josef to level 99",
         "name(jp)": "託せし大志",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1302,6 +1446,7 @@
         "effect": "8% chance to counter PHY attacks with an ability (BLK: single, 0,70 magical Wind)",
         "unlockCriteria": "Use Emperor's Memory Crystal",
         "name(jp)": "皇帝の謀略",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1311,6 +1456,7 @@
         "effect": "Attack turns into an ability (BLK: group, 1,50 magical Wind)",
         "unlockCriteria": "Use Emperor's Memory Crystal II, chance to obtain with Emperor in party",
         "name(jp)": "暗黒の風",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1320,6 +1466,7 @@
         "effect": "60% chance to turn Attack into Drain",
         "unlockCriteria": "Bring Emperor to level 99",
         "name(jp)": "飽くなき支配欲",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1356,6 +1503,7 @@
         "effect": "Spellblade abilities deal 15% more damage",
         "unlockCriteria": "Use Scott's Memory Crystal",
         "name(jp)": "勇ましき王子",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1365,6 +1513,7 @@
         "effect": "49% chance to turn Attack into Fire Strike",
         "unlockCriteria": "Use Scott's Memory Crystal II, chance to obtain with Scott in party",
         "name(jp)": "カシュオーンの刃",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1374,6 +1523,7 @@
         "effect": "DEF +20%, grants Reraise: 40% at the beginning of the battle",
         "unlockCriteria": "Bring Scott to level 99",
         "name(jp)": "消えぬ闘炎",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1383,6 +1533,7 @@
         "effect": "Increases Wind damage dealt by 10%",
         "unlockCriteria": "Use Luneth's Memory Crystal",
         "name(jp)": "風のクリスタルの力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1392,6 +1543,7 @@
         "effect": "Grants Haste at the beginning of the battle",
         "unlockCriteria": "Chance to obtain with Luneth in party",
         "name(jp)": "強き心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1401,6 +1553,7 @@
         "effect": "Increases damage dealt by 20% when exploiting elemental weakness",
         "unlockCriteria": "Use Luneth's Memory Crystal II, chance to obtain with Luneth in party",
         "name(jp)": "ウィークウォッチ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1410,6 +1563,7 @@
         "effect": "40% chance to double Experience gained at the end of the battle",
         "unlockCriteria": "Bring Luneth to level 99",
         "name(jp)": "未完の大器",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1419,6 +1573,7 @@
         "effect": "Increases Water damage dealt by 10%",
         "unlockCriteria": "Use Arc's Memory Crystal",
         "name(jp)": "水のクリスタルの力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1428,6 +1583,7 @@
         "effect": "Grants Shell at the beginning of the battle",
         "unlockCriteria": "Chance to obtain with Arc in party",
         "name(jp)": "優しき心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1437,6 +1593,7 @@
         "effect": "MAG and MND +10% when equipping a staff",
         "unlockCriteria": "Use Arc's Memory Crystal II, chance to obtain with Arc in party",
         "name(jp)": "少年たちの知恵袋",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1446,6 +1603,7 @@
         "effect": "MAG and MND +13% when equipping a robe",
         "unlockCriteria": "Bring Arc to level 99",
         "name(jp)": "秘めたる勇気",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1455,6 +1613,7 @@
         "effect": "Increases Fire damage dealt by 10%",
         "unlockCriteria": "Use Refia's Memory Crystal",
         "name(jp)": "火のクリスタルの力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1464,6 +1623,7 @@
         "effect": "Grants Protect at the beginning of the battle",
         "unlockCriteria": "Chance to obtain with Refia in party",
         "name(jp)": "愛しき心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1473,6 +1633,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a thrown weapon",
         "unlockCriteria": "Use Refia's Memory Crystal II, chance to obtain with Refia in party",
         "name(jp)": "チャクラムアーツ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1482,6 +1643,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping a thrown weapon",
         "unlockCriteria": "Bring Refia to level 99",
         "name(jp)": "研ぎ澄まされた感性",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1491,6 +1653,7 @@
         "effect": "Increases Earth damage dealt by 10%",
         "unlockCriteria": "Use Ingus's Memory Crystal",
         "name(jp)": "土のクリスタルの力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1500,6 +1663,7 @@
         "effect": "Grants Medium Regen at the beginning of the battle",
         "unlockCriteria": "Chance to obtain with Ingus in party",
         "name(jp)": "信じる心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1509,6 +1673,7 @@
         "effect": "DEF +20% when equipping a shield",
         "unlockCriteria": "Use Ingus's Memory Crystal II, chance to obtain with Ingus in party",
         "name(jp)": "サスーン騎士の心意気",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1518,6 +1683,7 @@
         "effect": "DEF +25% when equipping a shield",
         "unlockCriteria": "Bring Ingus to level 99",
         "name(jp)": "実直な戦士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1527,6 +1693,7 @@
         "effect": "BLK attacks deal 10% more damage when equipping a sword",
         "unlockCriteria": "Use Desch's Memory Crystal",
         "name(jp)": "眠る古代の力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1536,6 +1703,7 @@
         "effect": "ATK and MAG +10%, causes Sap at the beginning of the battle",
         "unlockCriteria": "Use Desch's Memory Crystal II, chance to obtain with Desch in party",
         "name(jp)": "使命の果て",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1545,6 +1713,7 @@
         "effect": "Attack turns into an ability (BLK: single, 2,60 magical Lightning)",
         "unlockCriteria": "Bring Desch to level 99",
         "name(jp)": "鮮烈なる生き様",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1554,6 +1723,7 @@
         "effect": "MAG +10% when equipping a staff",
         "unlockCriteria": "Use Onion Knight's Memory Crystal",
         "name(jp)": "未完の魔道士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1563,6 +1733,7 @@
         "effect": "20% chance to double Experience gained at the end of the battle",
         "unlockCriteria": "Use Onion Knight's Memory Crystal II, chance to obtain with Onion Knight in party",
         "name(jp)": "大器晩成",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1572,6 +1743,7 @@
         "effect": "MAG and MND +13% when equipping a staff",
         "unlockCriteria": "Bring Onion Knight to level 99",
         "name(jp)": "悠久の知恵",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1581,6 +1753,7 @@
         "effect": "30% chance to turn Attack into an ability (BLK: single, 0,70 magical)",
         "unlockCriteria": "Use Cloud of Darkness's Memory Crystal",
         "name(jp)": "妖魔の波動",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1590,6 +1763,7 @@
         "effect": "Attack turns into an ability (BLK: group, 1,50 magical Dark)",
         "unlockCriteria": "Use Cloud of Darkness's Memory Crystal II, chance to obtain with Cloud of Darkness in party",
         "name(jp)": "終末の兆し",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1599,6 +1773,7 @@
         "effect": "Attack turns into an ability (BLK: single, 2,60 magical)",
         "unlockCriteria": "Bring Cloud of Darkness to level 99",
         "name(jp)": "無の化身",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1608,6 +1783,7 @@
         "effect": "MND +20%, MAG -20%",
         "unlockCriteria": "Use Aria's Memory Crystal",
         "name(jp)": "巫女の目覚め",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1617,6 +1793,7 @@
         "effect": "Restores 1 use for all White Magic abilities at the beginning of the battle",
         "unlockCriteria": "Use Aria's Memory Crystal II, chance to obtain with Aria in party",
         "name(jp)": "祈りの言葉",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1626,6 +1803,7 @@
         "effect": "WHT abilities restore 30% more HP",
         "unlockCriteria": "Bring Aria to level 99",
         "name(jp)": "光導く虹",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1635,6 +1813,7 @@
         "effect": "Attack turns into an ability (PHY: single, 1,20 physical, damages the user for 5% of the user's maximum HP)",
         "unlockCriteria": "Use Cecil (Dark Knight)'s Memory Crystal",
         "name(jp)": "血塗られた剣技Ⅰ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1644,6 +1823,7 @@
         "effect": "Attack turns into an ability (PHY: single, 1,30 physical, damages the user for 5% of the user's maximum HP)",
         "unlockCriteria": "Chance to obtain in FFIV dungeon with Cecil (Dark Knight) in party",
         "name(jp)": "血塗られた剣技Ⅱ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1653,6 +1833,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a sword",
         "unlockCriteria": "Use Cecil (Dark Knight)'s Memory Crystal II, chance to obtain with Cecil (Dark Knight) in party",
         "name(jp)": "赤い翼の誇り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1662,6 +1843,7 @@
         "effect": "Darkness abilities deal 40% more damage",
         "unlockCriteria": "Bring Cecil (Dark Knight) to level 99",
         "name(jp)": "呪われし闇の力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1671,6 +1853,7 @@
         "effect": "Grants Protect when HP fall below 20%",
         "unlockCriteria": "Use Cecil (Paladin)'s Memory Crystal",
         "name(jp)": "屈せぬ魂",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1680,6 +1863,7 @@
         "effect": "Attack turns into an ability (PHY: single, 0,90 physical, heals the user for 8% of the damage dealt)",
         "unlockCriteria": "Chance to obtain in FFIV dungeon with Cecil (Paladin) in party",
         "name(jp)": "聖騎士の剣技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1689,6 +1873,7 @@
         "effect": "30% chance to counter PHY attacks with an ability (NAT: self, restores HP (30))",
         "unlockCriteria": "Use Cecil (Paladin)'s Memory Crystal II, chance to obtain with Cecil (Paladin) in party",
         "name(jp)": "聖騎士の決意",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1698,6 +1883,7 @@
         "effect": "Increases Holy damage dealt by 30%",
         "unlockCriteria": "Bring Cecil (Paladin) to level 99",
         "name(jp)": "青き星の聖剣",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1707,6 +1893,7 @@
         "effect": "Jump attacks deal 20% more damage",
         "unlockCriteria": "Use Kain's Memory Crystal",
         "name(jp)": "竜騎士の心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1716,6 +1903,7 @@
         "effect": "ATK and DEF +10%, causes Confuse at the beginning of the battle",
         "unlockCriteria": "Use a Jump attack to disrupt Barbariccia's tornado in Tower of Zot - Spire (Elite)",
         "name(jp)": "洗脳",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1725,6 +1913,7 @@
         "effect": "Jump attacks deal 25% more damage",
         "unlockCriteria": "Use Kain's Memory Crystal II, chance to obtain with Kain in party",
         "name(jp)": "プライド高き竜騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1734,6 +1923,7 @@
         "effect": "Jump attacks deal 35% more damage",
         "unlockCriteria": "Bring Kain to level 99",
         "name(jp)": "誇りの飛翔",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1743,6 +1933,7 @@
         "effect": "Grants Shell when HP fall below 20%",
         "unlockCriteria": "Use Rydia's Memory Crystal",
         "name(jp)": "幻獣の加護",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1752,6 +1943,7 @@
         "effect": "SUM attacks deal 20% more damage",
         "unlockCriteria": "Chance to obtain in FFIV dungeon with Rydia in party",
         "name(jp)": "幻獣との絆",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1761,6 +1953,7 @@
         "effect": "MAG +10% when equipping a whip",
         "unlockCriteria": "Use Rydia's Memory Crystal II, chance to obtain with Rydia in party",
         "name(jp)": "ミストの召喚士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1770,6 +1963,7 @@
         "effect": "MAG and RES +13% when equipping a whip",
         "unlockCriteria": "Bring Rydia to level 99",
         "name(jp)": "幻界で育まれし魔力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1779,6 +1973,7 @@
         "effect": "MND +10% when equipping a bow",
         "unlockCriteria": "Use Rosa's Memory Crystal",
         "name(jp)": "白魔道士団の弓使い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1788,6 +1983,7 @@
         "effect": "MND +20% when equipping a bow",
         "unlockCriteria": "Use Rosa's Memory Crystal II, chance to obtain with Rosa in party",
         "name(jp)": "バロンのアルテミス",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1797,6 +1993,7 @@
         "effect": "MND +25% when equipping a bow",
         "unlockCriteria": "Bring Rosa to level 99",
         "name(jp)": "バロン随一の美貌",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1806,6 +2003,7 @@
         "effect": "50% chance to restore 1 use for all Bard abilities at the beginning of the battle",
         "unlockCriteria": "Use Edward's Memory Crystal",
         "name(jp)": "王族の歌声I",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1815,6 +2013,7 @@
         "effect": "Restores 1 use for all Bard abilities at the beginning of the battle",
         "unlockCriteria": "Chance to obtain with Edward in party",
         "name(jp)": "王族の歌声II",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1824,6 +2023,7 @@
         "effect": "DEF and RES +10%, causes Sap at the beginning of the battle",
         "unlockCriteria": "Use Edward's Memory Crystal II, chance to obtain with Edward in party",
         "name(jp)": "衰弱の王子",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1833,6 +2033,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping an instrument",
         "unlockCriteria": "Bring Edward to level 99",
         "name(jp)": "心優しき吟遊詩人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1842,6 +2043,7 @@
         "effect": "50% chance to restore 1 use for all Monk abilities at the beginning of the battle",
         "unlockCriteria": "Use Yang's Memory Crystal",
         "name(jp)": "僧兵の修行",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1851,6 +2053,7 @@
         "effect": "Attack turns into an ability (PHY: group, 0,40 physical)",
         "unlockCriteria": "Use Yang's Memory Crystal II, chance to obtain with Yang in party",
         "name(jp)": "愛のけり",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1860,6 +2063,7 @@
         "effect": "Attack turns into an ability (PHY: group, 0,80 physical)",
         "unlockCriteria": "Bring Yang to level 99",
         "name(jp)": "ファブール最強のけり",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1869,6 +2073,7 @@
         "effect": "BLK attacks deal 10% more damage when equipping a dagger",
         "unlockCriteria": "Use Palom's Memory Crystal",
         "name(jp)": "黒魔道士の素質",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1878,6 +2083,7 @@
         "effect": "20% chance to double Experience gained at the end of the battle",
         "unlockCriteria": "Use Palom's Memory Crystal II, chance to obtain with Palom in party",
         "name(jp)": "黒魔法の天才児",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1887,6 +2093,7 @@
         "effect": "MAG +15% when equipping a rod",
         "unlockCriteria": "Bring Palom to level 99",
         "name(jp)": "卓越せし黒魔法の才能",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1896,6 +2103,7 @@
         "effect": "8% chance to dualcast White Magic abilities",
         "unlockCriteria": "Use Porom's Memory Crystal",
         "name(jp)": "白魔道士の素質",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1905,6 +2113,7 @@
         "effect": "MND +20% when equipping a staff",
         "unlockCriteria": "Use Porom's Memory Crystal II, chance to obtain with Porom in party",
         "name(jp)": "白魔法の天才児",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1914,6 +2123,7 @@
         "effect": "MND +25% when equipping a hat",
         "unlockCriteria": "Bring Porom to level 99",
         "name(jp)": "卓越せし白魔法の才能",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1923,6 +2133,7 @@
         "effect": "30% chance to turn Attack into an ability (BLK: single, 0,70 magical Ice)",
         "unlockCriteria": "Use Tellah's Memory Crystal",
         "name(jp)": "賢者の印",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1932,6 +2143,7 @@
         "effect": "MAG and MND +10% when equipping a rod",
         "unlockCriteria": "Use Tellah's Memory Crystal II, chance to obtain with Tellah in party",
         "name(jp)": "賢者の心得",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1941,6 +2153,7 @@
         "effect": "MAG and MND +13% when equipping a staff",
         "unlockCriteria": "Bring Tellah to level 99",
         "name(jp)": "賢者の想起",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1950,6 +2163,7 @@
         "effect": "50% chance to restore 1 use for all Ninja abilities at the beginning of the battle",
         "unlockCriteria": "Use Edge's Memory Crystal",
         "name(jp)": "エブラーナの秘伝",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1959,6 +2173,7 @@
         "effect": "Increases Fire damage dealt by 20%",
         "unlockCriteria": "Use Edge's Memory Crystal II, chance to obtain with Edge in party",
         "name(jp)": "燃え盛る怒り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1968,6 +2183,7 @@
         "effect": "Ninja abilities deal 40% more damage",
         "unlockCriteria": "Bring Edge to level 99",
         "name(jp)": "先祖代々の奥義",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1977,6 +2193,7 @@
         "effect": "40% chance to restore 1 use for all Black Magic and White Magic abilities at the beginning of the battle",
         "unlockCriteria": "Use Fusoya's Memory Crystal",
         "name(jp)": "月の恵みⅠ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1986,6 +2203,7 @@
         "effect": "Restores 1 use for all Black Magic and White Magic abilities at the beginning of the battle",
         "unlockCriteria": "Chance to obtain in FFIV dungeon with Fusoya in party",
         "name(jp)": "月の恵みⅡ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1995,6 +2213,7 @@
         "effect": "BLK and WHT attacks deal 10% more damage when equipping a rod",
         "unlockCriteria": "Use Fusoya's Memory Crystal II, chance to obtain with Fusoya in party",
         "name(jp)": "神秘的なヒゲ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2004,6 +2223,7 @@
         "effect": "MAG and MND +10%",
         "unlockCriteria": "Bring Fusoya to level 99",
         "name(jp)": "格調高き月の番人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2013,6 +2233,7 @@
         "effect": "MAG +2% for each 10% missing HP",
         "unlockCriteria": "Use Golbez's Memory Crystal",
         "name(jp)": "魔人の底力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2022,6 +2243,7 @@
         "effect": "Increases Dark damage dealt by 20%",
         "unlockCriteria": "Use Golbez's Memory Crystal II, chance to obtain with Golbez in party",
         "name(jp)": "漆黒の力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2031,6 +2253,7 @@
         "effect": "DEF and MAG +13% when equipping a rod",
         "unlockCriteria": "Bring Golbez to level 99",
         "name(jp)": "黒衣の魔人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2040,6 +2263,7 @@
         "effect": "Machinist abilities deal 15% more damage",
         "unlockCriteria": "Use Cid (IV)'s Memory Crystal",
         "name(jp)": "バロンの飛空艇技師",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2049,6 +2273,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a hammer",
         "unlockCriteria": "Use Cid (IV)'s Memory Crystal II, chance to obtain with Cid (IV) in party",
         "name(jp)": "頑固な人情家",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2058,6 +2283,7 @@
         "effect": "20% chance to turn Attack into an ability (PHY: single, 1,00 physical, causes Silence (100%))",
         "unlockCriteria": "Bring Cid (IV) to level 99",
         "name(jp)": "たくましい元気オヤジ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2067,6 +2293,7 @@
         "effect": "If an ally has negative effects, 40% chance to turn Attack into an ability (NAT: single, removes negative effects)",
         "unlockCriteria": "Use Ceodore's Memory Crystal",
         "name(jp)": "英雄の息子",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2076,6 +2303,7 @@
         "effect": "DEF and RES +10% when equipping a heavy armor",
         "unlockCriteria": "Use Ceodore's Memory Crystal II, chance to obtain with Ceodore in party",
         "name(jp)": "試練を越えし者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2085,6 +2313,7 @@
         "effect": "ATK and MND +10%",
         "unlockCriteria": "Bring Ceodore to level 99",
         "name(jp)": "覚醒せし若き力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2094,6 +2323,7 @@
         "effect": "Increases Fire damage dealt by 10%",
         "unlockCriteria": "Use Rubicante's Memory Crystal",
         "name(jp)": "炎をつかさどる者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2103,6 +2333,7 @@
         "effect": "Attack turns into an ability (BLK: group, 1,50 magical Fire)",
         "unlockCriteria": "Use Rubicante's Memory Crystal II, chance to obtain with Rubicante in party",
         "name(jp)": "炎術の手練",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2112,6 +2343,7 @@
         "effect": "MAG and MND +13% when equipping a light armor",
         "unlockCriteria": "Bring Rubicante to level 99",
         "name(jp)": "誇り高き宿敵",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2121,6 +2353,7 @@
         "effect": "Increases physical damage dealt by 10% when equipping a light armor",
         "unlockCriteria": "Use Ursula's Memory Crystal",
         "name(jp)": "ファブールの王女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2130,6 +2363,7 @@
         "effect": "ATK +13% when equipping a fist weapon",
         "unlockCriteria": "Use Ursula's Memory Crystal II, chance to obtain with Ursula in party",
         "name(jp)": "強さに憧れる少女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2139,6 +2373,7 @@
         "effect": "15% chance to turn Attack into Gaia Rush",
         "unlockCriteria": "Bring Ursula to level 99",
         "name(jp)": "極意を得し者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2148,6 +2383,7 @@
         "effect": "MAG +10%, DEF -10%",
         "unlockCriteria": "Use Barbariccia's Memory Crystal",
         "name(jp)": "四天王の紅一点",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2157,6 +2393,7 @@
         "effect": "Increases Wind damage dealt by 20%",
         "unlockCriteria": "Use Barbariccia's Memory Crystal II, chance to obtain with Barbariccia in party",
         "name(jp)": "空中戦に長ける戦士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2166,6 +2403,7 @@
         "effect": "Attack turns into an ability (BLK: group, 2,08 magical Wind)",
         "unlockCriteria": "Bring Barbariccia to level 99",
         "name(jp)": "風を名に冠する者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2175,6 +2413,7 @@
         "effect": "WHT abilities restore 10% more HP",
         "unlockCriteria": "Use Lenna's Memory Crystal",
         "name(jp)": "タイクーンの誓い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2184,6 +2423,7 @@
         "effect": "Grants High Regen at the beginning of the battle",
         "unlockCriteria": "Use Lenna's Memory Crystal II, chance to obtain with Lenna in party",
         "name(jp)": "いたわりの心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2193,6 +2433,7 @@
         "effect": "WHT abilities restore 30% more HP",
         "unlockCriteria": "Bring Lenna to level 99",
         "name(jp)": "仁愛の姫君",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2202,6 +2443,7 @@
         "effect": "Grants Berserk at the beginning of the battle",
         "unlockCriteria": "Use Galuf's Memory Crystal",
         "name(jp)": "激情",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2211,6 +2453,7 @@
         "effect": "12% chance to counter PHY attacks with an ability (PHY: single, 2x 0,65 physical)",
         "unlockCriteria": "Chance to obtain with Galuf in party",
         "name(jp)": "熟達の拳技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2220,6 +2463,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a fist weapon",
         "unlockCriteria": "Use Galuf's Memory Crystal II, chance to obtain with Galuf in party",
         "name(jp)": "暁の拳技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2229,6 +2473,7 @@
         "effect": "24% chance to turn Attack into Fires Within",
         "unlockCriteria": "Bring Galuf to level 99",
         "name(jp)": "必倒の覚悟",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2238,6 +2483,7 @@
         "effect": "Grants Reflect at the beginning of the battle",
         "unlockCriteria": "Use Gogo (V)'s Memory Crystal",
         "name(jp)": "名人の所作",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2247,6 +2493,7 @@
         "effect": "Grants Low Regen and Retaliate at the beginning of the battle",
         "unlockCriteria": "Use Gogo (V)'s Memory Crystal II, chance to obtain with Gogo (V) in party",
         "name(jp)": "名人芸",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2256,6 +2503,7 @@
         "effect": "MAG and MND +13% when equipping a hat",
         "unlockCriteria": "Bring Gogo (V) to level 99",
         "name(jp)": "名人の極意",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2265,6 +2513,7 @@
         "effect": "DEF +10% when equipping a heavy armor",
         "unlockCriteria": "Use Gilgamesh's Memory Crystal",
         "name(jp)": "隊長の責任",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2274,6 +2523,7 @@
         "effect": "Restores 1 use for all Knight abilities at the beginning of the battle",
         "unlockCriteria": "Use Gilgamesh's Memory Crystal II, chance to obtain with Gilgamesh in party",
         "name(jp)": "親衛隊長の守護",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2283,6 +2533,7 @@
         "effect": "Grants Protect, Shell and Haste at the beginning of the battle",
         "unlockCriteria": "Bring Gilgamesh to level 99",
         "name(jp)": "強敵（とも）",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2292,6 +2543,7 @@
         "effect": "Increases Wind damage dealt by 10%",
         "unlockCriteria": "Use Bartz's Memory Crystal",
         "name(jp)": "風の旅人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2301,6 +2553,7 @@
         "effect": "13% chance to dualcast Spellblade abilities",
         "unlockCriteria": "Use Bartz's Memory Crystal II, chance to obtain with Bartz in party",
         "name(jp)": "魔法剣の使い手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2310,6 +2563,7 @@
         "effect": "Increases Wind damage dealt by 30%",
         "unlockCriteria": "Bring Bartz to level 99",
         "name(jp)": "世界を巡る冒険者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2319,6 +2573,7 @@
         "effect": "50% chance to restore 1 use for all Support abilities at the beginning of the battle",
         "unlockCriteria": "Use Faris's Memory Crystal",
         "name(jp)": "女頭領の統率",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2328,6 +2583,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a bow",
         "unlockCriteria": "Use Faris's Memory Crystal II, chance to obtain with Faris in party",
         "name(jp)": "海上の戦女神",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2337,6 +2593,7 @@
         "effect": "Support abilities deal 40% more damage",
         "unlockCriteria": "Bring Faris to level 99",
         "name(jp)": "美しき海賊の頭領",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2346,6 +2603,7 @@
         "effect": "Increases Holy damage dealt by 10%",
         "unlockCriteria": "Use Dorgann's Memory Crystal",
         "name(jp)": "誇り高き父",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2355,6 +2613,7 @@
         "effect": "Knight abilities deal 30% more damage",
         "unlockCriteria": "Use Dorgann's Memory Crystal II, chance to obtain with Dorgann in party",
         "name(jp)": "鍛えられし剣技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2364,6 +2623,7 @@
         "effect": "DEF and RES +20% when equipping a light armor",
         "unlockCriteria": "Bring Dorgann to level 99",
         "name(jp)": "暁の誇り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2373,6 +2633,7 @@
         "effect": "10% chance to turn Attack into an ability (PHY: single, 1,00 physical, causes Instant KO (100%))",
         "unlockCriteria": "Use Exdeath's Memory Crystal",
         "name(jp)": "邪悪な意思",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2382,6 +2643,7 @@
         "effect": "13% chance to dualcast Darkness abilities",
         "unlockCriteria": "Use Exdeath's Memory Crystal II, chance to obtain with Exdeath in party",
         "name(jp)": "暗黒魔道士の秘技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2391,6 +2653,7 @@
         "effect": "MAG and RES +13% when equipping a heavy armor",
         "unlockCriteria": "Bring Exdeath to level 99",
         "name(jp)": "無の力への渇望",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2400,6 +2663,7 @@
         "effect": "SUM attacks deal 10% more damage",
         "unlockCriteria": "Use Krile's Memory Crystal",
         "name(jp)": "豊かな感受性",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2409,6 +2673,7 @@
         "effect": "MAG +10%, grants Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Krile's Memory Crystal II, chance to obtain with Krile in party",
         "name(jp)": "おじいちゃんとの絆",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2418,6 +2683,7 @@
         "effect": "MAG +15% when equipping a whip",
         "unlockCriteria": "Bring Krile to level 99",
         "name(jp)": "受け継いだ遺志",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2427,6 +2693,7 @@
         "effect": "50% chance to restore 1 use for all Spellblade abilities at the beginning of the battle",
         "unlockCriteria": "Use Xezat's Memory Crystal",
         "name(jp)": "気さくな王",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2436,6 +2703,7 @@
         "effect": "Spellblade abilities deal 30% more damage",
         "unlockCriteria": "Use Xezat's Memory Crystal II, chance to obtain with Xezat in party",
         "name(jp)": "剣士の自負",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2445,6 +2713,7 @@
         "effect": "24% chance to turn Attack into Frost Strike",
         "unlockCriteria": "Bring Xezat to level 99",
         "name(jp)": "氷の異名を持つ剣士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2454,6 +2723,7 @@
         "effect": "50% chance to restore 1 use for all Celerity abilities at the beginning of the battle",
         "unlockCriteria": "Use Kelger's Memory Crystal",
         "name(jp)": "勇猛なるウェアウルフ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2463,6 +2733,7 @@
         "effect": "50% chance to begin the round with full ATB gauge",
         "unlockCriteria": "Use Kelger's Memory Crystal II, chance to obtain with Kelger in party",
         "name(jp)": "迅速な狼戦士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2472,6 +2743,7 @@
         "effect": "Attack turns into an ability (PHY: single, 2,10 physical) with 0,01 cast time that grants 0 SB points",
         "unlockCriteria": "Bring Kelger to level 99",
         "name(jp)": "どう猛なる狼の牙",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2481,6 +2753,7 @@
         "effect": "50% chance to restore 1 use for all Black Magic abilities at the beginning of the battle",
         "unlockCriteria": "Use Terra's Memory Crystal",
         "name(jp)": "秘めたる魔導",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2490,6 +2763,7 @@
         "effect": "13% chance to dualcast Black Magic abilities",
         "unlockCriteria": "Use Terra's Memory Crystal II, chance to obtain with Terra in party",
         "name(jp)": "幻獣の血",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2499,6 +2773,7 @@
         "effect": "MAG +13%",
         "unlockCriteria": "Bring Terra to level 99",
         "name(jp)": "希望という名の光",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2508,6 +2783,7 @@
         "effect": "50% chance to restore 1 use for all Celerity abilities at the beginning of the battle",
         "unlockCriteria": "Use Locke's Memory Crystal",
         "name(jp)": "冒険家の備え",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2517,6 +2793,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a dagger",
         "unlockCriteria": "Use Locke's Memory Crystal II, chance to obtain with Locke in party",
         "name(jp)": "冒険家の短剣術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2526,6 +2803,7 @@
         "effect": "Celerity abilities deal 35% more damage",
         "unlockCriteria": "Bring Locke to level 99",
         "name(jp)": "真のトレジャーハンター",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2535,6 +2813,7 @@
         "effect": "30% chance to turn Attack into Blizzard Strike",
         "unlockCriteria": "Use Celes's Memory Crystal",
         "name(jp)": "常勝",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2544,6 +2823,7 @@
         "effect": "Spellblade abilities deal 30% more damage",
         "unlockCriteria": "Use Celes's Memory Crystal II, chance to obtain with Celes in party",
         "name(jp)": "常勝将軍の魔剣",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2553,6 +2833,7 @@
         "effect": "Spellblade abilities deal 40% more damage",
         "unlockCriteria": "Bring Celes to level 99",
         "name(jp)": "愛の軌跡",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2562,6 +2843,7 @@
         "effect": "50% chance to restore 1 use for all Dancer abilities at the beginning of the battle",
         "unlockCriteria": "Use Mog's Memory Crystal",
         "name(jp)": "踊りの心I",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2571,6 +2853,7 @@
         "effect": "Restores 1 use for all Dancer abilities at the beginning of the battle",
         "unlockCriteria": "Chance to obtain with Mog in party",
         "name(jp)": "踊りの心II",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2580,6 +2863,7 @@
         "effect": "MND +20%, MAG -20%",
         "unlockCriteria": "Use Mog's Memory Crystal II, chance to obtain with Mog in party",
         "name(jp)": "モーグリ族の戦士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2589,6 +2873,7 @@
         "effect": "MND +25% when equipping a spear",
         "unlockCriteria": "Bring Mog to level 99",
         "name(jp)": "勇敢なるモーグリ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2598,6 +2883,7 @@
         "effect": "Grants Protect when HP fall below 20%",
         "unlockCriteria": "Use Edgar's Memory Crystal",
         "name(jp)": "フィガロ王家の力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2607,6 +2893,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a spear",
         "unlockCriteria": "Use Edgar's Memory Crystal II, chance to obtain with Edgar in party",
         "name(jp)": "フィガロの誇り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2616,6 +2903,7 @@
         "effect": "Increases Poison damage dealt by 30%",
         "unlockCriteria": "Bring Edgar to level 99",
         "name(jp)": "華麗なるマシーナリー",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2625,6 +2913,7 @@
         "effect": "Grants Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Sabin's Memory Crystal",
         "name(jp)": "自然治癒",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2634,6 +2923,7 @@
         "effect": "13% chance to dualcast Monk abilities",
         "unlockCriteria": "Use Sabin's Memory Crystal II, chance to obtain with Sabin in party",
         "name(jp)": "奥義の継承者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2643,6 +2933,7 @@
         "effect": "Monk abilities deal 40% more damage",
         "unlockCriteria": "Bring Sabin to level 99",
         "name(jp)": "正義の熱血漢",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2652,6 +2943,7 @@
         "effect": "Attack turns into an ability (PHY: single, 1,20 physical) that grants 35 Soul Break points",
         "unlockCriteria": "Use Shadow's Memory Crystal",
         "name(jp)": "非情なる刃",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2661,6 +2953,7 @@
         "effect": "Ninja abilities deal 30% more damage",
         "unlockCriteria": "Use Shadow's Memory Crystal II, chance to obtain with Shadow in party",
         "name(jp)": "冷徹な暗殺者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2670,6 +2963,7 @@
         "effect": "24% chance to turn Attack into Doppelblade",
         "unlockCriteria": "Bring Shadow to level 99",
         "name(jp)": "極めし修羅道",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2679,6 +2973,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a katana",
         "unlockCriteria": "Use Cyan's Memory Crystal",
         "name(jp)": "刀の使い手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2688,6 +2983,7 @@
         "effect": "Grants Retaliate when HP fall below 20%",
         "unlockCriteria": "Defeat Storm Dragon in FFVI - Mt. Zozo (Elite) without Cyan being KO'd",
         "name(jp)": "侍の心得",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2697,6 +2993,7 @@
         "effect": "Samurai abilities deal 30% more damage",
         "unlockCriteria": "Use Cyan's Memory Crystal II, chance to obtain with Cyan in party",
         "name(jp)": "ドマ国のサムライ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2706,6 +3003,7 @@
         "effect": "ATK and DEF +13% when equipping a katana",
         "unlockCriteria": "Bring Cyan to level 99",
         "name(jp)": "絶望を超えし武人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2715,6 +3013,7 @@
         "effect": "ATK +10%, DEF -10%",
         "unlockCriteria": "Use Gau's Memory Crystal",
         "name(jp)": "野生児",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2724,6 +3023,7 @@
         "effect": "ATK +10%, grants Haste at the beginning of the battle",
         "unlockCriteria": "Use Gau's Memory Crystal II, chance to obtain with Gau in party",
         "name(jp)": "獣の力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2733,6 +3033,7 @@
         "effect": "60% chance to turn Attack into an ability (NAT: single, 2,20 physical)",
         "unlockCriteria": "Bring Gau to level 99",
         "name(jp)": "獣ヶ原のあばれん坊",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2742,6 +3043,7 @@
         "effect": "50% chance to restore 1 use for all Combat abilities at the beginning of the battle",
         "unlockCriteria": "Use Setzer's Memory Crystal",
         "name(jp)": "真剣勝負",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2751,6 +3053,7 @@
         "effect": "Machinist abilities deal 30% more damage",
         "unlockCriteria": "Use Setzer's Memory Crystal II, chance to obtain with Setzer in party",
         "name(jp)": "世界最速の夢",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2760,6 +3063,7 @@
         "effect": "24% chance to turn Attack into Rapid Fire",
         "unlockCriteria": "Bring Setzer to level 99",
         "name(jp)": "流浪のギャンブラー",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2769,6 +3073,7 @@
         "effect": "Increases Water damage dealt by 10%",
         "unlockCriteria": "Use Strago's Memory Crystal",
         "name(jp)": "老魔導士の知識",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2778,6 +3083,7 @@
         "effect": "15% chance to counter BLK or WHT attacks with an ability (NAT: random, 1,50 magical, causes Confuse (6%))",
         "unlockCriteria": "Chance to obtain in FFVI dungeon with Strago in party",
         "name(jp)": "青魔導士の意地",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2787,6 +3093,7 @@
         "effect": "Increases Water damage dealt by 20%",
         "unlockCriteria": "Use Strago's Memory Crystal II, chance to obtain with Strago in party",
         "name(jp)": "魔導士の末裔",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2796,6 +3103,7 @@
         "effect": "Attack turns into an ability (BLK: group, 2,08 magical)",
         "unlockCriteria": "Bring Strago to level 99",
         "name(jp)": "蘇る魔導士の情熱",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2805,6 +3113,7 @@
         "effect": "MND +10% when equipping a rod",
         "unlockCriteria": "Use Relm's Memory Crystal",
         "name(jp)": "孫の思いやり",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2814,6 +3123,7 @@
         "effect": "20% chance to double Experience gained at the end of the battle",
         "unlockCriteria": "Use Relm's Memory Crystal II, chance to obtain with Relm in party",
         "name(jp)": "才能あふれる幼画家",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2823,6 +3133,7 @@
         "effect": "MND +25% when equipping a robe",
         "unlockCriteria": "Bring Relm to level 99",
         "name(jp)": "口達者なお嬢ちゃん",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2832,6 +3143,7 @@
         "effect": "10% chance to counter PHY attacks with an ability (NAT: self, grants Protect)",
         "unlockCriteria": "Use Gogo (VI)'s Memory Crystal",
         "name(jp)": "オウム返し",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2841,6 +3153,7 @@
         "effect": "MND +20%, grants Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Gogo (VI)'s Memory Crystal II, chance to obtain with Gogo (VI) in party",
         "name(jp)": "ものまね士の流儀",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2850,6 +3163,7 @@
         "effect": "DEF and RES +20% when equipping a helmet",
         "unlockCriteria": "Bring Gogo (VI) to level 99",
         "name(jp)": "謎に包まれし仲間",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2859,6 +3173,7 @@
         "effect": "Grants Berserk at the beginning of the battle",
         "unlockCriteria": "Use Umaro's Memory Crystal",
         "name(jp)": "吹雪の狂戦士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2868,6 +3183,7 @@
         "effect": "ATK +13% when equipping a hammer",
         "unlockCriteria": "Use Umaro's Memory Crystal II, chance to obtain with Umaro in party",
         "name(jp)": "洞窟の骨彫刻家",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2877,6 +3193,7 @@
         "effect": "16% chance to turn Attack into an ability (PHY: group, 2x 1,73 ranged physical Ice)",
         "unlockCriteria": "Bring Umaro to level 99",
         "name(jp)": "凍てつく宝玉の力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2886,6 +3203,7 @@
         "effect": "MAG +10%, DEF -10%",
         "unlockCriteria": "Use Kefka's Memory Crystal",
         "name(jp)": "狂気の魔導士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2895,6 +3213,7 @@
         "effect": "MAG +10% when equipping an instrument",
         "unlockCriteria": "Use Kefka's Memory Crystal II, chance to obtain with Kefka in party",
         "name(jp)": "道化師",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2904,6 +3223,7 @@
         "effect": "MAG +15% when equipping an instrument",
         "unlockCriteria": "Bring Kefka to level 99",
         "name(jp)": "ガレキの破壊神",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2913,6 +3233,7 @@
         "effect": "ATK and DEF +10% for each KO'd or missing party member",
         "unlockCriteria": "Use Leo's Memory Crystal",
         "name(jp)": "最後の決闘",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2922,6 +3243,7 @@
         "effect": "Attack turns into an ability (PHY: group, 1,00 physical) with 4,50 cast time",
         "unlockCriteria": "Use Leo's Memory Crystal II, chance to obtain with Leo in party",
         "name(jp)": "一騎当千",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2931,6 +3253,7 @@
         "effect": "DEF and RES +20% when equipping a heavy armor",
         "unlockCriteria": "Bring Leo to level 99",
         "name(jp)": "貫きし騎士道",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2940,6 +3263,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a sword",
         "unlockCriteria": "Use Cloud's Memory Crystal",
         "name(jp)": "ソルジャーの一撃",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2949,6 +3273,7 @@
         "effect": "15% chance to counter PHY attacks with Attack",
         "unlockCriteria": "Defeat Jenova BIRTH in FFVII - Shinra Cargo Ship (Elite) without Cloud being KO'd",
         "name(jp)": "ソルジャーの反撃",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2958,6 +3283,7 @@
         "effect": "Grants 500 Soul Break points at the beginning of the Dungeon",
         "unlockCriteria": "Use Cloud's Memory Crystal II, chance to obtain with Cloud in party",
         "name(jp)": "魔晄の力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2967,6 +3293,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping a sword",
         "unlockCriteria": "Bring Cloud to level 99",
         "name(jp)": "取り戻す真実",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2976,6 +3303,7 @@
         "effect": "50% chance to restore 1 use for all Support abilities at the beginning of the battle",
         "unlockCriteria": "Use Barret's Memory Crystal",
         "name(jp)": "弾薬補給Ⅰ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2985,6 +3313,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a gun-arm",
         "unlockCriteria": "Use Barret's Memory Crystal II, chance to obtain with Barret in party",
         "name(jp)": "ギミックアームの使い手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2994,6 +3323,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping a gun-arm",
         "unlockCriteria": "Bring Barret to level 99",
         "name(jp)": "真なる救星の誓い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3003,6 +3333,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a fist weapon",
         "unlockCriteria": "Use Tifa's Memory Crystal",
         "name(jp)": "格闘の心得",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3012,6 +3343,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a fist weapon",
         "unlockCriteria": "Use Tifa's Memory Crystal II, chance to obtain with Tifa in party",
         "name(jp)": "ザンガン流格闘術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3021,6 +3353,7 @@
         "effect": "Increases Earth damage dealt by 30%",
         "unlockCriteria": "Bring Tifa to level 99",
         "name(jp)": "過去に向き合う覚悟",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3030,6 +3363,7 @@
         "effect": "Increases Holy damage dealt by 10%",
         "unlockCriteria": "Use Aerith's Memory Crystal",
         "name(jp)": "セトラのいのり",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3039,6 +3373,7 @@
         "effect": "WHT abilities restore 20% more HP",
         "unlockCriteria": "Use Aerith's Memory Crystal II, chance to obtain with Aerith in party",
         "name(jp)": "セトラの宿命",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3048,6 +3383,7 @@
         "effect": "MAG and MND +13% when equipping a rod",
         "unlockCriteria": "Bring Aerith to level 99",
         "name(jp)": "星を救う使命",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3057,6 +3393,7 @@
         "effect": "Grants Reflect at the beginning of the battle",
         "unlockCriteria": "Use Red XIII's Memory Crystal",
         "name(jp)": "星の守り手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3066,6 +3403,7 @@
         "effect": "Grants High Regen when HP fall below 25%",
         "unlockCriteria": "Chance to obtain with Red XIII in party",
         "name(jp)": "セトの意志",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3075,6 +3413,7 @@
         "effect": "Restores 1 use for all Support abilities at the beginning of the battle",
         "unlockCriteria": "Use Red XIII's Memory Crystal II, chance to obtain with Red XIII in party",
         "name(jp)": "一族の生き残り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3084,6 +3423,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping an hairpin",
         "unlockCriteria": "Bring Red XIII to level 99",
         "name(jp)": "受け継がれし魂",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3093,6 +3433,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a thrown weapon",
         "unlockCriteria": "Use Yuffie's Memory Crystal",
         "name(jp)": "忍びの末裔",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3102,6 +3443,7 @@
         "effect": "Attack turns into an ability (PHY: single, 1,00 physical) with 0,01 cast time",
         "unlockCriteria": "Use Yuffie's Memory Crystal II, chance to obtain with Yuffie in party",
         "name(jp)": "シュシュシュ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3111,6 +3453,7 @@
         "effect": "ATK and MAG +10%, grants Physical Blink 1 at the beginning of the battle",
         "unlockCriteria": "Bring Yuffie to level 99",
         "name(jp)": "凄腕の忍",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3120,6 +3463,7 @@
         "effect": "30% chance to turn Attack into an ability (NAT: single, 0,80 magical)",
         "unlockCriteria": "Use Cait Sith's Memory Crystal",
         "name(jp)": "ラッキースロット",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3129,6 +3473,7 @@
         "effect": "Grants High Regen at the beginning of the battle",
         "unlockCriteria": "Use Cait Sith's Memory Crystal II, chance to obtain with Cait Sith in party",
         "name(jp)": "デブモーグリの守護",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3138,6 +3483,7 @@
         "effect": "MAG and MND +13% when equipping an instrument",
         "unlockCriteria": "Bring Cait Sith to level 99",
         "name(jp)": "秘めし責任感",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3147,6 +3493,7 @@
         "effect": "MAG +10% when equipping a gun",
         "unlockCriteria": "Use Vincent's Memory Crystal",
         "name(jp)": "不老の肉体",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3156,6 +3503,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a gun",
         "unlockCriteria": "Use Vincent's Memory Crystal II, chance to obtain with Vincent in party",
         "name(jp)": "錆びぬ射撃の腕",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3165,6 +3513,7 @@
         "effect": "DEF and RES +20% when equipping a gun",
         "unlockCriteria": "Bring Vincent to level 99",
         "name(jp)": "悪夢を超えしガンマン",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3174,6 +3523,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a sword",
         "unlockCriteria": "Use Zack's Memory Crystal",
         "name(jp)": "ソルジャーの誇り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3183,6 +3533,7 @@
         "effect": "30% chance to reduce physical damage taken by PHY attacks by 20%",
         "unlockCriteria": "Use Zack's Memory Crystal II, chance to obtain with Zack in party",
         "name(jp)": "ソルジャーのタフネス",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3192,6 +3543,7 @@
         "effect": "ATK and DEF +10%, grants Haste at the beginning of the battle",
         "unlockCriteria": "Bring Zack to level 99",
         "name(jp)": "ソルジャーの覚悟",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3201,6 +3553,7 @@
         "effect": "ATK and DEF +10% for each KO'd or missing party member",
         "unlockCriteria": "Use Sephiroth's Memory Crystal",
         "name(jp)": "孤高",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3210,6 +3563,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a katana",
         "unlockCriteria": "Use Sephiroth's Memory Crystal II, chance to obtain with Sephiroth in party",
         "name(jp)": "英雄の太刀筋",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3219,6 +3573,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping a katana",
         "unlockCriteria": "Bring Sephiroth to level 99",
         "name(jp)": "白銀の英雄",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3228,6 +3583,7 @@
         "effect": "Grants Berserk at the beginning of the battle",
         "unlockCriteria": "Use Cid's Memory Crystal",
         "name(jp)": "激昂",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3237,6 +3593,7 @@
         "effect": "20% chance to double Experience gained at the end of the battle",
         "unlockCriteria": "Chance to obtain in FFVII dungeon with Cid in party",
         "name(jp)": "パイロットの経験",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3246,6 +3603,7 @@
         "effect": "Increases Wind damage dealt by 20%",
         "unlockCriteria": "Use Cid's Memory Crystal II, chance to obtain with Cid in party",
         "name(jp)": "パイロットの急襲",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3255,6 +3613,7 @@
         "effect": "Dragoon abilities deal 35% more damage",
         "unlockCriteria": "Bring Cid (VII) to level 99",
         "name(jp)": "宇宙への夢",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3264,6 +3623,7 @@
         "effect": "16% chance to turn Attack into an ability (PHY: 1,00 physical, causes Stop (70%))",
         "unlockCriteria": "Use Reno's Memory Crystal",
         "name(jp)": "赤髪の一閃",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3273,6 +3633,7 @@
         "effect": "PHY and BLK attacks deal 20% more damage when equipping a rod",
         "unlockCriteria": "Use Reno's Memory Crystal II, chance to obtain with Reno in party",
         "name(jp)": "タークスのエース",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3282,6 +3643,7 @@
         "effect": "24% chance to turn Attack into Tempest Snipe",
         "unlockCriteria": "Bring Reno to level 99",
         "name(jp)": "タークスの流儀",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3291,6 +3653,7 @@
         "effect": "10% chance to counter PHY attacks with an ability (NAT: self, grants Protect)",
         "unlockCriteria": "Use Angeal's Memory Crystal",
         "name(jp)": "英雄の資質",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3300,6 +3663,7 @@
         "effect": "DEF +20% when equipping a sword",
         "unlockCriteria": "Use Angeal's Memory Crystal II, chance to obtain with Angeal in party",
         "name(jp)": "誇りの証",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3309,6 +3673,7 @@
         "effect": "DEF +25% when equipping a bracer",
         "unlockCriteria": "Bring Angeal to level 99",
         "name(jp)": "誇りを伝えし者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3318,6 +3683,7 @@
         "effect": "Sharpshooter abilities deal 15% more damage",
         "unlockCriteria": "Use Rufus's Memory Crystal",
         "name(jp)": "非情なる狙撃",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3327,6 +3693,7 @@
         "effect": "Sharpshooter abilities deal 30% more damage",
         "unlockCriteria": "Use Rufus's Memory Crystal II, chance to obtain with Rufus in party",
         "name(jp)": "恐怖の統率者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3336,6 +3703,7 @@
         "effect": "ATK +15% when equipping a gun",
         "unlockCriteria": "Bring Rufus to level 99",
         "name(jp)": "野心溢れし指導者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3345,6 +3713,7 @@
         "effect": "50% chance to restore 1 use for all Celerity abilities at the beginning of the battle",
         "unlockCriteria": "Use Shelke's Memory Crystal",
         "name(jp)": "少女の面影",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3354,6 +3723,7 @@
         "effect": "Celerity abilities deal 25% more damage",
         "unlockCriteria": "Use Shelke's Memory Crystal II, chance to obtain with Shelke in party",
         "name(jp)": "無色のソルジャー",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3363,6 +3733,7 @@
         "effect": "42% chance to turn Attack into Double Cut",
         "unlockCriteria": "Bring Shelke to level 99",
         "name(jp)": "二槍の使い手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3372,6 +3743,7 @@
         "effect": "Increases Earth damage dealt by 10%",
         "unlockCriteria": "Use Rude's Memory Crystal",
         "name(jp)": "黙して語らぬ巨漢",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3381,6 +3753,7 @@
         "effect": "Grants Shell and Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Rude's Memory Crystal II, chance to obtain with Rude in party",
         "name(jp)": "静かな闘志",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3390,6 +3763,7 @@
         "effect": "ATK and MAG +13% when equipping a fist weapon",
         "unlockCriteria": "Bring Rude to level 99",
         "name(jp)": "タークスの豪腕",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3399,6 +3773,7 @@
         "effect": "15% chance to begin the round with full ATB gauge",
         "unlockCriteria": "Use Elena's Memory Crystal",
         "name(jp)": "努力家の秘技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3408,6 +3783,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a gun",
         "unlockCriteria": "Use Elena's Memory Crystal II, chance to obtain with Elena in party",
         "name(jp)": "タークスの新人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3417,6 +3793,7 @@
         "effect": "ATK +15% when equipping a fist weapon",
         "unlockCriteria": "Bring Elena to level 99",
         "name(jp)": "格闘クラスのエリート",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3426,6 +3803,7 @@
         "effect": "Attack turns into an ability (PHY: single, 1,20 physical) that grants 35 Soul Break points",
         "unlockCriteria": "Use Squall's Memory Crystal",
         "name(jp)": "冷静沈着",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3435,6 +3813,7 @@
         "effect": "16% chance to turn Attack into an ability (PHY: single, 2,50 physical)",
         "unlockCriteria": "Chance to obtain in FFVIII dungeon with Squall in party",
         "name(jp)": "ガンブレード",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3444,6 +3823,7 @@
         "effect": "Taking damage grants 50% more Soul Break points",
         "unlockCriteria": "Use Squall's Memory Crystal II, chance to obtain with Squall in party",
         "name(jp)": "獅子の魂",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3453,6 +3833,7 @@
         "effect": "Increases Ice damage dealt by 30%",
         "unlockCriteria": "Bring Squall to level 99",
         "name(jp)": "孤高の若獅子",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3462,6 +3843,7 @@
         "effect": "30% chance to turn Attack into an ability (PHY: single, 0,90 physical, heals the user for 8% of the damage dealt)",
         "unlockCriteria": "Use Rinoa's Memory Crystal",
         "name(jp)": "アンジェロリカバー",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3471,6 +3853,7 @@
         "effect": "BLK attacks deal 15% more damage",
         "unlockCriteria": "Use Rinoa's Memory Crystal II, chance to obtain with Rinoa in party",
         "name(jp)": "魔女の継承者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3480,6 +3863,7 @@
         "effect": "BLK attacks deal 25% more damage",
         "unlockCriteria": "Bring Rinoa to level 99",
         "name(jp)": "約束の場所で待つ魔女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3489,6 +3873,7 @@
         "effect": "Increases damage dealt by 10% when exploiting elemental weakness",
         "unlockCriteria": "Use Quistis's Memory Crystal",
         "name(jp)": "観察眼",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3498,6 +3883,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a whip",
         "unlockCriteria": "Use Quistis's Memory Crystal II, chance to obtain with Quistis in party",
         "name(jp)": "教官のムチ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3507,6 +3893,7 @@
         "effect": "Increases Poison damage dealt by 30%",
         "unlockCriteria": "Bring Quistis to level 99",
         "name(jp)": "トゥリープFCの応援",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3516,6 +3903,7 @@
         "effect": "ATK +5% for each 10% missing HP",
         "unlockCriteria": "Use Zell's Memory Crystal",
         "name(jp)": "底力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3525,6 +3913,7 @@
         "effect": "50% chance to begin the round with full ATB gauge",
         "unlockCriteria": "Chance to obtain with Zell in party",
         "name(jp)": "勢い任せ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3534,6 +3923,7 @@
         "effect": "Monk abilities deal 30% more damage",
         "unlockCriteria": "Use Zell's Memory Crystal II, chance to obtain with Zell in party",
         "name(jp)": "バラムの暴れん坊",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3543,6 +3933,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping a fist weapon",
         "unlockCriteria": "Bring Zell to level 99",
         "name(jp)": "脱チキン野郎",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3552,6 +3943,7 @@
         "effect": "30% chance to randomly turn Attack into Fire, Blizzard or Thunder",
         "unlockCriteria": "Use Selphie's Memory Crystal",
         "name(jp)": "スロット",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3561,6 +3953,7 @@
         "effect": "Attack turns into an ability (WHT: single, 1,80 magical Holy)",
         "unlockCriteria": "Use Selphie's Memory Crystal II, chance to obtain with Selphie in party",
         "name(jp)": "トラビアの元気娘",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3570,6 +3963,7 @@
         "effect": "MND +25% when equipping a rod",
         "unlockCriteria": "Bring Selphie to level 99",
         "name(jp)": "辣腕な実行委員",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3579,6 +3973,7 @@
         "effect": "ATK and DEF +10% for each KO'd or missing party member",
         "unlockCriteria": "Use Irvine's Memory Crystal",
         "name(jp)": "孤独",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3588,6 +3983,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a gun",
         "unlockCriteria": "Chance to obtain with Irvine in party",
         "name(jp)": "狙撃の名手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3597,6 +3993,7 @@
         "effect": "ATK and DEF +10%, causes Confuse at the beginning of the battle",
         "unlockCriteria": "Use Irvine's Memory Crystal II, chance to obtain with Irvine in party",
         "name(jp)": "繊細な心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3606,6 +4003,7 @@
         "effect": "Sharpshooter abilities deal 40% more damage",
         "unlockCriteria": "Bring Irvine to level 99",
         "name(jp)": "重圧を超えし狙撃手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3615,6 +4013,7 @@
         "effect": "10% chance to turn Attack into an ability (NAT: single, 1,50 magical Fire followed by 1,00 physical)",
         "unlockCriteria": "Use Seifer's Memory Crystal",
         "name(jp)": "禁じ手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3624,6 +4023,7 @@
         "effect": "Darkness abilities deal 20% more damage",
         "unlockCriteria": "Use Seifer's Memory Crystal II, chance to obtain with Seifer in party",
         "name(jp)": "悪しき魔女の騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3633,6 +4033,7 @@
         "effect": "24% chance to turn Attack into Gaia's Cross",
         "unlockCriteria": "Bring Seifer to level 99",
         "name(jp)": "夢見し好敵手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3642,6 +4043,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a gun",
         "unlockCriteria": "Use Laguna's Memory Crystal",
         "name(jp)": "妖精さんの力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3651,6 +4053,7 @@
         "effect": "ATK and DEF +10%, grants Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Laguna's Memory Crystal II, chance to obtain with Laguna in party",
         "name(jp)": "天性のカリスマ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3660,6 +4063,7 @@
         "effect": "Machinist abilities deal 35% more damage",
         "unlockCriteria": "Bring Laguna to level 99",
         "name(jp)": "命運を担う者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3669,6 +4073,7 @@
         "effect": "30% chance to turn Attack into an ability (BLK: single, 0,70 magical Ice)",
         "unlockCriteria": "Use Edea's Memory Crystal",
         "name(jp)": "冷酷な支配者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3678,6 +4083,7 @@
         "effect": "MAG +10% when equipping a thrown weapon",
         "unlockCriteria": "Use Edea's Memory Crystal II, chance to obtain with Edea in party",
         "name(jp)": "選ばれし魔女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3687,6 +4093,7 @@
         "effect": "Witch abilities deal 35% more damage",
         "unlockCriteria": "Bring Edea to level 99",
         "name(jp)": "継承せし魔女の力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3696,6 +4103,7 @@
         "effect": "30% chance to turn Attack into an ability (NAT: single, restores HP for 40% of the target's maximum HP)",
         "unlockCriteria": "Use Raijin's Memory Crystal",
         "name(jp)": "気のいい大男",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3705,6 +4113,7 @@
         "effect": "Increases Lightning damage dealt by 20%",
         "unlockCriteria": "Use Raijin's Memory Crystal II, chance to obtain with Raijin in party",
         "name(jp)": "いかつい風紀委員",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3714,6 +4123,7 @@
         "effect": "24% chance to turn Attack into Exploding Fist",
         "unlockCriteria": "Bring Raijin to level 99",
         "name(jp)": "純粋な豪傑",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3723,6 +4133,7 @@
         "effect": "If an ally has negative effects, 40% chance to turn Attack into an ability (NAT: single, removes negative effects)",
         "unlockCriteria": "Use Fujin's Memory Crystal",
         "name(jp)": "寡黙な美女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3732,6 +4143,7 @@
         "effect": "Increases Wind damage dealt by 20%",
         "unlockCriteria": "Use Fujin's Memory Crystal II, chance to obtain with Fujin in party",
         "name(jp)": "眼帯の風紀委員",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3741,6 +4153,7 @@
         "effect": "MAG and RES +13% when equipping a thrown weapon",
         "unlockCriteria": "Bring Fujin to level 99",
         "name(jp)": "銀髪の女傑",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3750,6 +4163,7 @@
         "effect": "Ninja abilities deal 15% more damage",
         "unlockCriteria": "Use Kiros's Memory Crystal",
         "name(jp)": "チームのツッコミ役",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3759,6 +4173,7 @@
         "effect": "40% chance to turn Attack into an ability (PHY: single, 2x 1,00 physical)",
         "unlockCriteria": "Use Kiros's Memory Crystal II, chance to obtain with Kiros in party",
         "name(jp)": "友という名の娯楽",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3768,6 +4183,7 @@
         "effect": "24% chance to turn Attack into Ancestral Reflection",
         "unlockCriteria": "Bring Kiros to level 99",
         "name(jp)": "奇抜なファッション",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3777,6 +4193,7 @@
         "effect": "Dragoon abilities deal 15% more damage",
         "unlockCriteria": "Use Ward's Memory Crystal",
         "name(jp)": "豊かな表情",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3786,6 +4203,7 @@
         "effect": "ATK +13% when equipping a spear",
         "unlockCriteria": "Use Ward's Memory Crystal II, chance to obtain with Ward in party",
         "name(jp)": "愛嬌溢れる巨漢",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3795,6 +4213,7 @@
         "effect": "48% chance to turn Attack into Soaring Jump",
         "unlockCriteria": "Bring Ward to level 99",
         "name(jp)": "無声の絆",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3804,6 +4223,7 @@
         "effect": "MAG +10%, RES -10%",
         "unlockCriteria": "Use Ultimecia's Memory Crystal",
         "name(jp)": "未来の魔女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3813,6 +4233,7 @@
         "effect": "Increases Wind damage dealt by 20%",
         "unlockCriteria": "Use Ultimecia's Memory Crystal II, chance to obtain with Ultimecia in party",
         "name(jp)": "魔女の深謀",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3822,6 +4243,7 @@
         "effect": "BLK attacks deal 30% more damage when equipping a rod",
         "unlockCriteria": "Bring Ultimecia to level 99",
         "name(jp)": "怒りに満ちた心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3831,6 +4253,7 @@
         "effect": "Grants Haste at the beginning of the battle",
         "unlockCriteria": "Use Zidane's Memory Crystal",
         "name(jp)": "盗賊の掟",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3840,6 +4263,7 @@
         "effect": "13% chance to dualcast Thief abilities",
         "unlockCriteria": "Use Zidane's Memory Crystal II, chance to obtain with Zidane in party",
         "name(jp)": "盗賊の早業",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3849,6 +4273,7 @@
         "effect": "Thief abilities deal 40% more damage",
         "unlockCriteria": "Bring Zidane to level 99",
         "name(jp)": "タンタラスのオキテ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3858,6 +4283,7 @@
         "effect": "Grants Low Regen when HP fall below 20%",
         "unlockCriteria": "Use Garnet's Memory Crystal",
         "name(jp)": "アレクサンドリアの加護",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3867,6 +4293,7 @@
         "effect": "Attack turns into an ability (WHT: single, restores HP (13))",
         "unlockCriteria": "Chance to obtain in FFIX dungeon with Garnet in party",
         "name(jp)": "いやしの",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3876,6 +4303,7 @@
         "effect": "20% chance to dualcast Summoning abilities",
         "unlockCriteria": "Use Garnet's Memory Crystal II, chance to obtain with Garnet in party",
         "name(jp)": "召喚士の血筋",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3885,6 +4313,7 @@
         "effect": "MAG and MND +13% when equipping a dagger",
         "unlockCriteria": "Bring Garnet to level 99",
         "name(jp)": "ダガーが刻む意志",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3894,6 +4323,7 @@
         "effect": "BLK attacks deal 10% more damage when equipping a rod",
         "unlockCriteria": "Use Vivi's Memory Crystal",
         "name(jp)": "ロッドの使い手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3903,6 +4333,7 @@
         "effect": "MAG +20%, DEF and RES -10%",
         "unlockCriteria": "Chance to obtain with Vivi in party",
         "name(jp)": "専念",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3912,6 +4343,7 @@
         "effect": "Attack turns into an ability (BLK: single, 2,00 magical)",
         "unlockCriteria": "Use Vivi's Memory Crystal II, chance to obtain with Vivi in party",
         "name(jp)": "黒魔道士の覚醒",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3921,6 +4353,7 @@
         "effect": "Increases Fire damage dealt by 30%",
         "unlockCriteria": "Bring Vivi to level 99",
         "name(jp)": "いのちのあかし",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3930,6 +4363,7 @@
         "effect": "DEF +10% when equipping a heavy armor",
         "unlockCriteria": "Use Steiner's Memory Crystal",
         "name(jp)": "強固たる鎧",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3939,6 +4373,7 @@
         "effect": "25% chance to counter PHY attacks with an ability (NAT: self, grants Protect)",
         "unlockCriteria": "Chance to obtain with Steiner in party",
         "name(jp)": "騎士の誇り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3948,6 +4383,7 @@
         "effect": "Acting and taking damage grants 25% more Soul Break points",
         "unlockCriteria": "Use Steiner's Memory Crystal II, chance to obtain with Steiner in party",
         "name(jp)": "騎士の底力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3957,6 +4393,7 @@
         "effect": "DEF +25% when equipping a heavy armor",
         "unlockCriteria": "Bring Steiner to level 99",
         "name(jp)": "真の忠節",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3966,6 +4403,7 @@
         "effect": "Dragoon abilities deal 15% more damage",
         "unlockCriteria": "Use Freya's Memory Crystal",
         "name(jp)": "ブルメシアの竜騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3975,6 +4413,7 @@
         "effect": "ATK and DEF +10% when equipping a light armor",
         "unlockCriteria": "Use Freya's Memory Crystal II, chance to obtain with Freya in party",
         "name(jp)": "精鋭戦士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3984,6 +4423,7 @@
         "effect": "48% chance to turn Attack into Leeching Leap",
         "unlockCriteria": "Bring Freya to level 99",
         "name(jp)": "気品漂う女竜騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3993,6 +4433,7 @@
         "effect": "16% chance to turn Attack into Drain Strike",
         "unlockCriteria": "Use Quina's Memory Crystal",
         "name(jp)": "ク族の食欲",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4002,6 +4443,7 @@
         "effect": "Support abilities deal 30% more damage",
         "unlockCriteria": "Chance to obtain in FFIX dungeon with Quina in party",
         "name(jp)": "ク族の秘伝",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4011,6 +4453,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a spear",
         "unlockCriteria": "Use Quina's Memory Crystal II, chance to obtain with Quina in party",
         "name(jp)": "ク族の武器",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4020,6 +4463,7 @@
         "effect": "60% chance to turn Attack into Drain Strike",
         "unlockCriteria": "Bring Quina to level 99",
         "name(jp)": "ク族の求道者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4029,6 +4473,7 @@
         "effect": "MAG +10%, RES -10%",
         "unlockCriteria": "Use Eiko's Memory Crystal",
         "name(jp)": "おませ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4038,6 +4483,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping an instrument",
         "unlockCriteria": "Use Eiko's Memory Crystal II, chance to obtain with Eiko in party",
         "name(jp)": "お茶目な演奏",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4047,6 +4493,7 @@
         "effect": "MND +25% when equipping an instrument",
         "unlockCriteria": "Bring Eiko to level 99",
         "name(jp)": "友に捧ぐ演奏",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4056,6 +4503,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a fist weapon",
         "unlockCriteria": "Use Amarant's Memory Crystal",
         "name(jp)": "孤高の拳士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4065,6 +4513,7 @@
         "effect": "Grants Draw Fire for 15 seconds at the beginning of the battle",
         "unlockCriteria": "Use Amarant's Memory Crystal II, chance to obtain with Amarant in party",
         "name(jp)": "賞金首の男",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4074,6 +4523,7 @@
         "effect": "Grants Last Stand at the beginning of the battle",
         "unlockCriteria": "Bring Amarant to level 99",
         "name(jp)": "焔色の拳闘家",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4083,6 +4533,7 @@
         "effect": "50% chance to restore 1 use for all Knight abilities at the beginning of the battle",
         "unlockCriteria": "Use Beatrix's Memory Crystal",
         "name(jp)": "聖騎士の使命",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4092,6 +4543,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a sword",
         "unlockCriteria": "Use Beatrix's Memory Crystal II, chance to obtain with Beatrix in party",
         "name(jp)": "隻眼の将軍",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4101,6 +4553,7 @@
         "effect": "24% chance to turn Attack into Saint Cross",
         "unlockCriteria": "Bring Beatrix to level 99",
         "name(jp)": "百戦錬磨の女将軍",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4110,6 +4563,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "unlockCriteria": "Use Kuja's Memory Crystal",
         "name(jp)": "銀髪のジェノム",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4119,6 +4573,7 @@
         "effect": "Increases Dark damage dealt by 20%",
         "unlockCriteria": "Use Kuja's Memory Crystal II, chance to obtain with Kuja in party",
         "name(jp)": "闇の運命",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4128,6 +4583,7 @@
         "effect": "Causes Doom: 60 at the beginning of the battle",
         "unlockCriteria": "Bring Kuja to level 99",
         "name(jp)": "定められた宿命",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4137,6 +4593,7 @@
         "effect": "ATK +10% when equipping a dagger",
         "unlockCriteria": "Use Marcus's Memory Crystal",
         "name(jp)": "盗賊一座",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4146,6 +4603,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a dagger",
         "unlockCriteria": "Use Marcus's Memory Crystal II, chance to obtain with Marcus in party",
         "name(jp)": "手だれの弟分",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4155,6 +4613,7 @@
         "effect": "ATK and DEF +10%, grants Haste at the beginning of the battle",
         "unlockCriteria": "Bring Marcus to level 99",
         "name(jp)": "礼儀正しき盗賊",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4164,6 +4623,7 @@
         "effect": "Grants Haste when HP fall below 20%",
         "unlockCriteria": "Use Tidus's Memory Crystal",
         "name(jp)": "エースの意地",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4173,6 +4633,7 @@
         "effect": "Attack turns into an ability (PHY: single, 1,00 physical) that grants 65 Soul Break points",
         "unlockCriteria": "Chance to obtain in FFX dungeon with Tidus in party",
         "name(jp)": "ポイントゲッター",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4182,6 +4643,7 @@
         "effect": "Acting grants 50% more Soul Break points",
         "unlockCriteria": "Use Tidus's Memory Crystal II, chance to obtain with Tidus in party",
         "name(jp)": "エースストライカー",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4191,6 +4653,7 @@
         "effect": "Increases Water damage dealt by 30%",
         "unlockCriteria": "Bring Tidus to level 99",
         "name(jp)": "スピラを導く夢",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4200,6 +4663,7 @@
         "effect": "WHT abilities restore 10% more HP",
         "unlockCriteria": "Use Yuna's Memory Crystal",
         "name(jp)": "祈り子の光",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4209,6 +4673,7 @@
         "effect": "MND +20% when equipping a rod",
         "unlockCriteria": "Use Yuna' Memory Crystal II, chance to obtain with Yuna in party",
         "name(jp)": "召喚士の祈り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4218,6 +4683,7 @@
         "effect": "SUM attacks deal 30% more damage",
         "unlockCriteria": "Bring Yuna to level 99",
         "name(jp)": "スピラを救う想い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4227,6 +4693,7 @@
         "effect": "15% chance to begin the round with full ATB gauge",
         "unlockCriteria": "Use Wakka's Memory Crystal",
         "name(jp)": "速攻",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4236,6 +4703,7 @@
         "effect": "Attack turns into Aim",
         "unlockCriteria": "Chance to obtain in FFX dungeon with Wakka in party",
         "name(jp)": "百発百中",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4245,6 +4713,7 @@
         "effect": "Grants High Regen when HP fall below 50%",
         "unlockCriteria": "Use Wakka's Memory Crystal II, chance to obtain with Wakka in party",
         "name(jp)": "フィジカルコントロール",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4254,6 +4723,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping a blitzball",
         "unlockCriteria": "Bring Wakka to level 99",
         "name(jp)": "チームの大黒柱",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4263,6 +4733,7 @@
         "effect": "Increases Fire damage dealt by 10%",
         "unlockCriteria": "Use Lulu's Memory Crystal",
         "name(jp)": "熱き己",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4272,6 +4743,7 @@
         "effect": "Increases Ice damage dealt by 20%",
         "unlockCriteria": "Use Lulu's Memory Crystal II, chance to obtain with Lulu in party",
         "name(jp)": "氷の美女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4281,6 +4753,7 @@
         "effect": "MAG +15% when equipping a doll",
         "unlockCriteria": "Bring Lulu to level 99",
         "name(jp)": "美女のコレクション",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4290,6 +4763,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a spear",
         "unlockCriteria": "Use Kimahri's Memory Crystal",
         "name(jp)": "ロンゾの誇り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4299,6 +4773,7 @@
         "effect": "Grants Magical Blink 1 when HP fall below 10%",
         "unlockCriteria": "Chance to obtain with Kimahri in party",
         "name(jp)": "護る者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4308,6 +4783,7 @@
         "effect": "49% chance to turn Attack into Jump",
         "unlockCriteria": "Use Kimahri's Memory Crystal II, chance to obtain with Kimahri in party",
         "name(jp)": "誇り高き獣人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4317,6 +4793,7 @@
         "effect": "Attack turns into Jump",
         "unlockCriteria": "Bring Kimahri to level 99",
         "name(jp)": "押し通す意志",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4326,6 +4803,7 @@
         "effect": "50% chance to restore 1 use for all Thief abilities at the beginning of the battle",
         "unlockCriteria": "Use Rikku's Memory Crystal",
         "name(jp)": "機械いじり",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4335,6 +4813,7 @@
         "effect": "Thief abilities deal 30% more damage",
         "unlockCriteria": "Use Rikku's Memory Crystal II, chance to obtain with Rikku in party",
         "name(jp)": "アルベドの早業",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4344,6 +4823,7 @@
         "effect": "24% chance to turn Attack into Quick Hit",
         "unlockCriteria": "Bring Rikku to level 99",
         "name(jp)": "神速のハンター",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4353,6 +4833,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a katana",
         "unlockCriteria": "Use Auron's Memory Crystal",
         "name(jp)": "秘伝の技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4362,6 +4843,7 @@
         "effect": "13% chance to dualcast Samurai abilities",
         "unlockCriteria": "Use Auron's Memory Crystal II, chance to obtain with Auron in party",
         "name(jp)": "伝説のガードの太刀",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4371,6 +4853,7 @@
         "effect": "Samurai abilities deal 40% more damage",
         "unlockCriteria": "Bring Auron to level 99",
         "name(jp)": "朽ちぬ魂",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4380,6 +4863,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a blitzball",
         "unlockCriteria": "Use Jecht's Memory Crystal",
         "name(jp)": "伝説のシュート",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4389,6 +4873,7 @@
         "effect": "14% chance to turn Attack into Exploding Fist",
         "unlockCriteria": "Use Jecht's Memory Crystal II, chance to obtain with Jecht in party",
         "name(jp)": "不器用な父親",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4398,6 +4883,7 @@
         "effect": "ATK and DEF +13% when equipping a fist weapon",
         "unlockCriteria": "Bring Jecht to level 99",
         "name(jp)": "元祖エース選手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4407,6 +4893,7 @@
         "effect": "MAG +10%, RES -10%",
         "unlockCriteria": "Use Braska's Memory Crystal",
         "name(jp)": "闊達な大召喚士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4416,6 +4903,7 @@
         "effect": "SUM attacks deal 20% more damage",
         "unlockCriteria": "Use Braska's Memory Crystal II, chance to obtain with Braska in party",
         "name(jp)": "究極召喚への決意",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4425,6 +4913,7 @@
         "effect": "MAG +15% when equipping a staff",
         "unlockCriteria": "Bring Braska to level 99",
         "name(jp)": "未来をつなぐ意志",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4434,6 +4923,7 @@
         "effect": "Spellblade abilities deal 15% more damage",
         "unlockCriteria": "Use Paine's Memory Crystal",
         "name(jp)": "謎めいた女剣士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4443,6 +4933,7 @@
         "effect": "Spellblade abilities deal 30% more damage",
         "unlockCriteria": "Use Paine's Memory Crystal II, chance to obtain with Paine in party",
         "name(jp)": "カモメ団の剣士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4452,6 +4943,7 @@
         "effect": "24% chance to turn Attack into Engulfing Quadstrike",
         "unlockCriteria": "Bring Paine to level 99",
         "name(jp)": "冷静沈着な剣士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4461,6 +4953,7 @@
         "effect": "MAG +10% when equipping a rod",
         "unlockCriteria": "Use Seymour's Memory Crystal",
         "name(jp)": "エボンの老師",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4470,6 +4963,7 @@
         "effect": "17% chance to turn Attack into an ability (SUM: randomly casts Goblin, Chocobo, Drake, Bomb, Shiva, Ramuh, Ifrit or Bahamut)",
         "unlockCriteria": "Use Seymour's Memory Crystal II, chance to obtain with Seymour in party",
         "name(jp)": "暗黒の召喚術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4479,6 +4973,7 @@
         "effect": "DEF and MAG +13% when equipping a staff",
         "unlockCriteria": "Bring Seymour to level 99",
         "name(jp)": "狂気の執着",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4488,6 +4983,7 @@
         "effect": "BLK attacks deal 10% more damage when equipping a staff",
         "unlockCriteria": "Use Shantotto's Memory Crystal",
         "name(jp)": "ウィンダス3博士のひとり",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4497,6 +4993,7 @@
         "effect": "BLK attacks deal 20% more damage when equipping a staff",
         "unlockCriteria": "Use Shantotto's Memory Crystal II, chance to obtain with Shantotto in party",
         "name(jp)": "伝説の淑女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4506,6 +5003,7 @@
         "effect": "BLK attacks deal 30% more damage when equipping a staff",
         "unlockCriteria": "Bring Shantotto to level 99",
         "name(jp)": "魔女の高笑い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4515,6 +5013,7 @@
         "effect": "Samurai abilities deal 15% more damage",
         "unlockCriteria": "Use Ayame's Memory Crystal",
         "name(jp)": "ミスリル銃士紅一点",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4524,6 +5023,7 @@
         "effect": "12% chance to turn Attack into Flashing Blade",
         "unlockCriteria": "Use Ayame's Memory Crystal II, chance to obtain with Ayame in party",
         "name(jp)": "バストゥークの懐刀",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4533,6 +5033,7 @@
         "effect": "24% chance to turn Attack into Hailstorm",
         "unlockCriteria": "Bring Ayame to level 99",
         "name(jp)": "研ぎ澄ます信念",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4542,6 +5043,7 @@
         "effect": "Knight abilities deal 15% more damage",
         "unlockCriteria": "Use Curilla's Memory Crystal",
         "name(jp)": "高貴なる麗人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4551,6 +5053,7 @@
         "effect": "DEF +20% when equipping a sword",
         "unlockCriteria": "Use Curilla's Memory Crystal II, chance to obtain with Curilla in party",
         "name(jp)": "王国一の剣技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4560,6 +5063,7 @@
         "effect": "Grants Sentinel at the beginning of the battle",
         "unlockCriteria": "Bring Curilla to level 99",
         "name(jp)": "神殿騎士団の長",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4569,6 +5073,7 @@
         "effect": "Grants Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Prishe's Memory Crystal",
         "name(jp)": "不老の少女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4578,6 +5083,7 @@
         "effect": "40% chance to turn attack into Drain Strike",
         "unlockCriteria": "Use Prishe's Memory Crystal II, chance to obtain with Prishe in party",
         "name(jp)": "腹ペコ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4587,6 +5093,7 @@
         "effect": "Attack turns into an ability (PHY: single, 3x 0,66 physical)",
         "unlockCriteria": "Bring Prishe to level 99",
         "name(jp)": "破天荒",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4596,6 +5103,7 @@
         "effect": "Attack turns into an ability (PHY: single, 2x 0,65 physical)",
         "unlockCriteria": "Use Lion's Memory Crystal",
         "name(jp)": "俊敏なる体術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4605,6 +5113,7 @@
         "effect": "Grants Haste at the beginning of the battle, ATK +10%",
         "unlockCriteria": "Use Lion's Memory Crystal II, chance to obtain with Lion in party",
         "name(jp)": "凄腕のエージェント",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4614,6 +5123,7 @@
         "effect": "24% chance to turn attack into Mug Time",
         "unlockCriteria": "Bring Lion to level 99",
         "name(jp)": "ノーグ頭領の養女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4623,6 +5133,7 @@
         "effect": "MND +10% when equipping a staff",
         "unlockCriteria": "Use Aphmau's Memory Crystal",
         "name(jp)": "純真な乙女心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4632,6 +5143,7 @@
         "effect": "Attack turns into an ability (WHT: single, 2,00 magical)",
         "unlockCriteria": "Use Aphmau's Memory Crystal II, chance to obtain with Aphmau in party",
         "name(jp)": "無手の傀儡師",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4641,6 +5153,7 @@
         "effect": "MND +25% when equipping a staff",
         "unlockCriteria": "Bring Aphmau to level 99",
         "name(jp)": "聖皇を継ぎし者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4650,6 +5163,7 @@
         "effect": "Darkness abilities deal 15% more damage",
         "unlockCriteria": "Use Zeid's Memory Crystal",
         "name(jp)": "バストゥークの暗黒騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4659,6 +5173,7 @@
         "effect": "13% chance to dualcast Darkness abilities",
         "unlockCriteria": "Use Zeid's Memory Crystal II, chance to obtain with Zeid in party",
         "name(jp)": "業を背負う者の剣",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4668,6 +5183,7 @@
         "effect": "Darkness abilities deal 40% more damage",
         "unlockCriteria": "Bring Zeid to level 99",
         "name(jp)": "銃士隊最強の暗黒剣",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4692,6 +5208,7 @@
         "effect": "ATK +10%, DEF -10%",
         "unlockCriteria": "Use Vaan's Memory Crystal",
         "name(jp)": "自由への想い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4701,6 +5218,7 @@
         "effect": "13% chance to dualcast Celerity abilities",
         "unlockCriteria": "Use Vaan's Memory Crystal II, chance to obtain with Vaan in party",
         "name(jp)": "ラバナスタの風",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4710,6 +5228,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping a dagger",
         "unlockCriteria": "Bring Vaan to level 99",
         "name(jp)": "奔放な若き翼",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4719,6 +5238,7 @@
         "effect": "Grants Haste at the beginning of the battle",
         "unlockCriteria": "Use Balthier's Memory Crystal",
         "name(jp)": "空賊の証",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4728,6 +5248,7 @@
         "effect": "13% chance to dualcast Machinist abilities",
         "unlockCriteria": "Use Balthier's Memory Crystal II, chance to obtain with Balthier in party",
         "name(jp)": "熟練の機工士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4737,6 +5258,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping a gun",
         "unlockCriteria": "Bring Balthier to level 99",
         "name(jp)": "自由を愛す義賊",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4746,6 +5268,7 @@
         "effect": "Causes Berserk at the beginning of the battle",
         "unlockCriteria": "Use Fran's Memory Crystal",
         "name(jp)": "ミストの暴走",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4755,6 +5278,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a bow",
         "unlockCriteria": "Chance to obtain with Fran in party",
         "name(jp)": "ヴィエラの手練",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4764,6 +5288,7 @@
         "effect": "16% chance to turn Attack into an ability (PHY: random, 4x 1,00 physical)",
         "unlockCriteria": "Use Fran's Memory Crystal II, chance to obtain with Fran in party",
         "name(jp)": "連射の極意",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4773,6 +5298,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping a bow",
         "unlockCriteria": "Bring Fran to level 99",
         "name(jp)": "天地を制す弓術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4782,6 +5308,7 @@
         "effect": "ATK +10% when equipping a shield",
         "unlockCriteria": "Use Basch's Memory Crystal",
         "name(jp)": "ダルマスカの盾",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4791,6 +5318,7 @@
         "effect": "13% chance to dualcast Knight abilities",
         "unlockCriteria": "Use Basch's Memory Crystal II, chance to obtain with Basch in party",
         "name(jp)": "忠義の勇将",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4800,6 +5328,7 @@
         "effect": "DEF and RES +20% when equipping a shield",
         "unlockCriteria": "Bring Basch to level 99",
         "name(jp)": "揺るがぬ信念",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4809,6 +5338,7 @@
         "effect": "MAG +10%, ATK -10%",
         "unlockCriteria": "Use Ashe's Memory Crystal",
         "name(jp)": "復讐の誓い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4818,6 +5348,7 @@
         "effect": "Increases Lightning damage dealt by 20%",
         "unlockCriteria": "Use Ashe's Memory Crystal II, chance to obtain with Ashe in party",
         "name(jp)": "ダルマスカ王族の誇り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4827,6 +5358,7 @@
         "effect": "MAG +15% when equipping a sword",
         "unlockCriteria": "Bring Ashe to level 99",
         "name(jp)": "歩むべき真の道",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4836,6 +5368,7 @@
         "effect": "MND +10% when equipping a staff",
         "unlockCriteria": "Use Penelo's Memory Crystal",
         "name(jp)": "慈愛の心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4845,6 +5378,7 @@
         "effect": "MND +20%, ATK and MAG -10%",
         "unlockCriteria": "Use Penelo's Memory Crystal II, chance to obtain with Penelo in party",
         "name(jp)": "幼馴染みへの恋心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4854,6 +5388,7 @@
         "effect": "White Magic abilities deal 30% more damage",
         "unlockCriteria": "Bring Penelo to level 99",
         "name(jp)": "朗らかな理解者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4863,6 +5398,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "unlockCriteria": "Use Gabranth's Memory Crystal",
         "name(jp)": "冷静な武人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4872,6 +5408,7 @@
         "effect": "Increases Dark damage dealt by 20%",
         "unlockCriteria": "Use Gabranth's Memory Crystal II, chance to obtain with Gabranth in party",
         "name(jp)": "憎悪の矛先",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4881,6 +5418,7 @@
         "effect": "DEF +20%",
         "unlockCriteria": "Bring Gabranth to level 99",
         "name(jp)": "野良犬の意地",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4890,6 +5428,7 @@
         "effect": "50% chance to restore 1 use for all White Magic abilities at the beginning of the battle",
         "unlockCriteria": "Use Larsa's Memory Crystal",
         "name(jp)": "純真な皇子",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4899,6 +5438,7 @@
         "effect": "MND +10%, grants Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Larsa's Memory Crystal II, chance to obtain with Larsa in party",
         "name(jp)": "平和への道",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4908,6 +5448,7 @@
         "effect": "ATK and MND +10%",
         "unlockCriteria": "Bring Larsa to level 99",
         "name(jp)": "屈せぬ理想家",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4917,6 +5458,7 @@
         "effect": "DEF +5% for each 10% missing HP",
         "unlockCriteria": "Use Vayne's Memory Crystal",
         "name(jp)": "冷酷な野心家",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4926,6 +5468,7 @@
         "effect": "ATK and MAG +10% when equipping a fist weapon",
         "unlockCriteria": "Use Vayne's Memory Crystal II, chance to obtain with Vayne in party",
         "name(jp)": "威風堂々",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4935,6 +5478,7 @@
         "effect": "ATK +13%, grants Magical Blink 1 at the beginning of the battle",
         "unlockCriteria": "Bring Vayne to level 99",
         "name(jp)": "戦略の天才",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4944,6 +5488,7 @@
         "effect": "Spellblade abilities deal 15% more damage",
         "unlockCriteria": "Use Reks's Memory Crystal",
         "name(jp)": "若き志",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4953,6 +5498,7 @@
         "effect": "Increases damage dealt by 20% when exploiting elemental weakness",
         "unlockCriteria": "Use Reks's Memory Crystal II, chance to obtain with Reks in party",
         "name(jp)": "冷静な判断力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4962,6 +5508,7 @@
         "effect": "24% chance to turn attack into Thundering Quadstrike",
         "unlockCriteria": "Bring Reks to level 99",
         "name(jp)": "雄才なる萌芽",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4971,6 +5518,7 @@
         "effect": "15% chance to begin the round with full ATB gauge",
         "unlockCriteria": "Use Lightning's Memory Crystal",
         "name(jp)": "閃光",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4980,6 +5528,7 @@
         "effect": "Attack turns into an ability (PHY: single, 1,00 physical) with 0,01 cast time",
         "unlockCriteria": "Use Lightning's Memory Crystal II, chance to obtain with Lightning in party",
         "name(jp)": "疾雷",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4989,6 +5538,7 @@
         "effect": "Increases Lightning damage dealt by 30%",
         "unlockCriteria": "Bring Lightning to level 99",
         "name(jp)": "雷光の軍神",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4998,6 +5548,7 @@
         "effect": "DEF +10%, ATK -10%",
         "unlockCriteria": "Use Snow's Memory Crystal",
         "name(jp)": "タフネス",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5007,6 +5558,7 @@
         "effect": "DEF +5% for each 10% missing HP",
         "unlockCriteria": "Chance to obtain with Snow in party",
         "name(jp)": "不屈の意志",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5016,6 +5568,7 @@
         "effect": "ATK and DEF +10% when equipping a fist weapon",
         "unlockCriteria": "Use Snow's Memory Crystal II, chance to obtain with Snow in party",
         "name(jp)": "前向きなヒーロー",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5025,6 +5578,7 @@
         "effect": "DEF +25% when equipping a light armor",
         "unlockCriteria": "Bring Snow to level 99",
         "name(jp)": "挫けぬ誓い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5034,6 +5588,7 @@
         "effect": "10% chance to counter PHY attacks with an ability (NAT: self, restores HP (30))",
         "unlockCriteria": "Use Vanille's Memory Crystal",
         "name(jp)": "天真爛漫",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5043,6 +5598,7 @@
         "effect": "Attack turns into an ability (WHT: single, restores HP (26))",
         "unlockCriteria": "Use Vanille's Memory Crystal II, chance to obtain with Vanille in party",
         "name(jp)": "下界の少女の労り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5052,6 +5608,7 @@
         "effect": "Attack turns into an ability (WHT: single, 2,50 magical)",
         "unlockCriteria": "Bring Vanille to level 99",
         "name(jp)": "語り部の紡ぐ真実",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5061,6 +5618,7 @@
         "effect": "Grants Low Regen when HP fall below 20%",
         "unlockCriteria": "Use Sazh's Memory Crystal",
         "name(jp)": "父の意地",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5070,6 +5628,7 @@
         "effect": "Attack turns into an ability (PHY: single, 2x 0,65 physical)",
         "unlockCriteria": "Use Sazh's Memory Crystal II, chance to obtain with Sazh in party",
         "name(jp)": "二丁拳銃",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5079,6 +5638,7 @@
         "effect": "ATK and DEF +13% when equipping a gun",
         "unlockCriteria": "Bring Sazh to level 99",
         "name(jp)": "陽気な腕利きパイロット",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5088,6 +5648,7 @@
         "effect": "BLK attacks deal 10% more damage when equipping a thrown weapon",
         "unlockCriteria": "Use Hope's Memory Crystal",
         "name(jp)": "成長の証",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5097,6 +5658,7 @@
         "effect": "BLK attacks deal 20% more damage when equipping a thrown weapon",
         "unlockCriteria": "Use Hope's Memory Crystal II, chance to obtain with Hope in party",
         "name(jp)": "甘えを捨てた希望",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5106,6 +5668,7 @@
         "effect": "MAG +15% when equipping a thrown weapon",
         "unlockCriteria": "Bring Hope to level 99",
         "name(jp)": "誓約の先にあるもの",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5115,6 +5678,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a spear",
         "unlockCriteria": "Use Fang's Memory Crystal",
         "name(jp)": "グラン＝パルスの闘士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5124,6 +5688,7 @@
         "effect": "Dragoon abilities deal 30% more damage",
         "unlockCriteria": "Use Fang's Memory Crystal II, chance to obtain with Fang in party",
         "name(jp)": "グラン＝パルスの流儀",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5133,6 +5698,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping a spear",
         "unlockCriteria": "Bring Fang to level 99",
         "name(jp)": "グラン＝パルスの槍撃",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5142,6 +5708,7 @@
         "effect": "MAG +10%, ATK -10%",
         "unlockCriteria": "Use Serah's Memory Crystal",
         "name(jp)": "可憐な雰囲気",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5151,6 +5718,7 @@
         "effect": "BLK attacks deal 20% more damage when equipping a bow",
         "unlockCriteria": "Use Serah's Memory Crystal II, chance to obtain with Serah in party",
         "name(jp)": "女神エトロの干渉",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5160,6 +5728,7 @@
         "effect": "MAG +15%, DEF -10%",
         "unlockCriteria": "Bring Serah to level 99",
         "name(jp)": "目覚める異能",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5169,6 +5738,7 @@
         "effect": "BLK attacks deal 10% more damage when equipping a light armor",
         "unlockCriteria": "Use Cid Raines's Memory Crystal",
         "name(jp)": "騎兵隊の司令官",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5178,6 +5748,7 @@
         "effect": "ATK and MAG +10% when equipping a fist weapon",
         "unlockCriteria": "Use Cid Raines's Memory Crystal II, chance to obtain with Cid Raines in party",
         "name(jp)": "ルシの力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5187,6 +5758,7 @@
         "effect": "MAG +15% when equipping a fist weapon",
         "unlockCriteria": "Bring Cid Raines to level 99",
         "name(jp)": "傀儡の抗い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5196,6 +5768,7 @@
         "effect": "Grants Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Noel's Memory Crystal",
         "name(jp)": "ユールの加護",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5205,6 +5778,7 @@
         "effect": "Attack turns into an ability (PHY: single, 1,00 ranged physical)",
         "unlockCriteria": "Use Noel's Memory Crystal II, chance to obtain with Noel in party",
         "name(jp)": "ラストハンター",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5214,6 +5788,7 @@
         "effect": "ATK and RES +10%, grants Haste at the beginning of the battle",
         "unlockCriteria": "Bring Noel to level 99",
         "name(jp)": "命の重みを知る守護者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5223,6 +5798,7 @@
         "effect": "Increases damage dealt by 10% when exploiting elemental weakness",
         "unlockCriteria": "Use Nabaat's Memory Crystal",
         "name(jp)": "ルシを弄ぶ女軍人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5232,6 +5808,7 @@
         "effect": "MAG +13% when equipping a sword",
         "unlockCriteria": "Use Nabaat's Memory Crystal II, chance to obtain with Nabaat in party",
         "name(jp)": "特殊警棒の使い手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5241,6 +5818,7 @@
         "effect": "Attack turns into an ability (BLK: group, 3,00 magical) with 4,50 cast time",
         "unlockCriteria": "Bring Nabaat to level 99",
         "name(jp)": "PSICOMの才媛",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5250,6 +5828,7 @@
         "effect": "WHT abilities restore 10% more HP",
         "unlockCriteria": "Use Y'shtola's Memory Crystal",
         "name(jp)": "神秘的な幻術士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5259,6 +5838,7 @@
         "effect": "WHT attacks deal 20% more damage",
         "unlockCriteria": "Use Y'shtola's Memory Crystal II, chance to obtain with Y'shtola in party",
         "name(jp)": "粛然たる心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5268,6 +5848,7 @@
         "effect": "DEF and RES +20% when equipping a robe",
         "unlockCriteria": "Bring Y'shtola to level 99",
         "name(jp)": "マトーヤの大切なもの",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5277,6 +5858,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a dagger",
         "unlockCriteria": "Use Thancred's Memory Crystal",
         "name(jp)": "地下組織の戦闘術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5286,6 +5868,7 @@
         "effect": "Increases Wind damage dealt by 20%",
         "unlockCriteria": "Use Thancred's Memory Crystal II, chance to obtain with Thancred in party",
         "name(jp)": "双剣の風",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5295,6 +5878,7 @@
         "effect": "ATK and DEF +13% when equipping a dagger",
         "unlockCriteria": "Bring Thancred to level 99",
         "name(jp)": "盟主への誓い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5304,6 +5888,7 @@
         "effect": "Monk abilities deal 15% more damage",
         "unlockCriteria": "Use Yda's Memory Crystal",
         "name(jp)": "磨かれた体術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5313,6 +5898,7 @@
         "effect": "Attack turns into an ability (PHY: group, 0,60 physical)",
         "unlockCriteria": "Use Yda's Memory Crystal II, chance to obtain with Yda in party",
         "name(jp)": "気まぐれな格闘士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5322,6 +5908,7 @@
         "effect": "Attack turns into an ability (PHY: group, 0,80 physical)",
         "unlockCriteria": "Bring Yda to level 99",
         "name(jp)": "拳聖の域",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5331,6 +5918,7 @@
         "effect": "MAG +10% when equipping a rod",
         "unlockCriteria": "Use Papalymo's Memory Crystal",
         "name(jp)": "冷笑家の力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5340,6 +5928,7 @@
         "effect": "BLK attacks deal 20% more damage when equipping a rod",
         "unlockCriteria": "Use Papalymo's Memory Crystal II, chance to obtain with Papalymo in party",
         "name(jp)": "シャーレアンの呪術士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5349,6 +5938,7 @@
         "effect": "MAG and RES +13% when equipping a rod",
         "unlockCriteria": "Bring Papalymo to level 99",
         "name(jp)": "暁の大魔道師",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5358,6 +5948,7 @@
         "effect": "MAG +10% when equipping a book",
         "unlockCriteria": "Use Alphinaud's Memory Crystal",
         "name(jp)": "シャーレアンの異才",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5367,6 +5958,7 @@
         "effect": "MAG and MND +10% when equipping a book",
         "unlockCriteria": "Use Alphinaud's Memory Crystal II, chance to obtain with Alphinaud in party",
         "name(jp)": "ルイゾワの意志を継ぐ者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5376,6 +5968,7 @@
         "effect": "MAG and MND +13% when equipping a book",
         "unlockCriteria": "Bring Alphinaud to level 99",
         "name(jp)": "主導者の素質",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5385,6 +5978,7 @@
         "effect": "ATK +10% when equipping a shield",
         "unlockCriteria": "Use Minfilia's Memory Crystal",
         "name(jp)": "暁の盟主",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5394,6 +5988,7 @@
         "effect": "ATK +13% when equipping a shield",
         "unlockCriteria": "Use Minfilia's Memory Crystal II, chance to obtain with Minfilia in party",
         "name(jp)": "エオルゼアの守護者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5403,6 +5998,7 @@
         "effect": "ATK and DEF +13% when equipping a shield",
         "unlockCriteria": "Bring Minfilia to level 99",
         "name(jp)": "星の代弁者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5412,6 +6008,7 @@
         "effect": "ATK and DEF +10%, causes Confuse at the beginning of the battle",
         "unlockCriteria": "Use Cid (XIV)'s Memory Crystal",
         "name(jp)": "雪に埋もれた真実",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5421,6 +6018,7 @@
         "effect": "ATK +13% when equipping a gun",
         "unlockCriteria": "Use Cid (XIV)'s Memory Crystal II, chance to obtain with Cid (XIV) in party",
         "name(jp)": "機工の業",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5430,6 +6028,7 @@
         "effect": "ATK and RES +13% when equipping a gun",
         "unlockCriteria": "Bring Cid (XIV) to level 99",
         "name(jp)": "技師の矜持",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5439,6 +6038,7 @@
         "effect": "MAG +10%, ATK -10%",
         "unlockCriteria": "Use Ysayle's Memory Crystal",
         "name(jp)": "凍えし少女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5448,6 +6048,7 @@
         "effect": "Increases Ice damage dealt by 20%",
         "unlockCriteria": "Use Ysayle's Memory Crystal II, chance to obtain with Ysayle in party",
         "name(jp)": "異端者を総べる巫女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5457,6 +6058,7 @@
         "effect": "Attack turns into an ability (BLK: single, 0,70 magical Ice)",
         "unlockCriteria": "Bring Ysayle to level 99",
         "name(jp)": "真の竜詩を知る者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5466,6 +6068,7 @@
         "effect": "Knight abilities deal 15% more damage",
         "unlockCriteria": "Use Haurchefant's Memory Crystal",
         "name(jp)": "騎士の教え",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5475,6 +6078,7 @@
         "effect": "DEF +20% when equipping a shield",
         "unlockCriteria": "Use Haurchefant's Memory Crystal II, chance to obtain with Haurchefant in party",
         "name(jp)": "フォルタン家のイイ騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5484,6 +6088,7 @@
         "effect": "DEF and RES +20% when equipping a shield",
         "unlockCriteria": "Bring Haurchefant to level 99",
         "name(jp)": "民と友を護る盾",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5493,6 +6098,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a spear",
         "unlockCriteria": "Use Estinien's Memory Crystal",
         "name(jp)": "竜を狩る者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5502,6 +6108,7 @@
         "effect": "Jump attacks deal 25% more damage",
         "unlockCriteria": "Use Estinien's Memory Crystal II, chance to obtain with Estinien in party",
         "name(jp)": "屠龍の名",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5511,6 +6118,7 @@
         "effect": "Dragoon abilities deal 35% more damage",
         "unlockCriteria": "Bring Estinien to level 99",
         "name(jp)": "竜の眼の力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5520,6 +6128,7 @@
         "effect": "ATK and DEF +10%, causes Sleep at the beginning of the battle",
         "unlockCriteria": "Use Noctis's Memory Crystal",
         "name(jp)": "眠れる王子",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5529,6 +6138,7 @@
         "effect": "Defend turns into an ability (NAT: self, restores HP for 10% of the target's maximum HP)",
         "unlockCriteria": "Use Noctis's Memory Crystal II, chance to obtain with Noctis in party",
         "name(jp)": "ルシス王国の後継者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5538,6 +6148,7 @@
         "effect": "Attack turns into an ability (PHY: single, 2,10 physical) with 0,01 cast time that grants 0 SB points",
         "unlockCriteria": "Bring Noctis to level 99",
         "name(jp)": "聖石に導かれし力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5547,6 +6158,7 @@
         "effect": "DEF +5% for each 10% missing HP",
         "unlockCriteria": "Use Gladiolus's Memory Crystal",
         "name(jp)": "頼りになる兄貴分",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5556,6 +6168,7 @@
         "effect": "Grants Protect at the beginning of the battle",
         "unlockCriteria": "Use Gladiolus's Memory Crystal II, chance to obtain with Gladiolus in party",
         "name(jp)": "強固なる防人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5565,6 +6178,7 @@
         "effect": "ATK +15% when equipping a shield",
         "unlockCriteria": "Bring Gladiolus to level 99",
         "name(jp)": "王都警備隊の要",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5574,6 +6188,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a dagger",
         "unlockCriteria": "Use Ignis's Memory Crystal",
         "name(jp)": "たゆまぬ研鑽",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5583,6 +6198,7 @@
         "effect": "15% chance to counter PHY attacks with an ability (PHY: single, 1,00 physical, heals the user for 30% of the damage dealt)",
         "unlockCriteria": "Use Ignis's Memory Crystal II, chance to obtain with Ignis in party",
         "name(jp)": "王族の側仕え",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5592,6 +6208,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping a dagger",
         "unlockCriteria": "Bring Ignis to level 99",
         "name(jp)": " 有望なる軍師 ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5601,6 +6218,7 @@
         "effect": "ATK +10% when equipping a gun",
         "unlockCriteria": "Use Prompto's Memory Crystal",
         "name(jp)": "陽気なムードメーカー",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5610,6 +6228,7 @@
         "effect": "13% chance to dualcast Machinist abilities",
         "unlockCriteria": "Use Prompto's Memory Crystal II, chance to obtain with Prompto in party",
         "name(jp)": "大胆な人懐っこさ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5619,6 +6238,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping a gun",
         "unlockCriteria": "Bring Prompto to level 99",
         "name(jp)": "密かなる努力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5628,6 +6248,7 @@
         "effect": "WHT abilities restore 10% more HP",
         "unlockCriteria": "Use Iris's Memory Crystal",
         "name(jp)": "王子を慕う幼馴染",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5637,6 +6258,7 @@
         "effect": "Attack turns into an ability (WHT: single, restores HP (26))",
         "unlockCriteria": "Use Iris's Memory Crystal II, chance to obtain with Iris in party",
         "name(jp)": "ふたりでおさんぽ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5646,6 +6268,7 @@
         "effect": "35% chance to counter attacks that cause Slow with an ability (NAT: self, grants Haste)",
         "unlockCriteria": "Bring Iris to level 99",
         "name(jp)": "芯の強き少女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5655,6 +6278,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a spear",
         "unlockCriteria": "Use Aranea's Memory Crystal",
         "name(jp)": "突撃槍の使い手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5664,6 +6288,7 @@
         "effect": "Dragoon abilities deal 30% more damage",
         "unlockCriteria": "Use Aranea's Memory Crystal II, chance to obtain with Aranea in party",
         "name(jp)": "美麗なる飛翔",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5673,6 +6298,7 @@
         "effect": "PHY attacks deal 30% more damage when equipping a helm",
         "unlockCriteria": "Bring Aranea to level 99",
         "name(jp)": "姉御肌の傭兵隊長",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5682,6 +6308,7 @@
         "effect": "If an ally has negative effects, 40% chance to turn Attack into an ability (NAT: single, removes negative effects)",
         "unlockCriteria": "Use Ramza's Memory Crystal",
         "name(jp)": "手当て",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5691,6 +6318,7 @@
         "effect": "Acting grants 50% more Soul Break points",
         "unlockCriteria": "Use Ramza's Memory Crystal II, chance to obtain with Ramza in party",
         "name(jp)": "戦士の成長",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5700,6 +6328,7 @@
         "effect": "Attack turns into an ability (PHY: single, 1,60 physical Lightning)",
         "unlockCriteria": "Bring Ramza to level 99",
         "name(jp)": "天騎士の意思を継ぐ者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5709,6 +6338,7 @@
         "effect": "30% chance to turn Attack into an ability (PHY: single, 1,00 physical Holy)",
         "unlockCriteria": "Use Agrias's Memory Crystal",
         "name(jp)": "ホーリーナイトの証",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5718,6 +6348,7 @@
         "effect": "Knight abilities deal 30% more damage",
         "unlockCriteria": "Use Agrias's Memory Crystal II, chance to obtain with Agrias in party",
         "name(jp)": "ホーリーナイトの誇り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5727,6 +6358,7 @@
         "effect": "Knight abilities deal 40% more damage",
         "unlockCriteria": "Bring Agrias to level 99",
         "name(jp)": "ホーリーナイトの美技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5736,6 +6368,7 @@
         "effect": "ATK +10%, DEF -10%",
         "unlockCriteria": "Use Delita's Memory Crystal",
         "name(jp)": "平民の志",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5745,6 +6378,7 @@
         "effect": "Grants Magic Lure for 15 seconds at the beginning of the battle",
         "unlockCriteria": "Use Delita's Memory Crystal II, chance to obtain with Delita in party",
         "name(jp)": "南天騎士団の将軍",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5754,6 +6388,7 @@
         "effect": "DEF and RES +20% when equipping a sword",
         "unlockCriteria": "Bring Delita to level 99",
         "name(jp)": "覇道を征く者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5763,6 +6398,7 @@
         "effect": "Grants Magical Blink 1 at the beginning of the battle",
         "unlockCriteria": "Use Ovelia's Memory Crystal",
         "name(jp)": "薄幸のプリンセス",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5772,6 +6408,7 @@
         "effect": "Attack turns into an ability (WHT: single, 2,00 magical)",
         "unlockCriteria": "Use Ovelia's Memory Crystal II, chance to obtain with Ovelia in party",
         "name(jp)": "イヴァリースの王女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5781,6 +6418,7 @@
         "effect": "RES and MND +13% when equipping a robe",
         "unlockCriteria": "Bring Ovelia to level 99",
         "name(jp)": "英雄王の妃",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5790,6 +6428,7 @@
         "effect": "17% chance to turn Attack into Blind Shell",
         "unlockCriteria": "Use Mustadio's Memory Crystal",
         "name(jp)": "ゴーグの機工士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5799,6 +6438,7 @@
         "effect": "40% chance to turn Attack into an ability (PHY: single, 1,00 physical, causes Stop (70%))",
         "unlockCriteria": "Use Mustadio's Memory Crystal II, chance to obtain with Mustadio in party",
         "name(jp)": "熟練の銃使い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5808,6 +6448,7 @@
         "effect": "20% chance to turn Attack into an ability (PHY: single, 1,00 physical, causes Petrify (100%))",
         "unlockCriteria": "Bring Mustadio to level 99",
         "name(jp)": "稀有な特殊技能者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5817,6 +6458,7 @@
         "effect": "Grants Haste at the beginning of the battle",
         "unlockCriteria": "Use Orlandeau's Memory Crystal",
         "name(jp)": "神速",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5826,6 +6468,7 @@
         "effect": "Attack turns into an ability (PHY: group, convergent 0,90 physical)",
         "unlockCriteria": "Use Orlandeau's Memory Crystal II, chance to obtain with Orlandeau in party",
         "name(jp)": "一世之雄",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5835,6 +6478,7 @@
         "effect": "Grants Thunder God's Might at the beginning of the battle",
         "unlockCriteria": "Bring Orlandeau to level 99",
         "name(jp)": "乱世の雷神",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5844,6 +6488,7 @@
         "effect": "Darkness abilities deal 15% more damage",
         "unlockCriteria": "Use Gaffgarion's Memory Crystal",
         "name(jp)": "漆黒の戦術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5853,6 +6498,7 @@
         "effect": "15% chance to counter PHY attacks with an ability (PHY: single, 1,00 physical, heals the user for 30% of the damage dealt)",
         "unlockCriteria": "Use Gaffgarion's Memory Crystal II, chance to obtain with Gaffgarion in party",
         "name(jp)": "暗黒剣の使い手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5862,6 +6508,7 @@
         "effect": "48% chance to counter PHY attacks with an ability (PHY: single, 2,30 physical, heals the user for 40% of the damage dealt)",
         "unlockCriteria": "Bring Gaffgarion to level 99",
         "name(jp)": "老獪なる傭兵",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5871,6 +6518,7 @@
         "effect": "8% chance to dualcast Witch abilities",
         "unlockCriteria": "Use Rapha's Memory Crystal",
         "name(jp)": "真言の加護",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5880,6 +6528,7 @@
         "effect": "Witch abilities deal 30% more damage",
         "unlockCriteria": "Use Rapha's Memory Crystal II, chance to obtain with Rapha in party",
         "name(jp)": "仇をうつ妹",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5889,6 +6538,7 @@
         "effect": "24% chance to turn Attack into Hell Thunder",
         "unlockCriteria": "Bring Rapha to level 99",
         "name(jp)": "一子相伝の天道術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5898,6 +6548,7 @@
         "effect": "30% chance to turn Attack into an ability (BLK: single, 0,70 magical Lightning)",
         "unlockCriteria": "Use Marach's Memory Crystal",
         "name(jp)": "裏真言の冥利",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5907,6 +6558,7 @@
         "effect": "Attack turns into an ability (BLK: group, 1,50 magical Lightning)",
         "unlockCriteria": "Use Marach's Memory Crystal II, chance to obtain with Marach in party",
         "name(jp)": "恩義に報いる兄",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5916,6 +6568,7 @@
         "effect": "Attack turns into an ability (BLK: single, 2,60 magical Lightning)",
         "unlockCriteria": "Bring Marach to level 99",
         "name(jp)": "一子相伝の天冥術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5925,6 +6578,7 @@
         "effect": "16% chance to turn Attack into Armor Break",
         "unlockCriteria": "Use Meliadoul's Memory Crystal",
         "name(jp)": "剛剣の使い手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5934,6 +6588,7 @@
         "effect": "DEF +20% when equipping a light armor",
         "unlockCriteria": "Use Meliadoul's Memory Crystal II, chance to obtain with Meliadoul in party",
         "name(jp)": "頑ななる神殿騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5943,6 +6598,7 @@
         "effect": "Support abilities deal 40% more damage",
         "unlockCriteria": "Bring Meliadoul to level 99",
         "name(jp)": "真実を求める眼差し",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5952,6 +6608,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a sword",
         "unlockCriteria": "Use Marche's Memory Crystal",
         "name(jp)": "迷い込んだ少年",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5961,6 +6618,7 @@
         "effect": "Knight abilities deal 30% more damage",
         "unlockCriteria": "Use Marche's Memory Crystal II, chance to obtain with Marche in party",
         "name(jp)": "クリスタルを壊す者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5970,6 +6628,7 @@
         "effect": "Grants Sentinel at the beginning of the battle",
         "unlockCriteria": "Bring Marche to level 99",
         "name(jp)": "現実と向き合う覚悟",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5979,6 +6638,7 @@
         "effect": "BLK attacks deal 10% more damage when equipping a staff",
         "unlockCriteria": "Use Montblanc's Memory Crystal",
         "name(jp)": "しっかり者の長男",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5988,6 +6648,7 @@
         "effect": "MAG +10%, grants Haste at the beginning of the battle",
         "unlockCriteria": "Use Montblanc's Memory Crystal II, chance to obtain with Montblanc in party",
         "name(jp)": "頼りになるクランのリーダー",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5997,6 +6658,7 @@
         "effect": "MAG +15% when equipping a robe",
         "unlockCriteria": "Bring Montblanc to level 99",
         "name(jp)": "白き者の一族",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6006,6 +6668,7 @@
         "effect": "WHT abilities restore 10% more HP",
         "unlockCriteria": "Use Alma's Memory Crystal",
         "name(jp)": "ベオルブの末子",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6015,6 +6678,7 @@
         "effect": "15% chance to dualcast White Magic abilities",
         "unlockCriteria": "Use Alma's Memory Crystal II, chance to obtain with Alma in party",
         "name(jp)": "修道院での教え",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6024,6 +6688,7 @@
         "effect": "DEF and MND +10% when equipping a staff",
         "unlockCriteria": "Bring Alma to level 99",
         "name(jp)": "聖魂を宿す少女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6048,6 +6713,7 @@
         "effect": "MAG +10% when equipping a thrown weapon",
         "unlockCriteria": "Use Ace's Memory Crystal",
         "name(jp)": "カードの使い手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6057,6 +6723,7 @@
         "effect": "MAG +13% when equipping a thrown weapon",
         "unlockCriteria": "Use Ace's Memory Crystal II, chance to obtain with Ace in party",
         "name(jp)": "華麗なるカードさばき",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6066,6 +6733,7 @@
         "effect": "MAG +13%, grants Physical Blink 1 at the beginning of the battle",
         "unlockCriteria": "Bring Ace to level 99",
         "name(jp)": "0組のエース格",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6075,6 +6743,7 @@
         "effect": "WHT abilities restore 10% more HP",
         "unlockCriteria": "Use Deuce's Memory Crystal",
         "name(jp)": "温厚な少女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6084,6 +6753,7 @@
         "effect": "MND +10% when equipping an instrument",
         "unlockCriteria": "Use Deuce's Memory Crystal II, chance to obtain with Deuce in party",
         "name(jp)": "音楽への関心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6093,6 +6763,7 @@
         "effect": "MND +25% when equipping an instrument",
         "unlockCriteria": "Bring Deuce to level 99",
         "name(jp)": "優しき力を司る者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6102,6 +6773,7 @@
         "effect": "ATK +10%, DEF -10%",
         "unlockCriteria": "Use Nine's Memory Crystal",
         "name(jp)": "ワイルドな言動",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6111,6 +6783,7 @@
         "effect": "PHY attacks deal 20% more damage when equipping a spear",
         "unlockCriteria": "Use Nine's Memory Crystal II, chance to obtain with Nine in party",
         "name(jp)": "槍の名手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6120,6 +6793,7 @@
         "effect": "ATK +15% when equipping a spear",
         "unlockCriteria": "Bring Nine to level 99",
         "name(jp)": "ブッコミ上等",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6129,6 +6803,7 @@
         "effect": "MND +10% when equipping a dagger",
         "unlockCriteria": "Use Rem's Memory Crystal",
         "name(jp)": "ダガーを操る少女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6138,6 +6813,7 @@
         "effect": "WHT attacks deal 20% more damage",
         "unlockCriteria": "Use Rem's Memory Crystal II, chance to obtain with Rem in party",
         "name(jp)": "親身な対応",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6147,6 +6823,7 @@
         "effect": "WHT attacks deal 30% more damage",
         "unlockCriteria": "Bring Rem to level 99",
         "name(jp)": "一途な想い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6156,6 +6833,7 @@
         "effect": "Spellblade abilities deal 15% more damage",
         "unlockCriteria": "Use Machina's Memory Crystal",
         "name(jp)": "さわやかな優等生",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6165,6 +6843,7 @@
         "effect": "Attack turns into an ability (PHY: group, 1,00 physical) with 4,50 cast time",
         "unlockCriteria": "Use Machina's Memory Crystal II, chance to obtain with Machina in party",
         "name(jp)": "純粋すぎる心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6174,6 +6853,7 @@
         "effect": "Spellblade abilities deal 40% more damage",
         "unlockCriteria": "Bring Machina to level 99",
         "name(jp)": "振るいし螺旋の刃",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6183,6 +6863,7 @@
         "effect": "ATK +10% when equipping a sword",
         "unlockCriteria": "Use Queen's Memory Crystal",
         "name(jp)": "清廉潔白な賢女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6192,6 +6873,7 @@
         "effect": "Attack turns into an ability (PHY: single, 1,00 physical) with 0,01 cast time",
         "unlockCriteria": "Use Queen's Memory Crystal II, chance to obtain with Queen in party",
         "name(jp)": "すばやい突進",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6201,6 +6883,7 @@
         "effect": "42% chance to turn Attack into Double Cut",
         "unlockCriteria": "Bring Queen to level 99",
         "name(jp)": "賢き力を司る者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6210,6 +6893,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a gun",
         "unlockCriteria": "Use King's Memory Crystal",
         "name(jp)": "オールバックの候補生",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6219,6 +6903,7 @@
         "effect": "Restores 1 use for all Machinist abilities at the beginning of the battle",
         "unlockCriteria": "Use King's Memory Crystal II, chance to obtain with King in party",
         "name(jp)": "冷静な戦術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6228,6 +6913,7 @@
         "effect": "16% chance to turn Attack into Spark Offering",
         "unlockCriteria": "Bring King to level 99",
         "name(jp)": "決断する力を司る者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6237,6 +6923,7 @@
         "effect": "8% chance to turn attack into an ability (PHY: single, 2,80 physical)",
         "unlockCriteria": "Use Cinque's Memory Crystal",
         "name(jp)": "突拍子もない言動",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6246,6 +6933,7 @@
         "effect": "Increases Earth damage dealt by 20%",
         "unlockCriteria": "Use Cinque's Memory Crystal II, chance to obtain with Cinque in party",
         "name(jp)": "剛力な天然少女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6255,6 +6943,7 @@
         "effect": "Heavy abilities deal 40% more damage",
         "unlockCriteria": "Bring Cinque to level 99",
         "name(jp)": "純真なる力を司る者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6345,6 +7034,7 @@
         "effect": "Spellblade abilities deal 15% more damage",
         "unlockCriteria": "Use Sora's Memory Crystal",
         "name(jp)": "心を繋ぐ少年",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6354,6 +7044,7 @@
         "effect": "Spellblade abilities deal 30% more damage",
         "unlockCriteria": "Use Sora's Memory Crystal II, chance to obtain with Sora in party",
         "name(jp)": "世界をめぐる絆",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6363,6 +7054,7 @@
         "effect": "Spellblade abilities deal 40% more damage",
         "unlockCriteria": "Bring Sora to level 99",
         "name(jp)": "光を信じる心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6372,6 +7064,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "unlockCriteria": "Use Riku's Memory Crystal",
         "name(jp)": "力を望む少年",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6381,6 +7074,7 @@
         "effect": "Increases Dark damage dealt by 20%",
         "unlockCriteria": "Use Riku's Memory Crystal II, chance to obtain with Riku in party",
         "name(jp)": "手段を選ばぬ意思",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6390,6 +7084,7 @@
         "effect": "Increases Dark damage dealt by 30%",
         "unlockCriteria": "Bring Riku to level 99",
         "name(jp)": "闇を覆いし心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6399,6 +7094,7 @@
         "effect": "Grants Magical Blink 1 at the beginning of the battle",
         "unlockCriteria": "Use Reynn's Memory Crystal",
         "name(jp)": "天の護り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6408,6 +7104,7 @@
         "effect": "MAG +10%, grants Magical Blink 1 at the beginning of the battle",
         "unlockCriteria": "Use Reynn's Memory Crystal II, chance to obtain with Reynn in party",
         "name(jp)": "秘めたる資質",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6417,6 +7114,7 @@
         "effect": "BLK attacks deal 30% more damage when equipping a thrown weapon",
         "unlockCriteria": "Bring Reynn to level 99",
         "name(jp)": "結末を覆せし決意",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6426,6 +7124,7 @@
         "effect": "Grants Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Lann's Memory Crystal",
         "name(jp)": "明朗快活",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6435,6 +7134,7 @@
         "effect": "ATK +10%, grants Low Regen at the beginning of the battle",
         "unlockCriteria": "Use Lann's Memory Crystal II, chance to obtain with Lann in party",
         "name(jp)": "幼き覚醒",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6444,6 +7144,7 @@
         "effect": "ATK and DEF +13% when equipping a thrown weapon",
         "unlockCriteria": "Bring Lann to level 99",
         "name(jp)": "異形の腕に宿りし力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6453,6 +7154,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a sword",
         "unlockCriteria": "Use Morrow's Memory Crystal",
         "name(jp)": "原風景",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6462,6 +7164,7 @@
         "effect": "Restores 1 use for all Support abilities at the beginning of the battle",
         "unlockCriteria": "Use Morrow's Memory Crystal II, chance to obtain with Morrow in party",
         "name(jp)": "旅の一日",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6471,6 +7174,7 @@
         "effect": "Support abilities deal 40% more damage",
         "unlockCriteria": "Bring Morrow to level 99",
         "name(jp)": "果てなき冒険",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6480,6 +7184,7 @@
         "effect": "40% chance to restore 1 use for all White Magic and Summoning abilities at the beginning of the battle",
         "unlockCriteria": "Use Aemo's Memory Crystal",
         "name(jp)": "ラジカルオレンジ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6489,6 +7194,7 @@
         "effect": "WHT abilities restore 20% more HP",
         "unlockCriteria": "Use Aemo's Memory Crystal II, chance to obtain with Aemo in party",
         "name(jp)": "小さなヒーロー",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6498,6 +7204,7 @@
         "effect": "MND +25% when equipping a rod",
         "unlockCriteria": "Bring Aemo to level 99",
         "name(jp)": "守りたかった日常",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6507,6 +7214,7 @@
         "effect": "DEF +10% when equipping a spear",
         "unlockCriteria": "Use Wrieg's Memory Crystal",
         "name(jp)": "リーグ・ソング",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6516,6 +7224,7 @@
         "effect": "Dragoon abilities deal 30% more damage",
         "unlockCriteria": "Use Wrieg's Memory Crystal II, chance to obtain with Wrieg in party",
         "name(jp)": "交わす約束",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6525,6 +7234,7 @@
         "effect": "ATK and DEF +13% when equipping a spear",
         "unlockCriteria": "Bring Wrieg to level 99",
         "name(jp)": "芽吹く信頼",
+        "gl": "✓",
         "✓": "✓"
     },
     {

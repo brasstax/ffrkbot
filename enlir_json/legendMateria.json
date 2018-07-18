@@ -6,6 +6,7 @@
         "effect": "Reduces damage taken by BLK attacks by 10%",
         "relic": "-",
         "name(jp)": "魔攻への備え",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -15,6 +16,7 @@
         "effect": "Increases the duration of stat buffs by 40%",
         "relic": "-",
         "name(jp)": "歴史省の秘伝",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -25,6 +27,7 @@
         "master": "ATK +10",
         "relic": "Keeper's Cap (Core)",
         "name(jp)": "歴史省の奥伝",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -34,6 +37,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "心を学ぶ少女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -43,6 +47,7 @@
         "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
         "name(jp)": "歴史に育まれる才華",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -53,6 +58,7 @@
         "master": "MND +10",
         "relic": "Elarra's Hat (Core)",
         "name(jp)": "芸術への興味",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -62,6 +68,7 @@
         "effect": "Reduces damage taken by Holy attacks by 10%",
         "relic": "-",
         "name(jp)": "光に選ばれし者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -71,6 +78,7 @@
         "effect": "Grants Last Stand and Sentinel at the beginning of the battle",
         "relic": "-",
         "name(jp)": "揺らぐことなき光",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -81,6 +89,7 @@
         "master": "ATK +10",
         "relic": "Crystal Helm (I)",
         "name(jp)": "輝ける魂",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -91,6 +100,7 @@
         "master": "ATK +10",
         "relic": "Flame Shield (I)",
         "name(jp)": "正義を信じぬく心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -100,6 +110,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "闇を選びし者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -109,6 +120,7 @@
         "effect": "40% chance of restoring HP to the user for 40% of the damage dealt with single-target Dark attacks",
         "relic": "-",
         "name(jp)": "闇の元凶",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -119,6 +131,7 @@
         "master": "ATK +10",
         "relic": "Demon Mail (I)",
         "name(jp)": "狂乱の古強者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -138,6 +151,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "心優しい姫",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -147,6 +161,7 @@
         "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
         "name(jp)": "民に愛されし姫君",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -157,6 +172,7 @@
         "master": "MND +10",
         "relic": "Princess Veil (I)",
         "name(jp)": "戦う者たちを想う歌",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -166,6 +182,7 @@
         "effect": "Reduces damage taken by BLK attacks by 10%",
         "relic": "-",
         "name(jp)": "ブランクを導く者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -175,6 +192,7 @@
         "effect": "Increases the duration of stat debuffs by 40%",
         "relic": "-",
         "name(jp)": "いたずら好きの本領",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -185,6 +203,7 @@
         "master": "MAG +10",
         "relic": "Captain Costume (I)",
         "name(jp)": "気まぐれなごほうび",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -194,6 +213,7 @@
         "effect": "Monk abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "研ぎ澄ます鉄拳",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -203,6 +223,7 @@
         "effect": "35% chance to dualcast Monk abilities",
         "relic": "-",
         "name(jp)": "達人の妙技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -213,6 +234,7 @@
         "master": "ATK +10",
         "relic": "Kenpogi (I)",
         "name(jp)": "熟練の瞬技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -222,6 +244,7 @@
         "effect": "BLK attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "偏屈な魔女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -231,6 +254,7 @@
         "effect": "35% chance to dualcast Witch abilities",
         "relic": "-",
         "name(jp)": "魔窟の主",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -241,6 +265,7 @@
         "master": "MAG +10",
         "relic": "Matoya's Hat (I)",
         "name(jp)": "魔道の老手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -250,6 +275,7 @@
         "effect": "Increases Water damage dealt by 10%",
         "relic": "-",
         "name(jp)": "美貌の異端者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -259,6 +285,7 @@
         "effect": "30% chance to grant Quick Cast 3 to the user after using a Water attack",
         "relic": "-",
         "name(jp)": "変幻自在な魔女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -269,6 +296,7 @@
         "master": "MAG +10",
         "relic": "Vesna Krasna (I)",
         "name(jp)": "復讐の碧き魔力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -278,6 +306,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a dagger",
         "relic": "-",
         "name(jp)": "巧みな短剣さばき",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -287,6 +316,7 @@
         "effect": "35% chance to dualcast Thief abilities",
         "relic": "-",
         "name(jp)": "盗賊の矜持",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -297,6 +327,7 @@
         "master": "ATK +10",
         "relic": "Thief's Bandana (I)",
         "name(jp)": "幸運な盗賊",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -306,6 +337,7 @@
         "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "巧みな武器術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -315,6 +347,7 @@
         "effect": "ATK +1% for each hit dealt with damaging PHY attacks, up to +50%",
         "relic": "-",
         "name(jp)": "武具を極めし者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -325,6 +358,7 @@
         "master": "ATK +10",
         "relic": "Mythril Shield (II)",
         "name(jp)": "折れぬ義侠心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -344,6 +378,7 @@
         "effect": "Increases Earth damage dealt by 10%",
         "relic": "-",
         "name(jp)": "気丈な振る舞い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -353,6 +388,7 @@
         "effect": "MAG +1% for each hit dealt with damaging BLK attacks, up to +30%",
         "relic": "-",
         "name(jp)": "熟練の大魔術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -363,6 +399,7 @@
         "master": "MAG +10",
         "relic": "Maria's Armguards (II)",
         "name(jp)": "深き慈しみの少女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -372,6 +409,7 @@
         "effect": "Increases Earth damage dealt by 10%",
         "relic": "-",
         "name(jp)": "素朴な好漢",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -381,6 +419,7 @@
         "effect": "30% chance to cause Minor Imperil Earth to the target after using a Earth attack on an enemy",
         "relic": "-",
         "name(jp)": "心優しき怪力青年",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -391,6 +430,7 @@
         "master": "ATK +10",
         "relic": "Viking Axe (II)",
         "name(jp)": "頑健なる肉体",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -400,6 +440,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "業深き戦士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -409,6 +450,7 @@
         "effect": "ATK +2% for each hit dealt with PHY attacks that deal Dark damage, up to 50%",
         "relic": "-",
         "name(jp)": "犯した罪の贖罪",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -419,6 +461,7 @@
         "master": "ATK +10",
         "relic": "Diamond Armor (II)",
         "name(jp)": "開花せし闇の力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -428,6 +471,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "美しき参謀",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -437,6 +481,7 @@
         "effect": "75% chance to remove Poison, Silence, Blind and Confuse to the user after being afflicted with Poison, Silence, Blind or Confuse",
         "relic": "-",
         "name(jp)": "究極魔法に捧げし天命",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -447,6 +492,7 @@
         "master": "MND +10",
         "relic": "Minwu's Bulwark (II)",
         "name(jp)": "反乱軍のブレーン",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -457,6 +503,7 @@
         "master": "MND +10",
         "relic": "Staff of the Magi (II)",
         "name(jp)": "天命を見抜く瞳",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -466,6 +513,7 @@
         "effect": "Support abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "勇気の片鱗",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -475,6 +523,7 @@
         "effect": "30% chance to cause Minor Imperil Fire to the target after using a Support ability on an enemy",
         "relic": "-",
         "name(jp)": "愛する者への誓い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -485,6 +534,7 @@
         "master": "ATK +10",
         "relic": "Diamond Shield (II)",
         "name(jp)": "カシュオーンの後継者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -494,6 +544,7 @@
         "effect": "Dragoon abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "勇猛なる竜騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -503,6 +554,7 @@
         "effect": "ATK +2% for each hit dealt with Dragoon abilities, up to +50%",
         "relic": "-",
         "name(jp)": "愛する者たちに誓う平和",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -513,6 +565,7 @@
         "master": "ATK +10",
         "relic": "Ricard's Gauntlets (II)",
         "name(jp)": "嵐を駆け抜けし竜",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -522,6 +575,7 @@
         "effect": "Monk abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "サラマンドの力自慢",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -531,6 +585,7 @@
         "effect": "Causes Light Doom: 15, restores HP to all allies for 55% max HP and grants Last Stand to all allies when HP fall below 20%",
         "relic": "-",
         "name(jp)": "漢の散り様",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -541,6 +596,7 @@
         "master": "ATK +10",
         "relic": "Aegis Shield (II)",
         "name(jp)": "仁義あふれる諜報員",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -550,6 +606,7 @@
         "effect": "BLK attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "魔界より出でし力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -559,6 +616,7 @@
         "effect": "45% chance to counter enemy BLK attacks with an ability (NAT: group, causes Imperil Earth 10% for 15 seconds)",
         "relic": "-",
         "name(jp)": "地獄で得し究極の力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -569,6 +627,7 @@
         "master": "MAG +10",
         "relic": "Imperial Shell (II)",
         "name(jp)": "ソウルオブリバース",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -615,6 +674,7 @@
         "effect": "Spellblade abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "潔き王子",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -624,6 +684,7 @@
         "effect": "35% chance to dualcast Spellblade abilities",
         "relic": "-",
         "name(jp)": "後進に託す理想",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -634,6 +695,7 @@
         "master": "ATK +10",
         "relic": "Demon Shield (II)",
         "name(jp)": "語らぬ愛",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -643,6 +705,7 @@
         "effect": "Increases Wind damage dealt by 10%",
         "relic": "-",
         "name(jp)": "好奇心旺盛な少年",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -652,6 +715,7 @@
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "疾風の申し子",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -662,6 +726,7 @@
         "master": "ATK +10",
         "relic": "Blessed Hammer (III)",
         "name(jp)": "ウルのやんちゃ坊主",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -681,6 +746,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "少年の思いやり",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -690,6 +756,7 @@
         "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
         "name(jp)": "頼もしき成長",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -700,6 +767,7 @@
         "master": "MND +10",
         "relic": "Lordly Robes (III)",
         "name(jp)": "読書家の理知",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -709,6 +777,7 @@
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "色恋沙汰への興味",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -718,6 +787,7 @@
         "effect": "Grants ATK +50% for Next Damaging Action after dealing a critical hit",
         "relic": "-",
         "name(jp)": "灼熱の闘技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -728,6 +798,7 @@
         "master": "ATK +10",
         "relic": "Refia's Tunic (III)",
         "name(jp)": "乙女の可愛げ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -746,6 +817,7 @@
         "effect": "Knight abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "大地の戦士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -755,6 +827,7 @@
         "effect": "ATK +3% for each hit taken by damaging attacks, up to +50%",
         "relic": "-",
         "name(jp)": "果敢なる守り手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -765,6 +838,7 @@
         "master": "ATK +10",
         "relic": "Genji Shield (III)",
         "name(jp)": "忠義の精神",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -775,6 +849,7 @@
         "master": "ATK +10",
         "relic": "Genji Armor (III)",
         "name(jp)": "奥ゆかしき凄腕兵士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -784,6 +859,7 @@
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "古代の英知",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -793,6 +869,7 @@
         "effect": "35% chance to dualcast abilities that deal Lightning damage",
         "relic": "-",
         "name(jp)": "蘇る太古の記憶",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -803,6 +880,7 @@
         "master": "MAG +10",
         "relic": "Bracer (III)",
         "name(jp)": "使命にかける気概",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -812,6 +890,7 @@
         "effect": "35% chance to dualcast Celerity abilities",
         "relic": "-",
         "name(jp)": "武器術の頂",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -821,6 +900,7 @@
         "effect": "35% chance to dualcast Black Magic abilities",
         "relic": "-",
         "name(jp)": "魔法術の頂",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -831,6 +911,7 @@
         "master": "ATK +5, MAG +5",
         "relic": "Onion Cape (III)",
         "name(jp)": "伝説の称号を持つ少年",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -850,6 +931,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "妖しき破壊者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -859,6 +941,7 @@
         "effect": "35% chance to cast an ability (BLK: group, 4,40 magical Dark) after using a Dark ability",
         "relic": "-",
         "name(jp)": "溢れし闇の波動",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -869,6 +952,7 @@
         "master": "MAG +10",
         "relic": "Brooding Armguard (III)",
         "name(jp)": "闇の氾濫より出でし存在",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -878,6 +962,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "清らかなる心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -887,6 +972,7 @@
         "effect": "Reduces damage taken by Fire attacks by 25%",
         "relic": "-",
         "name(jp)": "水のクリスタルの巫女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -897,6 +983,7 @@
         "master": "MND +10",
         "relic": "Spirit Ring (III)",
         "name(jp)": "クリスタルに捧ぐ祈り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -907,6 +994,7 @@
         "master": "MND +10",
         "relic": "Lamia's Tiara (III)",
         "name(jp)": "使命に殉ずる決意",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -916,6 +1004,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "暗黒騎士の侠気",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -925,6 +1014,7 @@
         "effect": "40% chance of restoring HP to the user for 40% of the damage dealt with single-target Dark attacks",
         "relic": "-",
         "name(jp)": "赤き血の牙",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -935,6 +1025,7 @@
         "master": "ATK +10",
         "relic": "Hades Armor (IV)",
         "name(jp)": "赤き呪いの剣",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -945,6 +1036,7 @@
         "master": "ATK +10",
         "relic": "Arondight (IV)",
         "name(jp)": "深き闇の力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -954,6 +1046,7 @@
         "effect": "Reduces damage taken by Holy attacks by 10%",
         "relic": "-",
         "name(jp)": "和を重んじる騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -963,6 +1056,7 @@
         "effect": "40% chance to cover PHY attacks that target allies, reducing damage taken by 50%",
         "relic": "-",
         "name(jp)": "聖騎士の誠心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -973,6 +1067,7 @@
         "master": "ATK +10",
         "relic": "Cecil's Guise (IV)",
         "name(jp)": "逆境を越えし聖騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -983,6 +1078,7 @@
         "master": "ATK +10",
         "relic": "Caesar's Plate (IV)",
         "name(jp)": "試練の果てに掴んだ光",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1002,6 +1098,7 @@
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "轟きし竜の咆哮",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1011,6 +1108,7 @@
         "effect": "ATK +2% for each hit dealt with jump attacks, up to +50%",
         "relic": "-",
         "name(jp)": "高き天を翔けし竜騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1021,6 +1119,7 @@
         "master": "ATK +10",
         "relic": "Dragoon Bracers (IV)",
         "name(jp)": "竜騎士の証",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1040,6 +1139,7 @@
         "effect": "SUM attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "召喚士の末裔",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1049,6 +1149,7 @@
         "effect": "35% chance to dualcast Summoning abilities",
         "relic": "-",
         "name(jp)": "幻獣に愛されし者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1059,6 +1160,7 @@
         "master": "MAG +10",
         "relic": "Rydia's Guise (IV)",
         "name(jp)": "類まれな召喚の才",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1088,6 +1190,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "優しきいのり",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1097,6 +1200,7 @@
         "effect": "75% chance to remove Poison, Silence, Blind and Confuse to the user after being afflicted with Poison, Silence, Blind or Confuse",
         "relic": "-",
         "name(jp)": "情深き白魔道士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1107,6 +1211,7 @@
         "master": "MND +10",
         "relic": "Rosa's Armguard (IV)",
         "name(jp)": "ひたむきな想い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1116,6 +1221,7 @@
         "effect": "Support abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "王子の演奏",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1125,6 +1231,7 @@
         "effect": "75% chance to remove Poison, Silence, Blind and Confuse to the user after being afflicted with Poison, Silence, Blind or Confuse",
         "relic": "-",
         "name(jp)": "呼び覚まされた勇気",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1135,6 +1242,7 @@
         "master": "ATK +10",
         "relic": "Requiem Harp (IV)",
         "name(jp)": "才能溢れる吟遊詩人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1182,6 +1290,7 @@
         "effect": "BLK attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "生意気な弟",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1191,6 +1300,7 @@
         "effect": "35% chance to dualcast Black Magic abilities",
         "relic": "-",
         "name(jp)": "ミシディアの黒き星",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1201,6 +1311,7 @@
         "master": "MAG +10",
         "relic": "Hypno Crown (IV)",
         "name(jp)": "いたずら好きの少年",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1210,6 +1321,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "おませな姉",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1219,6 +1331,7 @@
         "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
         "name(jp)": "ミシディアの白き星",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1229,6 +1342,7 @@
         "master": "MND +10",
         "relic": "Tabby Suit (IV)",
         "name(jp)": "世話焼きな少女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1238,6 +1352,7 @@
         "effect": "BLK attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "魔道への深き見識",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1247,6 +1362,7 @@
         "effect": "MAG +1% for each hit dealt with damaging BLK attacks, up to +30%",
         "relic": "-",
         "name(jp)": "鬼才と呼ばれし賢者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1257,6 +1373,7 @@
         "master": "MAG +10",
         "relic": "Magus Robe (IV)",
         "name(jp)": "賢者の本領",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1266,6 +1383,7 @@
         "effect": "Increases Water damage dealt by 10%",
         "relic": "-",
         "name(jp)": "激情の王子",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1275,6 +1393,7 @@
         "effect": "35% chance to dualcast Ninja abilities",
         "relic": "-",
         "name(jp)": "エブラーナ流の真髄",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1285,6 +1404,7 @@
         "master": "ATK +10",
         "relic": "Edge's Cloak (IV)",
         "name(jp)": "エブラーナの秘技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1294,6 +1414,7 @@
         "effect": "BLK or WHT attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "月の叡智",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1303,6 +1424,7 @@
         "effect": "35% chance to dualcast Black Magic or White Magic abilities",
         "relic": "-",
         "name(jp)": "二つの星を見守る番人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1312,6 +1434,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "四天王を束ねる者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1321,6 +1444,7 @@
         "effect": "Grants Last Stand and Sentinel at the beginning of the battle",
         "relic": "-",
         "name(jp)": "威厳溢れる魔人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1331,6 +1455,7 @@
         "master": "MAG +10",
         "relic": "Golbez's Bascinet (IV)",
         "name(jp)": "黒き威圧感",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1368,6 +1493,7 @@
         "effect": "Knight abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "若き王子の志",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1377,6 +1503,7 @@
         "effect": "35% chance to cast an ability (NAT: single, restores HP for 40% of the target's maximum HP) after using a Knight ability",
         "relic": "-",
         "name(jp)": "新たなる赤き翼",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1387,6 +1514,7 @@
         "master": "ATK +10",
         "relic": "Genji Helm (IV)",
         "name(jp)": "父譲りの正義感",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1396,6 +1524,7 @@
         "effect": "Monk abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "幼き日の記憶",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1405,6 +1534,7 @@
         "effect": "ATK +2% for each hit dealt with Monk abilities, up to +50%",
         "relic": "-",
         "name(jp)": "父が認めし武才",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1415,6 +1545,7 @@
         "master": "ATK +10",
         "relic": "Ursula's Dress (IV)",
         "name(jp)": "強き背を追って",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1424,6 +1555,7 @@
         "effect": "Increases Wind damage dealt by 10%",
         "relic": "-",
         "name(jp)": "高慢なる態度",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1433,6 +1565,7 @@
         "effect": "35% chance to dualcast abilities that deal Wind damage",
         "relic": "-",
         "name(jp)": "妖艶なる塔の支配者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1443,6 +1576,7 @@
         "master": "MAG +10",
         "relic": "Barbariccia's Guise (IV)",
         "name(jp)": "風を操る妖女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1452,6 +1586,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "姫の慈愛",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1461,6 +1596,7 @@
         "effect": "40% chance to grant Heals +30% for 10 seconds to the user after using a WHT ability",
         "relic": "-",
         "name(jp)": "慈愛に満ちた心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1471,6 +1607,7 @@
         "master": "MND +10",
         "relic": "Laurel Crown (V)",
         "name(jp)": "わけへだてなき優しさ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1480,6 +1617,7 @@
         "effect": "Monk abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "第二世界の烈士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1489,6 +1627,7 @@
         "effect": "ATK +2% for each hit dealt with Monk abilities, up to +50%",
         "relic": "-",
         "name(jp)": "後世に伝えし勇猛",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1499,6 +1638,7 @@
         "master": "ATK +10",
         "relic": "Kenpogi (V)",
         "name(jp)": "豊かなる経験",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1528,6 +1668,7 @@
         "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "暗黒魔道士の右腕",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1537,6 +1678,7 @@
         "effect": "Grants Protect, Shell, Haste and Gilgamesh Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "命がけの義理人情",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1547,6 +1689,7 @@
         "master": "ATK +10",
         "relic": "Golden Armor (V)",
         "name(jp)": "厚情なる豪傑",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1556,6 +1699,7 @@
         "effect": "Spellblade abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "鍛えられし魔法剣",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1565,6 +1709,7 @@
         "effect": "35% chance to dualcast Spellblade abilities",
         "relic": "-",
         "name(jp)": "連続魔法剣の真髄",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1575,6 +1720,7 @@
         "master": "ATK +10",
         "relic": "Maximillian (V)",
         "name(jp)": "クリスタルのかけらの加護",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1594,6 +1740,7 @@
         "effect": "Support abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "サリサの記憶",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1603,6 +1750,7 @@
         "effect": "Increases the duration of stat debuffs by 40%",
         "relic": "-",
         "name(jp)": "蘇りし肉親との思い出",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1613,6 +1761,7 @@
         "master": "ATK +10",
         "relic": "Faris's Epaulet (V)",
         "name(jp)": "勇ましき王女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1622,6 +1771,7 @@
         "effect": "Knight abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "勇気ある決断",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1631,6 +1781,7 @@
         "effect": "35% chance to dualcast Knight abilities",
         "relic": "-",
         "name(jp)": "クリスタルを見守りし者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1641,6 +1792,7 @@
         "master": "ATK +10",
         "relic": "Bastard Sword (V)",
         "name(jp)": "大地を歩んだ冒険者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1650,6 +1802,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "邪木の化身",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1659,6 +1812,7 @@
         "effect": "35% chance to dualcast abilities that deal Dark damage",
         "relic": "-",
         "name(jp)": "乱されし宇宙の法則",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1669,6 +1823,7 @@
         "master": "MAG +10",
         "relic": "Exdeath's Visage (V)",
         "name(jp)": "邪心より出でし魔道士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1678,6 +1833,7 @@
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "かぎりない愛情",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1687,6 +1843,7 @@
         "effect": "30% chance to grant Quick Cast 3 to the user after using a Fire attack",
         "relic": "-",
         "name(jp)": "宿りし祖父の魂",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1697,6 +1854,7 @@
         "master": "MAG +10",
         "relic": "Krile's Dress (V)",
         "name(jp)": "熱意あふれる少女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1716,6 +1874,7 @@
         "effect": "Spellblade abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "老練なる剣士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1725,6 +1884,7 @@
         "effect": "35% chance of smart ether 1 to the user after using a Ice attack",
         "relic": "-",
         "name(jp)": "兵法に長けた老王",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1735,6 +1895,7 @@
         "master": "ATK +10",
         "relic": "Xezat's Gauntlets (V)",
         "name(jp)": "船団を率いし器",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1744,6 +1905,7 @@
         "effect": "Increases Earth damage dealt by 10%",
         "relic": "-",
         "name(jp)": "悪を憎む戦士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1753,6 +1915,7 @@
         "effect": "30% chance to grant Quick Cast 3 to the user after using a Ninja ability",
         "relic": "-",
         "name(jp)": "ウェアウルフの長",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1763,6 +1926,7 @@
         "master": "ATK +10",
         "relic": "Kelger's Cloak (V)",
         "name(jp)": "敏速なるウェアウルフ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1772,6 +1936,7 @@
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "絆を結びしハーフ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1781,6 +1946,7 @@
         "effect": "Restores HP for 100% of the user's maximum HP and grants Terra Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "真なる魔導",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1791,6 +1957,7 @@
         "master": "MAG +10",
         "relic": "Asura's Rod (VI)",
         "name(jp)": "天性の魔導",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1800,6 +1967,7 @@
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "冒険への熱中",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1809,6 +1977,7 @@
         "effect": "Restores HP for 100% of the user's maximum HP and grants Phoenix Mode when HP fall below 20%",
         "relic": "-",
         "name(jp)": "フェニックスの加護",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1819,6 +1988,7 @@
         "master": "ATK +10",
         "relic": "Locke's Armguard (VI)",
         "name(jp)": "秘宝を求めし熱情",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1828,6 +1998,7 @@
         "effect": "Spellblade abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "ルーンナイトの剣技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1837,6 +2008,7 @@
         "effect": "Exploiting elemental weakness grants 50% more Soul Break points (additive with the default 50% bonus)",
         "relic": "-",
         "name(jp)": "ルーンナイトの神技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1847,6 +2019,7 @@
         "master": "ATK +10",
         "relic": "Celes's Cloak (VI)",
         "name(jp)": "ルーンナイトの妙技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1856,6 +2029,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "頼れる親分",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1865,6 +2039,7 @@
         "effect": "35% chance to cast an ability (WHT: group, restores HP (25)) after using a Dancer ability",
         "relic": "-",
         "name(jp)": "踊りを愛する者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1875,6 +2050,7 @@
         "master": "MND +10",
         "relic": "Pixie's Scythe (VI)",
         "name(jp)": "モーグリ族の長",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1894,6 +2070,7 @@
         "effect": "Machinist abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "レディへの礼儀",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1903,6 +2080,7 @@
         "effect": "35% chance to dualcast Machinist abilities",
         "relic": "-",
         "name(jp)": "国を統べる若き王",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1913,6 +2091,7 @@
         "master": "ATK +10",
         "relic": "Genji Shield (VI)",
         "name(jp)": "機械文明の牽引者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1932,6 +2111,7 @@
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "熱き義侠心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1941,6 +2121,7 @@
         "effect": "35% chance to dualcast abilities that deal Fire damage",
         "relic": "-",
         "name(jp)": "修得せし奥義",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1951,6 +2132,7 @@
         "master": "ATK +10",
         "relic": "Vishnu Vest (VI)",
         "name(jp)": "師の教え",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1970,6 +2152,7 @@
         "effect": "Ninja abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "暗殺の技法",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1979,6 +2162,7 @@
         "effect": "35% chance to dualcast Ninja abilities",
         "relic": "-",
         "name(jp)": "戦いの中に生きる者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1989,6 +2173,7 @@
         "master": "ATK +10",
         "relic": "Black Hood (VI)",
         "name(jp)": "闇に棲む暗殺者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1998,6 +2183,7 @@
         "effect": "Samurai abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "仇討ちの旅路",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2007,6 +2193,7 @@
         "effect": "35% chance to dualcast Samurai abilities",
         "relic": "-",
         "name(jp)": "迷い断ちし真の武人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2017,6 +2204,7 @@
         "master": "ATK +10",
         "relic": "Cyan's Bracer (VI)",
         "name(jp)": "己の信ずる道",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2054,6 +2242,7 @@
         "effect": "Support abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "飛ぶ鳥に導かれて",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2063,6 +2252,7 @@
         "effect": "30% chance to cast an ability (PHY: single, 0,25 physical, ATK/MAG/MND -30%) after dealing damage with a Support ability",
         "relic": "-",
         "name(jp)": "運命を切り開く賭け",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2073,6 +2263,7 @@
         "master": "ATK +10",
         "relic": "Setzer's Long Coat (VI)",
         "name(jp)": "蘇りしもう一つの翼",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2082,6 +2273,7 @@
         "effect": "Increases Water damage dealt by 10%",
         "relic": "-",
         "name(jp)": "モンスターの謎を追う者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2091,6 +2283,7 @@
         "effect": "25% chance to cast an ability (NAT: group, restores HP for 30% of the target's maximum HP) after taking damage from an enemy",
         "relic": "-",
         "name(jp)": "希望を呼び覚ます絆",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2101,6 +2294,7 @@
         "master": "MAG +10",
         "relic": "Rod of Faith (VI)",
         "name(jp)": "烈火に挑む魔導の力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2120,6 +2314,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "奇跡のピクトマンサー",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2129,6 +2324,7 @@
         "effect": "Reduces damage taken by Fire, Ice, Lightning, Earth, Wind, Water, Holy, Dark and Poison attacks by 15%",
         "relic": "-",
         "name(jp)": "猫耳ピクトマンサー",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2139,6 +2335,7 @@
         "master": "MND +10",
         "relic": "Relm's Hat (VI)",
         "name(jp)": "奇跡の色彩",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2158,6 +2355,7 @@
         "effect": "Mimic attacks deal 15% more damage",
         "relic": "-",
         "name(jp)": "ものまね士の技術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2167,6 +2365,7 @@
         "effect": "ATK and MAG +2% for each hit dealt with Mimic attacks, up to +30%",
         "relic": "-",
         "name(jp)": "真なる模倣",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2177,6 +2376,7 @@
         "master": "ATK +5, MAG +5",
         "relic": "Thornlet (VI)",
         "name(jp)": "世界を救うものまね",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2224,6 +2424,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "嗤う魔導士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2233,6 +2434,7 @@
         "effect": "30% chance to grant Quick Cast 3 to the user after using a Dark attack",
         "relic": "-",
         "name(jp)": "破壊を謳う享楽の道化",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2243,6 +2445,7 @@
         "master": "MAG +10",
         "relic": "Mischief Cap (VI)",
         "name(jp)": "裏切りの道化師",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2252,6 +2455,7 @@
         "effect": "Knight abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "ガストラ帝国の良心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2261,6 +2465,7 @@
         "effect": "35% chance to dualcast Knight abilities",
         "relic": "-",
         "name(jp)": "信念に殉ずる将軍",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2271,6 +2476,7 @@
         "master": "ATK +10",
         "relic": "Aegis Shield (VI)",
         "name(jp)": "和平への希望",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2280,6 +2486,7 @@
         "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "孤狼",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2289,6 +2496,7 @@
         "effect": "35% chance to dualcast Combat abilities",
         "relic": "-",
         "name(jp)": "誇りの継承者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2299,6 +2507,7 @@
         "master": "ATK +10",
         "relic": "Steady Light (VII)",
         "name(jp)": "狼の疾走",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2309,6 +2518,7 @@
         "master": "ATK +10",
         "relic": "Organics+ (VII)",
         "name(jp)": "真実を超克する者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2319,6 +2529,7 @@
         "master": "ATK +10",
         "relic": "Cloud (KH)",
         "name(jp)": "光探す剣士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2356,6 +2567,7 @@
         "effect": "Increases Earth damage dealt by 10%",
         "relic": "-",
         "name(jp)": "健気な献身",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2365,6 +2577,7 @@
         "effect": "30% chance to grant Quick Cast 3 to the user after using a Monk ability",
         "relic": "-",
         "name(jp)": "天性の格闘センス",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2375,6 +2588,7 @@
         "master": "ATK +10",
         "relic": "Seventh Heaven (VII)",
         "name(jp)": "セブンスヘブンの看板娘",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2385,6 +2599,7 @@
         "master": "ATK +10",
         "relic": "Tifa's Guise (VII)",
         "name(jp)": "心温かな女闘士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2394,6 +2609,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "古代種の末裔",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2403,6 +2619,7 @@
         "effect": "35% chance to cast an ability (WHT: group, restores HP (25)) after using a White Magic ability",
         "relic": "-",
         "name(jp)": "星を見守る慈母",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2413,6 +2630,7 @@
         "master": "MND +10",
         "relic": "Aerith's Jacket (VII)",
         "name(jp)": "スラムの花売り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2422,6 +2640,7 @@
         "effect": "Support abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "獰猛な牙",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2431,6 +2650,7 @@
         "effect": "Increases the duration of stat buffs by 40%",
         "relic": "-",
         "name(jp)": "誇り高き戦士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2441,6 +2661,7 @@
         "master": "ATK +10",
         "relic": "Hairpin (VII)",
         "name(jp)": "勇者の息子",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2460,6 +2681,7 @@
         "effect": "Increases Water damage dealt by 10%",
         "relic": "-",
         "name(jp)": "故郷を想う少女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2469,6 +2691,7 @@
         "effect": "35% chance to dualcast Ninja abilities",
         "relic": "-",
         "name(jp)": "抜け目ない忍者娘",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2479,6 +2702,7 @@
         "master": "ATK +10",
         "relic": "Yuffie's Guise (VII)",
         "name(jp)": "アタシのもの！",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2516,6 +2740,7 @@
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "タークス・オブ・タークス",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2525,6 +2750,7 @@
         "effect": "Restores HP for 100% of the user's maximum HP and grants Galian Beast when HP fall below 20%",
         "relic": "-",
         "name(jp)": "獣を宿す者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2535,6 +2761,7 @@
         "master": "ATK +5, MAG +5",
         "relic": "Vincent's Bandana (DoC) (VII)",
         "name(jp)": "赤き決意",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2544,6 +2771,7 @@
         "effect": "Celerity abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "ソルジャーの威信",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2553,6 +2781,7 @@
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "ソルジャーの速攻",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2563,6 +2792,7 @@
         "master": "ATK +10",
         "relic": "Shinra Beta+ (CC) (VII)",
         "name(jp)": "ソルジャーの追撃",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2572,6 +2802,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a katana",
         "relic": "-",
         "name(jp)": "堕ちた英雄",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2581,6 +2812,7 @@
         "effect": "Restores HP for 100% of the user's maximum HP and grants Sephiroth Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "ジェノバの意思を継ぐ者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2591,6 +2823,7 @@
         "master": "ATK +10",
         "relic": "Sephiroth's Darkcoat (VII)",
         "name(jp)": "運命を変えし秘密",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2600,6 +2833,7 @@
         "effect": "Increases Wind damage dealt by 10%",
         "relic": "-",
         "name(jp)": "愛煙家の艇長",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2609,6 +2843,7 @@
         "effect": "ATK +2% for each hit dealt with PHY attacks that deal Wind damage, up to +50%",
         "relic": "-",
         "name(jp)": "空のリーダー",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2619,6 +2854,7 @@
         "master": "ATK +10",
         "relic": "Cid's Jacket (VII)",
         "name(jp)": "大空の覇者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2628,6 +2864,7 @@
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "光線の使い手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2637,6 +2874,7 @@
         "effect": "35% chance to dualcast abilities that deal Lightning damage",
         "relic": "-",
         "name(jp)": "神速の仕事人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2647,6 +2885,7 @@
         "master": "ATK +5, MAG +5",
         "relic": "Enhanced Light Rod (VII)",
         "name(jp)": "調査課の自負と誇り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2656,6 +2895,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a gun",
         "relic": "-",
         "name(jp)": "神羅の御曹司",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2665,6 +2905,7 @@
         "effect": "30% chance to cause Minor Imperil Dark to the target after using a Dark attack on an enemy",
         "relic": "-",
         "name(jp)": "若き策略家",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2675,6 +2916,7 @@
         "master": "ATK +10",
         "relic": "Rufus's Jacket (VII)",
         "name(jp)": "世界の代表者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2684,6 +2926,7 @@
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "橙を帯びし二槍",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2693,6 +2936,7 @@
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "無式",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2703,6 +2947,7 @@
         "master": "ATK +10",
         "relic": "Slash Lance (VII)",
         "name(jp)": "時の止まりし戦士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2712,6 +2957,7 @@
         "effect": "Spellblade abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "雄々しき獅子の心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2721,6 +2967,7 @@
         "effect": "35% chance to dualcast Spellblade abilities",
         "relic": "-",
         "name(jp)": "伝説のSeeD",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2731,6 +2978,7 @@
         "master": "ATK +10",
         "relic": "Lion Gloves (VIII)",
         "name(jp)": "猛々しき獅子の牙",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2740,6 +2988,7 @@
         "effect": "BLK attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "大胆な美少女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2749,6 +2998,7 @@
         "effect": "30% chance to grant Quick Cast 3 to the user after using a BLK attack",
         "relic": "-",
         "name(jp)": "悲劇の連鎖を断つ者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2759,6 +3009,7 @@
         "master": "MAG +10",
         "relic": "Rinoa's Arm Warmers (VIII)",
         "name(jp)": "運命に屈せぬ魔女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2826,6 +3077,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a fist weapon",
         "relic": "-",
         "name(jp)": "格闘王の愛読者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2835,6 +3087,7 @@
         "effect": "30% chance to grant Quick Cast 3 to the user after dealing a critical hit",
         "relic": "-",
         "name(jp)": "俺式脊髄反射",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2845,6 +3098,7 @@
         "master": "ATK +10",
         "relic": "Zell's Jacket (VIII)",
         "name(jp)": "暴れん坊の気迫",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2864,6 +3118,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "絶やさぬ笑顔",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2873,6 +3128,7 @@
         "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
         "name(jp)": "秘めたる郷土愛",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2883,6 +3139,7 @@
         "master": "MND +10",
         "relic": "Selphie's Guise (VIII)",
         "name(jp)": "学園祭への執念",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2892,6 +3149,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a gun",
         "relic": "-",
         "name(jp)": "優しき狙撃手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2901,6 +3159,7 @@
         "effect": "30% chance to grant Quick Cast 3 to the user after using a Sharpshooter ability",
         "relic": "-",
         "name(jp)": "凄腕の速射術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2911,6 +3170,7 @@
         "master": "ATK +10",
         "relic": "Irvine's Guise (VIII)",
         "name(jp)": "過去を知る者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2920,6 +3180,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "問題児の暴走",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2929,6 +3190,7 @@
         "effect": "Grants Last Stand and Reraise: 40% at the beginning of the battle",
         "relic": "-",
         "name(jp)": "勝利への執念",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2939,6 +3201,7 @@
         "master": "ATK +10",
         "relic": "Seifer's Guise (VIII)",
         "name(jp)": "執拗なる襲撃者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2949,6 +3212,7 @@
         "master": "ATK +10",
         "relic": "Blitz Armor (VIII)",
         "name(jp)": "横暴な風紀委員長",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2959,6 +3223,7 @@
         "master": "ATK +10",
         "relic": "Ambition Bracer (VIII)",
         "name(jp)": "利己的な夢追い人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2968,6 +3233,7 @@
         "effect": "Machinist abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "ジャーナリスト志望",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2977,6 +3243,7 @@
         "effect": "35% chance to dualcast Machinist abilities",
         "relic": "-",
         "name(jp)": "タクティカルガンナー",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2987,6 +3254,7 @@
         "master": "ATK +10",
         "relic": "Presidential Casual (VIII)",
         "name(jp)": "好漢の茶目っ気",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2996,6 +3264,7 @@
         "effect": "BLK attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "美しき指導者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3005,6 +3274,7 @@
         "effect": "MAG +1% for each hit dealt with BLK attacks that deal Ice damage, up to +30%",
         "relic": "-",
         "name(jp)": "未来の魔女の秘術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3015,6 +3285,7 @@
         "master": "MAG +10",
         "relic": "Sorceress Crown+ (VIII)",
         "name(jp)": "巨大なる魔力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3024,6 +3295,7 @@
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "豪胆なる雷",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3033,6 +3305,7 @@
         "effect": "ATK +2% for each hit dealt with Monk abilities, up to +50%",
         "relic": "-",
         "name(jp)": "豪傑の闘技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3043,6 +3316,7 @@
         "master": "ATK +10",
         "relic": "Bolt Armlet (VIII)",
         "name(jp)": "轟く豪雷",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3062,6 +3336,7 @@
         "effect": "Increases Wind damage dealt by 10%",
         "relic": "-",
         "name(jp)": "鋭利なる風",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3071,6 +3346,7 @@
         "effect": "30% chance to grant Quick Cast 3 to the user after using a Wind attack",
         "relic": "-",
         "name(jp)": "神速の闘法",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3081,6 +3357,7 @@
         "master": "MAG +10",
         "relic": "Fujin's Bracers (VIII)",
         "name(jp)": "猛る烈風",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3090,6 +3367,7 @@
         "effect": "BLK attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "尊大な態度",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3099,6 +3377,7 @@
         "effect": "35% chance to dualcast abilities that deal Wind damage",
         "relic": "-",
         "name(jp)": "妖艶な時の魔女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3109,6 +3388,7 @@
         "master": "MAG +10",
         "relic": "Harmonia's Guard (VIII)",
         "name(jp)": "傲慢な野望",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3118,6 +3398,7 @@
         "effect": "Increases Wind damage dealt by 10%",
         "relic": "-",
         "name(jp)": "風来の盗賊",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3127,6 +3408,7 @@
         "effect": "Restores HP for 100% of the user's maximum HP and grants Zidane Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "赤き星の可能性",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3137,6 +3419,7 @@
         "master": "ATK +10",
         "relic": "Zidane's Gloves (IX)",
         "name(jp)": "盗賊の即断",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3147,6 +3430,7 @@
         "master": "ATK +10",
         "relic": "Ninja Gear (IX)",
         "name(jp)": "盗賊の機転",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3156,6 +3440,7 @@
         "effect": "SUM attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "秘められた素性",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3165,6 +3450,7 @@
         "effect": "Restores HP for 100% of the user's maximum HP and grants Garnet Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "迷いを捨てた美姫",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3175,6 +3461,7 @@
         "master": "MAG +10",
         "relic": "Lamia's Tiara (IX)",
         "name(jp)": "気高き決意",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3185,6 +3472,7 @@
         "master": "MAG +10",
         "relic": "Princess Gloves (IX)",
         "name(jp)": "演劇を愛する姫",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3194,6 +3482,7 @@
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "灯りし思い出",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3203,6 +3492,7 @@
         "effect": "Restores HP for 100% of the user's maximum HP and grants Vivi Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "見い出せし生きる意味",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3213,6 +3503,7 @@
         "master": "MAG +10",
         "relic": "Vivi's Hat (IX)",
         "name(jp)": "蓄積されし魔力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3232,6 +3523,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a sword",
         "relic": "-",
         "name(jp)": "王家に捧げし剣",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3241,6 +3533,7 @@
         "effect": "Restores HP for 100% of the user's maximum HP and grants Steiner Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "進むべき真の道",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3251,6 +3544,7 @@
         "master": "ATK +10",
         "relic": "Gold Armor (IX)",
         "name(jp)": "創意工夫の魔法剣",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3260,6 +3554,7 @@
         "effect": "Increases Wind damage dealt by 10%",
         "relic": "-",
         "name(jp)": "美しき女竜騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3269,6 +3564,7 @@
         "effect": "Restores HP for 100% of the user's maximum HP and grants Freya Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "忘れえぬ愛を抱く者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3279,6 +3575,7 @@
         "master": "ATK +10",
         "relic": "Freya's Cap (IX)",
         "name(jp)": "精進を怠らぬ騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3298,6 +3595,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a spear",
         "relic": "-",
         "name(jp)": "ク族のたしなみ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3307,6 +3605,7 @@
         "effect": "Restores HP for 100% of the user's maximum HP, grants 500 SB points and grants Quina Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "ク族の晩餐",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3317,6 +3616,7 @@
         "master": "ATK +10",
         "relic": "Silver Fork (IX)",
         "name(jp)": "ク族の備え",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3336,6 +3636,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "レディへの憧れ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3345,6 +3646,7 @@
         "effect": "Restores HP for 100% of the user's maximum HP and grants Eiko Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "マダイン・サリの加護",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3355,6 +3657,7 @@
         "master": "MND +10",
         "relic": "Eiko's Guise (IX)",
         "name(jp)": "故郷に馳せる想い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3392,6 +3695,7 @@
         "effect": "Increases Holy damage dealt by 10%",
         "relic": "-",
         "name(jp)": "大陸一の聖騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3401,6 +3705,7 @@
         "effect": "35% chance to dualcast Knight abilities",
         "relic": "-",
         "name(jp)": "使命に目覚めし聖騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3411,6 +3716,7 @@
         "master": "ATK +10",
         "relic": "Beatrix's Plate (IX)",
         "name(jp)": "絶対なる忠誠心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3420,6 +3726,7 @@
         "effect": "Reduces damage taken by BLK attacks by 10%",
         "relic": "-",
         "name(jp)": "眠らない街のキング",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3429,6 +3736,7 @@
         "effect": "35% chance to dualcast abilities that deal Dark damage",
         "relic": "-",
         "name(jp)": "永遠ならざる死神",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3439,6 +3747,7 @@
         "master": "MAG +10",
         "relic": "Chosen of Treno (IX)",
         "name(jp)": " 無彩色の自己愛",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3476,6 +3785,7 @@
         "effect": "Increases Water damage dealt by 10%",
         "relic": "-",
         "name(jp)": "水の異邦人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3485,6 +3795,7 @@
         "effect": "35% chance to dualcast abilities that deal Water damage",
         "relic": "-",
         "name(jp)": "夢を終わらせる夢",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3495,6 +3806,7 @@
         "master": "ATK +10",
         "relic": "Tidus's Armguards (X)",
         "name(jp)": "幻光の加護",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3504,6 +3816,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "スピラに捧ぐ祈り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3513,6 +3826,7 @@
         "effect": "Increases base MAG by 25% base MND",
         "relic": "-",
         "name(jp)": "父を超えし大召喚士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3523,6 +3837,7 @@
         "master": "MAG +10",
         "relic": "Staff of Thorns (X)",
         "name(jp)": "受け継ぎし父の遺志",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3533,6 +3848,7 @@
         "master": "MND +10",
         "relic": "Bridal Gown (X)",
         "name(jp)": "指笛の約束",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3542,6 +3858,7 @@
         "effect": "Increases Water damage dealt by 10%",
         "relic": "-",
         "name(jp)": "みんなの兄貴",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3551,6 +3868,7 @@
         "effect": "30% chance to cause Minor Imperil Water to the target after using a Sharpshooter ability on an enemy",
         "relic": "-",
         "name(jp)": "ブリッツに込めた想い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3561,6 +3879,7 @@
         "master": "ATK +10",
         "relic": "Cerulean Armguard (X)",
         "name(jp)": "テクニカルコントロール",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3570,6 +3889,7 @@
         "effect": "BLK attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "博識の魔女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3579,6 +3899,7 @@
         "effect": "35% chance to dualcast abilities that deal Ice damage",
         "relic": "-",
         "name(jp)": "黒魔法の誘惑",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3589,6 +3910,7 @@
         "master": "MAG +10",
         "relic": "Sapphire Bangle (X)",
         "name(jp)": "3度目の旅路",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3636,6 +3958,7 @@
         "effect": "Celerity abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "螺旋模様の瞳",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3645,6 +3968,7 @@
         "effect": "Increases the duration of stat buffs by 40%",
         "relic": "-",
         "name(jp)": "アルベド族の申し子",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3655,6 +3979,7 @@
         "master": "ATK +10",
         "relic": "Warrior's Targe (X)",
         "name(jp)": "遺物の修復者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3674,6 +3999,7 @@
         "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "真実への導き手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3683,6 +4009,7 @@
         "effect": "35% chance to dualcast Samurai abilities",
         "relic": "-",
         "name(jp)": "大召喚士のガード",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3693,6 +4020,7 @@
         "master": "ATK +10",
         "relic": "Blurry Moon (X)",
         "name(jp)": "牙を剥きし龍",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3712,6 +4040,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "素直になれない親父",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3721,6 +4050,7 @@
         "effect": "35% chance to dualcast abilities that deal Dark damage",
         "relic": "-",
         "name(jp)": "託した想い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3731,6 +4061,7 @@
         "master": "ATK +10",
         "relic": "Jecht's Sparring Suit (X)",
         "name(jp)": "ブリッツの王者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3760,6 +4091,7 @@
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "穏便な大召喚士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3769,6 +4101,7 @@
         "effect": "35% chance to dualcast Summoning abilities",
         "relic": "-",
         "name(jp)": "大召喚士の悲願",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3779,6 +4112,7 @@
         "master": "MAG +10",
         "relic": "High Summoner's Helm (X)",
         "name(jp)": "大召喚士の静かなる怒り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3788,6 +4122,7 @@
         "effect": "Spellblade abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "女剣士のプライド",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3797,6 +4132,7 @@
         "effect": "35% chance to dualcast Spellblade abilities",
         "relic": "-",
         "name(jp)": "俊敏なる剣",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3807,6 +4143,7 @@
         "master": "ATK +10",
         "relic": "Gunner's Guise (X)",
         "name(jp)": "カモメ団のお目付役",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3816,6 +4153,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "野心を秘めし召喚士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3825,6 +4163,7 @@
         "effect": "40% chance of restoring HP to the user for 40% of the damage dealt with single-target Dark attacks",
         "relic": "-",
         "name(jp)": "光を奪いし死人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3835,6 +4174,7 @@
         "master": "MAG +10",
         "relic": "Moonglow Rod (X)",
         "name(jp)": "破滅に導く救済者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3844,6 +4184,7 @@
         "effect": "BLK attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "比類なき魔力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3853,6 +4194,7 @@
         "effect": "Restores HP for 100% of the user's maximum HP and grants Play Rough Mode when HP fall below 20%",
         "relic": "-",
         "name(jp)": "黒きアンタッチャブル",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3863,6 +4205,7 @@
         "master": "MAG +10",
         "relic": "Wizard's Coat (XI)",
         "name(jp)": "絶対なる唯我独尊",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3882,6 +4225,7 @@
         "effect": "Increases Ice damage dealt by 10%",
         "relic": "-",
         "name(jp)": "冷静な剣さばき",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3891,6 +4235,7 @@
         "effect": "35% chance to dualcast Samurai abilities",
         "relic": "-",
         "name(jp)": "修めし武の道",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3901,6 +4246,7 @@
         "master": "ATK +10",
         "relic": "Myochin Domaru (XI)",
         "name(jp)": "即撃ちの型",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3910,6 +4256,7 @@
         "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "厳しき鍛錬の成果",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3919,6 +4266,7 @@
         "effect": "35% chance to grant Magic Blink 1 to the user after taking damage from an enemy",
         "relic": "-",
         "name(jp)": "暁の女神への深き信心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3929,6 +4277,7 @@
         "master": "ATK +10",
         "relic": "Royal Squire's Mufflers (XI)",
         "name(jp)": "騎士団長の配慮",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3966,6 +4315,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a dagger",
         "relic": "-",
         "name(jp)": "エージェントの短剣術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3975,6 +4325,7 @@
         "effect": "35% chance to dualcast Thief abilities",
         "relic": "-",
         "name(jp)": "エージェントの連撃",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3985,6 +4336,7 @@
         "master": "ATK +10",
         "relic": "Kidney Dagger (XI)",
         "name(jp)": "造詣深きエージェント",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3994,6 +4346,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "可憐なからくり士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4003,6 +4356,7 @@
         "effect": "Grants Reraise: 80% at the beginning of the battle, grants Dual Blink 1 to the user when Reraise is triggered",
         "relic": "-",
         "name(jp)": "平和を望みし聖皇",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4013,6 +4367,7 @@
         "master": "MND +10",
         "relic": "Alkyoneus's Bracelet (XI)",
         "name(jp)": "宮廷傀儡師の秘術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4064,6 +4419,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a dagger",
         "relic": "-",
         "name(jp)": "未知への好奇心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4073,6 +4429,7 @@
         "effect": "Increases damage dealt by 5/10/15/20/30% if 1/2/3/4/5 of the target's stats are lowered",
         "relic": "-",
         "name(jp)": "青空に見る未来",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4083,6 +4440,7 @@
         "master": "ATK +10",
         "relic": "Vaan's Vest (XII)",
         "name(jp)": "物怖じしない度胸",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4093,6 +4451,7 @@
         "master": "ATK +10",
         "relic": "Vaan's Gauntlets (XII)",
         "name(jp)": "空賊への憧れ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4102,6 +4461,7 @@
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "キザな伊達男",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4111,6 +4471,7 @@
         "effect": "30% chance to cause Minor Imperil Fire to the target after using a Machinist ability on an enemy",
         "relic": "-",
         "name(jp)": "最速と呼ばれし空賊",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4121,6 +4482,7 @@
         "master": "ATK +10",
         "relic": "Goggle Mask (XII)",
         "name(jp)": "主人公を自負する者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4130,6 +4492,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a bow",
         "relic": "-",
         "name(jp)": "優美なる射手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4139,6 +4502,7 @@
         "effect": "Increases the duration of stat debuffs by 40%",
         "relic": "-",
         "name(jp)": "種族を超えし絆",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4149,6 +4513,7 @@
         "master": "ATK +10",
         "relic": "Fran's Bracers (XII)",
         "name(jp)": "知勇兼ね備えし女戦士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4168,6 +4533,7 @@
         "effect": "Knight abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "誠実なる将軍",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4177,6 +4543,7 @@
         "effect": "40% chance to cover PHY attacks that target allies, reducing damage taken by 50%",
         "relic": "-",
         "name(jp)": "守護への固き誓い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4187,6 +4554,7 @@
         "master": "ATK +10",
         "relic": "Basch's Gloves (XII)",
         "name(jp)": "ダルマスカに捧ぐ忠心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4196,6 +4564,7 @@
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "高潔なる振る舞い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4205,6 +4574,7 @@
         "effect": "35% chance to dualcast abilities that deal Lightning damage",
         "relic": "-",
         "name(jp)": "支配を糾す王女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4215,6 +4585,7 @@
         "master": "MAG +10",
         "relic": "Ashe's Bracers (XII)",
         "name(jp)": "誇り失わぬ王女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4224,6 +4595,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "けなげなガールフレンド",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4233,6 +4605,7 @@
         "effect": "35% chance to cast an ability (WHT: group, restores HP (25)) after using a Dancer ability",
         "relic": "-",
         "name(jp)": "踊り子を夢見る少女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4243,6 +4616,7 @@
         "master": "MND +10",
         "relic": "Feathered Cap (XII)",
         "name(jp)": "溢れる思いやり",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4252,6 +4626,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "無明の感情",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4261,6 +4636,7 @@
         "effect": "ATK +2% for each hit dealt with PHY attacks that deal Dark damage, up to +50%",
         "relic": "-",
         "name(jp)": "憎しみという名の糧",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4271,6 +4647,7 @@
         "master": "ATK +10",
         "relic": "Barbut (XII)",
         "name(jp)": "黒鉄を纏いし武人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4280,6 +4657,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "執政者の才",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4289,6 +4667,7 @@
         "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
         "name(jp)": "次代の皇帝",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4299,6 +4678,7 @@
         "master": "MND +10",
         "relic": "Swordbreaker (XII)",
         "name(jp)": "歪みを正す信念",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4308,6 +4688,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "迷いなき覚悟",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4317,6 +4698,7 @@
         "effect": "35% chance to dualcast abilities that deal Dark damage",
         "relic": "-",
         "name(jp)": "覇道を歩む者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4327,6 +4709,7 @@
         "master": "ATK +5, MAG +5",
         "relic": "Novus Leathers (XII)",
         "name(jp)": "血塗られた剣",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4336,6 +4719,7 @@
         "effect": "Spellblade abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "弟想いの兄",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4345,6 +4729,7 @@
         "effect": "35% chance to dualcast Spellblade abilities",
         "relic": "-",
         "name(jp)": "勇敢なる愛国者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4355,6 +4740,7 @@
         "master": "ATK +10",
         "relic": "Bone Mail (XII)",
         "name(jp)": "若き義勇兵",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4364,6 +4750,7 @@
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "雷光を名乗りし者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4373,6 +4760,7 @@
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "麗しき女神の騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4383,6 +4771,7 @@
         "master": "ATK +10",
         "relic": "Lightning's Reprise (XIII)",
         "name(jp)": "閃きし女剣士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4402,6 +4791,7 @@
         "effect": "Reduces damage taken by Ice attacks by 10%",
         "relic": "-",
         "name(jp)": "熱き快男児",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4411,6 +4801,7 @@
         "effect": "Grants High Sentinel at the beginning of the battle",
         "relic": "-",
         "name(jp)": "明朗快活なヒーロー",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4421,6 +4812,7 @@
         "master": "ATK +10",
         "relic": "Snow's Longcoat (XIII)",
         "name(jp)": "不退転の決意",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4440,6 +4832,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "パルスの祈り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4449,6 +4842,7 @@
         "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
         "name(jp)": "救世への決意",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4459,6 +4853,7 @@
         "master": "MND +10",
         "relic": "Rod of Thorns (XIII)",
         "name(jp)": "優しき贖罪",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4469,6 +4864,7 @@
         "master": "MND +10",
         "relic": "Vanille's Guise (XIII)",
         "name(jp)": "穏やかな励まし",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4478,6 +4874,7 @@
         "effect": "Support abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "陽気な父ちゃん",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4487,6 +4884,7 @@
         "effect": "Increases the duration of stat buffs by 40%",
         "relic": "-",
         "name(jp)": "息子への想い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4497,6 +4895,7 @@
         "master": "ATK +10",
         "relic": "Sazh's Coat (XIII)",
         "name(jp)": "奮闘する父",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4506,6 +4905,7 @@
         "effect": "Increases Holy damage dealt by 10%",
         "relic": "-",
         "name(jp)": "母への想い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4515,6 +4915,7 @@
         "effect": "35% chance to dualcast abilities that deal Holy damage",
         "relic": "-",
         "name(jp)": "恩讐を越える希望",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4525,6 +4926,7 @@
         "master": "MAG +10",
         "relic": "Hope's Guise (XIII)",
         "name(jp)": "めざましき成長",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4534,6 +4936,7 @@
         "effect": "Increases Wind damage dealt by 10%",
         "relic": "-",
         "name(jp)": "精悍なる戦士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4543,6 +4946,7 @@
         "effect": "35% chance to cast an ability (PHY: single, 4x 0,54 ranged physical Wind/NE) after using a Dragoon ability",
         "relic": "-",
         "name(jp)": "大空翔けし竜の咆哮",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4553,6 +4957,7 @@
         "master": "ATK +10",
         "relic": "Fang's Guise (XIII)",
         "name(jp)": "男まさりの女闘士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4562,6 +4967,7 @@
         "effect": "Increases Ice damage dealt by 10%",
         "relic": "-",
         "name(jp)": "再会への願い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4571,6 +4977,7 @@
         "effect": "MAG +1% for each hit dealt with BLK attacks that deal Ice damage, up to +30%",
         "relic": "-",
         "name(jp)": "時を超える旅人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4581,6 +4988,7 @@
         "master": "MAG +10",
         "relic": "Beachwear (XIII)",
         "name(jp)": "未来視の異能",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4590,6 +4998,7 @@
         "effect": "BLK attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "若き理想家",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4599,6 +5008,7 @@
         "effect": "35% chance to dualcast abilities that deal Holy or Dark damage",
         "relic": "-",
         "name(jp)": "熾天使の暗き力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4609,6 +5019,7 @@
         "master": "MAG +10",
         "relic": "Raines's Reprise (XIII)",
         "name(jp)": "死者たちの代弁者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4618,6 +5029,7 @@
         "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "未来から来たハンター",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4627,6 +5039,7 @@
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "歴史を変える覚悟",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4637,6 +5050,7 @@
         "master": "ATK +10",
         "relic": "Noel's Bracer (XIII)",
         "name(jp)": "未来を切り開く剣技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4647,6 +5061,7 @@
         "master": "ATK +10",
         "relic": "Noel's Guise (XIII)",
         "name(jp)": "高きハンターの資質",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4656,6 +5071,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "冷徹な本性",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4665,6 +5081,7 @@
         "effect": "30% chance to cause Minor Imperil Dark to the target after using a Dark attack on an enemy",
         "relic": "-",
         "name(jp)": "美貌の裏に潜む野心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4675,6 +5092,7 @@
         "master": "MAG +10",
         "relic": "Nabaat's Glove (XIII)",
         "name(jp)": "悪意の発露",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4684,6 +5102,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "磨き抜かれた幻術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4693,6 +5112,7 @@
         "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
         "name(jp)": "華麗なる暁の賢人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4703,6 +5123,7 @@
         "master": "MND +10",
         "relic": "Ironworks Healing Robe (XIV)",
         "name(jp)": "幻術の熟手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4712,6 +5133,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a dagger",
         "relic": "-",
         "name(jp)": "放浪の賢人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4721,6 +5143,7 @@
         "effect": "35% chance to grant Physical Blink 1 to the user after using a Ninja ability",
         "relic": "-",
         "name(jp)": "千変万化の戦闘術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4740,6 +5163,7 @@
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "不屈の闘志",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4749,6 +5173,7 @@
         "effect": "35% chance to dualcast Monk abilities",
         "relic": "-",
         "name(jp)": "武道家の衝動",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4759,6 +5184,7 @@
         "master": "ATK +10",
         "relic": "Striker's Cuirass (XIV)",
         "name(jp)": "格闘の名手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4768,6 +5194,7 @@
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "救世詩盟のお目付役",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4777,6 +5204,7 @@
         "effect": "35% chance to dualcast abilities that deal Fire damage",
         "relic": "-",
         "name(jp)": "魔道師の閃き",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4787,6 +5215,7 @@
         "master": "MAG +10",
         "relic": "Caster's Doublet (XIV)",
         "name(jp)": "呪術の老手",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4796,6 +5225,7 @@
         "effect": "SUM attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "新たなる決意",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4805,6 +5235,7 @@
         "effect": "35% chance to dualcast Summoning abilities",
         "relic": "-",
         "name(jp)": "救世の策士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4815,6 +5246,7 @@
         "master": "MAG +10",
         "relic": "Caller's Himation (XIV)",
         "name(jp)": "学び多き旅路",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4824,6 +5256,7 @@
         "effect": "Increases Holy damage dealt by 10%",
         "relic": "-",
         "name(jp)": "十二神の冥加",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4833,6 +5266,7 @@
         "effect": "30% chance to cause Minor Imperil Holy to the target after using a Knight ability on an enemy",
         "relic": "-",
         "name(jp)": "戦神ハルオーネの勇力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4843,6 +5277,7 @@
         "master": "ATK +10",
         "relic": "Magitek Shield (XIV)",
         "name(jp)": "盟主の資質",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4862,6 +5297,7 @@
         "effect": "Machinist abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "古代アラグ文明の知識",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4871,6 +5307,7 @@
         "effect": "35% chance to dualcast Machinist abilities",
         "relic": "-",
         "name(jp)": "天を駆ける技師",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4881,6 +5318,7 @@
         "master": "ATK +10",
         "relic": "Machinist's Shirt (XIV)",
         "name(jp)": "自由のための技術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4890,6 +5328,7 @@
         "effect": "Increases Ice damage dealt by 10%",
         "relic": "-",
         "name(jp)": "聖女に重ねた心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4899,6 +5338,7 @@
         "effect": "30% chance to grant Quick Cast 3 to the user after using a Ice attack",
         "relic": "-",
         "name(jp)": "神降ろしの巫女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4909,6 +5349,7 @@
         "master": "MAG +10",
         "relic": "Halonic Exorcist's Rod (XIV)",
         "name(jp)": "想いを超える力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4918,6 +5359,7 @@
         "effect": "Knight abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "銀髪の剣士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4927,6 +5369,7 @@
         "effect": "Restores HP for 100% of the user's maximum HP and grants Last Stand and HP Stock (2000) when HP fall below 20%",
         "relic": "-",
         "name(jp)": "誇り高き英雄",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4937,6 +5380,7 @@
         "master": "ATK +10",
         "relic": "Fortemps Haubergeon (XIV)",
         "name(jp)": "一角獣への誓い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4946,6 +5390,7 @@
         "effect": "Dragoon abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "復讐の決意",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4955,6 +5400,7 @@
         "effect": "30% chance to grant Quick Cast 3 to the user after using a Dragoon ability",
         "relic": "-",
         "name(jp)": "蒼天の竜騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4965,6 +5411,7 @@
         "master": "ATK +10",
         "relic": "Drachen Gauntlets (XIV)",
         "name(jp)": "貫く意思の槍",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4974,6 +5421,7 @@
         "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "真なる王への軌跡",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4983,6 +5431,7 @@
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "偉大な父王の跡継ぎ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4993,6 +5442,7 @@
         "master": "ATK +10",
         "relic": "Bronze Bangle (XV)",
         "name(jp)": "啓示を受けし者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5002,6 +5452,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a sword",
         "relic": "-",
         "name(jp)": "先陣を切る武勇",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5011,6 +5462,7 @@
         "effect": "ATK +3% for each hit taken by damaging attacks, up to +50%",
         "relic": "-",
         "name(jp)": "守護者たる器",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5021,6 +5473,7 @@
         "master": "ATK +10",
         "relic": "Kite Shield (XV)",
         "name(jp)": "王の盾",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5031,6 +5484,7 @@
         "master": "ATK +10",
         "relic": "Gladiolus's Fatigues (XV)",
         "name(jp)": "若き統領の挟持",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5050,6 +5504,7 @@
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "若き賢者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5059,6 +5514,7 @@
         "effect": "35% chance to dualcast abilities that deal Fire damage",
         "relic": "-",
         "name(jp)": "王を照らす炎",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5069,6 +5525,7 @@
         "master": "ATK +10",
         "relic": "Ignis's Fatigues (XV)",
         "name(jp)": "生真面目な料理人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5078,6 +5535,7 @@
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "旅の記録者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5087,6 +5545,7 @@
         "effect": "30% chance to cause Minor Imperil Lightning to the target after using a Machinist ability on an enemy",
         "relic": "-",
         "name(jp)": "掴みし友人の資格",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5097,6 +5556,7 @@
         "master": "ATK +10",
         "relic": "Iron Bangle (XV)",
         "name(jp)": "一般人の覚悟",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5106,6 +5566,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "アミシティア家の教え",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5115,6 +5576,7 @@
         "effect": "MND +1% for each hit dealt with White Magic abilities, up to +35%",
         "relic": "-",
         "name(jp)": "健気な後方支援",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5125,6 +5587,7 @@
         "master": "MND +10",
         "relic": "Power Wristband (XV)",
         "name(jp)": "アミシティアの系譜",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5134,6 +5597,7 @@
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "男勝りの傭兵隊長",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5143,6 +5607,7 @@
         "effect": "ATK +2% for each hit dealt with Dragoon abilities, up to +50%",
         "relic": "-",
         "name(jp)": "空中機動師団准将",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5153,6 +5618,7 @@
         "master": "ATK +10",
         "relic": "Aranea's Gauntlet (XV)",
         "name(jp)": "天空を翔けし女傑",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5162,6 +5628,7 @@
         "effect": "Support abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "理想を貫く覚悟",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5171,6 +5638,7 @@
         "effect": "Increases the duration of stat buffs by 40%",
         "relic": "-",
         "name(jp)": "ベオルブの魂",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5181,6 +5649,7 @@
         "master": "ATK +10",
         "relic": "Brigandine (FFT)",
         "name(jp)": "真なる勇者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5191,6 +5660,7 @@
         "master": "ATK +10",
         "relic": "Platinum Armor (FFT)",
         "name(jp)": "高き志の騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5200,6 +5670,7 @@
         "effect": "Increases Holy damage dealt by 10%",
         "relic": "-",
         "name(jp)": "ホーリーナイトの忠義",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5209,6 +5680,7 @@
         "effect": "30% chance to cause Minor Imperil Holy to the target after using a Knight ability on an enemy",
         "relic": "-",
         "name(jp)": "ホーリーナイトの絶技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5219,6 +5691,7 @@
         "master": "ATK +10",
         "relic": "Jade Armlet (FFT)",
         "name(jp)": "揺るがぬ信義",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5228,6 +5701,7 @@
         "effect": "Spellblade abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "確固たる意志",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5237,6 +5711,7 @@
         "effect": "35% chance to dualcast Spellblade abilities",
         "relic": "-",
         "name(jp)": "獅子戦争の英雄",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5247,6 +5722,7 @@
         "master": "ATK +10",
         "relic": "Aegis Shield (FFT)",
         "name(jp)": "アークナイトの妙技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5256,6 +5732,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "優しきプリンセス",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5265,6 +5742,7 @@
         "effect": "Reduces damage taken by Fire, Ice, Lightning, Earth, Wind, Water, Holy, Dark and Poison attacks by 15%",
         "relic": "-",
         "name(jp)": "イヴァリースに捧ぐ祈り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5275,6 +5753,7 @@
         "master": "MND +10",
         "relic": "Celebrant's Miter (FFT)",
         "name(jp)": "聖魔法の心得",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5284,6 +5763,7 @@
         "effect": "Machinist abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "機械への造詣",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5293,6 +5773,7 @@
         "effect": "35% chance to dualcast Machinist abilities",
         "relic": "-",
         "name(jp)": "失われた文明の発掘者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5303,6 +5784,7 @@
         "master": "ATK +10",
         "relic": "Empyreal Armband (FFT)",
         "name(jp)": "機工士の早撃ち",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5312,6 +5794,7 @@
         "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "無敗の騎士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5321,6 +5804,7 @@
         "effect": "Grants Infinite Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "騎士の頂点に立つ剣聖",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5331,6 +5815,7 @@
         "master": "ATK +10",
         "relic": "Flame Shield (FFT)",
         "name(jp)": "至高の剣技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5340,6 +5825,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "ダークナイトの本領",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5349,6 +5835,7 @@
         "effect": "35% chance of smart ether 1 to the user after using a Dark attack",
         "relic": "-",
         "name(jp)": "歴戦のダークナイト",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5359,6 +5846,7 @@
         "master": "ATK +10",
         "relic": "Power Garb (FFT)",
         "name(jp)": "ダークナイトの妙技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5368,6 +5856,7 @@
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "天道士の秘術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5377,6 +5866,7 @@
         "effect": "35% chance to dualcast abilities that deal Lightning damage",
         "relic": "-",
         "name(jp)": "天道術の神秘",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5387,6 +5877,7 @@
         "master": "MAG +10",
         "relic": "Rapha's Bracer (FFT)",
         "name(jp)": "受け継ぎし真言",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5396,6 +5887,7 @@
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "天冥士の秘術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5405,6 +5897,7 @@
         "effect": "35% chance to dualcast abilities that deal Lightning damage",
         "relic": "-",
         "name(jp)": "天冥術の神秘",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5415,6 +5908,7 @@
         "master": "MAG +10",
         "relic": "Marach's Guise (FFT)",
         "name(jp)": "裏真言の真価",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5424,6 +5918,7 @@
         "effect": "Knight abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "ディバインナイトの剣技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5433,6 +5928,7 @@
         "effect": "30% chance to cause Minor Imperil Earth to the target after using a Knight ability on an enemy",
         "relic": "-",
         "name(jp)": "ディバインナイトの絶技",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5443,6 +5939,7 @@
         "master": "ATK +10",
         "relic": "Venus Blade (FFT)",
         "name(jp)": "剛剣の真髄",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5452,6 +5949,7 @@
         "effect": "Increases Holy damage dealt by 10%",
         "relic": "-",
         "name(jp)": "迷いながらも進む意志",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5461,6 +5959,7 @@
         "effect": "35% chance to dualcast Knight abilities",
         "relic": "-",
         "name(jp)": "逃げない強さ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5471,6 +5970,7 @@
         "master": "ATK +10",
         "relic": "Bronze Helm (A) (FFT)",
         "name(jp)": "心の底に秘めた望み",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5480,6 +5980,7 @@
         "effect": "BLK attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "黒魔道士の資質",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5489,6 +5990,7 @@
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "時魔道士の資質",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5499,6 +6001,7 @@
         "master": "MAG +10",
         "relic": "Silken Robe (A) (FFT)",
         "name(jp)": "補うための魔法の知識",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5509,6 +6012,7 @@
         "master": "MAG +10",
         "relic": "Circlet (A) (FFT)",
         "name(jp)": "親切なモーグリ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5518,6 +6022,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "明朗活発な妹",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5527,6 +6032,7 @@
         "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
         "name(jp)": "聖者の生まれ変わり",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5537,6 +6043,7 @@
         "master": "MND +10",
         "relic": "Wizard's Rod (FFT)",
         "name(jp)": "兄を案じる心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5560,6 +6067,7 @@
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "秘めた情熱",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5569,6 +6077,7 @@
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "螺旋の終焉記す札使",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5579,6 +6088,7 @@
         "master": "MAG +10",
         "relic": "Argentic Deck (Type-0)",
         "name(jp)": "未来を手繰り寄せる者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5589,6 +6099,7 @@
         "master": "MAG +10",
         "relic": "Flame Armlet (Type-0)",
         "name(jp)": "チョコボへの愛",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5598,6 +6109,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "友愛の心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5607,6 +6119,7 @@
         "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
         "name(jp)": "優しく一途な頑張り屋",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5617,6 +6130,7 @@
         "master": "MND +10",
         "relic": "Feathered Cap (Type-0)",
         "name(jp)": "少女の心くばり",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5626,6 +6140,7 @@
         "effect": "Increases Wind damage dealt by 10%",
         "relic": "-",
         "name(jp)": "ズバ抜けた行動力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5635,6 +6150,7 @@
         "effect": "ATK +2% for each hit dealt with damaging jump attacks, up to +50%",
         "relic": "-",
         "name(jp)": "0組のブッコミ隊長",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5645,6 +6161,7 @@
         "master": "ATK +10",
         "relic": "Heavy Lance (Type-0)",
         "name(jp)": "破天荒な跳躍",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5654,6 +6171,7 @@
         "effect": "Increases Holy damage dealt by 10%",
         "relic": "-",
         "name(jp)": "魔力に秀でた転入生",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5663,6 +6181,7 @@
         "effect": "35% chance to dualcast White Magic abilities",
         "relic": "-",
         "name(jp)": "愛の座を司る者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5673,6 +6192,7 @@
         "master": "MND +10",
         "relic": "Gold Hairpin (Type-0)",
         "name(jp)": "慈愛の乙女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5683,6 +6203,7 @@
         "master": "MND +10",
         "relic": "Lunar Armlet (Type-0)",
         "name(jp)": "セイントファイア",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5692,6 +6213,7 @@
         "effect": "Spellblade abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "剣技冴え渡る転入生",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5701,6 +6223,7 @@
         "effect": "35% chance to grant Stoneskin: 30% to the user after using a Spellblade ability",
         "relic": "-",
         "name(jp)": "恐れの座を司る者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5711,6 +6234,7 @@
         "master": "ATK +10",
         "relic": "Platinum Bangle (Type-0)",
         "name(jp)": "力を渇望する少年",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5720,6 +6244,7 @@
         "effect": "Increases Lightning damage dealt by 10%",
         "relic": "-",
         "name(jp)": "理路整然な才媛",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5729,6 +6254,7 @@
         "effect": "Restores HP for 100% of the user's maximum HP and grants Queen Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "秘められた羅刹の心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5739,6 +6265,7 @@
         "master": "ATK +10",
         "relic": "Queen's Guise (Type-0)",
         "name(jp)": "冷静沈着な戦術",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5748,6 +6275,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a gun",
         "relic": "-",
         "name(jp)": "朱雀の二丁拳銃",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5757,6 +6285,7 @@
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "不言実行の銃士",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5767,6 +6296,7 @@
         "master": "ATK +10",
         "relic": "Platinum Gloves (Type-0)",
         "name(jp)": "内に秘めたる深情",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5776,6 +6306,7 @@
         "effect": "PHY attacks deal 10% more damage when equipping a hammer",
         "relic": "-",
         "name(jp)": "メイスを操る候補生",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5785,6 +6316,7 @@
         "effect": "50% chance to grant Heavy Charge +1 to the user after using a Heavy ability",
         "relic": "-",
         "name(jp)": "怪力無双の乙女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5795,6 +6327,7 @@
         "master": "ATK +10",
         "relic": "Dominion Helmet (Type-0)",
         "name(jp)": "栗色の三つ編み",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5885,6 +6418,7 @@
         "effect": "Spellblade abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "キーブレードに選ばれし者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5894,6 +6428,7 @@
         "effect": "Grants Haste and Attach Fire at the beginning of the battle",
         "relic": "-",
         "name(jp)": "ファイア免許皆伝",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5903,6 +6438,7 @@
         "effect": "Grants Haste and Attach Ice at the beginning of the battle",
         "relic": "-",
         "name(jp)": "ブリザド免許皆伝",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5912,6 +6448,7 @@
         "effect": "Grants Haste and Attach Lightning at the beginning of the battle",
         "relic": "-",
         "name(jp)": "サンダー免許皆伝",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5922,6 +6459,7 @@
         "master": "ATK +10",
         "relic": "Sora (KH)",
         "name(jp)": "繋がる心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5931,6 +6469,7 @@
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "真に選ばれし者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5940,6 +6479,7 @@
         "effect": "35% chance to dualcast abilities that deal Dark damage",
         "relic": "-",
         "name(jp)": "友への思い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5950,6 +6490,7 @@
         "master": "ATK +10",
         "relic": "Riku (KH)",
         "name(jp)": "闇の探求者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6014,6 +6555,7 @@
         "effect": "Support abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "夢見の少年",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6023,6 +6565,7 @@
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "への希望",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6033,6 +6576,7 @@
         "master": "ATK +10",
         "relic": "Zephyr Cape (Beyond)",
         "name(jp)": "駆け巡る時",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6042,6 +6586,7 @@
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "初めて知る歌",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6051,6 +6596,7 @@
         "effect": "35% chance to grant Physical Blink 1 to the target after using a single-target White Magic ability that restores HP on an ally",
         "relic": "-",
         "name(jp)": "想う未来",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6061,6 +6607,7 @@
         "master": "MND +10",
         "relic": "White Cape (Beyond)",
         "name(jp)": "優しく可憐な橙",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6070,6 +6617,7 @@
         "effect": "Increases Earth damage dealt by 10%",
         "relic": "-",
         "name(jp)": "継ぐ意志",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6079,6 +6627,7 @@
         "effect": "ATK +3% for each hit taken by damaging attacks, up to +50%",
         "relic": "-",
         "name(jp)": "背負う覚悟",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6089,6 +6638,7 @@
         "master": "ATK +10",
         "relic": "Energy Sash (Beyond)",
         "name(jp)": "世界を翔る冒険家",
+        "gl": "✓",
         "✓": "✓"
     },
     {
