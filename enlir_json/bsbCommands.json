@@ -3050,8 +3050,8 @@
     },
     {
         "character": "Faris",
-        "source": "Pirates Ahoy",
-        "name": "Pirate's Bomb",
+        "source": "Landlubber Lambast",
+        "name": "Pirate Bomb",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -3065,12 +3065,13 @@
         "school": "Support",
         "name(jp)": "パイレーツボム",
         "id": "30512631",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "character": "Faris",
-        "source": "Pirates Ahoy",
-        "name": "Pirate's Cannon",
+        "source": "Landlubber Lambast",
+        "name": "Pirate Cannon",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -3084,6 +3085,7 @@
         "school": "Support",
         "name(jp)": "パイレーツキャノン",
         "id": "30512632",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3209,7 +3211,7 @@
     {
         "character": "Krile",
         "source": "Brimstone",
-        "name": "Deterioration",
+        "name": "Consuming Flame",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
@@ -3223,12 +3225,13 @@
         "school": "Black Magic",
         "name(jp)": "れっか",
         "id": "30512641",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "character": "Krile",
         "source": "Brimstone",
-        "name": "Ascension",
+        "name": "Blood Bloom",
         "type": "BLK",
         "target": "All enemies",
         "formula": "Magical",
@@ -3242,6 +3245,7 @@
         "school": "Black Magic",
         "name(jp)": "ぐれん",
         "id": "30512642",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6147,7 +6151,7 @@
         "character": "Garnet",
         "source": "Trial by Lightning",
         "name": "Summon Ramuh (S)",
-        "type": "BLK",
+        "type": "SUM",
         "target": "All enemies",
         "formula": "Magical",
         "multiplier": 5.4,
@@ -6680,8 +6684,8 @@
     },
     {
         "character": "Kuja",
-        "source": "Wicked Melody",
-        "name": "Soul Thrust",
+        "source": "Corrupt Refrain",
+        "name": "Soul Thruster",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
@@ -6695,11 +6699,12 @@
         "school": "Darkness",
         "name(jp)": "ソウルスラスター",
         "id": "30512651",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "character": "Kuja",
-        "source": "Wicked Melody",
+        "source": "Corrupt Refrain",
         "name": "Dark Ensemble",
         "type": "BLK",
         "target": "Single enemy",
@@ -6714,6 +6719,7 @@
         "school": "Darkness",
         "name(jp)": "ダークアンサンブル",
         "id": "30512652",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -7273,7 +7279,7 @@
     },
     {
         "character": "Auron",
-        "source": "Blazing Soul",
+        "source": "Fiery Heart",
         "name": "Fang Crusher",
         "type": "PHY",
         "target": "Single enemy",
@@ -7292,7 +7298,7 @@
     },
     {
         "character": "Auron",
-        "source": "Blazing Soul",
+        "source": "Fiery Heart",
         "name": "Magic Cleaver",
         "type": "PHY",
         "target": "Single enemy",
@@ -8097,7 +8103,7 @@
     },
     {
         "character": "Fran",
-        "source": "Astral Tempest",
+        "source": "Thundering Hail",
         "name": "Icebolt Attack Drop",
         "type": "PHY",
         "target": "Single enemy",
@@ -8116,7 +8122,7 @@
     },
     {
         "character": "Fran",
-        "source": "Astral Tempest",
+        "source": "Thundering Hail",
         "name": "Icebolt Magic Decay",
         "type": "PHY",
         "target": "Single enemy",
@@ -10653,6 +10659,44 @@
         "name(jp)": "聖職のたしなみ",
         "id": "30512322",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "character": "Orran",
+        "source": "Records of Truth",
+        "name": "Astral Guidance",
+        "type": "WHT",
+        "target": "Single ally",
+        "formula": "Magical",
+        "multiplier": 2.2,
+        "element": "Holy",
+        "time": 1.65,
+        "effects": "Restores HP (60), damages undeads, grants Instant Cast 1",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% ally",
+        "sb": 50,
+        "school": "White Magic",
+        "name(jp)": "星の導き",
+        "id": "30512811",
+        "✓": "✓"
+    },
+    {
+        "character": "Orran",
+        "source": "Records of Truth",
+        "name": "Heavenly Protection",
+        "type": "WHT",
+        "target": "All allies",
+        "formula": "Magical",
+        "multiplier": 2,
+        "element": "Holy",
+        "time": 1.65,
+        "effects": "Restores HP (25), damages undeads",
+        "counter": "Y",
+        "autoTarget": "All allies",
+        "sb": 50,
+        "school": "White Magic",
+        "name(jp)": "天の加護",
+        "id": "30512812",
         "✓": "✓"
     },
     {

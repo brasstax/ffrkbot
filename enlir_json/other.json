@@ -448,7 +448,7 @@
         "type": "NAT",
         "target": "Single enemy",
         "time": 0.01,
-        "effects": "Causes Minor Imperil Wind",
+        "effects": "Causes Imperil Wind 10% for 15 seconds",
         "counter": "N",
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
@@ -1064,8 +1064,8 @@
     },
     {
         "sourceType": "Follow-Up Status",
-        "source": "Feral Charge Follow-Up",
-        "name": "Feral Charge",
+        "source": "Beast Rush Follow-Up",
+        "name": "Beast Rush",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -1133,6 +1133,20 @@
     },
     {
         "sourceType": "Follow-Up Status",
+        "source": "Oil Bullet Follow-Up",
+        "name": "Oil Bullet",
+        "type": "NAT",
+        "target": "Single enemy",
+        "time": 0.01,
+        "effects": "Causes Imperil Fire 10% for 15 seconds",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Machinist",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
         "source": "Lightning Sigil Follow-Up",
         "name": "Lightning Sigil",
         "type": "BLK",
@@ -1147,6 +1161,23 @@
         "sb": 0,
         "school": "Black Magic",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Cure Step Follow-Up",
+        "name": "Cure Step",
+        "type": "WHT",
+        "target": "All allies",
+        "formula": "Magical",
+        "multiplier": 2,
+        "element": "Holy",
+        "time": 0.01,
+        "effects": "Restores HP (25), damages undeads",
+        "counter": "N",
+        "autoTarget": "All allies",
+        "sb": 0,
+        "school": "Dancer",
         "✓": "✓"
     },
     {
@@ -1297,12 +1328,29 @@
         "type": "NAT",
         "target": "Single enemy",
         "time": 0.01,
-        "effects": "Causes Minor Imperil Holy",
+        "effects": "Causes Imperil Holy 10% for 15 seconds",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Knight",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Hero-King's Blade Follow-Up",
+        "name": "Hero-King's Blade",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.84,
+        "element": "Holy, Fire, Light., Ice, NE",
+        "time": 0.01,
+        "effects": "Four single attacks (0,46 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Spellblade",
         "✓": "✓"
     },
     {
@@ -1471,7 +1519,7 @@
         "type": "NAT",
         "target": "Single enemy",
         "time": 0.01,
-        "effects": "Causes Minor Imperil Ice",
+        "effects": "Causes Imperil Ice 10% for 15 seconds",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
@@ -1543,8 +1591,8 @@
     },
     {
         "sourceType": "Finisher Status",
-        "source": "EX: Power of the Crystals",
-        "name": "Last Spellblade",
+        "source": "EX: Crystal Might",
+        "name": "Spellblade Finish",
         "type": "PHY",
         "target": "Single enemy",
         "time": 2.5,
@@ -1553,6 +1601,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1570,6 +1619,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Thief",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1589,8 +1639,8 @@
     },
     {
         "sourceType": "Finisher Status",
-        "source": "Lingering Fire Finisher",
-        "name": "Lingering Fire",
+        "source": "Lingering Flame Finisher",
+        "name": "Lingering Flame",
         "type": "PHY",
         "target": "Single enemy",
         "time": 2.5,
@@ -4367,6 +4417,22 @@
         "school": "Special",
         "gl": "✓",
         "✓": "✓"
+    },
+    {
+        "sourceType": "Legend Materia",
+        "source": "Strategist of the Southern Sky",
+        "name": "Strategist of the Southern Sky",
+        "type": "?",
+        "target": "All allies",
+        "formula": "Magical",
+        "multiplier": "?",
+        "element": "Holy",
+        "time": "?",
+        "effects": "Restores HP (?), damages undeads",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
     },
     {
         "sourceType": "Legend Materia",

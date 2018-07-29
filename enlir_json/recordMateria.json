@@ -3759,7 +3759,7 @@
     {
         "realm": "VII",
         "character": "Rude",
-        "name": "Arm of the Turks",
+        "name": "Turk Muscle",
         "effect": "ATK and MAG +13% when equipping a fist weapon",
         "unlockCriteria": "Bring Rude to level 99",
         "name(jp)": "タークスの豪腕",
@@ -6694,17 +6694,28 @@
     {
         "realm": "FFT",
         "character": "Orran",
-        "unlockCriteria": "Use Orran's Memory Crystal"
+        "name": "Astrologer",
+        "effect": "MND +?% when equipping a book",
+        "unlockCriteria": "Use Orran's Memory Crystal",
+        "name(jp)": "占星術士"
     },
     {
         "realm": "FFT",
         "character": "Orran",
-        "unlockCriteria": "Use Orran's Memory Crystal II, chance to obtain with Orran in party"
+        "name": "Recorder of History",
+        "effect": "MND +20% when equipping a book",
+        "unlockCriteria": "Use Orran's Memory Crystal II, chance to obtain with Orran in party",
+        "name(jp)": "歴史の記録者",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
         "character": "Orran",
-        "unlockCriteria": "Bring Orran to level 99"
+        "name": "Keeper of Truth",
+        "effect": "MND +25% when equipping a book",
+        "unlockCriteria": "Bring Orran to level 99",
+        "name(jp)": "真実を知る異端者",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",

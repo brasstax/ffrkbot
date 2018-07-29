@@ -7306,7 +7306,7 @@
     },
     {
         "school": "Samurai",
-        "name": "Hellfire",
+        "name": "Damning Flame",
         "rarity": 5,
         "type": "PHY",
         "target": "Single enemy",
@@ -7330,7 +7330,7 @@
     },
     {
         "school": "Samurai",
-        "name": "Iai Flamestrike",
+        "name": "Iai Hellfire",
         "rarity": 5,
         "type": "PHY",
         "target": "Single enemy",

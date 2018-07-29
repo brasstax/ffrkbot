@@ -987,7 +987,7 @@
     {
         "id": "271",
         "commonName": "Astra",
-        "effects": "Prevents Poison, Silence, Paralyze, Confuse, Slow, Stop, Blind, Sleep, Petrify, Berserk, Sap, Stun and Frozen once",
+        "effects": "Prevents Poison, Silence, Paralyze, Confuse, Slow, Stop, Blind, Sleep, Petrify, Berserk, Sap and Stun once",
         "defaultDuration": 25,
         "mndModifier": "-",
         "exclusiveStatus": "Pre-Dispel",
@@ -2043,16 +2043,6 @@
         "exclusiveStatus": "-",
         "codedName": "LOCK_PHOENIX_MODE",
         "notes": "-"
-    },
-    {
-        "id": "292",
-        "commonName": "Frozen",
-        "effects": "Arrests ATB charge rate, can't act, causes Instant KO upon taking damage by a PHY attack, duration scales with MND (factor 2)",
-        "defaultDuration": 10,
-        "mndModifier": "-",
-        "exclusiveStatus": "All \"Retaliate\" status, Attach Fire, all \"Buff Fire\" status",
-        "codedName": "FROZEN",
-        "notes": "???"
     },
     {
         "id": "293",
@@ -6513,8 +6503,8 @@
     },
     {
         "id": "50164",
-        "commonName": "EX: Power of the Crystals",
-        "effects": "Spellblade damage +30/35/40/45/50/55/60/65/70% after 0/1/2/3/4/5/6/7/8 Wind, Water, Fire or Earth attacks, casts Last Spellblade when removed",
+        "commonName": "EX: Crystal Might",
+        "effects": "Spellblade damage +30/35/40/45/50/55/60/65/70% after 0/1/2/3/4/5/6/7/8 Wind, Water, Fire or Earth attacks, casts Spellblade Finish when removed",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6533,8 +6523,8 @@
     },
     {
         "id": "50166",
-        "commonName": "Feral Charge Follow-Up",
-        "effects": "Casts Feral Charge after using a Fire attack",
+        "commonName": "Beast Rush Follow-Up",
+        "effects": "Casts Beast Rush after using a Fire attack",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6543,8 +6533,8 @@
     },
     {
         "id": "50167",
-        "commonName": "Lingering Fire Finisher",
-        "effects": "Casts Lingering Fire when removed",
+        "commonName": "Lingering Flame Finisher",
+        "effects": "Casts Lingering Flame when removed",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6553,41 +6543,41 @@
     },
     {
         "id": "50168",
-        "commonName": "Comrade's Oath 0",
-        "effects": "Grants Comrade's Oath 1 after using a Samurai ability, removed if the user hasn't Lingering Fire Finisher",
+        "commonName": "Friend's Promise 0",
+        "effects": "Grants Friend's Promise 1 after using a Samurai ability, removed if the user hasn't Lingering Flame Finisher",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Comrade's Oath\" status",
+        "exclusiveStatus": "All other \"Friend's Promise\" status",
         "codedName": "FOR_MY_FRIEND_MODE_BUFF_AND_CHASE_0",
         "notes": "-"
     },
     {
         "id": "50169",
-        "commonName": "Comrade's Oath 1",
-        "effects": "Critical chance =30%, cast speed x2,00, grants Comrade's Oath 2 after using a Samurai ability, removed if the user hasn't Lingering Fire Finisher",
+        "commonName": "Friend's Promise 1",
+        "effects": "Critical chance =30%, cast speed x2,00, grants Friend's Promise 2 after using a Samurai ability, removed if the user hasn't Lingering Flame Finisher",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Comrade's Oath\" status",
+        "exclusiveStatus": "All other \"Friend's Promise\" status",
         "codedName": "FOR_MY_FRIEND_MODE_BUFF_AND_CHASE_1",
         "notes": "-"
     },
     {
         "id": "50170",
-        "commonName": "Comrade's Oath 2",
-        "effects": "Critical chance =50%, cast speed x2,50, grants Comrade's Oath 3 after using a Samurai ability, removed if the user hasn't Lingering Fire Finisher",
+        "commonName": "Friend's Promise 2",
+        "effects": "Critical chance =50%, cast speed x2,50, grants Friend's Promise 3 after using a Samurai ability, removed if the user hasn't Lingering Flame Finisher",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Comrade's Oath\" status",
+        "exclusiveStatus": "All other \"Friend's Promise\" status",
         "codedName": "FOR_MY_FRIEND_MODE_BUFF_AND_CHASE_2",
         "notes": "-"
     },
     {
         "id": "50171",
-        "commonName": "Comrade's Oath 3",
-        "effects": "Critical chance =75%, cast speed x3,00, grants Comrade's Oath 3 after using a Samurai ability, removed if the user hasn't Lingering Fire Finisher",
+        "commonName": "Friend's Promise 3",
+        "effects": "Critical chance =75%, cast speed x3,00, grants Friend's Promise 3 after using a Samurai ability, removed if the user hasn't Lingering Flame Finisher",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Comrade's Oath\" status",
+        "exclusiveStatus": "All other \"Friend's Promise\" status",
         "codedName": "FOR_MY_FRIEND_MODE_BUFF_AND_CHASE_3",
         "notes": "-"
     },
@@ -7641,6 +7631,26 @@
         "notes": "-"
     },
     {
+        "id": "50293",
+        "commonName": "Oil Bullet Follow-Up",
+        "effects": "Casts Oil Bullet after using two Machinist abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_BETRAYAL_ELECCION",
+        "notes": "-"
+    },
+    {
+        "id": "50294",
+        "commonName": "Cure Step Follow-Up",
+        "effects": "Casts Cure Step after using a Dancer ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "HEAL_HP_ALL_IF_DANCER_CATEGORY",
+        "notes": "-"
+    },
+    {
         "id": "50295",
         "commonName": "Doom: 5",
         "effects": "HP = 0 after a 5 seconds timer",
@@ -7688,6 +7698,26 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DOOM_25",
+        "notes": "-"
+    },
+    {
+        "id": "50302",
+        "commonName": "Curse",
+        "effects": "Arrests ATB charge rate, can't act",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "Retaliate",
+        "codedName": "HAUNTED",
+        "notes": "???"
+    },
+    {
+        "id": "50303",
+        "commonName": "Hero-King's Blade",
+        "effects": "Casts Hero-King's Blade after exploiting elemental weakness",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "SWORD_OF_HERO_KING",
         "notes": "-"
     },
     {
@@ -8151,6 +8181,16 @@
         "notes": "-"
     },
     {
+        "id": "646",
+        "commonName": "DEF, RES and MND +X%",
+        "effects": "DEF, RES and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_DEF_MDEF_MND",
+        "notes": "-"
+    },
+    {
         "id": "6001",
         "commonName": "Dark Bargain",
         "effects": "ATK +30%, DEF -30%",
@@ -8501,7 +8541,7 @@
         "effects": "Replaces Attack command, increases Fire damage dealt by 50/80/120%  (abilities) or 80/100/120% (Soul Breaks), Fire resistance +20%",
         "defaultDuration": 25,
         "mndModifier": "-",
-        "exclusiveStatus": "Frozen",
+        "exclusiveStatus": "-",
         "codedName": "ATTACH_ELEMENT_FIRE",
         "notes": "-"
     },
@@ -8761,7 +8801,7 @@
         "effects": "Increases Fire damage dealt by 10%, cumulable",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "Frozen",
+        "exclusiveStatus": "-",
         "codedName": "CHANGE_ELEMENT_ATK_FIRE_10",
         "notes": "-"
     },
@@ -9121,7 +9161,7 @@
         "effects": "Increases Fire damage dealt by 20%, cumulable",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "Frozen, all other \"Buff Fire\" and  \"Debuff Fire\" status",
+        "exclusiveStatus": "All other \"Buff Fire\" and  \"Debuff Fire\" status",
         "codedName": "SET_EXCLUSIVE_ELEMENT_ATK_FIRE_20",
         "notes": "Not used"
     },
