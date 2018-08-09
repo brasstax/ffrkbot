@@ -335,6 +335,40 @@
     },
     {
         "sourceType": "Follow-Up Status",
+        "source": "Old Man's Hammer Follow-Up",
+        "name": "Old Man's Hammer",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.8,
+        "element": "Lightning, NE",
+        "time": 0.01,
+        "effects": "Four single attacks (0,45 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Machinist",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Ledge Mode",
+        "name": "Ledge Assault",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.05,
+        "element": "Earth, Fire, NE",
+        "time": 0.01,
+        "effects": "Five single attacks (0,41 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Monk",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
         "source": "Fair Wind Follow-Up",
         "name": "Fair Wind",
         "type": "BLK",
@@ -1077,6 +1111,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Monk",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1591,6 +1626,20 @@
     },
     {
         "sourceType": "Finisher Status",
+        "source": "Dire Meteor Mode",
+        "name": "Legendary Black Magic",
+        "type": "BLK",
+        "target": "Single enemy",
+        "time": 2.5,
+        "effects": "One single attack for 35% of the damage dealt with Earth attacks during the status, breaks damage cap, causes Instant KO to the user",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Finisher Status",
         "source": "EX: Crystal Might",
         "name": "Spellblade Finish",
         "type": "PHY",
@@ -1649,6 +1698,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Samurai",
+        "gl": "✓",
         "✓": "✓"
     },
     {

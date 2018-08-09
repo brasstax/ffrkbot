@@ -7280,7 +7280,7 @@
     {
         "character": "Auron",
         "source": "Fiery Heart",
-        "name": "Fang Crusher",
+        "name": "Fangcrush Blade",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -7294,12 +7294,13 @@
         "school": "Samurai",
         "name(jp)": "牙砕の太刀",
         "id": "30512661",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "character": "Auron",
         "source": "Fiery Heart",
-        "name": "Magic Cleaver",
+        "name": "Spellbreak Blade",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -7313,6 +7314,7 @@
         "school": "Samurai",
         "name(jp)": "魔断の太刀",
         "id": "30512662",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -7372,6 +7374,7 @@
         "school": "Monk",
         "name(jp)": "イーグルラッシュ",
         "id": "30512671",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -7391,6 +7394,7 @@
         "school": "Monk",
         "name(jp)": "ライジングフィスト",
         "id": "30512672",
+        "gl": "✓",
         "✓": "✓"
     },
     {

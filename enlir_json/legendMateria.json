@@ -177,6 +177,20 @@
     },
     {
         "realm": "I",
+        "character": "Wol",
+        "relic": "-"
+    },
+    {
+        "realm": "I",
+        "character": "Wol",
+        "relic": "-"
+    },
+    {
+        "realm": "I",
+        "character": "Wol"
+    },
+    {
+        "realm": "I",
         "character": "Echo",
         "name": "Blank Guide",
         "effect": "Reduces damage taken by BLK attacks by 10%",
@@ -1378,6 +1392,16 @@
     },
     {
         "realm": "IV",
+        "character": "Tellah",
+        "name": "Master of All Magics",
+        "effect": "Grants Attach Earth at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Psycho Spiral (IV)",
+        "name(jp)": "すべての魔法を体得せし者",
+        "✓": "✓"
+    },
+    {
+        "realm": "IV",
         "character": "Edge",
         "name": "Passionate Prince",
         "effect": "Increases Water damage dealt by 10%",
@@ -1488,6 +1512,16 @@
     },
     {
         "realm": "IV",
+        "character": "Cid (IV)",
+        "name": "Caring Nature",
+        "effect": "Grants Attach Lightning at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Triton Hammer (IV)",
+        "name(jp)": "世話好きな性分",
+        "✓": "✓"
+    },
+    {
+        "realm": "IV",
         "character": "Ceodore",
         "name": "Ascendant Prince",
         "effect": "Knight abilities deal 15% more damage",
@@ -1546,6 +1580,16 @@
         "relic": "Ursula's Dress (IV)",
         "name(jp)": "強き背を追って",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "IV",
+        "character": "Ursula",
+        "name": "Master's Path",
+        "effect": "Grants Attach Earth at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Kaiser Knuckles (IV)",
+        "name(jp)": "師父と歩む道",
         "✓": "✓"
     },
     {
@@ -1661,6 +1705,20 @@
         "relic": "Lambent Hat (V)",
         "name(jp)": "王の資性",
         "✓": "✓"
+    },
+    {
+        "realm": "V",
+        "character": "Gogo (V)",
+        "relic": "-"
+    },
+    {
+        "realm": "V",
+        "character": "Gogo (V)",
+        "relic": "-"
+    },
+    {
+        "realm": "V",
+        "character": "Gogo (V)"
     },
     {
         "realm": "V",
@@ -2985,6 +3043,16 @@
     },
     {
         "realm": "VIII",
+        "character": "Squall",
+        "name": "Inherited Charisma",
+        "effect": "Grants Attach Fire at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Survival Vest (VIII)",
+        "name(jp)": "父親譲りのカリスマ性",
+        "✓": "✓"
+    },
+    {
+        "realm": "VIII",
         "character": "Rinoa",
         "name": "Daring Beauty",
         "effect": "BLK attacks deal 10% more damage",
@@ -3288,6 +3356,26 @@
         "relic": "Sorceress Crown+ (VIII)",
         "name(jp)": "巨大なる魔力",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "VIII",
+        "character": "Edea",
+        "name": "Freed from Enchantment",
+        "effect": "Grants Attach Ice at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Rod of Darkness (VIII)",
+        "name(jp)": "呪縛から解き放たれし者",
+        "✓": "✓"
+    },
+    {
+        "realm": "VIII",
+        "character": "Edea",
+        "name": "Concealed Motherhood",
+        "effect": "25% chance to dualcast abilities that deal Ice damage",
+        "master": "MAG +10",
+        "relic": "Edea's Cardinal (VIII)",
+        "name(jp)": "秘めた母性",
         "✓": "✓"
     },
     {
@@ -3996,6 +4084,7 @@
         "master": "ATK +10",
         "relic": "Berserker Knuckles (X)",
         "name(jp)": "ニギヤカ担当",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4037,6 +4126,7 @@
         "master": "ATK +10",
         "relic": "Peaceful Slumber (X)",
         "name(jp)": "友との約束",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4078,6 +4168,7 @@
         "master": "ATK +10",
         "relic": "Maverick (X)",
         "name(jp)": "王者の貫禄",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4088,6 +4179,7 @@
         "master": "ATK +10",
         "relic": "Jecht's Armguard (X)",
         "name(jp)": "親父の拳",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4498,7 +4590,8 @@
         "effect": "Grants Attach Fire at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Antares (XII)",
-        "name(jp)": "空賊の心構え"
+        "name(jp)": "空賊の心構え",
+        "✓": "✓"
     },
     {
         "realm": "XII",

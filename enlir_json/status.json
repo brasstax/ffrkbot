@@ -7701,6 +7701,26 @@
         "notes": "-"
     },
     {
+        "id": "50300",
+        "commonName": "Double Junction",
+        "effects": "Spellblade abilities deal 30/35/40/45/50/55/60/65/70% more damage after using 0/1/2/3/4/5/6/7/8 Fire or Ice Spellblade abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "MODE_FOR_DOUBLE_JUNCTION",
+        "notes": "-"
+    },
+    {
+        "id": "50301",
+        "commonName": "Astral World",
+        "effects": "Grants Quick Cast 1 to all allies in the character's row after using a Ice attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_SA_ABILITY_FOR_ASTRAL_WORLD",
+        "notes": "-"
+    },
+    {
         "id": "50302",
         "commonName": "Curse",
         "effects": "Arrests ATB charge rate, can't act",
@@ -7718,6 +7738,36 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "SWORD_OF_HERO_KING",
+        "notes": "-"
+    },
+    {
+        "id": "50306",
+        "commonName": "Ledge Mode",
+        "effects": "Cast speed x2,00, casts Ledge Assault after dealing a critical hit",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_BELOVED_SPOON",
+        "notes": "-"
+    },
+    {
+        "id": "50307",
+        "commonName": "Old Man's Hammer Follow-Up",
+        "effects": "Casts Old Man's Hammer after using a Lightning attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_SLEDGE_HAMMER",
+        "notes": "-"
+    },
+    {
+        "id": "50311",
+        "commonName": "Dire Meteor Mode",
+        "effects": "Dualcasts Black Magic abilities, casts Legendary Black Magic when removed",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DESPERATE_METEO_MODE",
         "notes": "-"
     },
     {
@@ -8442,7 +8492,7 @@
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "Warrior Mode 2, Warrior Mode 3",
-        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_50_15000_FOR_STUDY_ARTS",
+        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_50_15000_FOR_VALKYRIE_MODE",
         "notes": "-"
     },
     {
@@ -8452,7 +8502,7 @@
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "Warrior Mode 1, Warrior Mode 3",
-        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_75_15000_FOR_STUDY_ARTS",
+        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_75_15000_FOR_VALKYRIE_MODE",
         "notes": "-"
     },
     {
@@ -8462,7 +8512,7 @@
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "Warrior Mode 1, Warrior Mode 2",
-        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_100_15000_FOR_STUDY_ARTS",
+        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_100_15000_FOR_VALKYRIE_MODE",
         "notes": "-"
     },
     {
