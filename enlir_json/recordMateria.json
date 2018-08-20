@@ -5189,17 +5189,28 @@
     {
         "realm": "XI",
         "character": "Lilisette",
-        "unlockCriteria": "Use Lilisette's Memory Crystal"
+        "name": "Dancing Leader",
+        "effect": "50% chance to restore 1 use for all Dancer abilities at the beginning of the battle",
+        "unlockCriteria": "Use Lilisette's Memory Crystal",
+        "name(jp)": "踊り子のリーダー格",
+        "✓": "✓"
     },
     {
         "realm": "XI",
         "character": "Lilisette",
-        "unlockCriteria": "Use Lilisette's Memory Crystal II, chance to obtain with Lilisette in party"
+        "name": "Top Idol",
+        "effect": "Restores 1 use for all Dancer abilities at the beginning of the battle",
+        "unlockCriteria": "Use Lilisette's Memory Crystal II, chance to obtain with Lilisette in party",
+        "name(jp)": "トップアイドル",
+        "✓": "✓"
     },
     {
         "realm": "XI",
         "character": "Lilisette",
-        "unlockCriteria": "Bring Lilisette to level 99"
+        "name": "Moonshade Butterfly",
+        "effect": "PHY attacks deal ?% more damage when equipping a dagger",
+        "unlockCriteria": "Bring Lilisette to level 99",
+        "name(jp)": "月影の胡蝶"
     },
     {
         "realm": "XII",
@@ -6695,9 +6706,10 @@
         "realm": "FFT",
         "character": "Orran",
         "name": "Astrologer",
-        "effect": "MND +?% when equipping a book",
+        "effect": "MND +10% when equipping a book",
         "unlockCriteria": "Use Orran's Memory Crystal",
-        "name(jp)": "占星術士"
+        "name(jp)": "占星術士",
+        "✓": "✓"
     },
     {
         "realm": "FFT",

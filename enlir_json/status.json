@@ -521,7 +521,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "ZERO_FLIGHT_2",
+        "codedName": "ZERO_FLIGHT_BY_TURN_2",
         "notes": "-"
     },
     {
@@ -531,7 +531,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "ZERO_FLIGHT_3",
+        "codedName": "ZERO_FLIGHT_BY_TURN_3",
         "notes": "-"
     },
     {
@@ -916,7 +916,7 @@
     },
     {
         "id": "266008",
-        "commonName": "White One-Winged Angel",
+        "commonName": "Wings of White",
         "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -5518,7 +5518,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "ZERO_FLIGHT_4",
+        "codedName": "ZERO_FLIGHT_BY_TURN_4",
         "notes": "-"
     },
     {
@@ -7732,12 +7732,32 @@
     },
     {
         "id": "50303",
-        "commonName": "Hero-King's Blade",
+        "commonName": "Hero-King's Blade Follow-Up",
         "effects": "Casts Hero-King's Blade after exploiting elemental weakness",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "SWORD_OF_HERO_KING",
+        "notes": "-"
+    },
+    {
+        "id": "50304",
+        "commonName": "Whirling Edge Follow-Up",
+        "effects": "Casts Whirling Edge after using a Celerity or Dancer ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_SENSUAL_DANCE",
+        "notes": "-"
+    },
+    {
+        "id": "50305",
+        "commonName": "Extreme Guard",
+        "effects": "Restores 1500 HP to all allies in the front row after using a Knight ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_SA_ABILITY_FOR_EXTREME_GUARD",
         "notes": "-"
     },
     {
@@ -7778,6 +7798,36 @@
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Lionheart\" status",
         "codedName": "LION_HEART_GRADE_0",
+        "notes": "-"
+    },
+    {
+        "id": "50313",
+        "commonName": "Windfang Follow-Up",
+        "effects": "Casts Windfang after using a Dragoon ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_RAGNAROK_INDICATION",
+        "notes": "-"
+    },
+    {
+        "id": "50314",
+        "commonName": "Windfang Counter",
+        "effects": "Keeps track of the uses of Windfang, removed if the user hasn't Windfang Follow-Up, reset upon refreshing Windfang Follow-Up",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_FOR_CHASE_MODE_RAGNAROK_INDICATION",
+        "notes": "-"
+    },
+    {
+        "id": "50315",
+        "commonName": "No Air Time",
+        "effects": "Changes the air time of Jump attacks to 0,01 seconds",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ZERO_FLIGHT_AND_DURATION_TIME_15000_MSEC",
         "notes": "-"
     },
     {
@@ -8843,6 +8893,96 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_POISON_DISADVANTAGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "846",
+        "commonName": "Medium Imperil Lightning",
+        "effects": "Lightning Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_LIGHTNING_DISADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "847",
+        "commonName": "Medium Imperil Holy",
+        "effects": "Holy Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_HOLY_DISADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "848",
+        "commonName": "Medium Imperil Dark",
+        "effects": "Dark Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_DARK_DISADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "849",
+        "commonName": "Medium Imperil Fire",
+        "effects": "Fire Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_FIRE_DISADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "850",
+        "commonName": "Medium Imperil Wind",
+        "effects": "Wind Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_WIND_DISADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "851",
+        "commonName": "Medium Imperil Water",
+        "effects": "Water Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_WATER_DISADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "852",
+        "commonName": "Medium Imperil Ice",
+        "effects": "Ice Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_ICE_DISADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "853",
+        "commonName": "Medium Imperil Earth",
+        "effects": "Earth Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_EARTH_DISADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "854",
+        "commonName": "Medium Imperil Poison",
+        "effects": "Poison Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_POISON_DISADVANTAGE_2",
         "notes": "-"
     },
     {

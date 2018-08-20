@@ -1073,6 +1073,7 @@
         "introducingEvent": "Darkest Precepts",
         "name(jp)": "連続ファイジャ",
         "id": "30111272",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1244,6 +1245,7 @@
         "introducingEvent": "Darkest Precepts",
         "name(jp)": "連続サンダジャ",
         "id": "30111302",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1348,7 +1350,7 @@
     },
     {
         "school": "Black Magic",
-        "name": "Vortex",
+        "name": "Voltech",
         "rarity": 6,
         "type": "BLK",
         "target": "Single",
@@ -1369,6 +1371,7 @@
         "introducingEvent": "Darkest Precepts",
         "name(jp)": "ボルテック",
         "id": "30111341",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -7338,6 +7341,7 @@
         "introducingEvent": "A Promise Kept",
         "name(jp)": "業火",
         "id": "30221141",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -7362,19 +7366,32 @@
         "introducingEvent": "A Promise Kept",
         "name(jp)": "居合・獄炎",
         "id": "30221151",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "school": "Samurai",
+        "name": "Iai Hellfrost",
         "rarity": 5,
-        "type": "?",
-        "time": "?",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 3.55,
+        "element": "Ice",
+        "time": 1.65,
+        "effects": "Five single attacks (0,71 each), 20% additional critical chance, grants Iai Strike to the user for 20 seconds",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 75,
         "uses": 2,
         "max": 10,
-        "introducingEvent": "Come, Dancing Princess!"
+        "orb1Required": "Major Non-Elemental",
+        "orb2Required": "Major Ice",
+        "orb3Required": "Major Lightning",
+        "introducingEvent": "Come, Dancing Princess!",
+        "name(jp)": "居合・獄氷",
+        "id": "30221161",
+        "✓": "✓"
     },
     {
         "school": "Samurai",
@@ -7405,16 +7422,16 @@
         "school": "Samurai",
         "name": "Warring Cold",
         "rarity": 6,
-        "type": "?",
+        "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
-        "multiplier": "?",
+        "multiplier": 4.25,
         "element": "Ice",
-        "time": "?",
-        "effects": "Five single attacks (? each), ?% additional critical chance if the user has Retaliate or High Retaliate",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
+        "time": 1.65,
+        "effects": "Five single attacks (0,85 each), 50% additional critical chance if the user has Retaliate or High Retaliate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 90,
         "uses": 2,
         "max": 10,
         "orb1Required": "Non-Elemental Crystal",
@@ -7423,7 +7440,8 @@
         "orb4Required": "Ability Record",
         "introducingEvent": "Incarnation of Hatred",
         "name(jp)": "抜刀ノ弐・冷閃",
-        "id": "30221181"
+        "id": "30221181",
+        "✓": "✓"
     },
     {
         "school": "Ninja",
@@ -8757,16 +8775,16 @@
         "school": "Machinist",
         "name": "Cold Offering",
         "rarity": 6,
-        "type": "?",
+        "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
-        "multiplier": "?",
+        "multiplier": 3.4,
         "element": "Ice",
-        "time": "?",
-        "effects": "Four single ranged attacks (? each), ?% chance to cause Imperil Fire ?% for ? seconds",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
+        "time": 1.65,
+        "effects": "Four single ranged attacks (0,85 each), 50% chance to cause Imperil Ice 10% for 15 seconds",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 90,
         "uses": 2,
         "max": 10,
         "orb1Required": "Black Crystal",
@@ -8775,7 +8793,8 @@
         "orb4Required": "Ability Record",
         "introducingEvent": "Incarnation of Hatred",
         "name(jp)": "フロストオファ",
-        "id": "30261151"
+        "id": "30261151",
+        "✓": "✓"
     },
     {
         "school": "Darkness",
@@ -9406,16 +9425,16 @@
         "school": "Witch",
         "name": "Scary Blizzard",
         "rarity": 6,
-        "type": "?",
+        "type": "BLK",
         "target": "Single",
         "formula": "Magical",
-        "multiplier": "?",
+        "multiplier": 15.6,
         "element": "Ice",
-        "time": "?",
-        "effects": "Six single attacks (? each)",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
+        "time": 2.6,
+        "effects": "Six single attacks (2,60 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 90,
         "uses": 2,
         "max": 10,
         "orb1Required": "Non-Elemental Crystal",
@@ -9424,7 +9443,8 @@
         "orb4Required": "Ability Record",
         "introducingEvent": "Incarnation of Hatred",
         "name(jp)": "スケアリーブリザド",
-        "id": "30301051"
+        "id": "30301051",
+        "✓": "✓"
     },
     {
         "school": "Witch",
@@ -9596,6 +9616,7 @@
         "introducingEvent": "Sailing the Skies",
         "name(jp)": "イービルスイング",
         "id": "30311041",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -9620,6 +9641,7 @@
         "introducingEvent": "Sailing the Skies",
         "name(jp)": "ダークインパクト",
         "id": "30311051",
+        "gl": "✓",
         "✓": "✓"
     },
     {

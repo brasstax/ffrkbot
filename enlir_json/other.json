@@ -1151,6 +1151,23 @@
     },
     {
         "sourceType": "Follow-Up Status",
+        "source": "Whirling Edge Follow-Up",
+        "name": "Whirling Edge",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2,
+        "element": "Lightning, Wind, NE",
+        "time": 0.01,
+        "effects": "Five single attacks (2,00 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Dancer",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
         "source": "EX: Wings of Freedom",
         "name": "Spiral Rush",
         "type": "PHY",
@@ -1164,6 +1181,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Thief",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1231,6 +1249,23 @@
         "sb": 0,
         "school": "Darkness",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Windfang Follow-Up",
+        "name": "Windfang",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2,
+        "element": "Wind, NE",
+        "time": 0.01,
+        "effects": "Five single ranged attacks (0,40 each), 30/50/75% additional critical chance scaling with uses, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Dragoon",
         "✓": "✓"
     },
     {
@@ -4266,7 +4301,7 @@
     },
     {
         "sourceType": "Legend Materia",
-        "source": "Comrade's Legacy",
+        "source": "Vermin Exterminator",
         "name": "Gatling Gun",
         "type": "PHY",
         "target": "Random enemies",
@@ -4378,6 +4413,23 @@
         "target": "All enemies",
         "time": 0.01,
         "effects": "Causes Imperil Water 10% for 15 seconds",
+        "counter": "N",
+        "autoTarget": "All enemies",
+        "sb": 0,
+        "school": "Special",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Legend Materia",
+        "source": "Dancing Princess",
+        "name": "Dancing Princess",
+        "type": "WHT",
+        "target": "All allies",
+        "formula": "Magical",
+        "multiplier": 2,
+        "element": "Holy",
+        "time": 0.01,
+        "effects": "Restores HP (25), damages undeads",
         "counter": "N",
         "autoTarget": "All enemies",
         "sb": 0,

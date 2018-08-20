@@ -2595,19 +2595,21 @@
     {
         "realm": "VII",
         "character": "Barret",
-        "name": "Fiery Might",
+        "name": "Hot-Blooded",
         "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "屈強なる熱血漢",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "VII",
         "character": "Barret",
-        "name": "Comrade's Legacy",
+        "name": "Vermin Exterminator",
         "effect": "35% chance to cast an ability (PHY: random, 7x 0,31 ranged physical Fire/NE) after using a Machinist ability",
         "relic": "-",
         "name(jp)": "未来を繋ぐ相棒",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2618,6 +2620,7 @@
         "master": "ATK +10",
         "relic": "Drill Arm (VII)",
         "name(jp)": "誓いの右腕",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2768,10 +2771,11 @@
     {
         "realm": "VII",
         "character": "Cait Sith",
-        "name": "Cheerful Fortune-Teller",
+        "name": "Felicitous Fortune-teller",
         "effect": "Reduces damage taken by BLK attacks by 10%",
         "relic": "-",
         "name(jp)": "陽気な占い人形",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2781,6 +2785,7 @@
         "effect": "35% chance to cast an ability (WHT: group, restores HP (25)) using a Dancer ability",
         "relic": "-",
         "name(jp)": "勇気百倍！",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2791,6 +2796,7 @@
         "master": "MND +10",
         "relic": "Cait Sith's Crown (VII)",
         "name(jp)": "移ろう救星への想い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4349,6 +4355,16 @@
     },
     {
         "realm": "XI",
+        "character": "Ayame",
+        "name": "Youngest Musketeer",
+        "effect": "Grants Attach Ice at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Omokage (XI)",
+        "name(jp)": "最年少の銃士",
+        "✓": "✓"
+    },
+    {
+        "realm": "XI",
         "character": "Curilla",
         "name": "Tempered Steel",
         "effect": "PHY attacks deal 10% more damage",
@@ -4376,6 +4392,16 @@
         "relic": "Royal Squire's Mufflers (XI)",
         "name(jp)": "騎士団長の配慮",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "XI",
+        "character": "Curilla",
+        "name": "Friendly Concern",
+        "effect": "Grants Quick Cast 3 at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Royal Knight Army Shield (XI)",
+        "name(jp)": "こまやかな配慮",
         "✓": "✓"
     },
     {
@@ -4499,16 +4525,30 @@
     {
         "realm": "XI",
         "character": "Lilisette",
-        "relic": "-"
+        "name": "Mixed Heritage",
+        "effect": "PHY attacks deal 10% more damage",
+        "relic": "-",
+        "name(jp)": "ハーフの少女",
+        "✓": "✓"
     },
     {
         "realm": "XI",
         "character": "Lilisette",
-        "relic": "-"
+        "name": "Dancing Princess",
+        "effect": "35% chance to cast an ability (WHT: group, restores HP (25)) after using a Dancer ability",
+        "relic": "-",
+        "name(jp)": "舞姫",
+        "✓": "✓"
     },
     {
         "realm": "XI",
-        "character": "Lilisette"
+        "character": "Lilisette",
+        "name": "Bouncing Dancer",
+        "effect": "25% chance to dualcast Celerity abilities",
+        "master": "ATK +5, MND +5",
+        "relic": "Cermet Knife (XI)",
+        "name(jp)": "跳ねっ返りな踊り子",
+        "✓": "✓"
     },
     {
         "realm": "XII",
@@ -4632,6 +4672,7 @@
         "master": "ATK +10",
         "relic": "Fran's Helm (XII)",
         "name(jp)": "謎多きヴィエラ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4944,6 +4985,15 @@
     },
     {
         "realm": "XIII",
+        "character": "Snow",
+        "name": "Leader of NORA",
+        "effect": "Grants Attach Ice at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Solaris (XIII)",
+        "name(jp)": "ノラの大将"
+    },
+    {
+        "realm": "XIII",
         "character": "Vanille",
         "name": "Pulse Prayer",
         "effect": "WHT abilities restore 15% more HP",
@@ -5079,6 +5129,16 @@
     },
     {
         "realm": "XIII",
+        "character": "Fang",
+        "name": "Cheerful Friendship",
+        "effect": "Grants Attach Wind at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Adamant Bangle (XIII)",
+        "name(jp)": "快活な友情",
+        "✓": "✓"
+    },
+    {
+        "realm": "XIII",
         "character": "Serah",
         "name": "Undaunted Hope",
         "effect": "Increases Ice damage dealt by 10%",
@@ -5107,6 +5167,15 @@
         "name(jp)": "未来視の異能",
         "gl": "✓",
         "✓": "✓"
+    },
+    {
+        "realm": "XIII",
+        "character": "Serah",
+        "name": "Sisterly Willpower",
+        "effect": "Grants Attach Ice at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Amazon Bow (XIII)",
+        "name(jp)": "姉譲りの意志の強さ"
     },
     {
         "realm": "XIII",

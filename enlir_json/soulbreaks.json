@@ -7498,7 +7498,7 @@
         "type": "?",
         "target": "Self",
         "time": 0.01,
-        "effects": "Six single attacks (0,52 each), grants Warrior Mode 1/2/3/3 to the user if the user has Warrior Mode 0/1/2/3",
+        "effects": "Grants High Quick Cast 2 and Warrior Mode 1/2/3/3 if the user has Warrior Mode 0/1/2/3",
         "counter": "?",
         "autoTarget": "?",
         "points": 250,
@@ -12513,6 +12513,7 @@
         "relic": "Solid Bazooka (VII)",
         "name(jp)": "アンガークライマックス",
         "id": "20760009",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -13503,6 +13504,7 @@
         "relic": "Red Megaphone (VII)",
         "name(jp)": "デンジャーダイス",
         "id": "22250006",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -13651,6 +13653,7 @@
         "relic": "Riot Gun (VII)",
         "name(jp)": "ケルベロスソウル",
         "id": "22170007",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -13672,6 +13675,7 @@
         "relic": "Peacemaker (VII)",
         "name(jp)": "フレイムペナルティ",
         "id": "22170008",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -14099,6 +14103,7 @@
         "relic": "Cetra Blade (VII)",
         "name(jp)": "天照ノ落日",
         "id": "20250011",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -14120,6 +14125,7 @@
         "relic": "Executioner (VII)",
         "name(jp)": "残心",
         "id": "20250012",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -14138,6 +14144,7 @@
         "relic": "Genji Glove (VII)",
         "name(jp)": "ジェノバの力",
         "id": "20250013",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -14518,6 +14525,7 @@
         "relic": "Angeal's Gloves (CC) (VII)",
         "name(jp)": "憤怒の解放",
         "id": "22500003",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -21513,6 +21521,45 @@
     },
     {
         "realm": "XI",
+        "character": "Ayame",
+        "name": "Tachi Ageha",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 24,
+        "element": "Ice",
+        "time": 2.5,
+        "effects": "Three single attacks (8,00 each), breaks damage cap",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "points": 750,
+        "tier": "ASB",
+        "master": "ATK +10",
+        "relic": "Myochin Kabuto (XI)",
+        "name(jp)": "十一之太刀・鳳蝶",
+        "id": "22480006",
+        "✓": "✓"
+    },
+    {
+        "realm": "XI",
+        "character": "Ayame",
+        "name": "Overwhelm",
+        "type": "NAT",
+        "target": "Self",
+        "time": 0.01,
+        "effects": "Grants Attach Ice Stacking, Attach Ice and High Quick Cast 2",
+        "counter": "N",
+        "autoTarget": "Self",
+        "points": 250,
+        "tier": "Glint",
+        "master": "ATK +10",
+        "relic": "Daihannya (XI)",
+        "name(jp)": "正正堂堂",
+        "id": "22480007",
+        "✓": "✓"
+    },
+    {
+        "realm": "XI",
         "character": "Curilla",
         "name": "Seraph Blade",
         "type": "PHY",
@@ -21597,6 +21644,24 @@
     },
     {
         "realm": "XI",
+        "character": "Curilla",
+        "name": "Shield Defense Bonus",
+        "type": "NAT",
+        "target": "All allies",
+        "time": 2.5,
+        "effects": "Grants Protect, Shell and Last Stand, grants Extreme Guard to the user",
+        "counter": "N",
+        "autoTarget": "All allies",
+        "points": 500,
+        "tier": "USB",
+        "master": "ATK +10",
+        "relic": "Bastard Sword (XI)",
+        "name(jp)": "エクストリームガード",
+        "id": "22470005",
+        "✓": "✓"
+    },
+    {
+        "realm": "XI",
         "character": "Prishe",
         "name": "Backhand Blow",
         "type": "PHY",
@@ -21676,6 +21741,27 @@
         "relic": "Coeurl Cesti (XI)",
         "name(jp)": "羅刹七星拳",
         "id": "22680004",
+        "✓": "✓"
+    },
+    {
+        "realm": "XI",
+        "character": "Prishe",
+        "name": "Asuran Fists",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 7,
+        "element": "Lightning, Ice, NE",
+        "time": 2.5,
+        "effects": "Ten single attacks (0,70 each), ATK and DEF +30% to the user for 25 seconds, grants Attach Lightning and Monk Double to the user",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "points": 500,
+        "tier": "USB",
+        "master": "ATK +10",
+        "relic": "Scorpion Harness (XI)",
+        "name(jp)": "夢想阿修羅拳",
+        "id": "22680005",
         "✓": "✓"
     },
     {
@@ -21932,14 +22018,55 @@
     {
         "realm": "XI",
         "character": "Lilisette",
-        "type": "?",
-        "time": "?",
-        "counter": "?",
-        "autoTarget": "?",
+        "name": "Steps",
+        "type": "NAT",
+        "target": "Self",
+        "time": 2.5,
+        "effects": "Grants Physical Blink 1",
+        "counter": "N",
+        "autoTarget": "Self",
         "points": 500,
         "tier": "Default",
         "relic": "-",
-        "id": "23350001"
+        "name(jp)": "ステップ",
+        "id": "23350003",
+        "✓": "✓"
+    },
+    {
+        "realm": "XI",
+        "character": "Lilisette",
+        "name": "Sensual Dance",
+        "type": "NAT",
+        "target": "All enemies",
+        "time": 2.5,
+        "effects": "ATK, DEF and MAG -70% for 8 seconds, causes Medium Imperil Lightning, grants Whirling Edge Follow-Up to the user",
+        "counter": "N",
+        "autoTarget": "All enemies",
+        "points": 500,
+        "tier": "USB",
+        "master": "ATK +5, MND +5",
+        "relic": "Darksteel Kukri (XI)",
+        "name(jp)": "センシュアルダンス",
+        "id": "23350001",
+        "✓": "✓"
+    },
+    {
+        "realm": "XI",
+        "character": "Lilisette",
+        "name": "Vivifying Waltz",
+        "type": "NAT",
+        "target": "All allies",
+        "time": 2.5,
+        "effects": "Grants HP Stock (2000), ATK, DEF, MAG and RES -40% to all enemies for 25 seconds, grants Haste and Burst Mode to the user",
+        "counter": "N",
+        "autoTarget": "All allies",
+        "points": 500,
+        "tier": "BSB",
+        "master": "ATK +5, MND +5",
+        "relic": "Dancer's Tiara (XI)",
+        "name(jp)": "ビビファインワルツ",
+        "id": "23350002",
+        "✓": "✓"
     },
     {
         "realm": "XII",
@@ -22153,6 +22280,7 @@
         "relic": "Ame-no-Murakumo (XII)",
         "name(jp)": "ライセンスコンプリート",
         "id": "20700012",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -22580,6 +22708,7 @@
         "relic": "Hunting Crossbow (XII)",
         "name(jp)": "稲妻氷狼破砕穿",
         "id": "20390009",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -22601,6 +22730,7 @@
         "relic": "Minerva Bustier (XII)",
         "name(jp)": "星天霹靂弾",
         "id": "20390010",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -22764,6 +22894,7 @@
         "relic": "Crystal Shield (XII)",
         "name(jp)": "威厳と矜持の鼓舞",
         "id": "22180009",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -24240,6 +24371,24 @@
     },
     {
         "realm": "XIII",
+        "character": "Vanille",
+        "name": "Quick Curasa",
+        "type": "WHT",
+        "target": "All allies",
+        "time": 0.01,
+        "effects": "Restores HP (55)",
+        "counter": "N",
+        "autoTarget": "All allies",
+        "points": 250,
+        "tier": "Glint",
+        "master": "MND +10",
+        "relic": "Cherub's Crown (XIII)",
+        "name(jp)": "クイックケアルア",
+        "id": "20320010",
+        "✓": "✓"
+    },
+    {
+        "realm": "XIII",
         "character": "Sazh",
         "name": "Bravery",
         "type": "NAT",
@@ -24738,6 +24887,67 @@
     },
     {
         "realm": "XIII",
+        "character": "Fang",
+        "name": "Dragonstorm Spear",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Wind",
+        "time": "?",
+        "effects": "Three single ranged jump attacks (? each), breaks damage cap",
+        "counter": "?",
+        "autoTarget": "?",
+        "points": 750,
+        "tier": "ASB",
+        "master": "ATK +10",
+        "relic": "Calamity Spear (XIII)",
+        "name(jp)": "グラン＝パルス流 嵐竜槍",
+        "id": "22030010"
+    },
+    {
+        "realm": "XIII",
+        "character": "Fang",
+        "name": "Ragnarok's Quickening",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 7.1,
+        "element": "Wind, NE",
+        "time": 2.5,
+        "effects": "Ten single ranged jump attacks (0,71 each), grants Attach Wind, No Air Time and Windfang Follow-Up to the user",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "points": 500,
+        "tier": "USB",
+        "master": "ATK +10",
+        "relic": "Taming Pole (XIII)",
+        "name(jp)": "ラグナロクの胎動",
+        "id": "22030011",
+        "✓": "✓"
+    },
+    {
+        "realm": "XIII",
+        "character": "Fang",
+        "name": "Smash Blast",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Wind, NE",
+        "time": 0.01,
+        "effects": "Six single ranged attacks (? each), grants Attach Wind Stacking and Attach Wind to the user",
+        "counter": "?",
+        "autoTarget": "?",
+        "points": 250,
+        "tier": "Glint",
+        "master": "ATK +10",
+        "relic": "Pandoran Spear (XIII)",
+        "name(jp)": "スマッシュブラスト",
+        "id": "22030012"
+    },
+    {
+        "realm": "XIII",
         "character": "Serah",
         "name": "Wound",
         "type": "BLK",
@@ -24901,6 +25111,27 @@
         "relic": "Summoner's Garb (XIII)",
         "name(jp)": "エトロジョイント",
         "id": "22260008",
+        "✓": "✓"
+    },
+    {
+        "realm": "XIII",
+        "character": "Serah",
+        "name": "Ultima Shot",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 17.3,
+        "element": "Ice, NE",
+        "time": 2.5,
+        "effects": "Ten single attacks (1,73 each), grants Ice Radiant Shield: 75% to all allies, grants High Quick Cast 1 and Ice High Quick Cycle to the user",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "points": 500,
+        "tier": "USB",
+        "master": "MAG +10",
+        "relic": "Fellowship Arc (XIII)",
+        "name(jp)": "アルテミスシュート",
+        "id": "22260009",
         "✓": "✓"
     },
     {
@@ -32305,6 +32536,26 @@
         "relic": "Ninja's Trump (I)",
         "name(jp)": "バルーン",
         "id": "21000117",
+        "✓": "✓"
+    },
+    {
+        "realm": "-",
+        "character": "-",
+        "name": "Phantom Train Scramble",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 15.48,
+        "element": "-",
+        "time": 2.5,
+        "effects": "Three single attacks (5,16 each), breaks damage cap",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "points": 750,
+        "tier": "Shared",
+        "relic": "Phantom Train's Wheel (VI)",
+        "name(jp)": "魔列車スクランブル",
+        "id": "21000157",
         "✓": "✓"
     },
     {
