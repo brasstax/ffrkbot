@@ -105,6 +105,15 @@
     },
     {
         "realm": "I",
+        "character": "Warrior of Light",
+        "name": "Resolute Warrior",
+        "effect": "?% chance to cast an ability (???: single, 3x ? physical Holy/NE, restores 1500 HP to an ally) after taking damage from an enemy",
+        "master": "ATK +10",
+        "relic": "Crystal Shield (I)",
+        "name(jp)": "毅然たる戦士"
+    },
+    {
+        "realm": "I",
         "character": "Garland",
         "name": "Embracer of the Dark",
         "effect": "Increases Dark damage dealt by 10%",
@@ -146,6 +155,15 @@
     },
     {
         "realm": "I",
+        "character": "Garland",
+        "name": "Lust for Battle",
+        "effect": "Grants Attach Dark at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Demon Shield (I)",
+        "name(jp)": "溢れる戦闘欲"
+    },
+    {
+        "realm": "I",
         "character": "Sarah",
         "name": "Gracious Princess",
         "effect": "WHT abilities restore 15% more HP",
@@ -178,16 +196,29 @@
     {
         "realm": "I",
         "character": "Wol",
-        "relic": "-"
+        "name": "Rational Realist",
+        "effect": "PHY attacks deal 10% more damage",
+        "relic": "-",
+        "name(jp)": "鋭い現実主義者",
+        "✓": "✓"
     },
     {
         "realm": "I",
         "character": "Wol",
-        "relic": "-"
+        "name": "Revolutionary Warrior of Light",
+        "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
+        "relic": "-",
+        "name(jp)": "世界を変えた光の戦士",
+        "✓": "✓"
     },
     {
         "realm": "I",
-        "character": "Wol"
+        "character": "Wol",
+        "name": "Rulebreaker",
+        "effect": "Grants Elemental Boost when HP fall below ?%",
+        "master": "ATK +10",
+        "relic": "Sirius (I)",
+        "name(jp)": "ルールを覆す者"
     },
     {
         "realm": "I",
@@ -222,6 +253,15 @@
     },
     {
         "realm": "I",
+        "character": "Echo",
+        "name": "Legendary Fairy",
+        "effect": "Grants Haste and Instant Cast 1 at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Nirvana (I)",
+        "name(jp)": "伝説の妖精"
+    },
+    {
+        "realm": "I",
         "character": "Master",
         "name": "Fists of Steel",
         "effect": "Monk abilities deal 15% more damage",
@@ -249,6 +289,16 @@
         "relic": "Kenpogi (I)",
         "name(jp)": "熟練の瞬技",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "I",
+        "character": "Master",
+        "name": "Warrior's Sight",
+        "effect": "PHY attacks deal 20% more damage when equipping a fist",
+        "master": "ATK +10",
+        "relic": "Soldier's Gloves (I)",
+        "name(jp)": "武人の鑑",
         "✓": "✓"
     },
     {

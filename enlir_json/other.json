@@ -127,6 +127,23 @@
     },
     {
         "sourceType": "Follow-Up Status",
+        "source": "Ressac Follow-Up",
+        "name": "Ressac",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 7.95,
+        "element": "Water, NE",
+        "time": 0.01,
+        "effects": "Five single attacks (1,59 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
         "source": "Thorn of Heartache Follow-Up",
         "name": "Thorn of Heartache",
         "type": "BLK",
@@ -352,8 +369,8 @@
     },
     {
         "sourceType": "Follow-Up Status",
-        "source": "Ledge Mode",
-        "name": "Ledge Assault",
+        "source": "Ladle Mode",
+        "name": "Ladle Assault",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -4117,6 +4134,22 @@
         "school": "Special",
         "gl": "✓",
         "✓": "✓"
+    },
+    {
+        "sourceType": "Legend Materia",
+        "source": "Resolute Warrior",
+        "name": "Resolute Warrior",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Holy, NE",
+        "time": "?",
+        "effects": "Three single attacks (? each), restores 1500 HP to the lowest HP% ally",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
     },
     {
         "sourceType": "Legend Materia",
