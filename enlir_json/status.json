@@ -6623,8 +6623,8 @@
     },
     {
         "id": "50176",
-        "commonName": "Scythe of Slaughter Finisher",
-        "effects": "Casts Scythe of Slaughter when removed",
+        "commonName": "Culling Scythe Finisher",
+        "effects": "Casts Culling Scythe when removed",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6634,7 +6634,7 @@
     {
         "id": "50177",
         "commonName": "Malice Mode 0",
-        "effects": "Grants Malice Mode 1 after using a Darkness ability, removed if the user hasn't Scythe of Slaughter Finisher",
+        "effects": "Grants Malice Mode 1 after using a Darkness ability, removed if the user hasn't Culling Scythe Finisher",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Malice Mode\" status",
@@ -6644,7 +6644,7 @@
     {
         "id": "50178",
         "commonName": "Malice Mode 1",
-        "effects": "Critical chance =30%, cast speed x2,00, grants Malice Mode 2 after using a Darkness ability, removed if the user hasn't Scythe of Slaughter Finisher",
+        "effects": "Critical chance =30%, cast speed x2,00, grants Malice Mode 2 after using a Darkness ability, removed if the user hasn't Culling Scythe Finisher",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Malice Mode\" status",
@@ -6654,7 +6654,7 @@
     {
         "id": "50179",
         "commonName": "Malice Mode 2",
-        "effects": "Critical chance =50%, cast speed x2,50, grants Malice Mode 3 after using a Darkness ability, removed if the user hasn't Scythe of Slaughter Finisher",
+        "effects": "Critical chance =50%, cast speed x2,50, grants Malice Mode 3 after using a Darkness ability, removed if the user hasn't Culling Scythe Finisher",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Malice Mode\" status",
@@ -6664,7 +6664,7 @@
     {
         "id": "50180",
         "commonName": "Malice Mode 3",
-        "effects": "Critical chance =75%, cast speed x3,00, grants Malice Mode 3 after using a Darkness ability, removed if the user hasn't Scythe of Slaughter Finisher",
+        "effects": "Critical chance =75%, cast speed x3,00, grants Malice Mode 3 after using a Darkness ability, removed if the user hasn't Culling Scythe Finisher",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Malice Mode\" status",
@@ -7881,13 +7881,33 @@
         "notes": "-"
     },
     {
+        "id": "50321",
+        "commonName": "EX: Essence of Wind",
+        "effects": "Grants Physical High Quick Cast 1 to all allies in the front row and casts Inherited Swordplay 1/2/3 after using 1/2/3 +3n Wind attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_WIND_HEART",
+        "notes": "-"
+    },
+    {
         "id": "50323",
         "commonName": "Elemental Boost",
-        "effects": "Increases Fire, Ice, Lightning, Earth, Wind, Water, Holy, Dark and Poison damage dealt by ?%",
+        "effects": "Increases Fire, Ice, Lightning, Earth, Wind, Water, Holy, Dark and Poison damage dealt by 25%",
         "defaultDuration": "25",
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "ARRANGER_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50324",
+        "commonName": "Inherited Essence Follow-Up",
+        "effects": "Casts Inherited Essence after using a Earth attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_LEADED_HEART",
         "notes": "-"
     },
     {
@@ -8577,7 +8597,7 @@
     },
     {
         "id": "6024",
-        "commonName": "Iai Strike",
+        "commonName": "Iai Bargain",
         "effects": "MND +30%, DEF and RES -30%",
         "defaultDuration": 25,
         "mndModifier": "-",

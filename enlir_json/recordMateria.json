@@ -5208,9 +5208,10 @@
         "realm": "XI",
         "character": "Lilisette",
         "name": "Moonshade Butterfly",
-        "effect": "PHY attacks deal ?% more damage when equipping a dagger",
+        "effect": "PHY attacks deal 30% more damage when equipping a dagger",
         "unlockCriteria": "Bring Lilisette to level 99",
-        "name(jp)": "月影の胡蝶"
+        "name(jp)": "月影の胡蝶",
+        "✓": "✓"
     },
     {
         "realm": "XII",
@@ -6972,55 +6973,61 @@
     {
         "realm": "Type-0",
         "character": "Seven",
-        "name": "Grasping Truth",
+        "name": "Gaze Upon Truth",
         "effect": "Grants Magical Blink 1 at the beginning of the battle",
         "unlockCriteria": "Use Seven's Memory Crystal",
         "name(jp)": "真を見すえる瞳",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Seven",
-        "name": "Stunning Whipblade",
+        "name": "Whipblade Warrior",
         "effect": "MAG +10% when equipping a whip",
         "unlockCriteria": "Use Seven's Memory Crystal II, chance to obtain with Seven in party",
         "name(jp)": "鞭剣使いの麗人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Seven",
-        "name": "Understanding Power",
+        "name": "Unblinking Power",
         "effect": "BLK attacks deal 30% more damage when equipping a whip",
         "unlockCriteria": "Bring Seven to level 99",
         "name(jp)": "認識する力を司る者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Sice",
-        "name": "Gleaming Loner",
+        "name": "Searing Darkness",
         "effect": "Darkness abilities deal 15% more damage",
         "unlockCriteria": "Use Sice's Memory Crystal",
         "name(jp)": "鋭光の一匹狼",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Sice",
-        "name": "Scythe's Malice",
+        "name": "Spiteful Scythe",
         "effect": "13% chance to dualcast Darkness abilities",
         "unlockCriteria": "Use Sice's Memory Crystal II, chance to obtain with Sice in party",
         "name(jp)": "大鎌に宿る怨念",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Sice",
-        "name": "Resolute Power",
+        "name": "Unyielding Power",
         "effect": "ATK +15%, DEF -15%",
         "unlockCriteria": "Bring Sice to level 99",
         "name(jp)": "執着する力を司る者",
+        "gl": "✓",
         "✓": "✓"
     },
     {

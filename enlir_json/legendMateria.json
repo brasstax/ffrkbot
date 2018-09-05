@@ -146,10 +146,10 @@
     {
         "realm": "I",
         "character": "Garland",
-        "name": "Hatred Beyond Time",
+        "name": "Timeless Hatred",
         "effect": "25% chance to dualcast Darkness abilities",
         "master": "ATK +10",
-        "relic": "Garland's Mantle (I)",
+        "relic": "Garland's Cloak (I)",
         "name(jp)": "時を越えた憎悪",
         "✓": "✓"
     },
@@ -215,10 +215,11 @@
         "realm": "I",
         "character": "Wol",
         "name": "Rulebreaker",
-        "effect": "Grants Elemental Boost when HP fall below ?%",
+        "effect": "Grants Elemental Boost when HP fall below 20%",
         "master": "ATK +10",
         "relic": "Sirius (I)",
-        "name(jp)": "ルールを覆す者"
+        "name(jp)": "ルールを覆す者",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -258,7 +259,8 @@
         "effect": "Grants Haste and Instant Cast 1 at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Nirvana (I)",
-        "name(jp)": "伝説の妖精"
+        "name(jp)": "伝説の妖精",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -428,7 +430,7 @@
     {
         "realm": "II",
         "character": "Firion",
-        "name": "Blade for the Future",
+        "name": "Future's Edge",
         "effect": "25% chance to dualcast Samurai abilities",
         "master": "ATK +10",
         "relic": "Winged Helm (II)",
@@ -701,7 +703,8 @@
         "effect": "Grants Attach Earth at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Silver Despot (II)",
-        "name(jp)": "独裁者の謀略"
+        "name(jp)": "独裁者の謀略",
+        "✓": "✓"
     },
     {
         "realm": "II",
@@ -1189,7 +1192,7 @@
     {
         "realm": "IV",
         "character": "Kain",
-        "name": "Abandoned Weakness",
+        "name": "Weak No More",
         "effect": "Grants Attach Lightning at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Thunder Shield (IV)",
@@ -1230,10 +1233,10 @@
     {
         "realm": "IV",
         "character": "Rydia",
-        "name": "Immaculate Spirit",
+        "name": "Pristine Spirit",
         "effect": "Grants Attach Water at the beginning of the battle",
         "master": "MAG +10",
-        "relic": "Diamond Ring (IV)",
+        "relic": "Diamond Armlet (IV)",
         "name(jp)": "汚れなき心",
         "✓": "✓"
     },
@@ -1553,7 +1556,7 @@
     {
         "realm": "IV",
         "character": "Cid (IV)",
-        "name": "Fatherly Vitality",
+        "name": "Seasoned Fortitude",
         "effect": "Grants Last Stand and Hailstorm for 25 seconds when HP fall below 20%",
         "master": "ATK +10",
         "relic": "Cid's Mask (IV)",
@@ -1759,16 +1762,27 @@
     {
         "realm": "V",
         "character": "Gogo (V)",
-        "relic": "-"
+        "name": "Enigmatic Imitator",
+        "effect": "Increases Water damage dealt by ?%",
+        "relic": "-",
+        "name(jp)": " 謎多きものまね名人 "
     },
     {
         "realm": "V",
         "character": "Gogo (V)",
-        "relic": "-"
+        "name": "Essence of Mimicry",
+        "effect": "?% chance to dualcast abilities that deal Water damage",
+        "relic": "-",
+        "name(jp)": "ものまねの神髄 "
     },
     {
         "realm": "V",
-        "character": "Gogo (V)"
+        "character": "Gogo (V)",
+        "name": "Eccentric of the Dephts",
+        "effect": "Water attacks deal ?% more damage when equipping a rod",
+        "master": "MAG +10",
+        "relic": "Power Rod (V)",
+        "name(jp)": "水底の変わり者"
     },
     {
         "realm": "V",
@@ -1871,6 +1885,16 @@
         "relic": "Faris's Epaulet (V)",
         "name(jp)": "勇ましき王女",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "V",
+        "character": "Faris",
+        "name": "Ruler of Scoundrels",
+        "effect": "25% chance to dualcast Thief abilities",
+        "master": "ATK +10",
+        "relic": "Longinus (V)",
+        "name(jp)": "荒くれ者を統べる者",
         "✓": "✓"
     },
     {
@@ -1979,6 +2003,15 @@
     },
     {
         "realm": "V",
+        "character": "Krile",
+        "name": "Inner Brightness",
+        "effect": "Grants Attach Earth at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Minerva Bustier (V)",
+        "name(jp)": "持ち前の明るさ"
+    },
+    {
+        "realm": "V",
         "character": "Xezat",
         "name": "Veteran Swordsman",
         "effect": "Spellblade abilities deal 15% more damage",
@@ -2038,6 +2071,15 @@
         "name(jp)": "敏速なるウェアウルフ",
         "gl": "✓",
         "✓": "✓"
+    },
+    {
+        "realm": "V",
+        "character": "Kelger",
+        "name": "Righteous Spirit",
+        "effect": "Grants Attach Earth at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Triton Dagger (V)",
+        "name(jp)": "衰えぬ正義の心"
     },
     {
         "realm": "VI",
@@ -2166,7 +2208,7 @@
     {
         "realm": "VI",
         "character": "Mog",
-        "name": "Moogle Survival",
+        "name": "Moogle Survivor",
         "effect": "25% chance to cast an ability (NAT: group, ATK/MAG/MND -30%) after using a Dancer ability",
         "master": "MND +10",
         "relic": "White Cape (VI)",
@@ -2410,7 +2452,7 @@
     {
         "realm": "VI",
         "character": "Strago",
-        "name": "Concealed Power",
+        "name": "Depths of Power",
         "effect": "Grants Attach Water at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Wonder Wand (VI)",
@@ -2780,7 +2822,7 @@
     {
         "realm": "VII",
         "character": "Red XIII",
-        "name": "Long-Lived Race",
+        "name": "Elder Race",
         "effect": "25% chance to dualcast Black Magic abilities",
         "master": "MAG +10",
         "relic": "Seraph Comb (VII)",
@@ -3141,7 +3183,7 @@
     {
         "realm": "VIII",
         "character": "Rinoa",
-        "name": "Sorceress in Love",
+        "name": "Lovestruck Sorceress",
         "effect": "Grants Attach Earth at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Derringer (VIII)",
@@ -3151,17 +3193,17 @@
     {
         "realm": "VIII",
         "character": "Rinoa",
-        "name": "Princess of the Resistance",
+        "name": "Daughter of the Resistance",
         "effect": "Grants Attach Ice at the beginning of the battle",
         "master": "MAG +10",
-        "relic": "Windcutter (VIII)",
+        "relic": "Wind Slash (VIII)",
         "name(jp)": "レジスタンスの姫君",
         "✓": "✓"
     },
     {
         "realm": "VIII",
         "character": "Rinoa",
-        "name": "Iridescent Wings",
+        "name": "Witching Wings",
         "effect": "25% chance to dualcast Black Magic abilities",
         "master": "MAG +10",
         "relic": "Magic Armlet (VIII)",
@@ -3189,7 +3231,7 @@
     {
         "realm": "VIII",
         "character": "Quistis",
-        "name": "Talented SeeD",
+        "name": "SeeD Star",
         "effect": "25% chance to dualcast Black Magic abilities",
         "master": "MAG +10",
         "relic": "Quistis's Uniform (VIII)",
@@ -3468,7 +3510,7 @@
     {
         "realm": "VIII",
         "character": "Raijin",
-        "name": "Bad Influence",
+        "name": "Bad Crowd",
         "effect": "Grants Attach Lightning at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Six-fluted Pole (VIII)",
@@ -4365,7 +4407,7 @@
     {
         "realm": "XI",
         "character": "Shantotto",
-        "name": "Insolent Lady",
+        "name": "Superiority Complex",
         "effect": "Grants Attach Lightning at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Tactician Magician's Wand (XI)",
@@ -6590,38 +6632,42 @@
     {
         "realm": "Type-0",
         "character": "Seven",
-        "name": "Discerning Student",
+        "name": "Uncommon Insight",
         "effect": "Increases Ice damage dealt by 10%",
         "relic": "-",
         "name(jp)": "洞察に優れた候補生",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Seven",
-        "name": "Composed Appearance",
+        "name": "Commanding Presence",
         "effect": "30% chance to grant Quick Cast 3 to the user after using a Ice attack",
         "relic": "-",
         "name(jp)": "凛々しき佇まい",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Seven",
-        "name": "Admirable Student",
+        "name": "Class Act",
         "effect": "20% chance to cause Minor Imperil Ice to the target after using a Ice attack on an enemy",
         "master": "MAG +10",
-        "relic": "Gauntlets (Type-0)",
+        "relic": "Gauntlet (Type-0)",
         "name(jp)": "0組女生徒の憧れ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Sice",
-        "name": "Unshakable Judgment",
+        "name": "Steadfast Judgment",
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "揺るがぬ判断力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6631,16 +6677,18 @@
         "effect": "35% chance to dualcast Darkness abilities",
         "relic": "-",
         "name(jp)": "銀髪の大鎌使い",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Sice",
-        "name": "Law of the Jungle",
+        "name": "Survival Mentality",
         "effect": "Grants Attach Dark at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Silver Bracelet (Type-0)",
         "name(jp)": "弱肉強食の思想",
+        "gl": "✓",
         "✓": "✓"
     },
     {

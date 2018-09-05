@@ -11154,12 +11154,13 @@
         "school": "Black Magic",
         "name(jp)": "ブリザドクラッシュ",
         "id": "30512711",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "character": "Seven",
         "source": "Diving Strike",
-        "name": "Freeze Magic",
+        "name": "Frost Magic",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
@@ -11173,11 +11174,12 @@
         "school": "Black Magic",
         "name(jp)": "フリーズマジック",
         "id": "30512712",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "character": "Sice",
-        "source": "Black Hole",
+        "source": "Black Hole (Type-0)",
         "name": "Nebula Slash",
         "type": "PHY",
         "target": "Single enemy",
@@ -11192,12 +11194,13 @@
         "school": "Darkness",
         "name(jp)": "ネビュラスラッシュ",
         "id": "30512721",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "character": "Sice",
-        "source": "Black Hole",
-        "name": "Dark Boost",
+        "source": "Black Hole (Type-0)",
+        "name": "Dark Boon",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -11211,6 +11214,7 @@
         "school": "Darkness",
         "name(jp)": "ダークブースト",
         "id": "30512722",
+        "gl": "✓",
         "✓": "✓"
     },
     {
