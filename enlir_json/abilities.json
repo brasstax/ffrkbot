@@ -1420,6 +1420,7 @@
         "introducingEvent": "Mired in Despair",
         "name(jp)": "連続ストンジャ",
         "id": "30111351",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5508,6 +5509,30 @@
         "✓": "✓"
     },
     {
+        "school": "Spellblade",
+        "name": "Freezing Quadstrike",
+        "rarity": 5,
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 3.2,
+        "element": "Ice",
+        "time": 1.65,
+        "effects": "Four single attacks (0,80 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 75,
+        "uses": 2,
+        "max": 10,
+        "orb1Required": "Major Power",
+        "orb2Required": "Major Black",
+        "orb3Required": "Major Ice",
+        "introducingEvent": "4th Anniversary Memory",
+        "name(jp)": "連続魔法剣・凍芯",
+        "id": "30141231",
+        "✓": "✓"
+    },
+    {
         "school": "Dragoon",
         "name": "Jump",
         "rarity": 2,
@@ -6201,7 +6226,7 @@
     },
     {
         "school": "Monk",
-        "name": "Earth Ironfist",
+        "name": "Ironfist Earth",
         "rarity": 6,
         "type": "PHY",
         "target": "Single enemy",
@@ -6222,11 +6247,12 @@
         "introducingEvent": "Mired in Despair",
         "name(jp)": "剛拳・地の型",
         "id": "30191151",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "school": "Monk",
-        "name": "Fire Ironfist",
+        "name": "Ironfist Fire",
         "rarity": 6,
         "type": "PHY",
         "target": "Single enemy",
@@ -6247,6 +6273,7 @@
         "introducingEvent": "Mired in Despair",
         "name(jp)": "剛拳・炎の型",
         "id": "30191161",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6271,6 +6298,7 @@
         "introducingEvent": "The Words that Started It All",
         "name(jp)": "スパークラッシュ",
         "id": "30191171",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -9746,7 +9774,7 @@
         "multiplier": 7,
         "element": "Earth",
         "time": 1.65,
-        "effects": "One single attack (3,00/4,00/7,00) at Heavy Charge 0/1/2, breaks damage cap, causes Heavy Charge =0 to the user",
+        "effects": "One single attack (3,00/4,00/7,00) capped at 99999 at Heavy Charge 0/1/2, causes Heavy Charge =0 to the user",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 75,
@@ -9759,5 +9787,24 @@
         "name(jp)": "ストーンプレス",
         "id": "30311061",
         "✓": "✓"
+    },
+    {
+        "school": "Heavy",
+        "name": "Evil Press",
+        "rarity": 5,
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Dark",
+        "time": "?",
+        "effects": "One single attack (?/?/?) capped at 99999 at Heavy Charge 0/1/2, causes Heavy Charge =0 to the user",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "uses": 2,
+        "max": 10,
+        "name(jp)": "イービルプレス",
+        "id": "30311071"
     }
 ]

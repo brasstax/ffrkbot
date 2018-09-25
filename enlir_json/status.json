@@ -1047,7 +1047,7 @@
     {
         "id": "276",
         "commonName": "EX: Soldier",
-        "effects": "Increases physical damage dealt by 30%, allows PHY attacks that deal physical, missing HP, fixed or fractional damage to break the damage cap",
+        "effects": "Increases physical damage dealt by 30%, sets the damage cap for PHY attacks to 99999",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -1952,6 +1952,36 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DAMAGE_BOOST_KNIGHT_115_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282157",
+        "commonName": "PHY +30% Boost",
+        "effects": "PHY attacks deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_PHYSICAL_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282158",
+        "commonName": "PHY +50% Boost",
+        "effects": "PHY attacks deal 50% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_PHYSICAL_150_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282159",
+        "commonName": "PHY +70% Boost",
+        "effects": "PHY attacks deal 70% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_PHYSICAL_170_15000_MSEC",
         "notes": "-"
     },
     {
@@ -4015,6 +4045,16 @@
         "notes": "-"
     },
     {
+        "id": "2220",
+        "commonName": "Magical High Quick Cast 1",
+        "effects": "Cast speed x3,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 1 turn",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_1_CUSTOM_MAGIC_DAMAGE_ABILITIES",
+        "notes": "-"
+    },
+    {
         "id": "501",
         "commonName": "MAG Boost",
         "effects": "MAG +25%",
@@ -4947,7 +4987,7 @@
         "effects": "SUM attacks deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, casts Deathflare when removed",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "exclusiveStatus": "-",
         "codedName": "EX_MODE_TRANCE_BAHAMUT",
         "notes": "-"
     },
@@ -5367,8 +5407,8 @@
         "effects": "Knight abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_KNIGHT_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_KNIGHT_MEDIUM",
         "notes": "-"
     },
     {
@@ -5767,7 +5807,7 @@
         "effects": "Darkness abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, casts Ultima (IX) when removed",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "exclusiveStatus": "-",
         "codedName": "EX_MODE_FOR_DEATH_GOD",
         "notes": "-"
     },
@@ -5777,8 +5817,8 @@
         "effects": "Spellblade abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_SPELL_BLADE_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_SPELLBLADE_MEDIUM",
         "notes": "-"
     },
     {
@@ -5787,8 +5827,8 @@
         "effects": "Ninja abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_NINJA_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_NINJA_MEDIUM",
         "notes": "-"
     },
     {
@@ -5927,8 +5967,8 @@
         "effects": "Monk abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_MONK_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_MONK_MEDIUM",
         "notes": "-"
     },
     {
@@ -5937,8 +5977,8 @@
         "effects": "White Magic abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_WHITE_MAGIC_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_WHITE_MAGIC_MEDIUM",
         "notes": "-"
     },
     {
@@ -6047,8 +6087,8 @@
         "effects": "Heavy abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": "15",
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_HEAVY_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_HEAVY_MEDIUM",
         "notes": "-"
     },
     {
@@ -6107,8 +6147,8 @@
         "effects": "Summoning abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_SUMMONING_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_SUMMONING_MEDIUM",
         "notes": "-"
     },
     {
@@ -6147,8 +6187,8 @@
         "effects": "Machinist abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_MACHINIST_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_MACHINIST_MEDIUM",
         "notes": "-"
     },
     {
@@ -6167,7 +6207,7 @@
         "effects": "Knight abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, casts Bright Finale when removed",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "exclusiveStatus": "-",
         "codedName": "EX_MODE_PROPHETIC_WARRIOR",
         "notes": "-"
     },
@@ -6257,8 +6297,8 @@
         "effects": "Darkness abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": "15",
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_DARKNESS_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_DARKNESS_MEDIUM",
         "notes": "-"
     },
     {
@@ -6337,8 +6377,8 @@
         "effects": "Combat abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_PHYSICAL_ATTACK_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_COMBAT_MEDIUM",
         "notes": "-"
     },
     {
@@ -6497,8 +6537,8 @@
         "effects": "Thief abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_THIEF_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_THIEF_MEDIUM",
         "notes": "-"
     },
     {
@@ -6604,7 +6644,7 @@
     {
         "id": "50174",
         "commonName": "EX: Legendary SOLDIER",
-        "effects": "Grants Dark +30% Boost 1 after using two Dark attacks, allows PHY Dark attacks to break the damage cap",
+        "effects": "Grants Dark +30% Boost 1 after using two Dark attacks, sets the damage cap for PHY Dark attacks to 99999",
         "defaultDuration": "25",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6693,8 +6733,8 @@
     },
     {
         "id": "50183",
-        "commonName": "EX: Artificial Magus",
-        "effects": "MAG +30%, casts Magitek Release after using a Dark attack",
+        "commonName": "EX: Forged Magitek",
+        "effects": "MAG +30%, casts Magitek Blast after using a Dark attack",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6703,8 +6743,8 @@
     },
     {
         "id": "50184",
-        "commonName": "Magitek Release Counter",
-        "effects": "Keeps track of the uses of Magitek Release, removed if the user hasn't EX: Artificial Magus, reset upon refreshing EX: Artificial Magus",
+        "commonName": "Magitek Blast Counter",
+        "effects": "Keeps track of the uses of Magitek Blast, removed if the user hasn't EX: Forged Magitek, reset upon refreshing EX: Forged Magitek",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6723,7 +6763,7 @@
     },
     {
         "id": "50186",
-        "commonName": "EX: Wisdom of Light",
+        "commonName": "EX: Light's Wisdom",
         "effects": "MAG +30%, cast speed x2,00 for magical damage, casts Wind/Water/Fire/Earth Onion Magic after using a Wind/Water/Fire/Earth Black Magic ability",
         "defaultDuration": 15,
         "mndModifier": "-",
@@ -6737,8 +6777,8 @@
         "effects": "Samurai abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_SAMURAI_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_SAMURAI_MEDIUM",
         "notes": "-"
     },
     {
@@ -6747,8 +6787,8 @@
         "effects": "Black Magic abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_BLACK_MAGIC_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_BLACK_MAGIC_MEDIUM",
         "notes": "-"
     },
     {
@@ -6972,8 +7012,8 @@
     },
     {
         "id": "50212",
-        "commonName": "Swift Steel Follow-Up",
-        "effects": "Casts Swift Steel after using a Thief ability",
+        "commonName": "Swift Poison Follow-Up",
+        "effects": "Casts Swift Poison after using a Thief ability",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -7116,8 +7156,8 @@
         "effects": "Support abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_SUPPORT_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_SUPPORT_MEDIUM",
         "notes": "-"
     },
     {
@@ -7126,8 +7166,8 @@
         "effects": "Celerity abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_CELERITY_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_CELERITY_MEDIUM",
         "notes": "-"
     },
     {
@@ -7136,8 +7176,8 @@
         "effects": "Dragoon abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_DRAGOON_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_DRAGOON_MEDIUM",
         "notes": "-"
     },
     {
@@ -7146,8 +7186,8 @@
         "effects": "Bard abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_BARD_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_BARD_MEDIUM",
         "notes": "-"
     },
     {
@@ -7156,8 +7196,8 @@
         "effects": "Dancer abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_DANCER_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_DANCER_MEDIUM",
         "notes": "-"
     },
     {
@@ -7166,8 +7206,8 @@
         "effects": "Sharpshooter abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_SHOOTER_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_SHOOTER_MEDIUM",
         "notes": "-"
     },
     {
@@ -7176,8 +7216,8 @@
         "effects": "Witch abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_WITCH_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_WITCH_MEDIUM",
         "notes": "-"
     },
     {
@@ -7911,6 +7951,226 @@
         "notes": "-"
     },
     {
+        "id": "50327",
+        "commonName": "Arcane Blade",
+        "effects": "Grants Physical High Quick Cast 1 to all allies in the front row after using a Ice attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_MYSTERIOUS_VICTORY_SWORD",
+        "notes": "-"
+    },
+    {
+        "id": "50328",
+        "commonName": "Dark Assassination Follow-Up",
+        "effects": "Casts Dark Assassination after using a Dark attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_ASSASSINATION_TECHNIQUE_OF_DARKNESS",
+        "notes": "-"
+    },
+    {
+        "id": "50329",
+        "commonName": "Darkness Blow Follow-Up",
+        "effects": "Casts Darkness Blow after using a Dark attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_DARKNESS_BLOW",
+        "notes": "-"
+    },
+    {
+        "id": "50330",
+        "commonName": "Aero Star Follow-Up",
+        "effects": "Casts Aero Star after using a Wind attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_TRICKSTER",
+        "notes": "-"
+    },
+    {
+        "id": "50331",
+        "commonName": "Elbow Follow-Up",
+        "effects": "Casts Elbow after using a Earth or Holy attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_HOLY_ROCK_REND",
+        "notes": "-"
+    },
+    {
+        "id": "50335",
+        "commonName": "Mog Follow-Up",
+        "effects": "Casts Mog Magic after using a Black Magic or Summoning ability, casts Mog Heal after using a White Magic ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_TETRADISASTER",
+        "notes": "-"
+    },
+    {
+        "id": "50336",
+        "commonName": "Biggs Trance",
+        "effects": "ATK +50%, cast speed x2,00",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "BIGGS_HAIRSBREATH_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50337",
+        "commonName": "Saintrock Cleft Counter",
+        "effects": "Keeps track of the uses of Saintrock Cleft",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_FOR_HOLY_ROCK_REND",
+        "notes": "-"
+    },
+    {
+        "id": "50338",
+        "commonName": "Summon's Cure Follow-Up",
+        "effects": "Casts Summon's Cure after using a Summoning attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "HEAL_HP_ALL_IF_SUMMONING_CATEGORY",
+        "notes": "-"
+    },
+    {
+        "id": "50341",
+        "commonName": "Ace Shot Follow-Up",
+        "effects": "Casts Ace Shot after using three Sharpshooter abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_DREAM_REVIVE",
+        "notes": "-"
+    },
+    {
+        "id": "50342",
+        "commonName": "Spear of Storms Follow-Up",
+        "effects": "Casts Spear of Storms after using three Dragoon abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_RANCE_OF_DRAGON",
+        "notes": "-"
+    },
+    {
+        "id": "50343",
+        "commonName": "Master Barrage Follow-Up",
+        "effects": "Casts Master Barrage after using two Fire, Water, Wind or Earth abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_MASTER_SPELLBLADE_FOURTH_LIGHT",
+        "notes": "-"
+    },
+    {
+        "id": "50344",
+        "commonName": "Awaken Sharpshooter",
+        "effects": "Sharpshooter abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Sharpshooter abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_SHOOTER",
+        "notes": "-"
+    },
+    {
+        "id": "50345",
+        "commonName": "Awaken Dragoon",
+        "effects": "Dragoon abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, cast speed x9999999 for Jump attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_DRAGOON",
+        "notes": "-"
+    },
+    {
+        "id": "50346",
+        "commonName": "Awaken Fire",
+        "effects": "Fire abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Fire abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_FIRE",
+        "notes": "-"
+    },
+    {
+        "id": "50347",
+        "commonName": "Awaken Spellblade",
+        "effects": "Spellblade abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Spellblade abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_SPELLBLADE",
+        "notes": "-"
+    },
+    {
+        "id": "50348",
+        "commonName": "Awaken Thief",
+        "effects": "Thief abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Thief abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_THIEF",
+        "notes": "-"
+    },
+    {
+        "id": "50349",
+        "commonName": "Damage Cap 19999",
+        "effects": "Sets the damage cap to 19999",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ADD_DAMAGE_THRESHOLD_LV_1",
+        "notes": "-"
+    },
+    {
+        "id": "50350",
+        "commonName": "Damage Cap 29999",
+        "effects": "Sets the damage cap to 29999",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ADD_DAMAGE_THRESHOLD_LV_2",
+        "notes": "-"
+    },
+    {
+        "id": "50351",
+        "commonName": "Thief Gauge +25% Booster",
+        "effects": "Thief abilities grant 25% more SB points",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ADD_ATK_SS_POINT_FACTOR_FOR_THIEF_MEDIUM",
+        "notes": "-"
+    },
+    {
+        "id": "50353",
+        "commonName": "Awaken Darkness",
+        "effects": "Darkness abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Darkness abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_DARKNESS",
+        "notes": "-"
+    },
+    {
+        "id": "50354",
+        "commonName": "Soul Break Gauge +500",
+        "effects": "Grants 500 SB points when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ADD_SS_POINT_WHEN_SET_GAUGE_2",
+        "notes": "-"
+    },
+    {
         "id": "601",
         "commonName": "MAG +X%",
         "effects": "MAG +X%",
@@ -7987,7 +8247,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "CUSTOM_DEF_MDEF",
+        "codedName": "CUSTOM_DEF_MDEF_FOR_IRON_WALL",
         "notes": "-"
     },
     {
@@ -7997,7 +8257,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "CUSTOM_ATK_MATK_DEF_MDEF",
+        "codedName": "CUSTOM_ATK_DEF_MATK_MDEF",
         "notes": "-"
     },
     {
@@ -8027,7 +8287,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "CUSTOM_ATK_MATK_DEF_MDEF_SPD_ACC_MND",
+        "codedName": "CUSTOM_ATK_DEF_MATK_MDEF_MND_ACC_SPD",
         "notes": "-"
     },
     {
@@ -8097,7 +8357,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "CUSTOM_DEF_MDEF_NOT_IRON_WALL",
+        "codedName": "CUSTOM_DEF_MDEF",
         "notes": "-"
     },
     {
@@ -8237,7 +8497,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "CUSTOM_ATK_MATK_DEF",
+        "codedName": "CUSTOM_ATK_DEF_MATK",
         "notes": "-"
     },
     {
@@ -8337,7 +8597,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "CUSTOM_MATK_DEF_MDEF",
+        "codedName": "CUSTOM_DEF_MATK_MDEF",
         "notes": "-"
     },
     {
@@ -8368,6 +8628,76 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CUSTOM_DEF_MDEF_MND",
+        "notes": "-"
+    },
+    {
+        "id": "647",
+        "commonName": "DEF and MND +X%",
+        "effects": "DEF and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_DEF_MND",
+        "notes": "-"
+    },
+    {
+        "id": "648",
+        "commonName": "ATK, RES and MND +X%",
+        "effects": "ATK, RES and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_MDEF_MND",
+        "notes": "-"
+    },
+    {
+        "id": "649",
+        "commonName": "DEF, MAG and MND +X%",
+        "effects": "DEF, MAG and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_DEF_MATK_MND",
+        "notes": "-"
+    },
+    {
+        "id": "650",
+        "commonName": "ATK, DEF, MAG and MND +X%",
+        "effects": "ATK, DEF, MAG and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_DEF_MATK_MND",
+        "notes": "-"
+    },
+    {
+        "id": "651",
+        "commonName": "ATK, DEF, RES and MND +X%",
+        "effects": "ATK, DEF, RES and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_DEF_MDEF_MND",
+        "notes": "-"
+    },
+    {
+        "id": "652",
+        "commonName": "ATK, MAG, RES and MND +X%",
+        "effects": "ATK, MAG, RES and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_MATK_MDEF_MND",
+        "notes": "-"
+    },
+    {
+        "id": "653",
+        "commonName": "DEF, MAG, RES and MND +X%",
+        "effects": "DEF, MAG, RES and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_DEF_MATK_MDEF_MND",
         "notes": "-"
     },
     {
@@ -9436,6 +9766,96 @@
         "notes": "Not used"
     },
     {
+        "id": "8052",
+        "commonName": "Major Buff Fire",
+        "effects": "Increases Fire damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_FIRE_30",
+        "notes": "-"
+    },
+    {
+        "id": "8053",
+        "commonName": "Major Buff Ice",
+        "effects": "Increases Ice damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_ICE_30",
+        "notes": "-"
+    },
+    {
+        "id": "8054",
+        "commonName": "Major Buff Lightning",
+        "effects": "Increases Lightning damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_LIGHTNING_30",
+        "notes": "-"
+    },
+    {
+        "id": "8055",
+        "commonName": "Major Buff Earth",
+        "effects": "Increases Earth damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_EARTH_30",
+        "notes": "-"
+    },
+    {
+        "id": "8056",
+        "commonName": "Major Buff Wind",
+        "effects": "Increases Wind damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_WIND_30",
+        "notes": "-"
+    },
+    {
+        "id": "8057",
+        "commonName": "Major Buff Water",
+        "effects": "Increases Water damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_WATER_30",
+        "notes": "-"
+    },
+    {
+        "id": "8058",
+        "commonName": "Major Buff Holy",
+        "effects": "Increases Holy damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_HOLY_30",
+        "notes": "-"
+    },
+    {
+        "id": "8059",
+        "commonName": "Major Buff Dark",
+        "effects": "Increases Dark damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_DARK_30",
+        "notes": "-"
+    },
+    {
+        "id": "8060",
+        "commonName": "Major Buff Poison",
+        "effects": "Increases Poison damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_POISON_30",
+        "notes": "-"
+    },
+    {
         "id": "8411001",
         "commonName": "Fire Blink 1",
         "effects": "Reduces the damage of the next attack that deals Fire damage to 0",
@@ -9708,7 +10128,6 @@
     {
         "id": "901",
         "commonName": "Ignore Control Loss",
-        "effects": "Allows to act normally even with status that force specific actions",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -9722,7 +10141,7 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DO_NOTHING_FOR_ESNA",
-        "notes": "???"
+        "notes": "-"
     },
     {
         "id": "903",
@@ -9731,7 +10150,7 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DO_NOTHING_FOR_DISPEL",
-        "notes": "???"
+        "notes": "-"
     },
     {
         "id": "904",
@@ -9740,7 +10159,7 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DO_NOTHING_FOR_SERIES_COMBO",
-        "notes": "???"
+        "notes": "-"
     },
     {
         "id": "905",
@@ -9749,7 +10168,7 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DO_NOTHING_FOR_AI",
-        "notes": "???"
+        "notes": "-"
     },
     {
         "id": "906",
@@ -9758,7 +10177,7 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DO_NOTHING_FOR_AI_2",
-        "notes": "???"
+        "notes": "-"
     },
     {
         "id": "907",
@@ -9767,7 +10186,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DISABLE_TARGET",
-        "notes": "???"
+        "notes": "-"
+    },
+    {
+        "id": "908",
+        "commonName": "Hidden HP Gauge",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "HIDDEN_HP_GAUGE",
+        "notes": "-"
     },
     {
         "id": "999",

@@ -71,6 +71,87 @@
     },
     {
         "realm": "Core",
+        "character": "Biggs",
+        "name": "Big Muscles",
+        "effect": "PHY attacks deal 10% more damage when equipping a sword",
+        "unlockCriteria": "Use Biggs's Memory Crystal",
+        "name(jp)": "筋骨隆々",
+        "✓": "✓"
+    },
+    {
+        "realm": "Core",
+        "character": "Biggs",
+        "name": "Chivalry for Ladies",
+        "effect": "PHY attacks deal 20% more damage when equipping a sword",
+        "unlockCriteria": "Use Biggs's Memory Crystal II, chance to obtain with Biggs in party",
+        "name(jp)": "美女への騎士道",
+        "✓": "✓"
+    },
+    {
+        "realm": "Core",
+        "character": "Biggs",
+        "name": "Rude Agent",
+        "effect": "Knight abilities deal 40% more damage",
+        "unlockCriteria": "Bring Biggs to level 99",
+        "name(jp)": "豪腕なる特務官",
+        "✓": "✓"
+    },
+    {
+        "realm": "Core",
+        "character": "Wedge",
+        "name": "Slow Pacing",
+        "effect": "PHY attacks deal 10% more damage when equipping a hat",
+        "unlockCriteria": "Use Wedge's Memory Crystal",
+        "name(jp)": "緩急自在",
+        "✓": "✓"
+    },
+    {
+        "realm": "Core",
+        "character": "Wedge",
+        "name": "Care for Animals",
+        "effect": "BLK attacks deal 20% more damage when equipping a hat",
+        "unlockCriteria": "Use Wedge's Memory Crystal II, chance to obtain with Wedge in party",
+        "name(jp)": "動物への愛護",
+        "✓": "✓"
+    },
+    {
+        "realm": "Core",
+        "character": "Wedge",
+        "name": "Amicable Agent",
+        "effect": "Increases Wind damage dealt by 30%",
+        "unlockCriteria": "Bring Wedge to level 99",
+        "name(jp)": "る特務官",
+        "✓": "✓"
+    },
+    {
+        "realm": "Core",
+        "character": "Dr. Mog",
+        "name": "Head Keeper",
+        "effect": "MAG and MND +10% when equipping a book",
+        "unlockCriteria": "Use Dr. Mog's Memory Crystal",
+        "name(jp)": "歴史学の第一人者",
+        "✓": "✓"
+    },
+    {
+        "realm": "Core",
+        "character": "Dr. Mog",
+        "name": "Scholar's Wisdom",
+        "effect": "Increases damage dealt by 20% when exploiting elemental weakness",
+        "unlockCriteria": "Use Dr. Mog's Memory Crystal II, chance to obtain with Dr. Mog in party",
+        "name(jp)": "学者の賢知",
+        "✓": "✓"
+    },
+    {
+        "realm": "Core",
+        "character": "Dr. Mog",
+        "name": "Master Historian",
+        "effect": "WHT abilities restore 20% more HP, BLK attacks deal 20% more damage",
+        "unlockCriteria": "Bring Dr. Mog to level 99",
+        "name(jp)": "歴史省のトップ",
+        "✓": "✓"
+    },
+    {
+        "realm": "Core",
         "character": "Warrior",
         "name": "Blade's Edge",
         "effect": "PHY attacks deal 10% more damage when equipping a sword",

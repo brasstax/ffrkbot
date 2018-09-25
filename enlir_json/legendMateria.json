@@ -62,6 +62,81 @@
         "✓": "✓"
     },
     {
+        "realm": "Core",
+        "character": "Biggs",
+        "name": "Reckless Zeal",
+        "effect": "PHY attacks deal ?% more damage",
+        "relic": "-",
+        "name(jp)": "ガムシャラな情熱"
+    },
+    {
+        "realm": "Core",
+        "character": "Biggs",
+        "name": "Last Resort",
+        "effect": "Grants Biggs Trance when HP fall below ?%",
+        "relic": "-",
+        "name(jp)": "土壇場の気合"
+    },
+    {
+        "realm": "Core",
+        "character": "Biggs",
+        "name": "Warrior's Hidden Pride",
+        "effect": "Grants Attach Earth at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Biggs's Guise (Core)",
+        "name(jp)": "隠された戦士の誇り"
+    },
+    {
+        "realm": "Core",
+        "character": "Wedge",
+        "name": "Affection for Animals",
+        "effect": "Increases Wind damage dealt by 10%",
+        "relic": "-",
+        "name(jp)": "動物への愛情"
+    },
+    {
+        "realm": "Core",
+        "character": "Wedge",
+        "name": "Smart Entertainer",
+        "effect": "?% chance to dualcast abilities that deal Wind damage",
+        "relic": "-",
+        "name(jp)": "すばしっこい芸達者"
+    },
+    {
+        "realm": "Core",
+        "character": "Wedge",
+        "name": "Concealed Affection",
+        "effect": "Grants Attach Wind at the beginning of the battle",
+        "master": "ATK +5, MAG +5",
+        "relic": "Wedge's Hat (Core)",
+        "name(jp)": "秘めた愛らしさ"
+    },
+    {
+        "realm": "Core",
+        "character": "Dr. Mog",
+        "name": "Master's Preparation",
+        "effect": "Reduces damage taken by BLK attacks by ?%",
+        "relic": "-",
+        "name(jp)": "元祖魔攻への備え"
+    },
+    {
+        "realm": "Core",
+        "character": "Dr. Mog",
+        "name": "Authority of Black Magic",
+        "effect": "?% chance to dualcast Black Magic or Summoning abilities",
+        "relic": "-",
+        "name(jp)": "黒魔法の権威"
+    },
+    {
+        "realm": "Core",
+        "character": "Dr. Mog",
+        "name": "Expert of White Magic",
+        "effect": "?% chance to dualcast White Magic abilities",
+        "master": "MAG +5, MND +5",
+        "relic": "Healing Staff (Core)",
+        "name(jp)": "白魔法の熟達者"
+    },
+    {
         "realm": "I",
         "character": "Warrior of Light",
         "name": "Chosen of the Light",
@@ -107,10 +182,11 @@
         "realm": "I",
         "character": "Warrior of Light",
         "name": "Resolute Warrior",
-        "effect": "?% chance to cast an ability (???: single, 3x ? physical Holy/NE, restores 1500 HP to an ally) after taking damage from an enemy",
+        "effect": "25% chance to cast an ability (PHY: single, 3x 0,42 physical Holy/NE, 1500 HP to an ally) after taking damage from an enemy",
         "master": "ATK +10",
         "relic": "Crystal Shield (I)",
-        "name(jp)": "毅然たる戦士"
+        "name(jp)": "毅然たる戦士",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -875,7 +951,8 @@
         "effect": "Grants Attach Fire at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Cat-Ear Hood (III)",
-        "name(jp)": "旅立ちの決意"
+        "name(jp)": "旅立ちの決意",
+        "✓": "✓"
     },
     {
         "realm": "III",
@@ -1280,6 +1357,15 @@
         "name(jp)": "ひたむきな想い",
         "gl": "✓",
         "✓": "✓"
+    },
+    {
+        "realm": "IV",
+        "character": "Rosa",
+        "name": "Noble Beauty",
+        "effect": "?% chance to dualcast White Magic abilities",
+        "master": "MND +10",
+        "relic": "Selene Bow (IV)",
+        "name(jp)": "美しき貴族の娘"
     },
     {
         "realm": "IV",
@@ -1763,26 +1849,29 @@
         "realm": "V",
         "character": "Gogo (V)",
         "name": "Enigmatic Imitator",
-        "effect": "Increases Water damage dealt by ?%",
+        "effect": "Increases Water damage dealt by 10%",
         "relic": "-",
-        "name(jp)": " 謎多きものまね名人 "
+        "name(jp)": " 謎多きものまね名人 ",
+        "✓": "✓"
     },
     {
         "realm": "V",
         "character": "Gogo (V)",
         "name": "Essence of Mimicry",
-        "effect": "?% chance to dualcast abilities that deal Water damage",
+        "effect": "35% chance to dualcast abilities that deal Water damage",
         "relic": "-",
-        "name(jp)": "ものまねの神髄 "
+        "name(jp)": "ものまねの神髄 ",
+        "✓": "✓"
     },
     {
         "realm": "V",
         "character": "Gogo (V)",
         "name": "Eccentric of the Dephts",
-        "effect": "Water attacks deal ?% more damage when equipping a rod",
+        "effect": "Water attacks deal 25% more damage when equipping a rod",
         "master": "MAG +10",
         "relic": "Power Rod (V)",
-        "name(jp)": "水底の変わり者"
+        "name(jp)": "水底の変わり者",
+        "✓": "✓"
     },
     {
         "realm": "V",
@@ -2114,6 +2203,15 @@
     },
     {
         "realm": "VI",
+        "character": "Terra",
+        "name": "Meaning of Love",
+        "effect": "Grants Attach Fire at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Meister Rod (VI)",
+        "name(jp)": "愛の意味を知った少女"
+    },
+    {
+        "realm": "VI",
         "character": "Locke",
         "name": "Ardent Adventurer",
         "effect": "Increases Fire damage dealt by 10%",
@@ -2176,6 +2274,16 @@
     },
     {
         "realm": "VI",
+        "character": "Celes",
+        "name": "Insurgent Magitek Knight",
+        "effect": "Grants Attach Ice at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Platinum Shield (VI)",
+        "name(jp)": "反旗の魔導戦士",
+        "✓": "✓"
+    },
+    {
+        "realm": "VI",
         "character": "Mog",
         "name": "Proven Pom-Pom",
         "effect": "WHT abilities restore 15% more HP",
@@ -2213,6 +2321,7 @@
         "master": "MND +10",
         "relic": "White Cape (VI)",
         "name(jp)": "モーグリ族の生き残り",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2326,6 +2435,16 @@
         "relic": "Black Hood (VI)",
         "name(jp)": "闇に棲む暗殺者",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "VI",
+        "character": "Shadow",
+        "name": "Taciturn Agent",
+        "effect": "25% chance to grant Physical Blink 1 to the user after using a Ninja ability",
+        "master": "ATK +10",
+        "relic": "Black Garb (VI)",
+        "name(jp)": "多くを語らぬ凄腕",
         "✓": "✓"
     },
     {
@@ -2457,6 +2576,7 @@
         "master": "MAG +10",
         "relic": "Wonder Wand (VI)",
         "name(jp)": "秘め続けた魔導の力",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2683,6 +2803,24 @@
         "name(jp)": "光探す剣士",
         "gl": "✓",
         "✓": "✓"
+    },
+    {
+        "realm": "VII",
+        "character": "Cloud",
+        "name": "Farewell to Illusions",
+        "effect": "Grants Attach Wind at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Save the Queen (VII)",
+        "name(jp)": "幻想との決別"
+    },
+    {
+        "realm": "VII",
+        "character": "Cloud",
+        "name": "Fake Swordsman",
+        "effect": "Grants Attach Dark at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Cloud's Military Guise (VII)",
+        "name(jp)": "偽りの青年剣士"
     },
     {
         "realm": "VII",
@@ -2914,7 +3052,7 @@
     {
         "realm": "VII",
         "character": "Vincent",
-        "name": "Seeing in Red",
+        "name": "Seeing Red",
         "effect": "25% chance to dualcast abilities that deal Fire damage",
         "master": "ATK +5, MAG +5",
         "relic": "Vincent's Bandana (DoC) (VII)",
@@ -3198,6 +3336,7 @@
         "master": "MAG +10",
         "relic": "Wind Slash (VIII)",
         "name(jp)": "レジスタンスの姫君",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3208,24 +3347,27 @@
         "master": "MAG +10",
         "relic": "Magic Armlet (VIII)",
         "name(jp)": "異形の翼を持つ少女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "VIII",
         "character": "Quistis",
-        "name": "Instructor's Training",
+        "name": "Elementary Lessons",
         "effect": "Reduces damage taken by BLK attacks by 10%",
         "relic": "-",
         "name(jp)": " 教官の素養 ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "VIII",
         "character": "Quistis",
-        "name": "Prodigious Elite",
+        "name": "Elite Instruction",
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": " 才色兼備なエリート ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3236,6 +3378,7 @@
         "master": "MAG +10",
         "relic": "Quistis's Uniform (VIII)",
         "name(jp)": "SeeDきっての才媛",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3427,6 +3570,16 @@
     },
     {
         "realm": "VIII",
+        "character": "Laguna",
+        "name": "Charming Young Man",
+        "effect": "Grants Attach Ice at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Winchester (VIII)",
+        "name(jp)": "魅力あふれる好青年",
+        "✓": "✓"
+    },
+    {
+        "realm": "VIII",
         "character": "Edea",
         "name": "Beauty's Tutelage",
         "effect": "BLK attacks deal 10% more damage",
@@ -3515,6 +3668,7 @@
         "master": "ATK +10",
         "relic": "Six-fluted Pole (VIII)",
         "name(jp)": "問題児への友情",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3738,6 +3892,16 @@
     },
     {
         "realm": "IX",
+        "character": "Steiner",
+        "name": "Loyal Knight",
+        "effect": "25% chance to dualcast Spellblade abilities",
+        "master": "ATK +10",
+        "relic": "Gold Helm (IX)",
+        "name(jp)": "忠実な近衛騎士",
+        "✓": "✓"
+    },
+    {
+        "realm": "IX",
         "character": "Freya",
         "name": "Dragoon's Grace",
         "effect": "Increases Wind damage dealt by 10%",
@@ -3851,6 +4015,16 @@
     },
     {
         "realm": "IX",
+        "character": "Eiko",
+        "name": "Scion of a Legendary Tribe",
+        "effect": "25% chance to dualcast Summoning abilities",
+        "master": "MAG +10",
+        "relic": "Siren's Flute (IX)",
+        "name(jp)": "伝説の一族の末裔",
+        "✓": "✓"
+    },
+    {
+        "realm": "IX",
         "character": "Amarant",
         "name": "Speak Softly",
         "effect": "Increases Fire damage dealt by 10%",
@@ -3910,6 +4084,15 @@
         "name(jp)": "絶対なる忠誠心",
         "gl": "✓",
         "✓": "✓"
+    },
+    {
+        "realm": "IX",
+        "character": "Beatrix",
+        "name": "Gorgeous General",
+        "effect": "Grants Attach Holy at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Minerva's Plate (IX)",
+        "name(jp)": "美しき女将軍"
     },
     {
         "realm": "IX",
@@ -3999,6 +4182,16 @@
         "relic": "Tidus's Armguards (X)",
         "name(jp)": "幻光の加護",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "X",
+        "character": "Tidus",
+        "name": "Blitz Code",
+        "effect": "35% chance to grant Quick Cast 1 to the user after using a Water attack",
+        "master": "ATK +10",
+        "relic": "Sonic Steel (X)",
+        "name(jp)": "ブリッツの鉄則",
         "✓": "✓"
     },
     {
@@ -4686,6 +4879,15 @@
     },
     {
         "realm": "XII",
+        "character": "Vaan",
+        "name": "Ideals of Freedom",
+        "effect": "?% chance to dualcast Thief abilities",
+        "master": "ATK +10",
+        "relic": "Thief's Cap (XII)",
+        "name(jp)": "自由すぎる発言"
+    },
+    {
+        "realm": "XII",
         "character": "Balthier",
         "name": "Cool Customer",
         "effect": "Increases Fire damage dealt by 10%",
@@ -5298,6 +5500,16 @@
         "relic": "Raines's Reprise (XIII)",
         "name(jp)": "死者たちの代弁者",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "XIII",
+        "character": "Cid Raines",
+        "name": "Grieved Commander",
+        "effect": "Grants Attach Dark at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Darksteel Claw (XIII)",
+        "name(jp)": "悲しき先導者",
         "✓": "✓"
     },
     {
