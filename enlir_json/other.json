@@ -75,65 +75,69 @@
         "sourceType": "Follow-Up Status",
         "source": "Elbow Follow-Up",
         "name": "Elbow",
-        "type": "?",
+        "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
-        "multiplier": "?",
+        "multiplier": 2,
         "element": "Earth, Holy, NE",
-        "time": "?",
-        "effects": "One single attack (?) capped at 99999",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?"
+        "time": 0.01,
+        "effects": "One single attack (2,00) capped at 99999",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Heavy",
+        "✓": "✓"
     },
     {
         "sourceType": "Follow-Up Status",
         "source": "Aero Star Follow-Up",
         "name": "Aero Star",
-        "type": "?",
+        "type": "NAT",
         "target": "Single enemy",
         "formula": "Hybrid",
         "multiplier": "-",
         "element": "Wind, NE",
-        "time": "?",
-        "effects": "Five single hybrid ranged attacks (? each), 100% hit rate",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?"
+        "time": 0.01,
+        "effects": "Five single hybrid ranged attacks (0,40 or 1,67 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Special",
+        "✓": "✓"
     },
     {
         "sourceType": "Follow-Up Status",
         "source": "Mog Follow-Up",
         "name": "Mog Magic",
-        "type": "?",
+        "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
-        "multiplier": "?",
+        "multiplier": 7.6,
         "element": "Holy, Fire, Ice, Light., NE",
-        "time": "?",
-        "effects": "Five single attacks (? each)",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?"
+        "time": 0.01,
+        "effects": "Five single attacks (1,52 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
     },
     {
         "sourceType": "Follow-Up Status",
         "source": "Mog Follow-Up",
         "name": "Mog Heal",
-        "type": "?",
+        "type": "WHT",
         "target": "All allies",
         "formula": "Magical",
-        "multiplier": "?",
+        "multiplier": 2,
         "element": "Holy",
-        "time": "?",
-        "effects": "Restores HP (?), damages undeads",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?"
+        "time": 0.01,
+        "effects": "Restores HP (25), damages undeads",
+        "counter": "N",
+        "autoTarget": "All allies",
+        "sb": 0,
+        "school": "White Magic",
+        "✓": "✓"
     },
     {
         "sourceType": "Follow-Up Status",
@@ -151,6 +155,23 @@
         "sb": 0,
         "school": "Darkness",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Chaos Impact Follow-Up",
+        "name": "Chaos Impact",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.2,
+        "element": "Dark, NE",
+        "time": 0.01,
+        "effects": "Five single attacks (0,32/0,38/0,44 each) if the user has Heavy Charge 0/1/2",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Heavy",
         "✓": "✓"
     },
     {
@@ -308,6 +329,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -325,6 +347,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -342,6 +365,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -359,6 +383,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -411,6 +436,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Summoning",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -628,17 +654,18 @@
         "sourceType": "Follow-Up Status",
         "source": "Master Barrage Follow-Up",
         "name": "Master Barrage",
-        "type": "?",
+        "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
-        "multiplier": "?",
+        "multiplier": 3.52,
         "element": "Fire, Wat., Wind, Ea., NE",
-        "time": "?",
-        "effects": "Eight single attacks (? each), 100% hit rate",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?"
+        "time": 0.01,
+        "effects": "Eight single attacks (0,44 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Spellblade",
+        "✓": "✓"
     },
     {
         "sourceType": "Follow-Up Status",
@@ -652,6 +679,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Thief",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1015,17 +1043,18 @@
         "sourceType": "Follow-Up Status",
         "source": "Darkness Blow Follow-Up",
         "name": "Darkness Blow",
-        "type": "?",
+        "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
-        "multiplier": "?",
+        "multiplier": 1.6,
         "element": "Dark, NE",
-        "time": "?",
-        "effects": "Four single attacks (? each) capped at 99999, 100% hit rate",
-        "counter": "?",
-        "autoTarget": "?",
-        "sb": "?",
-        "school": "?"
+        "time": 0.01,
+        "effects": "Four single attacks (0,40 each) capped at 99999, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Heavy",
+        "✓": "✓"
     },
     {
         "sourceType": "Follow-Up Status",
@@ -1897,8 +1926,8 @@
     },
     {
         "sourceType": "Finisher Status",
-        "source": "Decisive Kick Finisher",
-        "name": "Decisive Kick",
+        "source": "Furious Kick Finisher",
+        "name": "Furious Kick",
         "type": "PHY",
         "target": "Single enemy",
         "time": 2.5,
@@ -1907,6 +1936,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Monk",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1921,6 +1951,23 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Finisher Status",
+        "source": "Shadow Dragon Mode",
+        "name": "Black Spell",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 34.6,
+        "element": "Dark, NE",
+        "time": 0.01,
+        "effects": "One single attack (11,80/20,50/34,60) capped at 99999 if the user used 5/9 Darkness abilities during the status",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Darkness",
         "✓": "✓"
     },
     {

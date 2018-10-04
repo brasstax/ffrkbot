@@ -2277,6 +2277,7 @@
         "school": "Black Magic",
         "name(jp)": "ライズウェイブ",
         "id": "30512761",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2296,6 +2297,7 @@
         "school": "Black Magic",
         "name(jp)": "迎撃システム",
         "id": "30512762",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3196,7 +3198,7 @@
         "multiplier": 6.3,
         "element": "Dark, NE",
         "time": 1.65,
-        "effects": "One group attack (6,30), minimum damage 800, causes Light Doom: 45 to the user, MAG +30% to the user for 50 seconds",
+        "effects": "One group attack (6,30), causes Doom: 45 to the user, MAG +30% to the user for 50 seconds",
         "counter": "Y",
         "autoTarget": "All enemies",
         "sb": 60,

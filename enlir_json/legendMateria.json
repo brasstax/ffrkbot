@@ -84,7 +84,8 @@
         "effect": "Grants Attach Earth at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Biggs's Guise (Core)",
-        "name(jp)": "隠された戦士の誇り"
+        "name(jp)": "隠された戦士の誇り",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -92,15 +93,17 @@
         "name": "Affection for Animals",
         "effect": "Increases Wind damage dealt by 10%",
         "relic": "-",
-        "name(jp)": "動物への愛情"
+        "name(jp)": "動物への愛情",
+        "✓": "✓"
     },
     {
         "realm": "Core",
         "character": "Wedge",
         "name": "Smart Entertainer",
-        "effect": "?% chance to dualcast abilities that deal Wind damage",
+        "effect": "35% chance to dualcast abilities that deal Wind damage",
         "relic": "-",
-        "name(jp)": "すばしっこい芸達者"
+        "name(jp)": "すばしっこい芸達者",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -109,7 +112,8 @@
         "effect": "Grants Attach Wind at the beginning of the battle",
         "master": "ATK +5, MAG +5",
         "relic": "Wedge's Hat (Core)",
-        "name(jp)": "秘めた愛らしさ"
+        "name(jp)": "秘めた愛らしさ",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -131,10 +135,11 @@
         "realm": "Core",
         "character": "Dr. Mog",
         "name": "Expert of White Magic",
-        "effect": "?% chance to dualcast White Magic abilities",
+        "effect": "25% chance to dualcast White Magic abilities",
         "master": "MAG +5, MND +5",
         "relic": "Healing Staff (Core)",
-        "name(jp)": "白魔法の熟達者"
+        "name(jp)": "白魔法の熟達者",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -227,6 +232,7 @@
         "master": "ATK +10",
         "relic": "Garland's Cloak (I)",
         "name(jp)": "時を越えた憎悪",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -236,7 +242,8 @@
         "effect": "Grants Attach Dark at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Demon Shield (I)",
-        "name(jp)": "溢れる戦闘欲"
+        "name(jp)": "溢れる戦闘欲",
+        "✓": "✓"
     },
     {
         "realm": "I",
@@ -511,6 +518,7 @@
         "master": "ATK +10",
         "relic": "Winged Helm (II)",
         "name(jp)": "未来を切り開く刃",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -608,6 +616,15 @@
     },
     {
         "realm": "II",
+        "character": "Leon",
+        "name": "Skilled Commander",
+        "effect": "Grants Attach Dark at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Obelisk (II)",
+        "name(jp)": "優秀なる司令官"
+    },
+    {
+        "realm": "II",
         "character": "Minwu",
         "name": "Regal Retainer",
         "effect": "WHT abilities restore 15% more HP",
@@ -650,6 +667,15 @@
     },
     {
         "realm": "II",
+        "character": "Minwu",
+        "name": "Heroic Healer",
+        "effect": "Grants Attach Holy at the beginning of the battle",
+        "master": "MND +10",
+        "relic": "Asura's Rod (II)",
+        "name(jp)": "勇敢な白魔道士"
+    },
+    {
+        "realm": "II",
         "character": "Gordon",
         "name": "Glimpse of Bravery",
         "effect": "Support abilities deal 15% more damage",
@@ -678,6 +704,27 @@
         "name(jp)": "カシュオーンの後継者",
         "gl": "✓",
         "✓": "✓"
+    },
+    {
+        "realm": "II",
+        "character": "Leila",
+        "effect": "PHY attacks deal ?% more damage",
+        "relic": "-"
+    },
+    {
+        "realm": "II",
+        "character": "Leila",
+        "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
+        "relic": "-"
+    },
+    {
+        "realm": "II",
+        "character": "Leila",
+        "name": "Maiden of the Sea",
+        "effect": "?% chance to grant Quick Cast 1 to the user after using a Poison or Water attack",
+        "master": "ATK +10",
+        "relic": "Leila's Bandana (II)",
+        "name(jp)": "海上の女傑"
     },
     {
         "realm": "II",
@@ -712,6 +759,15 @@
     },
     {
         "realm": "II",
+        "character": "Ricard",
+        "name": "Stormslice Wyvern",
+        "effect": "Grants Attach Lightning at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Dragon Armor (II)",
+        "name(jp)": "雷雲駆け抜けし竜"
+    },
+    {
+        "realm": "II",
         "character": "Josef",
         "name": "Salamand's Boast",
         "effect": "Monk abilities deal 15% more damage",
@@ -724,7 +780,7 @@
         "realm": "II",
         "character": "Josef",
         "name": "Fitting End",
-        "effect": "Causes Light Doom: 15, restores HP to all allies for 55% max HP and grants Last Stand to all allies when HP fall below 20%",
+        "effect": "Causes Doom: 15, restores HP to all allies for 55% max HP and grants Last Stand to all allies when HP fall below 20%",
         "relic": "-",
         "name(jp)": "漢の散り様",
         "gl": "✓",
@@ -1274,6 +1330,7 @@
         "master": "ATK +10",
         "relic": "Thunder Shield (IV)",
         "name(jp)": "弱き心との決別",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1315,6 +1372,7 @@
         "master": "MAG +10",
         "relic": "Diamond Armlet (IV)",
         "name(jp)": "汚れなき心",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1362,10 +1420,11 @@
         "realm": "IV",
         "character": "Rosa",
         "name": "Noble Beauty",
-        "effect": "?% chance to dualcast White Magic abilities",
+        "effect": "25% chance to dualcast White Magic abilities",
         "master": "MND +10",
         "relic": "Selene Bow (IV)",
-        "name(jp)": "美しき貴族の娘"
+        "name(jp)": "美しき貴族の娘",
+        "✓": "✓"
     },
     {
         "realm": "IV",
@@ -1411,19 +1470,21 @@
     {
         "realm": "IV",
         "character": "Yang",
-        "name": "Leader of the Monks",
+        "name": "Master of Monks",
         "effect": "Monk abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "モンク僧の兵長",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "IV",
         "character": "Yang",
-        "name": "Veteran Fighter",
+        "name": "Heightened Prowess",
         "effect": "35% chance to dualcast Monk abilities",
         "relic": "-",
         "name(jp)": "武芸を極めし猛者",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1434,6 +1495,7 @@
         "master": "ATK +10",
         "relic": "Yang's Guise (IV)",
         "name(jp)": "強靭な心身",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1623,20 +1685,32 @@
     },
     {
         "realm": "IV",
-        "character": "Cid (IV)",
-        "name": "Pure Craftsmanship",
-        "effect": "Increases Lightning damage dealt by 10%",
-        "relic": "-",
-        "name(jp)": "生粋の職人気質",
+        "character": "Golbez",
+        "name": "Dark Magician",
+        "effect": "25% chance to dualcast Darkness abilities",
+        "master": "MAG +10",
+        "relic": "Earthbreaker (IV)",
+        "name(jp)": "暗黒の魔道士",
         "✓": "✓"
     },
     {
         "realm": "IV",
         "character": "Cid (IV)",
-        "name": "Airship Lover",
+        "name": "Born Engineer",
+        "effect": "Increases Lightning damage dealt by 10%",
+        "relic": "-",
+        "name(jp)": "生粋の職人気質",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "IV",
+        "character": "Cid (IV)",
+        "name": "Airship Aficionado",
         "effect": "30% chance to cause Minor Imperil Lightning to the target after using a Lightning attack on an enemy",
         "relic": "-",
         "name(jp)": "飛空艇を愛する名技師",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1647,6 +1721,7 @@
         "master": "ATK +10",
         "relic": "Cid's Mask (IV)",
         "name(jp)": "オヤジのバイタリティ",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2097,7 +2172,8 @@
         "effect": "Grants Attach Earth at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Minerva Bustier (V)",
-        "name(jp)": "持ち前の明るさ"
+        "name(jp)": "持ち前の明るさ",
+        "✓": "✓"
     },
     {
         "realm": "V",
@@ -2208,7 +2284,8 @@
         "effect": "Grants Attach Fire at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Meister Rod (VI)",
-        "name(jp)": "愛の意味を知った少女"
+        "name(jp)": "愛の意味を知った少女",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -2811,7 +2888,8 @@
         "effect": "Grants Attach Wind at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Save the Queen (VII)",
-        "name(jp)": "幻想との決別"
+        "name(jp)": "幻想との決別",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -2820,7 +2898,8 @@
         "effect": "Grants Attach Dark at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Cloud's Military Guise (VII)",
-        "name(jp)": "偽りの青年剣士"
+        "name(jp)": "偽りの青年剣士",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -2965,6 +3044,7 @@
         "master": "MAG +10",
         "relic": "Seraph Comb (VII)",
         "name(jp)": "長命な種族",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3120,6 +3200,16 @@
         "relic": "Sephiroth's Darkcoat (VII)",
         "name(jp)": "運命を変えし秘密",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "VII",
+        "character": "Sephiroth",
+        "name": "Disgraced Hero",
+        "effect": "25% chance to dualcast Darkness abilities",
+        "master": "ATK +10",
+        "relic": "Genji Armor (VII)",
+        "name(jp)": "凶変の英雄",
         "✓": "✓"
     },
     {
@@ -3326,6 +3416,7 @@
         "master": "MAG +10",
         "relic": "Derringer (VIII)",
         "name(jp)": "恋に落ちた魔女",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3731,6 +3822,16 @@
         "relic": "Harmonia's Guard (VIII)",
         "name(jp)": "傲慢な野望",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "VIII",
+        "character": "Ultimecia",
+        "name": "Erasure of Existance",
+        "effect": "Grants Attach Dark at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Judgment Staff (VIII)",
+        "name(jp)": "すべての存在の否定",
         "✓": "✓"
     },
     {
@@ -4605,6 +4706,7 @@
         "master": "MAG +10",
         "relic": "Tactician Magician's Wand (XI)",
         "name(jp)": "傍若無人なご婦人",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4881,10 +4983,11 @@
         "realm": "XII",
         "character": "Vaan",
         "name": "Ideals of Freedom",
-        "effect": "?% chance to dualcast Thief abilities",
+        "effect": "25% chance to dualcast Thief abilities",
         "master": "ATK +10",
         "relic": "Thief's Cap (XII)",
-        "name(jp)": "自由すぎる発言"
+        "name(jp)": "自由すぎる発言",
+        "✓": "✓"
     },
     {
         "realm": "XII",
@@ -5469,7 +5572,8 @@
         "effect": "Grants Attach Ice at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Amazon Bow (XIII)",
-        "name(jp)": "姉譲りの意志の強さ"
+        "name(jp)": "姉譲りの意志の強さ",
+        "✓": "✓"
     },
     {
         "realm": "XIII",

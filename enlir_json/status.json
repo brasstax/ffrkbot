@@ -132,11 +132,11 @@
     {
         "id": "213",
         "commonName": "Doom: 60",
-        "effects": "HP = 0 after a 60 seconds timer",
+        "effects": "Causes Doom with a 60 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM",
+        "codedName": "SET_DOOM_60",
         "notes": "-"
     },
     {
@@ -298,60 +298,60 @@
     {
         "id": "236",
         "commonName": "Doom: 30",
-        "effects": "HP = 0 after a 30 seconds timer",
+        "effects": "Causes Doom with a 30 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_30",
+        "codedName": "SET_DOOM_30",
         "notes": "-"
     },
     {
         "id": "23601",
-        "commonName": "Light Doom: 30",
-        "effects": "HP = 0 after a 30 seconds timer, can't overwrite other timers",
+        "commonName": "Deprecated Doom: 30",
+        "effects": "Causes Doom with a 30 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_LIGHT_30",
-        "notes": "-"
+        "codedName": "SET_DOOM_30_DEPRECATED",
+        "notes": "Deprecated"
     },
     {
         "id": "23602",
-        "commonName": "Light Doom: 15",
-        "effects": "HP = 0 after a 15 seconds timer, can't overwrite other timers",
+        "commonName": "Deprecated Doom: 15",
+        "effects": "Causes Doom with a 15 seconds timer",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_LIGHT_15",
-        "notes": "-"
+        "codedName": "SET_DOOM_15_DEPRECATED",
+        "notes": "Deprecated"
     },
     {
         "id": "237",
         "commonName": "Doom: 45",
-        "effects": "HP = 0 after a 45 seconds timer",
+        "effects": "Causes Doom with a 45 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_45",
+        "codedName": "SET_DOOM_45",
         "notes": "-"
     },
     {
         "id": "238",
         "commonName": "Doom: 90",
-        "effects": "HP = 0 after a 90 seconds timer",
+        "effects": "Causes Doom with a 90 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_90",
+        "codedName": "SET_DOOM_90",
         "notes": "-"
     },
     {
         "id": "239",
         "commonName": "Doom: 120",
-        "effects": "HP = 0 after a 120 seconds timer",
+        "effects": "Causes Doom with a 120 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_120",
+        "codedName": "SET_DOOM_120",
         "notes": "-"
     },
     {
@@ -417,7 +417,6 @@
     {
         "id": "246",
         "commonName": "Glyph Mine",
-        "effects": "HP = 0 after a 20 seconds timer unless the character has the Defend status",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -506,13 +505,13 @@
     },
     {
         "id": "256",
-        "commonName": "Light Doom: 45",
-        "effects": "HP = 0 after a 45 seconds timer, can't be overwritten, can't overwrite other timers",
+        "commonName": "Deprecated Doom: 45",
+        "effects": "Causes Doom with a 45 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_LIGHT_45",
-        "notes": "-"
+        "codedName": "SET_DOOM_45_DEPRECATED",
+        "notes": "Deprecated"
     },
     {
         "id": "257",
@@ -1392,6 +1391,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DAMAGE_BOOST_SAMURAI_115_2",
+        "notes": "-"
+    },
+    {
+        "id": "282013",
+        "commonName": "Dragoon +30% Boost 1",
+        "effects": "Dragoon abilities deal 30% more damage, lasts for 1 turn",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_DRAGOON_130_1",
         "notes": "-"
     },
     {
@@ -4275,7 +4284,6 @@
     {
         "id": "524",
         "commonName": "Doom of Atomos",
-        "effects": "Affects Atomos's behaviour after a 30 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4545,7 +4553,6 @@
     {
         "id": "552",
         "commonName": "Nightmare Necrophobe ATK Doom",
-        "effects": "HP = 0 after a 20 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4555,7 +4562,6 @@
     {
         "id": "553",
         "commonName": "Nightmare Necrophobe MAG Doom",
-        "effects": "HP = 0 after a 20 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4565,7 +4571,6 @@
     {
         "id": "554",
         "commonName": "Nightmare Necrophobe DEF Doom",
-        "effects": "HP = 0 after a 20 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4575,7 +4580,6 @@
     {
         "id": "555",
         "commonName": "Nightmare Necrophobe RES Doom",
-        "effects": "HP = 0 after a 20 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4939,16 +4943,6 @@
         "mndModifier": "-",
         "exclusiveStatus": "Hellhound ATK",
         "codedName": "EX_MODE_HELLHOUND_MATK_BOOST",
-        "notes": "-"
-    },
-    {
-        "id": "595",
-        "commonName": "Doom Timer +X",
-        "effects": "Increases the character's Doom timer by X when set",
-        "defaultDuration": "-",
-        "mndModifier": "-",
-        "exclusiveStatus": "-",
-        "codedName": "DOOM_CHANGE_COUNT",
         "notes": "-"
     },
     {
@@ -6882,8 +6876,8 @@
     },
     {
         "id": "50199",
-        "commonName": "Decisive Kick Finisher",
-        "effects": "Casts Decisive Kick when removed",
+        "commonName": "Furious Kick Finisher",
+        "effects": "Casts Furious Kick when removed",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6893,7 +6887,7 @@
     {
         "id": "50200",
         "commonName": "Frying Pan 0",
-        "effects": "Grants Frying Pan 1 after using a Monk ability, removed if the user hasn't Decisive Kick Finisher",
+        "effects": "Grants Frying Pan 1 after using a Monk ability, removed if the user hasn't Furious Kick Finisher",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Frying Pan\" status",
@@ -6903,7 +6897,7 @@
     {
         "id": "50201",
         "commonName": "Frying Pan 1",
-        "effects": "Critical chance =30%, cast speed x2,00, grants Frying Pan 2 after using a Monk ability, removed if the user hasn't Decisive Kick Finisher",
+        "effects": "Critical chance =30%, cast speed x2,00, grants Frying Pan 2 after using a Monk ability, removed if the user hasn't Furious Kick Finisher",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Frying Pan\" status",
@@ -6913,7 +6907,7 @@
     {
         "id": "50202",
         "commonName": "Frying Pan 2",
-        "effects": "Critical chance =50%, cast speed x2,50, grants Frying Pan 3 after using a Monk ability, removed if the user hasn't Decisive Kick Finisher",
+        "effects": "Critical chance =50%, cast speed x2,50, grants Frying Pan 3 after using a Monk ability, removed if the user hasn't Furious Kick Finisher",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Frying Pan\" status",
@@ -6923,7 +6917,7 @@
     {
         "id": "50203",
         "commonName": "Frying Pan 3",
-        "effects": "Critical chance =75%, cast speed x3,00, grants Frying Pan 3 after using a Monk ability, removed if the user hasn't Decisive Kick Finisher",
+        "effects": "Critical chance =75%, cast speed x3,00, grants Frying Pan 3 after using a Monk ability, removed if the user hasn't Furious Kick Finisher",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Frying Pan\" status",
@@ -7002,13 +6996,12 @@
     },
     {
         "id": "50211",
-        "commonName": "Ultimate Doom of Atomos",
-        "effects": "Affects Atomos's behaviour after a 30 seconds timer",
+        "commonName": "Deprecated Doom of Atomos",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "KYO_SUCTION",
-        "notes": "Used for Atomos (V)"
+        "codedName": "SUCTION_DEPRECATED",
+        "notes": "Deprecated"
     },
     {
         "id": "50212",
@@ -7693,51 +7686,51 @@
     {
         "id": "50295",
         "commonName": "Doom: 5",
-        "effects": "HP = 0 after a 5 seconds timer",
+        "effects": "Causes Doom with a 5 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_5",
+        "codedName": "SET_DOOM_5",
         "notes": "-"
     },
     {
         "id": "50296",
         "commonName": "Doom: 10",
-        "effects": "HP = 0 after a 10 seconds timer",
+        "effects": "Causes Doom with a 10 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_10",
+        "codedName": "SET_DOOM_10",
         "notes": "-"
     },
     {
         "id": "50297",
         "commonName": "Doom: 15",
-        "effects": "HP = 0 after a 15 seconds timer",
+        "effects": "Causes Doom with a 15 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_15",
+        "codedName": "SET_DOOM_15",
         "notes": "-"
     },
     {
         "id": "50298",
         "commonName": "Doom: 20",
-        "effects": "HP = 0 after a 20 seconds timer",
+        "effects": "Causes Doom with a 20 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_20",
+        "codedName": "SET_DOOM_20",
         "notes": "-"
     },
     {
         "id": "50299",
         "commonName": "Doom: 25",
-        "effects": "HP = 0 after a 25 seconds timer",
+        "effects": "Causes Doom with a 25 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_25",
+        "codedName": "SET_DOOM_25",
         "notes": "-"
     },
     {
@@ -7951,6 +7944,26 @@
         "notes": "-"
     },
     {
+        "id": "50325",
+        "commonName": "Doom Timer -1",
+        "effects": "Reduces the character's Doom timer by 1 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_1",
+        "notes": "-"
+    },
+    {
+        "id": "50326",
+        "commonName": "Demon's Cross Counter",
+        "effects": "Keeps track of the uses of Demon's Cross",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_FOR_DEMONS_CROSS",
+        "notes": "-"
+    },
+    {
         "id": "50327",
         "commonName": "Arcane Blade",
         "effects": "Grants Physical High Quick Cast 1 to all allies in the front row after using a Ice attack",
@@ -8038,6 +8051,26 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "HEAL_HP_ALL_IF_SUMMONING_CATEGORY",
+        "notes": "-"
+    },
+    {
+        "id": "50339",
+        "commonName": "Chaos Impact Follow-Up",
+        "effects": "Casts Chaos Impact after using a Heavy ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_CHAOS_GENOCIDE",
+        "notes": "-"
+    },
+    {
+        "id": "50340",
+        "commonName": "Shadow Dragon Mode",
+        "effects": "Dualcasts Darkness abilities, removed if the user doesn't have any Stoneskin, casts Black Spell when removed",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_OF_BLACK_DRAGON",
         "notes": "-"
     },
     {
@@ -8151,6 +8184,16 @@
         "notes": "-"
     },
     {
+        "id": "50352",
+        "commonName": "Winged Roar",
+        "effects": "Grants Dragoon +30% Boost 1 and No Air Time 1 to all allies in the character's row after using a Dragoon ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_SA_ABILITY_FOR_DRAGON_ROAR",
+        "notes": "-"
+    },
+    {
         "id": "50353",
         "commonName": "Awaken Darkness",
         "effects": "Darkness abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Darkness abilities",
@@ -8168,6 +8211,136 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "ADD_SS_POINT_WHEN_SET_GAUGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "50355",
+        "commonName": "Thief or Sharpshooter Double",
+        "effects": "Dualcasts Thief or Sharpshooter abilities consuming an extra ability use",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_THIEF_OR_SHOOTER",
+        "notes": "-"
+    },
+    {
+        "id": "50356",
+        "commonName": "Doom Timer -2",
+        "effects": "Reduces the character's Doom timer by 2 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_2",
+        "notes": "-"
+    },
+    {
+        "id": "50357",
+        "commonName": "Doom Timer -4",
+        "effects": "Reduces the character's Doom timer by 4 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_4",
+        "notes": "-"
+    },
+    {
+        "id": "50358",
+        "commonName": "Doom Timer -5",
+        "effects": "Reduces the character's Doom timer by 5 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_5",
+        "notes": "-"
+    },
+    {
+        "id": "50359",
+        "commonName": "Doom Timer -10",
+        "effects": "Reduces the character's Doom timer by 10 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_10",
+        "notes": "-"
+    },
+    {
+        "id": "50360",
+        "commonName": "Doom Timer -20",
+        "effects": "Reduces the character's Doom timer by 20 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_20",
+        "notes": "-"
+    },
+    {
+        "id": "50361",
+        "commonName": "Doom Timer -30",
+        "effects": "Reduces the character's Doom timer by 30 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_30",
+        "notes": "-"
+    },
+    {
+        "id": "50362",
+        "commonName": "Doom Timer -40",
+        "effects": "Reduces the character's Doom timer by 40 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_40",
+        "notes": "-"
+    },
+    {
+        "id": "50363",
+        "commonName": "Doom Timer -50",
+        "effects": "Reduces the character's Doom timer by 50 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_50",
+        "notes": "-"
+    },
+    {
+        "id": "50364",
+        "commonName": "Doom: 150",
+        "effects": "Causes Doom with a 150 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "SET_DOOM_150",
+        "notes": "-"
+    },
+    {
+        "id": "50365",
+        "commonName": "Doom: 180",
+        "effects": "Causes Doom with a 180 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "SET_DOOM_180",
+        "notes": "-"
+    },
+    {
+        "id": "50368",
+        "commonName": "No Air Time 1",
+        "effects": "Changes the air time of Jump attacks to 0,01 seconds, lasts for 1 turn",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ZERO_FLIGHT_BY_TURN_1",
+        "notes": "-"
+    },
+    {
+        "id": "50379",
+        "commonName": "Doom",
+        "effects": "Causes KO when the Doom timer reaches 0",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DOOM",
         "notes": "-"
     },
     {
