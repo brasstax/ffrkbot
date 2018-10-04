@@ -40,7 +40,7 @@ module.exports = class ReplyCommand extends Command {
    **/
   run(msg, args) {
     const {characterName, asbNumber} = args;
-    return botUtils.soulbreak(msg, characterName, 'asb', asbNumber)
+    return botUtils.soulbreak(msg, characterName, 'aosb', asbNumber)
       .catch( (err) => {
         console.log(`Error calling asbLookup: ${err}`);
       });
