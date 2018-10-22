@@ -10,7 +10,7 @@ module.exports = class ReplyCommand extends Command {
    **/
   constructor(client) {
     super(client, {
-      name: 'asb',
+      name: 'aosb',
       group: 'ffrk',
       memberName: 'asb',
       description: 'Looks up arcane overstrikes for a given character.',
@@ -22,14 +22,14 @@ module.exports = class ReplyCommand extends Command {
           type: 'string',
         },
         {
-          key: 'asbNumber',
-          prompt: 'Enter the asb number of the character' +
+          key: 'aosbNumber',
+          prompt: 'Enter the aosb number of the character' +
             ' you wish to look up. (Optional.)',
           type: 'integer',
           default: '',
         },
       ],
-      aliases: ['aosb', 'uosb', 'ao', 'arcane'],
+      aliases: ['asb', 'uosb', 'ao', 'arcane'],
     });
   }
 
@@ -40,7 +40,7 @@ module.exports = class ReplyCommand extends Command {
    **/
   run(msg, args) {
     const {characterName, asbNumber} = args;
-    return botUtils.soulbreak(msg, characterName, 'asb', asbNumber)
+    return botUtils.soulbreak(msg, characterName, 'aosb', asbNumber)
       .catch( (err) => {
         console.log(`Error calling asbLookup: ${err}`);
       });
