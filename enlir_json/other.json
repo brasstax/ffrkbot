@@ -14,6 +14,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -31,6 +32,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -48,6 +50,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -65,6 +68,75 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Monk",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Elbow Follow-Up",
+        "name": "Elbow",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2,
+        "element": "Earth, Holy, NE",
+        "time": 0.01,
+        "effects": "One single attack (2,00) capped at 99999",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Heavy",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Aero Star Follow-Up",
+        "name": "Aero Star",
+        "type": "NAT",
+        "target": "Single enemy",
+        "formula": "Hybrid",
+        "multiplier": "-",
+        "element": "Wind, NE",
+        "time": 0.01,
+        "effects": "Five single hybrid ranged attacks (0,40 or 1,67 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Special",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Mog Follow-Up",
+        "name": "Mog Magic",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 7.6,
+        "element": "Holy, Fire, Ice, Light., NE",
+        "time": 0.01,
+        "effects": "Five single attacks (1,52 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Mog Follow-Up",
+        "name": "Mog Heal",
+        "type": "WHT",
+        "target": "All allies",
+        "formula": "Magical",
+        "multiplier": 2,
+        "element": "Holy",
+        "time": 0.01,
+        "effects": "Restores HP (25), damages undeads",
+        "counter": "N",
+        "autoTarget": "All allies",
+        "sb": 0,
+        "school": "White Magic",
         "✓": "✓"
     },
     {
@@ -82,6 +154,24 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Darkness",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Chaos Impact Follow-Up",
+        "name": "Chaos Impact",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.2,
+        "element": "Dark, NE",
+        "time": 0.01,
+        "effects": "Five single attacks (0,32/0,38/0,44 each) if the user has Heavy Charge 0/1/2",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Heavy",
         "✓": "✓"
     },
     {
@@ -99,6 +189,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Monk",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -116,6 +207,24 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Witch",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Ressac Follow-Up",
+        "name": "Ressac",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 7.95,
+        "element": "Water, NE",
+        "time": 0.01,
+        "effects": "Five single attacks (1,59 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
         "✓": "✓"
     },
     {
@@ -167,6 +276,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -201,11 +311,12 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Knight",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "sourceType": "Follow-Up Status",
-        "source": "EX: Wisdom of Light",
+        "source": "EX: Light's Wisdom",
         "name": "Wind Onion Magic",
         "type": "BLK",
         "target": "Single enemy",
@@ -218,11 +329,12 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "sourceType": "Follow-Up Status",
-        "source": "EX: Wisdom of Light",
+        "source": "EX: Light's Wisdom",
         "name": "Water Onion Magic",
         "type": "BLK",
         "target": "Single enemy",
@@ -235,11 +347,12 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "sourceType": "Follow-Up Status",
-        "source": "EX: Wisdom of Light",
+        "source": "EX: Light's Wisdom",
         "name": "Fire Onion Magic",
         "type": "BLK",
         "target": "Single enemy",
@@ -252,11 +365,12 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "sourceType": "Follow-Up Status",
-        "source": "EX: Wisdom of Light",
+        "source": "EX: Light's Wisdom",
         "name": "Earth Onion Magic",
         "type": "BLK",
         "target": "Single enemy",
@@ -269,6 +383,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -286,6 +401,24 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Spear of Storms Follow-Up",
+        "name": "Spear of Storms",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 5.2,
+        "element": "Lightning, Wind, NE",
+        "time": 0.01,
+        "effects": "One single ranged attack (5,20) capped at 99999, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Dragoon",
         "✓": "✓"
     },
     {
@@ -303,6 +436,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Summoning",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -320,6 +454,41 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Ninja",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Old Man's Hammer Follow-Up",
+        "name": "Old Man's Hammer",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.8,
+        "element": "Lightning, NE",
+        "time": 0.01,
+        "effects": "Four single attacks (0,45 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Machinist",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Ladle Mode",
+        "name": "Ladle Assault",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.05,
+        "element": "Earth, Fire, NE",
+        "time": 0.01,
+        "effects": "Five single attacks (0,41 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Monk",
         "✓": "✓"
     },
     {
@@ -337,6 +506,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -354,6 +524,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Samurai",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -371,6 +542,7 @@
         "autoTarget": "Random enemies",
         "sb": 0,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -388,6 +560,7 @@
         "autoTarget": "Random enemies",
         "sb": 0,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -405,6 +578,7 @@
         "autoTarget": "Random enemies",
         "sb": 0,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -422,6 +596,75 @@
         "autoTarget": "Random enemies",
         "sb": 0,
         "school": "Spellblade",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Essence of Wind",
+        "name": "Inherited Swordplay 1",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 0.3,
+        "element": "Wind, NE",
+        "time": 0.01,
+        "effects": "One single attack (0,30), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Spellblade",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Essence of Wind",
+        "name": "Inherited Swordplay 2",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.5,
+        "element": "Wind, NE",
+        "time": 0.01,
+        "effects": "Five single attacks (0,30 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Spellblade",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Essence of Wind",
+        "name": "Inherited Swordplay 3",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 4.5,
+        "element": "Wind, NE",
+        "time": 0.01,
+        "effects": "Fifteen single attacks (0,30 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Spellblade",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Master Barrage Follow-Up",
+        "name": "Master Barrage",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 3.52,
+        "element": "Fire, Wat., Wind, Ea., NE",
+        "time": 0.01,
+        "effects": "Eight single attacks (0,44 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Spellblade",
         "✓": "✓"
     },
     {
@@ -431,11 +674,12 @@
         "type": "NAT",
         "target": "Single enemy",
         "time": 0.01,
-        "effects": "Causes Minor Imperil Wind",
+        "effects": "Causes Imperil Wind 10% for 15 seconds",
         "counter": "N",
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Thief",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -453,6 +697,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Knight",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -466,6 +711,24 @@
         "element": "Fire, NE",
         "time": 0.01,
         "effects": "2/3/4/5/6 single attacks (1,42 each) at rank 1/2/3/4/5 of the triggering ability",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Inherited Essence Follow-Up",
+        "name": "Inherited Essence",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 8.08,
+        "element": "Earth, NE",
+        "time": 0.01,
+        "effects": "Four single attacks (2,02 each), five attacks if Galuf is alive",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
@@ -487,6 +750,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Ninja",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -504,6 +768,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Thief",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -521,6 +786,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Thief",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -538,6 +804,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Machinist",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -555,6 +822,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Machinist",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -572,6 +840,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Machinist",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -589,6 +858,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Monk",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -602,6 +872,24 @@
         "element": "Dark, NE",
         "time": 0.01,
         "effects": "1/1/2 single attacks (2,16 each) if the user has Physical Blink 0/1/2, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Ninja",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Dark Assassination Follow-Up",
+        "name": "Dark Assassination",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.56,
+        "element": "Dark, NE",
+        "time": 0.01,
+        "effects": "4/6/8 single ranged attacks (0,32 each) if the user has Physical Blink 0/1/2, 100% hit rate",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
@@ -623,6 +911,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -640,6 +929,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -657,6 +947,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -670,6 +961,75 @@
         "element": "-",
         "time": 0.01,
         "effects": "Two single ranged attacks (0,25 each), RES -50% for 15 seconds",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Support",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Darkness Card Follow-Up",
+        "name": "Darkness Card 1",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.71,
+        "element": "Dark, NE",
+        "time": 0.01,
+        "effects": "Three single ranged attacks (0,57 each), ATK -40% for 15 seconds, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Support",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Darkness Card Follow-Up",
+        "name": "Darkness Card 2",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.71,
+        "element": "Dark, NE",
+        "time": 0.01,
+        "effects": "Three single ranged attacks (0,57 each), MAG -50% for 15 seconds, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Support",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Darkness Card Follow-Up",
+        "name": "Darkness Card 3",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.71,
+        "element": "Dark, NE",
+        "time": 0.01,
+        "effects": "Three single ranged attacks (0,57 each), DEF -40% for 15 seconds, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Support",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Darkness Card Follow-Up",
+        "name": "Darkness Card 4",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.71,
+        "element": "Dark, NE",
+        "time": 0.01,
+        "effects": "Three single ranged attacks (0,57 each), RES -50% for 15 seconds, 100% hit rate",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
@@ -695,8 +1055,8 @@
     },
     {
         "sourceType": "Follow-Up Status",
-        "source": "EX: Artificial Magus",
-        "name": "Magitek Release",
+        "source": "EX: Forged Magitek",
+        "name": "Magitek Blast",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
@@ -708,6 +1068,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -725,6 +1086,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Knight",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -737,11 +1099,29 @@
         "multiplier": "-",
         "element": "Wind, NE",
         "time": 0.01,
-        "effects": "Randomly deals four (50%) or eight (50%) single attacks (0,40 each), breaks damage cap, 100% hit rate",
+        "effects": "Randomly deals four (50%) or eight (50%) single attacks (0,40 each) capped at 99999, 100% hit rate",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Combat",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Darkness Blow Follow-Up",
+        "name": "Darkness Blow",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.6,
+        "element": "Dark, NE",
+        "time": 0.01,
+        "effects": "Four single attacks (0,40 each) capped at 99999, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Heavy",
         "✓": "✓"
     },
     {
@@ -759,6 +1139,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Ninja",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -776,6 +1157,7 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -793,6 +1175,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -827,6 +1210,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -844,6 +1228,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Monk",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -861,6 +1246,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Sharpshooter",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -878,6 +1264,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -895,6 +1282,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Thief",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -912,6 +1300,24 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Dragoon",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Summon's Cure Follow-Up",
+        "name": "Summon's Cure",
+        "type": "WHT",
+        "target": "All allies",
+        "formula": "Magical",
+        "multiplier": 2,
+        "element": "Holy",
+        "time": 0.01,
+        "effects": "Restores HP (25), damages undeads",
+        "counter": "Y",
+        "autoTarget": "All allies",
+        "sb": 0,
+        "school": "White Magic",
         "✓": "✓"
     },
     {
@@ -929,6 +1335,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Knight",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -963,6 +1370,24 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Sharpshooter",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Ace Shot Follow-Up",
+        "name": "Ace Shot",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 5.28,
+        "element": "Water, NE",
+        "time": 0.01,
+        "effects": "One single ranged attack (5,28) capped at 99999",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Sharpshooter",
         "✓": "✓"
     },
     {
@@ -980,6 +1405,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Summoning",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1014,12 +1440,13 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Machinist",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "sourceType": "Follow-Up Status",
-        "source": "Feral Charge Follow-Up",
-        "name": "Feral Charge",
+        "source": "Beast Rush Follow-Up",
+        "name": "Beast Rush",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -1031,7 +1458,24 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Monk",
+        "gl": "✓",
         "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Beast and Father",
+        "name": "Beast Stream",
+        "type": "?",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Dark, Fire, NE",
+        "time": "?",
+        "effects": "Six single attacks (? each), 100% hit rate",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
     },
     {
         "sourceType": "Follow-Up Status",
@@ -1048,6 +1492,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1069,6 +1514,23 @@
     },
     {
         "sourceType": "Follow-Up Status",
+        "source": "Whirling Edge Follow-Up",
+        "name": "Whirling Edge",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2,
+        "element": "Lightning, Wind, NE",
+        "time": 0.01,
+        "effects": "Five single attacks (2,00 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Dancer",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
         "source": "EX: Wings of Freedom",
         "name": "Spiral Rush",
         "type": "PHY",
@@ -1082,6 +1544,21 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Thief",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Oil Bullet Follow-Up",
+        "name": "Oil Bullet",
+        "type": "NAT",
+        "target": "Single enemy",
+        "time": 0.01,
+        "effects": "Causes Imperil Fire 10% for 15 seconds",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Machinist",
         "✓": "✓"
     },
     {
@@ -1099,6 +1576,24 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Cure Step Follow-Up",
+        "name": "Cure Step",
+        "type": "WHT",
+        "target": "All allies",
+        "formula": "Magical",
+        "multiplier": 2,
+        "element": "Holy",
+        "time": 0.01,
+        "effects": "Restores HP (25), damages undeads",
+        "counter": "N",
+        "autoTarget": "All allies",
+        "sb": 0,
+        "school": "Dancer",
         "✓": "✓"
     },
     {
@@ -1116,6 +1611,24 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Darkness",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Windfang Follow-Up",
+        "name": "Windfang",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2,
+        "element": "Wind, NE",
+        "time": 0.01,
+        "effects": "Five single ranged attacks (0,40 each), 30/50/75% additional critical chance scaling with uses, 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Dragoon",
         "✓": "✓"
     },
     {
@@ -1133,6 +1646,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1150,6 +1664,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1184,6 +1699,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1218,6 +1734,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Dragoon",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1235,6 +1752,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1244,11 +1762,29 @@
         "type": "NAT",
         "target": "Single enemy",
         "time": 0.01,
-        "effects": "Causes Minor Imperil Holy",
+        "effects": "Causes Imperil Holy 10% for 15 seconds",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Knight",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Hero-King's Blade Follow-Up",
+        "name": "Hero-King's Blade",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.84,
+        "element": "Holy, Fire, Light., Ice, NE",
+        "time": 0.01,
+        "effects": "Four single attacks (0,46 each), 100% hit rate",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Spellblade",
         "✓": "✓"
     },
     {
@@ -1266,6 +1802,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Darkness",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1283,6 +1820,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1351,6 +1889,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Dragoon",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1368,6 +1907,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1385,6 +1925,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1402,6 +1943,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Darkness",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1411,7 +1953,7 @@
         "type": "NAT",
         "target": "Single enemy",
         "time": 0.01,
-        "effects": "Causes Minor Imperil Ice",
+        "effects": "Causes Imperil Ice 10% for 15 seconds",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
@@ -1459,39 +2001,73 @@
         "type": "PHY",
         "target": "Single enemy",
         "time": 2.5,
-        "effects": "One single attack for 35% of the damage dealt with Holy attacks during the status, breaks damage cap",
+        "effects": "One single attack capped at 99999 for 35% of the damage dealt with Holy attacks during the status",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Knight",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "sourceType": "Finisher Status",
-        "source": "Decisive Kick Finisher",
-        "name": "Decisive Kick",
+        "source": "Furious Kick Finisher",
+        "name": "Furious Kick",
         "type": "PHY",
         "target": "Single enemy",
         "time": 2.5,
-        "effects": "One single attack for 35% of the damage dealt with Earth attacks during the status, breaks damage cap",
+        "effects": "One single attack capped at 99999 for 35% of the damage dealt with Earth attacks during the status",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Monk",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "sourceType": "Finisher Status",
-        "source": "EX: Power of the Crystals",
-        "name": "Last Spellblade",
+        "source": "Dire Meteor Mode",
+        "name": "Legendary Black Magic",
+        "type": "BLK",
+        "target": "Single enemy",
+        "time": 2.5,
+        "effects": "One single attack capped at 99999 for 35% of the damage dealt with Earth attacks during the status, causes Instant KO to the user",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Black Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Finisher Status",
+        "source": "Shadow Dragon Mode",
+        "name": "Black Spell",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 34.6,
+        "element": "Dark, NE",
+        "time": 0.01,
+        "effects": "One single attack (11,80/20,50/34,60) capped at 99999 if the user used 5/9 Darkness abilities during the status",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Darkness",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Finisher Status",
+        "source": "EX: Crystal Might",
+        "name": "Spellblade Finish",
         "type": "PHY",
         "target": "Single enemy",
         "time": 2.5,
-        "effects": "One single attack for 35% of the damage dealt with Spellblade abilities during the status, breaks damage cap",
+        "effects": "One single attack capped at 99999 for 35% of the damage dealt with Spellblade abilities during the status",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1509,6 +2085,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Thief",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1523,20 +2100,22 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "sourceType": "Finisher Status",
-        "source": "Lingering Fire Finisher",
-        "name": "Lingering Fire",
+        "source": "Lingering Flame Finisher",
+        "name": "Lingering Flame",
         "type": "PHY",
         "target": "Single enemy",
         "time": 2.5,
-        "effects": "One single attack for 35% of the damage dealt with Fire attacks during the status, breaks damage cap",
+        "effects": "One single attack capped at 99999 for 35% of the damage dealt with Fire attacks during the status",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Samurai",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1551,6 +2130,7 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Summoning",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1565,6 +2145,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Machinist",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1574,7 +2155,7 @@
         "type": "PHY",
         "target": "Single enemy",
         "time": 2.5,
-        "effects": "One single attack for 35% of the damage dealt with Earth attacks during the status, breaks damage cap",
+        "effects": "One single attack capped at 99999 for 35% of the damage dealt with Earth attacks during the status",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
@@ -1583,16 +2164,68 @@
     },
     {
         "sourceType": "Finisher Status",
-        "source": "Scythe of Slaughter Finisher",
-        "name": "Scythe of Slaughter",
+        "source": "Culling Scythe Finisher",
+        "name": "Culling Scythe",
         "type": "PHY",
         "target": "Single enemy",
         "time": 2.5,
-        "effects": "One single attack for 35% of the damage dealt with Dark attacks during the status, breaks damage cap",
+        "effects": "One single attack capped at 99999 for 35% of the damage dealt with Dark attacks during the status",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Darkness",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Periodic Status",
+        "source": "Sketch Mode",
+        "name": "Sketch Bonds 1",
+        "type": "WHT",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 9,
+        "element": "Water, NE",
+        "time": 0.01,
+        "effects": "Six single attacks (1,50 each), restores HP (25) to all allies",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "White Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Periodic Status",
+        "source": "Sketch Mode",
+        "name": "Sketch Bonds 2",
+        "type": "WHT",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 9,
+        "element": "Water, Dark, NE",
+        "time": 0.01,
+        "effects": "Six single attacks (1,50 each), restores HP (25) to all allies",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "White Magic",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Periodic Status",
+        "source": "Sketch Mode",
+        "name": "Sketch Bonds 3",
+        "type": "WHT",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 9,
+        "element": "Water, Dark, Fire, NE",
+        "time": 0.01,
+        "effects": "Six single attacks (1,50 each), restores HP (25) to all allies, grants High Regen to all allies",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "White Magic",
         "✓": "✓"
     },
     {
@@ -1610,6 +2243,7 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Summoning",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1627,6 +2261,7 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Summoning",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1644,6 +2279,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Summoning",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1661,6 +2297,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1678,6 +2315,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1695,6 +2333,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1712,6 +2351,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1729,6 +2369,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1746,6 +2387,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1763,12 +2405,13 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "sourceType": "Rage Status",
-        "source": "Recover Rage (30%)",
-        "name": "Recover Rage",
+        "source": "Feral Healing (30%)",
+        "name": "Feral Healing",
         "type": "NAT",
         "target": "All allies",
         "time": 1.65,
@@ -1777,12 +2420,13 @@
         "autoTarget": "All allies",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "sourceType": "Rage Status",
-        "source": "Recover Rage (30%)",
-        "name": "Recover Rage",
+        "source": "Feral Healing (30%)",
+        "name": "Feral Healing",
         "type": "NAT",
         "target": "Random ally",
         "time": 1.65,
@@ -1791,12 +2435,13 @@
         "autoTarget": "Random ally",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "sourceType": "Rage Status",
-        "source": "Recover Rage (40%)",
-        "name": "Recover Rage",
+        "source": "Feral Healing (40%)",
+        "name": "Feral Healing",
         "type": "NAT",
         "target": "Random ally",
         "time": 1.65,
@@ -1805,6 +2450,7 @@
         "autoTarget": "Random ally",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1822,6 +2468,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1839,6 +2486,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1856,6 +2504,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1873,6 +2522,160 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Attach Status",
+        "source": "Attach Fire",
+        "name": "Attack",
+        "type": "PHY",
+        "target": "Single",
+        "formula": "Physical",
+        "multiplier": 1,
+        "element": "Fire",
+        "time": 1.65,
+        "effects": "One single attack (1,00)",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 55,
+        "school": "Special",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Attach Status",
+        "source": "Attach Ice",
+        "name": "Attack",
+        "type": "PHY",
+        "target": "Single",
+        "formula": "Physical",
+        "multiplier": 1,
+        "element": "Ice",
+        "time": 1.65,
+        "effects": "One single attack (1,00)",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 55,
+        "school": "Special",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Attach Status",
+        "source": "Attach Lightning",
+        "name": "Attack",
+        "type": "PHY",
+        "target": "Single",
+        "formula": "Physical",
+        "multiplier": 1,
+        "element": "Lightning",
+        "time": 1.65,
+        "effects": "One single attack (1,00)",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 55,
+        "school": "Special",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Attach Status",
+        "source": "Attach Earth",
+        "name": "Attack",
+        "type": "PHY",
+        "target": "Single",
+        "formula": "Physical",
+        "multiplier": 1,
+        "element": "Earth",
+        "time": 1.65,
+        "effects": "One single attack (1,00)",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 55,
+        "school": "Special",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Attach Status",
+        "source": "Attach Wind",
+        "name": "Attack",
+        "type": "PHY",
+        "target": "Single",
+        "formula": "Physical",
+        "multiplier": 1,
+        "element": "Wind",
+        "time": 1.65,
+        "effects": "One single attack (1,00)",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 55,
+        "school": "Special",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Attach Status",
+        "source": "Attach Water",
+        "name": "Attack",
+        "type": "PHY",
+        "target": "Single",
+        "formula": "Physical",
+        "multiplier": 1,
+        "element": "Water",
+        "time": 1.65,
+        "effects": "One single attack (1,00)",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 55,
+        "school": "Special",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Attach Status",
+        "source": "Attach Holy",
+        "name": "Attack",
+        "type": "PHY",
+        "target": "Single",
+        "formula": "Physical",
+        "multiplier": 1,
+        "element": "Holy",
+        "time": 1.65,
+        "effects": "One single attack (1,00)",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 55,
+        "school": "Special",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Attach Status",
+        "source": "Attach Dark",
+        "name": "Attack",
+        "type": "PHY",
+        "target": "Single",
+        "formula": "Physical",
+        "multiplier": 1,
+        "element": "Dark",
+        "time": 1.65,
+        "effects": "One single attack (1,00)",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 55,
+        "school": "Special",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Attach Status",
+        "source": "Attach Poison",
+        "name": "Attack",
+        "type": "PHY",
+        "target": "Single",
+        "formula": "Physical",
+        "multiplier": 1,
+        "element": "Poison",
+        "time": 1.65,
+        "effects": "One single attack (1,00)",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 55,
+        "school": "Special",
         "✓": "✓"
     },
     {
@@ -1890,6 +2693,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1907,6 +2711,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1924,6 +2729,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1941,6 +2747,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1958,6 +2765,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1975,6 +2783,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1992,6 +2801,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2009,6 +2819,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2026,6 +2837,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2043,6 +2855,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2060,6 +2873,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2074,6 +2888,7 @@
         "autoTarget": "Random ally with status",
         "sb": 65,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2088,6 +2903,7 @@
         "autoTarget": "Random ally with status",
         "sb": 65,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2102,6 +2918,7 @@
         "autoTarget": "-",
         "sb": 50,
         "school": "Summoning",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2119,6 +2936,7 @@
         "autoTarget": "All enemies",
         "sb": 65,
         "school": "Samurai",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2136,6 +2954,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 65,
         "school": "Dragoon",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2153,6 +2972,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2170,6 +2990,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2187,6 +3008,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2204,6 +3026,7 @@
         "autoTarget": "All enemies",
         "sb": 65,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2221,6 +3044,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 65,
         "school": "Thief",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2238,6 +3062,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2255,6 +3080,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Bard",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2272,6 +3098,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Ninja",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2289,6 +3116,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2306,6 +3134,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2323,6 +3152,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2340,6 +3170,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2357,6 +3188,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2374,6 +3206,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2391,6 +3224,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2408,6 +3242,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2425,6 +3260,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2442,6 +3278,7 @@
         "autoTarget": "Lowest HP% enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2459,6 +3296,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2476,6 +3314,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2493,6 +3332,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2510,6 +3350,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2527,6 +3368,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2544,6 +3386,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2561,6 +3404,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2578,6 +3422,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2595,6 +3440,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2612,6 +3458,7 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2629,6 +3476,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Monk",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2646,6 +3494,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2663,6 +3512,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2680,6 +3530,7 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2694,6 +3545,7 @@
         "autoTarget": "Random ally with status",
         "sb": 65,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2711,6 +3563,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2728,6 +3581,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2745,6 +3599,7 @@
         "autoTarget": "Lowest HP% enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2762,6 +3617,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2779,6 +3635,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2796,6 +3653,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 35,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2813,6 +3671,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2830,6 +3689,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2847,6 +3707,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2861,6 +3722,7 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "Knight",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2878,6 +3740,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2895,6 +3758,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2912,6 +3776,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2929,6 +3794,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Bard",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2946,6 +3812,7 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2960,6 +3827,7 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "Knight",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2977,6 +3845,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 35,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2994,6 +3863,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3011,6 +3881,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3028,6 +3899,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3042,6 +3914,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3059,6 +3932,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3073,6 +3947,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3087,6 +3962,7 @@
         "autoTarget": "Random ally with status",
         "sb": 65,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3104,6 +3980,7 @@
         "autoTarget": "Lowest HP% enemies",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3121,6 +3998,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3138,6 +4016,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3152,6 +4031,7 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "Knight",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3169,6 +4049,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 65,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3183,6 +4064,7 @@
         "autoTarget": "-",
         "sb": 50,
         "school": "Summoning",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3200,6 +4082,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3217,6 +4100,7 @@
         "autoTarget": "Lowest HP% enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3234,6 +4118,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3251,6 +4136,7 @@
         "autoTarget": "Random enemies",
         "sb": 80,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3268,6 +4154,7 @@
         "autoTarget": "Random enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3285,6 +4172,7 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3302,6 +4190,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3319,6 +4208,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3336,6 +4226,7 @@
         "autoTarget": "Lowest HP% enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3353,12 +4244,13 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "sourceType": "Record Materia",
-        "source": "PSICOM Prodigy",
-        "name": "PSICOM Prodigy",
+        "source": "PSICOM Marvel",
+        "name": "PSICOM Marvel",
         "type": "BLK",
         "target": "All enemies",
         "formula": "Magical",
@@ -3370,6 +4262,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3387,6 +4280,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3404,6 +4298,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3421,6 +4316,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3435,6 +4331,7 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3452,6 +4349,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3469,6 +4367,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3486,6 +4385,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3500,6 +4400,7 @@
         "autoTarget": "Self",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3514,6 +4415,7 @@
         "autoTarget": "Random ally with status",
         "sb": 65,
         "school": "Support",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3531,6 +4433,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3548,6 +4451,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Spellblade",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3565,6 +4469,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3582,6 +4487,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3599,6 +4505,7 @@
         "autoTarget": "Random enemy without status",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3616,6 +4523,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3633,6 +4541,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3650,6 +4559,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3667,6 +4577,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3684,6 +4595,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3701,6 +4613,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3718,6 +4631,7 @@
         "autoTarget": "All enemies",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3735,6 +4649,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3752,6 +4667,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3786,6 +4702,24 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Legend Materia",
+        "source": "Resolute Warrior",
+        "name": "Resolute Warrior",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.26,
+        "element": "Holy, NE",
+        "time": 0.01,
+        "effects": "Three single attacks (0,42 each), restores 1500 HP to the lowest HP% ally",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Knight",
         "✓": "✓"
     },
     {
@@ -3803,6 +4737,7 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3817,6 +4752,7 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3831,6 +4767,7 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3865,6 +4802,7 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3879,6 +4817,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3896,6 +4835,7 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3913,6 +4853,7 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3927,6 +4868,7 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3944,6 +4886,7 @@
         "autoTarget": "Random enemy without status",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3958,11 +4901,12 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "sourceType": "Legend Materia",
-        "source": "Comrade's Legacy",
+        "source": "Vermin Exterminator",
         "name": "Gatling Gun",
         "type": "PHY",
         "target": "Random enemies",
@@ -3992,6 +4936,7 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4026,6 +4971,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Celerity",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4043,6 +4989,7 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4060,6 +5007,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Dragoon",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4070,6 +5018,23 @@
         "target": "All enemies",
         "time": 0.01,
         "effects": "Causes Imperil Water 10% for 15 seconds",
+        "counter": "N",
+        "autoTarget": "All enemies",
+        "sb": 0,
+        "school": "Special",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Legend Materia",
+        "source": "Dancing Princess",
+        "name": "Dancing Princess",
+        "type": "WHT",
+        "target": "All allies",
+        "formula": "Magical",
+        "multiplier": 2,
+        "element": "Holy",
+        "time": 0.01,
+        "effects": "Restores HP (25), damages undeads",
         "counter": "N",
         "autoTarget": "All enemies",
         "sb": 0,
@@ -4091,6 +5056,7 @@
         "autoTarget": "All allies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4105,6 +5071,7 @@
         "autoTarget": "Lowest HP% ally",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4122,6 +5089,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4139,6 +5107,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Dragoon",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4153,7 +5122,24 @@
         "autoTarget": "All enemies",
         "sb": 0,
         "school": "Special",
+        "gl": "✓",
         "✓": "✓"
+    },
+    {
+        "sourceType": "Legend Materia",
+        "source": "Strategist of the Southern Sky",
+        "name": "Strategist of the Southern Sky",
+        "type": "?",
+        "target": "All allies",
+        "formula": "Magical",
+        "multiplier": "?",
+        "element": "Holy",
+        "time": "?",
+        "effects": "Restores HP (?), damages undeads",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?"
     },
     {
         "sourceType": "Legend Materia",
@@ -4170,6 +5156,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "White Magic",
+        "gl": "✓",
         "✓": "✓"
     }
 ]

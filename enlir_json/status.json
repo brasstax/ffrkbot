@@ -132,11 +132,11 @@
     {
         "id": "213",
         "commonName": "Doom: 60",
-        "effects": "HP = 0 after a 60 seconds timer",
+        "effects": "Causes Doom with a 60 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM",
+        "codedName": "SET_DOOM_60",
         "notes": "-"
     },
     {
@@ -298,60 +298,60 @@
     {
         "id": "236",
         "commonName": "Doom: 30",
-        "effects": "HP = 0 after a 30 seconds timer",
+        "effects": "Causes Doom with a 30 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_30",
+        "codedName": "SET_DOOM_30",
         "notes": "-"
     },
     {
         "id": "23601",
-        "commonName": "Light Doom: 30",
-        "effects": "HP = 0 after a 30 seconds timer, can't overwrite other timers",
+        "commonName": "Deprecated Doom: 30",
+        "effects": "Causes Doom with a 30 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_LIGHT_30",
-        "notes": "-"
+        "codedName": "SET_DOOM_30_DEPRECATED",
+        "notes": "Deprecated"
     },
     {
         "id": "23602",
-        "commonName": "Light Doom: 15",
-        "effects": "HP = 0 after a 15 seconds timer, can't overwrite other timers",
+        "commonName": "Deprecated Doom: 15",
+        "effects": "Causes Doom with a 15 seconds timer",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_LIGHT_15",
-        "notes": "-"
+        "codedName": "SET_DOOM_15_DEPRECATED",
+        "notes": "Deprecated"
     },
     {
         "id": "237",
         "commonName": "Doom: 45",
-        "effects": "HP = 0 after a 45 seconds timer",
+        "effects": "Causes Doom with a 45 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_45",
+        "codedName": "SET_DOOM_45",
         "notes": "-"
     },
     {
         "id": "238",
         "commonName": "Doom: 90",
-        "effects": "HP = 0 after a 90 seconds timer",
+        "effects": "Causes Doom with a 90 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_90",
+        "codedName": "SET_DOOM_90",
         "notes": "-"
     },
     {
         "id": "239",
         "commonName": "Doom: 120",
-        "effects": "HP = 0 after a 120 seconds timer",
+        "effects": "Causes Doom with a 120 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_120",
+        "codedName": "SET_DOOM_120",
         "notes": "-"
     },
     {
@@ -417,7 +417,6 @@
     {
         "id": "246",
         "commonName": "Glyph Mine",
-        "effects": "HP = 0 after a 20 seconds timer unless the character has the Defend status",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -506,13 +505,13 @@
     },
     {
         "id": "256",
-        "commonName": "Light Doom: 45",
-        "effects": "HP = 0 after a 45 seconds timer, can't be overwritten, can't overwrite other timers",
+        "commonName": "Deprecated Doom: 45",
+        "effects": "Causes Doom with a 45 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_LIGHT_45",
-        "notes": "-"
+        "codedName": "SET_DOOM_45_DEPRECATED",
+        "notes": "Deprecated"
     },
     {
         "id": "257",
@@ -521,7 +520,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "ZERO_FLIGHT_2",
+        "codedName": "ZERO_FLIGHT_BY_TURN_2",
         "notes": "-"
     },
     {
@@ -531,7 +530,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "ZERO_FLIGHT_3",
+        "codedName": "ZERO_FLIGHT_BY_TURN_3",
         "notes": "-"
     },
     {
@@ -916,7 +915,7 @@
     },
     {
         "id": "266008",
-        "commonName": "White One-Winged Angel",
+        "commonName": "Wings of White",
         "effects": "Affects certain Burst Commands, removed if the user hasn't Burst Mode",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -955,6 +954,16 @@
         "notes": "-"
     },
     {
+        "id": "26702",
+        "commonName": "Critical Damage +50% 1",
+        "effects": "Critical hits deal 50% more damage (additive with the base critical coefficient), lasts for 1 turn",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CRITICAL_COEFFICIENT_50_1",
+        "notes": "-"
+    },
+    {
         "id": "268",
         "commonName": "Thunder God's Might",
         "effects": "Cast speed x3,00",
@@ -987,7 +996,7 @@
     {
         "id": "271",
         "commonName": "Astra",
-        "effects": "Prevents Poison, Silence, Paralyze, Confuse, Slow, Stop, Blind, Sleep, Petrify, Berserk, Sap, Stun and Frozen once",
+        "effects": "Prevents Poison, Silence, Paralyze, Confuse, Slow, Stop, Blind, Sleep, Petrify, Berserk, Sap and Stun once",
         "defaultDuration": 25,
         "mndModifier": "-",
         "exclusiveStatus": "Pre-Dispel",
@@ -1047,7 +1056,7 @@
     {
         "id": "276",
         "commonName": "EX: Soldier",
-        "effects": "Increases physical damage dealt by 30%, allows PHY attacks that deal physical, missing HP, fixed or fractional damage to break the damage cap",
+        "effects": "Increases physical damage dealt by 30%, sets the damage cap for PHY attacks to 99999",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -1392,6 +1401,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DAMAGE_BOOST_SAMURAI_115_2",
+        "notes": "-"
+    },
+    {
+        "id": "282013",
+        "commonName": "Dragoon +30% Boost 1",
+        "effects": "Dragoon abilities deal 30% more damage, lasts for 1 turn",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_DRAGOON_130_1",
         "notes": "-"
     },
     {
@@ -1955,6 +1974,36 @@
         "notes": "-"
     },
     {
+        "id": "282157",
+        "commonName": "PHY +30% Boost",
+        "effects": "PHY attacks deal 30% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_PHYSICAL_130_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282158",
+        "commonName": "PHY +50% Boost",
+        "effects": "PHY attacks deal 50% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_PHYSICAL_150_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "282159",
+        "commonName": "PHY +70% Boost",
+        "effects": "PHY attacks deal 70% more damage",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_PHYSICAL_170_15000_MSEC",
+        "notes": "-"
+    },
+    {
         "id": "283",
         "commonName": "Steiner Trance",
         "effects": "ATK and DEF +25%, increases Fire, Ice, Lightning, Earth, Wind, Water, Holy, Dark and Poison damage dealt by 25%",
@@ -2043,16 +2092,6 @@
         "exclusiveStatus": "-",
         "codedName": "LOCK_PHOENIX_MODE",
         "notes": "-"
-    },
-    {
-        "id": "292",
-        "commonName": "Frozen",
-        "effects": "Arrests ATB charge rate, can't act, causes Instant KO upon taking damage by a PHY attack, duration scales with MND (factor 2)",
-        "defaultDuration": 10,
-        "mndModifier": "-",
-        "exclusiveStatus": "All \"Retaliate\" status, Attach Fire, all \"Buff Fire\" status",
-        "codedName": "FROZEN",
-        "notes": "???"
     },
     {
         "id": "293",
@@ -4025,6 +4064,16 @@
         "notes": "-"
     },
     {
+        "id": "2220",
+        "commonName": "Magical High Quick Cast 1",
+        "effects": "Cast speed x3,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 1 turn",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_1_CUSTOM_MAGIC_DAMAGE_ABILITIES",
+        "notes": "-"
+    },
+    {
         "id": "501",
         "commonName": "MAG Boost",
         "effects": "MAG +25%",
@@ -4245,7 +4294,6 @@
     {
         "id": "524",
         "commonName": "Doom of Atomos",
-        "effects": "Affects Atomos's behaviour after a 30 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4515,7 +4563,6 @@
     {
         "id": "552",
         "commonName": "Nightmare Necrophobe ATK Doom",
-        "effects": "HP = 0 after a 20 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4525,7 +4572,6 @@
     {
         "id": "553",
         "commonName": "Nightmare Necrophobe MAG Doom",
-        "effects": "HP = 0 after a 20 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4535,7 +4581,6 @@
     {
         "id": "554",
         "commonName": "Nightmare Necrophobe DEF Doom",
-        "effects": "HP = 0 after a 20 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4545,7 +4590,6 @@
     {
         "id": "555",
         "commonName": "Nightmare Necrophobe RES Doom",
-        "effects": "HP = 0 after a 20 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -4912,16 +4956,6 @@
         "notes": "-"
     },
     {
-        "id": "595",
-        "commonName": "Doom Timer +X",
-        "effects": "Increases the character's Doom timer by X when set",
-        "defaultDuration": "-",
-        "mndModifier": "-",
-        "exclusiveStatus": "-",
-        "codedName": "DOOM_CHANGE_COUNT",
-        "notes": "-"
-    },
-    {
         "id": "596",
         "commonName": "Fire Cloak",
         "effects": "Affects certain Burst Commands, 50% chance of countering enemy PHY attacks with Fiery Retribution",
@@ -4957,7 +4991,7 @@
         "effects": "SUM attacks deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, casts Deathflare when removed",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "exclusiveStatus": "-",
         "codedName": "EX_MODE_TRANCE_BAHAMUT",
         "notes": "-"
     },
@@ -5377,8 +5411,8 @@
         "effects": "Knight abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_KNIGHT_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_KNIGHT_MEDIUM",
         "notes": "-"
     },
     {
@@ -5528,7 +5562,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "ZERO_FLIGHT_4",
+        "codedName": "ZERO_FLIGHT_BY_TURN_4",
         "notes": "-"
     },
     {
@@ -5777,7 +5811,7 @@
         "effects": "Darkness abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, casts Ultima (IX) when removed",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "exclusiveStatus": "-",
         "codedName": "EX_MODE_FOR_DEATH_GOD",
         "notes": "-"
     },
@@ -5787,8 +5821,8 @@
         "effects": "Spellblade abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_SPELL_BLADE_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_SPELLBLADE_MEDIUM",
         "notes": "-"
     },
     {
@@ -5797,8 +5831,8 @@
         "effects": "Ninja abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_NINJA_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_NINJA_MEDIUM",
         "notes": "-"
     },
     {
@@ -5937,8 +5971,8 @@
         "effects": "Monk abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_MONK_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_MONK_MEDIUM",
         "notes": "-"
     },
     {
@@ -5947,8 +5981,8 @@
         "effects": "White Magic abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_WHITE_MAGIC_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_WHITE_MAGIC_MEDIUM",
         "notes": "-"
     },
     {
@@ -6057,8 +6091,8 @@
         "effects": "Heavy abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": "15",
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_HEAVY_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_HEAVY_MEDIUM",
         "notes": "-"
     },
     {
@@ -6117,8 +6151,8 @@
         "effects": "Summoning abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_SUMMONING_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_SUMMONING_MEDIUM",
         "notes": "-"
     },
     {
@@ -6157,8 +6191,8 @@
         "effects": "Machinist abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_MACHINIST_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_MACHINIST_MEDIUM",
         "notes": "-"
     },
     {
@@ -6177,7 +6211,7 @@
         "effects": "Knight abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, casts Bright Finale when removed",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
+        "exclusiveStatus": "-",
         "codedName": "EX_MODE_PROPHETIC_WARRIOR",
         "notes": "-"
     },
@@ -6267,8 +6301,8 @@
         "effects": "Darkness abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": "15",
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_DARKNESS_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_DARKNESS_MEDIUM",
         "notes": "-"
     },
     {
@@ -6347,8 +6381,8 @@
         "effects": "Combat abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_PHYSICAL_ATTACK_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_COMBAT_MEDIUM",
         "notes": "-"
     },
     {
@@ -6507,14 +6541,14 @@
         "effects": "Thief abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_THIEF_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_THIEF_MEDIUM",
         "notes": "-"
     },
     {
         "id": "50164",
-        "commonName": "EX: Power of the Crystals",
-        "effects": "Spellblade damage +30/35/40/45/50/55/60/65/70% after 0/1/2/3/4/5/6/7/8 Wind, Water, Fire or Earth attacks, casts Last Spellblade when removed",
+        "commonName": "EX: Crystal Might",
+        "effects": "Spellblade damage +30/35/40/45/50/55/60/65/70% after 0/1/2/3/4/5/6/7/8 Wind, Water, Fire or Earth attacks, casts Spellblade Finish when removed",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6533,8 +6567,8 @@
     },
     {
         "id": "50166",
-        "commonName": "Feral Charge Follow-Up",
-        "effects": "Casts Feral Charge after using a Fire attack",
+        "commonName": "Beast Rush Follow-Up",
+        "effects": "Casts Beast Rush after using a Fire attack",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6543,8 +6577,8 @@
     },
     {
         "id": "50167",
-        "commonName": "Lingering Fire Finisher",
-        "effects": "Casts Lingering Fire when removed",
+        "commonName": "Lingering Flame Finisher",
+        "effects": "Casts Lingering Flame when removed",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6553,41 +6587,41 @@
     },
     {
         "id": "50168",
-        "commonName": "Comrade's Oath 0",
-        "effects": "Grants Comrade's Oath 1 after using a Samurai ability, removed if the user hasn't Lingering Fire Finisher",
+        "commonName": "Friend's Promise 0",
+        "effects": "Grants Friend's Promise 1 after using a Samurai ability, removed if the user hasn't Lingering Flame Finisher",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Comrade's Oath\" status",
+        "exclusiveStatus": "All other \"Friend's Promise\" status",
         "codedName": "FOR_MY_FRIEND_MODE_BUFF_AND_CHASE_0",
         "notes": "-"
     },
     {
         "id": "50169",
-        "commonName": "Comrade's Oath 1",
-        "effects": "Critical chance =30%, cast speed x2,00, grants Comrade's Oath 2 after using a Samurai ability, removed if the user hasn't Lingering Fire Finisher",
+        "commonName": "Friend's Promise 1",
+        "effects": "Critical chance =30%, cast speed x2,00, grants Friend's Promise 2 after using a Samurai ability, removed if the user hasn't Lingering Flame Finisher",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Comrade's Oath\" status",
+        "exclusiveStatus": "All other \"Friend's Promise\" status",
         "codedName": "FOR_MY_FRIEND_MODE_BUFF_AND_CHASE_1",
         "notes": "-"
     },
     {
         "id": "50170",
-        "commonName": "Comrade's Oath 2",
-        "effects": "Critical chance =50%, cast speed x2,50, grants Comrade's Oath 3 after using a Samurai ability, removed if the user hasn't Lingering Fire Finisher",
+        "commonName": "Friend's Promise 2",
+        "effects": "Critical chance =50%, cast speed x2,50, grants Friend's Promise 3 after using a Samurai ability, removed if the user hasn't Lingering Flame Finisher",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Comrade's Oath\" status",
+        "exclusiveStatus": "All other \"Friend's Promise\" status",
         "codedName": "FOR_MY_FRIEND_MODE_BUFF_AND_CHASE_2",
         "notes": "-"
     },
     {
         "id": "50171",
-        "commonName": "Comrade's Oath 3",
-        "effects": "Critical chance =75%, cast speed x3,00, grants Comrade's Oath 3 after using a Samurai ability, removed if the user hasn't Lingering Fire Finisher",
+        "commonName": "Friend's Promise 3",
+        "effects": "Critical chance =75%, cast speed x3,00, grants Friend's Promise 3 after using a Samurai ability, removed if the user hasn't Lingering Flame Finisher",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Comrade's Oath\" status",
+        "exclusiveStatus": "All other \"Friend's Promise\" status",
         "codedName": "FOR_MY_FRIEND_MODE_BUFF_AND_CHASE_3",
         "notes": "-"
     },
@@ -6614,7 +6648,7 @@
     {
         "id": "50174",
         "commonName": "EX: Legendary SOLDIER",
-        "effects": "Grants Dark +30% Boost 1 after using two Dark attacks, allows PHY Dark attacks to break the damage cap",
+        "effects": "Grants Dark +30% Boost 1 after using two Dark attacks, sets the damage cap for PHY Dark attacks to 99999",
         "defaultDuration": "25",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6633,8 +6667,8 @@
     },
     {
         "id": "50176",
-        "commonName": "Scythe of Slaughter Finisher",
-        "effects": "Casts Scythe of Slaughter when removed",
+        "commonName": "Culling Scythe Finisher",
+        "effects": "Casts Culling Scythe when removed",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6644,7 +6678,7 @@
     {
         "id": "50177",
         "commonName": "Malice Mode 0",
-        "effects": "Grants Malice Mode 1 after using a Darkness ability, removed if the user hasn't Scythe of Slaughter Finisher",
+        "effects": "Grants Malice Mode 1 after using a Darkness ability, removed if the user hasn't Culling Scythe Finisher",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Malice Mode\" status",
@@ -6654,7 +6688,7 @@
     {
         "id": "50178",
         "commonName": "Malice Mode 1",
-        "effects": "Critical chance =30%, cast speed x2,00, grants Malice Mode 2 after using a Darkness ability, removed if the user hasn't Scythe of Slaughter Finisher",
+        "effects": "Critical chance =30%, cast speed x2,00, grants Malice Mode 2 after using a Darkness ability, removed if the user hasn't Culling Scythe Finisher",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Malice Mode\" status",
@@ -6664,7 +6698,7 @@
     {
         "id": "50179",
         "commonName": "Malice Mode 2",
-        "effects": "Critical chance =50%, cast speed x2,50, grants Malice Mode 3 after using a Darkness ability, removed if the user hasn't Scythe of Slaughter Finisher",
+        "effects": "Critical chance =50%, cast speed x2,50, grants Malice Mode 3 after using a Darkness ability, removed if the user hasn't Culling Scythe Finisher",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Malice Mode\" status",
@@ -6674,7 +6708,7 @@
     {
         "id": "50180",
         "commonName": "Malice Mode 3",
-        "effects": "Critical chance =75%, cast speed x3,00, grants Malice Mode 3 after using a Darkness ability, removed if the user hasn't Scythe of Slaughter Finisher",
+        "effects": "Critical chance =75%, cast speed x3,00, grants Malice Mode 3 after using a Darkness ability, removed if the user hasn't Culling Scythe Finisher",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Malice Mode\" status",
@@ -6703,8 +6737,8 @@
     },
     {
         "id": "50183",
-        "commonName": "EX: Artificial Magus",
-        "effects": "MAG +30%, casts Magitek Release after using a Dark attack",
+        "commonName": "EX: Forged Magitek",
+        "effects": "MAG +30%, casts Magitek Blast after using a Dark attack",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6713,8 +6747,8 @@
     },
     {
         "id": "50184",
-        "commonName": "Magitek Release Counter",
-        "effects": "Keeps track of the uses of Magitek Release, removed if the user hasn't EX: Artificial Magus, reset upon refreshing EX: Artificial Magus",
+        "commonName": "Magitek Blast Counter",
+        "effects": "Keeps track of the uses of Magitek Blast, removed if the user hasn't EX: Forged Magitek, reset upon refreshing EX: Forged Magitek",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6733,7 +6767,7 @@
     },
     {
         "id": "50186",
-        "commonName": "EX: Wisdom of Light",
+        "commonName": "EX: Light's Wisdom",
         "effects": "MAG +30%, cast speed x2,00 for magical damage, casts Wind/Water/Fire/Earth Onion Magic after using a Wind/Water/Fire/Earth Black Magic ability",
         "defaultDuration": 15,
         "mndModifier": "-",
@@ -6747,8 +6781,8 @@
         "effects": "Samurai abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_SAMURAI_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_SAMURAI_MEDIUM",
         "notes": "-"
     },
     {
@@ -6757,8 +6791,8 @@
         "effects": "Black Magic abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_BLACK_MAGIC_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_BLACK_MAGIC_MEDIUM",
         "notes": "-"
     },
     {
@@ -6803,7 +6837,7 @@
     {
         "id": "50194",
         "commonName": "Deep Freeze Follow-Up",
-        "effects": "Casts Deep Freeze after using two Ice attacks",
+        "effects": "Casts Deep Freeze after using two Black Magic abilities",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6852,8 +6886,8 @@
     },
     {
         "id": "50199",
-        "commonName": "Decisive Kick Finisher",
-        "effects": "Casts Decisive Kick when removed",
+        "commonName": "Furious Kick Finisher",
+        "effects": "Casts Furious Kick when removed",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6863,7 +6897,7 @@
     {
         "id": "50200",
         "commonName": "Frying Pan 0",
-        "effects": "Grants Frying Pan 1 after using a Monk ability, removed if the user hasn't Decisive Kick Finisher",
+        "effects": "Grants Frying Pan 1 after using a Monk ability, removed if the user hasn't Furious Kick Finisher",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Frying Pan\" status",
@@ -6873,7 +6907,7 @@
     {
         "id": "50201",
         "commonName": "Frying Pan 1",
-        "effects": "Critical chance =30%, cast speed x2,00, grants Frying Pan 2 after using a Monk ability, removed if the user hasn't Decisive Kick Finisher",
+        "effects": "Critical chance =30%, cast speed x2,00, grants Frying Pan 2 after using a Monk ability, removed if the user hasn't Furious Kick Finisher",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Frying Pan\" status",
@@ -6883,7 +6917,7 @@
     {
         "id": "50202",
         "commonName": "Frying Pan 2",
-        "effects": "Critical chance =50%, cast speed x2,50, grants Frying Pan 3 after using a Monk ability, removed if the user hasn't Decisive Kick Finisher",
+        "effects": "Critical chance =50%, cast speed x2,50, grants Frying Pan 3 after using a Monk ability, removed if the user hasn't Furious Kick Finisher",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Frying Pan\" status",
@@ -6893,7 +6927,7 @@
     {
         "id": "50203",
         "commonName": "Frying Pan 3",
-        "effects": "Critical chance =75%, cast speed x3,00, grants Frying Pan 3 after using a Monk ability, removed if the user hasn't Decisive Kick Finisher",
+        "effects": "Critical chance =75%, cast speed x3,00, grants Frying Pan 3 after using a Monk ability, removed if the user hasn't Furious Kick Finisher",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Frying Pan\" status",
@@ -6972,18 +7006,17 @@
     },
     {
         "id": "50211",
-        "commonName": "Ultimate Doom of Atomos",
-        "effects": "Affects Atomos's behaviour after a 30 seconds timer",
+        "commonName": "Deprecated Doom of Atomos",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "KYO_SUCTION",
-        "notes": "Used for Atomos (V)"
+        "codedName": "SUCTION_DEPRECATED",
+        "notes": "Deprecated"
     },
     {
         "id": "50212",
-        "commonName": "Swift Steel Follow-Up",
-        "effects": "Casts Swift Steel after using a Thief ability",
+        "commonName": "Swift Poison Follow-Up",
+        "effects": "Casts Swift Poison after using a Thief ability",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -7126,8 +7159,8 @@
         "effects": "Support abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_SUPPORT_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_SUPPORT_MEDIUM",
         "notes": "-"
     },
     {
@@ -7136,8 +7169,8 @@
         "effects": "Celerity abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_CELERITY_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_CELERITY_MEDIUM",
         "notes": "-"
     },
     {
@@ -7146,8 +7179,8 @@
         "effects": "Dragoon abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_DRAGOON_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_DRAGOON_MEDIUM",
         "notes": "-"
     },
     {
@@ -7156,8 +7189,8 @@
         "effects": "Bard abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_BARD_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_BARD_MEDIUM",
         "notes": "-"
     },
     {
@@ -7166,8 +7199,8 @@
         "effects": "Dancer abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_DANCER_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_DANCER_MEDIUM",
         "notes": "-"
     },
     {
@@ -7176,8 +7209,8 @@
         "effects": "Sharpshooter abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_SHOOTER_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_SHOOTER_MEDIUM",
         "notes": "-"
     },
     {
@@ -7186,8 +7219,8 @@
         "effects": "Witch abilities deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Rank Boost\" status",
-        "codedName": "ABILITY_BOOST_FOR_WITCH_MAX_MIDDLE",
+        "exclusiveStatus": "-",
+        "codedName": "ABILITY_BOOST_FOR_WITCH_MEDIUM",
         "notes": "-"
     },
     {
@@ -7641,53 +7674,163 @@
         "notes": "-"
     },
     {
+        "id": "50293",
+        "commonName": "Oil Bullet Follow-Up",
+        "effects": "Casts Oil Bullet after using two Machinist abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_BETRAYAL_ELECCION",
+        "notes": "-"
+    },
+    {
+        "id": "50294",
+        "commonName": "Cure Step Follow-Up",
+        "effects": "Casts Cure Step after using a Dancer ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "HEAL_HP_ALL_IF_DANCER_CATEGORY",
+        "notes": "-"
+    },
+    {
         "id": "50295",
         "commonName": "Doom: 5",
-        "effects": "HP = 0 after a 5 seconds timer",
+        "effects": "Causes Doom with a 5 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_5",
+        "codedName": "SET_DOOM_5",
         "notes": "-"
     },
     {
         "id": "50296",
         "commonName": "Doom: 10",
-        "effects": "HP = 0 after a 10 seconds timer",
+        "effects": "Causes Doom with a 10 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_10",
+        "codedName": "SET_DOOM_10",
         "notes": "-"
     },
     {
         "id": "50297",
         "commonName": "Doom: 15",
-        "effects": "HP = 0 after a 15 seconds timer",
+        "effects": "Causes Doom with a 15 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_15",
+        "codedName": "SET_DOOM_15",
         "notes": "-"
     },
     {
         "id": "50298",
         "commonName": "Doom: 20",
-        "effects": "HP = 0 after a 20 seconds timer",
+        "effects": "Causes Doom with a 20 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_20",
+        "codedName": "SET_DOOM_20",
         "notes": "-"
     },
     {
         "id": "50299",
         "commonName": "Doom: 25",
-        "effects": "HP = 0 after a 25 seconds timer",
+        "effects": "Causes Doom with a 25 seconds timer",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DOOM_25",
+        "codedName": "SET_DOOM_25",
+        "notes": "-"
+    },
+    {
+        "id": "50300",
+        "commonName": "Double Junction",
+        "effects": "Spellblade abilities deal 30/35/40/45/50/55/60/65/70% more damage after using 0/1/2/3/4/5/6/7/8 Fire or Ice Spellblade abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "MODE_FOR_DOUBLE_JUNCTION",
+        "notes": "-"
+    },
+    {
+        "id": "50301",
+        "commonName": "Astral World",
+        "effects": "Grants Quick Cast 1 to all allies in the character's row after using a Ice attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_SA_ABILITY_FOR_ASTRAL_WORLD",
+        "notes": "-"
+    },
+    {
+        "id": "50302",
+        "commonName": "Curse",
+        "effects": "Arrests ATB charge rate, can't act",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "Retaliate",
+        "codedName": "HAUNTED",
+        "notes": "Used for Phantom Train (VI)"
+    },
+    {
+        "id": "50303",
+        "commonName": "Hero-King's Blade Follow-Up",
+        "effects": "Casts Hero-King's Blade after exploiting elemental weakness",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "SWORD_OF_HERO_KING",
+        "notes": "-"
+    },
+    {
+        "id": "50304",
+        "commonName": "Whirling Edge Follow-Up",
+        "effects": "Casts Whirling Edge after using a Celerity or Dancer ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_SENSUAL_DANCE",
+        "notes": "-"
+    },
+    {
+        "id": "50305",
+        "commonName": "Extreme Guard",
+        "effects": "Restores 1500 HP to all allies in the front row after using a Knight ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_SA_ABILITY_FOR_EXTREME_GUARD",
+        "notes": "-"
+    },
+    {
+        "id": "50306",
+        "commonName": "Ladle Mode",
+        "effects": "Cast speed x2,00, casts Ladle Assault after dealing a critical hit",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_BELOVED_SPOON",
+        "notes": "-"
+    },
+    {
+        "id": "50307",
+        "commonName": "Old Man's Hammer Follow-Up",
+        "effects": "Casts Old Man's Hammer after using a Lightning attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_SLEDGE_HAMMER",
+        "notes": "-"
+    },
+    {
+        "id": "50311",
+        "commonName": "Dire Meteor Mode",
+        "effects": "Dualcasts Black Magic abilities, casts Legendary Black Magic when removed",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DESPERATE_METEO_MODE",
         "notes": "-"
     },
     {
@@ -7698,6 +7841,546 @@
         "mndModifier": "-",
         "exclusiveStatus": "All other \"Lionheart\" status",
         "codedName": "LION_HEART_GRADE_0",
+        "notes": "-"
+    },
+    {
+        "id": "50313",
+        "commonName": "Windfang Follow-Up",
+        "effects": "Casts Windfang after using a Dragoon ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_RAGNAROK_INDICATION",
+        "notes": "-"
+    },
+    {
+        "id": "50314",
+        "commonName": "Windfang Counter",
+        "effects": "Keeps track of the uses of Windfang, removed if the user hasn't Windfang Follow-Up, reset upon refreshing Windfang Follow-Up",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_FOR_CHASE_MODE_RAGNAROK_INDICATION",
+        "notes": "-"
+    },
+    {
+        "id": "50315",
+        "commonName": "No Air Time",
+        "effects": "Changes the air time of Jump attacks to 0,01 seconds",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ZERO_FLIGHT_AND_DURATION_TIME_15000_MSEC",
+        "notes": "-"
+    },
+    {
+        "id": "50316",
+        "commonName": "Ressac Follow-Up",
+        "effects": "Casts Ressac after using a Water attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_GROSSE_VAGUE",
+        "notes": "-"
+    },
+    {
+        "id": "50317",
+        "commonName": "Brutal Wave 0",
+        "effects": "Grants Brutal Wave 1 after using a Water attack, removed if the user hasn't Ressac Follow-Up",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Brutal Wave\" status",
+        "codedName": "GROSSE_VAGUE_GRADE_0",
+        "notes": "-"
+    },
+    {
+        "id": "50318",
+        "commonName": "Brutal Wave 1",
+        "effects": "Cast speed x2,00, grants Brutal Wave 2 after using a Water attack, removed if the user hasn't Ressac Follow-Up",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Brutal Wave\" status",
+        "codedName": "GROSSE_VAGUE_GRADE_1",
+        "notes": "-"
+    },
+    {
+        "id": "50319",
+        "commonName": "Brutal Wave 2",
+        "effects": "Cast speed x2,50, grants Brutal Wave 3 after using a Water attack, removed if the user hasn't Ressac Follow-Up",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Brutal Wave\" status",
+        "codedName": "GROSSE_VAGUE_GRADE_2",
+        "notes": "-"
+    },
+    {
+        "id": "50320",
+        "commonName": "Brutal Wave 3",
+        "effects": "Cast speed x3,00, grants Brutal Wave 3 after using a Water attack, removed if the user hasn't Ressac Follow-Up",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Brutal Wave\" status",
+        "codedName": "GROSSE_VAGUE_GRADE_3",
+        "notes": "-"
+    },
+    {
+        "id": "50321",
+        "commonName": "EX: Essence of Wind",
+        "effects": "Grants Physical High Quick Cast 1 to all allies in the front row and casts Inherited Swordplay 1/2/3 after using 1/2/3 +3n Wind attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_WIND_HEART",
+        "notes": "-"
+    },
+    {
+        "id": "50323",
+        "commonName": "Elemental Boost",
+        "effects": "Increases Fire, Ice, Lightning, Earth, Wind, Water, Holy, Dark and Poison damage dealt by 25%",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ARRANGER_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50324",
+        "commonName": "Inherited Essence Follow-Up",
+        "effects": "Casts Inherited Essence after using a Earth attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_LEADED_HEART",
+        "notes": "-"
+    },
+    {
+        "id": "50325",
+        "commonName": "Doom Timer -1",
+        "effects": "Reduces the character's Doom timer by 1 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_1",
+        "notes": "-"
+    },
+    {
+        "id": "50326",
+        "commonName": "Demon's Cross Counter",
+        "effects": "Keeps track of the uses of Demon's Cross",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_FOR_DEMONS_CROSS",
+        "notes": "-"
+    },
+    {
+        "id": "50327",
+        "commonName": "Arcane Blade",
+        "effects": "Grants Physical High Quick Cast 1 to all allies in the front row after using a Ice attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_MYSTERIOUS_VICTORY_SWORD",
+        "notes": "-"
+    },
+    {
+        "id": "50328",
+        "commonName": "Dark Assassination Follow-Up",
+        "effects": "Casts Dark Assassination after using a Dark attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_ASSASSINATION_TECHNIQUE_OF_DARKNESS",
+        "notes": "-"
+    },
+    {
+        "id": "50329",
+        "commonName": "Darkness Blow Follow-Up",
+        "effects": "Casts Darkness Blow after using a Dark attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_DARKNESS_BLOW",
+        "notes": "-"
+    },
+    {
+        "id": "50330",
+        "commonName": "Aero Star Follow-Up",
+        "effects": "Casts Aero Star after using a Wind attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_TRICKSTER",
+        "notes": "-"
+    },
+    {
+        "id": "50331",
+        "commonName": "Elbow Follow-Up",
+        "effects": "Casts Elbow after using a Earth or Holy attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_HOLY_ROCK_REND",
+        "notes": "-"
+    },
+    {
+        "id": "50335",
+        "commonName": "Mog Follow-Up",
+        "effects": "Casts Mog Magic after using a Black Magic or Summoning ability, casts Mog Heal after using a White Magic ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_TETRADISASTER",
+        "notes": "-"
+    },
+    {
+        "id": "50336",
+        "commonName": "Biggs Trance",
+        "effects": "ATK +50%, cast speed x2,00",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "BIGGS_HAIRSBREATH_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50337",
+        "commonName": "Saintrock Cleft Counter",
+        "effects": "Keeps track of the uses of Saintrock Cleft",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_FOR_HOLY_ROCK_REND",
+        "notes": "-"
+    },
+    {
+        "id": "50338",
+        "commonName": "Summon's Cure Follow-Up",
+        "effects": "Casts Summon's Cure after using a Summoning attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "HEAL_HP_ALL_IF_SUMMONING_CATEGORY",
+        "notes": "-"
+    },
+    {
+        "id": "50339",
+        "commonName": "Chaos Impact Follow-Up",
+        "effects": "Casts Chaos Impact after using a Heavy ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_CHAOS_GENOCIDE",
+        "notes": "-"
+    },
+    {
+        "id": "50340",
+        "commonName": "Shadow Dragon Mode",
+        "effects": "Dualcasts Darkness abilities, removed if the user doesn't have any Stoneskin, casts Black Spell when removed",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_OF_BLACK_DRAGON",
+        "notes": "-"
+    },
+    {
+        "id": "50341",
+        "commonName": "Ace Shot Follow-Up",
+        "effects": "Casts Ace Shot after using three Sharpshooter abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_DREAM_REVIVE",
+        "notes": "-"
+    },
+    {
+        "id": "50342",
+        "commonName": "Spear of Storms Follow-Up",
+        "effects": "Casts Spear of Storms after using three Dragoon abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_RANCE_OF_DRAGON",
+        "notes": "-"
+    },
+    {
+        "id": "50343",
+        "commonName": "Master Barrage Follow-Up",
+        "effects": "Casts Master Barrage after using two Fire, Water, Wind or Earth abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_MASTER_SPELLBLADE_FOURTH_LIGHT",
+        "notes": "-"
+    },
+    {
+        "id": "50344",
+        "commonName": "Awaken Sharpshooter",
+        "effects": "Sharpshooter abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Sharpshooter abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_SHOOTER",
+        "notes": "-"
+    },
+    {
+        "id": "50345",
+        "commonName": "Awaken Dragoon",
+        "effects": "Dragoon abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, cast speed x9999999 for Jump attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_DRAGOON",
+        "notes": "-"
+    },
+    {
+        "id": "50346",
+        "commonName": "Awaken Fire",
+        "effects": "Fire abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Fire abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_FIRE",
+        "notes": "-"
+    },
+    {
+        "id": "50347",
+        "commonName": "Awaken Spellblade",
+        "effects": "Spellblade abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Spellblade abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_SPELLBLADE",
+        "notes": "-"
+    },
+    {
+        "id": "50348",
+        "commonName": "Awaken Thief",
+        "effects": "Thief abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Thief abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_THIEF",
+        "notes": "-"
+    },
+    {
+        "id": "50349",
+        "commonName": "Damage Cap 19999",
+        "effects": "Sets the damage cap to 19999",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ADD_DAMAGE_THRESHOLD_LV_1",
+        "notes": "-"
+    },
+    {
+        "id": "50350",
+        "commonName": "Damage Cap 29999",
+        "effects": "Sets the damage cap to 29999",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ADD_DAMAGE_THRESHOLD_LV_2",
+        "notes": "-"
+    },
+    {
+        "id": "50351",
+        "commonName": "Thief Gauge +25% Booster",
+        "effects": "Thief abilities grant 25% more SB points",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ADD_ATK_SS_POINT_FACTOR_FOR_THIEF_MEDIUM",
+        "notes": "-"
+    },
+    {
+        "id": "50352",
+        "commonName": "Winged Roar",
+        "effects": "Grants Dragoon +30% Boost 1 and No Air Time 1 to all allies in the character's row after using a Dragoon ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "INFLICT_SA_ABILITY_FOR_DRAGON_ROAR",
+        "notes": "-"
+    },
+    {
+        "id": "50353",
+        "commonName": "Awaken Darkness",
+        "effects": "Darkness abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Darkness abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_DARKNESS",
+        "notes": "-"
+    },
+    {
+        "id": "50354",
+        "commonName": "Soul Break Gauge +500",
+        "effects": "Grants 500 SB points when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ADD_SS_POINT_WHEN_SET_GAUGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "50355",
+        "commonName": "Thief or Sharpshooter Double",
+        "effects": "Dualcasts Thief or Sharpshooter abilities consuming an extra ability use",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DUAL_CAST_FOR_THIEF_OR_SHOOTER",
+        "notes": "-"
+    },
+    {
+        "id": "50356",
+        "commonName": "Doom Timer -2",
+        "effects": "Reduces the character's Doom timer by 2 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_2",
+        "notes": "-"
+    },
+    {
+        "id": "50357",
+        "commonName": "Doom Timer -4",
+        "effects": "Reduces the character's Doom timer by 4 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_4",
+        "notes": "-"
+    },
+    {
+        "id": "50358",
+        "commonName": "Doom Timer -5",
+        "effects": "Reduces the character's Doom timer by 5 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_5",
+        "notes": "-"
+    },
+    {
+        "id": "50359",
+        "commonName": "Doom Timer -10",
+        "effects": "Reduces the character's Doom timer by 10 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_10",
+        "notes": "-"
+    },
+    {
+        "id": "50360",
+        "commonName": "Doom Timer -20",
+        "effects": "Reduces the character's Doom timer by 20 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_20",
+        "notes": "-"
+    },
+    {
+        "id": "50361",
+        "commonName": "Doom Timer -30",
+        "effects": "Reduces the character's Doom timer by 30 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_30",
+        "notes": "-"
+    },
+    {
+        "id": "50362",
+        "commonName": "Doom Timer -40",
+        "effects": "Reduces the character's Doom timer by 40 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_40",
+        "notes": "-"
+    },
+    {
+        "id": "50363",
+        "commonName": "Doom Timer -50",
+        "effects": "Reduces the character's Doom timer by 50 when set",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_DOOM_COUNT_MINUS_50",
+        "notes": "-"
+    },
+    {
+        "id": "50364",
+        "commonName": "Doom: 150",
+        "effects": "Causes Doom with a 150 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "SET_DOOM_150",
+        "notes": "-"
+    },
+    {
+        "id": "50365",
+        "commonName": "Doom: 180",
+        "effects": "Causes Doom with a 180 seconds timer",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "SET_DOOM_180",
+        "notes": "-"
+    },
+    {
+        "id": "50366",
+        "commonName": "Beast and Father",
+        "effects": "Grants Quick Cast 1 to all allies in the character's row and casts Beast Stream after using a Dark attack",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_GAP_BETWEEN_BEAST_AND_FATHER",
+        "notes": "-"
+    },
+    {
+        "id": "50368",
+        "commonName": "No Air Time 1",
+        "effects": "Changes the air time of Jump attacks to 0,01 seconds, lasts for 1 turn",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ZERO_FLIGHT_BY_TURN_1",
+        "notes": "-"
+    },
+    {
+        "id": "50369",
+        "commonName": "Darkness Card Follow-Up",
+        "effects": "Casts Darkness Card 1/2/3/4 after using 1/2/3/4 + 4n damaging Support abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_DARKNESS_CARD",
+        "notes": "-"
+    },
+    {
+        "id": "50370",
+        "commonName": "Sketch Mode",
+        "effects": "Casts Sketch Bonds 1/1/2/3 every 3,50 seconds if there are 0/1/2/3+ VI characters in the party",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "RELM_AUTO_WHITE",
+        "notes": "-"
+    },
+    {
+        "id": "50379",
+        "commonName": "Doom",
+        "effects": "Causes KO when the Doom timer reaches 0",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DOOM",
         "notes": "-"
     },
     {
@@ -7777,7 +8460,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "CUSTOM_DEF_MDEF",
+        "codedName": "CUSTOM_DEF_MDEF_FOR_IRON_WALL",
         "notes": "-"
     },
     {
@@ -7787,7 +8470,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "CUSTOM_ATK_MATK_DEF_MDEF",
+        "codedName": "CUSTOM_ATK_DEF_MATK_MDEF",
         "notes": "-"
     },
     {
@@ -7817,7 +8500,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "CUSTOM_ATK_MATK_DEF_MDEF_SPD_ACC_MND",
+        "codedName": "CUSTOM_ATK_DEF_MATK_MDEF_MND_ACC_SPD",
         "notes": "-"
     },
     {
@@ -7887,7 +8570,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "CUSTOM_DEF_MDEF_NOT_IRON_WALL",
+        "codedName": "CUSTOM_DEF_MDEF",
         "notes": "-"
     },
     {
@@ -8027,7 +8710,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "CUSTOM_ATK_MATK_DEF",
+        "codedName": "CUSTOM_ATK_DEF_MATK",
         "notes": "-"
     },
     {
@@ -8127,7 +8810,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "CUSTOM_MATK_DEF_MDEF",
+        "codedName": "CUSTOM_DEF_MATK_MDEF",
         "notes": "-"
     },
     {
@@ -8148,6 +8831,86 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CUSTOM_ATK_MATK_DEF_MDEF_FOR_COVERING_FIRE",
+        "notes": "-"
+    },
+    {
+        "id": "646",
+        "commonName": "DEF, RES and MND +X%",
+        "effects": "DEF, RES and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_DEF_MDEF_MND",
+        "notes": "-"
+    },
+    {
+        "id": "647",
+        "commonName": "DEF and MND +X%",
+        "effects": "DEF and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_DEF_MND",
+        "notes": "-"
+    },
+    {
+        "id": "648",
+        "commonName": "ATK, RES and MND +X%",
+        "effects": "ATK, RES and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_MDEF_MND",
+        "notes": "-"
+    },
+    {
+        "id": "649",
+        "commonName": "DEF, MAG and MND +X%",
+        "effects": "DEF, MAG and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_DEF_MATK_MND",
+        "notes": "-"
+    },
+    {
+        "id": "650",
+        "commonName": "ATK, DEF, MAG and MND +X%",
+        "effects": "ATK, DEF, MAG and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_DEF_MATK_MND",
+        "notes": "-"
+    },
+    {
+        "id": "651",
+        "commonName": "ATK, DEF, RES and MND +X%",
+        "effects": "ATK, DEF, RES and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_DEF_MDEF_MND",
+        "notes": "-"
+    },
+    {
+        "id": "652",
+        "commonName": "ATK, MAG, RES and MND +X%",
+        "effects": "ATK, MAG, RES and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_ATK_MATK_MDEF_MND",
+        "notes": "-"
+    },
+    {
+        "id": "653",
+        "commonName": "DEF, MAG, RES and MND +X%",
+        "effects": "DEF, MAG, RES and MND +X%",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_DEF_MATK_MDEF_MND",
         "notes": "-"
     },
     {
@@ -8377,7 +9140,7 @@
     },
     {
         "id": "6024",
-        "commonName": "Iai Strike",
+        "commonName": "Iai Bargain",
         "effects": "MND +30%, DEF and RES -30%",
         "defaultDuration": 25,
         "mndModifier": "-",
@@ -8402,7 +9165,7 @@
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "Warrior Mode 2, Warrior Mode 3",
-        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_50_15000_FOR_STUDY_ARTS",
+        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_50_15000_FOR_VALKYRIE_MODE",
         "notes": "-"
     },
     {
@@ -8412,7 +9175,7 @@
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "Warrior Mode 1, Warrior Mode 3",
-        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_75_15000_FOR_STUDY_ARTS",
+        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_75_15000_FOR_VALKYRIE_MODE",
         "notes": "-"
     },
     {
@@ -8422,7 +9185,7 @@
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "Warrior Mode 1, Warrior Mode 2",
-        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_100_15000_FOR_STUDY_ARTS",
+        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_100_15000_FOR_VALKYRIE_MODE",
         "notes": "-"
     },
     {
@@ -8433,6 +9196,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_75_25000",
+        "notes": "-"
+    },
+    {
+        "id": "6034",
+        "commonName": "100% Critical 1",
+        "effects": "Critical chance =100%, lasts for 1 turn",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_100_1",
         "notes": "-"
     },
     {
@@ -8501,7 +9274,7 @@
         "effects": "Replaces Attack command, increases Fire damage dealt by 50/80/120%  (abilities) or 80/100/120% (Soul Breaks), Fire resistance +20%",
         "defaultDuration": 25,
         "mndModifier": "-",
-        "exclusiveStatus": "Frozen",
+        "exclusiveStatus": "-",
         "codedName": "ATTACH_ELEMENT_FIRE",
         "notes": "-"
     },
@@ -8756,12 +9529,102 @@
         "notes": "-"
     },
     {
+        "id": "846",
+        "commonName": "Medium Imperil Lightning",
+        "effects": "Lightning Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_LIGHTNING_DISADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "847",
+        "commonName": "Medium Imperil Holy",
+        "effects": "Holy Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_HOLY_DISADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "848",
+        "commonName": "Medium Imperil Dark",
+        "effects": "Dark Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_DARK_DISADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "849",
+        "commonName": "Medium Imperil Fire",
+        "effects": "Fire Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_FIRE_DISADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "850",
+        "commonName": "Medium Imperil Wind",
+        "effects": "Wind Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_WIND_DISADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "851",
+        "commonName": "Medium Imperil Water",
+        "effects": "Water Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_WATER_DISADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "852",
+        "commonName": "Medium Imperil Ice",
+        "effects": "Ice Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_ICE_DISADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "853",
+        "commonName": "Medium Imperil Earth",
+        "effects": "Earth Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_EARTH_DISADVANTAGE_2",
+        "notes": "-"
+    },
+    {
+        "id": "854",
+        "commonName": "Medium Imperil Poison",
+        "effects": "Poison Resistance -20%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_POISON_DISADVANTAGE_2",
+        "notes": "-"
+    },
+    {
         "id": "8001",
         "commonName": "Minor Buff Fire",
         "effects": "Increases Fire damage dealt by 10%, cumulable",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "Frozen",
+        "exclusiveStatus": "-",
         "codedName": "CHANGE_ELEMENT_ATK_FIRE_10",
         "notes": "-"
     },
@@ -9121,9 +9984,99 @@
         "effects": "Increases Fire damage dealt by 20%, cumulable",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "Frozen, all other \"Buff Fire\" and  \"Debuff Fire\" status",
+        "exclusiveStatus": "All other \"Buff Fire\" and  \"Debuff Fire\" status",
         "codedName": "SET_EXCLUSIVE_ELEMENT_ATK_FIRE_20",
         "notes": "Not used"
+    },
+    {
+        "id": "8052",
+        "commonName": "Major Buff Fire",
+        "effects": "Increases Fire damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_FIRE_30",
+        "notes": "-"
+    },
+    {
+        "id": "8053",
+        "commonName": "Major Buff Ice",
+        "effects": "Increases Ice damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_ICE_30",
+        "notes": "-"
+    },
+    {
+        "id": "8054",
+        "commonName": "Major Buff Lightning",
+        "effects": "Increases Lightning damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_LIGHTNING_30",
+        "notes": "-"
+    },
+    {
+        "id": "8055",
+        "commonName": "Major Buff Earth",
+        "effects": "Increases Earth damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_EARTH_30",
+        "notes": "-"
+    },
+    {
+        "id": "8056",
+        "commonName": "Major Buff Wind",
+        "effects": "Increases Wind damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_WIND_30",
+        "notes": "-"
+    },
+    {
+        "id": "8057",
+        "commonName": "Major Buff Water",
+        "effects": "Increases Water damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_WATER_30",
+        "notes": "-"
+    },
+    {
+        "id": "8058",
+        "commonName": "Major Buff Holy",
+        "effects": "Increases Holy damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_HOLY_30",
+        "notes": "-"
+    },
+    {
+        "id": "8059",
+        "commonName": "Major Buff Dark",
+        "effects": "Increases Dark damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_DARK_30",
+        "notes": "-"
+    },
+    {
+        "id": "8060",
+        "commonName": "Major Buff Poison",
+        "effects": "Increases Poison damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_POISON_30",
+        "notes": "-"
     },
     {
         "id": "8411001",
@@ -9398,7 +10351,6 @@
     {
         "id": "901",
         "commonName": "Ignore Control Loss",
-        "effects": "Allows to act normally even with status that force specific actions",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -9412,7 +10364,7 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DO_NOTHING_FOR_ESNA",
-        "notes": "???"
+        "notes": "-"
     },
     {
         "id": "903",
@@ -9421,7 +10373,7 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DO_NOTHING_FOR_DISPEL",
-        "notes": "???"
+        "notes": "-"
     },
     {
         "id": "904",
@@ -9430,7 +10382,7 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DO_NOTHING_FOR_SERIES_COMBO",
-        "notes": "???"
+        "notes": "-"
     },
     {
         "id": "905",
@@ -9439,7 +10391,7 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DO_NOTHING_FOR_AI",
-        "notes": "???"
+        "notes": "-"
     },
     {
         "id": "906",
@@ -9448,7 +10400,7 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DO_NOTHING_FOR_AI_2",
-        "notes": "???"
+        "notes": "-"
     },
     {
         "id": "907",
@@ -9457,7 +10409,16 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DISABLE_TARGET",
-        "notes": "???"
+        "notes": "-"
+    },
+    {
+        "id": "908",
+        "commonName": "Hidden HP Gauge",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "HIDDEN_HP_GAUGE",
+        "notes": "-"
     },
     {
         "id": "999",
