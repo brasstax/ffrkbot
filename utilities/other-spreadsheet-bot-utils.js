@@ -69,10 +69,6 @@ function sendRichEmbedOther(result, msg) {
     let description = (entry.effects !== undefined) ?
       (entry.effects) : (botUtils.returnDefaultDuration(entry));
     let name = entry.name;
-    let sb = (entry.sb !== undefined) ?
-      (entry.sb) : (0);
-    let time = (entry.time !== undefined) ?
-      (entry.time) : ('N/A');
     let multiplier = (entry.multiplier !== undefined) ?
       (botUtils.returnMultiplier(entry)) : ('N/A');
     let source = entry.source;
