@@ -703,6 +703,57 @@
     },
     {
         "sourceType": "Follow-Up Status",
+        "source": "Delta Magic Follow-Up",
+        "name": "Delta Magic 1",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 5.2,
+        "element": "Dark, Holy, NE",
+        "time": 0.01,
+        "effects": "Four single attacks (1,30 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Darkness",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Delta Magic Follow-Up",
+        "name": "Delta Magic 2",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 7.8,
+        "element": "Dark, Holy, NE",
+        "time": 0.01,
+        "effects": "Six single attacks (1,30 each), heals the user for 10% of the damage dealt",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Darkness",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "Delta Magic Follow-Up",
+        "name": "Delta Magic 3",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 20.2,
+        "element": "Dark, Holy, NE",
+        "time": 0.01,
+        "effects": "One single attack (20,20) capped at 99999, heals the user for 10% of the damage dealt",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Darkness",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
         "source": "Dance of the Flame Follow-Up",
         "name": "Dance of the Flame",
         "type": "BLK",
@@ -1707,7 +1758,7 @@
     {
         "sourceType": "Follow-Up Status",
         "source": "EX: Future King",
-        "name": "Shift Strike",
+        "name": "Warp Strike",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -1719,6 +1770,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1787,6 +1839,23 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Spellblade",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Follow-Up Status",
+        "source": "EX: Fated Princess",
+        "name": "Divine Holy",
+        "type": "WHT",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 9,
+        "element": "Holy, NE",
+        "time": 0.01,
+        "effects": "Six single attacks (1,50 each)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "White Magic",
         "✓": "✓"
     },
     {
@@ -2019,12 +2088,13 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Black Magic",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "sourceType": "Follow-Up Status",
-        "source": "Stack Mode",
-        "name": "Heat Burst",
+        "source": "Surge Mode",
+        "name": "Pyroburst",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -2036,6 +2106,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Combat",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2181,6 +2252,23 @@
     },
     {
         "sourceType": "Finisher Status",
+        "source": "Saint Boomerang Finisher",
+        "name": "Saint Boomerang",
+        "type": "SUM",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 34.6,
+        "element": "Holy, NE",
+        "time": 0.01,
+        "effects": "One single attack (11,80/20,50/34,60) capped at 99999 if the user used 3/6 Holy attacks during the status, smart ether 0/1/2 to user",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 0,
+        "school": "Summoning",
+        "✓": "✓"
+    },
+    {
+        "sourceType": "Finisher Status",
         "source": "EX: Dreadwyrm Trance",
         "name": "Deathflare",
         "type": "SUM",
@@ -2221,6 +2309,7 @@
         "autoTarget": "Lowest HP% enemy",
         "sb": 0,
         "school": "Heavy",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4579,7 +4668,7 @@
         "multiplier": 0.9,
         "element": "-",
         "time": 1.65,
-        "effects": "One group attack (convergent 0,90)",
+        "effects": "One group attack (0,40~0,90 scaling with targets)",
         "counter": "Y",
         "autoTarget": "All enemies",
         "sb": 50,

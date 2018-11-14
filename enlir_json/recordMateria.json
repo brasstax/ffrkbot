@@ -7218,7 +7218,7 @@
         "realm": "FFT",
         "character": "Orlandeau",
         "name": "God Among Men",
-        "effect": "Attack turns into an ability (PHY: group, convergent 0,90 physical)",
+        "effect": "Attack turns into an ability (PHY: group, 0,40~0,90 physical scaling with targets)",
         "unlockCriteria": "Use Orlandeau's Memory Crystal II, chance to obtain with Orlandeau in party",
         "name(jp)": "一世之雄",
         "id": "111500061",

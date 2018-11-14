@@ -4074,6 +4074,46 @@
         "notes": "-"
     },
     {
+        "id": "2221",
+        "commonName": "Beyond Vengeance Mode 1",
+        "effects": "Cast speed x2,00 for magical damage, grants Beyond Vengeance Mode 2 after using a Holy attack, removed if the user hasn't Saint Boomerang Finisher",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Beyond Vengeance Mode\" status",
+        "codedName": "CHANGE_CAST_TIME_200_15000_MSEC_ALL_FOR_BEYOND_HOPE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "2222",
+        "commonName": "Beyond Vengeance Mode 2",
+        "effects": "Cast speed x2,50 for magical damage, grants Beyond Vengeance Mode 3 after using a Holy attack, removed if the user hasn't Saint Boomerang Finisher",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Beyond Vengeance Mode\" status",
+        "codedName": "CHANGE_CAST_TIME_250_15000_MSEC_ALL_FOR_BEYOND_HOPE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "2223",
+        "commonName": "Beyond Vengeance Mode 3",
+        "effects": "Cast speed x3,00 for magical damage, grants Beyond Vengeance Mode 3 after using a Holy attack, removed if the user hasn't Saint Boomerang Finisher",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Beyond Vengeance Mode\" status",
+        "codedName": "CHANGE_CAST_TIME_300_15000_MSEC_ALL_FOR_BEYOND_HOPE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "2226",
+        "commonName": "Beyond Vengeance Mode 0",
+        "effects": "Grants Beyond Vengeance Mode 1 after using a Holy attack, removed if the user hasn't Saint Boomerang Finisher",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Beyond Vengeance Mode\" status",
+        "codedName": "CHANGE_CAST_TIME_100_15000_MSEC_ALL_FOR_BEYOND_HOPE_MODE",
+        "notes": "-"
+    },
+    {
         "id": "501",
         "commonName": "MAG Boost",
         "effects": "MAG +25%",
@@ -6867,7 +6907,7 @@
     {
         "id": "50197",
         "commonName": "EX: Future King",
-        "effects": "ATK +30%, cast speed x2,00, casts Shift Strike after using a Combat or Celerity ability",
+        "effects": "ATK +30%, cast speed x2,00, casts Warp Strike after using a Combat or Celerity ability",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -8374,6 +8414,36 @@
         "notes": "-"
     },
     {
+        "id": "50371",
+        "commonName": "EX: Fated Princess",
+        "effects": "MND +30%, casts Divine Holy after using a White Magic ability",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_FOR_PRINCESS_OF_DESTINY",
+        "notes": "-"
+    },
+    {
+        "id": "50372",
+        "commonName": "Gaffgarion's Dark Drain",
+        "effects": "Restores HP for 10% of the damage dealt with Dark attacks",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ABSORB_HP_FOR_EVIL_DEAD",
+        "notes": "-"
+    },
+    {
+        "id": "50373",
+        "commonName": "Awaken Thunder God",
+        "effects": "Knight or Darkness abilities don't consume uses and deal +5/10/15/20/30% damage at ability rank 1/2/3/4/5, dualcasts Knight or Darkness abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_THUNDER_GOD",
+        "notes": "-"
+    },
+    {
         "id": "50374",
         "commonName": "Awaken Holy",
         "effects": "Holy abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Holy abilities",
@@ -8431,6 +8501,36 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DOOM",
+        "notes": "-"
+    },
+    {
+        "id": "50380",
+        "commonName": "Delta Magic Follow-Up",
+        "effects": "Casts Delta Magic 1/2/3 after using a White Magic or Darkness ability scaling with uses",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_DELTA_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "50381",
+        "commonName": "Delta Magic Counter",
+        "effects": "Keeps track of the uses of Delta Magic, removed if the user hasn't Delta Magic Follow-Up, reset upon refreshing Delta Magic Follow-Up",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_DELTA_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "50382",
+        "commonName": "Saint Boomerang Finisher",
+        "effects": "Casts Saint Boomerang when removed",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "BEYOND_HOPE_MODE",
         "notes": "-"
     },
     {

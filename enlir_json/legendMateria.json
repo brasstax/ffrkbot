@@ -133,19 +133,21 @@
         "realm": "Core",
         "character": "Dr. Mog",
         "name": "Master's Preparation",
-        "effect": "Reduces damage taken by BLK attacks by ?%",
+        "effect": "Reduces damage taken by BLK attacks by 10%",
         "relic": "-",
         "name(jp)": "元祖魔攻への備え",
-        "id": "201004500"
+        "id": "201004500",
+        "✓": "✓"
     },
     {
         "realm": "Core",
         "character": "Dr. Mog",
         "name": "Authority of Black Magic",
-        "effect": "?% chance to dualcast Black Magic or Summoning abilities",
+        "effect": "35% chance to dualcast Black Magic or Summoning abilities",
         "relic": "-",
         "name(jp)": "黒魔法の権威",
-        "id": "201004501"
+        "id": "201004501",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -2192,6 +2194,17 @@
     },
     {
         "realm": "V",
+        "character": "Gilgamesh",
+        "name": "Fervid Swordsman",
+        "effect": "Grants Attach Fire at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Assassin Dagger (V)",
+        "name(jp)": "有情なる剣豪",
+        "id": "201050704",
+        "✓": "✓"
+    },
+    {
+        "realm": "V",
         "character": "Bartz",
         "name": "Tempered Spellblade",
         "effect": "Spellblade abilities deal 15% more damage",
@@ -2483,6 +2496,17 @@
         "relic": "Triton Dagger (V)",
         "name(jp)": "衰えぬ正義の心",
         "id": "201051703"
+    },
+    {
+        "realm": "V",
+        "character": "Kelger",
+        "name": "Fighting Illness",
+        "effect": "25% chance to dualcast Ninja abilities",
+        "master": "ATK +10",
+        "relic": "Ashura (V)",
+        "name(jp)": "病に負けぬ志",
+        "id": "201051704",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -4815,7 +4839,7 @@
         "character": "Yuna",
         "name": "Immovable Devotion",
         "effect": "Grants Attach Holy at the beginning of the battle",
-        "master": "MAG +10",
+        "master": "MND +10",
         "relic": "Magic Gun (X)",
         "name(jp)": "変わらぬ献身",
         "id": "201100204",
@@ -6159,6 +6183,17 @@
     },
     {
         "realm": "XIII",
+        "character": "Fang",
+        "name": "Oath of Protection",
+        "effect": "Grants Haste and Instant Cast 1 at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Rune Bracelet (XIII)",
+        "name(jp)": "仲間を守る誓い",
+        "id": "201130604",
+        "✓": "✓"
+    },
+    {
+        "realm": "XIII",
         "character": "Serah",
         "name": "Undaunted Hope",
         "effect": "Increases Ice damage dealt by 10%",
@@ -6325,6 +6360,17 @@
         "name(jp)": "悪意の発露",
         "id": "201131202",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "XIII",
+        "character": "Nabaat",
+        "name": "Commander's Talent",
+        "effect": "35% chance to grant Quick Cast 1 to the user after using a Dark attack",
+        "master": "MAG +10",
+        "relic": "Goggle Mask (XIII)",
+        "name(jp)": "士官学校首席の才腕",
+        "id": "201131203",
         "✓": "✓"
     },
     {
@@ -6766,6 +6812,7 @@
         "relic": "Gladiolus's Guise (XV)",
         "name(jp)": "英霊が認めし戦士",
         "id": "201150204",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6986,6 +7033,16 @@
     },
     {
         "realm": "FFT",
+        "character": "Agrias",
+        "name": "Princess's Guardian",
+        "effect": "Grants Attach Holy at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Carabineer Mail (FFT)",
+        "name(jp)": "王女の守護者",
+        "id": "201500203"
+    },
+    {
+        "realm": "FFT",
         "character": "Delita",
         "name": "Unshakeable Resolve",
         "effect": "Spellblade abilities deal 15% more damage",
@@ -7065,6 +7122,17 @@
     },
     {
         "realm": "FFT",
+        "character": "Ovelia",
+        "name": "Mutable Fate",
+        "effect": "MND +1% for each hit dealt with White Magic abilities, up to +25%",
+        "master": "MND +10",
+        "relic": "Pure Staff (FFT)",
+        "name(jp)": "変遷する運命",
+        "id": "201500412",
+        "✓": "✓"
+    },
+    {
+        "realm": "FFT",
         "character": "Mustadio",
         "name": "Mechanical Expertise",
         "effect": "Machinist abilities deal 15% more damage",
@@ -7133,6 +7201,17 @@
     },
     {
         "realm": "FFT",
+        "character": "Orlandeau",
+        "name": "General of the Southern Sky",
+        "effect": "PHY attacks deal 20% more damage when equipping a sword",
+        "master": "ATK +10",
+        "relic": "Moonblade (FFT)",
+        "name(jp)": "南天騎士団の長",
+        "id": "201500603",
+        "✓": "✓"
+    },
+    {
+        "realm": "FFT",
         "character": "Gaffgarion",
         "name": "Dark Expertise",
         "effect": "Increases Dark damage dealt by 10%",
@@ -7163,6 +7242,17 @@
         "name(jp)": "ダークナイトの妙技",
         "id": "201500702",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "FFT",
+        "character": "Gaffgarion",
+        "name": "Dark Knight's Nature",
+        "effect": "Grants Attach Dark at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Slasher (FFT)",
+        "name(jp)": "ダークナイトの本懐",
+        "id": "201500703",
         "✓": "✓"
     },
     {
@@ -7812,7 +7902,8 @@
         "master": "ATK +10",
         "relic": "Diamond Gloves (Type-0)",
         "name(jp)": "二の太刀いらずの剣士",
-        "id": "201601102"
+        "id": "201601102",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
@@ -7840,7 +7931,8 @@
         "master": "ATK +10",
         "relic": "Silver Knuckles (Type-0)",
         "name(jp)": "優れた見識",
-        "id": "201601202"
+        "id": "201601202",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
@@ -7971,6 +8063,7 @@
         "relic": "-",
         "name(jp)": "鋭い観察力",
         "id": "201900500",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -7981,6 +8074,7 @@
         "relic": "-",
         "name(jp)": "母への憧れ",
         "id": "201900501",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -7992,6 +8086,7 @@
         "relic": "Blue Alpha Arm (Beyond)",
         "name(jp)": "氷のシンフォニー",
         "id": "201900502",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -8002,6 +8097,7 @@
         "relic": "-",
         "name(jp)": "お調子者",
         "id": "201900600",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -8012,6 +8108,7 @@
         "relic": "-",
         "name(jp)": "立ち向かう心",
         "id": "201900601",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -8023,6 +8120,7 @@
         "relic": "Surge Searcher (Beyond)",
         "name(jp)": "炎のハーモニー",
         "id": "201900602",
+        "gl": "✓",
         "✓": "✓"
     },
     {
