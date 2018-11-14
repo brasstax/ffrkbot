@@ -19,7 +19,7 @@ module.exports = class ReplyCommand extends Command {
           type: 'string',
         },
       ],
-      aliases: ['o'],
+      aliases: ['o', 'chase'],
     });
   }
 

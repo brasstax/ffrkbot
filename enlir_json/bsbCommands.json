@@ -1071,7 +1071,7 @@
     {
         "character": "Hilda",
         "source": "Prayer for Peace",
-        "name": "Blessed Minuet",
+        "name": "Graceful Minuet",
         "type": "WHT",
         "target": "Single ally",
         "formula": "Magical",
@@ -1085,12 +1085,13 @@
         "school": "White Magic",
         "name(jp)": "祝福のメヌエット",
         "id": "30512901",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "character": "Hilda",
         "source": "Prayer for Peace",
-        "name": "Song of Peace",
+        "name": "Song of Tranquility",
         "type": "WHT",
         "target": "All allies",
         "formula": "Magical",
@@ -1104,6 +1105,7 @@
         "school": "White Magic",
         "name(jp)": "安らぎの歌",
         "id": "30512902",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4243,7 +4245,7 @@
         "multiplier": 0.56,
         "element": "Wind, NE",
         "time": 1.65,
-        "effects": "Four single attacks (0,14 each), multiplier increases with user's ATK",
+        "effects": "Four single attacks (0,14~0,65 each scaling with ATK)",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,
@@ -10047,7 +10049,7 @@
     {
         "character": "Prompto",
         "source": "Recoil (XV)",
-        "name": "Aimed Shot",
+        "name": "Sharpshot",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -10061,12 +10063,13 @@
         "school": "Machinist",
         "name(jp)": "狙い撃ち",
         "id": "30512731",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "character": "Prompto",
         "source": "Recoil (XV)",
-        "name": "Jump Shot",
+        "name": "Jumpshot",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -10080,6 +10083,7 @@
         "school": "Machinist",
         "name(jp)": "ジャンプ撃ち",
         "id": "30512732",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -11261,6 +11265,44 @@
         "school": "Samurai",
         "name(jp)": "炎威の構え",
         "id": "30513502",
+        "✓": "✓"
+    },
+    {
+        "character": "Eight",
+        "source": "Phantom Hail",
+        "name": "Super Punch",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 2.16,
+        "element": "Ice, NE",
+        "time": 1.65,
+        "effects": "Four single attacks (0,54 each), 100% additional critical chance if the user has any Physical Blink",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Monk",
+        "name(jp)": "極拳",
+        "id": "30512831",
+        "✓": "✓"
+    },
+    {
+        "character": "Eight",
+        "source": "Phantom Hail",
+        "name": "Ice Shadow",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 1.5,
+        "element": "Ice, NE",
+        "time": 0.825,
+        "effects": "Two single attacks (0,75 each), grants Physical Blink 1 to the user",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 50,
+        "school": "Monk",
+        "name(jp)": "氷影",
+        "id": "30512832",
         "✓": "✓"
     },
     {

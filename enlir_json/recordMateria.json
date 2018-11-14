@@ -1714,26 +1714,29 @@
         "unlockCriteria": "Use Hilda's Memory Crystal",
         "name(jp)": "信頼厚き王女",
         "id": "111020110",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "II",
         "character": "Hilda",
-        "name": "Clever Resolve",
+        "name": "Wisdom and Will",
         "effect": "13% chance to dualcast Bard abilities",
         "unlockCriteria": "Use Hilda's Memory Crystal II, chance to obtain with Hilda in party",
         "name(jp)": "聡明さと強い意志",
         "id": "111020111",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "II",
         "character": "Hilda",
-        "name": "Gifted Leader",
+        "name": "Masterful Leader",
         "effect": "Attack turns into Requiem",
         "unlockCriteria": "Bring Hilda to level 99",
         "name(jp)": "才色兼備のリーダー",
         "id": "111020112",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -7215,7 +7218,7 @@
         "realm": "FFT",
         "character": "Orlandeau",
         "name": "God Among Men",
-        "effect": "Attack turns into an ability (PHY: group, convergent 0,90 physical)",
+        "effect": "Attack turns into an ability (PHY: group, 0,40~0,90 physical scaling with targets)",
         "unlockCriteria": "Use Orlandeau's Memory Crystal II, chance to obtain with Orlandeau in party",
         "name(jp)": "一世之雄",
         "id": "111500061",
@@ -7847,7 +7850,7 @@
     {
         "realm": "Type-0",
         "character": "Jack",
-        "name": "Unknown Power",
+        "name": "Ignorant Power",
         "effect": "Samurai abilities deal 40% more damage",
         "unlockCriteria": "Bring Jack to level 99",
         "name(jp)": "無知なる力を司る者",
@@ -7857,32 +7860,60 @@
     {
         "realm": "Type-0",
         "character": "Eight",
-        "unlockCriteria": "Use Eight's Memory Crystal"
+        "name": "Nimble Fighter",
+        "effect": "Grants Haste at the beginning of the battle",
+        "unlockCriteria": "Use Eight's Memory Crystal",
+        "name(jp)": "俊敏な格闘少年",
+        "id": "111600120"
     },
     {
         "realm": "Type-0",
         "character": "Eight",
-        "unlockCriteria": "Use Eight's Memory Crystal II, chance to obtain with Eight in party"
+        "name": "Class Zero's Virtue",
+        "effect": "13% chance to dualcast Monk abilities",
+        "unlockCriteria": "Use Eight's Memory Crystal II, chance to obtain with Eight in party",
+        "name(jp)": "0組の良心",
+        "id": "111600121",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Eight",
-        "unlockCriteria": "Bring Eight to level 99"
+        "name": "Tranquil Power",
+        "effect": "Monk abilities deal 40% more damage",
+        "unlockCriteria": "Bring Eight to level 99",
+        "name(jp)": "冷静なる力を司る者",
+        "id": "111600122",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Cater",
-        "unlockCriteria": "Use Cater's Memory Crystal"
+        "name": "Magic Pistol Wielder",
+        "effect": "PHY attacks deal ?% more damage when equipping a gun",
+        "unlockCriteria": "Use Cater's Memory Crystal",
+        "name(jp)": "魔法銃を操る少女",
+        "id": "111600130"
     },
     {
         "realm": "Type-0",
         "character": "Cater",
-        "unlockCriteria": "Use Cater's Memory Crystal II, chance to obtain with Cater in party"
+        "name": "Tricky Tactics",
+        "effect": "Restores 1 use for all Machinist abilities at the beginning of the battle",
+        "unlockCriteria": "Use Cater's Memory Crystal II, chance to obtain with Cater in party",
+        "name(jp)": "トリッキーな戦法",
+        "id": "111600131",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Cater",
-        "unlockCriteria": "Bring Cater to level 99"
+        "name": "Valiant Power",
+        "effect": "PHY attacks deal 30% more damage when equipping a gun",
+        "unlockCriteria": "Bring Cater to level 99",
+        "name(jp)": "勇敢なる力を司る者",
+        "id": "111600132",
+        "✓": "✓"
     },
     {
         "realm": "KH",

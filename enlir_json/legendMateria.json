@@ -133,19 +133,21 @@
         "realm": "Core",
         "character": "Dr. Mog",
         "name": "Master's Preparation",
-        "effect": "Reduces damage taken by BLK attacks by ?%",
+        "effect": "Reduces damage taken by BLK attacks by 10%",
         "relic": "-",
         "name(jp)": "元祖魔攻への備え",
-        "id": "201004500"
+        "id": "201004500",
+        "✓": "✓"
     },
     {
         "realm": "Core",
         "character": "Dr. Mog",
         "name": "Authority of Black Magic",
-        "effect": "?% chance to dualcast Black Magic or Summoning abilities",
+        "effect": "35% chance to dualcast Black Magic or Summoning abilities",
         "relic": "-",
         "name(jp)": "黒魔法の権威",
-        "id": "201004501"
+        "id": "201004501",
+        "✓": "✓"
     },
     {
         "realm": "Core",
@@ -207,7 +209,7 @@
     {
         "realm": "I",
         "character": "Warrior of Light",
-        "name": "Resolute Warrior",
+        "name": "Determined Warrior",
         "effect": "25% chance to cast an ability (PHY: single, 3x 0,42 physical Holy/NE, 1500 HP to an ally) after taking damage from an enemy",
         "master": "ATK +10",
         "relic": "Crystal Shield (I)",
@@ -746,15 +748,6 @@
     },
     {
         "realm": "II",
-        "character": "Minwu",
-        "name": "Heroic Healer",
-        "effect": "Grants Attach Holy at the beginning of the battle",
-        "master": "MND +10",
-        "relic": "Asura's Rod (II)",
-        "name(jp)": "勇敢な白魔道士"
-    },
-    {
-        "realm": "II",
         "character": "Gordon",
         "name": "Glimpse of Bravery",
         "effect": "Support abilities deal 15% more damage",
@@ -820,27 +813,6 @@
     },
     {
         "realm": "II",
-        "character": "Leila",
-        "effect": "PHY attacks deal ?% more damage",
-        "relic": "-"
-    },
-    {
-        "realm": "II",
-        "character": "Leila",
-        "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
-        "relic": "-"
-    },
-    {
-        "realm": "II",
-        "character": "Leila",
-        "name": "Maiden of the Sea",
-        "effect": "?% chance to grant Quick Cast 1 to the user after using a Poison or Water attack",
-        "master": "ATK +10",
-        "relic": "Leila's Bandana (II)",
-        "name(jp)": "海上の女傑"
-    },
-    {
-        "realm": "II",
         "character": "Ricard",
         "name": "Daring Dragoon",
         "effect": "Dragoon abilities deal 15% more damage",
@@ -883,15 +855,6 @@
         "name(jp)": "雷雲駆け抜けし竜",
         "id": "201020803",
         "✓": "✓"
-    },
-    {
-        "realm": "II",
-        "character": "Ricard",
-        "name": "Stormslice Wyvern",
-        "effect": "Grants Attach Lightning at the beginning of the battle",
-        "master": "ATK +10",
-        "relic": "Dragon Armor (II)",
-        "name(jp)": "雷雲駆け抜けし竜"
     },
     {
         "realm": "II",
@@ -970,26 +933,29 @@
         "relic": "Silver Despot (II)",
         "name(jp)": "独裁者の謀略",
         "id": "201021003",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "II",
         "character": "Hilda",
-        "name": "Head of the Rebels",
+        "name": "Rebel Commander",
         "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "反乱軍の指揮者",
         "id": "201021100",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "II",
         "character": "Hilda",
-        "name": "Princess's Inspiration",
+        "name": "Princess's Hope",
         "effect": "35% chance to cast an ability (WHT: group, restores HP (25)) after using a Bard ability",
         "relic": "-",
         "name(jp)": "王女の激励",
         "id": "201021101",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1001,6 +967,7 @@
         "relic": "Hilda's Cloak (II)",
         "name(jp)": "高潔な血筋の淑女",
         "id": "201021102",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2193,34 +2160,6 @@
     },
     {
         "realm": "V",
-        "character": "Gogo (V)",
-        "name": "Enigmatic Imitator",
-        "effect": "Increases Water damage dealt by 10%",
-        "relic": "-",
-        "name(jp)": " 謎多きものまね名人 ",
-        "✓": "✓"
-    },
-    {
-        "realm": "V",
-        "character": "Gogo (V)",
-        "name": "Essence of Mimicry",
-        "effect": "35% chance to dualcast abilities that deal Water damage",
-        "relic": "-",
-        "name(jp)": "ものまねの神髄 ",
-        "✓": "✓"
-    },
-    {
-        "realm": "V",
-        "character": "Gogo (V)",
-        "name": "Eccentric of the Dephts",
-        "effect": "Water attacks deal 25% more damage when equipping a rod",
-        "master": "MAG +10",
-        "relic": "Power Rod (V)",
-        "name(jp)": "水底の変わり者",
-        "✓": "✓"
-    },
-    {
-        "realm": "V",
         "character": "Gilgamesh",
         "name": "Dark Sage's Hand",
         "effect": "PHY attacks deal 10% more damage",
@@ -2251,6 +2190,17 @@
         "name(jp)": "厚情なる豪傑",
         "id": "201050703",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "V",
+        "character": "Gilgamesh",
+        "name": "Fervid Swordsman",
+        "effect": "Grants Attach Fire at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Assassin Dagger (V)",
+        "name(jp)": "有情なる剣豪",
+        "id": "201050704",
         "✓": "✓"
     },
     {
@@ -2546,6 +2496,17 @@
         "relic": "Triton Dagger (V)",
         "name(jp)": "衰えぬ正義の心",
         "id": "201051703"
+    },
+    {
+        "realm": "V",
+        "character": "Kelger",
+        "name": "Fighting Illness",
+        "effect": "25% chance to dualcast Ninja abilities",
+        "master": "ATK +10",
+        "relic": "Ashura (V)",
+        "name(jp)": "病に負けぬ志",
+        "id": "201051704",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -2959,7 +2920,8 @@
         "master": "ATK +10",
         "relic": "Argentic Card (VI)",
         "name(jp)": "空にかける最速の夢",
-        "id": "201061103"
+        "id": "201061103",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -4877,10 +4839,11 @@
         "character": "Yuna",
         "name": "Immovable Devotion",
         "effect": "Grants Attach Holy at the beginning of the battle",
-        "master": "MAG +10",
+        "master": "MND +10",
         "relic": "Magic Gun (X)",
         "name(jp)": "変わらぬ献身",
-        "id": "201100204"
+        "id": "201100204",
+        "✓": "✓"
     },
     {
         "realm": "X",
@@ -6220,6 +6183,17 @@
     },
     {
         "realm": "XIII",
+        "character": "Fang",
+        "name": "Oath of Protection",
+        "effect": "Grants Haste and Instant Cast 1 at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Rune Bracelet (XIII)",
+        "name(jp)": "仲間を守る誓い",
+        "id": "201130604",
+        "✓": "✓"
+    },
+    {
+        "realm": "XIII",
         "character": "Serah",
         "name": "Undaunted Hope",
         "effect": "Increases Ice damage dealt by 10%",
@@ -6386,6 +6360,17 @@
         "name(jp)": "悪意の発露",
         "id": "201131202",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "XIII",
+        "character": "Nabaat",
+        "name": "Commander's Talent",
+        "effect": "35% chance to grant Quick Cast 1 to the user after using a Dark attack",
+        "master": "MAG +10",
+        "relic": "Goggle Mask (XIII)",
+        "name(jp)": "士官学校首席の才腕",
+        "id": "201131203",
         "✓": "✓"
     },
     {
@@ -6827,6 +6812,7 @@
         "relic": "Gladiolus's Guise (XV)",
         "name(jp)": "英霊が認めし戦士",
         "id": "201150204",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -7047,6 +7033,16 @@
     },
     {
         "realm": "FFT",
+        "character": "Agrias",
+        "name": "Princess's Guardian",
+        "effect": "Grants Attach Holy at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Carabineer Mail (FFT)",
+        "name(jp)": "王女の守護者",
+        "id": "201500203"
+    },
+    {
+        "realm": "FFT",
         "character": "Delita",
         "name": "Unshakeable Resolve",
         "effect": "Spellblade abilities deal 15% more damage",
@@ -7126,6 +7122,17 @@
     },
     {
         "realm": "FFT",
+        "character": "Ovelia",
+        "name": "Mutable Fate",
+        "effect": "MND +1% for each hit dealt with White Magic abilities, up to +25%",
+        "master": "MND +10",
+        "relic": "Pure Staff (FFT)",
+        "name(jp)": "変遷する運命",
+        "id": "201500412",
+        "✓": "✓"
+    },
+    {
+        "realm": "FFT",
         "character": "Mustadio",
         "name": "Mechanical Expertise",
         "effect": "Machinist abilities deal 15% more damage",
@@ -7194,6 +7201,17 @@
     },
     {
         "realm": "FFT",
+        "character": "Orlandeau",
+        "name": "General of the Southern Sky",
+        "effect": "PHY attacks deal 20% more damage when equipping a sword",
+        "master": "ATK +10",
+        "relic": "Moonblade (FFT)",
+        "name(jp)": "南天騎士団の長",
+        "id": "201500603",
+        "✓": "✓"
+    },
+    {
+        "realm": "FFT",
         "character": "Gaffgarion",
         "name": "Dark Expertise",
         "effect": "Increases Dark damage dealt by 10%",
@@ -7224,6 +7242,17 @@
         "name(jp)": "ダークナイトの妙技",
         "id": "201500702",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "FFT",
+        "character": "Gaffgarion",
+        "name": "Dark Knight's Nature",
+        "effect": "Grants Attach Dark at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Slasher (FFT)",
+        "name(jp)": "ダークナイトの本懐",
+        "id": "201500703",
         "✓": "✓"
     },
     {
@@ -7666,6 +7695,17 @@
     },
     {
         "realm": "Type-0",
+        "character": "Rem",
+        "name": "Expert of Magic",
+        "effect": "Grants Attach Holy at the beginning of the battle",
+        "master": "MND +10",
+        "relic": "Mythril Gloves (Type-0)",
+        "name(jp)": "魔法のエキスパート",
+        "id": "201600504",
+        "✓": "✓"
+    },
+    {
+        "realm": "Type-0",
         "character": "Queen",
         "name": "Ruled by Reason",
         "effect": "Increases Lightning damage dealt by 10%",
@@ -7862,27 +7902,68 @@
         "master": "ATK +10",
         "relic": "Diamond Gloves (Type-0)",
         "name(jp)": "二の太刀いらずの剣士",
-        "id": "201601102"
+        "id": "201601102",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Eight",
-        "relic": "-"
+        "name": "Tranquil Enthusiasm",
+        "effect": "Monk abilities deal ?% more damage",
+        "relic": "-",
+        "name(jp)": "静かなる熱意",
+        "id": "201601200"
     },
     {
         "realm": "Type-0",
         "character": "Eight",
-        "relic": "-"
+        "name": "Fists for Justice",
+        "effect": "Restores HP for 100% of the user's maximum HP and grants Eight Trance when HP fall below ?%",
+        "relic": "-",
+        "name(jp)": "正義を掲げる拳",
+        "id": "201601201"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Eight",
+        "name": "Outstanding Acumen",
+        "effect": "Grants Attach Ice at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Silver Knuckles (Type-0)",
+        "name(jp)": "優れた見識",
+        "id": "201601202",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Cater",
-        "relic": "-"
+        "name": "Cheerful Gunslinger",
+        "effect": "Machinist abilities deal 15% more damage",
+        "relic": "-",
+        "name(jp)": "明朗快活な銃士",
+        "id": "201601300",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Cater",
-        "relic": "-"
+        "name": "Remarkable Talent",
+        "effect": "35% chance to dualcast Machinist abilities",
+        "relic": "-",
+        "name(jp)": "非凡なる才",
+        "id": "201601301",
+        "✓": "✓"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Cater",
+        "name": "Bravery on the Battlefield",
+        "effect": "35% chance to grant Quick Cast 1 to the user after using a Machinist ability",
+        "master": "ATK +10",
+        "relic": "Magicite Pistol (Type-0)",
+        "name(jp)": "戦場に向かう勇姿",
+        "id": "201601302",
+        "✓": "✓"
     },
     {
         "realm": "KH",
@@ -7982,6 +8063,7 @@
         "relic": "-",
         "name(jp)": "鋭い観察力",
         "id": "201900500",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -7992,6 +8074,7 @@
         "relic": "-",
         "name(jp)": "母への憧れ",
         "id": "201900501",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -8003,6 +8086,7 @@
         "relic": "Blue Alpha Arm (Beyond)",
         "name(jp)": "氷のシンフォニー",
         "id": "201900502",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -8013,6 +8097,7 @@
         "relic": "-",
         "name(jp)": "お調子者",
         "id": "201900600",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -8023,6 +8108,7 @@
         "relic": "-",
         "name(jp)": "立ち向かう心",
         "id": "201900601",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -8034,6 +8120,7 @@
         "relic": "Surge Searcher (Beyond)",
         "name(jp)": "炎のハーモニー",
         "id": "201900602",
+        "gl": "✓",
         "✓": "✓"
     },
     {
