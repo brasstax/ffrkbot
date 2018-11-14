@@ -579,6 +579,17 @@
     },
     {
         "realm": "II",
+        "character": "Firion",
+        "name": "Righteous Ardor",
+        "effect": "25% chance to dualcast Knight abilities",
+        "master": "ATK +10",
+        "relic": "Crystal Mail (II)",
+        "name(jp)": "熱き魂を持つ義士",
+        "id": "201020105",
+        "✓": "✓"
+    },
+    {
+        "realm": "II",
         "character": "Maria",
         "name": "Unshakeable",
         "effect": "Increases Earth damage dealt by 10%",
@@ -2555,6 +2566,16 @@
     },
     {
         "realm": "VI",
+        "character": "Terra",
+        "name": "Strength of Protection",
+        "effect": "Grants Attach Wind at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Healing Rod (VI)",
+        "name(jp)": "未来を守る力",
+        "id": "201060104"
+    },
+    {
+        "realm": "VI",
         "character": "Locke",
         "name": "Ardent Adventurer",
         "effect": "Increases Fire damage dealt by 10%",
@@ -4502,7 +4523,7 @@
     {
         "realm": "IX",
         "character": "Freya",
-        "name": "Valiant Lady",
+        "name": "Woman of Courage",
         "effect": "Grants Attach Wind at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Obelisk (IX)",
@@ -4547,10 +4568,10 @@
     {
         "realm": "IX",
         "character": "Quina",
-        "name": "Culinary Journey",
+        "name": "Culinary Enlightenment",
         "effect": "Grants Quick Cast 3 at the beginning of the battle",
         "master": "ATK +10",
-        "relic": "Quina's Cook Hat (IX)",
+        "relic": "Quina's Toque Blanche (IX)",
         "name(jp)": "飽くなき食探究への道",
         "id": "201090603",
         "✓": "✓"
@@ -4735,10 +4756,10 @@
     {
         "realm": "IX",
         "character": "Marcus",
-        "name": "Trusted Companion",
+        "name": "Grim Grin",
         "effect": "20% chance to cause Minor Imperil Wind to the target after using a Thief ability on an enemy",
         "master": "ATK +10",
-        "relic": "Marcus's Bracers (IX)",
+        "relic": "Marcus's Armlet (IX)",
         "name(jp)": "真面目なコワモテ青年",
         "id": "201091500",
         "✓": "✓"
@@ -5968,6 +5989,28 @@
     },
     {
         "realm": "XIII",
+        "character": "Lightning",
+        "name": "Etro's Knight",
+        "effect": "Grants Attach Holy at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Edged Carbine (XIII)",
+        "name(jp)": "エトロの騎士",
+        "id": "201130104",
+        "✓": "✓"
+    },
+    {
+        "realm": "XIII",
+        "character": "Lightning",
+        "name": "Heir of the Goddess",
+        "effect": "25% chance to dualcast abilities that deal Holy damage",
+        "master": "ATK +10",
+        "relic": "Goddess's Favor (XIII)",
+        "name(jp)": "女神の恩寵",
+        "id": "201130105",
+        "✓": "✓"
+    },
+    {
+        "realm": "XIII",
         "character": "Snow",
         "name": "Fiery Friend",
         "effect": "Reduces damage taken by Ice attacks by 10%",
@@ -6432,7 +6475,7 @@
     {
         "realm": "XIV",
         "character": "Thancred",
-        "name": "Lighthearted Nature",
+        "name": "Natural Grace",
         "effect": "25% chance to dualcast Ninja abilities",
         "master": "ATK +10",
         "relic": "Hofuds (XIV)",
@@ -6579,7 +6622,7 @@
     {
         "realm": "XIV",
         "character": "Minfilia",
-        "name": "Linkshell Expert",
+        "name": "Linkshell Master",
         "effect": "Grants Quick Cast 3 at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Ironworks Magitek Sword (XIV)",

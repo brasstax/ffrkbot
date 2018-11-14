@@ -8534,6 +8534,36 @@
         "notes": "-"
     },
     {
+        "id": "50383",
+        "commonName": "EX: Martial Pinnacle",
+        "effects": "Cast speed x9999999 for Knight or Samurai abilities, restores HP for 10% of the damage dealt with Knight or Samurai abilities",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_ABSORB_HP_FOR_ULTIMATE_MARTIAL_ARTS",
+        "notes": "-"
+    },
+    {
+        "id": "50384",
+        "commonName": "EX: Knight of the Goddess",
+        "effects": "Grants Physical High Quick Cast 1 to all allies in the front row and casts Saint Sabre 1/2/3 after using 1/2/3 +3n Holy attacks",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_GODDESS_KNIGHT",
+        "notes": "-"
+    },
+    {
+        "id": "50385",
+        "commonName": "EX: Knower of Love",
+        "effects": "MAG +30%, casts Trance Wind after using a Wind attack",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_GIRL_KNEW_LOVE",
+        "notes": "-"
+    },
+    {
         "id": "601",
         "commonName": "MAG +X%",
         "effects": "MAG +X%",

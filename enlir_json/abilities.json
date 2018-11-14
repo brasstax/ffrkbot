@@ -2151,7 +2151,7 @@
     },
     {
         "school": "White Magic",
-        "name": "Water of Strength",
+        "name": "Water of Might",
         "rarity": 3,
         "type": "WHT",
         "target": "Single",
@@ -4712,6 +4712,7 @@
         "introducingEvent": "Champions of the Sky",
         "name(jp)": " バハムート【VI】",
         "id": "30131381",
+        "gl": "✓",
         "✓": "✓"
     },
     {

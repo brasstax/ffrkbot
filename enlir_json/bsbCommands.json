@@ -6497,7 +6497,7 @@
     },
     {
         "character": "Quina",
-        "source": "Angel's Lunch",
+        "source": "Angel's Banquet",
         "name": "Frog Shot",
         "type": "PHY",
         "target": "Single enemy",
@@ -6516,7 +6516,7 @@
     },
     {
         "character": "Quina",
-        "source": "Angel's Lunch",
+        "source": "Angel's Banquet",
         "name": "Juicy Energy",
         "type": "NAT",
         "target": "Self",

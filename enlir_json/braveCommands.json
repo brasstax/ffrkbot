@@ -1694,7 +1694,7 @@
     },
     {
         "character": "Eiko",
-        "source": "Phoenix Feathers",
+        "source": "Phoenix Feather",
         "name": "Phoenix's Blessing",
         "brave": 0,
         "type": "WHT",
@@ -1714,7 +1714,7 @@
     },
     {
         "character": "Eiko",
-        "source": "Phoenix Feathers",
+        "source": "Phoenix Feather",
         "name": "Phoenix's Blessing",
         "brave": 1,
         "type": "WHT",
@@ -1734,7 +1734,7 @@
     },
     {
         "character": "Eiko",
-        "source": "Phoenix Feathers",
+        "source": "Phoenix Feather",
         "name": "Phoenix's Blessing",
         "brave": 2,
         "type": "WHT",
@@ -1751,7 +1751,7 @@
     },
     {
         "character": "Eiko",
-        "source": "Phoenix Feathers",
+        "source": "Phoenix Feather",
         "name": "Phoenix's Blessing",
         "brave": 3,
         "type": "WHT",
@@ -1928,7 +1928,7 @@
     },
     {
         "character": "Tidus",
-        "source": "Quick & Rush",
+        "source": "Quick Rush",
         "name": "Drive Shot",
         "brave": 0,
         "type": "PHY",
@@ -1948,7 +1948,7 @@
     },
     {
         "character": "Tidus",
-        "source": "Quick & Rush",
+        "source": "Quick Rush",
         "name": "Drive Shot",
         "brave": 1,
         "type": "PHY",
@@ -1968,7 +1968,7 @@
     },
     {
         "character": "Tidus",
-        "source": "Quick & Rush",
+        "source": "Quick Rush",
         "name": "Drive Shot",
         "brave": 2,
         "type": "PHY",
@@ -1988,7 +1988,7 @@
     },
     {
         "character": "Tidus",
-        "source": "Quick & Rush",
+        "source": "Quick Rush",
         "name": "Drive Shot",
         "brave": 3,
         "type": "PHY",
@@ -2008,7 +2008,7 @@
     },
     {
         "character": "Yuna",
-        "source": "Spiral Prayer",
+        "source": "Calm Prayer",
         "name": "Prayer of Hope",
         "brave": 0,
         "type": "WHT",
@@ -2028,7 +2028,7 @@
     },
     {
         "character": "Yuna",
-        "source": "Spiral Prayer",
+        "source": "Calm Prayer",
         "name": "Prayer of Hope",
         "brave": 1,
         "type": "WHT",
@@ -2048,7 +2048,7 @@
     },
     {
         "character": "Yuna",
-        "source": "Spiral Prayer",
+        "source": "Calm Prayer",
         "name": "Prayer of Hope",
         "brave": 2,
         "type": "WHT",
@@ -2065,7 +2065,7 @@
     },
     {
         "character": "Yuna",
-        "source": "Spiral Prayer",
+        "source": "Calm Prayer",
         "name": "Prayer of Hope",
         "brave": 3,
         "type": "WHT",
@@ -2643,7 +2643,7 @@
     },
     {
         "character": "Thancred",
-        "source": "Shukiho Bhavacakra",
+        "source": "Wheel of Life",
         "name": "Trick Attack",
         "brave": 0,
         "type": "PHY",
@@ -2663,7 +2663,7 @@
     },
     {
         "character": "Thancred",
-        "source": "Shukiho Bhavacakra",
+        "source": "Wheel of Life",
         "name": "Trick Attack",
         "brave": 1,
         "type": "PHY",
@@ -2683,7 +2683,7 @@
     },
     {
         "character": "Thancred",
-        "source": "Shukiho Bhavacakra",
+        "source": "Wheel of Life",
         "name": "Trick Attack",
         "brave": 2,
         "type": "PHY",
@@ -2703,7 +2703,7 @@
     },
     {
         "character": "Thancred",
-        "source": "Shukiho Bhavacakra",
+        "source": "Wheel of Life",
         "name": "Trick Attack",
         "brave": 3,
         "type": "PHY",
@@ -2723,7 +2723,7 @@
     },
     {
         "character": "Alphinaud",
-        "source": "Garuda-Egi Burst",
+        "source": "Garuda Exoburst",
         "name": "Fester",
         "brave": 0,
         "type": "SUM",
@@ -2743,7 +2743,7 @@
     },
     {
         "character": "Alphinaud",
-        "source": "Garuda-Egi Burst",
+        "source": "Garuda Exoburst",
         "name": "Fester",
         "brave": 1,
         "type": "SUM",
@@ -2763,7 +2763,7 @@
     },
     {
         "character": "Alphinaud",
-        "source": "Garuda-Egi Burst",
+        "source": "Garuda Exoburst",
         "name": "Fester",
         "brave": 2,
         "type": "SUM",
@@ -2783,7 +2783,7 @@
     },
     {
         "character": "Alphinaud",
-        "source": "Garuda-Egi Burst",
+        "source": "Garuda Exoburst",
         "name": "Fester",
         "brave": 3,
         "type": "SUM",
