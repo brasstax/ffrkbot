@@ -16,7 +16,7 @@ module.exports = class ReplyCommand extends Command {
       description: 'Looks up all the entries for a given speedrunner in a specified leaderboard' +
       ' from the FFRecordKeeper Discord Speedrun challenge leaderboard' +
       ' (https://docs.google.com/spreadsheets/d/11gTjAkpm4D3uoxnYCN7ZfbiVnKyi7tmm9Vp9HvTkGpw).',
-      examples: ['rank EverythingIsGravy 5star', 'top 10 no-csb', 'top 5 cod', 'top 3 Maliris'],
+      examples: ['rank EverythingIsGravy 5star', 'rank dragoonic 4star no-csb', 'rank littlefiredragon'],
       args: [
         {
           key: 'name',

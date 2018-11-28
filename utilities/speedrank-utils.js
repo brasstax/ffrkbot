@@ -92,6 +92,7 @@ exports.speedrank = function lookupspeedrank(
 
             let contestants = [];
             let padLength = 0;
+            let playerActualName = player;
 
             // Now that we know the fights, let's search each fight column for the player in question
            for (let catName of fightNames) {
@@ -117,7 +118,13 @@ exports.speedrank = function lookupspeedrank(
                   console.log(padLength);
                 }
                 if (cell.toLowerCase() === player.toLowerCase()) {
+
+                  //Grab the spreadsheet formatted version of the player's name
+                  playerActualName = cell;
+
+                  //Grab the name of the boss the player has an entry for
                   contestant.push(catName);
+
                   // Grab the actual rank of this row
                   contestant.push(checkCell(data.values[row][0]));
 
@@ -135,7 +142,7 @@ exports.speedrank = function lookupspeedrank(
               }
             }
             const rankTable =
-              outputRankTable(categorySheet, player,
+              outputRankTable(categorySheet, playerActualName,
                 categoryNames, contestants, padLength);
             msg.channel.send(rankTable)
               .then( (res) => {
