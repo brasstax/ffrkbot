@@ -18,7 +18,7 @@ const client = new Commando.Client({
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.username}!`);
-  client.user.setActivity(',help');
+  client.user.setGame(',help');
 });
 
 client.registry

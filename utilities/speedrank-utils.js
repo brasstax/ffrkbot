@@ -55,7 +55,7 @@ exports.speedrank = function lookupspeedrank(
         sheets.spreadsheets.values.get(request, (err, {data}) => {
           if (err) {
             if (err.code === 400) {
-              console.log(err.message);
+              console.log(err.code);
               msg.channel.send(`Invalid speedrun category "${category}".`)
                 .then((res) => {
                   resolve(res);
@@ -160,13 +160,14 @@ function getSheet(category, secondaryCategory) {
   }
   switch (category) {
     case '3star':
-      category = 'GL 3* '+version+ ' rankings';
+      category = `GL 3* ${version} rankings`;
       break;
     case '4star':
-      category = 'GL 4* '+version+ ' rankings';
+      category = `GL 4* ${version} rankings`;
       break;
     case '5star':
-      category = 'GL 5* '+version+ ' rankings';
+      //category = 'GL 5* '+version+ ' rankings';
+      category = `GL 5* ${version} rankings`;
       break;
     case 'torment':
       category = 'Torment';
