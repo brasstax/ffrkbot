@@ -10,6 +10,7 @@ const pad = require('pad');
 const SPREADSHEET_ID = '11gTjAkpm4D3uoxnYCN7ZfbiVnKyi7tmm9Vp9HvTkGpw';
 const TOKEN_PATH = 'secrets/credentials.json';
 const SECRETS_PATH = 'secrets/client_secret.json';
+const speedrankUtils = require('./speed-general-utils.js');
 
 /** authorize():
  * Authorizes Google credentials.
@@ -70,7 +71,7 @@ exports.speedrun = function lookupSpeedrun(
             }
           } else {
             // Find where the secondaryCategory is on the sheet in question
-            const categoryRange = find(secondaryCategory, data.values);
+            const categoryRange = speedrankUtils.find(secondaryCategory, data.values);
             let categoryNames = [];
             // Get the row where the categories lie.
             const categoryRow = data.values[categoryRange.row + 1];
@@ -82,9 +83,7 @@ exports.speedrun = function lookupSpeedrun(
             // and keep going until we either hit a '' or undefined.
             for
             (let i = categoryRange.columnNum - 1; i < categoryRow.length; i++) {
-              if (categoryRow[i] === undefined ||
-                  categoryRow[i] === '' ||
-                  categoryRow[i] === null) {
+              if (speedrankUtils.checkCell(categoryRow[i]) === '') {
                 break;
               }
               categoryNames.push(categoryRow[i]);
@@ -110,10 +109,8 @@ exports.speedrun = function lookupSpeedrun(
               for (let j = 0;
                    j < categoryNames.length; j++) {
                      // If the entry is somehow undefined or null, put in a ''.
-                     let cell = data.values[row][entryStartPos + j];
-                     if (cell === undefined || cell == null) {
-                       cell = '';
-                     }
+                     let cell = speedrankUtils.checkCell(data.values[row][entryStartPos + j]);
+                     
                      if (j === 0 && cell.length === 0) {
                        // If the name column is empty, then break.
                        break;
@@ -178,41 +175,6 @@ function getSheet(category) {
       category = titlecase.toLaxTitleCase(category);
     }
   return category;
-}
- /**
- * Finds a value within a given range.
- * @see https://stackoverflow.com/questions/10807936/how-do-i-search-google-spreadsheets/10823543#10823543
- * @param {String} value The value to find.
- * @param {String} data The range to search in using Google's A1 format.
- * @return {Object} A range pointing to the first cell containing the value,
- *     or null if not found.
- */
-function find(value, data) {
-  for (let i = 0; i < data.length; i++) {
-    for (let j = 0; j < data[i].length; j++) {
-      if (data[i][j] == value) {
-        const columnName = columnToName(j + 1);
-        return {row: i + 1, column: columnName, columnNum: j + 1};
-      }
-    }
-  }
-  return null;
-}
-/**
- * Returns the Google Spreadsheet column name equivalent of a number.
- * @param {Integer} columnNumber The column number to look for
- * @return {String} columnName
- */
-function columnToName(columnNumber) {
-  let columnName = '';
-  let modulo;
-  const alpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  while (columnNumber > 0) {
-    modulo = (columnNumber - 1) % 26;
-    columnName = alpha.charAt(modulo) + columnName;
-    columnNumber = Math.floor((columnNumber - modulo)/26);
-  }
-  return columnName;
 }
 
 /**

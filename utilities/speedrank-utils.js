@@ -1,4 +1,4 @@
-const {google} = require('googleapis');
+const { google } = require('googleapis');
 const util = require('util');
 const fs = require('fs');
 const OAuth2Client = google.auth.OAuth2;
@@ -6,6 +6,11 @@ fs.readFileAsync = util.promisify(fs.readFile);
 const titlecase = require('titlecase');
 const escapeStringRegexp = require('escape-string-regexp');
 const pad = require('pad');
+
+// const path = require('path');
+// speedrankPath = path.join(__dirname, 'speed-general-utils.js');
+//    '..', '..', 'utilities', 'speedrank-utils.js');
+const speedrankUtils = require('./speed-general-utils.js');
 
 const SPREADSHEET_ID = '11gTjAkpm4D3uoxnYCN7ZfbiVnKyi7tmm9Vp9HvTkGpw';
 const TOKEN_PATH = 'secrets/credentials.json';
@@ -22,7 +27,7 @@ async function authorize() {
     secrets = await fs.readFileAsync(SECRETS_PATH);
     token = await fs.readFileAsync(TOKEN_PATH);
     const credentials = JSON.parse(secrets);
-    const {client_secret, client_id, redirect_uris} = credentials.installed;
+    const { client_secret, client_id, redirect_uris } = credentials.installed;
     const oAuth2Client = new OAuth2Client(
       client_id, client_secret, redirect_uris[0]);
     oAuth2Client.setCredentials(JSON.parse(token));
@@ -32,27 +37,27 @@ async function authorize() {
   }
 }
 
-exports.speedrank = function lookupspeedrank(
+exports.speedrank = function lookupSpeedrank(
   msg, player, category, secondaryCategory) {
   console.log(util.format('.top caller: %s#%s for top %s %s (%s)',
     msg.author.username, msg.author.discriminator,
     player, category, secondaryCategory));
   return new Promise((resolve, reject) => {
-    const sheets = google.sheets({version: 'v4'});
+    const sheets = google.sheets({ version: 'v4' });
     authorize()
       .then((oAuth2Client) => {
         category = escapeStringRegexp(category);
         secondaryCategory = escapeStringRegexp(secondaryCategory);
         category = category.toLowerCase();
         const categorySheet = getSheet(category, secondaryCategory);
-        player  = escapeStringRegexp(player);
+        player = escapeStringRegexp(player);
 
         const request = {
           spreadsheetId: SPREADSHEET_ID,
           range: categorySheet,
           auth: oAuth2Client,
         };
-        sheets.spreadsheets.values.get(request, (err, {data}) => {
+        sheets.spreadsheets.values.get(request, (err, { data }) => {
           if (err) {
             if (err.code === 400) {
               console.log(err.code);
@@ -65,10 +70,10 @@ exports.speedrank = function lookupspeedrank(
               console.log(err);
               msg.channel.send(
                 'The bot user has not set up valid Google API credentials yet.')
-              .then((res) => {
-                resolve(res);
-                return;
-              });
+                .then((res) => {
+                  resolve(res);
+                  return;
+                });
             }
           } else {
             // CategoryNames (headers) are fixed for the rank request
@@ -78,25 +83,22 @@ exports.speedrank = function lookupspeedrank(
             const fightRow = data.values[2];
 
             let fightNames = [];
-            for(let i = 1; i < fightRow.length; i++) {
-              if (fightRow[i] === undefined ||
-                fightRow[i] === '' ||
-                fightRow[i] === null) {
+            for (let i = 1; i < fightRow.length; i++) {
+              if (speedrankUtils.checkCell(fightRow[i] === '')) {
                 continue;
               }
               else {
                 fightNames.push(fightRow[i]);
-              } 
+              }
             }
-
 
             let contestants = [];
             let padLength = 0;
             let playerActualName = player;
 
             // Now that we know the fights, let's search each fight column for the player in question
-           for (let catName of fightNames) {
-              let categoryRange = find(catName, data.values);
+            for (let catName of fightNames) {
+              let categoryRange = speedrankUtils.find(catName, data.values);
 
               //TODO: Get max rows of table
               for (let i = 0; i < 500; i++) {
@@ -112,7 +114,7 @@ exports.speedrank = function lookupspeedrank(
                 // entryStartPos gives us the starting cell
                 // with the contestant name.
                 const entryStartPos = categoryRange.columnNum - 1;
-                let cell = checkCell(data.values[row][entryStartPos]);
+                let cell = speedrankUtils.checkCell(data.values[row][entryStartPos]);
                 if (catName.length > padLength) {
                   padLength = catName.length + 1;
                   console.log(padLength);
@@ -126,14 +128,14 @@ exports.speedrank = function lookupspeedrank(
                   contestant.push(catName);
 
                   // Grab the actual rank of this row
-                  contestant.push(checkCell(data.values[row][0]));
+                  contestant.push(speedrankUtils.checkCell(data.values[row][0]));
 
                   // The Overall category and Torment sheets places avg time in the third column. Others have them in the second
-                  if (catName === "Overall" || categorySheet === 'Torment'){
-                    contestant.push(checkCell(data.values[row][entryStartPos+2]));
+                  if (catName === "Overall" || categorySheet === 'Torment') {
+                    contestant.push(speedrankUtils.checkCell(data.values[row][entryStartPos + 2]));
                   }
                   else {
-                    contestant.push(checkCell(data.values[row][entryStartPos+1]));
+                    contestant.push(speedrankUtils.checkCell(data.values[row][entryStartPos + 1]));
                   }
 
                   contestants.push(contestant);
@@ -145,9 +147,9 @@ exports.speedrank = function lookupspeedrank(
               outputRankTable(categorySheet, playerActualName,
                 categoryNames, contestants, padLength);
             msg.channel.send(rankTable)
-              .then( (res) => {
+              .then((res) => {
                 resolve(res);
-            });
+              });
           }
         });
       });
@@ -164,64 +166,28 @@ function getSheet(category, secondaryCategory) {
   let version = "Overall";
 
   // check for various permutations of "No CSB"
-  if (['no-csb','nocsb','no','no csb'].includes(secondaryCategory.toLowerCase())){
+  if (['no-csb', 'nocsb', 'no', 'no csb'].includes(secondaryCategory.toLowerCase())) {
     version = 'No CSB';
   }
 
   // check for various permutations of fight, e.g. "4 star", "Torment" and convert to sheet name
-  if (['3','3star','3-star','3 star'].includes(category.toLowerCase())){
+  if (['3', '3star', '3-star', '3 star'].includes(category.toLowerCase())) {
     category = `GL 3* ${version} rankings`;
   }
-  else if (['4','4star','4-star','4 star'].includes(category.toLowerCase())){
+  else if (['4', '4star', '4-star', '4 star'].includes(category.toLowerCase())) {
     category = `GL 4* ${version} rankings`;
   }
-  else if (['5','5star','5-star','5 star'].includes(category.toLowerCase())){
+  else if (['5', '5star', '5-star', '5 star'].includes(category.toLowerCase())) {
     category = `GL 5* ${version} rankings`;
   }
-  else if (['torment', 'tor', 'neotorment', 'neo'].includes(category.toLowerCase())){
+  else if (['torment', 'tor', 'neotorment', 'neo'].includes(category.toLowerCase())) {
     category = 'Torment';
   }
-  else{
+  else {
     category = 'Error';
   }
 
   return category;
-}
- /**
- * Finds a value within a given range.
- * @see https://stackoverflow.com/questions/10807936/how-do-i-search-google-spreadsheets/10823543#10823543
- * @param {String} value The value to find.
- * @param {String} data The range to search in using Google's A1 format.
- * @return {Object} A range pointing to the first cell containing the value,
- *     or null if not found.
- */
-function find(value, data) {
-  for (let i = 0; i < data.length; i++) {
-    for (let j = 0; j < data[i].length; j++) {
-      //console.log('Searching:'+data[i][j]);
-      if (data[i][j] == value) {
-        const columnName = columnToName(j + 1);
-        return {row: i + 1, column: columnName, columnNum: j + 1};
-      }
-    }
-  }
-  return null;
-}
-/**
- * Returns the Google Spreadsheet column name equivalent of a number.
- * @param {Integer} columnNumber The column number to look for
- * @return {String} columnName
- */
-function columnToName(columnNumber) {
-  let columnName = '';
-  let modulo;
-  const alpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  while (columnNumber > 0) {
-    modulo = (columnNumber - 1) % 26;
-    columnName = alpha.charAt(modulo) + columnName;
-    columnNumber = Math.floor((columnNumber - modulo)/26);
-  }
-  return columnName;
 }
 
 /**
@@ -267,7 +233,7 @@ function outputCategoryHeader(categoryNames, namePadLength) {
   categoryHeader += ' | ';
   categoryHeader += pad(categoryNames[2], 5);
   categoryHeader += ' | ';
- 
+
   const repeatLength = categoryHeader.length - 1;
   categoryHeader += '\n';
   // create a series of dashes to indicate header
@@ -294,21 +260,8 @@ function outputContestants(contestants, namePadLength) {
     //time output
     formattedContestants += pad(contestants[i][2], 5);
     formattedContestants += ' | ';
-    
+
     formattedContestants += '\n';
   }
   return formattedContestants;
-}
-/**
-  * Ensures null cells don't mess with anything.
-  * @param cell
-  * @return {String} cell or ''
-  */
-function checkCell(cell) {
-  if (cell === undefined || cell === '' || cell === null) {
-    return '';
-  }
-  else{
-    return cell;
-  }
 }
