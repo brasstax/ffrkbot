@@ -1414,6 +1414,16 @@
         "notes": "-"
     },
     {
+        "id": "282014",
+        "commonName": "Black Magic +50% Boost 2",
+        "effects": "Black Magic abilities deal 50% more damage, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_BOOST_BLACK_MAGIC_150_2",
+        "notes": "-"
+    },
+    {
         "id": "282101",
         "commonName": "Darkness +30% Boost",
         "effects": "Darkness abilities deal 30% more damage",
@@ -4104,6 +4114,26 @@
         "notes": "-"
     },
     {
+        "id": "2224",
+        "commonName": "Magical High Quick Cast 2",
+        "effects": "Cast speed x3,00 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_300_2_CUSTOM_MAGIC_DAMAGE_ABILITIES",
+        "notes": "-"
+    },
+    {
+        "id": "2225",
+        "commonName": "Magical Instant Cast 2",
+        "effects": "Cast speed x9999999 for BLK, WHT, BLU, SUM or NAT attacks that deal magical damage, lasts for 2 turns",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_CAST_TIME_MAX_2_CUSTOM_MAGIC_DAMAGE_ABILITIES",
+        "notes": "-"
+    },
+    {
         "id": "2226",
         "commonName": "Beyond Vengeance Mode 0",
         "effects": "Grants Beyond Vengeance Mode 1 after using a Holy attack, removed if the user hasn't Saint Boomerang Finisher",
@@ -4327,7 +4357,7 @@
         "effects": "Evades the next non-PHY, non-NIN attack that deals magical, fractional or missing HP damage",
         "defaultDuration": "-",
         "mndModifier": "-",
-        "exclusiveStatus": "-",
+        "exclusiveStatus": "Magical Blink 2",
         "codedName": "MIGHTY_GUARD_1",
         "notes": "-"
     },
@@ -5026,6 +5056,16 @@
         "notes": "-"
     },
     {
+        "id": "50436",
+        "commonName": "Magical Blink 2",
+        "effects": "Evades the next 2 non-PHY, non-NIN attack that deals magical, fractional or missing HP damage",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "Magical Blink 1",
+        "codedName": "MIGHTY_GUARD_2",
+        "notes": "-"
+    },
+    {
         "id": "50002",
         "commonName": "EX: Dreadwyrm Trance",
         "effects": "SUM attacks deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, casts Deathflare when removed",
@@ -5468,7 +5508,7 @@
     {
         "id": "50046",
         "commonName": "EX: Ninja",
-        "effects": "ATK +30%, cast speed x1,30 plus x0,30 for each attack used for the duration of the status, up to x3,40",
+        "effects": "ATK +30%, cast speed x1,30 plus x0,30 for each attack used for the duration of the status, up to x3,40l",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6886,7 +6926,7 @@
     },
     {
         "id": "50195",
-        "commonName": "Stack Mode",
+        "commonName": "Surge Mode",
         "effects": "Critical chance =50%, casts Heat Burst after using a Fire attack, removed if the user doesn't have any Stoneskin",
         "defaultDuration": "-",
         "mndModifier": "-",
@@ -7065,8 +7105,8 @@
     },
     {
         "id": "50213",
-        "commonName": "Snowball Follow-Up",
-        "effects": "Casts Snowball after using a Ice attack",
+        "commonName": "Snowball Toss Follow-Up",
+        "effects": "Casts Snowball Toss after using a Ice attack",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -7605,7 +7645,7 @@
     },
     {
         "id": "50282",
-        "commonName": "EX: Lionheart!",
+        "commonName": "EX: Heart of the Lion",
         "effects": "Casts Renzokuken Fire Fang after using a Spellblade ability",
         "defaultDuration": 15,
         "mndModifier": "-",
@@ -8561,6 +8601,494 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "EX_MODE_GIRL_KNEW_LOVE",
+        "notes": "-"
+    },
+    {
+        "id": "50392",
+        "commonName": "Celestial Rising Thunder Follow-Up",
+        "effects": "Grants Magical High Quick Cast 1 to all allies in the back row after using a Lightning ability, grants Minor Buff Lightning to the party after using three Lightning abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_THUNDER_OF_INNOVATON",
+        "notes": "-"
+    },
+    {
+        "id": "50393",
+        "commonName": "Stratagem of a Genius Follow-Up",
+        "effects": "Casts Mixed Potion after using a White Magic or Support ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_MIXED_POTION",
+        "notes": "-"
+    },
+    {
+        "id": "50394",
+        "commonName": "Wrathful Thunder Follow-Up",
+        "effects": "Casts Lightning Slash after using three Lightning abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_NORTH_STAR_LIGHTNING_SLASH",
+        "notes": "-"
+    },
+    {
+        "id": "50395",
+        "commonName": "Awaken Lightning",
+        "effects": "Lightning abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Lightning abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_LIGHTNING",
+        "notes": "-"
+    },
+    {
+        "id": "50396",
+        "commonName": "Tiny Curaga Follow-Up",
+        "effects": "Casts Tiny Curaga after using two White Magic abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_FULL_CARE",
+        "notes": "-"
+    },
+    {
+        "id": "50397",
+        "commonName": "Evil Sword Follow-Up",
+        "effects": "Casts Evil Blade after using two Darkness attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_DARK_MOON",
+        "notes": "-"
+    },
+    {
+        "id": "50398",
+        "commonName": " 75% Damage Reduction Barrier 3",
+        "effects": "Reduces damage taken by 75% for the next 3 attacks",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_RATE_REDUCTION_BARRIER_FOR_ATTACK_WITH_LARGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "50399",
+        "commonName": "EX: Black Mage",
+        "effects": "Casts Memories of Me after using a Black Magic ability, casts Reason to Exist when removed",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_KEEP_RUN_MAGIC",
+        "notes": "-"
+    },
+    {
+        "id": "50400",
+        "commonName": "Awaken Knight",
+        "effects": "Knight abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Knight abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_KNIGHT",
+        "notes": "-"
+    },
+    {
+        "id": "50403",
+        "commonName": "Pluto Knight Triblade Follow-Up",
+        "effects": "Casts Pluto Knight Triblade, grants Minor Buff Fire, Minor Buff Lightning and Minor Buff Ice after exploiting elemental weakness",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_BLIND_FAITH",
+        "notes": "-"
+    },
+    {
+        "id": "50404",
+        "commonName": "Switch Draw Mode",
+        "effects": "Grants Attach Fire after using a Fire attack, grants Attach Dark after using a Dark attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_SWITCH_DRAW_CLAD",
+        "notes": "-"
+    },
+    {
+        "id": "50405",
+        "commonName": "Intense Fire Follow-Up",
+        "effects": "Casts Intense Fire after using a Fire attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_E3058_1",
+        "notes": "-"
+    },
+    {
+        "id": "50406",
+        "commonName": "Magic Purge Follow-Up",
+        "effects": "Casts Magic Purge after using a Black Magic ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_E3058_3",
+        "notes": "-"
+    },
+    {
+        "id": "50407",
+        "commonName": "Fluffy Dance",
+        "effects": "Casts Fluffy Dance after using a Bard or Dancer ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "HEAL_HP_ALL_IF_DANCER_OR_BARD_CATEGORY",
+        "notes": "-"
+    },
+    {
+        "id": "50408",
+        "commonName": "Chaotic Magic 0",
+        "effects": "Grants Chaotic 1 after using a Black Magic ability, removed if the user hasn't EX: Black Mage",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Chaotic Magic\" status",
+        "codedName": "KEEP_RUN_MAGIC_MODE_BUFF_0",
+        "notes": "-"
+    },
+    {
+        "id": "50409",
+        "commonName": "Chaotic Magic 1",
+        "effects": "MAG +30%, grants Chaotic Magic 2 after using a Black Magic ability, removed if the user hasn't EX: Black Mage",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Chaotic Magic\" status",
+        "codedName": "KEEP_RUN_MAGIC_MODE_BUFF_1",
+        "notes": "-"
+    },
+    {
+        "id": "50410",
+        "commonName": "Chaotic Magic 2",
+        "effects": "MAG +34%, grants Chaotic Magic 3 after using a Black Magic ability, removed if the user hasn't EX: Black Mage",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Chaotic Magic\" status",
+        "codedName": "KEEP_RUN_MAGIC_MODE_BUFF_2",
+        "notes": "-"
+    },
+    {
+        "id": "50411",
+        "commonName": "Chaotic Magic 3",
+        "effects": "MAG +38%, grants Chaotic Magic 4 after using a Black Magic ability, removed if the user hasn't EX: Black Mage ",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Chaotic Magic\" status",
+        "codedName": "KEEP_RUN_MAGIC_MODE_BUFF_3",
+        "notes": "-"
+    },
+    {
+        "id": "50412",
+        "commonName": "Chaotic Magic 4",
+        "effects": "MAG +42%, grants Chaotic Magic 5 after using a Black Magic ability, removed if the user hasn't EX: Black Mage",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Chaotic Magic\" status",
+        "codedName": "KEEP_RUN_MAGIC_MODE_BUFF_4",
+        "notes": "-"
+    },
+    {
+        "id": "50413",
+        "commonName": "Chaotic Magic 5",
+        "effects": "MAG +46%, grants Chaotic Magic 6 after using a Black Magic ability, removed if the user hasn't EX: Black Mage",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Chaotic Magic\" status",
+        "codedName": "KEEP_RUN_MAGIC_MODE_BUFF_5",
+        "notes": "-"
+    },
+    {
+        "id": "50414",
+        "commonName": "Chaotic Magic 6",
+        "effects": "MAG +50%, grants Chaotic Magic 6 after using a Black Magic ability, removed if the user hasn't EX: Black Mage",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "All other \"Chaotic Magic\" status",
+        "codedName": "KEEP_RUN_MAGIC_MODE_BUFF_6",
+        "notes": "-"
+    },
+    {
+        "id": "50415",
+        "commonName": "Enable Overflow",
+        "effects": "Sets damage cap to 99999 for all attacks",
+        "defaultDuration": 25,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ENABLE_OVERFLOW_FOR_ATTACK",
+        "notes": "-"
+    },
+    {
+        "id": "50416",
+        "commonName": "Awaken Earth",
+        "effects": "Earth abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Earth abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_EARTH",
+        "notes": "-"
+    },
+    {
+        "id": "50417",
+        "commonName": "EX: Mystic Radiance",
+        "effects": "MAG +30%, casts Divine Serpent's Blessing after using two White Magic or Summoning attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "EX_MODE_FOR_MYSTERIOUS_GLOW",
+        "notes": "-"
+    },
+    {
+        "id": "50418",
+        "commonName": "Awaken Summoning",
+        "effects": "Summoning abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Summoning abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_SUMMONING",
+        "notes": "-"
+    },
+    {
+        "id": "50419",
+        "commonName": "Awaken Witch",
+        "effects": "Witch abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Witch abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_WITCH",
+        "notes": "-"
+    },
+    {
+        "id": "50420",
+        "commonName": "Awaken Wind",
+        "effects": "Wind abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Wind abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_WIND",
+        "notes": "-"
+    },
+    {
+        "id": "50421",
+        "commonName": "Awaken Lucis King",
+        "effects": "Fire, Earth and Lightning attacks don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Fire, Earth and Lightning attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_LUCIS",
+        "notes": "-"
+    },
+    {
+        "id": "50422",
+        "commonName": "Awaken Ice",
+        "effects": "Ice abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Ice abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_ICE",
+        "notes": "-"
+    },
+    {
+        "id": "50423",
+        "commonName": "Awaken Sorceress Knight",
+        "effects": "Dark and Fire abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Dark and Fire attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_NIGHT_WITCH",
+        "notes": "-"
+    },
+    {
+        "id": "50424",
+        "commonName": "Awaken Indomitable",
+        "effects": "Holy and Ice abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Holy and Ice attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_WIN_ALL_GENERAL",
+        "notes": "-"
+    },
+    {
+        "id": "50425",
+        "commonName": "Royal Mode",
+        "effects": "Cast speed x3,00, casts Melee Shift Break when removed",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ROYAL_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50426",
+        "commonName": "Blasting Freeze",
+        "effects": "Casts Blasting Freeze when removed, removed if the user hasn't Awaken Ice",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "BRASTING_FREEZE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50427",
+        "commonName": "Trinity Summon Follow-Up",
+        "effects": "Casts Trinity Summon after using two Water, Earth or Holy attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_TRINITY_SUMMON",
+        "notes": "-"
+    },
+    {
+        "id": "50428",
+        "commonName": "Cometeor Follow-Up",
+        "effects": "Casts Cometeor after using three Wind attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_COMETEO",
+        "notes": "-"
+    },
+    {
+        "id": "50430",
+        "commonName": "Divine Roar Follow-Up",
+        "effects": "Casts Divine Roar after using two Summoning abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_INVISIBLE_BLOOD",
+        "notes": "-"
+    },
+    {
+        "id": "50431",
+        "commonName": "Cloudy Wolf Mode",
+        "effects": "Grants Instant Cast 1 and 250 SB points after using three wind attacks, removed after triggering",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CLOUDY_WOLF_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50432",
+        "commonName": "Cure Melody Follow-Up",
+        "effects": "Casts Cure Melody after using a White Magic or Bard ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_VIVACHE",
+        "notes": "-"
+    },
+    {
+        "id": "50433",
+        "commonName": "Egotistic Blade Follow-Up",
+        "effects": "Casts Egotistic Blade after using two Dark or Fire attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_SWITCH_DRAW",
+        "notes": "-"
+    },
+    {
+        "id": "50434",
+        "commonName": "Blasting Freeze Counter",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_GOUKEN_ICE",
+        "notes": "-"
+    },
+    {
+        "id": "50435",
+        "commonName": "Divine Ruination Follow-Up",
+        "effects": "Casts Divine Ruination after using two Knight abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_HOLY_CROSS_BLADE",
+        "notes": "-"
+    },
+    {
+        "id": "50437",
+        "commonName": "Runic Awakening Follow-Up",
+        "effects": "Casts Runic Awakening after using two Ice or Holy attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_SPINNING_TWICE",
+        "notes": "-"
+    },
+    {
+        "id": "50438",
+        "commonName": "Awaken Monk",
+        "effects": "Monk abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Monk abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_MONK",
+        "notes": "-"
+    },
+    {
+        "id": "50439",
+        "commonName": "Gaia Crusher Follow-Up",
+        "effects": "Casts Gaia Crusher after using three Monk abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_METEO_ARTS",
+        "notes": "-"
+    },
+    {
+        "id": "50440",
+        "commonName": "Chain Grand Spark Follow-Up",
+        "effects": " Casts Chain Grand Spark after using three Earth attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_CONTINUOUS_GROUND_DRIVE",
+        "notes": "-"
+    },
+    {
+        "id": "50441",
+        "commonName": "Turks Bullet Follow-Up",
+        "effects": "Casts Turks Bullet after using two Fire attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_SPECIAL_BOMB",
+        "notes": "-"
+    },
+    {
+        "id": "50442",
+        "commonName": "Angeal Trance",
+        "effects": "ATK +50%, RES -50%, cast speed ?x",
+        "defaultDuration": 25,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "ANGEAL_TRANCE_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50443",
+        "commonName": "Hard Blast Follow-Up",
+        "effects": "Casts Hard Blast after using three Wind attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_PRIDE_INHERITENCE",
+        "notes": "-"
+    },
+    {
+        "id": "50444",
+        "commonName": " 50% Damage Reduction Barrier 2",
+        "effects": "Reduces damage taken by 50% for the next 2 attacks",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_RATE_REDUCTION_BARRIER_FOR_ATTACK_WITH_MEDIUM_2",
         "notes": "-"
     },
     {

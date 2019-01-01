@@ -6498,7 +6498,7 @@
     {
         "character": "Quina",
         "source": "Angel's Banquet",
-        "name": "Frog Shot",
+        "name": "Frog Rain",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -6512,6 +6512,7 @@
         "school": "Support",
         "name(jp)": "フロッグショット",
         "id": "30513101",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6528,6 +6529,7 @@
         "school": "Support",
         "name(jp)": "ジューシーエナジー",
         "id": "30513102",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -7064,6 +7066,7 @@
         "school": "Support",
         "name(jp)": "ウィザーマジック",
         "id": "30513001",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -7083,6 +7086,7 @@
         "school": "Support",
         "name(jp)": "ウィザーディフェンス",
         "id": "30513002",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -9445,6 +9449,7 @@
         "school": "Ninja",
         "name(jp)": "残影旋風刃",
         "id": "30512781",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -9464,6 +9469,7 @@
         "school": "Ninja",
         "name(jp)": "強甲破投刃",
         "id": "30512782",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -9640,6 +9646,7 @@
         "school": "Knight",
         "name(jp)": "ゴアブレード",
         "id": "30512771",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -9659,6 +9666,7 @@
         "school": "Knight",
         "name(jp)": "フルスイング",
         "id": "30512772",
+        "gl": "✓",
         "✓": "✓"
     },
     {

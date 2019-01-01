@@ -35,6 +35,17 @@
     },
     {
         "realm": "Core",
+        "character": "Tyro",
+        "name": "Phoenix Protector",
+        "effect": "PHY attacks deal 25% more damage when equipping a shield",
+        "master": "ATK +10",
+        "relic": "Erdrick's Shield (Core)",
+        "name(jp)": "不死鳥の守護",
+        "id": "201000203",
+        "✓": "✓"
+    },
+    {
+        "realm": "Core",
         "character": "Elarra",
         "name": "To Be Human",
         "effect": "WHT abilities restore 15% more HP",
@@ -65,6 +76,17 @@
         "name(jp)": "芸術への興味",
         "id": "201000503",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "Core",
+        "character": "Elarra",
+        "name": "Heavenly Miracle",
+        "effect": "Restores HP for 100% of the user's maximum HP and grants Last Stand when HP fall below 20%",
+        "master": "MND +10",
+        "relic": "Priestess Apron (Core)",
+        "name(jp)": "星を救う奇跡",
+        "id": "201000504",
         "✓": "✓"
     },
     {
@@ -100,6 +122,17 @@
     },
     {
         "realm": "Core",
+        "character": "Biggs",
+        "name": "Fearsome Demon",
+        "effect": "PHY attacks deal 25% more damage when equipping heavy armor",
+        "master": "ATK +10",
+        "relic": "Demon Armor (Core)",
+        "name(jp)": "鬼神貫徹",
+        "id": "201004303",
+        "✓": "✓"
+    },
+    {
+        "realm": "Core",
         "character": "Wedge",
         "name": "Affection for Animals",
         "effect": "Increases Wind damage dealt by 10%",
@@ -131,6 +164,17 @@
     },
     {
         "realm": "Core",
+        "character": "Wedge",
+        "name": "Divine Squad",
+        "effect": "100% chance to remove Silence and Blind to the user after being afflicted with Silence or Blind",
+        "master": "ATK +5, MAG +5",
+        "relic": "Divine Robe (Core)",
+        "name(jp)": "破呪の方陣",
+        "id": "201004403",
+        "✓": "✓"
+    },
+    {
+        "realm": "Core",
         "character": "Dr. Mog",
         "name": "Master's Preparation",
         "effect": "Reduces damage taken by BLK attacks by 10%",
@@ -158,6 +202,17 @@
         "relic": "Healing Staff (Core)",
         "name(jp)": "白魔法の熟達者",
         "id": "201004502",
+        "✓": "✓"
+    },
+    {
+        "realm": "Core",
+        "character": "Dr. Mog",
+        "name": "Overflowing Magic",
+        "effect": "35% chance to grant Quick Cast 1 when using a Black Magic or Summoning ability",
+        "master": "MAG +10",
+        "relic": "Metal Slime Hat (Core)",
+        "name(jp)": "あふれる魔力",
+        "id": "201004503",
         "✓": "✓"
     },
     {
@@ -698,7 +753,8 @@
         "master": "ATK +10",
         "relic": "Obelisk (II)",
         "name(jp)": "優秀なる司令官",
-        "id": "201020403"
+        "id": "201020403",
+        "✓": "✓"
     },
     {
         "realm": "II",
@@ -1052,10 +1108,10 @@
     {
         "realm": "III",
         "character": "Luneth",
-        "name": "Quick Valor",
+        "name": "Fast and Furious",
         "effect": "35% chance to grant Quick Cast 1 to the user after using a Wind attack",
         "master": "ATK +10",
-        "relic": "Dragoon Mail (III)",
+        "relic": "Dragoon Armor (III)",
         "name(jp)": "迅速果敢",
         "id": "201030103",
         "✓": "✓"
@@ -1096,6 +1152,26 @@
     },
     {
         "realm": "III",
+        "character": "Arc",
+        "name": "Knowledgeable Child",
+        "effect": "Grants Attach Water at the beginning of the battle",
+        "master": "MND +10",
+        "relic": "Golden Staff (III)",
+        "id": "201030203",
+        "✓": "✓"
+    },
+    {
+        "realm": "III",
+        "character": "Arc",
+        "name": "Headstrong Youth",
+        "effect": "35% chance to dualcast Summoning abilities",
+        "master": "MND +10",
+        "relic": "Royal Crown (III)",
+        "id": "201030204",
+        "✓": "✓"
+    },
+    {
+        "realm": "III",
         "character": "Refia",
         "name": "Light of Affection",
         "effect": "Increases Fire damage dealt by 10%",
@@ -1131,7 +1207,7 @@
     {
         "realm": "III",
         "character": "Refia",
-        "name": "Resolve for Departure",
+        "name": "The Road Ahead",
         "effect": "Grants Attach Fire at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Cat-Ear Hood (III)",
@@ -1183,6 +1259,17 @@
         "name(jp)": "奥ゆかしき凄腕兵士",
         "id": "201030403",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "III",
+        "character": "Ingus",
+        "name": "Silent Knight",
+        "effect": "25% chance to cast an ability (PHY: single, 3x 0,42 physical Earth/NE, restores 1500 HP to an ally) after using a Knight ability",
+        "master": "ATK +10",
+        "relic": "Knight's Helm (III)",
+        "name(jp)": "静かなる騎士",
+        "id": "201030404",
         "✓": "✓"
     },
     {
@@ -1256,12 +1343,13 @@
     {
         "realm": "III",
         "character": "Onion Knight",
-        "name": "Magical Power",
+        "name": "Power Overflowing",
         "effect": "Black Magic abilities deal 25% more damage when equipping a rod",
         "master": "ATK +5, MAG +5",
         "relic": "Onion Helm (III)",
         "name(jp)": "みなぎる魔力",
         "id": "201030603",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1296,6 +1384,16 @@
         "name(jp)": "闇の氾濫より出でし存在",
         "id": "201030702",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "III",
+        "character": "Cloud of Darkness",
+        "name": "Dark Storms",
+        "effect": "Grants Haste and Instant Cast 1 at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Chaos Mace (III)",
+        "id": "201030703",
         "✓": "✓"
     },
     {
@@ -1439,12 +1537,13 @@
     {
         "realm": "IV",
         "character": "Cecil (Paladin)",
-        "name": "Moon's Guidance",
+        "name": "Led by the Moon",
         "effect": "25% chance to dualcast Knight abilities",
         "master": "ATK +10",
         "relic": "Crystal Shield (IV)",
         "name(jp)": "月の導き",
         "id": "201040204",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1495,6 +1594,16 @@
     },
     {
         "realm": "IV",
+        "character": "Kain",
+        "name": "Dragoon's Self-Control",
+        "effect": "25% chance to dualcast Dragoon abilities",
+        "master": "ATK +10",
+        "relic": "Luminous Seeker's Cap (IV)",
+        "name(jp)": "克己の竜騎士",
+        "id": "201040304"
+    },
+    {
+        "realm": "IV",
         "character": "Rydia",
         "name": "Eidolon's Legacy",
         "effect": "SUM attacks deal 10% more damage",
@@ -1542,12 +1651,24 @@
     {
         "realm": "IV",
         "character": "Rydia",
-        "name": "Confronting Destiny",
+        "name": "Opposing Fate",
         "effect": "Grants Attach Earth at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Whale Whisker (IV)",
         "name(jp)": "運命に立ち向かう力",
         "id": "201040404",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "IV",
+        "character": "Rydia",
+        "name": "Pure Honesty",
+        "effect": "SUM attacks deal 25% more damage when equipping a whip",
+        "master": "MAG +10",
+        "relic": "Platinum Bangle (IV)",
+        "name(jp)": "気負いなき素直さ",
+        "id": "201040405",
         "✓": "✓"
     },
     {
@@ -1632,12 +1753,13 @@
     {
         "realm": "IV",
         "character": "Edward",
-        "name": "Courageous Man",
+        "name": "Man of Courage",
         "effect": "Grants Quick Cast 3 at the beginning of the battle",
         "master": "ATK +10",
-        "relic": "Loki's Lute (IV)",
+        "relic": "Loki Harp (IV)",
         "name(jp)": "勇気のある男",
         "id": "201040703",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1706,6 +1828,17 @@
         "name(jp)": "いたずら好きの少年",
         "id": "201040902",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "IV",
+        "character": "Palom",
+        "name": "Aspiring Sage",
+        "effect": "BLK attacks deal 25% more damage when equipping a rod",
+        "master": "MAG +10",
+        "relic": "Sage's Robe (IV)",
+        "name(jp)": "賢者への憧れ",
+        "id": "201041003",
         "✓": "✓"
     },
     {
@@ -2011,6 +2144,34 @@
         "name(jp)": "師父と歩む道",
         "id": "201042103",
         "✓": "✓"
+    },
+    {
+        "realm": "IV",
+        "character": "Rubicante",
+        "name": "Leader of the Four Heavenly Kings",
+        "effect": "Increases Fire damage dealt by 10%",
+        "relic": "-",
+        "name(jp)": "四天王のリーダー格",
+        "id": "201042000"
+    },
+    {
+        "realm": "IV",
+        "character": "Rubicante",
+        "name": "Respect for Bravery",
+        "effect": "35% chance to dualcast abilities that deal Fire damage",
+        "relic": "-",
+        "name(jp)": "勇者への敬意",
+        "id": "201042001"
+    },
+    {
+        "realm": "IV",
+        "character": "Rubicante",
+        "name": "Crimson Cloaked Warrior",
+        "effect": "Grants Attach Fire at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Duel Claw (IV)",
+        "name(jp)": "紅きマントの武人",
+        "id": "201042002"
     },
     {
         "realm": "IV",
@@ -2506,7 +2667,8 @@
         "master": "ATK +10",
         "relic": "Triton Dagger (V)",
         "name(jp)": "衰えぬ正義の心",
-        "id": "201051703"
+        "id": "201051703",
+        "✓": "✓"
     },
     {
         "realm": "V",
@@ -2572,7 +2734,8 @@
         "master": "MAG +10",
         "relic": "Healing Rod (VI)",
         "name(jp)": "未来を守る力",
-        "id": "201060104"
+        "id": "201060104",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -2736,12 +2899,13 @@
     {
         "realm": "VI",
         "character": "Edgar",
-        "name": "Eccentric Developer",
+        "name": "Awkward Inventor",
         "effect": "20% chance to cause Minor Imperil Fire to the target after using a Machinist ability on an enemy",
         "master": "ATK +10",
         "relic": "Edgar's Sword (VI)",
         "name(jp)": "ヘンな武器開発",
         "id": "201060603",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2781,12 +2945,13 @@
     {
         "realm": "VI",
         "character": "Sabin",
-        "name": "Fervent Fighter",
+        "name": "Boisterous Brawler",
         "effect": "Grants Attach Fire at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Sonic Knuckles (VI)",
         "name(jp)": "闘志溢れる格闘家",
         "id": "201060703",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2871,32 +3036,35 @@
     {
         "realm": "VI",
         "character": "Gau",
-        "name": "Dried Meat Lover",
+        "name": "Dried Meat Connoisseur",
         "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "ほしにくだいすき",
         "id": "201061000",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "VI",
         "character": "Gau",
-        "name": "Empathy of Nature",
+        "name": "Natural Instincts",
         "effect": "35% chance to dualcast Combat or Celerity abilities",
         "relic": "-",
         "name(jp)": "自然のままの感性",
         "id": "201061001",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "VI",
         "character": "Gau",
-        "name": "Wild Side",
+        "name": "Untamed Energy",
         "effect": "Restores HP for 100% of the user's maximum HP and grants Extended Quick Cast when HP fall below 20%",
         "master": "ATK +10",
         "relic": "Dueling Mask (VI)",
         "name(jp)": "野生の底力",
         "id": "201061002",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3027,12 +3195,13 @@
     {
         "realm": "VI",
         "character": "Relm",
-        "name": "Enchanted Brush",
+        "name": "Stroke of Genius",
         "effect": "25% chance to dualcast White Magic abilities",
         "master": "MND +10",
         "relic": "Jade Armlet (VI)",
         "name(jp)": "魅惑の筆致",
         "id": "201061303",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3083,12 +3252,13 @@
     {
         "realm": "VI",
         "character": "Gogo (VI)",
-        "name": "Thorough Mimicry",
+        "name": "Masterful Mimic",
         "effect": "Mimic attacks deal 25% more damage",
         "master": "ATK +5, MAG +5",
-        "relic": "Mime's Robe (VI)",
+        "relic": "Mimic's Robe (VI)",
         "name(jp)": "徹底したものまね",
         "id": "201061403",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3099,27 +3269,30 @@
         "relic": "-",
         "name(jp)": "ナルシェの雪男",
         "id": "201061500",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "VI",
         "character": "Umaro",
-        "name": "Master's Big Boy",
+        "name": "Furry Sidekick",
         "effect": "35% chance to dualcast abilities that deal Ice damage",
         "relic": "-",
         "name(jp)": "親分を慕う大きな子分",
         "id": "201061501",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "VI",
         "character": "Umaro",
-        "name": "Uga!",
+        "name": "Ughaaa!",
         "effect": "Grants Attach Ice at the beginning of the battle",
         "master": "ATK +10",
-        "relic": "Gaia Hammer (VI)",
+        "relic": "Earth Mallet (VI)",
         "name(jp)": "ウガー！",
         "id": "201061502",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -3164,7 +3337,8 @@
         "master": "MAG +10",
         "relic": "Aona Flute (VI)",
         "name(jp)": "破壊の喜び",
-        "id": "201061603"
+        "id": "201061603",
+        "✓": "✓"
     },
     {
         "realm": "VI",
@@ -3279,6 +3453,16 @@
         "name(jp)": "偽りの青年剣士",
         "id": "201070106",
         "✓": "✓"
+    },
+    {
+        "realm": "VII",
+        "character": "Cloud",
+        "name": "Self-Forgiveness",
+        "effect": "PHY attacks deal 20% more damage when equipping a sword",
+        "master": "ATK +10",
+        "relic": "Flametongue (VII)",
+        "name(jp)": "己を許す決意",
+        "id": "201070107"
     },
     {
         "realm": "VII",
@@ -3544,6 +3728,16 @@
     },
     {
         "realm": "VII",
+        "character": "Vincent",
+        "name": "Beast Genetics",
+        "effect": "Grants Quick Cast 3 at the beginning of the battle",
+        "master": "ATK +5, MAG +5",
+        "relic": "Vincent's Gauntlet (DoC) (VII)",
+        "name(jp)": "魔獣の因子",
+        "id": "201070803"
+    },
+    {
+        "realm": "VII",
         "character": "Zack",
         "name": "SOLDIER's Honor",
         "effect": "Celerity abilities deal 15% more damage",
@@ -3575,6 +3769,16 @@
         "id": "201070902",
         "gl": "✓",
         "✓": "✓"
+    },
+    {
+        "realm": "VII",
+        "character": "Zack",
+        "name": "SOLDIER's Dream",
+        "effect": "25% chance to dualcast abilities that deal Wind damage",
+        "master": "ATK +10",
+        "relic": "Swimwear (CC) (VII)",
+        "name(jp)": "ソルジャーの夢",
+        "id": "201070903"
     },
     {
         "realm": "VII",
@@ -3758,6 +3962,72 @@
         "✓": "✓"
     },
     {
+        "realm": "VII",
+        "character": "Angeal",
+        "effect": "PHY attacks deal ?% more damage",
+        "id": "201071500"
+    },
+    {
+        "realm": "VII",
+        "character": "Angeal",
+        "effect": "Restores HP for ?% of the user's maximum HP and grants Angeal Trance when HP fall below ?%",
+        "id": "201071501"
+    },
+    {
+        "realm": "VII",
+        "character": "Angeal",
+        "name": "Spread White Wing",
+        "effect": "25% chance to dualcast abilities that deal Holy or Wind damage",
+        "master": "ATK +10",
+        "relic": "Heavy Lance (CC) (VII)",
+        "name(jp)": "羽ばたく白き翼",
+        "id": "201071502"
+    },
+    {
+        "realm": "VII",
+        "character": "Rude",
+        "effect": "Increases Earth damage dealt by ?%",
+        "id": "201072000"
+    },
+    {
+        "realm": "VII",
+        "character": "Rude",
+        "effect": "?% chance to dualcast abilities that deal Earth damage",
+        "id": "201072001"
+    },
+    {
+        "realm": "VII",
+        "character": "Rude",
+        "name": "Love of Enemies",
+        "effect": "Grants Attach Earth at the beginning of the battle",
+        "master": "ATK +5, MAG +5",
+        "relic": "Shinra Headset (VII)",
+        "name(jp)": "敵方への恋心",
+        "id": "201072002"
+    },
+    {
+        "realm": "VII",
+        "character": "Elena",
+        "effect": "Increases Fire damage dealt by ?%",
+        "id": "201072100"
+    },
+    {
+        "realm": "VII",
+        "character": "Elena",
+        "effect": "Grants Haste and Instant Cast ? at the beginning of the battle",
+        "id": "201072101"
+    },
+    {
+        "realm": "VII",
+        "character": "Elena",
+        "name": "Crush on Leader",
+        "effect": "25% chance to dualcast Sharpshooter abilities",
+        "master": "ATK +10",
+        "relic": "Commander (VII)",
+        "name(jp)": "主任への淡き想い",
+        "id": "201072102"
+    },
+    {
         "realm": "VIII",
         "character": "Squall",
         "name": "Heart of the Lion",
@@ -3794,13 +4064,23 @@
     {
         "realm": "VIII",
         "character": "Squall",
-        "name": "Inherited Charisma",
+        "name": "Hidden Charms",
         "effect": "Grants Attach Fire at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Survival Vest (VIII)",
         "name(jp)": "父親譲りのカリスマ性",
         "id": "201080103",
         "✓": "✓"
+    },
+    {
+        "realm": "VIII",
+        "character": "Squall",
+        "name": "Rush to the Battlefield",
+        "effect": "Grants Quick Cast 3 at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Squall's Hyperion (VIII)",
+        "name(jp)": "戦場を駆ける獅子",
+        "id": "201080104"
     },
     {
         "realm": "VIII",
@@ -3943,7 +4223,7 @@
     {
         "realm": "VIII",
         "character": "Zell",
-        "name": "Trained Technics",
+        "name": "Prize Fighter",
         "effect": "25% chance to dualcast Monk abilities",
         "master": "ATK +10",
         "relic": "Godhand (VIII)",
@@ -4159,7 +4439,7 @@
     {
         "realm": "VIII",
         "character": "Edea",
-        "name": "Freed from Enchantment",
+        "name": "Succession Broken",
         "effect": "Grants Attach Ice at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Rod of Darkness (VIII)",
@@ -4170,7 +4450,7 @@
     {
         "realm": "VIII",
         "character": "Edea",
-        "name": "Concealed Motherhood",
+        "name": "Mother Figure",
         "effect": "25% chance to dualcast abilities that deal Ice damage",
         "master": "MAG +10",
         "relic": "Edea's Cardinal (VIII)",
@@ -4397,6 +4677,17 @@
     },
     {
         "realm": "IX",
+        "character": "Garnet",
+        "name": "Conqueror of Trials",
+        "effect": "Grants Attach Lightning at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Faerie Tail (IX)",
+        "name(jp)": "試練を越えし姫",
+        "id": "201090204",
+        "✓": "✓"
+    },
+    {
+        "realm": "IX",
         "character": "Vivi",
         "name": "Spark of Memory",
         "effect": "Increases Fire damage dealt by 10%",
@@ -4443,6 +4734,17 @@
     },
     {
         "realm": "IX",
+        "character": "Vivi",
+        "name": "Magus Potential",
+        "effect": "Black Magic abilities deal 25% more damage when equipping a rod",
+        "master": "MAG +10",
+        "relic": "Vivi's Gloves (IX)",
+        "name(jp)": "潜在する魔道の力",
+        "id": "201090304",
+        "✓": "✓"
+    },
+    {
+        "realm": "IX",
         "character": "Steiner",
         "name": "For the Crown",
         "effect": "PHY attacks deal 10% more damage when equipping a sword",
@@ -4484,6 +4786,17 @@
         "relic": "Gold Helm (IX)",
         "name(jp)": "忠実な近衛騎士",
         "id": "201090403",
+        "✓": "✓"
+    },
+    {
+        "realm": "IX",
+        "character": "Steiner",
+        "name": "Self-Conviction",
+        "effect": "Spellblade abilities deal 25% more damage when equipping a sword",
+        "master": "ATK +10",
+        "relic": "Blood Sword (IX)",
+        "name(jp)": "身につけた判断力",
+        "id": "201090404",
         "✓": "✓"
     },
     {
@@ -4574,6 +4887,7 @@
         "relic": "Quina's Toque Blanche (IX)",
         "name(jp)": "飽くなき食探究への道",
         "id": "201090603",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4657,6 +4971,17 @@
     },
     {
         "realm": "IX",
+        "character": "Amarant",
+        "name": "Cool Guard",
+        "effect": "25% chance to dualcast Monk abilities",
+        "master": "ATK +10",
+        "relic": "Judo Uniform (IX)",
+        "name(jp)": "クールな用心棒",
+        "id": "201090803",
+        "✓": "✓"
+    },
+    {
+        "realm": "IX",
         "character": "Beatrix",
         "name": "First Paladin",
         "effect": "Increases Holy damage dealt by 10%",
@@ -4697,7 +5022,8 @@
         "master": "ATK +10",
         "relic": "Minerva's Plate (IX)",
         "name(jp)": "美しき女将軍",
-        "id": "201090903"
+        "id": "201090903",
+        "✓": "✓"
     },
     {
         "realm": "IX",
@@ -4736,21 +5062,23 @@
     {
         "realm": "IX",
         "character": "Marcus",
-        "name": "Sensible Tantalus",
+        "name": "Tantalus Stalwart",
         "effect": "Thief abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "タンタラスの常識人",
         "id": "201091501",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "IX",
         "character": "Marcus",
-        "name": "Unseen Power",
+        "name": "In the Shadows",
         "effect": "35% chance to dualcast Thief abilities",
         "relic": "-",
         "name(jp)": "陰の実力者",
         "id": "201091502",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4762,6 +5090,7 @@
         "relic": "Marcus's Armlet (IX)",
         "name(jp)": "真面目なコワモテ青年",
         "id": "201091500",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4937,7 +5266,7 @@
     {
         "realm": "X",
         "character": "Lulu",
-        "name": "Wealth of Knowledge",
+        "name": "Depths of Knowledge",
         "effect": "Grants Attach Ice at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Crimson Bangle (X)",
@@ -5202,7 +5531,8 @@
         "master": "ATK +10",
         "relic": "Paine's Samurai Guise (X)",
         "name(jp)": "求めし過去の真実",
-        "id": "201101503"
+        "id": "201101503",
+        "✓": "✓"
     },
     {
         "realm": "X",
@@ -5246,7 +5576,8 @@
         "master": "MAG +10",
         "relic": "Chaos Mace (X)",
         "name(jp)": "父への憎悪",
-        "id": "201101803"
+        "id": "201101803",
+        "✓": "✓"
     },
     {
         "realm": "XI",
@@ -5292,6 +5623,17 @@
         "name(jp)": "傍若無人なご婦人",
         "id": "201110103",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "XI",
+        "character": "Shantotto",
+        "name": "Strongest Black Mage",
+        "effect": "MAG +1% for each hit dealt with BLK attacks, up to 20%",
+        "master": "MAG +10",
+        "relic": "Black Cloak (XI)",
+        "name(jp)": "最凶の黒魔道士",
+        "id": "201110104",
         "✓": "✓"
     },
     {
@@ -5639,7 +5981,7 @@
     {
         "realm": "XII",
         "character": "Balthier",
-        "name": "The Sky Pirate's Way",
+        "name": "A Pirate's Life",
         "effect": "Grants Attach Fire at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Antares (XII)",
@@ -5763,6 +6105,16 @@
     },
     {
         "realm": "XII",
+        "character": "Ashe",
+        "name": "Self Chosen Future",
+        "effect": "25% chance to cast an ability (?: single, 3x ? magical Lightning/NE, restores 1500 HP to ally) after using an ability that deals Lightning damage",
+        "master": "MAG +10",
+        "relic": "Golden Shield (XII)",
+        "name(jp)": "自らが選ぶ未来",
+        "id": "201120503"
+    },
+    {
+        "realm": "XII",
         "character": "Penelo",
         "name": "Fearless Friend",
         "effect": "WHT abilities restore 15% more HP",
@@ -5832,7 +6184,7 @@
     {
         "realm": "XII",
         "character": "Gabranth",
-        "name": "Bloodthirsty Avenger",
+        "name": "Bound by Vengeance",
         "effect": "?% chance to dualcast abilities that deal Dark damage",
         "master": "ATK +10",
         "relic": "Gabranth's Gauntlet (XII)",
@@ -5871,6 +6223,17 @@
         "name(jp)": "歪みを正す信念",
         "id": "201120802",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "XII",
+        "character": "Larsa",
+        "name": "Young Successor",
+        "effect": "35% chance to grant Astra after using a White Magic ability",
+        "master": "MND +10",
+        "relic": "Lambent Hat (XII)",
+        "name(jp)": "閃光魔帽",
+        "id": "201120803",
         "✓": "✓"
     },
     {
@@ -6063,7 +6426,8 @@
         "master": "ATK +10",
         "relic": "Solaris (XIII)",
         "name(jp)": "ノラの大将",
-        "id": "201130204"
+        "id": "201130204",
+        "✓": "✓"
     },
     {
         "realm": "XIII",
@@ -6481,6 +6845,7 @@
         "relic": "Hofuds (XIV)",
         "name(jp)": "天性の身軽さ",
         "id": "201140203",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6628,6 +6993,7 @@
         "relic": "Ironworks Magitek Sword (XIV)",
         "name(jp)": "リンクシェル達人",
         "id": "201140703",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6799,6 +7165,16 @@
         "id": "201150102",
         "gl": "✓",
         "✓": "✓"
+    },
+    {
+        "realm": "XV",
+        "character": "Noctis",
+        "name": "Dawnbringer",
+        "effect": "PHY attacks deal 20% more damage when equipping a sword",
+        "master": "ATK +10",
+        "relic": "Rune Saber (XV)",
+        "name(jp)": "夜明けをもたらす者",
+        "id": "201150103"
     },
     {
         "realm": "XV",
@@ -7082,7 +7458,8 @@
         "master": "ATK +10",
         "relic": "Carabineer Mail (FFT)",
         "name(jp)": "王女の守護者",
-        "id": "201500203"
+        "id": "201500203",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
@@ -7121,7 +7498,7 @@
     {
         "realm": "FFT",
         "character": "Delita",
-        "name": "For Our Own Justice",
+        "name": "Lowborn Justice",
         "effect": "Spellblade abilities deal 25% more damage when equipping a sword",
         "master": "ATK +10",
         "relic": "Golden Helm (FFT)",
@@ -7535,7 +7912,7 @@
     {
         "realm": "FFT",
         "character": "Orran",
-        "name": "Strategist of the Southern Sky",
+        "name": "Southern Sky Tactics",
         "effect": "?% chance to cast an ability (WHT: group, restores HP (?)) after using a White Magic ability",
         "master": "MND +10",
         "relic": "Battle Folio (FFT)",
@@ -7621,6 +7998,16 @@
         "id": "201600202",
         "gl": "✓",
         "✓": "✓"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Deuce",
+        "name": "Humble Manner",
+        "effect": "?% chance to grant Heals +?% for ? seconds to the user after using a Bard ability",
+        "master": "MND +10",
+        "relic": "Baroque Flute (Type-0)",
+        "name(jp)": "ひかえめな態度",
+        "id": "201600203"
     },
     {
         "realm": "Type-0",
@@ -7940,7 +8327,7 @@
     {
         "realm": "Type-0",
         "character": "Jack",
-        "name": "Wielder of One Blade",
+        "name": "Edge of Flame",
         "effect": "Grants Attach Fire at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Diamond Gloves (Type-0)",
@@ -7952,19 +8339,21 @@
         "realm": "Type-0",
         "character": "Eight",
         "name": "Tranquil Enthusiasm",
-        "effect": "Monk abilities deal ?% more damage",
+        "effect": "Monk abilities deal 15% more damage",
         "relic": "-",
         "name(jp)": "静かなる熱意",
-        "id": "201601200"
+        "id": "201601200",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Eight",
         "name": "Fists for Justice",
-        "effect": "Restores HP for 100% of the user's maximum HP and grants Eight Trance when HP fall below ?%",
+        "effect": "Restores HP for 100% of the user's maximum HP and grants Eight Trance when HP fall below 20%",
         "relic": "-",
         "name(jp)": "正義を掲げる拳",
-        "id": "201601201"
+        "id": "201601201",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
