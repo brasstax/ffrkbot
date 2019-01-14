@@ -339,7 +339,7 @@
     {
         "character": "Arc",
         "source": "Heavenly Rains",
-        "name": "Living Spring",
+        "name": "Life Fountain",
         "brave": 0,
         "type": "WHT",
         "target": "Single ally",
@@ -355,12 +355,13 @@
         "braveCondition": "White Magic",
         "name(jp)": "命脈の泉",
         "id": "30542211",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "character": "Arc",
         "source": "Heavenly Rains",
-        "name": "Living Spring",
+        "name": "Life Fountain",
         "brave": 1,
         "type": "WHT",
         "target": "All allies",
@@ -376,12 +377,13 @@
         "braveCondition": "White Magic",
         "name(jp)": "命脈の泉",
         "id": "30542212",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "character": "Arc",
         "source": "Heavenly Rains",
-        "name": "Living Spring",
+        "name": "Life Fountain",
         "brave": 2,
         "type": "WHT",
         "target": "All allies",
@@ -394,12 +396,13 @@
         "braveCondition": "White Magic",
         "name(jp)": "命脈の泉",
         "id": "30542213",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "character": "Arc",
         "source": "Heavenly Rains",
-        "name": "Living Spring",
+        "name": "Life Fountain",
         "brave": 3,
         "type": "WHT",
         "target": "All allies",
@@ -415,6 +418,7 @@
         "braveCondition": "White Magic",
         "name(jp)": "命脈の泉",
         "id": "30542214",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1295,6 +1299,7 @@
         "braveCondition": "Fire",
         "name(jp)": "ビーストシュート",
         "id": "30544084",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1316,6 +1321,7 @@
         "braveCondition": "Fire",
         "name(jp)": "ビーストシュート",
         "id": "30544085",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1337,6 +1343,7 @@
         "braveCondition": "Fire",
         "name(jp)": "ビーストシュート",
         "id": "30544122",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1358,6 +1365,7 @@
         "braveCondition": "Fire",
         "name(jp)": "ビーストシュート",
         "id": "30544086",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1379,6 +1387,7 @@
         "braveCondition": "Lightning",
         "name(jp)": "スパークロッド",
         "id": "30544110",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1400,6 +1409,7 @@
         "braveCondition": "Lightning",
         "name(jp)": "スパークロッド",
         "id": "30544111",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1421,6 +1431,7 @@
         "braveCondition": "Lightning",
         "name(jp)": "スパークロッド",
         "id": "30544112",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1442,6 +1453,7 @@
         "braveCondition": "Lightning",
         "name(jp)": "スパークロッド",
         "id": "30544113",
+        "gl": "✓",
         "✓": "✓"
     },
     {

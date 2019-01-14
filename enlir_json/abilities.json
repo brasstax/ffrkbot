@@ -3902,6 +3902,21 @@
         "✓": "✓"
     },
     {
+        "school": "Celerity",
+        "name": "Ripper Plasma",
+        "rarity": 6,
+        "type": "?",
+        "target": "?",
+        "formula": "?",
+        "multiplier": "?",
+        "element": "Lightning",
+        "effects": "4/5/6 single attacks (? each) if the user used ?/? damaging actions",
+        "orb1Required": "Power Crystal",
+        "orb2Required": "Non-Elemental Crystal",
+        "orb3Required": "Lightning Crystal",
+        "orb4Required": "Ability Record"
+    },
+    {
         "school": "Summoning",
         "name": "Goblin",
         "rarity": 1,
@@ -4739,6 +4754,7 @@
         "introducingEvent": "Crusher of Hopes",
         "name(jp)": "ルナイフリート",
         "id": "30131391",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5941,6 +5957,29 @@
         "name(jp)": "インパルスダイブ",
         "id": "30181141",
         "✓": "✓"
+    },
+    {
+        "school": "Dragoon",
+        "name": "Rainy Screw",
+        "rarity": 5,
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 3.2,
+        "element": "Water",
+        "time": 0.01,
+        "effects": "Four single ranged jump attacks (0,80 each), air time (1.65 sec.)",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 75,
+        "uses": 2,
+        "max": 10,
+        "orb1Required": "Major Fire",
+        "orb2Required": "Major Ice",
+        "orb3Required": "Major Wind",
+        "introducingEvent": "Hornless' Unbroken Spirit",
+        "name(jp)": "レイニースクリュー",
+        "id": "30181151"
     },
     {
         "school": "Monk",
@@ -7582,7 +7621,7 @@
     },
     {
         "school": "Samurai",
-        "name": "Warring Burst",
+        "name": "Fire-Touched Blade",
         "rarity": 6,
         "type": "PHY",
         "target": "Single enemy",
@@ -7603,6 +7642,7 @@
         "introducingEvent": "Crusher of Hopes",
         "name(jp)": "抜刀ノ弐・火閃",
         "id": "30221171",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -8935,7 +8975,7 @@
     },
     {
         "school": "Machinist",
-        "name": "Heat Offering",
+        "name": "Burnt Offering",
         "rarity": 6,
         "type": "PHY",
         "target": "Single enemy",
@@ -8956,6 +8996,7 @@
         "introducingEvent": "Crusher of Hopes",
         "name(jp)": "フレイムオファ",
         "id": "30261141",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -8982,6 +9023,23 @@
         "name(jp)": "フロストオファ",
         "id": "30261151",
         "✓": "✓"
+    },
+    {
+        "school": "Machinist",
+        "name": "Plasma Offering",
+        "rarity": 6,
+        "type": "?",
+        "target": "?",
+        "formula": "?",
+        "multiplier": "?",
+        "element": "Lightning",
+        "time": "?",
+        "effects": "Four single ranged attacks (? each), ?% chance to cause Imperil Lightning ?% for ? seconds",
+        "orb1Required": "Non-Elemental Crystal",
+        "orb2Required": "Lightning Crystal",
+        "orb3Required": "Wind Crystal",
+        "orb4Required": "Ability Record",
+        "introducingEvent": "Electrifying Wishes"
     },
     {
         "school": "Darkness",

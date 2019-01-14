@@ -1114,6 +1114,7 @@
         "relic": "Dragoon Armor (III)",
         "name(jp)": "迅速果敢",
         "id": "201030103",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1213,6 +1214,7 @@
         "relic": "Cat-Ear Hood (III)",
         "name(jp)": "旅立ちの決意",
         "id": "201030303",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -1600,7 +1602,8 @@
         "master": "ATK +10",
         "relic": "Luminous Seeker's Cap (IV)",
         "name(jp)": "克己の竜騎士",
-        "id": "201040304"
+        "id": "201040304",
+        "✓": "✓"
     },
     {
         "realm": "IV",
@@ -2152,7 +2155,8 @@
         "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "四天王のリーダー格",
-        "id": "201042000"
+        "id": "201042000",
+        "✓": "✓"
     },
     {
         "realm": "IV",
@@ -2161,7 +2165,8 @@
         "effect": "35% chance to dualcast abilities that deal Fire damage",
         "relic": "-",
         "name(jp)": "勇者への敬意",
-        "id": "201042001"
+        "id": "201042001",
+        "✓": "✓"
     },
     {
         "realm": "IV",
@@ -2322,7 +2327,7 @@
     {
         "realm": "V",
         "character": "Gogo (V)",
-        "name": "Eccentric of the Dephts",
+        "name": "Eccentric of the Depths",
         "effect": "Water attacks deal 25% more damage when equipping a rod",
         "master": "MAG +10",
         "relic": "Power Rod (V)",
@@ -3462,7 +3467,8 @@
         "master": "ATK +10",
         "relic": "Flametongue (VII)",
         "name(jp)": "己を許す決意",
-        "id": "201070107"
+        "id": "201070107",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -3734,7 +3740,8 @@
         "master": "ATK +5, MAG +5",
         "relic": "Vincent's Gauntlet (DoC) (VII)",
         "name(jp)": "魔獣の因子",
-        "id": "201070803"
+        "id": "201070803",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -3778,7 +3785,8 @@
         "master": "ATK +10",
         "relic": "Swimwear (CC) (VII)",
         "name(jp)": "ソルジャーの夢",
-        "id": "201070903"
+        "id": "201070903",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -3964,14 +3972,18 @@
     {
         "realm": "VII",
         "character": "Angeal",
-        "effect": "PHY attacks deal ?% more damage",
-        "id": "201071500"
+        "name": "1st Class Mediator",
+        "effect": "PHY attacks deal 10% more damage",
+        "id": "201071500",
+        "✓": "✓"
     },
     {
         "realm": "VII",
         "character": "Angeal",
-        "effect": "Restores HP for ?% of the user's maximum HP and grants Angeal Trance when HP fall below ?%",
-        "id": "201071501"
+        "name": "Respected Warrior",
+        "effect": "Restores HP for 100% of the user's maximum HP and grants Angeal Trance when HP fall below 20%",
+        "id": "201071501",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -3981,17 +3993,20 @@
         "master": "ATK +10",
         "relic": "Heavy Lance (CC) (VII)",
         "name(jp)": "羽ばたく白き翼",
-        "id": "201071502"
+        "id": "201071502",
+        "✓": "✓"
     },
     {
         "realm": "VII",
         "character": "Rude",
+        "name": "Humorous Nature",
         "effect": "Increases Earth damage dealt by ?%",
         "id": "201072000"
     },
     {
         "realm": "VII",
         "character": "Rude",
+        "name": "Actions Before Words",
         "effect": "?% chance to dualcast abilities that deal Earth damage",
         "id": "201072001"
     },
@@ -4008,12 +4023,14 @@
     {
         "realm": "VII",
         "character": "Elena",
+        "name": "Careless Recruit",
         "effect": "Increases Fire damage dealt by ?%",
         "id": "201072100"
     },
     {
         "realm": "VII",
         "character": "Elena",
+        "name": "Passion for the Job",
         "effect": "Grants Haste and Instant Cast ? at the beginning of the battle",
         "id": "201072101"
     },
@@ -4025,7 +4042,8 @@
         "master": "ATK +10",
         "relic": "Commander (VII)",
         "name(jp)": "主任への淡き想い",
-        "id": "201072102"
+        "id": "201072102",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -4080,7 +4098,8 @@
         "master": "ATK +10",
         "relic": "Squall's Hyperion (VIII)",
         "name(jp)": "戦場を駆ける獅子",
-        "id": "201080104"
+        "id": "201080104",
+        "✓": "✓"
     },
     {
         "realm": "VIII",
@@ -4229,6 +4248,7 @@
         "relic": "Godhand (VIII)",
         "name(jp)": "長けた格闘術",
         "id": "201080403",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5272,6 +5292,18 @@
         "relic": "Crimson Bangle (X)",
         "name(jp)": "豊富な知識",
         "id": "201100403",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "X",
+        "character": "Lulu",
+        "name": "Self-Condemnation's End",
+        "effect": "Grants Attach Water at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Guardian Bangle (X)",
+        "name(jp)": "自責との決着",
+        "id": "201100404",
         "✓": "✓"
     },
     {
@@ -5303,6 +5335,17 @@
         "relic": "Thanatos Lance (X)",
         "name(jp)": "槍に宿りし怒り",
         "id": "201100502",
+        "✓": "✓"
+    },
+    {
+        "realm": "X",
+        "character": "Kimahri",
+        "name": "Dutiful Guardian",
+        "effect": "Grants Attach Water at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Harpoon (X)",
+        "name(jp)": "義理堅き守り人",
+        "id": "201100503",
         "✓": "✓"
     },
     {
@@ -6107,11 +6150,12 @@
         "realm": "XII",
         "character": "Ashe",
         "name": "Self Chosen Future",
-        "effect": "25% chance to cast an ability (?: single, 3x ? magical Lightning/NE, restores 1500 HP to ally) after using an ability that deals Lightning damage",
+        "effect": "25% chance to cast an ability (BLK: single, 3x 3,03 magical Lightning/NE, restores 1500 HP to the lowest HP% ally) after using an ability that deals Lightning damage",
         "master": "MAG +10",
         "relic": "Golden Shield (XII)",
         "name(jp)": "自らが選ぶ未来",
-        "id": "201120503"
+        "id": "201120503",
+        "✓": "✓"
     },
     {
         "realm": "XII",
@@ -7174,7 +7218,8 @@
         "master": "ATK +10",
         "relic": "Rune Saber (XV)",
         "name(jp)": "夜明けをもたらす者",
-        "id": "201150103"
+        "id": "201150103",
+        "✓": "✓"
     },
     {
         "realm": "XV",
@@ -8003,11 +8048,12 @@
         "realm": "Type-0",
         "character": "Deuce",
         "name": "Humble Manner",
-        "effect": "?% chance to grant Heals +?% for ? seconds to the user after using a Bard ability",
+        "effect": "25% chance to grant Heals +30% for 10 seconds to the user after using a Bard ability",
         "master": "MND +10",
         "relic": "Baroque Flute (Type-0)",
         "name(jp)": "ひかえめな態度",
-        "id": "201600203"
+        "id": "201600203",
+        "✓": "✓"
     },
     {
         "realm": "Type-0",
@@ -8307,21 +8353,23 @@
     {
         "realm": "Type-0",
         "character": "Jack",
-        "name": "A Reason to Smile",
+        "name": "Reason to Smile",
         "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "笑顔の理由",
         "id": "201601100",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "Type-0",
         "character": "Jack",
-        "name": "Essence of Control",
+        "name": "Stoic Soul",
         "effect": "Grants Retaliate and 75% Critical when HP fall below 20%",
         "relic": "-",
         "name(jp)": "克己的な本質",
         "id": "201601101",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -8333,6 +8381,7 @@
         "relic": "Diamond Gloves (Type-0)",
         "name(jp)": "二の太刀いらずの剣士",
         "id": "201601102",
+        "gl": "✓",
         "✓": "✓"
     },
     {

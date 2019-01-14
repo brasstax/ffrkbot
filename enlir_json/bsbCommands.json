@@ -2709,7 +2709,7 @@
         "effects": "Casts the last ability used by an ally, default ability (PHY: single, 1,50 physical), cast time -0,15 for each previous use",
         "counter": "N",
         "autoTarget": "-",
-        "sb": 0,
+        "sb": 180,
         "school": "Special",
         "name(jp)": "ものまね道",
         "id": "30511431",
@@ -4014,7 +4014,7 @@
         "effects": "Casts the last ability used by an ally, default ability (PHY: single, 1,50 physical)",
         "counter": "N",
         "autoTarget": "-",
-        "sb": 0,
+        "sb": 180,
         "school": "Special",
         "name(jp)": "クイックミミック",
         "id": "30511851",
@@ -10848,7 +10848,7 @@
     {
         "character": "Ace",
         "source": "Firaga SHG",
-        "name": "Fast Card",
+        "name": "Card Haste",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
@@ -10862,6 +10862,7 @@
         "school": "Black Magic",
         "name(jp)": "ファストカード",
         "id": "30513401",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -10881,6 +10882,7 @@
         "school": "Black Magic",
         "name(jp)": "スピリットデッキ",
         "id": "30513402",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -11240,7 +11242,7 @@
     {
         "character": "Jack",
         "source": "Lightning Flash",
-        "name": "High Spirits",
+        "name": "Class Clown",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -11254,12 +11256,13 @@
         "school": "Samurai",
         "name(jp)": "気炎万丈",
         "id": "30513501",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "character": "Jack",
         "source": "Lightning Flash",
-        "name": "Fiery Stance",
+        "name": "Fiery Reckoning",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -11273,6 +11276,7 @@
         "school": "Samurai",
         "name(jp)": "炎威の構え",
         "id": "30513502",
+        "gl": "✓",
         "✓": "✓"
     },
     {

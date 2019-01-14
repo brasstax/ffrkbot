@@ -7705,31 +7705,31 @@
     },
     {
         "id": "50288",
-        "commonName": "Blast Mode 1",
-        "effects": "Casts Dancing Flower after using a Fire attack",
+        "commonName": "Explosive Rush Mode 1",
+        "effects": "Casts Skydance Firestorm after using a Fire attack",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "Blast Mode 2, Blast Mode 3",
+        "exclusiveStatus": "Explosive Rush Mode 2, Explosive Rush Mode 3",
         "codedName": "RAMPAGE_MODE_AND_CHASE_0",
         "notes": "-"
     },
     {
         "id": "50289",
-        "commonName": "Blast Mode 2",
-        "effects": "Casts Dancing Flower after using a Fire attack",
+        "commonName": "Explosive Rush Mode 2",
+        "effects": "Casts Skydance Firestorm after using a Fire attack",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "Blast Mode 1, Blast Mode 3",
+        "exclusiveStatus": "Explosive Rush Mode 1, Explosive Rush Mode 3",
         "codedName": "RAMPAGE_MODE_AND_CHASE_1",
         "notes": "-"
     },
     {
         "id": "50290",
-        "commonName": "Blast Mode 3",
-        "effects": "Casts Dancing Flower after using a Fire attack",
+        "commonName": "Explosive Rush Mode 3",
+        "effects": "Casts Skydance Firestorm after using a Fire attack",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "Blast Mode 1, Blast Mode 2",
+        "exclusiveStatus": "Explosive Rush Mode 1, Explosive Rush Mode 2",
         "codedName": "RAMPAGE_MODE_AND_CHASE_2",
         "notes": "-"
     },
@@ -7745,7 +7745,7 @@
     },
     {
         "id": "50292",
-        "commonName": "Draw Cards",
+        "commonName": "Top Card",
         "effects": "Casts Force (Type-0) / Charge (Type-0) / Burst (Type-0) after using 1/2/3 Black Magic abilities, removed after using 3 Black Magic abilities",
         "defaultDuration": 15,
         "mndModifier": "-",
@@ -9044,7 +9044,7 @@
     {
         "id": "50440",
         "commonName": "Chain Grand Spark Follow-Up",
-        "effects": " Casts Chain Grand Spark after using three Earth attacks",
+        "effects": " Grants Stoneskin: 30% to all allies after using three Earth attacks",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -9064,7 +9064,7 @@
     {
         "id": "50442",
         "commonName": "Angeal Trance",
-        "effects": "ATK +50%, RES -50%, cast speed ?x",
+        "effects": "ATK +50%, RES -50%, cast speed x2,00",
         "defaultDuration": 25,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -9089,6 +9089,36 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DAMAGE_RATE_REDUCTION_BARRIER_FOR_ATTACK_WITH_MEDIUM_2",
+        "notes": "-"
+    },
+    {
+        "id": "50445",
+        "commonName": "Awaken Water",
+        "effects": "Water abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Water abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_WATER",
+        "notes": "-"
+    },
+    {
+        "id": "50446",
+        "commonName": "Awaken Samurai",
+        "effects": "Samurai abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Samurai abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKE_MODE_SAMURAI",
+        "notes": "-"
+    },
+    {
+        "id": "50447",
+        "commonName": "Law Breaker Follow-Up",
+        "effects": "Casts Law Breaker after using three Samurai attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_LIFE_FIRE",
         "notes": "-"
     },
     {
@@ -9868,31 +9898,31 @@
     },
     {
         "id": "6026",
-        "commonName": "Warrior Mode 1",
+        "commonName": "Warlord Mode 1",
         "effects": "Critical chance =50%",
         "defaultDuration": "15",
         "mndModifier": "-",
-        "exclusiveStatus": "Warrior Mode 2, Warrior Mode 3",
+        "exclusiveStatus": "Warlord Mode 2, Warlord Mode 3",
         "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_50_15000_FOR_VALKYRIE_MODE",
         "notes": "-"
     },
     {
         "id": "6027",
-        "commonName": "Warrior Mode 2",
+        "commonName": "Warlord Mode 2",
         "effects": "Critical chance =75%",
         "defaultDuration": "15",
         "mndModifier": "-",
-        "exclusiveStatus": "Warrior Mode 1, Warrior Mode 3",
+        "exclusiveStatus": "Warlord Mode 1, Warlord Mode 3",
         "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_75_15000_FOR_VALKYRIE_MODE",
         "notes": "-"
     },
     {
         "id": "6028",
-        "commonName": "Warrior Mode 3",
+        "commonName": "Warlord Mode 3",
         "effects": "Critical chance =100%",
         "defaultDuration": "15",
         "mndModifier": "-",
-        "exclusiveStatus": "Warrior Mode 1, Warrior Mode 2",
+        "exclusiveStatus": "Warlord Mode 1, Warlord Mode 2",
         "codedName": "CUSTOM_PARAM_MULTI_CRITICAL_100_15000_FOR_VALKYRIE_MODE",
         "notes": "-"
     },
