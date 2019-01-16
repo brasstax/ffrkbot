@@ -162,26 +162,29 @@ exports.speedrank = function lookupspeedrank(
  **/
 function getSheet(category, secondaryCategory) {
   let version = "Overall";
-  if (secondaryCategory === 'no-csb'){
+
+  // check for various permutations of "No CSB"
+  if (['no-csb','nocsb','no','no csb'].includes(secondaryCategory.toLowerCase())){
     version = 'No CSB';
   }
-  switch (category) {
-    case '3star':
-      category = `GL 3* ${version} rankings`;
-      break;
-    case '4star':
-      category = `GL 4* ${version} rankings`;
-      break;
-    case '5star':
-      //category = 'GL 5* '+version+ ' rankings';
-      category = `GL 5* ${version} rankings`;
-      break;
-    case 'torment':
-      category = 'Torment';
-      break;
-    default:
-      category = 'Error';
-    }
+
+  // check for various permutations of fight, e.g. "4 star", "Torment" and convert to sheet name
+  if (['3','3star','3-star','3 star'].includes(category.toLowerCase())){
+    category = `GL 3* ${version} rankings`;
+  }
+  else if (['4','4star','4-star','4 star'].includes(category.toLowerCase())){
+    category = `GL 4* ${version} rankings`;
+  }
+  else if (['5','5star','5-star','5 star'].includes(category.toLowerCase())){
+    category = `GL 5* ${version} rankings`;
+  }
+  else if (['torment', 'tor', 'neotorment', 'neo'].includes(category.toLowerCase())){
+    category = 'Torment';
+  }
+  else{
+    category = 'Error';
+  }
+
   return category;
 }
  /**
