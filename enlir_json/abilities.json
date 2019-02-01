@@ -3905,16 +3905,26 @@
         "school": "Celerity",
         "name": "Ripper Plasma",
         "rarity": 6,
-        "type": "?",
-        "target": "?",
-        "formula": "?",
-        "multiplier": "?",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 3.4,
         "element": "Lightning",
-        "effects": "4/5/6 single attacks (? each) if the user used ?/? damaging actions",
+        "time": 1.2,
+        "effects": "4/5/6 single attacks (0,85 each) if the user used 3/5 damaging actions",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 80,
+        "uses": 2,
+        "max": 10,
         "orb1Required": "Power Crystal",
         "orb2Required": "Non-Elemental Crystal",
         "orb3Required": "Lightning Crystal",
-        "orb4Required": "Ability Record"
+        "orb4Required": "Ability Record",
+        "introducingEvent": "Last Tears",
+        "name(jp)": "リッパープラズマ",
+        "id": "30171211",
+        "✓": "✓"
     },
     {
         "school": "Summoning",
@@ -9039,7 +9049,9 @@
         "orb2Required": "Lightning Crystal",
         "orb3Required": "Wind Crystal",
         "orb4Required": "Ability Record",
-        "introducingEvent": "Electrifying Wishes"
+        "introducingEvent": "Electrifying Wishes",
+        "name(jp)": "プラズマオファ",
+        "id": "30261161"
     },
     {
         "school": "Darkness",

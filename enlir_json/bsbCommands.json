@@ -10770,7 +10770,7 @@
     {
         "character": "Orran",
         "source": "Records of Truth",
-        "name": "Astral Guidance",
+        "name": "Lodestar",
         "type": "WHT",
         "target": "Single ally",
         "formula": "Magical",
@@ -10784,12 +10784,13 @@
         "school": "White Magic",
         "name(jp)": "星の導き",
         "id": "30512811",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "character": "Orran",
         "source": "Records of Truth",
-        "name": "Heavenly Protection",
+        "name": "Divine Blessing",
         "type": "WHT",
         "target": "All allies",
         "formula": "Magical",
@@ -10803,6 +10804,7 @@
         "school": "White Magic",
         "name(jp)": "天の加護",
         "id": "30512812",
+        "gl": "✓",
         "✓": "✓"
     },
     {

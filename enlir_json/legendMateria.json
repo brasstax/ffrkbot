@@ -1310,6 +1310,14 @@
     },
     {
         "realm": "III",
+        "character": "Desch",
+        "name": "Aimless Wanderer",
+        "effect": "Grants Haste and Instant Cast 1 at the beginning of the battle",
+        "name(jp)": "飄々とした風来坊",
+        "id": "201030503"
+    },
+    {
+        "realm": "III",
         "character": "Onion Knight",
         "name": "Swordsman Sublime",
         "effect": "35% chance to dualcast Celerity abilities",
@@ -2595,6 +2603,16 @@
         "name(jp)": "持ち前の明るさ",
         "id": "201051204",
         "✓": "✓"
+    },
+    {
+        "realm": "V",
+        "character": "Krile",
+        "name": "Beastial Bonds",
+        "effect": "Grants Haste and Instant Cast 1 at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Carmagnole (V)",
+        "name(jp)": "動物たちとの繋がり",
+        "id": "201051205"
     },
     {
         "realm": "V",
@@ -3974,6 +3992,8 @@
         "character": "Angeal",
         "name": "1st Class Mediator",
         "effect": "PHY attacks deal 10% more damage",
+        "relic": "-",
+        "name(jp)": "1stのまとめ役",
         "id": "201071500",
         "✓": "✓"
     },
@@ -3982,6 +4002,8 @@
         "character": "Angeal",
         "name": "Respected Warrior",
         "effect": "Restores HP for 100% of the user's maximum HP and grants Angeal Trance when HP fall below 20%",
+        "relic": "-",
+        "name(jp)": "敬愛を集めし戦士",
         "id": "201071501",
         "✓": "✓"
     },
@@ -4001,6 +4023,8 @@
         "character": "Rude",
         "name": "Humorous Nature",
         "effect": "Increases Earth damage dealt by ?%",
+        "relic": "-",
+        "name(jp)": "ユーモラスな性格",
         "id": "201072000"
     },
     {
@@ -4008,6 +4032,8 @@
         "character": "Rude",
         "name": "Actions Before Words",
         "effect": "?% chance to dualcast abilities that deal Earth damage",
+        "relic": "-",
+        "name(jp)": "不言実行のプロ",
         "id": "201072001"
     },
     {
@@ -4025,6 +4051,8 @@
         "character": "Elena",
         "name": "Careless Recruit",
         "effect": "Increases Fire damage dealt by ?%",
+        "relic": "-",
+        "name(jp)": "うっかりな新人",
         "id": "201072100"
     },
     {
@@ -4032,6 +4060,8 @@
         "character": "Elena",
         "name": "Passion for the Job",
         "effect": "Grants Haste and Instant Cast ? at the beginning of the battle",
+        "relic": "-",
+        "name(jp)": "仕事への情熱",
         "id": "201072101"
     },
     {
@@ -6030,6 +6060,7 @@
         "relic": "Antares (XII)",
         "name(jp)": "空賊の心構え",
         "id": "201120203",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6229,11 +6260,13 @@
         "realm": "XII",
         "character": "Gabranth",
         "name": "Bound by Vengeance",
-        "effect": "?% chance to dualcast abilities that deal Dark damage",
+        "effect": "25% chance to dualcast abilities that deal Dark damage",
         "master": "ATK +10",
         "relic": "Gabranth's Gauntlet (XII)",
         "name(jp)": "血に飢えた復讐者",
-        "id": "201120703"
+        "id": "201120703",
+        "gl": "✓",
+        "✓": "✓"
     },
     {
         "realm": "XII",
@@ -6273,7 +6306,7 @@
         "realm": "XII",
         "character": "Larsa",
         "name": "Young Successor",
-        "effect": "35% chance to grant Astra after using a White Magic ability",
+        "effect": "35% chance to grant Astra to the user after using a White Magic ability",
         "master": "MND +10",
         "relic": "Lambent Hat (XII)",
         "name(jp)": "閃光魔帽",
@@ -7549,6 +7582,7 @@
         "relic": "Golden Helm (FFT)",
         "name(jp)": "自らの正義のために",
         "id": "201500303",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -7939,20 +7973,23 @@
     {
         "realm": "FFT",
         "character": "Orran",
-        "name": "Right Arm of the Thunder God",
+        "name": "Thunder God's Sun",
         "effect": "WHT abilities restore ?% more HP",
         "relic": "-",
         "name(jp)": "雷神の片腕",
-        "id": "201502800"
+        "id": "201502800",
+        "gl": "✓"
     },
     {
         "realm": "FFT",
         "character": "Orran",
-        "name": "Struggle for Life",
+        "name": "Life and Death",
         "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "命を賭した戦い",
-        "id": "201502801"
+        "id": "201502801",
+        "gl": "✓",
+        "✓": "✓"
     },
     {
         "realm": "FFT",
@@ -7962,7 +7999,8 @@
         "master": "MND +10",
         "relic": "Battle Folio (FFT)",
         "name(jp)": "南天騎士団の軍師",
-        "id": "201502802"
+        "id": "201502802",
+        "gl": "✓"
     },
     {
         "realm": "Type-0",
@@ -8213,6 +8251,16 @@
         "id": "201600602",
         "gl": "✓",
         "✓": "✓"
+    },
+    {
+        "realm": "Type-0",
+        "character": "Queen",
+        "name": "Class President",
+        "effect": "Grants Attach Lightning at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Blitz Armlet (Type-0)",
+        "name(jp)": "豹変する委員長",
+        "id": "201600603"
     },
     {
         "realm": "Type-0",

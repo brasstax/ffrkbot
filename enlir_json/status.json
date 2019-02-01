@@ -114,7 +114,7 @@
         "commonName": "Sleep",
         "effects": "Arrests ATB charge rate, can't act, resets ATB when set, removed upon taking damage by PHY attack",
         "defaultDuration": 30,
-        "mndModifier": 0.03,
+        "mndModifier": "± 2,00%",
         "exclusiveStatus": "All \"Retaliate\" status",
         "codedName": "SLEEP",
         "notes": "-"
@@ -6797,8 +6797,8 @@
     },
     {
         "id": "50181",
-        "commonName": "Earth Ironfist Counter",
-        "effects": "Keeps track of the uses of Earth Ironfist",
+        "commonName": "Ironfist Earth Counter",
+        "effects": "Keeps track of the uses of Ironfist Earth",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -6807,8 +6807,8 @@
     },
     {
         "id": "50182",
-        "commonName": "Fire Ironfist Counter",
-        "effects": "Keeps track of the uses of Fire Ironfist",
+        "commonName": "Ironfist Fire Counter",
+        "effects": "Keeps track of the uses of Ironfist Fire",
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -7755,8 +7755,8 @@
     },
     {
         "id": "50293",
-        "commonName": "Oil Bullet Follow-Up",
-        "effects": "Casts Oil Bullet after using two Machinist abilities",
+        "commonName": "Oil Pellet Follow-Up",
+        "effects": "Casts Oil Pellet after using two Machinist abilities",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -7855,8 +7855,8 @@
     },
     {
         "id": "50303",
-        "commonName": "Hero-King's Blade Follow-Up",
-        "effects": "Casts Hero-King's Blade after exploiting elemental weakness",
+        "commonName": "Hero-King Blade Follow-Up",
+        "effects": "Casts Hero-King Blade after exploiting elemental weakness",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -8670,7 +8670,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DAMAGE_RATE_REDUCTION_BARRIER_FOR_ATTACK_WITH_LARGE_3",
+        "codedName": "DAMAGE_RATE_REDUCTION_BARRIER_FOR_ATTACK_WITH_EXTRA_LARGE_3",
         "notes": "-"
     },
     {
@@ -8995,7 +8995,9 @@
     },
     {
         "id": "50434",
-        "commonName": "Blasting Freeze Counter",
+        "commonName": "Ironfist Frost Counter",
+        "effects": "Keeps track of the uses of Ironfist Frost",
+        "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "USED_ABILITY_COUNTER_GOUKEN_ICE",
@@ -9014,7 +9016,7 @@
     {
         "id": "50437",
         "commonName": "Runic Awakening Follow-Up",
-        "effects": "Casts Runic Awakening after using two Ice or Holy attacks",
+        "effects": "Casts Runic Awakening after using two ice or holy attacks",
         "defaultDuration": 15,
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -9088,7 +9090,7 @@
         "defaultDuration": "-",
         "mndModifier": "-",
         "exclusiveStatus": "-",
-        "codedName": "DAMAGE_RATE_REDUCTION_BARRIER_FOR_ATTACK_WITH_MEDIUM_2",
+        "codedName": "DAMAGE_RATE_REDUCTION_BARRIER_FOR_ATTACK_WITH_LARGE_2",
         "notes": "-"
     },
     {
@@ -9119,6 +9121,136 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHASE_MODE_FOR_LIFE_FIRE",
+        "notes": "-"
+    },
+    {
+        "id": "50448",
+        "commonName": "Awaken Devotion",
+        "effects": "White Magic abilities don't consume uses, cast speed x3,00 for White Magic abilites and casts Healing Wave after using White Magic abilities",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "AWAKEN_MODE_LOVE",
+        "notes": "-"
+    },
+    {
+        "id": "50449",
+        "commonName": "Technical Spark Follow-Up",
+        "effects": "Casts Technical Spark after using a Celerity or Support ability",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_SHERUKU_TYPE_NONE_CONSECUTIVE_FLASH",
+        "notes": "-"
+    },
+    {
+        "id": "50450",
+        "commonName": " 75% Damage Reduction Barrier 1",
+        "effects": "Reduces damage taken by 75% for the next attack",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_RATE_REDUCTION_BARRIER_FOR_ATTACK_WITH_EXTRA_LARGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "50451",
+        "commonName": "Merciless Oracle Mode",
+        "effects": "Cast speed x2,00",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "JANUS_MODE",
+        "notes": "-"
+    },
+    {
+        "id": "50452",
+        "commonName": "Merciless Oracle 0",
+        "effects": "Grants Merciless Oracle 1 after using a Lightning attack, removed if the user hasn't Merciless Oracle Mode",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "JANUS_MODE_GRADE_0",
+        "notes": "-"
+    },
+    {
+        "id": "50453",
+        "commonName": "Merciless Oracle 1",
+        "effects": "Critical chance =30%, grants Merciless Oracle 2, removed if the user hasn't Merciless Oracle Mode",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "JANUS_MODE_GRADE_1",
+        "notes": "-"
+    },
+    {
+        "id": "50454",
+        "commonName": "Merciless Oracle 2",
+        "effects": "Critical chance =50%, grants Merciless Oracle 3, removed if the user hasn't Merciless Oracle Mode",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "JANUS_MODE_GRADE_2",
+        "notes": "-"
+    },
+    {
+        "id": "50455",
+        "commonName": "Merciless Oracle 3",
+        "effects": "Critical chance =70%, grants Merciless Oracle 4, removed if the user hasn't Merciless Oracle Mode",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "JANUS_MODE_GRADE_3",
+        "notes": "-"
+    },
+    {
+        "id": "50456",
+        "commonName": "Merciless Oracle 4",
+        "effects": "Critical chance =100%, removed if the user hasn't Merciless Oracle Mode",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "JANUS_MODE_GRADE_4",
+        "notes": "-"
+    },
+    {
+        "id": "50457",
+        "commonName": "Chain Lightning Follow-Up",
+        "effects": "Casts Chain Lightning after using two Lightning attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_SCENE_DRIVE_EVOL",
+        "notes": "-"
+    },
+    {
+        "id": "50458",
+        "commonName": "Diamond Geyser Follow-Up",
+        "effects": "Grants 40% Damage Reduction Barrier 1 to all allies after using an Ice attack",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_DIAMOND_GEIZER",
+        "notes": "-"
+    },
+    {
+        "id": "50459",
+        "commonName": "Wings of Doom Follow-Up",
+        "effects": "Casts Wings of Doom after using two Dark attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_DEATH_ANGEL",
+        "notes": "-"
+    },
+    {
+        "id": "50460",
+        "commonName": "40% Damage Reduction Barrier 1",
+        "effects": "Reduces damage taken by 40% for the next attack",
+        "defaultDuration": "-",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "DAMAGE_RATE_REDUCTION_BARRIER_FOR_ATTACK_WITH_MEDIUM_1",
         "notes": "-"
     },
     {
@@ -10357,6 +10489,96 @@
         "notes": "-"
     },
     {
+        "id": "855",
+        "commonName": "Major Imperil Lightning",
+        "effects": "Lightning Resistance -30%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_LIGHTNING_DISADVANTAGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "856",
+        "commonName": "Major Imperil Holy",
+        "effects": "Holy Resistance -30%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_HOLY_DISADVANTAGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "857",
+        "commonName": "Major Imperil Dark",
+        "effects": "Dark Resistance -30%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_DARK_DISADVANTAGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "858",
+        "commonName": "Major Imperil Fire",
+        "effects": "Fire Resistance -30%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_FIRE_DISADVANTAGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "859",
+        "commonName": "Major Imperil Wind",
+        "effects": "Wind Resistance -30%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_WIND_DISADVANTAGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "860",
+        "commonName": "Major Imperil Water",
+        "effects": "Water Resistance -30%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_WATER_DISADVANTAGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "861",
+        "commonName": "Major Imperil Ice",
+        "effects": "Ice Resistance -30%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_ICE_DISADVANTAGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "862",
+        "commonName": "Major Imperl Earth",
+        "effects": "Earth Resistance -30%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_EARTH_DISADVANTAGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "863",
+        "commonName": "Major Imperil Poison",
+        "effects": "Poison Resistance -30%, cumulable",
+        "defaultDuration": "25",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_POISON_DISADVANTAGE_3",
+        "notes": "-"
+    },
+    {
         "id": "8001",
         "commonName": "Minor Buff Fire",
         "effects": "Increases Fire damage dealt by 10%, cumulable",
@@ -10817,6 +11039,96 @@
         "notes": "-"
     },
     {
+        "id": "8061",
+        "commonName": "Major Debuff Fire",
+        "effects": "Reduces Fire damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_FIRE_M30",
+        "notes": "-"
+    },
+    {
+        "id": "8062",
+        "commonName": "Major Debuff Ice",
+        "effects": "Reduces Ice damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_ICE_M30",
+        "notes": "-"
+    },
+    {
+        "id": "8063",
+        "commonName": "Major Debuff Lightning",
+        "effects": "Reduces Lightning damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_LIGHTNING_M30",
+        "notes": "-"
+    },
+    {
+        "id": "8064",
+        "commonName": "Major Debuff Earth",
+        "effects": "Reduces Earth damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_EARTH_M30",
+        "notes": "-"
+    },
+    {
+        "id": "8065",
+        "commonName": "Major Debuff Wind",
+        "effects": "Reduces Wind damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_WIND_M30",
+        "notes": "-"
+    },
+    {
+        "id": "8066",
+        "commonName": "Major Debuff Water",
+        "effects": "Reduces Water damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_WATER_M30",
+        "notes": "-"
+    },
+    {
+        "id": "8067",
+        "commonName": "Major Debuff Holy",
+        "effects": "Reduces Holy damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_HOLY_M30",
+        "notes": "-"
+    },
+    {
+        "id": "8068",
+        "commonName": "Major Debuff Dark",
+        "effects": "Reduces Dark damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_DARK_M30",
+        "notes": "-"
+    },
+    {
+        "id": "8069",
+        "commonName": "Major Debuff Poison",
+        "effects": "Increases Poison damage dealt by 30%, cumulable",
+        "defaultDuration": "15",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_ATK_POISON_M30",
+        "notes": "-"
+    },
+    {
         "id": "8411001",
         "commonName": "Fire Blink 1",
         "effects": "Reduces the damage of the next attack that deals Fire damage to 0",
@@ -11084,6 +11396,96 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_POISON_ADVANTAGE_1",
+        "notes": "-"
+    },
+    {
+        "id": "8441001",
+        "commonName": "Major Resist Fire",
+        "effects": "Fire Resistance +30%, cumulable",
+        "defaultDuration": 25,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_FIRE_ADVANTAGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "8441011",
+        "commonName": "Major Resist Ice",
+        "effects": "Ice Resistance +30%, cumulable",
+        "defaultDuration": 25,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_ICE_ADVANTAGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "8441021",
+        "commonName": "Major Resist Lightning",
+        "effects": "Lightning Resistance +30%, cumulable",
+        "defaultDuration": 25,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_LIGHTNING_ADVANTAGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "8441031",
+        "commonName": "Major Resist Earth",
+        "effects": "Earth Resistance +30%, cumulable",
+        "defaultDuration": 25,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_EARTH_ADVANTAGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "8441041",
+        "commonName": "Major Resist Wind",
+        "effects": "Wind Resistance +30%, cumulable",
+        "defaultDuration": 25,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_WIND_ADVANTAGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "8441051",
+        "commonName": "Major Resist Water",
+        "effects": "Water Resistance +30%, cumulable",
+        "defaultDuration": 25,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_WATER_ADVANTAGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "8441061",
+        "commonName": "Major Resist Holy",
+        "effects": "Holy Resistance +30%, cumulable",
+        "defaultDuration": 25,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_HOLY_ADVANTAGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "8441071",
+        "commonName": "Major Resist Dark",
+        "effects": "Dark Resistance +30%, cumulable",
+        "defaultDuration": 25,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_DARK_ADVANTAGE_3",
+        "notes": "-"
+    },
+    {
+        "id": "8441081",
+        "commonName": "Major Resist Poison",
+        "effects": "Poison Resistance +30%, cumulable",
+        "defaultDuration": 25,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHANGE_ELEMENT_DEF_ATTRIBUTE_POISON_ADVANTAGE_3",
         "notes": "-"
     },
     {

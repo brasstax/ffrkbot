@@ -1282,7 +1282,7 @@
     },
     {
         "character": "Vincent",
-        "source": "Hellhound's Lament",
+        "source": "Dirge of Cerberus",
         "name": "Beast Shot",
         "brave": 0,
         "type": "NAT",
@@ -1304,7 +1304,7 @@
     },
     {
         "character": "Vincent",
-        "source": "Hellhound's Lament",
+        "source": "Dirge of Cerberus",
         "name": "Beast Shot",
         "brave": 1,
         "type": "NAT",
@@ -1326,7 +1326,7 @@
     },
     {
         "character": "Vincent",
-        "source": "Hellhound's Lament",
+        "source": "Dirge of Cerberus",
         "name": "Beast Shot",
         "brave": 2,
         "type": "NAT",
@@ -1348,7 +1348,7 @@
     },
     {
         "character": "Vincent",
-        "source": "Hellhound's Lament",
+        "source": "Dirge of Cerberus",
         "name": "Beast Shot",
         "brave": 3,
         "type": "NAT",
@@ -2391,7 +2391,7 @@
     {
         "character": "Gabranth",
         "source": "Frost Purge",
-        "name": "Judge's Execution",
+        "name": "Bringer of Justice",
         "brave": 0,
         "type": "PHY",
         "target": "Single enemy",
@@ -2407,12 +2407,13 @@
         "braveCondition": "Dark",
         "name(jp)": "裁きの執行",
         "id": "30549092",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "character": "Gabranth",
         "source": "Frost Purge",
-        "name": "Judge's Execution",
+        "name": "Bringer of Justice",
         "brave": 1,
         "type": "PHY",
         "target": "Single enemy",
@@ -2428,12 +2429,13 @@
         "braveCondition": "Dark",
         "name(jp)": "裁きの執行",
         "id": "30549093",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "character": "Gabranth",
         "source": "Frost Purge",
-        "name": "Judge's Execution",
+        "name": "Bringer of Justice",
         "brave": 2,
         "type": "PHY",
         "target": "Single enemy",
@@ -2449,12 +2451,13 @@
         "braveCondition": "Dark",
         "name(jp)": "裁きの執行",
         "id": "30549094",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "character": "Gabranth",
         "source": "Frost Purge",
-        "name": "Judge's Execution",
+        "name": "Bringer of Justice",
         "brave": 3,
         "type": "PHY",
         "target": "Single enemy",
@@ -2470,6 +2473,7 @@
         "braveCondition": "Dark",
         "name(jp)": "裁きの執行",
         "id": "30549095",
+        "gl": "✓",
         "✓": "✓"
     },
     {

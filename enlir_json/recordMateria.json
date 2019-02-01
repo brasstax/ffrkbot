@@ -7475,26 +7475,29 @@
         "unlockCriteria": "Use Orran's Memory Crystal",
         "name(jp)": "占星術士",
         "id": "111500280",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "FFT",
         "character": "Orran",
-        "name": "Recorder of History",
+        "name": "Chronicler of History",
         "effect": "MND +20% when equipping a book",
         "unlockCriteria": "Use Orran's Memory Crystal II, chance to obtain with Orran in party",
         "name(jp)": "歴史の記録者",
         "id": "111500281",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "FFT",
         "character": "Orran",
-        "name": "Keeper of Truth",
+        "name": "Beholder of Truth",
         "effect": "MND +25% when equipping a book",
         "unlockCriteria": "Bring Orran to level 99",
         "name(jp)": "真実を知る異端者",
         "id": "111500282",
+        "gl": "✓",
         "✓": "✓"
     },
     {
