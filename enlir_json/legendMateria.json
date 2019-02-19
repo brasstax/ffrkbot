@@ -264,12 +264,23 @@
     {
         "realm": "I",
         "character": "Warrior of Light",
-        "name": "Determined Warrior",
+        "name": "Steadfast Warrior",
         "effect": "25% chance to cast an ability (PHY: single, 3x 0,42 physical Holy/NE, 1500 HP to an ally) after taking damage from an enemy",
         "master": "ATK +10",
         "relic": "Crystal Shield (I)",
         "name(jp)": "毅然たる戦士",
         "id": "201010104",
+        "✓": "✓"
+    },
+    {
+        "realm": "I",
+        "character": "Warrior of Light",
+        "name": "Cycle Breaker",
+        "effect": "Grants Quick Cast 3 at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Light Axe (I)",
+        "name(jp)": "時の鎖を断つ刃",
+        "id": "201010105",
         "✓": "✓"
     },
     {
@@ -321,7 +332,7 @@
     {
         "realm": "I",
         "character": "Garland",
-        "name": "Lust for Battle",
+        "name": "Battlelust",
         "effect": "Grants Attach Dark at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Demon Shield (I)",
@@ -365,6 +376,16 @@
     },
     {
         "realm": "I",
+        "character": "Sarah",
+        "name": "Swift Melody",
+        "effect": "?",
+        "master": "MND +10",
+        "relic": "?",
+        "name(jp)": "はやての調べ",
+        "id": "201010303"
+    },
+    {
+        "realm": "I",
         "character": "Wol",
         "name": "Rational Realist",
         "effect": "PHY attacks deal 10% more damage",
@@ -386,7 +407,7 @@
     {
         "realm": "I",
         "character": "Wol",
-        "name": "Rulebreaker",
+        "name": "Breaker of Laws",
         "effect": "Grants Elemental Boost when HP fall below 20%",
         "master": "ATK +10",
         "relic": "Sirius (I)",
@@ -431,7 +452,7 @@
     {
         "realm": "I",
         "character": "Echo",
-        "name": "Legendary Fairy",
+        "name": "Fabled Spirit",
         "effect": "Grants Haste and Instant Cast 1 at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Nirvana (I)",
@@ -476,10 +497,10 @@
     {
         "realm": "I",
         "character": "Master",
-        "name": "Warrior's Sight",
+        "name": "Martial Mentor",
         "effect": "PHY attacks deal 20% more damage when equipping a fist",
         "master": "ATK +10",
-        "relic": "Soldier's Gloves (I)",
+        "relic": "Soldier's Armlet (I)",
         "name(jp)": "武人の鑑",
         "id": "201010603",
         "✓": "✓"
@@ -1313,8 +1334,11 @@
         "character": "Desch",
         "name": "Aimless Wanderer",
         "effect": "Grants Haste and Instant Cast 1 at the beginning of the battle",
+        "master": "MAG +10",
+        "relic": "Blood Sword (III)",
         "name(jp)": "飄々とした風来坊",
-        "id": "201030503"
+        "id": "201030503",
+        "✓": "✓"
     },
     {
         "realm": "III",
@@ -1923,12 +1947,13 @@
     {
         "realm": "IV",
         "character": "Tellah",
-        "name": "Master of All Magics",
+        "name": "Learned Sage",
         "effect": "Grants Attach Earth at the beginning of the battle",
         "master": "MAG +10",
-        "relic": "Psycho Spiral (IV)",
+        "relic": "Cypress Pole (IV)",
         "name(jp)": "すべての魔法を体得せし者",
         "id": "201041103",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2069,12 +2094,13 @@
     {
         "realm": "IV",
         "character": "Cid (IV)",
-        "name": "Caring Nature",
+        "name": "Unselfish Disposition",
         "effect": "Grants Attach Lightning at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Triton Hammer (IV)",
         "name(jp)": "世話好きな性分",
         "id": "201041503",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2148,12 +2174,13 @@
     {
         "realm": "IV",
         "character": "Ursula",
-        "name": "Master's Path",
+        "name": "Filial Devotion",
         "effect": "Grants Attach Earth at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Kaiser Knuckles (IV)",
         "name(jp)": "師父と歩む道",
         "id": "201042103",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -2335,7 +2362,7 @@
     {
         "realm": "V",
         "character": "Gogo (V)",
-        "name": "Eccentric of the Depths",
+        "name": "Waterlogged Misfit",
         "effect": "Water attacks deal 25% more damage when equipping a rod",
         "master": "MAG +10",
         "relic": "Power Rod (V)",
@@ -2471,7 +2498,7 @@
     {
         "realm": "V",
         "character": "Faris",
-        "name": "Ruler of Scoundrels",
+        "name": "Rabble Wrangler",
         "effect": "25% chance to dualcast Thief abilities",
         "master": "ATK +10",
         "relic": "Longinus (V)",
@@ -2596,7 +2623,7 @@
     {
         "realm": "V",
         "character": "Krile",
-        "name": "Inner Brightness",
+        "name": "Innate Cheer",
         "effect": "Grants Attach Earth at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Minerva Bustier (V)",
@@ -2685,7 +2712,7 @@
     {
         "realm": "V",
         "character": "Kelger",
-        "name": "Righteous Spirit",
+        "name": "Undimmed Justice",
         "effect": "Grants Attach Earth at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Triton Dagger (V)",
@@ -2796,6 +2823,16 @@
     },
     {
         "realm": "VI",
+        "character": "Locke",
+        "name": "Treasure Hunter",
+        "effect": "?% chance to dualcast abilities that deal Fire damage",
+        "master": "ATK +10",
+        "relic": "Thief's Gloves (VI)",
+        "name(jp)": "再起するトレジャーハンタ",
+        "id": "201060303"
+    },
+    {
+        "realm": "VI",
         "character": "Celes",
         "name": "Rune Knight Blademaster",
         "effect": "Spellblade abilities deal 15% more damage",
@@ -2884,6 +2921,16 @@
         "id": "201060503",
         "gl": "✓",
         "✓": "✓"
+    },
+    {
+        "realm": "VI",
+        "character": "Mog",
+        "name": "Dancing Warrior",
+        "effect": "Grants Quick Cast 3 at the beginning of the battle?",
+        "master": "MND +10",
+        "relic": "Gungnir (VI)",
+        "name(jp)": "華麗に舞う戦士",
+        "id": "201060504"
     },
     {
         "realm": "VI",
@@ -4022,19 +4069,21 @@
         "realm": "VII",
         "character": "Rude",
         "name": "Humorous Nature",
-        "effect": "Increases Earth damage dealt by ?%",
+        "effect": "Increases Earth damage dealt by 10%",
         "relic": "-",
         "name(jp)": "ユーモラスな性格",
-        "id": "201072000"
+        "id": "201072000",
+        "✓": "✓"
     },
     {
         "realm": "VII",
         "character": "Rude",
         "name": "Actions Before Words",
-        "effect": "?% chance to dualcast abilities that deal Earth damage",
+        "effect": "35% chance to dualcast abilities that deal Earth damage",
         "relic": "-",
         "name(jp)": "不言実行のプロ",
-        "id": "201072001"
+        "id": "201072001",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -4050,19 +4099,21 @@
         "realm": "VII",
         "character": "Elena",
         "name": "Careless Recruit",
-        "effect": "Increases Fire damage dealt by ?%",
+        "effect": "Increases Fire damage dealt by 10%",
         "relic": "-",
         "name(jp)": "うっかりな新人",
-        "id": "201072100"
+        "id": "201072100",
+        "✓": "✓"
     },
     {
         "realm": "VII",
         "character": "Elena",
         "name": "Passion for the Job",
-        "effect": "Grants Haste and Instant Cast ? at the beginning of the battle",
+        "effect": "Grants Haste and Instant Cast 3 at the beginning of the battle",
         "relic": "-",
         "name(jp)": "仕事への情熱",
-        "id": "201072101"
+        "id": "201072101",
+        "✓": "✓"
     },
     {
         "realm": "VII",
@@ -4118,6 +4169,7 @@
         "relic": "Survival Vest (VIII)",
         "name(jp)": "父親譲りのカリスマ性",
         "id": "201080103",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4495,6 +4547,7 @@
         "relic": "Rod of Darkness (VIII)",
         "name(jp)": "呪縛から解き放たれし者",
         "id": "201081003",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -4506,6 +4559,7 @@
         "relic": "Edea's Cardinal (VIII)",
         "name(jp)": "秘めた母性",
         "id": "201081004",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5746,12 +5800,13 @@
     {
         "realm": "XI",
         "character": "Ayame",
-        "name": "Youngest Musketeer",
+        "name": "Young Gun",
         "effect": "Grants Attach Ice at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Omokage (XI)",
         "name(jp)": "最年少の銃士",
         "id": "201110203",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5791,43 +5846,47 @@
     {
         "realm": "XI",
         "character": "Curilla",
-        "name": "Friendly Concern",
+        "name": "Heartfelt Devotion",
         "effect": "Grants Quick Cast 3 at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Royal Knight Army Shield (XI)",
         "name(jp)": "こまやかな配慮",
         "id": "201110303",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "XI",
         "character": "Prishe",
-        "name": "Patrol's Leader",
+        "name": "Patrol Leader",
         "effect": "PHY attacks deal 10% more damage when equipping a fist weapon",
         "relic": "-",
         "name(jp)": "自警団のリーダー",
         "id": "201110400",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "XI",
         "character": "Prishe",
-        "name": "Flippant Maiden",
+        "name": "Headstrong Charmer",
         "effect": "35% chance to dualcast Monk abilities",
         "relic": "-",
         "name(jp)": "猪突猛進の元気娘",
         "id": "201110401",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "XI",
         "character": "Prishe",
-        "name": "Crystal's Might",
+        "name": "Magicite Might",
         "effect": "Grants 50% Critical at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Temple Cyclas (XI)",
         "name(jp)": "宿りし魔晶石の力",
         "id": "201110402",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5901,27 +5960,29 @@
     {
         "realm": "XI",
         "character": "Zeid",
-        "name": "Darkspawn Hunter",
+        "name": "Kindred Hunter",
         "effect": "Increases Dark damage dealt by 10%",
         "relic": "-",
         "name(jp)": "闇の血族を狩る者",
         "id": "201110700",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "XI",
         "character": "Zeid",
-        "name": "Black Sword of the Galka",
+        "name": "Galkan Secrets",
         "effect": "40% chance of restoring HP to the user for 40% of the damage dealt with single-target Dark attacks",
         "relic": "-",
         "name(jp)": "ガルカに伝わりし黒き秘剣",
         "id": "201110701",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "XI",
         "character": "Zeid",
-        "name": "Shining Black Blade",
+        "name": "Blade of Darkness",
         "effect": "Grants Attach Dark at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Balin's Sword (XI)",
@@ -5932,32 +5993,35 @@
     {
         "realm": "XI",
         "character": "Lilisette",
-        "name": "Mixed Heritage",
+        "name": "Best of Both Worlds",
         "effect": "PHY attacks deal 10% more damage",
         "relic": "-",
         "name(jp)": "ハーフの少女",
         "id": "201110800",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "XI",
         "character": "Lilisette",
-        "name": "Dancing Princess",
+        "name": "Renowned Grace",
         "effect": "35% chance to cast an ability (WHT: group, restores HP (25)) after using a Dancer ability",
         "relic": "-",
         "name(jp)": "舞姫",
         "id": "201110801",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "XI",
         "character": "Lilisette",
-        "name": "Bouncing Dancer",
+        "name": "Brash Dancer",
         "effect": "25% chance to dualcast Celerity abilities",
         "master": "ATK +5, MND +5",
         "relic": "Cermet Knife (XI)",
         "name(jp)": "跳ねっ返りな踊り子",
         "id": "201110802",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -6498,7 +6562,7 @@
     {
         "realm": "XIII",
         "character": "Snow",
-        "name": "Leader of NORA",
+        "name": "NORA Architect",
         "effect": "Grants Attach Ice at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Solaris (XIII)",
@@ -6657,7 +6721,7 @@
     {
         "realm": "XIII",
         "character": "Fang",
-        "name": "Cheerful Friendship",
+        "name": "Cocky Comrade",
         "effect": "Grants Attach Wind at the beginning of the battle",
         "master": "ATK +10",
         "relic": "Adamant Bangle (XIII)",
@@ -6713,7 +6777,7 @@
     {
         "realm": "XIII",
         "character": "Serah",
-        "name": "Sisterly Willpower",
+        "name": "Sister's Strength",
         "effect": "Grants Attach Ice at the beginning of the battle",
         "master": "MAG +10",
         "relic": "Amazon Bow (XIII)",
@@ -7973,12 +8037,13 @@
     {
         "realm": "FFT",
         "character": "Orran",
-        "name": "Thunder God's Sun",
-        "effect": "WHT abilities restore ?% more HP",
+        "name": "Thunder God's Scion",
+        "effect": "WHT abilities restore 15% more HP",
         "relic": "-",
         "name(jp)": "雷神の片腕",
         "id": "201502800",
-        "gl": "✓"
+        "gl": "✓",
+        "✓": "✓"
     },
     {
         "realm": "FFT",

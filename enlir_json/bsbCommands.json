@@ -278,7 +278,7 @@
     },
     {
         "character": "Wol",
-        "source": "Reaver's Howl",
+        "source": "Howl of Hell",
         "name": "Reaver's Impact",
         "type": "PHY",
         "target": "Single enemy",
@@ -297,7 +297,7 @@
     },
     {
         "character": "Wol",
-        "source": "Reaver's Howl",
+        "source": "Howl of Hell",
         "name": "Heavy Break",
         "type": "PHY",
         "target": "Single enemy",
@@ -8014,6 +8014,7 @@
         "school": "Dancer",
         "name(jp)": "ガストスラッシュ",
         "id": "30513301",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -8033,6 +8034,7 @@
         "school": "Dancer",
         "name(jp)": "ディバインワルツ",
         "id": "30513302",
+        "gl": "✓",
         "✓": "✓"
     },
     {

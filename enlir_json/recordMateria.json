@@ -5801,21 +5801,23 @@
     {
         "realm": "XI",
         "character": "Lilisette",
-        "name": "Dancing Leader",
+        "name": "Master Dancer",
         "effect": "50% chance to restore 1 use for all Dancer abilities at the beginning of the battle",
         "unlockCriteria": "Use Lilisette's Memory Crystal",
         "name(jp)": "踊り子のリーダー格",
         "id": "111110080",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "XI",
         "character": "Lilisette",
-        "name": "Top Idol",
+        "name": "Idolized Beauty",
         "effect": "Restores 1 use for all Dancer abilities at the beginning of the battle",
         "unlockCriteria": "Use Lilisette's Memory Crystal II, chance to obtain with Lilisette in party",
         "name(jp)": "トップアイドル",
         "id": "111110081",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -5826,6 +5828,7 @@
         "unlockCriteria": "Bring Lilisette to level 99",
         "name(jp)": "月影の胡蝶",
         "id": "111110082",
+        "gl": "✓",
         "✓": "✓"
     },
     {

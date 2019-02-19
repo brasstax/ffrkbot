@@ -1,7 +1,7 @@
 [
     {
         "character": "Sarah",
-        "source": "Crystal's Radiance",
+        "source": "Crystal's Glean",
         "name": "Heal Melody",
         "brave": 0,
         "type": "WHT",
@@ -22,7 +22,7 @@
     },
     {
         "character": "Sarah",
-        "source": "Crystal's Radiance",
+        "source": "Crystal's Glean",
         "name": "Heal Melody",
         "brave": 1,
         "type": "WHT",
@@ -43,7 +43,7 @@
     },
     {
         "character": "Sarah",
-        "source": "Crystal's Radiance",
+        "source": "Crystal's Glean",
         "name": "Heal Melody",
         "brave": 2,
         "type": "WHT",
@@ -61,7 +61,7 @@
     },
     {
         "character": "Sarah",
-        "source": "Crystal's Radiance",
+        "source": "Crystal's Glean",
         "name": "Heal Melody",
         "brave": 3,
         "type": "WHT",
@@ -82,7 +82,7 @@
     },
     {
         "character": "Wol",
-        "source": "Shadowfang",
+        "source": "Sudden Smite",
         "name": "Shadowstrike",
         "brave": 0,
         "type": "PHY",
@@ -103,7 +103,7 @@
     },
     {
         "character": "Wol",
-        "source": "Shadowfang",
+        "source": "Sudden Smite",
         "name": "Shadowstrike",
         "brave": 1,
         "type": "PHY",
@@ -124,7 +124,7 @@
     },
     {
         "character": "Wol",
-        "source": "Shadowfang",
+        "source": "Sudden Smite",
         "name": "Shadowstrike",
         "brave": 2,
         "type": "PHY",
@@ -145,7 +145,7 @@
     },
     {
         "character": "Wol",
-        "source": "Shadowfang",
+        "source": "Sudden Smite",
         "name": "Shadowstrike",
         "brave": 3,
         "type": "PHY",
@@ -767,7 +767,7 @@
     },
     {
         "character": "Faris",
-        "source": "Courage, Essence of Flame",
+        "source": "Essence of Flame",
         "name": "Heat Wave",
         "brave": 0,
         "type": "PHY",
@@ -788,7 +788,7 @@
     },
     {
         "character": "Faris",
-        "source": "Courage, Essence of Flame",
+        "source": "Essence of Flame",
         "name": "Heat Wave",
         "brave": 1,
         "type": "PHY",
@@ -809,7 +809,7 @@
     },
     {
         "character": "Faris",
-        "source": "Courage, Essence of Flame",
+        "source": "Essence of Flame",
         "name": "Heat Wave",
         "brave": 2,
         "type": "PHY",
@@ -830,7 +830,7 @@
     },
     {
         "character": "Faris",
-        "source": "Courage, Essence of Flame",
+        "source": "Essence of Flame",
         "name": "Heat Wave",
         "brave": 3,
         "type": "PHY",

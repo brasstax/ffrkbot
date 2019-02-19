@@ -1310,7 +1310,7 @@
         "multiplier": 63.6,
         "element": "Holy, Dark, NE",
         "time": 2.5,
-        "effects": "Three group attacks (21,20 each), capped at 99999, multiplier increased by 0,0014 for every SB point (max is 22.25)",
+        "effects": "Three group attacks (21,20 each), capped at 99999, multiplier increased by 0,0014 for every SB point",
         "counter": "N",
         "autoTarget": "All enemies",
         "points": 750,
@@ -1595,6 +1595,57 @@
         "name(jp)": "レディアントバックラー",
         "id": "20330015",
         "✓": "✓"
+    },
+    {
+        "realm": "I",
+        "character": "Warrior of Light",
+        "name": "Oversoul",
+        "type": "?",
+        "target": "?",
+        "time": "?",
+        "effects": "? single attacks (? each), grants Attach Holy, Awaken Holy, Damage Cap 19999 to the user and grants Major Buff Holy to all allies",
+        "counter": "?",
+        "autoTarget": "?",
+        "points": 500,
+        "tier": "AASB",
+        "master": "ATK +10",
+        "relic": "?",
+        "name(jp)": "オーバーソウル",
+        "id": "20330016"
+    },
+    {
+        "realm": "I",
+        "character": "Warrior of Light",
+        "name": "Crystal Wave",
+        "type": "NAT",
+        "time": 2.5,
+        "effects": "Activates I Chain (max 150, field +50%), grants Haste, ATK and MAG +30% for 25 seconds",
+        "counter": "N",
+        "autoTarget": "All allies",
+        "points": 500,
+        "tier": "CSB",
+        "master": "ATK +10",
+        "relic": "Ultima Blade (I)",
+        "name(jp)": "クリスタルウェーブ",
+        "id": "20330017",
+        "✓": "✓"
+    },
+    {
+        "realm": "I",
+        "character": "Warrior of Light",
+        "name": "Remain Soul",
+        "type": "?",
+        "target": "?",
+        "time": 0.01,
+        "effects": "Grants Last Stand, grants Instant Cast 1 to the user",
+        "counter": "?",
+        "autoTarget": "?",
+        "points": 0,
+        "tier": "Glint+",
+        "master": "ATK +10",
+        "relic": "?",
+        "name(jp)": "リマインソウル",
+        "id": "20330018"
     },
     {
         "realm": "I",
@@ -1968,7 +2019,7 @@
     {
         "realm": "I",
         "character": "Sarah",
-        "name": "Crystal's Radiance",
+        "name": "Crystal's Glean",
         "type": "WHT",
         "target": "All allies",
         "formula": "Magical",
@@ -1989,7 +2040,7 @@
     {
         "realm": "I",
         "character": "Sarah",
-        "name": "Cornerian Compassion",
+        "name": "Love of Cornelia",
         "type": "NAT",
         "target": "All allies",
         "time": 0.01,
@@ -2003,6 +2054,40 @@
         "name(jp)": "コーネリアへの慈愛",
         "id": "22300008",
         "✓": "✓"
+    },
+    {
+        "realm": "I",
+        "character": "Sarah",
+        "name": "Aria of Reunion",
+        "type": "?",
+        "target": "All allies",
+        "time": 0.01,
+        "effects": "Restores HP (?), grants Regenga, grants Quick Cast ? to the user. Grants Minor Buff Holy/Dark if Warrior of Light/Garland is in the party, grants Medium Buff Holy and Medium Buff Dark if both are in the party",
+        "counter": "?",
+        "autoTarget": "?",
+        "points": 500,
+        "tier": "USB",
+        "master": "MND +10",
+        "relic": "?",
+        "name(jp)": "再会を願う歌",
+        "id": "22300009"
+    },
+    {
+        "realm": "I",
+        "character": "Sarah",
+        "name": "Rondo of Light",
+        "type": "?",
+        "target": "All allies",
+        "time": 0.01,
+        "effects": "Grants Magical Blink 1 and Haste to all allies",
+        "counter": "?",
+        "autoTarget": "?",
+        "points": 0,
+        "tier": "Glint+",
+        "master": "MND +10",
+        "relic": "?",
+        "name(jp)": "光のロンド",
+        "id": "22300010"
     },
     {
         "realm": "I",
@@ -2115,7 +2200,7 @@
     {
         "realm": "I",
         "character": "Wol",
-        "name": "Shadowfang",
+        "name": "Sudden Smite",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -2136,7 +2221,7 @@
     {
         "realm": "I",
         "character": "Wol",
-        "name": "Reaver's Howl",
+        "name": "Howl of Hell",
         "type": "NAT",
         "target": "All allies",
         "time": 2.5,
@@ -2146,7 +2231,7 @@
         "points": 500,
         "tier": "BSB",
         "master": "ATK +10",
-        "relic": "Rogue Gear (I)",
+        "relic": "Rogue Regalia (I)",
         "name(jp)": "ヘルハウリング",
         "id": "22280007",
         "✓": "✓"
@@ -2275,7 +2360,7 @@
     {
         "realm": "I",
         "character": "Echo",
-        "name": "Echo, Stage Left!",
+        "name": "Echo Showtime",
         "type": "NAT",
         "target": "All allies",
         "time": 2.5,
@@ -2285,7 +2370,7 @@
         "points": 500,
         "tier": "USB",
         "master": "MAG +10",
-        "relic": "Echo (I)",
+        "relic": "Fairy Echo (I)",
         "name(jp)": "エコー・ショータイム",
         "id": "22290007",
         "✓": "✓"
@@ -2380,7 +2465,7 @@
     {
         "realm": "I",
         "character": "Master",
-        "name": "Martial Pinnacle",
+        "name": "Pinnacle Puglist",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -2401,7 +2486,7 @@
     {
         "realm": "I",
         "character": "Master",
-        "name": "Absolute Focus",
+        "name": "Undivided Focus",
         "type": "NAT",
         "target": "Self",
         "time": 0.01,
@@ -2597,7 +2682,7 @@
         "points": 750,
         "tier": "AOSB",
         "master": "MAG +10",
-        "relic": "Sventovit (I)",
+        "relic": "Sventovid (I)",
         "name(jp)": "ファータ・フィオーレ",
         "id": "22750005",
         "✓": "✓"
@@ -2605,14 +2690,14 @@
     {
         "realm": "I",
         "character": "Meia",
-        "name": "Brutal Wave",
+        "name": "Surging Wave",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
         "multiplier": 17,
         "element": "Water, NE",
         "time": 2.5,
-        "effects": "Ten single attacks (1,70 each), grants Attach Water, Ressac Follow-Up and Brutal Wave 0 to the user",
+        "effects": "Ten single attacks (1,70 each), grants Attach Water, Ressac Follow-Up and Surging Wave 0 to the user",
         "counter": "N",
         "autoTarget": "Lowest HP% enemy",
         "points": 500,
@@ -2639,7 +2724,7 @@
         "points": 250,
         "tier": "Glint",
         "master": "MAG +10",
-        "relic": "High Tide (I)",
+        "relic": "High Tide Swell (I)",
         "name(jp)": "フィアット・ルクス",
         "id": "22750007",
         "✓": "✓"
@@ -5204,6 +5289,7 @@
         "character": "Desch",
         "name": "Lifelinks, Become Lightning",
         "type": "NAT",
+        "target": "All allies",
         "time": 2.5,
         "effects": "Activates Lightning Chain (max 150, field +50%), MAG +50% for 25 seconds",
         "counter": "N",
@@ -7196,7 +7282,7 @@
     {
         "realm": "IV",
         "character": "Yang",
-        "name": "Dance of Fists",
+        "name": "Fist Dance",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -7212,12 +7298,13 @@
         "relic": "Wolf Fang (IV)",
         "name(jp)": "拳の舞",
         "id": "22340006",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "IV",
         "character": "Yang",
-        "name": "Focus (IV)",
+        "name": "Concentrate",
         "type": "NAT",
         "target": "Self",
         "time": 0.01,
@@ -7227,9 +7314,10 @@
         "points": 250,
         "tier": "Glint",
         "master": "ATK +10",
-        "relic": "Yang's Gi (IV)",
+        "relic": "Yang's Dogi (IV)",
         "name(jp)": "精神統一【IV】",
         "id": "22340007",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -7609,7 +7697,7 @@
         "type": "NAT",
         "target": "All allies",
         "time": 2.5,
-        "effects": "Grants Magical Quick Cast 2, grants Attach Earth and Dire Meteor Mode to the user",
+        "effects": "Grants Magical Quick Cast 2, grants Attach Earth and Desperate Meteor Mode to the user",
         "counter": "N",
         "autoTarget": "All allies",
         "points": 500,
@@ -7618,6 +7706,7 @@
         "relic": "Professor's Robe (IV)",
         "name(jp)": "老賢者の覚悟",
         "id": "20640006",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -8200,6 +8289,7 @@
         "relic": "Sledgehammer (IV)",
         "name(jp)": "エックスチェイサー",
         "id": "22570005",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -8431,7 +8521,7 @@
     {
         "realm": "IV",
         "character": "Ursula",
-        "name": "Moonblossom Crush",
+        "name": "Moonflower Skyfall",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -8447,19 +8537,20 @@
         "relic": "Strong Gloves (IV)",
         "name(jp)": "花月天地",
         "id": "23030004",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "IV",
         "character": "Ursula",
-        "name": "Stonecrush Punch",
+        "name": "Crushing Fist",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
         "multiplier": 7.1,
         "element": "Earth, Fire",
         "time": 2.5,
-        "effects": "Ten single attacks (0,71 each), grants Attach Earth and Ladle Mode to the user",
+        "effects": "Ten single attacks (0,71 each), grants Attach Earth and Ladle of Love Mode to the user",
         "counter": "N",
         "autoTarget": "Lowest HP% enemy",
         "points": 500,
@@ -8468,24 +8559,26 @@
         "relic": "Crystal Gloves (IV)",
         "name(jp)": "砕岩ノ拳打",
         "id": "23030005",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "IV",
         "character": "Ursula",
-        "name": "Fighter's Prestige",
+        "name": "Assert Dominance",
         "type": "NAT",
         "target": "Self",
         "time": 0.01,
-        "effects": "Grants High Quick Cast 2 and Warrior Mode 1/2/3/3 if the user has Warrior Mode 0/1/2/3",
+        "effects": "Grants High Quick Cast 2 and Warlord Mode 1/2/3/3 if the user has Warlord Mode 0/1/2/3",
         "counter": "N",
         "autoTarget": "Self",
         "points": 250,
         "tier": "Glint",
         "master": "ATK +10",
-        "relic": "Chakra Headband (IV)",
+        "relic": "Chakra Band (IV)",
         "name(jp)": "威武剛豪",
         "id": "23030006",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -8741,7 +8834,7 @@
     {
         "realm": "V",
         "character": "Lenna",
-        "name": "Devotion, Essence of Water",
+        "name": "Essence of Water",
         "type": "WHT",
         "target": "All allies",
         "time": 0.01,
@@ -8759,7 +8852,7 @@
     {
         "realm": "V",
         "character": "Lenna",
-        "name": "Supreme Affection",
+        "name": "Greatest Love",
         "type": "WHT",
         "target": "All allies",
         "time": 0.01,
@@ -9139,7 +9232,7 @@
     {
         "realm": "V",
         "character": "Gogo (V)",
-        "name": "Sunken Tower Rhapsody",
+        "name": "Sunken Rhapsody",
         "type": "NAT",
         "target": "All allies",
         "time": 0.01,
@@ -9157,7 +9250,7 @@
     {
         "realm": "V",
         "character": "Gogo (V)",
-        "name": "Seabound Imitation",
+        "name": "Deep Imitation",
         "type": "NAT",
         "target": "Self",
         "time": 0.01,
@@ -9789,7 +9882,7 @@
     {
         "realm": "V",
         "character": "Bartz",
-        "name": "Passion, Essence of Wind",
+        "name": "Essence of Wind",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -10047,7 +10140,7 @@
     {
         "realm": "V",
         "character": "Faris",
-        "name": "Courage, Essence of Flame",
+        "name": "Essence of Flame",
         "type": "PHY",
         "target": "Random enemies",
         "formula": "Physical",
@@ -10060,7 +10153,7 @@
         "points": 500,
         "tier": "USB",
         "master": "ATK +10",
-        "relic": "Hunting Crossbow (V)",
+        "relic": "Hunting Bow (V)",
         "name(jp)": "炎の心「勇気」",
         "id": "20930011",
         "✓": "✓"
@@ -10068,7 +10161,7 @@
     {
         "realm": "V",
         "character": "Faris",
-        "name": "Captain's Trust",
+        "name": "Faithful Sea Dog",
         "type": "PHY",
         "target": "All enemies",
         "formula": "Physical",
@@ -10711,7 +10804,7 @@
     {
         "realm": "V",
         "character": "Krile",
-        "name": "Hope, Essence of Earth",
+        "name": "Gift of Hope",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
@@ -10732,7 +10825,7 @@
     {
         "realm": "V",
         "character": "Krile",
-        "name": "Sand Cloud",
+        "name": "Cloud of Dust",
         "type": "NAT",
         "target": "Self",
         "time": 0.01,
@@ -10960,7 +11053,7 @@
     {
         "realm": "V",
         "character": "Kelger",
-        "name": "Wolf's Howl",
+        "name": "Wolf Howl",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -11620,6 +11713,48 @@
     },
     {
         "realm": "VI",
+        "character": "Locke",
+        "name": "Somebody to Venture For",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 9,
+        "element": "Fire, NE",
+        "time": 2.5,
+        "effects": "Fifteen attacks (0,60 each), grants Attach Fire, Awaken Fire, Damage Cap 19999 and Flame Chaser Follow-Up to the user",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "points": 500,
+        "tier": "AASB",
+        "master": "ATK +10",
+        "relic": "Crystal Cross (VI)",
+        "name(jp)": "誰がための冒険",
+        "id": "20240017",
+        "✓": "✓"
+    },
+    {
+        "realm": "VI",
+        "character": "Locke",
+        "name": "Heat Slicer",
+        "type": "PHY",
+        "target": "Single enemy",
+        "formula": "Physical",
+        "multiplier": 3.12,
+        "element": "Fire, NE",
+        "time": 0.01,
+        "effects": "Six single attacks (0,52 each), causes Imperil Fire 20% for 15 seconds",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "points": 0,
+        "tier": "Glint+",
+        "master": "ATK +10",
+        "relic": "Adventurer's Knife (VI)",
+        "name(jp)": "ヒート・スライサ",
+        "id": "20240018",
+        "✓": "✓"
+    },
+    {
+        "realm": "VI",
         "character": "Celes",
         "name": "Magic Shield",
         "type": "NAT",
@@ -12017,6 +12152,24 @@
         "name(jp)": "闇のレクイエム",
         "id": "20900005",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "VI",
+        "character": "Mog",
+        "name": "Hopeful Reunion",
+        "type": "NAT",
+        "target": "All allies",
+        "time": 2.5,
+        "effects": "Activates VI Chain (max 150, field +50%), grants Haste, ATK and MAG +30% for 25 seconds",
+        "counter": "N",
+        "autoTarget": "All allies",
+        "points": 500,
+        "tier": "CSB",
+        "master": "MND +10",
+        "relic": "Rune Bell (VI)",
+        "name(jp)": "希望あふれし再会",
+        "id": "20900006",
         "✓": "✓"
     },
     {
@@ -13241,6 +13394,48 @@
         "name(jp)": "エルニーニョブレス",
         "id": "20720008",
         "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "VI",
+        "character": "Strago",
+        "name": "Tidal Master",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 22.5,
+        "element": "Water, NE",
+        "time": 2.5,
+        "effects": "Fifteen single attacks (1,50 each), grants Attach Water, Awaken Water, Damage Cap 19999 and Tidal Stream Follow-Up to the user",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "points": 500,
+        "tier": "AASB",
+        "master": "MAG +10",
+        "relic": "Sage's Robe (VI)",
+        "name(jp)": "タイダルマスタ",
+        "id": "20720009",
+        "✓": "✓"
+    },
+    {
+        "realm": "VI",
+        "character": "Strago",
+        "name": "Aqua Splash",
+        "type": "BLK",
+        "target": "Single enemy",
+        "formula": "Magical",
+        "multiplier": 62.9,
+        "element": "Water",
+        "time": 2.5,
+        "effects": "Twenty single attacks (1,82 each), followed by one single attack (26,50) capped at 99999",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
+        "points": 750,
+        "tier": "AOSB",
+        "master": "MAG +10",
+        "relic": "Dragon Rod (VI)",
+        "name(jp)": "アクアスプラッシュ",
+        "id": "20720010",
         "✓": "✓"
     },
     {
@@ -14779,7 +14974,7 @@
         "autoTarget": "All allies",
         "points": 500,
         "tier": "SB",
-        "relic": "Keepsake Ribbon (VII)",
+        "relic": "Aerith's Bow (VII)",
         "name(jp)": "星の守護",
         "id": "20120004",
         "gl": "✓",
@@ -16517,27 +16712,29 @@
         "realm": "VII",
         "character": "Reno",
         "name": "Overspec Rod",
-        "type": "?",
+        "type": "NAT",
         "target": "Single enemy",
         "formula": "Hybrid",
-        "multiplier": "?",
+        "multiplier": "-",
         "element": "Lightning",
-        "time": "?",
-        "effects": "Three single hybrid attacks (? each or ? each) capped at 99999",
-        "counter": "?",
-        "autoTarget": "?",
+        "time": 2.5,
+        "effects": "Three single hybrid attacks (8,00 each or 26,50 each) capped at 99999",
+        "counter": "N",
+        "autoTarget": "Lowest HP% enemy",
         "points": 500,
         "tier": "AOSB",
         "master": "ATK +5, MAG +5",
         "relic": "Gold Rod (VII)",
         "name(jp)": "オーバースペックロッド",
-        "id": "20920008"
+        "id": "20920008",
+        "✓": "✓"
     },
     {
         "realm": "VII",
         "character": "Reno",
         "name": "Chain of Thunder",
         "type": "NAT",
+        "target": "All allies",
         "time": 2.5,
         "effects": "Activates Lightning Chain (max 99, field +20%)",
         "counter": "N",
@@ -16766,7 +16963,7 @@
         "multiplier": 6.3,
         "element": "Lightning, NE",
         "time": 0.01,
-        "effects": "Ten single attacks (0,63 each), ATK and DEF -50% for 25 seconds, grants Physical Blink 1 to all allies, grants Technical Spark to the user",
+        "effects": "Ten single attacks (0,63 each), ATK and DEF -50% for 25 seconds, grants Physical Blink 1 to all allies, grants Technical Spark Follow-Up to the user",
         "counter": "N",
         "autoTarget": "Random enemies",
         "points": 500,
@@ -16782,6 +16979,7 @@
         "character": "Shelke",
         "name": "Technical Defense",
         "type": "NAT",
+        "target": "Self",
         "time": 0.01,
         "effects": "Grants 75% Damage Reduction Barrier 1 and Haste",
         "counter": "N",
@@ -17331,6 +17529,7 @@
         "relic": "Flame Heart (VIII)",
         "name(jp)": "リボルバーマキシマム",
         "id": "20350015",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -17352,6 +17551,7 @@
         "relic": "Twin Lance+ (VIII)",
         "name(jp)": "ダブルジャンクション",
         "id": "20350016",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -17370,6 +17570,7 @@
         "relic": "Tidal Heart (VIII)",
         "name(jp)": "フェイテッドオーラ",
         "id": "20350017",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -18266,6 +18467,7 @@
         "relic": "Wonder Wand (VIII)",
         "name(jp)": "過激なムードメーカー",
         "id": "20510009",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -19096,6 +19298,7 @@
         "relic": "Edea's Shooting Star (VIII)",
         "name(jp)": "グリーフジャッジメント",
         "id": "22200007",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -19117,6 +19320,7 @@
         "relic": "Black Robes (VIII)",
         "name(jp)": "アストラル・ワールド",
         "id": "22200008",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -19135,6 +19339,7 @@
         "relic": "Aura Staff (VIII)",
         "name(jp)": "継承された力",
         "id": "22200009",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -19631,9 +19836,10 @@
         "points": 500,
         "tier": "USB",
         "master": "MAG +10",
-        "relic": "Adel's Nightmare (VIII)",
+        "relic": "Phantasmal Garment I (VIII)",
         "name(jp)": "流転の剣斧",
         "id": "23230004",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -22870,7 +23076,7 @@
     {
         "realm": "X",
         "character": "Lulu",
-        "name": "Ice Beauty",
+        "name": "Icy Beauty",
         "type": "NAT",
         "target": "Self",
         "time": 0.01,
@@ -23074,6 +23280,7 @@
         "character": "Kimahri",
         "name": "Aqua Landing",
         "type": "NAT",
+        "target": "Self",
         "time": 0.01,
         "effects": "Grants Attach Water Stacking, Attach Water and No Air Time 3 to the user",
         "counter": "?",
@@ -24676,12 +24883,13 @@
         "relic": "Zanbato (XI)",
         "name(jp)": "葉隠皆伝・雪風",
         "id": "22480005",
+        "gl": "✓",
         "✓": "✓"
     },
     {
         "realm": "XI",
         "character": "Ayame",
-        "name": "Tachi Ageha",
+        "name": "Tachi: Ageha Cho",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -24697,6 +24905,7 @@
         "relic": "Myochin Kabuto (XI)",
         "name(jp)": "十一之太刀・鳳蝶",
         "id": "22480006",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -24715,6 +24924,7 @@
         "relic": "Daihannya (XI)",
         "name(jp)": "正正堂堂",
         "id": "22480007",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -24804,7 +25014,7 @@
     {
         "realm": "XI",
         "character": "Curilla",
-        "name": "Shield Defense Bonus",
+        "name": "Extreme Defense",
         "type": "NAT",
         "target": "All allies",
         "time": 2.5,
@@ -24817,6 +25027,7 @@
         "relic": "Bastard Sword (XI)",
         "name(jp)": "エクストリームガード",
         "id": "22470005",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -24900,6 +25111,7 @@
         "relic": "Coeurl Cesti (XI)",
         "name(jp)": "羅刹七星拳",
         "id": "22680004",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -24921,6 +25133,7 @@
         "relic": "Scorpion Harness (XI)",
         "name(jp)": "夢想阿修羅拳",
         "id": "22680005",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -25156,7 +25369,7 @@
     {
         "realm": "XI",
         "character": "Zeid",
-        "name": "Jet-Black Edge",
+        "name": "Darksheen Blade",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -25172,6 +25385,7 @@
         "relic": "Chaos Cuirass (XI)",
         "name(jp)": "漆黒に煌きし闇刃",
         "id": "22890004",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -25189,6 +25403,7 @@
         "relic": "-",
         "name(jp)": "ステップ",
         "id": "23350003",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -25207,6 +25422,7 @@
         "relic": "Darksteel Kukri (XI)",
         "name(jp)": "センシュアルダンス",
         "id": "23350001",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -25225,6 +25441,7 @@
         "relic": "Dancer's Tiara (XI)",
         "name(jp)": "ビビファインワルツ",
         "id": "23350002",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -27378,7 +27595,7 @@
         "realm": "XIII",
         "character": "Lightning",
         "name": "Lightning Rend",
-        "type": "?",
+        "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
         "multiplier": 3.12,
@@ -27659,7 +27876,7 @@
         "counter": "N",
         "autoTarget": "Lowest HP% enemy",
         "points": 750,
-        "tier": "ASB",
+        "tier": "AOSB",
         "master": "ATK +10",
         "relic": "Snow's Guise (XIII)",
         "name(jp)": "氷拳粉砕！",
@@ -27670,7 +27887,7 @@
         "realm": "XIII",
         "character": "Snow",
         "name": "Hero's Fist",
-        "type": "NAT",
+        "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
         "multiplier": 3.12,
@@ -28475,7 +28692,7 @@
     {
         "realm": "XIII",
         "character": "Fang",
-        "name": "Dragonstorm Spear",
+        "name": "Gran Pulse Stormspear",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -28496,7 +28713,7 @@
     {
         "realm": "XIII",
         "character": "Fang",
-        "name": "Ragnarok's Quickening",
+        "name": "Whim of Ragnarok",
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
@@ -28724,7 +28941,7 @@
     {
         "realm": "XIII",
         "character": "Serah",
-        "name": "Ultima Shot",
+        "name": "Artemis Volley",
         "type": "BLK",
         "target": "Single enemy",
         "formula": "Magical",
@@ -33344,6 +33561,7 @@
         "character": "Ace",
         "name": "We Have Arrived",
         "type": "NAT",
+        "target": "All allies",
         "time": 2.5,
         "effects": "Activates Type-0 Chain (max 150, field +50%), grants Haste, ATK and MAG +30% for 25 seconds",
         "counter": "N",
@@ -33774,7 +33992,7 @@
         "points": 500,
         "tier": "USB",
         "master": "MND +10",
-        "relic": "Butterfly Edge (Type-0)",
+        "relic": "Butterfly Edges (Type-0)",
         "name(jp)": "ライフコンバート",
         "id": "23080006",
         "gl": "✓",
@@ -33978,7 +34196,7 @@
         "target": "Self",
         "time": 0.01,
         "effects": "Grants Attach Lightning Stacking, Attach Lightning and Instant Cast 1 to the user",
-        "counter": "M",
+        "counter": "N",
         "autoTarget": "Self",
         "points": 0,
         "tier": "Glint+",
@@ -35813,7 +36031,7 @@
         "type": "NAT",
         "target": "All allies",
         "time": 2.5,
-        "effects": "Grants Shellga and HP Stock (2000)",
+        "effects": "Grants Shell and HP Stock (2000)",
         "counter": "N",
         "autoTarget": "All allies",
         "points": 500,
@@ -38279,6 +38497,7 @@
         "character": "Dr. Mog",
         "name": "Sphere of Light",
         "type": "NAT",
+        "target": "-",
         "time": 2.5,
         "effects": "Removes Zoma's Shield of Ice (reduces stats and negates elemental resistances)",
         "counter": "N",

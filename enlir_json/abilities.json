@@ -5851,10 +5851,10 @@
         "type": "PHY",
         "target": "Single enemy",
         "formula": "Physical",
-        "multiplier": 4.72,
+        "multiplier": 5.9,
         "element": "Wind, NE",
         "time": 1.5,
-        "effects": "Four single ranged jump attacks (1,18 each), air time (3,50 sec.), 1,29/1,41/1,53/1,65/1,77 multiplier if 1/2/3/4/5 allies in air",
+        "effects": "Five single ranged jump attacks (1,18 each), air time (3,50 sec.), 1,29/1,41/1,53/1,65/1,77 multiplier if 1/2/3/4/5 allies in air",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 100,
@@ -6437,7 +6437,7 @@
     },
     {
         "school": "Monk",
-        "name": "Fires Without",
+        "name": "Earthen Rebuke",
         "rarity": 5,
         "type": "PHY",
         "target": "Single enemy",
@@ -6454,9 +6454,10 @@
         "orb1Required": "Major Non-Elemental",
         "orb2Required": "Major Earth",
         "orb3Required": "Major Wind",
-        "introducingEvent": "Inherited Martial Arts",
+        "introducingEvent": "Blood of the Monk",
         "name(jp)": "外丹気砲",
         "id": "30191181",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -7624,9 +7625,10 @@
         "orb1Required": "Major Non-Elemental",
         "orb2Required": "Major Ice",
         "orb3Required": "Major Lightning",
-        "introducingEvent": "Come, Dancing Princess!",
+        "introducingEvent": "Queen of the Dance",
         "name(jp)": "居合・獄氷",
         "id": "30221161",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -7657,7 +7659,7 @@
     },
     {
         "school": "Samurai",
-        "name": "Warring Cold",
+        "name": "Frost-Touched Blade",
         "rarity": 6,
         "type": "PHY",
         "target": "Single enemy",
@@ -7675,9 +7677,10 @@
         "orb2Required": "Ice Crystal",
         "orb3Required": "Lightning Crystal",
         "orb4Required": "Ability Record",
-        "introducingEvent": "Incarnation of Hatred",
+        "introducingEvent": "Hatred Incarnate",
         "name(jp)": "抜刀ノ弐・冷閃",
         "id": "30221181",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -9011,7 +9014,7 @@
     },
     {
         "school": "Machinist",
-        "name": "Cold Offering",
+        "name": "Icy Offering",
         "rarity": 6,
         "type": "PHY",
         "target": "Single enemy",
@@ -9029,9 +9032,10 @@
         "orb2Required": "Ice Crystal",
         "orb3Required": "Lightning Crystal",
         "orb4Required": "Ability Record",
-        "introducingEvent": "Incarnation of Hatred",
+        "introducingEvent": "Hatred Incarnate",
         "name(jp)": "フロストオファ",
         "id": "30261151",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -9429,6 +9433,28 @@
         "✓": "✓"
     },
     {
+        "school": "Darkness",
+        "name": "Mark of Shadow",
+        "rarity": 6,
+        "type": "NAT",
+        "target": "Single enemy",
+        "formula": "Hybrid",
+        "multiplier": "-",
+        "element": "Dark",
+        "effects": "Three single hybrid attacks (?/? each), causes Imperil Dark 10% for 15 seconds every two uses",
+        "counter": "Y",
+        "autoTarget": "Lowest HP% enemy",
+        "sb": 90,
+        "uses": 2,
+        "max": 10,
+        "orb1Required": "Non-Elemental Crystal",
+        "orb2Required": "Fire Crystal",
+        "orb3Required": "Dark Crystal",
+        "orb4Required": "Ability Record",
+        "name(jp)": "常闇の烙印",
+        "id": "30271151"
+    },
+    {
         "school": "Sharpshooter",
         "name": "Sapphire Shot",
         "rarity": 5,
@@ -9605,6 +9631,23 @@
         "✓": "✓"
     },
     {
+        "school": "Sharpshooter",
+        "name": "Icicle Bullet",
+        "rarity": 6,
+        "target": "Single enemy",
+        "formula": "Physical",
+        "element": "Ice",
+        "effects": "Five single ranged attacks (? each), ? multiplier when equipping a ranged weapon",
+        "counter": "Y",
+        "sb": 90,
+        "orb1Required": "Ice Crystal",
+        "orb2Required": "Lightning Crystal",
+        "orb3Required": "Dark Crystal",
+        "orb4Required": "Ability Record",
+        "name(jp)": "アイシクルブリット",
+        "id": "30281111"
+    },
+    {
         "school": "Witch",
         "name": "Hell Thunder",
         "rarity": 5,
@@ -9732,7 +9775,7 @@
     },
     {
         "school": "Witch",
-        "name": "Scary Blizzard",
+        "name": "Chilling Blizzard",
         "rarity": 6,
         "type": "BLK",
         "target": "Single",
@@ -9750,9 +9793,10 @@
         "orb2Required": "Ice Crystal",
         "orb3Required": "Dark Crystal",
         "orb4Required": "Ability Record",
-        "introducingEvent": "Incarnation of Hatred",
+        "introducingEvent": "Hatred Incarnate",
         "name(jp)": "スケアリーブリザド",
         "id": "30301051",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -9777,6 +9821,7 @@
         "introducingEvent": "Solitary Lion",
         "name(jp)": "ファストサンダラ",
         "id": "30301061",
+        "gl": "✓",
         "✓": "✓"
     },
     {
@@ -9801,6 +9846,7 @@
         "introducingEvent": "Solitary Lion",
         "name(jp)": "ファストブリザラ",
         "id": "30301071",
+        "gl": "✓",
         "✓": "✓"
     },
     {

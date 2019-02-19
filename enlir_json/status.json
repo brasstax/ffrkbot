@@ -7885,8 +7885,8 @@
     },
     {
         "id": "50306",
-        "commonName": "Ladle Mode",
-        "effects": "Cast speed x2,00, casts Ladle Assault after dealing a critical hit",
+        "commonName": "Ladle of Love Mode",
+        "effects": "Cast speed x2,00, casts Ladle Lash after dealing a critical hit",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -7905,8 +7905,8 @@
     },
     {
         "id": "50311",
-        "commonName": "Dire Meteor Mode",
-        "effects": "Dualcasts Black Magic abilities, casts Legendary Black Magic when removed",
+        "commonName": "Desperate Meteor Mode",
+        "effects": "Dualcasts Black Magic abilities, casts Legendary Magic when removed",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -7965,41 +7965,41 @@
     },
     {
         "id": "50317",
-        "commonName": "Brutal Wave 0",
-        "effects": "Grants Brutal Wave 1 after using a Water attack, removed if the user hasn't Ressac Follow-Up",
+        "commonName": "Surging Wave 0",
+        "effects": "Grants Surging Wave 1 after using a Water attack, removed if the user hasn't Ressac Follow-Up",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Brutal Wave\" status",
+        "exclusiveStatus": "All other \"Surging Wave\" status",
         "codedName": "GROSSE_VAGUE_GRADE_0",
         "notes": "-"
     },
     {
         "id": "50318",
-        "commonName": "Brutal Wave 1",
-        "effects": "Cast speed x2,00, grants Brutal Wave 2 after using a Water attack, removed if the user hasn't Ressac Follow-Up",
+        "commonName": "Surging Wave 1",
+        "effects": "Cast speed x2,00, grants Surging Wave 2 after using a Water attack, removed if the user hasn't Ressac Follow-Up",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Brutal Wave\" status",
+        "exclusiveStatus": "All other \"Surging Wave\" status",
         "codedName": "GROSSE_VAGUE_GRADE_1",
         "notes": "-"
     },
     {
         "id": "50319",
-        "commonName": "Brutal Wave 2",
-        "effects": "Cast speed x2,50, grants Brutal Wave 3 after using a Water attack, removed if the user hasn't Ressac Follow-Up",
+        "commonName": "Surging Wave 2",
+        "effects": "Cast speed x2,50, grants Surging Wave 3 after using a Water attack, removed if the user hasn't Ressac Follow-Up",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Brutal Wave\" status",
+        "exclusiveStatus": "All other \"Surging Wave\" status",
         "codedName": "GROSSE_VAGUE_GRADE_2",
         "notes": "-"
     },
     {
         "id": "50320",
-        "commonName": "Brutal Wave 3",
-        "effects": "Cast speed x3,00, grants Brutal Wave 3 after using a Water attack, removed if the user hasn't Ressac Follow-Up",
+        "commonName": "Surging Wave 3",
+        "effects": "Cast speed x3,00, grants Surging Wave 3 after using a Water attack, removed if the user hasn't Ressac Follow-Up",
         "defaultDuration": 15,
         "mndModifier": "-",
-        "exclusiveStatus": "All other \"Brutal Wave\" status",
+        "exclusiveStatus": "All other \"Surging Wave\" status",
         "codedName": "GROSSE_VAGUE_GRADE_3",
         "notes": "-"
     },
@@ -8476,7 +8476,7 @@
     {
         "id": "50373",
         "commonName": "Awaken Thunder God",
-        "effects": "Knight or Darkness abilities don't consume uses and deal +5/10/15/20/30% damage at ability rank 1/2/3/4/5, dualcasts Knight or Darkness abilities",
+        "effects": "Knight or Darkness abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Knight or Darkness abilities",
         "defaultDuration": "15",
         "mndModifier": "-",
         "exclusiveStatus": "-",
@@ -9251,6 +9251,33 @@
         "mndModifier": "-",
         "exclusiveStatus": "-",
         "codedName": "DAMAGE_RATE_REDUCTION_BARRIER_FOR_ATTACK_WITH_MEDIUM_1",
+        "notes": "-"
+    },
+    {
+        "id": "50461",
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "USED_ABILITY_COUNTER_BRANDING_OF_CHASTITY",
+        "notes": "-"
+    },
+    {
+        "id": "50491",
+        "commonName": "Flame Chaser Follow-Up",
+        "effects": "Casts Flame Chaser after using three Fire attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_ADVENTURE_FOR_WHOM",
+        "notes": "-"
+    },
+    {
+        "id": "50492",
+        "commonName": "Tidal Stream Follow-Up",
+        "effects": "Casts Tidal Stream after using three Water attacks",
+        "defaultDuration": 15,
+        "mndModifier": "-",
+        "exclusiveStatus": "-",
+        "codedName": "CHASE_MODE_FOR_TIDAL_MASTER",
         "notes": "-"
     },
     {
