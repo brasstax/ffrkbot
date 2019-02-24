@@ -10659,7 +10659,7 @@
         "multiplier": 1.95,
         "element": "Holy, NE",
         "time": 1.65,
-        "effects": "Three single ranged attacks (0,65 each), grants Knight +15% Boost 3 to the user",
+        "effects": "Three single attacks (0,65 each), grants Knight +15% Boost 3 to the user",
         "counter": "Y",
         "autoTarget": "Lowest HP% enemy",
         "sb": 50,

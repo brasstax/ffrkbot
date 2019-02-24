@@ -7991,6 +7991,52 @@
         "✓": "✓"
     },
     {
+        "realm": "KH",
+        "character": "Roxas",
+        "name": "Self Oblivion",
+        "effect": "Increases Holy damage dealt by ?%",
+        "unlockCriteria": "Use Roxas's Memory Crystal",
+        "id": "111700040"
+    },
+    {
+        "realm": "KH",
+        "character": "Roxas",
+        "name": "Light's Shadow",
+        "effect": "Increases Holy damage dealt by ?%",
+        "unlockCriteria": "Use Riku's Memory Crystal II, chance to obtain with Roxas in party",
+        "id": "111700041"
+    },
+    {
+        "realm": "KH",
+        "character": "Roxas",
+        "effect": "Increases Holy damage dealt by ?%",
+        "unlockCriteria": "Bring Roxas to level 99",
+        "id": "111700042"
+    },
+    {
+        "realm": "KH",
+        "character": "Axel",
+        "name": "Elusive Motives",
+        "effect": "Increases Fire damage dealt by ?%",
+        "unlockCriteria": "Use Axel's Memory Crystal",
+        "id": "111700050"
+    },
+    {
+        "realm": "KH",
+        "character": "Axel",
+        "name": "Nobody's Friend",
+        "effect": "Increases Fire damage dealt by ?%",
+        "unlockCriteria": "Use Riku's Memory Crystal II, chance to obtain with Axel in party",
+        "id": "111700051"
+    },
+    {
+        "realm": "KH",
+        "character": "Axel",
+        "effect": "Increases Fire damage dealt by ?%",
+        "unlockCriteria": "Bring Axel to level 99",
+        "id": "111700052"
+    },
+    {
         "realm": "Beyond",
         "character": "Reynn",
         "name": "Ward of Heaven",

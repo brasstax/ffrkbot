@@ -8650,6 +8650,66 @@
         "✓": "✓"
     },
     {
+        "realm": "KH",
+        "character": "Roxas",
+        "name": "Number XIII",
+        "effect": "Increase Holy damage dealt by 10%",
+        "relic": "-",
+        "id": "201700400",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "KH",
+        "character": "Roxas",
+        "name": "Key of Destiny",
+        "effect": "35% chance to dualcast Knight abilities",
+        "relic": "-",
+        "id": "201700401",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "KH",
+        "character": "Roxas",
+        "name": "Mysterious Key",
+        "effect": "Grants Attach Holy at the beginning of the battle",
+        "master": "ATK +10",
+        "relic": "Ominous Blight (KH)",
+        "id": "201700402",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "KH",
+        "character": "Axel",
+        "name": "Number VIII",
+        "effect": "Increase Fire damage dealt by 10%",
+        "relic": "-",
+        "id": "201700500",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "KH",
+        "character": "Axel",
+        "name": "Flurry of Dancing Flames",
+        "effect": "35% chance to dualcast abilities that deal Fire damage",
+        "relic": "-",
+        "id": "201700501",
+        "gl": "✓",
+        "✓": "✓"
+    },
+    {
+        "realm": "KH",
+        "character": "Axel",
+        "name": "Organization's Finest",
+        "effect": "Grants Attach Fire at the beginning of the battle",
+        "master": "ATK +5, MAG +5",
+        "relic": "Blaze of Glory (KH)",
+        "id": "201700502"
+    },
+    {
         "realm": "Beyond",
         "character": "Reynn",
         "name": "Keen Observer",
