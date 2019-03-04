@@ -62,7 +62,7 @@ function searchSoulbreak(character, sbType='all') {
       if (sbType.toLowerCase() !== 'all') {
         let dataset = result.value;
         sbType = escapeStringRegexp(sbType);
-        let tierQueryString = util.format('[*tier~/^%s$/i]', sbType);
+        let tierQueryString = util.format('[*tier~/^%s/i]', sbType);
         console.log(`tierQueryString: ${tierQueryString}`);
         result = jsonQuery(tierQueryString, {
           data: dataset,
@@ -85,7 +85,7 @@ function searchSoulbreak(character, sbType='all') {
  **/
 function checkSoulbreakFilter(sbType) {
   let possibleSbTypes = ['all', 'default', 'sb', 'ssb',
-    'bsb', 'usb', 'osb', 'csb', 'fsb', 'uosb', 'aosb', 'aasb', 'glint'];
+    'bsb', 'usb', 'osb', 'csb', 'fsb', 'uosb', 'aosb', 'aasb', 'glint', 'glint+'];
   if (possibleSbTypes.indexOf(sbType.toLowerCase()) === -1) {
     return false;
   } else {
