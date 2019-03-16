@@ -1,3 +1,4 @@
+cd "$(dirname "$0")"
 until /usr/bin/node ffrkbot.js; do
   echo "FFRKBot crashed with an exit code $?. Respawning..." >&2
   sleep 1
