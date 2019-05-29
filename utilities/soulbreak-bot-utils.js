@@ -11,19 +11,22 @@ const botUtils = require(path.join(__dirname, 'common-bot-utils.js'));
 const enlirJsonPath = path.join(__dirname, '..', 'enlir_json');
 const enlirSoulbreaksPath = path.join(enlirJsonPath, 'soulbreaks.json');
 const enlirBsbCommandsPath = path.join(enlirJsonPath, 'bsbCommands.json');
+const enlirsasbCommandsPath = path.join(enlirJsonPath, 'sasbCommands.json');
 
 const enlirSoulbreaksFile = fs.readFileSync(enlirSoulbreaksPath);
 const enlirBsbCommandsFile = fs.readFileSync(enlirBsbCommandsPath);
+const enlirsasbCommandsFile = fs.readFileSync(enlirsasbCommandsPath);
 
 const enlirSoulbreaks = JSON.parse(enlirSoulbreaksFile);
 const enlirBsbCommands = JSON.parse(enlirBsbCommandsFile);
+const enlirsasbCommands = JSON.parse(enlirsasbCommandsFile);
 
 /** searchSoulbreak:
  * Searches and returns the soul breaks for a given character.
  * @param {string} character: the name of the character to search.
  * @param {string} sbType: The type of soul break to look up
  *  (one of: all, default, sb, bsb, usb, osb, csb, uosb,
-  * asb, glint). Defaults to 'all'.
+  * asb, glint, glint+ , sasb). Defaults to 'all'.
  * @return {object} Promise: a Promise with a result if resolved.
  **/
 function searchSoulbreak(character, sbType='all') {
@@ -85,7 +88,7 @@ function searchSoulbreak(character, sbType='all') {
  **/
 function checkSoulbreakFilter(sbType) {
   let possibleSbTypes = ['all', 'default', 'sb', 'ssb',
-    'bsb', 'usb', 'osb', 'csb', 'fsb', 'uosb', 'aosb', 'aasb', 'glint', 'glint+'];
+    'bsb', 'usb', 'osb', 'csb', 'fsb', 'uosb', 'aosb', 'aasb', 'glint', 'glint+', 'sasb'];
   if (possibleSbTypes.indexOf(sbType.toLowerCase()) === -1) {
     return false;
   } else {
@@ -99,7 +102,7 @@ function checkSoulbreakFilter(sbType) {
  *  @param {String} character: the name of the character to search.
  *  @param {String} sbType: the type of soul break to search.
  *    (one of: all, default, sb, bsb, usb, osb, asb, glint, CSB,
- * fsb. Defaults to 'all'.)
+ * fsb, sasb. Defaults to 'all'.)
  * @param {number} filterIndex: The index of the soulbreak to search for.
  * Savvy players can use this to refer to soulbreaks by number in approximate
  * release order, ie bsb1, asb1, glint2. Defaults to null so everything is
@@ -125,7 +128,7 @@ function lookupSoulbreak(msg, character, sbType, filterIndex=null) {
       msg.channel.send(
         'Soulbreak type not one of: ' +
           'All, Default, SB, SSB, BSB, USB, OSB,' +
-          ' CSB, FSB, UOSB, Glint, AOSB, AASB.')
+          ' CSB, FSB, UOSB, Glint, AOSB, AASB, glint+, sasb.')
         .then( (res) => {
           resolve(res);
         }).catch( (err) => {
@@ -374,6 +377,17 @@ function sendRichEmbedSoulbreak(soulbreak, msg, dm=false, sbType='all') {
     }).catch( (error) => {
       console.log(`Error processing RichEmbed BSB, error ${error}`);
     });
+  } else if (checksasb(soulbreak) === true) {
+    console.log(`${name} is a synchro soulbreak.`);
+    let sasbQueryResults = searchsasbCommands(name);
+    sasbQueryResults.then( (sasbCommands) => {
+      sasbCommands.value.forEach( (sasbCommand) => {
+          embed = processRichEmbedsasb(sasbCommand, embed);
+          embeds.push({embed});
+      });
+    }).catch( (error) => {
+      console.log(`Error processing RichEmbed SASB, error ${error}`);
+    });
   };
   return new Promise( (resolve, reject) => {
     try {
@@ -450,6 +464,76 @@ function searchBsbCommands(sb) {
   });
 };
 
+//These function are clone of bsb functions with slightly rework.
+/** processRichEmbedsasb:
+ * Adds SASB commands to an embed message.
+ * @param {object} sasbCommand: a JSON dict for a SASB command.
+ * @return {object} embed: a RichEmbed() message.
+ **/
+function processRichEmbedsasb(sasbCommand) {
+  let command = sasbCommand.name;
+  console.log(`Command ${command} found for processRichEmbedsasb.`);
+  let target = sasbCommand.target;
+  let source = sasbCommand.source;
+  let description = botUtils.returnDescription(sasbCommand);
+  let element = botUtils.returnElement(sasbCommand);
+  let castTime = sasbCommand.time;
+  let sbCharge = sasbCommand.sb;
+  let sbImage = botUtils.returnImageLink(sasbCommand, 'ability');
+  let type = sasbCommand.school;
+  let multiplier = botUtils.returnMultiplier(sasbCommand);
+  let synchroslot = sasbCommand.synchroAbilitySlot;
+  let synchrowith = sasbCommand.synchroCondition;
+  let embed = new RichEmbed()
+    .setTitle(util.format('**%s SASB Command: %s**', source, command))
+    .setDescription(description)
+    .setColor('#ea9f3c')
+    .setThumbnail(sbImage)
+    .addField('**Synchro with**', synchrowith, true)
+    .addField('**Ability Slot**', synchroslot, true)	
+    .addField('**Type**', type, true)
+    .addField('**Element**', element, true)
+    .addField('**Target**', target, true)
+    .addField('**Multiplier**', multiplier, true)
+    .addField('**Cast Time**', castTime, true)
+    .addField('**Soul Break Charge**', sbCharge, true);
+  if (command.includes('(S)')) {
+    embed.setColor('#4cff3f');
+  };
+  return embed;
+};
+/** checksasb:
+ * Checks to see if a given SB is a SASB.
+ * @param {Dict} sb: The soulbreak to check.
+ * @return {Boolean}: true if it's a SASB, false if not.
+ **/
+function checksasb(sb) {
+  console.log(`Checking if ${sb.name} is a SASB`);
+  let result = (sb.tier.toUpperCase() === 'SASB') ? (true) : (false);
+  return result;
+};
+
+/** searchsasbCommands:
+ * Searches Enlir's SASB database for SASB commands by name.
+ * @param {string} sb: The SB name to search.
+ * @return {object} Promise: results of search if resolved.
+ **/
+function searchsasbCommands(sb) {
+  let sasbQuery = util.format('[*source=%s]', sb);
+  return new Promise( (resolve, reject) => {
+    try {
+      let results = jsonQuery(sasbQuery, {
+        data: enlirsasbCommands,
+      });
+      console.log(`sasbQuery results: ${results.value.length}`);
+      resolve(results);
+    } catch (error) {
+      console.log(`sasbQuery failed, reason: ${error}`);
+      reject(error);
+    }
+  });
+};
+
 /** processSoulbreak:
  * Takes JSON about a soulbreak and outputs info in plaintext.
  * @param {object} soulbreak: a JSON dict returned from searchSoulbreak.
@@ -495,8 +579,30 @@ function processSoulbreak(soulbreak, msg, dm=false, character, sbType='all') {
     util.format('%s || %s\n', targetMsg, multiplierMsg) +
     castAndSbMsg
     );
-  // Append BSB commands if the command is a BSB
-  if (checkBsb(soulbreak) === true) {
+  // Append BSB commands if the command is a BSB or SASB commands if SASB
+  if (checksasb(soulbreak) === true) {
+    console.log(`${soulbreak.name} is a Synchro soulbreak.`);
+    message = message + 'SYNCHRO COMMANDS:\n';
+    if (sbType.toLowerCase() === 'all') {
+      message = message + '(Filter by SASB to see command details)\n';
+    };
+    let sasbQueryResults = searchsasbCommands(soulbreak.name);
+    sasbQueryResults.then( (sasbCommandResults) => {
+      sasbCommandResults.value.forEach( (sasbCommand) => {
+        message = processsasb(sasbCommand, message, sbType);
+        console.log(`message: ${message}`);
+      });
+      message = message + '```**';
+      if (dm === true) {
+        console.log(`msg.author: ${msg.author}`);
+        msg.author.send(message);
+      } else {
+        msg.channel.send(message);
+      };
+    }).catch( (reject) => {
+      console.log(`Error in sasbQueryResults: ${reject}`);
+    });
+  } else if (checkBsb(soulbreak) === true) {
     console.log(`${soulbreak.name} is a burst soulbreak.`);
     message = message + 'BURST COMMANDS:\n';
     if (sbType.toLowerCase() === 'all') {
@@ -530,9 +636,9 @@ function processSoulbreak(soulbreak, msg, dm=false, character, sbType='all') {
   };
 };
 
-/** processBsb:
- * Takes a BSB command and outputs a message block for it.
- * @param {object} bsbCommand: a JSON dict for a BSB command.
+/** processsasb:
+ * Takes a SASB command and outputs a message block for it.
+ * @param {object} sasbCommand: a JSON dict for a SASB command.
  * @param {string} message: Passed from processSoulbreak, the
  *  current version of the message with entry effects and
  *  SB attributes.
@@ -540,6 +646,50 @@ function processSoulbreak(soulbreak, msg, dm=false, character, sbType='all') {
  * @return {string} message: the complete message including
  *  the attributes for the soul break commands.
  **/
+function processsasb(sasbCommand, message=null, sbType='all') {
+  let command = sasbCommand.name;
+  console.log(`Command ${command} found.`);
+  let target = sasbCommand.target;
+  let description = botUtils.returnDescription(sasbCommand);
+  let element = botUtils.returnElement(sasbCommand);
+  let castTime = sasbCommand.time;
+  let sbCharge = sasbCommand.sb;
+  let type = sasbCommand.school;
+  let multiplier = botUtils.returnMultiplier(sasbCommand);
+  let synchroslot = sasbCommand.synchroAbilitySlot;
+  let synchrowith = sasbCommand.synchroCondition;
+  let pad = 21;
+  let targetMsg = botUtils.returnPropertyString(
+    target, 'Target', pad);
+  let typeMsg = botUtils.returnPropertyString(type, 'Type', pad);
+  let elementMsg = botUtils.returnPropertyString(element, 'Element');
+  let castMsg = botUtils.returnPropertyString(
+    castTime, 'Cast Time', pad);
+  let sbMsg = botUtils.returnPropertyString(
+    sbCharge, 'Soul Break Charge');
+  let multiplierMsg = botUtils.returnPropertyString(
+    multiplier, 'Multiplier');
+  let synchrowithMsg = botUtils.returnPropertyString(
+    synchrowith, 'Synchro with');
+  let synchroslotMsg = botUtils.returnPropertyString(
+    synchroslot, 'Ability Slot');
+  message = (
+    message +
+    util.format('*%s (%s)\n', command, description)
+    );
+  if (sbType.toUpperCase() === 'SASB') {
+    message = (
+      message +
+      util.format('-%s || %s\n', synchrowithMsg, synchroslotMsg) +
+      util.format('-%s || %s\n', typeMsg, elementMsg) +
+      util.format('-%s || %s\n', targetMsg, multiplierMsg) +
+      util.format('-%s || %s\n\n', castMsg, sbMsg)
+    );
+  };
+  console.log(`message: ${message}`);
+  return message;
+};
+
 function processBsb(bsbCommand, message=null, sbType='all') {
   let command = bsbCommand.name;
   console.log(`Command ${command} found.`);
