@@ -178,6 +178,12 @@ function getSheet(category, secondaryCategory) {
   else if (['5','5star','5-star','5 star'].includes(category.toLowerCase())){
     category = `GL 5* ${version} rankings`;
   }
+  else if (['6','6star','6-star','6 star'].includes(category.toLowerCase())){
+    category = `GL 6* ${version}`;
+  }
+  else if (['odin','darkodin','dark-odin','dark odin'].includes(category.toLowerCase())){
+    category = `Odin ${version}`;
+  }
   else if (['torment', 'tor', 'neotorment', 'neo'].includes(category.toLowerCase())){
     category = 'Torment';
   }
