@@ -28,7 +28,7 @@ module.exports = class ReplyCommand extends Command {
         {
           key: 'category',
           prompt: 'Enter the name of the category you want to look up.' +
-          ' (Can be "5star", "4star", "3star", or "Torment" ' +
+          ' (Can be "6star", "odin", "5star", "4star", "3star", or "Torment" ' +
           ' on the chart. The default is "4star")',
           type: 'string',
           default: '4star',
