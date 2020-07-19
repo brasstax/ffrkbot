@@ -12,6 +12,8 @@ gsjson 1f8OJIQhpycljDQ8QNDk_va1GJ1u7RVoMaNjFcHH0LKk -w "Brave" -b enlir_json/bra
 echo "brave done"
 gsjson 1f8OJIQhpycljDQ8QNDk_va1GJ1u7RVoMaNjFcHH0LKk -w "Burst" -b enlir_json/bsbCommands.json
 echo "bsb cmd done"
+gsjson 1f8OJIQhpycljDQ8QNDk_va1GJ1u7RVoMaNjFcHH0LKk -w "Synchro" -b enlir_json/sasbCommands.json
+echo "sasb cmd done"
 gsjson 1f8OJIQhpycljDQ8QNDk_va1GJ1u7RVoMaNjFcHH0LKk -w "Legend Materia" -b enlir_json/legendMateria.json
 echo "LM done"
 gsjson 1f8OJIQhpycljDQ8QNDk_va1GJ1u7RVoMaNjFcHH0LKk -w "Other" -b enlir_json/other.json

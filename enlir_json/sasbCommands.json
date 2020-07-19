@@ -1,0 +1,40 @@
+[
+    {
+        "character": "Tifa",
+        "source": "Zangan Endless",
+        "name": "Neo Falcon Dive",
+        "synchroAbilitySlot": "1",
+        "synchroCondition": "Earth",
+        "type": "?",
+        "target": "Single Enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Earth, NE",
+        "time": "?",
+        "effects": "Six single attacks (? each), ?%/?%/?%/?% additional critical chance at 1/2/3/4 uses",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?",
+        "name(jp)": "ネオ・ファルコンダイブ"
+    },
+    {
+        "character": "Tifa",
+        "source": "Zangan Endless",
+        "name": "Elbow Clash",
+        "synchroAbilitySlot": "2",
+        "synchroCondition": "Monk",
+        "type": "?",
+        "target": "Single Enemy",
+        "formula": "Physical",
+        "multiplier": "?",
+        "element": "Earth, NE",
+        "time": "?",
+        "effects": "Three single attacks (? each), grants Monk +?% Boost 3 to the user",
+        "counter": "?",
+        "autoTarget": "?",
+        "sb": "?",
+        "school": "?",
+        "name(jp)": "エルボークラッシュ"
+    }
+]
