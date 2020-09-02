@@ -15,7 +15,7 @@
     "eslint-plugin-node": "^5.2.1",
     "google-spreadsheet-to-json": "^1.0.0",
     "google-spreadsheets": "^1.0.0",
-    "googleapis": "^27.0.0",
+    "googleapis": "^39.1.0",
     "hoek": "^5.0.3",
     "jest": "^20.0.4",
     "json-query": "^2.2.2",
